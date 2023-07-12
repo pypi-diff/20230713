@@ -1576,3 +1576,39 @@
 [2023-07-13 01:17:04] INFO root fetch - processPackages [DeepCell-CPU]: Remove: archive file [/home/abi/fetcher/tmp/DeepCell-CPU-0.9.2.tar.gz]
 [2023-07-13 01:17:04] INFO root fetch - main [MainThread]: End processing [DeepCell-CPU]: success
 [2023-07-13 01:17:04] INFO root fetch - main [MainThread]: Store serial: [18867031]
+[2023-07-13 01:22:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18867031]
+[2023-07-13 01:22:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-13 01:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: janis-pipelines
+[2023-07-13 01:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modelbit
+[2023-07-13 01:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docdantic
+[2023-07-13 01:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Files.com
+[2023-07-13 01:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyGitInfo
+[2023-07-13 01:22:12] WARNING root fetch - processPackages [pyGitInfo]: Skipping, unable to determine old version
+[2023-07-13 01:22:12] INFO root fetch - main [MainThread]: End processing [pyGitInfo] error
+[2023-07-13 01:22:12] WARNING root fetch - processPackages [docdantic]: Skipping, unable to determine old version
+[2023-07-13 01:22:12] INFO root fetch - main [MainThread]: End processing [docdantic] error
+[2023-07-13 01:22:12] INFO root fetch - processPackages [janis-pipelines]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-13 01:22:12] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-13 01:22:13] INFO root fetch - processPackages [Files.com]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-13 01:22:13] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/c9/f0/ed4cc6d7e8a055435d41e58b6ff37b6189ac3cb52e6383b72c12aa4e605f/modelbit-0.9.6.tar.gz
+[2023-07-13 01:22:13] INFO root fetch - processPackages [janis-pipelines]: Downloading https://files.pythonhosted.org/packages/52/04/626fb6f37ac578acf71dbb509b9b678acf2b78cc65ef57ab4a360397ea35/janis%20pipelines-0.9.6.tar.gz
+[2023-07-13 01:22:13] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/94/53/fbdfda733dea9c814dc2617b3c6ff721e4e11d756b49b2d6dc317f00d5c3/Files.com-1.0.98.tar.gz
+[2023-07-13 01:22:13] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/55/0f/8d19e66368fbaa57d08deb9b9d12c445c2e2451e77490d39dfff1e70698a/modelbit-0.9.7.tar.gz
+[2023-07-13 01:22:13] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2023-07-13 01:22:13] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20230713/m/modelbit/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-13 01:22:13] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/3b/2c/ec980b43b6c82499f9f9442e06cf2b0e489d114398d6098f2a9049a19767/Files.com-1.0.99.tar.gz
+[2023-07-13 01:22:13] INFO root fetch - processPackages [janis-pipelines]: Downloading https://files.pythonhosted.org/packages/04/e5/b267e5536b658ace18804c92a108a6f08df716b1a4f1bd4a49d4b1bec9db/janis%20pipelines-0.9.7.tar.gz
+[2023-07-13 01:22:13] INFO root fetch - processPackages [Files.com]: executing diffoscope
+[2023-07-13 01:22:13] INFO root fetch - processPackages [Files.com]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Files.com-1.0.98.tar.gz tmp/Files.com-1.0.99.tar.gz --markdown 20230713/F/Files.com/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-13 01:22:13] INFO root fetch - processPackages [janis-pipelines]: executing diffoscope
+[2023-07-13 01:22:13] INFO root fetch - processPackages [janis-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janis pipelines-0.9.6.tar.gz tmp/janis pipelines-0.9.7.tar.gz --markdown 20230713/j/janis-pipelines/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-13 01:22:14] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.6.tar.gz]
+[2023-07-13 01:22:14] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.7.tar.gz]
+[2023-07-13 01:22:14] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2023-07-13 01:22:14] INFO root fetch - processPackages [janis-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/janis pipelines-0.9.6.tar.gz]
+[2023-07-13 01:22:14] INFO root fetch - processPackages [janis-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/janis pipelines-0.9.7.tar.gz]
+[2023-07-13 01:22:14] INFO root fetch - main [MainThread]: End processing [janis-pipelines]: success
+[2023-07-13 01:22:14] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.0.98.tar.gz]
+[2023-07-13 01:22:14] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.0.99.tar.gz]
+[2023-07-13 01:22:14] INFO root fetch - main [MainThread]: End processing [Files.com]: success
+[2023-07-13 01:22:14] INFO root fetch - main [MainThread]: Store serial: [18867050]
