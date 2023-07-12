@@ -403,3 +403,111 @@
 [2023-07-13 00:16:45] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.3.0rc1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-13 00:16:45] INFO root fetch - main [MainThread]: End processing [quil]: success
 [2023-07-13 00:16:45] INFO root fetch - main [MainThread]: Store serial: [18866578]
+[2023-07-13 00:21:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18866578]
+[2023-07-13 00:21:58] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-13 00:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: custatevec-cu12
+[2023-07-13 00:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: delia
+[2023-07-13 00:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fleks
+[2023-07-13 00:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vollseg
+[2023-07-13 00:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypomes-db
+[2023-07-13 00:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: histomicstk
+[2023-07-13 00:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kirkwoodnight
+[2023-07-13 00:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cutensornet-cu11
+[2023-07-13 00:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cutensornet-cu12
+[2023-07-13 00:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zylo
+[2023-07-13 00:21:58] INFO root fetch - processPackages [cutensornet-cu12]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-13 00:21:58] INFO root fetch - processPackages [fleks]: New version: [2023.7.12.22.17] Old Version: [2023.7.12.20.43]
+[2023-07-13 00:21:58] INFO root fetch - processPackages [custatevec-cu12]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-13 00:21:58] INFO root fetch - processPackages [cutensornet-cu11]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-13 00:21:58] INFO root fetch - processPackages [zylo]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-13 00:21:58] INFO root fetch - processPackages [kirkwoodnight]: New version: [0.7] Old Version: [0.6]
+[2023-07-13 00:21:58] INFO root fetch - processPackages [delia]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-13 00:21:58] INFO root fetch - processPackages [pypomes-db]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-13 00:21:58] INFO root fetch - processPackages [histomicstk]: New version: [1.2.8.dev8] Old Version: [1.2.8.dev5]
+[2023-07-13 00:21:58] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-07-13 00:21:58] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/0a/a7/7238acf01d1803d95f664b8199c10dcf32acde67517660b7047db11a1ab2/zylo-1.0.3.tar.gz
+[2023-07-13 00:21:58] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-07-13 00:21:59] INFO root fetch - processPackages [histomicstk]: Downloading https://files.pythonhosted.org/packages/a1/2f/fc782fc92d9a94157eee2c0d4cbd9d8805d6301bc1b31b2373788e4df27a/histomicstk-1.2.8.dev5.tar.gz
+[2023-07-13 00:21:59] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/c4/f9/3bfea41ad61804a5b127df16049aba663e2677510ff1e74c0ac3105e1549/pypomes_db-0.1.6.tar.gz
+[2023-07-13 00:21:59] INFO root fetch - processPackages [fleks]: Downloading https://files.pythonhosted.org/packages/f4/02/09dcbf8a897e1aae3f29425837a9543ac9a1dd7ac3fbcae4c2248e7f5053/fleks-2023.7.12.20.43.tar.gz
+[2023-07-13 00:21:59] INFO root fetch - processPackages [custatevec-cu12]: Downloading https://files.pythonhosted.org/packages/06/05/fc7441f737ba025927f256c9505719acb015c6263db1821164ee7b0ebf31/custatevec_cu12-1.3.0-py3-none-manylinux2014_x86_64.whl
+[2023-07-13 00:21:59] INFO root fetch - processPackages [cutensornet-cu12]: Downloading https://files.pythonhosted.org/packages/a1/0c/95e9f33f68432d549ba5900a6d20ad9654809d3980a848c6b86c7d58ebee/cutensornet_cu12-2.1.0-py3-none-manylinux2014_x86_64.whl
+[2023-07-13 00:21:59] INFO root fetch - processPackages [delia]: Downloading https://files.pythonhosted.org/packages/b4/25/52936e2be3c470e6b93bd8aecc21fac98ae8dc4963ddcbf31238dda05a42/delia-1.2.2.tar.gz
+[2023-07-13 00:21:59] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-07-13 00:21:59] INFO root fetch - processPackages [vollseg]: Start processing: jarvis-assistant-bot
+[2023-07-13 00:21:59] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-07-13 00:21:59] WARNING root fetch - processPackages [histomicstk]: Skipping package: exceeds size limit 26139240>=10485760
+[2023-07-13 00:21:59] INFO root fetch - processPackages [histomicstk]: Start processing: scope-py
+[2023-07-13 00:21:59] INFO root fetch - main [MainThread]: End processing [histomicstk] error
+[2023-07-13 00:21:59] INFO root fetch - processPackages [cutensornet-cu11]: Downloading https://files.pythonhosted.org/packages/55/9b/a5f28aa057c2f19cddd9b65f40a9c47f61c5f5367ab21179ee08dc1d5024/cutensornet_cu11-2.1.0-py3-none-manylinux2014_x86_64.whl
+[2023-07-13 00:21:59] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/40/97/7ed4d0670f190fb50c79c63d55ec7aef6ce55bd419c89145afca7bd3e1fc/kirkwoodnight-0.6.tar.gz
+[2023-07-13 00:21:59] WARNING root fetch - processPackages [custatevec-cu12]: Skipping package: exceeds size limit 16923765>=10485760
+[2023-07-13 00:21:59] INFO root fetch - processPackages [custatevec-cu12]: Start processing: cuquantum-cu11
+[2023-07-13 00:21:59] INFO root fetch - main [MainThread]: End processing [custatevec-cu12] error
+[2023-07-13 00:21:59] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/ec/08/9ba3e7b5c08279b596d19bf29f2b5d44c1caf78be7e72b097e23918a0d7c/zylo-1.0.4.tar.gz
+[2023-07-13 00:21:59] INFO root fetch - processPackages [jarvis-assistant-bot]: New version: [1.3] Old Version: [1.2]
+[2023-07-13 00:21:59] INFO root fetch - processPackages [scope-py]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-13 00:21:59] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/ac/20/cfad774286782dc5cc6b049a72c92f808c476d8c87ebfae5ed22a4179db2/pypomes_db-0.1.7.tar.gz
+[2023-07-13 00:21:59] INFO root fetch - processPackages [zylo]: executing diffoscope
+[2023-07-13 00:21:59] INFO root fetch - processPackages [zylo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zylo-1.0.3.tar.gz tmp/zylo-1.0.4.tar.gz --markdown 20230713/z/zylo/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-13 00:21:59] INFO root fetch - processPackages [cuquantum-cu11]: New version: [23.6.0] Old Version: [23.3.0]
+[2023-07-13 00:21:59] INFO root fetch - processPackages [fleks]: Downloading https://files.pythonhosted.org/packages/ee/04/4bd866da9845f48b9fe7eaa87bad342e33c70d458c295a4c18481bcbe76a/fleks-2023.7.12.22.17.tar.gz
+[2023-07-13 00:21:59] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/ed/59/209d6ddf3ac72175ff359f3289ea9261878b0a08fe51d7f46b3dca1a5ab0/kirkwoodnight-0.7.tar.gz
+[2023-07-13 00:21:59] INFO root fetch - processPackages [jarvis-assistant-bot]: Downloading https://files.pythonhosted.org/packages/28/0e/d9366548c793b5bac3390f3f44ade32127468f850582c87223a89f9fc8e0/jarvis_assistant_bot-1.2.tar.gz
+[2023-07-13 00:21:59] INFO root fetch - processPackages [delia]: Downloading https://files.pythonhosted.org/packages/06/1b/c3973c1a7d54b2a90b48efb65bcaa75303c12261cec9c8cf25eebd91e890/delia-1.2.3.tar.gz
+[2023-07-13 00:21:59] INFO root fetch - processPackages [scope-py]: Downloading https://files.pythonhosted.org/packages/90/73/ebbeea820ee0242ea30d57839ca66c9fcc23758f2c6f28788353c3725aaf/scope_py-0.1.0.tar.gz
+[2023-07-13 00:21:59] INFO root fetch - processPackages [fleks]: executing diffoscope
+[2023-07-13 00:21:59] INFO root fetch - processPackages [fleks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fleks-2023.7.12.20.43.tar.gz tmp/fleks-2023.7.12.22.17.tar.gz --markdown 20230713/f/fleks/2023.7.12.20.43-2023.7.12.22.17/diff.md --exclude *.pyd
+[2023-07-13 00:21:59] INFO root fetch - processPackages [pypomes-db]: executing diffoscope
+[2023-07-13 00:21:59] INFO root fetch - processPackages [pypomes-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_db-0.1.6.tar.gz tmp/pypomes_db-0.1.7.tar.gz --markdown 20230713/p/pypomes-db/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-13 00:21:59] INFO root fetch - processPackages [cuquantum-cu11]: Downloading https://files.pythonhosted.org/packages/9b/f3/9dfe163ed08ae6dbb258da2c347483a0e6b205a870cdfca4fe53a63af414/cuquantum_cu11-23.3.0-py3-none-manylinux2014_x86_64.whl
+[2023-07-13 00:21:59] INFO root fetch - processPackages [cutensornet-cu12]: Downloading https://files.pythonhosted.org/packages/16/48/fbe73b36424d6f19b18b031a9782a21260c040d76248640843a50fa35031/cutensornet_cu12-2.2.0-py3-none-manylinux2014_x86_64.whl
+[2023-07-13 00:21:59] INFO root fetch - processPackages [kirkwoodnight]: executing diffoscope
+[2023-07-13 00:21:59] INFO root fetch - processPackages [kirkwoodnight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirkwoodnight-0.6.tar.gz tmp/kirkwoodnight-0.7.tar.gz --markdown 20230713/k/kirkwoodnight/0.6-0.7/diff.md --exclude *.pyd
+[2023-07-13 00:21:59] INFO root fetch - processPackages [cutensornet-cu11]: Downloading https://files.pythonhosted.org/packages/36/b4/de4e0b85ff64e402eb90d0306c91d1fcaa2b7b7345bdac609a96ebdb869c/cutensornet_cu11-2.2.0-py3-none-manylinux2014_x86_64.whl
+[2023-07-13 00:21:59] INFO root fetch - processPackages [delia]: executing diffoscope
+[2023-07-13 00:21:59] INFO root fetch - processPackages [delia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delia-1.2.2.tar.gz tmp/delia-1.2.3.tar.gz --markdown 20230713/d/delia/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-13 00:22:00] INFO root fetch - processPackages [cutensornet-cu12]: executing diffoscope
+[2023-07-13 00:22:00] INFO root fetch - processPackages [cutensornet-cu12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cutensornet_cu12-2.1.0-py3-none-manylinux2014_x86_64.whl.zip tmp/cutensornet_cu12-2.2.0-py3-none-manylinux2014_x86_64.whl.zip --markdown 20230713/c/cutensornet-cu12/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-13 00:22:00] INFO root fetch - processPackages [cutensornet-cu11]: executing diffoscope
+[2023-07-13 00:22:00] INFO root fetch - processPackages [cutensornet-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cutensornet_cu11-2.1.0-py3-none-manylinux2014_x86_64.whl.zip tmp/cutensornet_cu11-2.2.0-py3-none-manylinux2014_x86_64.whl.zip --markdown 20230713/c/cutensornet-cu11/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-13 00:22:00] INFO root fetch - processPackages [jarvis-assistant-bot]: Downloading https://files.pythonhosted.org/packages/82/eb/409fbaa00b920842da39fd933d2cc2de7eac5e585a25f699c95da36defb9/jarvis_assistant_bot-1.3.tar.gz
+[2023-07-13 00:22:00] INFO root fetch - processPackages [scope-py]: Downloading https://files.pythonhosted.org/packages/07/d8/5d29a75f1442939dd03f7d3dee6b644f10e8e4e1ff791c73db50a0d0c3c7/scope_py-0.1.1.tar.gz
+[2023-07-13 00:22:00] INFO root fetch - processPackages [cuquantum-cu11]: Downloading https://files.pythonhosted.org/packages/6c/10/ad2e281d88409a544452958f39f6d9429ce4c42679295ee13565f0a1d39e/cuquantum_cu11-23.6.0-py3-none-manylinux2014_x86_64.whl
+[2023-07-13 00:22:00] INFO root fetch - processPackages [scope-py]: executing diffoscope
+[2023-07-13 00:22:00] INFO root fetch - processPackages [scope-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scope_py-0.1.0.tar.gz tmp/scope_py-0.1.1.tar.gz --markdown 20230713/s/scope-py/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-13 00:22:00] INFO root fetch - processPackages [cuquantum-cu11]: executing diffoscope
+[2023-07-13 00:22:00] INFO root fetch - processPackages [cuquantum-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuquantum_cu11-23.3.0-py3-none-manylinux2014_x86_64.whl.zip tmp/cuquantum_cu11-23.6.0-py3-none-manylinux2014_x86_64.whl.zip --markdown 20230713/c/cuquantum-cu11/23.3.0-23.6.0/diff.md --exclude *.pyd
+[2023-07-13 00:22:00] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-1.0.3.tar.gz]
+[2023-07-13 00:22:00] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-1.0.4.tar.gz]
+[2023-07-13 00:22:00] INFO root fetch - main [MainThread]: End processing [zylo]: success
+[2023-07-13 00:22:00] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.1.6.tar.gz]
+[2023-07-13 00:22:00] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.1.7.tar.gz]
+[2023-07-13 00:22:00] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
+[2023-07-13 00:22:00] INFO root fetch - processPackages [jarvis-assistant-bot]: executing diffoscope
+[2023-07-13 00:22:00] INFO root fetch - processPackages [jarvis-assistant-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarvis_assistant_bot-1.2.tar.gz tmp/jarvis_assistant_bot-1.3.tar.gz --markdown 20230713/j/jarvis-assistant-bot/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-13 00:22:01] INFO root fetch - processPackages [fleks]: Remove: archive file [/home/abi/fetcher/tmp/fleks-2023.7.12.20.43.tar.gz]
+[2023-07-13 00:22:01] INFO root fetch - processPackages [fleks]: Remove: archive file [/home/abi/fetcher/tmp/fleks-2023.7.12.22.17.tar.gz]
+[2023-07-13 00:22:01] INFO root fetch - main [MainThread]: End processing [fleks]: success
+[2023-07-13 00:22:01] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.6.tar.gz]
+[2023-07-13 00:22:01] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.7.tar.gz]
+[2023-07-13 00:22:01] INFO root fetch - main [MainThread]: End processing [kirkwoodnight]: success
+[2023-07-13 00:22:01] INFO root fetch - processPackages [delia]: Remove: archive file [/home/abi/fetcher/tmp/delia-1.2.2.tar.gz]
+[2023-07-13 00:22:01] INFO root fetch - processPackages [delia]: Remove: archive file [/home/abi/fetcher/tmp/delia-1.2.3.tar.gz]
+[2023-07-13 00:22:01] INFO root fetch - main [MainThread]: End processing [delia]: success
+[2023-07-13 00:22:01] INFO root fetch - processPackages [cuquantum-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cuquantum_cu11-23.3.0-py3-none-manylinux2014_x86_64.whl.zip]
+[2023-07-13 00:22:01] INFO root fetch - processPackages [cuquantum-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cuquantum_cu11-23.6.0-py3-none-manylinux2014_x86_64.whl.zip]
+[2023-07-13 00:22:01] INFO root fetch - main [MainThread]: End processing [cuquantum-cu11]: success
+[2023-07-13 00:22:01] INFO root fetch - processPackages [scope-py]: Remove: archive file [/home/abi/fetcher/tmp/scope_py-0.1.0.tar.gz]
+[2023-07-13 00:22:01] INFO root fetch - processPackages [scope-py]: Remove: archive file [/home/abi/fetcher/tmp/scope_py-0.1.1.tar.gz]
+[2023-07-13 00:22:01] INFO root fetch - main [MainThread]: End processing [scope-py]: success
+[2023-07-13 00:22:02] INFO root fetch - processPackages [jarvis-assistant-bot]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_assistant_bot-1.2.tar.gz]
+[2023-07-13 00:22:02] INFO root fetch - processPackages [jarvis-assistant-bot]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_assistant_bot-1.3.tar.gz]
+[2023-07-13 00:22:02] INFO root fetch - main [MainThread]: End processing [jarvis-assistant-bot]: success
+[2023-07-13 00:22:18] INFO root fetch - processPackages [cutensornet-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cutensornet_cu11-2.1.0-py3-none-manylinux2014_x86_64.whl.zip]
+[2023-07-13 00:22:18] INFO root fetch - processPackages [cutensornet-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cutensornet_cu11-2.2.0-py3-none-manylinux2014_x86_64.whl.zip]
+[2023-07-13 00:22:18] INFO root fetch - main [MainThread]: End processing [cutensornet-cu11]: success
+[2023-07-13 00:22:19] INFO root fetch - processPackages [cutensornet-cu12]: Remove: archive file [/home/abi/fetcher/tmp/cutensornet_cu12-2.1.0-py3-none-manylinux2014_x86_64.whl.zip]
+[2023-07-13 00:22:19] INFO root fetch - processPackages [cutensornet-cu12]: Remove: archive file [/home/abi/fetcher/tmp/cutensornet_cu12-2.2.0-py3-none-manylinux2014_x86_64.whl.zip]
+[2023-07-13 00:22:19] INFO root fetch - main [MainThread]: End processing [cutensornet-cu12]: success
+[2023-07-13 00:22:19] INFO root fetch - main [MainThread]: Store serial: [18866623]
