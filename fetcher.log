@@ -875,3 +875,152 @@
 [2023-07-13 00:39:38] INFO root fetch - processPackages [cuquantum-python-cu12]: Remove: archive file [/home/abi/fetcher/tmp/cuquantum_python_cu12-23.6.0-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-13 00:39:38] INFO root fetch - main [MainThread]: End processing [cuquantum-python-cu12]: success
 [2023-07-13 00:39:38] INFO root fetch - main [MainThread]: Store serial: [18866772]
+[2023-07-13 00:44:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18866772]
+[2023-07-13 00:44:54] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-13 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-semantic-interfaces
+[2023-07-13 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leadguru-common
+[2023-07-13 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dank-mids
+[2023-07-13 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hypermea
+[2023-07-13 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fixedpointmath
+[2023-07-13 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imjoy-rpc
+[2023-07-13 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eoapi-cdk
+[2023-07-13 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vollseg
+[2023-07-13 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: better-rich-prompts
+[2023-07-13 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assemblyline-service-client
+[2023-07-13 00:44:54] WARNING root fetch - processPackages [eoapi-cdk]: Skipping, unable to determine old version
+[2023-07-13 00:44:54] INFO root fetch - processPackages [eoapi-cdk]: Start processing: assemblyline-service-server
+[2023-07-13 00:44:54] INFO root fetch - main [MainThread]: End processing [eoapi-cdk] error
+[2023-07-13 00:44:54] INFO root fetch - processPackages [fixedpointmath]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-13 00:44:54] INFO root fetch - processPackages [better-rich-prompts]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-07-13 00:44:54] INFO root fetch - processPackages [hypermea]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-07-13 00:44:54] INFO root fetch - processPackages [dbt-semantic-interfaces]: New version: [0.1.0rc1] Old Version: [0.1.0.dev9]
+[2023-07-13 00:44:54] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-13 00:44:54] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-13 00:44:54] INFO root fetch - processPackages [imjoy-rpc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-13 00:44:54] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-07-13 00:44:54] INFO root fetch - processPackages [leadguru-common]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-13 00:44:54] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-13 00:44:54] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/a4/73/2640c3bfcb2613b0f095aa242df946dd9c81ed47f2dd21c43c0eca553226/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl
+[2023-07-13 00:44:54] INFO root fetch - processPackages [dbt-semantic-interfaces]: Downloading https://files.pythonhosted.org/packages/e4/25/0b4a2a42b4519e1e4a36e18eee96fc2e10ae3851cbeb0b380f1886a9173b/dbt_semantic_interfaces-0.1.0.dev9.tar.gz
+[2023-07-13 00:44:54] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/62/bf/e0cd8c6c4bfbc73547dd7a58b65fe8314743f962e1771888a1e6a088b01d/imjoy-rpc-0.5.8.tar.gz
+[2023-07-13 00:44:54] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/fc/35/ca8dc82028975cbcb02faead26153071461e5c78a03fb67e0f27256aee8d/leadguru_common-0.98.0.tar.gz
+[2023-07-13 00:44:54] INFO root fetch - processPackages [fixedpointmath]: Downloading https://files.pythonhosted.org/packages/06/ef/6b45e9f1539ca8c80f99211276aa847d52a03bcc7a9a9b08a65e6d1a4cf3/fixedpointmath-0.1.1.tar.gz
+[2023-07-13 00:44:54] INFO root fetch - processPackages [better-rich-prompts]: Downloading https://files.pythonhosted.org/packages/b4/79/535839d285c84d437e083ee0ea7e25647b286626c79501be8760809f4c80/better_rich_prompts-1.0.0.tar.gz
+[2023-07-13 00:44:54] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-13 00:44:54] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-07-13 00:44:54] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/d0/9d/73a653591c81e927ff88321d05e4273374e7a6b83130aa29fe2ca8a8f3c8/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl
+[2023-07-13 00:44:54] INFO root fetch - processPackages [hypermea]: Downloading https://files.pythonhosted.org/packages/20/5b/2564b6dce1eedfef7069f5695d232032c437079ae6c553b2c5ed8349d3f2/hypermea-0.9.7-py3-none-any.whl
+[2023-07-13 00:44:55] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-07-13 00:44:55] INFO root fetch - processPackages [vollseg]: Start processing: assemblyline-ui
+[2023-07-13 00:44:55] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-07-13 00:44:55] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/bd/c6/6e355350483536185a855a768a59edd86f3a9b152d83c0e328adfb3c5158/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl
+[2023-07-13 00:44:55] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-13 00:44:55] INFO root fetch - processPackages [dbt-semantic-interfaces]: Downloading https://files.pythonhosted.org/packages/82/19/9b5a56f745470f6c171d4fe502a3c9921db76b469eda192ea98083564668/dbt_semantic_interfaces-0.1.0rc1.tar.gz
+[2023-07-13 00:44:55] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/4e/4f/236c71729e1b70c3c5c202003cf9aa48c1c9b9d202620f8c5e94a7aacdc9/leadguru_common-0.99.0.tar.gz
+[2023-07-13 00:44:55] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/32/2c/24a2fd77d69514d794a4e4c8db3307e0ef3e19e0338c3edb6bf7bdd4d021/imjoy-rpc-0.5.9.tar.gz
+[2023-07-13 00:44:55] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-07-13 00:44:55] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230713/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-13 00:44:55] INFO root fetch - processPackages [fixedpointmath]: Downloading https://files.pythonhosted.org/packages/b5/ca/043c3fbd4d3b4db0fadc45cad9fab944b5bf91a7ffa678ca69a7c7918fe4/fixedpointmath-0.1.2.tar.gz
+[2023-07-13 00:44:55] INFO root fetch - processPackages [better-rich-prompts]: Downloading https://files.pythonhosted.org/packages/7f/55/9180cbadba2ba0514cd14cc1c922bf5a796a18d54c5d413c25d77bdd8822/better_rich_prompts-1.0.2.tar.gz
+[2023-07-13 00:44:55] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/2c/65/290b479a07ea2714c26e302d7ee822da3dcfd3a50ecbfcf4091efd378829/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl
+[2023-07-13 00:44:55] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/88/f0/1e1ea5a38c6644090daf7b8e756373614f960038fc4187021d034bab3f59/assemblyline_ui-4.4.1.dev98-py3-none-any.whl
+[2023-07-13 00:44:55] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-13 00:44:55] INFO root fetch - processPackages [leadguru-common]: executing diffoscope
+[2023-07-13 00:44:55] INFO root fetch - processPackages [leadguru-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_common-0.98.0.tar.gz tmp/leadguru_common-0.99.0.tar.gz --markdown 20230713/l/leadguru-common/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-13 00:44:55] INFO root fetch - processPackages [imjoy-rpc]: executing diffoscope
+[2023-07-13 00:44:55] INFO root fetch - processPackages [imjoy-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imjoy-rpc-0.5.8.tar.gz tmp/imjoy-rpc-0.5.9.tar.gz --markdown 20230713/i/imjoy-rpc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-13 00:44:55] INFO root fetch - processPackages [dbt-semantic-interfaces]: executing diffoscope
+[2023-07-13 00:44:55] INFO root fetch - processPackages [dbt-semantic-interfaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_semantic_interfaces-0.1.0.dev9.tar.gz tmp/dbt_semantic_interfaces-0.1.0rc1.tar.gz --markdown 20230713/d/dbt-semantic-interfaces/0.1.0.dev9-0.1.0rc1/diff.md --exclude *.pyd
+[2023-07-13 00:44:55] INFO root fetch - processPackages [hypermea]: Downloading https://files.pythonhosted.org/packages/99/7e/cf6e6a1c9f576e7f34df531dda089047c00a693551f273d25607b425b2ac/hypermea-0.9.9-py3-none-any.whl
+[2023-07-13 00:44:55] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-07-13 00:44:55] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230713/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-13 00:44:55] INFO root fetch - processPackages [better-rich-prompts]: executing diffoscope
+[2023-07-13 00:44:55] INFO root fetch - processPackages [better-rich-prompts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/better_rich_prompts-1.0.0.tar.gz tmp/better_rich_prompts-1.0.2.tar.gz --markdown 20230713/b/better-rich-prompts/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-07-13 00:44:55] INFO root fetch - processPackages [fixedpointmath]: executing diffoscope
+[2023-07-13 00:44:55] INFO root fetch - processPackages [fixedpointmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixedpointmath-0.1.1.tar.gz tmp/fixedpointmath-0.1.2.tar.gz --markdown 20230713/f/fixedpointmath/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-13 00:44:55] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-13 00:44:55] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230713/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-13 00:44:55] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/e3/c6/dfade12e5e90540956305d36f873c5aed23370282783a34e66dc3b21a383/assemblyline_ui-4.4.1.dev99-py3-none-any.whl
+[2023-07-13 00:44:55] INFO root fetch - processPackages [hypermea]: executing diffoscope
+[2023-07-13 00:44:55] INFO root fetch - processPackages [hypermea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypermea-0.9.7-py3-none-any.whl.zip tmp/hypermea-0.9.9-py3-none-any.whl.zip --markdown 20230713/h/hypermea/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-07-13 00:44:55] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-07-13 00:44:55] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230713/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-13 00:44:56] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-13 00:44:56] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-13 00:44:56] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: assemblyline-v4-service
+[2023-07-13 00:44:56] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-07-13 00:44:56] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-13 00:44:56] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/0d/18/25fd38ec83bbb1da504d3063623af0139b964cc4957ee52dab43c8a48eec/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl
+[2023-07-13 00:44:57] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.98.0.tar.gz]
+[2023-07-13 00:44:57] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.99.0.tar.gz]
+[2023-07-13 00:44:57] INFO root fetch - processPackages [leadguru-common]: Start processing: kirkwoodnight
+[2023-07-13 00:44:57] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
+[2023-07-13 00:44:57] INFO root fetch - processPackages [kirkwoodnight]: New version: [0.9] Old Version: [0.8]
+[2023-07-13 00:44:57] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/47/8f/28c4f84deeaf6ecece9518c5613a84646d9a0b9e24b8c8791e4612f1738c/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl
+[2023-07-13 00:44:57] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-13 00:44:57] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-13 00:44:57] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: Pyresponse
+[2023-07-13 00:44:57] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-07-13 00:44:57] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/4a/cb/0933d24e41275b672f193d2903cf8bf47f4161c7a6575b8a40bd929b95f4/kirkwoodnight-0.8.tar.gz
+[2023-07-13 00:44:57] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.8.tar.gz]
+[2023-07-13 00:44:57] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.9.tar.gz]
+[2023-07-13 00:44:57] INFO root fetch - processPackages [imjoy-rpc]: Start processing: assemblyline
+[2023-07-13 00:44:57] INFO root fetch - main [MainThread]: End processing [imjoy-rpc]: success
+[2023-07-13 00:44:57] WARNING root fetch - processPackages [Pyresponse]: Skipping, unable to determine old version
+[2023-07-13 00:44:57] INFO root fetch - processPackages [Pyresponse]: Start processing: assemblyline-core
+[2023-07-13 00:44:57] INFO root fetch - main [MainThread]: End processing [Pyresponse] error
+[2023-07-13 00:44:57] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-07-13 00:44:57] INFO root fetch - processPackages [better-rich-prompts]: Remove: archive file [/home/abi/fetcher/tmp/better_rich_prompts-1.0.0.tar.gz]
+[2023-07-13 00:44:57] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230713/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-13 00:44:57] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-13 00:44:57] INFO root fetch - processPackages [better-rich-prompts]: Remove: archive file [/home/abi/fetcher/tmp/better_rich_prompts-1.0.2.tar.gz]
+[2023-07-13 00:44:57] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-13 00:44:57] INFO root fetch - processPackages [better-rich-prompts]: Start processing: OnlySnarf
+[2023-07-13 00:44:57] INFO root fetch - main [MainThread]: End processing [better-rich-prompts]: success
+[2023-07-13 00:44:57] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-13 00:44:57] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-13 00:44:57] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-13 00:44:57] INFO root fetch - processPackages [fixedpointmath]: Remove: archive file [/home/abi/fetcher/tmp/fixedpointmath-0.1.1.tar.gz]
+[2023-07-13 00:44:57] INFO root fetch - processPackages [fixedpointmath]: Remove: archive file [/home/abi/fetcher/tmp/fixedpointmath-0.1.2.tar.gz]
+[2023-07-13 00:44:57] INFO root fetch - main [MainThread]: End processing [fixedpointmath]: success
+[2023-07-13 00:44:57] INFO root fetch - processPackages [OnlySnarf]: New version: [4.5.1] Old Version: [4.5.0]
+[2023-07-13 00:44:57] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/fb/ca/10ec337efc2ea70b32ead6e4b7d46e1e23f2d1a7638e8bfd6b51a182d2af/assemblyline-4.4.1.dev98.tar.gz
+[2023-07-13 00:44:57] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/fd/3d/35fd8910d194077812106943bc1bc53542eb2b97ae4f68449a446bc15056/kirkwoodnight-0.9.tar.gz
+[2023-07-13 00:44:57] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/c6/b0/1bb0cc8f270604c12a6c573e663a56b4479a805585b2f0dec5745c366b75/assemblyline-core-4.4.1.dev98.tar.gz
+[2023-07-13 00:44:57] INFO root fetch - processPackages [kirkwoodnight]: executing diffoscope
+[2023-07-13 00:44:57] INFO root fetch - processPackages [kirkwoodnight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirkwoodnight-0.8.tar.gz tmp/kirkwoodnight-0.9.tar.gz --markdown 20230713/k/kirkwoodnight/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-13 00:44:57] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-13 00:44:57] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-13 00:44:57] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-07-13 00:44:57] INFO root fetch - processPackages [dbt-semantic-interfaces]: Remove: archive file [/home/abi/fetcher/tmp/dbt_semantic_interfaces-0.1.0.dev9.tar.gz]
+[2023-07-13 00:44:57] INFO root fetch - processPackages [dbt-semantic-interfaces]: Remove: archive file [/home/abi/fetcher/tmp/dbt_semantic_interfaces-0.1.0rc1.tar.gz]
+[2023-07-13 00:44:57] INFO root fetch - main [MainThread]: End processing [dbt-semantic-interfaces]: success
+[2023-07-13 00:44:57] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/bd/bc/8573bd972e279862ab5c57e5a99e53f5087cd49a2741a054d2753ef654a7/assemblyline-4.4.1.dev99.tar.gz
+[2023-07-13 00:44:57] INFO root fetch - processPackages [OnlySnarf]: Downloading https://files.pythonhosted.org/packages/55/48/3d3e3960e4fa96ec746118151b3a27dad2112300d71a448b14d8bb66bda6/OnlySnarf-4.5.0.tar.gz
+[2023-07-13 00:44:57] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/63/40/1e762930effd688f4bca07aca72276ca6ebee782934f06a6006ea66b2f16/assemblyline-core-4.4.1.dev99.tar.gz
+[2023-07-13 00:44:57] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-07-13 00:44:57] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230713/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-13 00:44:57] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-07-13 00:44:57] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230713/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-13 00:44:58] INFO root fetch - processPackages [OnlySnarf]: Downloading https://files.pythonhosted.org/packages/3e/b1/e1756f3990ea8591c99555dc2d858afa572e2bd8754c3fc3df5643b8004e/OnlySnarf-4.5.1.tar.gz
+[2023-07-13 00:44:58] INFO root fetch - processPackages [hypermea]: Remove: archive file [/home/abi/fetcher/tmp/hypermea-0.9.7-py3-none-any.whl.zip]
+[2023-07-13 00:44:58] INFO root fetch - processPackages [hypermea]: Remove: archive file [/home/abi/fetcher/tmp/hypermea-0.9.9-py3-none-any.whl.zip]
+[2023-07-13 00:44:58] INFO root fetch - main [MainThread]: End processing [hypermea]: success
+[2023-07-13 00:44:58] INFO root fetch - processPackages [OnlySnarf]: executing diffoscope
+[2023-07-13 00:44:58] INFO root fetch - processPackages [OnlySnarf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OnlySnarf-4.5.0.tar.gz tmp/OnlySnarf-4.5.1.tar.gz --markdown 20230713/O/OnlySnarf/4.5.0-4.5.1/diff.md --exclude *.pyd
+[2023-07-13 00:44:58] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.8.tar.gz]
+[2023-07-13 00:44:58] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.9.tar.gz]
+[2023-07-13 00:44:58] INFO root fetch - main [MainThread]: End processing [kirkwoodnight]: success
+[2023-07-13 00:44:59] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev98.tar.gz]
+[2023-07-13 00:44:59] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev99.tar.gz]
+[2023-07-13 00:44:59] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-07-13 00:44:59] INFO root fetch - processPackages [OnlySnarf]: Remove: archive file [/home/abi/fetcher/tmp/OnlySnarf-4.5.0.tar.gz]
+[2023-07-13 00:44:59] INFO root fetch - processPackages [OnlySnarf]: Remove: archive file [/home/abi/fetcher/tmp/OnlySnarf-4.5.1.tar.gz]
+[2023-07-13 00:44:59] INFO root fetch - main [MainThread]: End processing [OnlySnarf]: success
+[2023-07-13 00:44:59] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-13 00:44:59] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-13 00:44:59] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-07-13 00:44:59] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev98.tar.gz]
+[2023-07-13 00:44:59] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev99.tar.gz]
+[2023-07-13 00:44:59] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-07-13 00:44:59] INFO root fetch - main [MainThread]: Store serial: [18866833]
