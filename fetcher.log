@@ -1,0 +1,136 @@
+[2023-07-13 00:00:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18866414]
+[2023-07-13 00:00:51] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-13 00:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: capeditor
+[2023-07-13 00:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agentmemory
+[2023-07-13 00:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Ninja-Smart-Finder-IM
+[2023-07-13 00:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zylo
+[2023-07-13 00:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shipyard-fivetran
+[2023-07-13 00:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: LongNet
+[2023-07-13 00:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: absl-extra
+[2023-07-13 00:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: altrios
+[2023-07-13 00:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dfm-tools
+[2023-07-13 00:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: shipyard-templates
+[2023-07-13 00:00:52] INFO root fetch - processPackages [agentmemory]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-13 00:00:52] INFO root fetch - processPackages [absl-extra]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-13 00:00:52] INFO root fetch - processPackages [dfm-tools]: New version: [0.13.1] Old Version: [0.13.0]
+[2023-07-13 00:00:52] INFO root fetch - processPackages [capeditor]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-13 00:00:52] INFO root fetch - processPackages [shipyard-fivetran]: New version: [0.1.2a6] Old Version: [0.1.2a5]
+[2023-07-13 00:00:52] INFO root fetch - processPackages [zylo]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-07-13 00:00:52] WARNING root fetch - processPackages [Ninja-Smart-Finder-IM]: Skipping, unable to determine old version
+[2023-07-13 00:00:52] INFO root fetch - processPackages [Ninja-Smart-Finder-IM]: Start processing: shipyard-templates
+[2023-07-13 00:00:52] INFO root fetch - main [MainThread]: End processing [Ninja-Smart-Finder-IM] error
+[2023-07-13 00:00:52] INFO root fetch - processPackages [LongNet]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-13 00:00:52] INFO root fetch - processPackages [altrios]: New version: [0.1.1.post1] Old Version: [0.1.1]
+[2023-07-13 00:00:52] INFO root fetch - processPackages [shipyard-templates]: New version: [0.2.0] Old Version: [0.1.8a0]
+[2023-07-13 00:00:52] INFO root fetch - processPackages [shipyard-templates]: New version: [0.2.0] Old Version: [0.1.8a0]
+[2023-07-13 00:00:52] INFO root fetch - processPackages [shipyard-fivetran]: Downloading https://files.pythonhosted.org/packages/a3/f4/8edfed6d1cefc375a98e865d4603533240ecd8e331b23950017ef068d71a/shipyard_fivetran-0.1.2a5.tar.gz
+[2023-07-13 00:00:52] INFO root fetch - processPackages [dfm-tools]: Downloading https://files.pythonhosted.org/packages/1e/9b/854ccb59d07a67be1c93d6c31970f9c2539938a7bdc25aab7ebcbc2dbba1/dfm_tools-0.13.0.tar.gz
+[2023-07-13 00:00:52] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/d5/e0/73a62722e6a7186f411f0a8a07b12f2b5e607a0da091644a19bfe1dd8821/agentmemory-0.1.8.tar.gz
+[2023-07-13 00:00:52] INFO root fetch - processPackages [LongNet]: Downloading https://files.pythonhosted.org/packages/d8/aa/c4cd8de6deb3cd3721e3c3d9a1dd7782c6313c0fb9dc4a45edcd51a4a3d2/LongNet-0.3.6.tar.gz
+[2023-07-13 00:00:52] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/0e/5a/675b0d887664ac3974c5aa9dae3ad7e9a3846429832e15c36b9df308f07a/capeditor-0.2.5.tar.gz
+[2023-07-13 00:00:52] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/29/92/688b446e3822b3be1951317596cd759c0087642922cd952a1d9bf930d1cd/absl_extra-0.0.2.dev8.tar.gz
+[2023-07-13 00:00:52] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/07/64/558bf1811309786a248d64eff9eeeb5b530197d66997416728fae3801425/zylo-1.0.0.tar.gz
+[2023-07-13 00:00:52] INFO root fetch - processPackages [shipyard-templates]: Downloading https://files.pythonhosted.org/packages/e8/a8/d2be82ac03b660a7236c419ccd666d26c9975a96b65faccd5e74e0a11bfd/shipyard_templates-0.1.8a0.tar.gz
+[2023-07-13 00:00:52] INFO root fetch - processPackages [shipyard-templates]: Downloading https://files.pythonhosted.org/packages/e8/a8/d2be82ac03b660a7236c419ccd666d26c9975a96b65faccd5e74e0a11bfd/shipyard_templates-0.1.8a0.tar.gz
+[2023-07-13 00:00:52] INFO root fetch - processPackages [altrios]: Downloading https://files.pythonhosted.org/packages/8f/52/707dd8024f1e853647478bdf92a6f72e2ef75c16d7602fdb2d03e385190d/altrios-0.1.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-13 00:00:52] WARNING root fetch - processPackages [altrios]: Skipping package: exceeds size limit 13511098>=10485760
+[2023-07-13 00:00:52] INFO root fetch - processPackages [altrios]: Start processing: shipyard-fivetran
+[2023-07-13 00:00:52] INFO root fetch - main [MainThread]: End processing [altrios] error
+[2023-07-13 00:00:52] INFO root fetch - processPackages [shipyard-fivetran]: New version: [0.1.2a7] Old Version: [0.1.2a6]
+[2023-07-13 00:00:52] INFO root fetch - processPackages [shipyard-fivetran]: Downloading https://files.pythonhosted.org/packages/f1/f9/2f0fc6388b6789a899b9221c30262ba39e349ee191b577616ced8b8985f4/shipyard_fivetran-0.1.2a6.tar.gz
+[2023-07-13 00:00:52] INFO root fetch - processPackages [dfm-tools]: Downloading https://files.pythonhosted.org/packages/9a/c2/f1c9d9f1cb3a3e2725744f3eaaba4fe67a267d885786192a8f4705dcb1e3/dfm_tools-0.13.1.tar.gz
+[2023-07-13 00:00:52] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/6e/ac/33ae73e442d8025c848fe583687d588ca05bd695b69b0ff158ef2310696c/agentmemory-0.1.9.tar.gz
+[2023-07-13 00:00:52] INFO root fetch - processPackages [LongNet]: Downloading https://files.pythonhosted.org/packages/6f/f1/a369b0077a32090f80f12a1bd90906c07216bef6bdaae7d18483928bde64/LongNet-0.3.7.tar.gz
+[2023-07-13 00:00:53] INFO root fetch - processPackages [shipyard-fivetran]: Downloading https://files.pythonhosted.org/packages/f1/f9/2f0fc6388b6789a899b9221c30262ba39e349ee191b577616ced8b8985f4/shipyard_fivetran-0.1.2a6.tar.gz
+[2023-07-13 00:00:53] INFO root fetch - processPackages [shipyard-fivetran]: executing diffoscope
+[2023-07-13 00:00:53] INFO root fetch - processPackages [shipyard-fivetran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_fivetran-0.1.2a5.tar.gz tmp/shipyard_fivetran-0.1.2a6.tar.gz --markdown 20230713/s/shipyard-fivetran/0.1.2a5-0.1.2a6/diff.md --exclude *.pyd
+[2023-07-13 00:00:53] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/8d/5d/bbd0bc07a1b0846e794d560832f1235eab9c114c70062fffb4ac21b41080/capeditor-0.2.6.tar.gz
+[2023-07-13 00:00:53] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/87/08/d65e9902870763d57089d2b868de4f6d93eac16c3b973135d18053679d8d/zylo-1.0.2.tar.gz
+[2023-07-13 00:00:53] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/f7/ad/385040ffc5d1a6c7ce24b748fe7932e7fc6f931c5a98bbd7a4f9c8acacfd/absl_extra-0.0.2.dev9.tar.gz
+[2023-07-13 00:00:53] INFO root fetch - processPackages [dfm-tools]: executing diffoscope
+[2023-07-13 00:00:53] INFO root fetch - processPackages [dfm-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfm_tools-0.13.0.tar.gz tmp/dfm_tools-0.13.1.tar.gz --markdown 20230713/d/dfm-tools/0.13.0-0.13.1/diff.md --exclude *.pyd
+[2023-07-13 00:00:53] INFO root fetch - processPackages [agentmemory]: executing diffoscope
+[2023-07-13 00:00:53] INFO root fetch - processPackages [agentmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentmemory-0.1.8.tar.gz tmp/agentmemory-0.1.9.tar.gz --markdown 20230713/a/agentmemory/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-13 00:00:53] INFO root fetch - processPackages [LongNet]: executing diffoscope
+[2023-07-13 00:00:53] INFO root fetch - processPackages [LongNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LongNet-0.3.6.tar.gz tmp/LongNet-0.3.7.tar.gz --markdown 20230713/L/LongNet/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-13 00:00:53] INFO root fetch - processPackages [shipyard-templates]: Downloading https://files.pythonhosted.org/packages/31/08/6f4d43f5b580153c44c810c53fb4777e377a92b2a2ae2cc1aea152c3b89d/shipyard_templates-0.2.0.tar.gz
+[2023-07-13 00:00:53] INFO root fetch - processPackages [shipyard-templates]: Downloading https://files.pythonhosted.org/packages/31/08/6f4d43f5b580153c44c810c53fb4777e377a92b2a2ae2cc1aea152c3b89d/shipyard_templates-0.2.0.tar.gz
+[2023-07-13 00:00:53] INFO root fetch - processPackages [absl-extra]: executing diffoscope
+[2023-07-13 00:00:53] INFO root fetch - processPackages [absl-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absl_extra-0.0.2.dev8.tar.gz tmp/absl_extra-0.0.2.dev9.tar.gz --markdown 20230713/a/absl-extra/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-13 00:00:53] INFO root fetch - processPackages [zylo]: executing diffoscope
+[2023-07-13 00:00:53] INFO root fetch - processPackages [zylo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zylo-1.0.0.tar.gz tmp/zylo-1.0.2.tar.gz --markdown 20230713/z/zylo/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-07-13 00:00:53] INFO root fetch - processPackages [capeditor]: executing diffoscope
+[2023-07-13 00:00:53] INFO root fetch - processPackages [capeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capeditor-0.2.5.tar.gz tmp/capeditor-0.2.6.tar.gz --markdown 20230713/c/capeditor/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-13 00:00:53] INFO root fetch - processPackages [shipyard-templates]: executing diffoscope
+[2023-07-13 00:00:53] INFO root fetch - processPackages [shipyard-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_templates-0.1.8a0.tar.gz tmp/shipyard_templates-0.2.0.tar.gz --markdown 20230713/s/shipyard-templates/0.1.8a0-0.2.0/diff.md --exclude *.pyd
+[2023-07-13 00:00:53] INFO root fetch - processPackages [shipyard-templates]: executing diffoscope
+[2023-07-13 00:00:53] INFO root fetch - processPackages [shipyard-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_templates-0.1.8a0.tar.gz tmp/shipyard_templates-0.2.0.tar.gz --markdown 20230713/s/shipyard-templates/0.1.8a0-0.2.0/diff.md --exclude *.pyd
+[2023-07-13 00:00:53] INFO root fetch - processPackages [shipyard-fivetran]: Downloading https://files.pythonhosted.org/packages/c7/1f/795a527697c64d669cdfbb26190fae219e225754ebd99609583acd75d622/shipyard_fivetran-0.1.2a7.tar.gz
+[2023-07-13 00:00:53] INFO root fetch - processPackages [shipyard-fivetran]: executing diffoscope
+[2023-07-13 00:00:53] INFO root fetch - processPackages [shipyard-fivetran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_fivetran-0.1.2a6.tar.gz tmp/shipyard_fivetran-0.1.2a7.tar.gz --markdown 20230713/s/shipyard-fivetran/0.1.2a6-0.1.2a7/diff.md --exclude *.pyd
+[2023-07-13 00:00:54] INFO root fetch - processPackages [shipyard-fivetran]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_fivetran-0.1.2a5.tar.gz]
+[2023-07-13 00:00:54] INFO root fetch - processPackages [shipyard-fivetran]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_fivetran-0.1.2a6.tar.gz]
+[2023-07-13 00:00:54] INFO root fetch - processPackages [shipyard-fivetran]: Start processing: dynamic-api
+[2023-07-13 00:00:54] INFO root fetch - main [MainThread]: End processing [shipyard-fivetran]: success
+[2023-07-13 00:00:54] INFO root fetch - processPackages [dynamic-api]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-13 00:00:54] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.1.8.tar.gz]
+[2023-07-13 00:00:54] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.1.9.tar.gz]
+[2023-07-13 00:00:54] INFO root fetch - processPackages [agentmemory]: Start processing: dynamic-llm
+[2023-07-13 00:00:54] INFO root fetch - main [MainThread]: End processing [agentmemory]: success
+[2023-07-13 00:00:54] INFO root fetch - processPackages [dynamic-api]: Downloading https://files.pythonhosted.org/packages/be/88/4ca59a7797a042d4d2fc7d343475c7b08732da4d97e6085d753ed35355ca/dynamic-api-0.0.2.tar.gz
+[2023-07-13 00:00:54] INFO root fetch - processPackages [dynamic-llm]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-13 00:00:54] INFO root fetch - processPackages [dynamic-llm]: Downloading https://files.pythonhosted.org/packages/28/2e/c8820ee224476d5739af0097dee5827476a413424ae7c131042d944f574d/dynamic-llm-0.0.2.tar.gz
+[2023-07-13 00:00:54] ERROR root fetch - processPackages [shipyard-fivetran]: Diffoscope failed: time="2023-07-13T00:00:53+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/shipyard_fivetran-0.1.2a6.tar.gz: No such file or directory
+
+[2023-07-13 00:00:54] INFO root fetch - processPackages [shipyard-fivetran]: Start processing: janis-pipelines.core
+[2023-07-13 00:00:54] INFO root fetch - main [MainThread]: End processing [shipyard-fivetran] error
+[2023-07-13 00:00:54] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.2.dev8.tar.gz]
+[2023-07-13 00:00:54] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.2.dev9.tar.gz]
+[2023-07-13 00:00:54] INFO root fetch - processPackages [absl-extra]: Start processing: dynamic-sh
+[2023-07-13 00:00:54] INFO root fetch - main [MainThread]: End processing [absl-extra]: success
+[2023-07-13 00:00:54] INFO root fetch - processPackages [dfm-tools]: Remove: archive file [/home/abi/fetcher/tmp/dfm_tools-0.13.0.tar.gz]
+[2023-07-13 00:00:54] INFO root fetch - processPackages [dfm-tools]: Remove: archive file [/home/abi/fetcher/tmp/dfm_tools-0.13.1.tar.gz]
+[2023-07-13 00:00:54] INFO root fetch - main [MainThread]: End processing [dfm-tools]: success
+[2023-07-13 00:00:54] INFO root fetch - processPackages [LongNet]: Remove: archive file [/home/abi/fetcher/tmp/LongNet-0.3.6.tar.gz]
+[2023-07-13 00:00:54] INFO root fetch - processPackages [LongNet]: Remove: archive file [/home/abi/fetcher/tmp/LongNet-0.3.7.tar.gz]
+[2023-07-13 00:00:54] INFO root fetch - main [MainThread]: End processing [LongNet]: success
+[2023-07-13 00:00:54] INFO root fetch - processPackages [dynamic-sh]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-13 00:00:54] INFO root fetch - processPackages [dynamic-api]: Downloading https://files.pythonhosted.org/packages/44/5b/4d95c6f3dddf831e8338b77b406a6dd2c86a60bedad73fd690e009548ae1/dynamic-api-0.0.3.tar.gz
+[2023-07-13 00:00:54] INFO root fetch - processPackages [shipyard-templates]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_templates-0.1.8a0.tar.gz]
+[2023-07-13 00:00:54] INFO root fetch - processPackages [shipyard-templates]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_templates-0.2.0.tar.gz]
+[2023-07-13 00:00:54] INFO root fetch - main [MainThread]: End processing [shipyard-templates]: success
+[2023-07-13 00:00:54] INFO root fetch - processPackages [janis-pipelines.core]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-13 00:00:54] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-1.0.0.tar.gz]
+[2023-07-13 00:00:54] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-1.0.2.tar.gz]
+[2023-07-13 00:00:54] INFO root fetch - main [MainThread]: End processing [zylo]: success
+[2023-07-13 00:00:55] INFO root fetch - processPackages [dynamic-sh]: Downloading https://files.pythonhosted.org/packages/c2/55/d2ba34f15d152f4cec8a174f9593f8754f46f2d8c4805f6702fe4a5cfdb1/dynamic-sh-0.0.2.tar.gz
+[2023-07-13 00:00:55] INFO root fetch - main [MainThread]: End processing [shipyard-templates]: success
+[2023-07-13 00:00:55] INFO root fetch - processPackages [dynamic-llm]: Downloading https://files.pythonhosted.org/packages/84/3c/bcdd3bdf6722372b8c07129e50339efbbdf1f5675058a1d910b46695f557/dynamic-llm-0.0.3.tar.gz
+[2023-07-13 00:00:55] INFO root fetch - processPackages [capeditor]: Remove: archive file [/home/abi/fetcher/tmp/capeditor-0.2.5.tar.gz]
+[2023-07-13 00:00:55] INFO root fetch - processPackages [capeditor]: Remove: archive file [/home/abi/fetcher/tmp/capeditor-0.2.6.tar.gz]
+[2023-07-13 00:00:55] INFO root fetch - main [MainThread]: End processing [capeditor]: success
+[2023-07-13 00:00:55] INFO root fetch - processPackages [dynamic-api]: executing diffoscope
+[2023-07-13 00:00:55] INFO root fetch - processPackages [dynamic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-api-0.0.2.tar.gz tmp/dynamic-api-0.0.3.tar.gz --markdown 20230713/d/dynamic-api/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-13 00:00:55] INFO root fetch - processPackages [janis-pipelines.core]: Downloading https://files.pythonhosted.org/packages/9d/d4/24c5c1a597b60e0e8d952a4ae8bf843a3c2c406f12874b89ae2ed49b89ae/janis-pipelines.core-0.9.8.tar.gz
+[2023-07-13 00:00:55] INFO root fetch - processPackages [dynamic-llm]: executing diffoscope
+[2023-07-13 00:00:55] INFO root fetch - processPackages [dynamic-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-llm-0.0.2.tar.gz tmp/dynamic-llm-0.0.3.tar.gz --markdown 20230713/d/dynamic-llm/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-13 00:00:55] INFO root fetch - processPackages [dynamic-sh]: Downloading https://files.pythonhosted.org/packages/25/b5/2d633063f54e7c9f99c58e6a5299382dec0b13f3b75775d68aa4c816d53e/dynamic-sh-0.0.3.tar.gz
+[2023-07-13 00:00:55] INFO root fetch - processPackages [dynamic-sh]: executing diffoscope
+[2023-07-13 00:00:55] INFO root fetch - processPackages [dynamic-sh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-sh-0.0.2.tar.gz tmp/dynamic-sh-0.0.3.tar.gz --markdown 20230713/d/dynamic-sh/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-13 00:00:55] INFO root fetch - processPackages [janis-pipelines.core]: Downloading https://files.pythonhosted.org/packages/68/6b/a5d3949ac632f81703ce9b8273f8f24628e49bff649209d1958b54b66248/janis-pipelines.core-0.9.9.tar.gz
+[2023-07-13 00:00:55] INFO root fetch - processPackages [dynamic-api]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-api-0.0.2.tar.gz]
+[2023-07-13 00:00:55] INFO root fetch - processPackages [dynamic-api]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-api-0.0.3.tar.gz]
+[2023-07-13 00:00:55] INFO root fetch - main [MainThread]: End processing [dynamic-api]: success
+[2023-07-13 00:00:56] INFO root fetch - processPackages [janis-pipelines.core]: executing diffoscope
+[2023-07-13 00:00:56] INFO root fetch - processPackages [janis-pipelines.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janis-pipelines.core-0.9.8.tar.gz tmp/janis-pipelines.core-0.9.9.tar.gz --markdown 20230713/j/janis-pipelines.core/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-13 00:00:56] INFO root fetch - processPackages [dynamic-llm]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-llm-0.0.2.tar.gz]
+[2023-07-13 00:00:56] INFO root fetch - processPackages [dynamic-llm]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-llm-0.0.3.tar.gz]
+[2023-07-13 00:00:56] INFO root fetch - main [MainThread]: End processing [dynamic-llm]: success
+[2023-07-13 00:00:56] INFO root fetch - processPackages [dynamic-sh]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-sh-0.0.2.tar.gz]
+[2023-07-13 00:00:56] INFO root fetch - processPackages [dynamic-sh]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-sh-0.0.3.tar.gz]
+[2023-07-13 00:00:56] INFO root fetch - main [MainThread]: End processing [dynamic-sh]: success
+[2023-07-13 00:00:56] INFO root fetch - processPackages [janis-pipelines.core]: Remove: archive file [/home/abi/fetcher/tmp/janis-pipelines.core-0.9.8.tar.gz]
+[2023-07-13 00:00:56] INFO root fetch - processPackages [janis-pipelines.core]: Remove: archive file [/home/abi/fetcher/tmp/janis-pipelines.core-0.9.9.tar.gz]
+[2023-07-13 00:00:56] INFO root fetch - main [MainThread]: End processing [janis-pipelines.core]: success
+[2023-07-13 00:00:56] INFO root fetch - main [MainThread]: Store serial: [18866466]
