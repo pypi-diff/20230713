@@ -1612,3 +1612,78 @@
 [2023-07-13 01:22:14] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.0.99.tar.gz]
 [2023-07-13 01:22:14] INFO root fetch - main [MainThread]: End processing [Files.com]: success
 [2023-07-13 01:22:14] INFO root fetch - main [MainThread]: Store serial: [18867050]
+[2023-07-13 01:27:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18867050]
+[2023-07-13 01:27:23] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-13 01:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Pprints
+[2023-07-13 01:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyGitInfo
+[2023-07-13 01:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: terrascope-api
+[2023-07-13 01:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dequeai
+[2023-07-13 01:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi
+[2023-07-13 01:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vivarium
+[2023-07-13 01:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odp-stockholm
+[2023-07-13 01:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: algocash-sdk
+[2023-07-13 01:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pddatastore
+[2023-07-13 01:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: honeybee-core
+[2023-07-13 01:27:23] WARNING root fetch - processPackages [Pprints]: Skipping, unable to determine old version
+[2023-07-13 01:27:23] INFO root fetch - main [MainThread]: End processing [Pprints] error
+[2023-07-13 01:27:23] INFO root fetch - processPackages [terrascope-api]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-13 01:27:23] INFO root fetch - processPackages [algocash-sdk]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-13 01:27:23] INFO root fetch - processPackages [vivarium]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-13 01:27:23] WARNING root fetch - processPackages [pddatastore]: Skipping, unable to determine old version
+[2023-07-13 01:27:23] INFO root fetch - main [MainThread]: End processing [pddatastore] error
+[2023-07-13 01:27:23] INFO root fetch - processPackages [pyGitInfo]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-13 01:27:23] INFO root fetch - processPackages [dequeai]: New version: [0.8228] Old Version: [0.8128]
+[2023-07-13 01:27:23] INFO root fetch - processPackages [honeybee-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-13 01:27:23] INFO root fetch - processPackages [pulumi]: New version: [3.9.1] Old Version: [3.9.0a1627480147]
+[2023-07-13 01:27:23] WARNING root fetch - processPackages [odp-stockholm]: Skipping, unable to determine old version
+[2023-07-13 01:27:23] INFO root fetch - main [MainThread]: End processing [odp-stockholm] error
+[2023-07-13 01:27:23] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/25/88/7ed0aeb6b1cf0d4f003a3d3e96312cea0aff67017d50c5c9cd245c04f048/honeybee-core-1.8.1.tar.gz
+[2023-07-13 01:27:23] INFO root fetch - processPackages [pyGitInfo]: Downloading https://files.pythonhosted.org/packages/bd/c4/8e0eb246931fa174413ec38365cc6ad6aec90fdd16c2c017dc3c2f87ab59/pyGitInfo-0.0.2.tar.gz
+[2023-07-13 01:27:23] INFO root fetch - processPackages [vivarium]: Downloading https://files.pythonhosted.org/packages/0c/f4/437d4c0a30456786e21d474d8f7e627295ab3a758b53253a68ef029fa513/vivarium-1.2.0.tar.gz
+[2023-07-13 01:27:23] INFO root fetch - processPackages [terrascope-api]: Downloading https://files.pythonhosted.org/packages/e6/78/55b9800fc35e6abd6bf69f420f453b05547714e35ad56598ff3d42509319/terrascope-api-1.0.4.tar.gz
+[2023-07-13 01:27:23] INFO root fetch - processPackages [algocash-sdk]: Downloading https://files.pythonhosted.org/packages/8b/81/ce3a72edd1a45cb74bafd65a099af6a7370860e4a2d929e2c19249810589/algocash-sdk-1.2.0.tar.gz
+[2023-07-13 01:27:23] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/d0/03/c3276d588150bec6f6a50fd308fbbffd3650c55d816fcb8f3c0ac2188adc/dequeai-0.8128.tar.gz
+[2023-07-13 01:27:23] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/86/e81db20648ca7b8fbc7fb663e6795bc30d94e7f71c35856cda04bb48fb84/pulumi-3.9.0a1627480147-py2.py3-none-any.whl
+[2023-07-13 01:27:24] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/d8/9b/f2a81f9cdf6c2556a083efabd9c0d69bdf3eb0acefed3b55c9d5ed1bcb15/honeybee-core-1.9.0.tar.gz
+[2023-07-13 01:27:24] INFO root fetch - processPackages [honeybee-core]: executing diffoscope
+[2023-07-13 01:27:24] INFO root fetch - processPackages [honeybee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-core-1.8.1.tar.gz tmp/honeybee-core-1.9.0.tar.gz --markdown 20230713/h/honeybee-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-13 01:27:24] INFO root fetch - processPackages [pyGitInfo]: Downloading https://files.pythonhosted.org/packages/d8/df/a56167fcd1c70df0348423c1109e866a118ac747275abab35f6621b6ea8d/pyGitInfo-0.0.3.tar.gz
+[2023-07-13 01:27:24] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/a5/23/47343e03693f31531dcd2556876ba7f5f85e5286e575cfeb333af486f531/dequeai-0.8228.tar.gz
+[2023-07-13 01:27:24] INFO root fetch - processPackages [terrascope-api]: Downloading https://files.pythonhosted.org/packages/81/ae/b1db15ffd6afefdd9d5ae66d22be90a85424e6513a5bcdc93b146c59b396/terrascope-api-1.0.5.tar.gz
+[2023-07-13 01:27:24] INFO root fetch - processPackages [algocash-sdk]: Downloading https://files.pythonhosted.org/packages/7a/58/a2f498f44281cef4c955605cfa3d3d74e4fc5e4949cf87f71da1113b929d/algocash-sdk-1.3.0.tar.gz
+[2023-07-13 01:27:24] INFO root fetch - processPackages [pyGitInfo]: executing diffoscope
+[2023-07-13 01:27:24] INFO root fetch - processPackages [pyGitInfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyGitInfo-0.0.2.tar.gz tmp/pyGitInfo-0.0.3.tar.gz --markdown 20230713/p/pyGitInfo/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-13 01:27:24] INFO root fetch - processPackages [algocash-sdk]: executing diffoscope
+[2023-07-13 01:27:24] INFO root fetch - processPackages [algocash-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algocash-sdk-1.2.0.tar.gz tmp/algocash-sdk-1.3.0.tar.gz --markdown 20230713/a/algocash-sdk/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-13 01:27:24] INFO root fetch - processPackages [vivarium]: Downloading https://files.pythonhosted.org/packages/f7/22/01827bba9936a71bc7bc346c1fd3d3e344ad106f2ba4595d108d69c176f1/vivarium-1.2.1.tar.gz
+[2023-07-13 01:27:24] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/ba/a5/2a7580020b4c5bf7a2141ea9a534e88935a103da4dff30a205e4afdfb95d/pulumi-3.9.1-py2.py3-none-any.whl
+[2023-07-13 01:27:24] INFO root fetch - processPackages [dequeai]: executing diffoscope
+[2023-07-13 01:27:24] INFO root fetch - processPackages [dequeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dequeai-0.8128.tar.gz tmp/dequeai-0.8228.tar.gz --markdown 20230713/d/dequeai/0.8128-0.8228/diff.md --exclude *.pyd
+[2023-07-13 01:27:24] INFO root fetch - processPackages [terrascope-api]: executing diffoscope
+[2023-07-13 01:27:24] INFO root fetch - processPackages [terrascope-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrascope-api-1.0.4.tar.gz tmp/terrascope-api-1.0.5.tar.gz --markdown 20230713/t/terrascope-api/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-13 01:27:24] INFO root fetch - processPackages [vivarium]: executing diffoscope
+[2023-07-13 01:27:24] INFO root fetch - processPackages [vivarium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vivarium-1.2.0.tar.gz tmp/vivarium-1.2.1.tar.gz --markdown 20230713/v/vivarium/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-13 01:27:24] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2023-07-13 01:27:24] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.9.0a1627480147-py2.py3-none-any.whl.zip tmp/pulumi-3.9.1-py2.py3-none-any.whl.zip --markdown 20230713/p/pulumi/3.9.0a1627480147-3.9.1/diff.md --exclude *.pyd
+[2023-07-13 01:27:25] INFO root fetch - processPackages [pyGitInfo]: Remove: archive file [/home/abi/fetcher/tmp/pyGitInfo-0.0.2.tar.gz]
+[2023-07-13 01:27:25] INFO root fetch - processPackages [pyGitInfo]: Remove: archive file [/home/abi/fetcher/tmp/pyGitInfo-0.0.3.tar.gz]
+[2023-07-13 01:27:25] INFO root fetch - main [MainThread]: End processing [pyGitInfo]: success
+[2023-07-13 01:27:25] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.8.1.tar.gz]
+[2023-07-13 01:27:25] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.9.0.tar.gz]
+[2023-07-13 01:27:25] INFO root fetch - main [MainThread]: End processing [honeybee-core]: success
+[2023-07-13 01:27:25] INFO root fetch - processPackages [algocash-sdk]: Remove: archive file [/home/abi/fetcher/tmp/algocash-sdk-1.2.0.tar.gz]
+[2023-07-13 01:27:25] INFO root fetch - processPackages [algocash-sdk]: Remove: archive file [/home/abi/fetcher/tmp/algocash-sdk-1.3.0.tar.gz]
+[2023-07-13 01:27:25] INFO root fetch - main [MainThread]: End processing [algocash-sdk]: success
+[2023-07-13 01:27:25] INFO root fetch - processPackages [dequeai]: Remove: archive file [/home/abi/fetcher/tmp/dequeai-0.8128.tar.gz]
+[2023-07-13 01:27:25] INFO root fetch - processPackages [dequeai]: Remove: archive file [/home/abi/fetcher/tmp/dequeai-0.8228.tar.gz]
+[2023-07-13 01:27:25] INFO root fetch - main [MainThread]: End processing [dequeai]: success
+[2023-07-13 01:27:25] INFO root fetch - processPackages [terrascope-api]: Remove: archive file [/home/abi/fetcher/tmp/terrascope-api-1.0.4.tar.gz]
+[2023-07-13 01:27:25] INFO root fetch - processPackages [terrascope-api]: Remove: archive file [/home/abi/fetcher/tmp/terrascope-api-1.0.5.tar.gz]
+[2023-07-13 01:27:25] INFO root fetch - main [MainThread]: End processing [terrascope-api]: success
+[2023-07-13 01:27:26] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.9.0a1627480147-py2.py3-none-any.whl.zip]
+[2023-07-13 01:27:26] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.9.1-py2.py3-none-any.whl.zip]
+[2023-07-13 01:27:26] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2023-07-13 01:27:26] INFO root fetch - processPackages [vivarium]: Remove: archive file [/home/abi/fetcher/tmp/vivarium-1.2.0.tar.gz]
+[2023-07-13 01:27:26] INFO root fetch - processPackages [vivarium]: Remove: archive file [/home/abi/fetcher/tmp/vivarium-1.2.1.tar.gz]
+[2023-07-13 01:27:26] INFO root fetch - main [MainThread]: End processing [vivarium]: success
+[2023-07-13 01:27:26] INFO root fetch - main [MainThread]: Store serial: [18867085]
