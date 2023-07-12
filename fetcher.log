@@ -1516,3 +1516,63 @@
 [2023-07-13 01:11:52] INFO root fetch - processPackages [trio]: Remove: archive file [/home/abi/fetcher/tmp/trio-0.9.0.tar.gz]
 [2023-07-13 01:11:52] INFO root fetch - main [MainThread]: End processing [trio]: success
 [2023-07-13 01:11:52] INFO root fetch - main [MainThread]: Store serial: [18867012]
+[2023-07-13 01:16:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18867012]
+[2023-07-13 01:17:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-13 01:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyGitInfo
+[2023-07-13 01:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yiddish
+[2023-07-13 01:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: intecomm-form-validators
+[2023-07-13 01:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DeepCell
+[2023-07-13 01:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DeepCell-CPU
+[2023-07-13 01:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyogmios
+[2023-07-13 01:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: elemeno-ai-sdk
+[2023-07-13 01:17:01] INFO root fetch - processPackages [DeepCell-CPU]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-13 01:17:01] INFO root fetch - processPackages [intecomm-form-validators]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-13 01:17:01] WARNING root fetch - processPackages [pyGitInfo]: Skipping, unable to determine old version
+[2023-07-13 01:17:01] INFO root fetch - main [MainThread]: End processing [pyGitInfo] error
+[2023-07-13 01:17:01] INFO root fetch - processPackages [yiddish]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 01:17:01] INFO root fetch - processPackages [pyogmios]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-07-13 01:17:01] INFO root fetch - processPackages [DeepCell]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-13 01:17:01] INFO root fetch - processPackages [elemeno-ai-sdk]: New version: [0.5.4] Old Version: [0.4.9]
+[2023-07-13 01:17:01] INFO root fetch - processPackages [yiddish]: Downloading https://files.pythonhosted.org/packages/e1/92/e5e79d279e6096a731b9e577c79fcec12f8cff32ca03405e78dc8341caf6/yiddish-0.0.8.tar.gz
+[2023-07-13 01:17:01] INFO root fetch - processPackages [DeepCell-CPU]: Downloading https://files.pythonhosted.org/packages/96/db/4be00ccb70aaea892930494906c108a50f4636ff280bf4314cf763cd7e6f/DeepCell-CPU-0.9.1.tar.gz
+[2023-07-13 01:17:01] INFO root fetch - processPackages [DeepCell]: Downloading https://files.pythonhosted.org/packages/ba/64/8de651b47dc588cd018a1a92e3c88f9b00e289256d8a146272e7a8f664d1/DeepCell-0.9.1.tar.gz
+[2023-07-13 01:17:01] INFO root fetch - processPackages [intecomm-form-validators]: Downloading https://files.pythonhosted.org/packages/19/e9/26d572e63c08a9513b13571870a97c28d2bf542993480376e37c828c564b/intecomm-form-validators-0.1.8.tar.gz
+[2023-07-13 01:17:01] INFO root fetch - processPackages [elemeno-ai-sdk]: Downloading https://files.pythonhosted.org/packages/b0/14/dfcc11c7853f214a753be3ffe5eb31773090fcc7ec5bef38456972857110/elemeno_ai_sdk-0.4.9-py2.py3-none-any.whl
+[2023-07-13 01:17:01] INFO root fetch - processPackages [pyogmios]: Downloading https://files.pythonhosted.org/packages/5e/d3/63589829182b0388bde3a06ae0b18cd21a743c8c6de33751d6264ec67d95/pyogmios-0.7.2.tar.gz
+[2023-07-13 01:17:01] INFO root fetch - processPackages [yiddish]: Downloading https://files.pythonhosted.org/packages/a7/df/8afd673ad88a4fb03ec9f3c03518cf6e246165f76be54944d0c981a9ff70/yiddish-0.0.9.tar.gz
+[2023-07-13 01:17:01] INFO root fetch - processPackages [yiddish]: executing diffoscope
+[2023-07-13 01:17:01] INFO root fetch - processPackages [yiddish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yiddish-0.0.8.tar.gz tmp/yiddish-0.0.9.tar.gz --markdown 20230713/y/yiddish/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 01:17:01] INFO root fetch - processPackages [intecomm-form-validators]: Downloading https://files.pythonhosted.org/packages/8d/9a/ba39b1b74dd7d50770da9d0b45563e555a5e19ba671fa21a047da9450cf3/intecomm-form-validators-0.1.9.tar.gz
+[2023-07-13 01:17:01] INFO root fetch - processPackages [DeepCell-CPU]: Downloading https://files.pythonhosted.org/packages/57/24/340a3b277d470949bafefa51c6bf486a4b3d91a80f3f45206d648ebd3283/DeepCell-CPU-0.9.2.tar.gz
+[2023-07-13 01:17:01] INFO root fetch - processPackages [DeepCell]: Downloading https://files.pythonhosted.org/packages/94/7c/ab25c6943324d6c8061f8ff9149f450bc03c26746d98401d7fdc1f3c2b72/DeepCell-0.9.2.tar.gz
+[2023-07-13 01:17:02] INFO root fetch - processPackages [pyogmios]: Downloading https://files.pythonhosted.org/packages/70/98/a80e25bdd254849d2af658053248702705c45c3241a4bef3757e2e626656/pyogmios-0.7.3.tar.gz
+[2023-07-13 01:17:02] INFO root fetch - processPackages [elemeno-ai-sdk]: Downloading https://files.pythonhosted.org/packages/98/d2/a483644463445d8bff35608ce55a1c829dcef374d2221a66cfa51f2ce35f/elemeno_ai_sdk-0.5.4-py2.py3-none-any.whl
+[2023-07-13 01:17:02] INFO root fetch - processPackages [intecomm-form-validators]: executing diffoscope
+[2023-07-13 01:17:02] INFO root fetch - processPackages [intecomm-form-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-form-validators-0.1.8.tar.gz tmp/intecomm-form-validators-0.1.9.tar.gz --markdown 20230713/i/intecomm-form-validators/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-13 01:17:02] INFO root fetch - processPackages [pyogmios]: executing diffoscope
+[2023-07-13 01:17:02] INFO root fetch - processPackages [pyogmios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyogmios-0.7.2.tar.gz tmp/pyogmios-0.7.3.tar.gz --markdown 20230713/p/pyogmios/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-07-13 01:17:02] INFO root fetch - processPackages [elemeno-ai-sdk]: executing diffoscope
+[2023-07-13 01:17:02] INFO root fetch - processPackages [elemeno-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elemeno_ai_sdk-0.4.9-py2.py3-none-any.whl.zip tmp/elemeno_ai_sdk-0.5.4-py2.py3-none-any.whl.zip --markdown 20230713/e/elemeno-ai-sdk/0.4.9-0.5.4/diff.md --exclude *.pyd
+[2023-07-13 01:17:02] INFO root fetch - processPackages [DeepCell]: executing diffoscope
+[2023-07-13 01:17:02] INFO root fetch - processPackages [DeepCell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeepCell-0.9.1.tar.gz tmp/DeepCell-0.9.2.tar.gz --markdown 20230713/D/DeepCell/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-13 01:17:02] INFO root fetch - processPackages [yiddish]: Remove: archive file [/home/abi/fetcher/tmp/yiddish-0.0.8.tar.gz]
+[2023-07-13 01:17:02] INFO root fetch - processPackages [yiddish]: Remove: archive file [/home/abi/fetcher/tmp/yiddish-0.0.9.tar.gz]
+[2023-07-13 01:17:02] INFO root fetch - main [MainThread]: End processing [yiddish]: success
+[2023-07-13 01:17:02] INFO root fetch - processPackages [DeepCell-CPU]: executing diffoscope
+[2023-07-13 01:17:02] INFO root fetch - processPackages [DeepCell-CPU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeepCell-CPU-0.9.1.tar.gz tmp/DeepCell-CPU-0.9.2.tar.gz --markdown 20230713/D/DeepCell-CPU/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-13 01:17:03] INFO root fetch - processPackages [intecomm-form-validators]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-form-validators-0.1.8.tar.gz]
+[2023-07-13 01:17:03] INFO root fetch - processPackages [intecomm-form-validators]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-form-validators-0.1.9.tar.gz]
+[2023-07-13 01:17:03] INFO root fetch - main [MainThread]: End processing [intecomm-form-validators]: success
+[2023-07-13 01:17:03] INFO root fetch - processPackages [pyogmios]: Remove: archive file [/home/abi/fetcher/tmp/pyogmios-0.7.2.tar.gz]
+[2023-07-13 01:17:03] INFO root fetch - processPackages [pyogmios]: Remove: archive file [/home/abi/fetcher/tmp/pyogmios-0.7.3.tar.gz]
+[2023-07-13 01:17:03] INFO root fetch - main [MainThread]: End processing [pyogmios]: success
+[2023-07-13 01:17:03] INFO root fetch - processPackages [elemeno-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/elemeno_ai_sdk-0.4.9-py2.py3-none-any.whl.zip]
+[2023-07-13 01:17:03] INFO root fetch - processPackages [elemeno-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/elemeno_ai_sdk-0.5.4-py2.py3-none-any.whl.zip]
+[2023-07-13 01:17:03] INFO root fetch - main [MainThread]: End processing [elemeno-ai-sdk]: success
+[2023-07-13 01:17:03] INFO root fetch - processPackages [DeepCell]: Remove: archive file [/home/abi/fetcher/tmp/DeepCell-0.9.1.tar.gz]
+[2023-07-13 01:17:03] INFO root fetch - processPackages [DeepCell]: Remove: archive file [/home/abi/fetcher/tmp/DeepCell-0.9.2.tar.gz]
+[2023-07-13 01:17:03] INFO root fetch - main [MainThread]: End processing [DeepCell]: success
+[2023-07-13 01:17:04] INFO root fetch - processPackages [DeepCell-CPU]: Remove: archive file [/home/abi/fetcher/tmp/DeepCell-CPU-0.9.1.tar.gz]
+[2023-07-13 01:17:04] INFO root fetch - processPackages [DeepCell-CPU]: Remove: archive file [/home/abi/fetcher/tmp/DeepCell-CPU-0.9.2.tar.gz]
+[2023-07-13 01:17:04] INFO root fetch - main [MainThread]: End processing [DeepCell-CPU]: success
+[2023-07-13 01:17:04] INFO root fetch - main [MainThread]: Store serial: [18867031]
