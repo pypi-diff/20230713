@@ -618,3 +618,93 @@
 [2023-07-13 00:27:41] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.7.0b9.tar.gz]
 [2023-07-13 00:27:41] INFO root fetch - main [MainThread]: End processing [tecton]: success
 [2023-07-13 00:27:41] INFO root fetch - main [MainThread]: Store serial: [18866667]
+[2023-07-13 00:32:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18866667]
+[2023-07-13 00:32:52] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-13 00:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cuquantum
+[2023-07-13 00:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kirkwoodnight
+[2023-07-13 00:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zylo
+[2023-07-13 00:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simpleworkspace
+[2023-07-13 00:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cuquantum-python-cu11
+[2023-07-13 00:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: peptacular
+[2023-07-13 00:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: IMSmartFinderNinja
+[2023-07-13 00:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: parimutuelsdk
+[2023-07-13 00:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: better-rich-prompts
+[2023-07-13 00:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ni-measurementlink-service
+[2023-07-13 00:32:52] INFO root fetch - processPackages [peptacular]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-13 00:32:52] INFO root fetch - processPackages [kirkwoodnight]: New version: [0.9] Old Version: [0.8]
+[2023-07-13 00:32:52] INFO root fetch - processPackages [zylo]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-13 00:32:52] WARNING root fetch - processPackages [better-rich-prompts]: Skipping, unable to determine old version
+[2023-07-13 00:32:52] INFO root fetch - processPackages [better-rich-prompts]: Start processing: ni-measurementlink-generator
+[2023-07-13 00:32:52] INFO root fetch - main [MainThread]: End processing [better-rich-prompts] error
+[2023-07-13 00:32:52] INFO root fetch - processPackages [cuquantum]: New version: [23.6.0] Old Version: [23.3.0]
+[2023-07-13 00:32:52] INFO root fetch - processPackages [cuquantum-python-cu11]: New version: [23.6.0] Old Version: [23.3.0]
+[2023-07-13 00:32:52] INFO root fetch - processPackages [simpleworkspace]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-13 00:32:52] WARNING root fetch - processPackages [IMSmartFinderNinja]: Skipping, unable to determine old version
+[2023-07-13 00:32:52] INFO root fetch - main [MainThread]: End processing [IMSmartFinderNinja] error
+[2023-07-13 00:32:52] INFO root fetch - processPackages [parimutuelsdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-13 00:32:52] INFO root fetch - processPackages [ni-measurementlink-service]: New version: [1.1.0.dev2] Old Version: [1.1.0.dev1]
+[2023-07-13 00:32:52] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/f6/4f/2281366c87c719dc22a92e26786e51e014b831234f2b10a111e39410dcd7/SimpleWorkspace-1.1.98-py3-none-any.whl
+[2023-07-13 00:32:52] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/4a/cb/0933d24e41275b672f193d2903cf8bf47f4161c7a6575b8a40bd929b95f4/kirkwoodnight-0.8.tar.gz
+[2023-07-13 00:32:52] INFO root fetch - processPackages [ni-measurementlink-generator]: New version: [1.1.0.dev2] Old Version: [1.1.0.dev1]
+[2023-07-13 00:32:52] INFO root fetch - processPackages [cuquantum]: Downloading https://files.pythonhosted.org/packages/dc/c7/36f2c926357a9328a289c3b3473054af0383174f91d7a5a420b0de75893b/cuquantum-23.3.0.tar.gz
+[2023-07-13 00:32:52] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/d5/76/66eac38bcbc5717b88bf2cbd317b8173de0042c4aad3a7b796decdf87727/zylo-1.0.5.tar.gz
+[2023-07-13 00:32:52] INFO root fetch - processPackages [peptacular]: Downloading https://files.pythonhosted.org/packages/c4/5b/005b0cbe6c95534274b88c388ba71811762832cba9794b02f5d2abf991c8/peptacular-0.0.6.tar.gz
+[2023-07-13 00:32:52] INFO root fetch - processPackages [cuquantum-python-cu11]: Downloading https://files.pythonhosted.org/packages/26/4f/d25af80385178ed44f8638f4c64ab1fca6d433706a8371afeaed88168d1d/cuquantum_python_cu11-23.3.0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-13 00:32:53] INFO root fetch - processPackages [parimutuelsdk]: Downloading https://files.pythonhosted.org/packages/4e/f2/e1b32f69a7118107aa007cc734f0f02f0928a4f8e75ced8c3dbec49131f2/parimutuelsdk-0.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-13 00:32:53] INFO root fetch - processPackages [ni-measurementlink-service]: Downloading https://files.pythonhosted.org/packages/12/5a/63b5b7a08112dd87d080622f0bb7044b954670f32d931db7c630e40938db/ni_measurementlink_service-1.1.0.dev1.tar.gz
+[2023-07-13 00:32:53] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/73/68/b37fd075b3b8cd9981a642f7ec1d4ddc9da08d49a99a6ea20c75731aca9e/SimpleWorkspace-1.1.99-py3-none-any.whl
+[2023-07-13 00:32:53] INFO root fetch - processPackages [ni-measurementlink-generator]: Downloading https://files.pythonhosted.org/packages/b4/99/7cca436d6f45ba067a29f15b05180e7157886d5f8462d16032a3c6476c40/ni_measurementlink_generator-1.1.0.dev1.tar.gz
+[2023-07-13 00:32:53] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2023-07-13 00:32:53] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip --markdown 20230713/s/simpleworkspace/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-13 00:32:53] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/5a/b4/abd96eed36aeffb05ae82d4794e899fa981003504fa9c6901cda4f3ad185/zylo-1.0.6.tar.gz
+[2023-07-13 00:32:53] INFO root fetch - processPackages [peptacular]: Downloading https://files.pythonhosted.org/packages/24/50/564a3677f436f08a9dc6eb952f25fbbf1a317770050dcafe82d06020086e/peptacular-0.0.7.tar.gz
+[2023-07-13 00:32:53] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/fd/3d/35fd8910d194077812106943bc1bc53542eb2b97ae4f68449a446bc15056/kirkwoodnight-0.9.tar.gz
+[2023-07-13 00:32:53] INFO root fetch - processPackages [cuquantum]: Downloading https://files.pythonhosted.org/packages/6e/cd/00ab5a3a6c61e839048a544fe8ae5d39442788d421e7933cb99dd90fb646/cuquantum-23.6.0.tar.gz
+[2023-07-13 00:32:53] INFO root fetch - processPackages [zylo]: executing diffoscope
+[2023-07-13 00:32:53] INFO root fetch - processPackages [zylo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zylo-1.0.5.tar.gz tmp/zylo-1.0.6.tar.gz --markdown 20230713/z/zylo/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-13 00:32:53] INFO root fetch - processPackages [peptacular]: executing diffoscope
+[2023-07-13 00:32:53] INFO root fetch - processPackages [peptacular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peptacular-0.0.6.tar.gz tmp/peptacular-0.0.7.tar.gz --markdown 20230713/p/peptacular/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-13 00:32:53] INFO root fetch - processPackages [cuquantum]: executing diffoscope
+[2023-07-13 00:32:53] INFO root fetch - processPackages [cuquantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuquantum-23.3.0.tar.gz tmp/cuquantum-23.6.0.tar.gz --markdown 20230713/c/cuquantum/23.3.0-23.6.0/diff.md --exclude *.pyd
+[2023-07-13 00:32:53] INFO root fetch - processPackages [kirkwoodnight]: executing diffoscope
+[2023-07-13 00:32:53] INFO root fetch - processPackages [kirkwoodnight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirkwoodnight-0.8.tar.gz tmp/kirkwoodnight-0.9.tar.gz --markdown 20230713/k/kirkwoodnight/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-13 00:32:53] INFO root fetch - processPackages [ni-measurementlink-service]: Downloading https://files.pythonhosted.org/packages/a9/6f/1dd0670bca3a871bf557c2f1b7a0a06d81d0a86ae09553520ef4bb744971/ni_measurementlink_service-1.1.0.dev2.tar.gz
+[2023-07-13 00:32:53] INFO root fetch - processPackages [ni-measurementlink-generator]: Downloading https://files.pythonhosted.org/packages/d9/f4/4fdb2105a2a5c4318f8fd9706b47d3816ef0dc77fb9cc7afebba16ff3d9c/ni_measurementlink_generator-1.1.0.dev2.tar.gz
+[2023-07-13 00:32:53] INFO root fetch - processPackages [ni-measurementlink-service]: executing diffoscope
+[2023-07-13 00:32:53] INFO root fetch - processPackages [ni-measurementlink-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ni_measurementlink_service-1.1.0.dev1.tar.gz tmp/ni_measurementlink_service-1.1.0.dev2.tar.gz --markdown 20230713/n/ni-measurementlink-service/1.1.0.dev1-1.1.0.dev2/diff.md --exclude *.pyd
+[2023-07-13 00:32:53] INFO root fetch - processPackages [cuquantum-python-cu11]: Downloading https://files.pythonhosted.org/packages/7d/f3/55ee9e6f56237733e634da7b1d423141a993c68820dbe2cb8867c50b77a6/cuquantum_python_cu11-23.6.0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-13 00:32:53] INFO root fetch - processPackages [ni-measurementlink-generator]: executing diffoscope
+[2023-07-13 00:32:53] INFO root fetch - processPackages [ni-measurementlink-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ni_measurementlink_generator-1.1.0.dev1.tar.gz tmp/ni_measurementlink_generator-1.1.0.dev2.tar.gz --markdown 20230713/n/ni-measurementlink-generator/1.1.0.dev1-1.1.0.dev2/diff.md --exclude *.pyd
+[2023-07-13 00:32:53] INFO root fetch - processPackages [cuquantum-python-cu11]: executing diffoscope
+[2023-07-13 00:32:53] INFO root fetch - processPackages [cuquantum-python-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuquantum_python_cu11-23.3.0-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/cuquantum_python_cu11-23.6.0-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230713/c/cuquantum-python-cu11/23.3.0-23.6.0/diff.md --exclude *.pyd
+[2023-07-13 00:32:54] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-1.0.5.tar.gz]
+[2023-07-13 00:32:54] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-1.0.6.tar.gz]
+[2023-07-13 00:32:54] INFO root fetch - main [MainThread]: End processing [zylo]: success
+[2023-07-13 00:32:54] INFO root fetch - processPackages [peptacular]: Remove: archive file [/home/abi/fetcher/tmp/peptacular-0.0.6.tar.gz]
+[2023-07-13 00:32:54] INFO root fetch - processPackages [peptacular]: Remove: archive file [/home/abi/fetcher/tmp/peptacular-0.0.7.tar.gz]
+[2023-07-13 00:32:54] INFO root fetch - main [MainThread]: End processing [peptacular]: success
+[2023-07-13 00:32:54] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip]
+[2023-07-13 00:32:54] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip]
+[2023-07-13 00:32:54] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2023-07-13 00:32:54] INFO root fetch - processPackages [cuquantum]: Remove: archive file [/home/abi/fetcher/tmp/cuquantum-23.3.0.tar.gz]
+[2023-07-13 00:32:54] INFO root fetch - processPackages [cuquantum]: Remove: archive file [/home/abi/fetcher/tmp/cuquantum-23.6.0.tar.gz]
+[2023-07-13 00:32:54] INFO root fetch - main [MainThread]: End processing [cuquantum]: success
+[2023-07-13 00:32:54] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.8.tar.gz]
+[2023-07-13 00:32:54] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.9.tar.gz]
+[2023-07-13 00:32:54] INFO root fetch - main [MainThread]: End processing [kirkwoodnight]: success
+[2023-07-13 00:32:54] INFO root fetch - processPackages [ni-measurementlink-generator]: Remove: archive file [/home/abi/fetcher/tmp/ni_measurementlink_generator-1.1.0.dev1.tar.gz]
+[2023-07-13 00:32:54] INFO root fetch - processPackages [ni-measurementlink-generator]: Remove: archive file [/home/abi/fetcher/tmp/ni_measurementlink_generator-1.1.0.dev2.tar.gz]
+[2023-07-13 00:32:54] INFO root fetch - main [MainThread]: End processing [ni-measurementlink-generator]: success
+[2023-07-13 00:32:55] INFO root fetch - processPackages [ni-measurementlink-service]: Remove: archive file [/home/abi/fetcher/tmp/ni_measurementlink_service-1.1.0.dev1.tar.gz]
+[2023-07-13 00:32:55] INFO root fetch - processPackages [ni-measurementlink-service]: Remove: archive file [/home/abi/fetcher/tmp/ni_measurementlink_service-1.1.0.dev2.tar.gz]
+[2023-07-13 00:32:55] INFO root fetch - main [MainThread]: End processing [ni-measurementlink-service]: success
+[2023-07-13 00:32:55] INFO root fetch - processPackages [parimutuelsdk]: Downloading https://files.pythonhosted.org/packages/23/ef/2707aec42510ab602417b36d2b4431b3a59b107b90a9e7eb9c28418be58a/parimutuelsdk-0.1.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-13 00:32:58] INFO root fetch - processPackages [parimutuelsdk]: executing diffoscope
+[2023-07-13 00:32:58] INFO root fetch - processPackages [parimutuelsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parimutuelsdk-0.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/parimutuelsdk-0.1.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230713/p/parimutuelsdk/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-13 00:33:12] INFO root fetch - processPackages [cuquantum-python-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cuquantum_python_cu11-23.3.0-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-13 00:33:12] INFO root fetch - processPackages [cuquantum-python-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cuquantum_python_cu11-23.6.0-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-13 00:33:12] INFO root fetch - main [MainThread]: End processing [cuquantum-python-cu11]: success
+[2023-07-13 00:33:44] INFO root fetch - processPackages [parimutuelsdk]: Remove: archive file [/home/abi/fetcher/tmp/parimutuelsdk-0.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-13 00:33:44] INFO root fetch - processPackages [parimutuelsdk]: Remove: archive file [/home/abi/fetcher/tmp/parimutuelsdk-0.1.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-13 00:33:44] INFO root fetch - main [MainThread]: End processing [parimutuelsdk]: success
+[2023-07-13 00:33:44] INFO root fetch - main [MainThread]: Store serial: [18866712]
