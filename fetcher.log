@@ -1348,3 +1348,105 @@
 [2023-07-13 01:01:27] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.7.0b1.tar.gz]
 [2023-07-13 01:01:27] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2023-07-13 01:01:27] INFO root fetch - main [MainThread]: Store serial: [18866961]
+[2023-07-13 01:06:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18866961]
+[2023-07-13 01:06:36] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-13 01:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: es_client
+[2023-07-13 01:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proteusPy
+[2023-07-13 01:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crypto-screening
+[2023-07-13 01:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt-cu101
+[2023-07-13 01:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coiled
+[2023-07-13 01:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flwr-nightly
+[2023-07-13 01:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tmnt
+[2023-07-13 01:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: janis-pipelines.runner
+[2023-07-13 01:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pymulticore
+[2023-07-13 01:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spreadsheetbot
+[2023-07-13 01:06:36] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230711] Old Version: [1.5.0.dev20230710]
+[2023-07-13 01:06:36] INFO root fetch - processPackages [proteusPy]: New version: [0.74b0] Old Version: [0.74]
+[2023-07-13 01:06:36] INFO root fetch - processPackages [crypto-screening]: New version: [2.8.1] Old Version: [2.8.0]
+[2023-07-13 01:06:36] INFO root fetch - processPackages [pymulticore]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-13 01:06:36] INFO root fetch - processPackages [spreadsheetbot]: New version: [2.2.0] Old Version: [2.1.2]
+[2023-07-13 01:06:36] INFO root fetch - processPackages [es_client]: New version: [8.8.2] Old Version: [8.7.0]
+[2023-07-13 01:06:36] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230712] Old Version: [0.7.0b20230711]
+[2023-07-13 01:06:36] INFO root fetch - processPackages [coiled]: New version: [0.8.8.dev5] Old Version: [0.8.8.dev4]
+[2023-07-13 01:06:36] INFO root fetch - processPackages [janis-pipelines.runner]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-13 01:06:36] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230712] Old Version: [0.7.0b20230711]
+[2023-07-13 01:06:36] INFO root fetch - processPackages [pymulticore]: Downloading https://files.pythonhosted.org/packages/54/8e/386701bea9c059b97d434e22bc02b538cb0c1ef8e6a51dca1fef9dc2ff3d/pymulticore-0.1.6.tar.gz
+[2023-07-13 01:06:36] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/45/f4/dfcab6b98397938bc10c7575a3e22983ea1244b7586ad256fdb428113986/flwr_nightly-1.5.0.dev20230710.tar.gz
+[2023-07-13 01:06:36] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/13/f8/bdbe88310cfab41ce9bca049fd512888cac74697657064cdef95adaa7a30/crypto-screening-2.8.0.tar.gz
+[2023-07-13 01:06:36] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/4c/d5/7105bc96704c7f92e18ca29e28f3917ab22b07924c603c32d56bc5372e38/tmnt-cu101-0.7.0b20230711.tar.gz
+[2023-07-13 01:06:36] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/f0/b9/22e9d8072bb6f8b83474530e75bef06b990c6096abdfb38922f6ed355599/tmnt-0.7.0b20230711.tar.gz
+[2023-07-13 01:06:36] INFO root fetch - processPackages [proteusPy]: Downloading https://files.pythonhosted.org/packages/6a/7f/b5d3067639d5233d72aa4eabc103c676ad841f1e90e97bbf5e76514e9f8b/proteusPy-0.74.tar.gz
+[2023-07-13 01:06:36] INFO root fetch - processPackages [es_client]: Downloading https://files.pythonhosted.org/packages/11/da/9045c8ed43cc829cd1b2a3bebfdd47237d53bac037d88ce3f6a07064182e/es_client-8.7.0.tar.gz
+[2023-07-13 01:06:36] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/11/07/0db29d904b6e1d782ccc2cb6c865b4ade7046befb4e3aed7c5e705782035/coiled-0.8.8.dev4.tar.gz
+[2023-07-13 01:06:37] INFO root fetch - processPackages [spreadsheetbot]: Downloading https://files.pythonhosted.org/packages/9f/1c/240d14403003293fab3bfb97c3710f88f6691326a54970aa2ce7f5263a49/spreadsheetbot-2.1.2.tar.gz
+[2023-07-13 01:06:37] INFO root fetch - processPackages [janis-pipelines.runner]: Downloading https://files.pythonhosted.org/packages/65/47/22965d52b079dac70e4924bc7231f81f79ddaa1e477acf4d8d508079de47/janis-pipelines.runner-0.9.8.tar.gz
+[2023-07-13 01:06:37] INFO root fetch - processPackages [pymulticore]: Downloading https://files.pythonhosted.org/packages/65/8c/8afbf4d3fcf06f6775af7e216c566692738e6e9f5505ab98a40f671b26e9/pymulticore-0.1.7.tar.gz
+[2023-07-13 01:06:37] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/cb/ca/dbb524375e8bcc8d68824fdc2c14904fbfca7893b75c21580d5a7c642ba4/crypto-screening-2.8.1.tar.gz
+[2023-07-13 01:06:37] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/d9/3f/c7bc579463e357d16e51195ca07cb7f0f93420d8ac2ef52db1f8f15ea42a/flwr_nightly-1.5.0.dev20230711.tar.gz
+[2023-07-13 01:06:37] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/a1/52/9f36518c97853afa91fcc016a005b7c6ceb4aaa442da472fab956004de7d/tmnt-cu101-0.7.0b20230712.tar.gz
+[2023-07-13 01:06:37] INFO root fetch - processPackages [pymulticore]: executing diffoscope
+[2023-07-13 01:06:37] INFO root fetch - processPackages [pymulticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymulticore-0.1.6.tar.gz tmp/pymulticore-0.1.7.tar.gz --markdown 20230713/p/pymulticore/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-13 01:06:37] INFO root fetch - processPackages [es_client]: Downloading https://files.pythonhosted.org/packages/23/67/0c99e59437d7d1188f1ceae714d0e121ba435186993915e876e7efd07253/es_client-8.8.2.tar.gz
+[2023-07-13 01:06:37] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/c2/36/d3280db7c42d8129263408a3f396af4639164500ff0eedd1f5f164ffad77/coiled-0.8.8.dev5.tar.gz
+[2023-07-13 01:06:37] INFO root fetch - processPackages [proteusPy]: Downloading https://files.pythonhosted.org/packages/3f/aa/72e23f9e5e1af71838712c933be8b11ba33d2a29136706470b8071ed813b/proteusPy-0.74b0.tar.gz
+[2023-07-13 01:06:37] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/c4/cd/ab9bdf1c7a7e207170477d93095704de7329c417d16249653d300b520692/tmnt-0.7.0b20230712.tar.gz
+[2023-07-13 01:06:37] INFO root fetch - processPackages [spreadsheetbot]: Downloading https://files.pythonhosted.org/packages/6b/dd/f90487f61c0ecd8f2de670a8c4dcdfd313836511dd7e389cbec181d3acc1/spreadsheetbot-2.2.0.tar.gz
+[2023-07-13 01:06:37] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-13 01:06:37] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-2.8.0.tar.gz tmp/crypto-screening-2.8.1.tar.gz --markdown 20230713/c/crypto-screening/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2023-07-13 01:06:37] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-07-13 01:06:37] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230710.tar.gz tmp/flwr_nightly-1.5.0.dev20230711.tar.gz --markdown 20230713/f/flwr-nightly/1.5.0.dev20230710-1.5.0.dev20230711/diff.md --exclude *.pyd
+[2023-07-13 01:06:37] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-07-13 01:06:37] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230711.tar.gz tmp/tmnt-cu101-0.7.0b20230712.tar.gz --markdown 20230713/t/tmnt-cu101/0.7.0b20230711-0.7.0b20230712/diff.md --exclude *.pyd
+[2023-07-13 01:06:37] INFO root fetch - processPackages [es_client]: executing diffoscope
+[2023-07-13 01:06:37] INFO root fetch - processPackages [es_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es_client-8.7.0.tar.gz tmp/es_client-8.8.2.tar.gz --markdown 20230713/e/es_client/8.7.0-8.8.2/diff.md --exclude *.pyd
+[2023-07-13 01:06:37] INFO root fetch - processPackages [spreadsheetbot]: executing diffoscope
+[2023-07-13 01:06:37] INFO root fetch - processPackages [spreadsheetbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spreadsheetbot-2.1.2.tar.gz tmp/spreadsheetbot-2.2.0.tar.gz --markdown 20230713/s/spreadsheetbot/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2023-07-13 01:06:37] INFO root fetch - processPackages [janis-pipelines.runner]: Downloading https://files.pythonhosted.org/packages/c5/02/b7df19f2aaf2921f6249b5c1339c0706048eab057361079f627b644f0331/janis-pipelines.runner-0.9.9.tar.gz
+[2023-07-13 01:06:37] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-13 01:06:37] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.8.dev4.tar.gz tmp/coiled-0.8.8.dev5.tar.gz --markdown 20230713/c/coiled/0.8.8.dev4-0.8.8.dev5/diff.md --exclude *.pyd
+[2023-07-13 01:06:37] INFO root fetch - processPackages [proteusPy]: executing diffoscope
+[2023-07-13 01:06:37] INFO root fetch - processPackages [proteusPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteusPy-0.74.tar.gz tmp/proteusPy-0.74b0.tar.gz --markdown 20230713/p/proteusPy/0.74-0.74b0/diff.md --exclude *.pyd
+[2023-07-13 01:06:37] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-07-13 01:06:37] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230711.tar.gz tmp/tmnt-0.7.0b20230712.tar.gz --markdown 20230713/t/tmnt/0.7.0b20230711-0.7.0b20230712/diff.md --exclude *.pyd
+[2023-07-13 01:06:38] INFO root fetch - processPackages [janis-pipelines.runner]: executing diffoscope
+[2023-07-13 01:06:38] INFO root fetch - processPackages [janis-pipelines.runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janis-pipelines.runner-0.9.8.tar.gz tmp/janis-pipelines.runner-0.9.9.tar.gz --markdown 20230713/j/janis-pipelines.runner/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-13 01:06:38] INFO root fetch - processPackages [pymulticore]: Remove: archive file [/home/abi/fetcher/tmp/pymulticore-0.1.6.tar.gz]
+[2023-07-13 01:06:38] INFO root fetch - processPackages [pymulticore]: Remove: archive file [/home/abi/fetcher/tmp/pymulticore-0.1.7.tar.gz]
+[2023-07-13 01:06:38] INFO root fetch - processPackages [pymulticore]: Start processing: lktbotfb
+[2023-07-13 01:06:38] INFO root fetch - main [MainThread]: End processing [pymulticore]: success
+[2023-07-13 01:06:39] INFO root fetch - processPackages [lktbotfb]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-13 01:06:39] INFO root fetch - processPackages [lktbotfb]: Downloading https://files.pythonhosted.org/packages/87/71/a42b768ae8a9990b28ec8875c98917f50a48b4171e1cd3ac9bc1918d23c0/lktbotfb-0.3.5.tar.gz
+[2023-07-13 01:06:39] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.8.0.tar.gz]
+[2023-07-13 01:06:39] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.8.1.tar.gz]
+[2023-07-13 01:06:39] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-13 01:06:39] INFO root fetch - processPackages [spreadsheetbot]: Remove: archive file [/home/abi/fetcher/tmp/spreadsheetbot-2.1.2.tar.gz]
+[2023-07-13 01:06:39] INFO root fetch - processPackages [spreadsheetbot]: Remove: archive file [/home/abi/fetcher/tmp/spreadsheetbot-2.2.0.tar.gz]
+[2023-07-13 01:06:39] INFO root fetch - main [MainThread]: End processing [spreadsheetbot]: success
+[2023-07-13 01:06:39] INFO root fetch - processPackages [es_client]: Remove: archive file [/home/abi/fetcher/tmp/es_client-8.7.0.tar.gz]
+[2023-07-13 01:06:39] INFO root fetch - processPackages [es_client]: Remove: archive file [/home/abi/fetcher/tmp/es_client-8.8.2.tar.gz]
+[2023-07-13 01:06:39] INFO root fetch - main [MainThread]: End processing [es_client]: success
+[2023-07-13 01:06:39] INFO root fetch - processPackages [lktbotfb]: Downloading https://files.pythonhosted.org/packages/e6/5a/8c59aa7890366a195cfe715249fe8eb8865263b159f95341e5bf842e2a56/lktbotfb-0.3.6.tar.gz
+[2023-07-13 01:06:39] INFO root fetch - processPackages [proteusPy]: Remove: archive file [/home/abi/fetcher/tmp/proteusPy-0.74.tar.gz]
+[2023-07-13 01:06:39] INFO root fetch - processPackages [proteusPy]: Remove: archive file [/home/abi/fetcher/tmp/proteusPy-0.74b0.tar.gz]
+[2023-07-13 01:06:39] INFO root fetch - main [MainThread]: End processing [proteusPy]: success
+[2023-07-13 01:06:39] INFO root fetch - processPackages [lktbotfb]: executing diffoscope
+[2023-07-13 01:06:39] INFO root fetch - processPackages [lktbotfb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lktbotfb-0.3.5.tar.gz tmp/lktbotfb-0.3.6.tar.gz --markdown 20230713/l/lktbotfb/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-13 01:06:39] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230711.tar.gz]
+[2023-07-13 01:06:39] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230712.tar.gz]
+[2023-07-13 01:06:39] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230711.tar.gz]
+[2023-07-13 01:06:39] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-07-13 01:06:39] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230712.tar.gz]
+[2023-07-13 01:06:39] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-07-13 01:06:39] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.8.dev4.tar.gz]
+[2023-07-13 01:06:39] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.8.dev5.tar.gz]
+[2023-07-13 01:06:39] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-13 01:06:39] INFO root fetch - processPackages [janis-pipelines.runner]: Remove: archive file [/home/abi/fetcher/tmp/janis-pipelines.runner-0.9.8.tar.gz]
+[2023-07-13 01:06:39] INFO root fetch - processPackages [janis-pipelines.runner]: Remove: archive file [/home/abi/fetcher/tmp/janis-pipelines.runner-0.9.9.tar.gz]
+[2023-07-13 01:06:39] INFO root fetch - main [MainThread]: End processing [janis-pipelines.runner]: success
+[2023-07-13 01:06:39] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230710.tar.gz]
+[2023-07-13 01:06:39] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230711.tar.gz]
+[2023-07-13 01:06:39] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-07-13 01:06:40] INFO root fetch - processPackages [lktbotfb]: Remove: archive file [/home/abi/fetcher/tmp/lktbotfb-0.3.5.tar.gz]
+[2023-07-13 01:06:40] INFO root fetch - processPackages [lktbotfb]: Remove: archive file [/home/abi/fetcher/tmp/lktbotfb-0.3.6.tar.gz]
+[2023-07-13 01:06:40] INFO root fetch - main [MainThread]: End processing [lktbotfb]: success
+[2023-07-13 01:06:40] INFO root fetch - main [MainThread]: Store serial: [18866992]
