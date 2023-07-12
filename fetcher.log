@@ -2071,3 +2071,57 @@
 [2023-07-13 01:49:17] INFO root fetch - processPackages [chiapos]: Remove: archive file [/home/abi/fetcher/tmp/chiapos-2.0.0b4.tar.gz]
 [2023-07-13 01:49:17] INFO root fetch - main [MainThread]: End processing [chiapos]: success
 [2023-07-13 01:49:17] INFO root fetch - main [MainThread]: Store serial: [18867230]
+[2023-07-13 01:54:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18867230]
+[2023-07-13 01:54:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-13 01:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tootnotify
+[2023-07-13 01:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: banf
+[2023-07-13 01:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: threads-net
+[2023-07-13 01:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc-rx
+[2023-07-13 01:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: b2sim
+[2023-07-13 01:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytube-local-0712
+[2023-07-13 01:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dragonfly-radiance
+[2023-07-13 01:54:27] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-13 01:54:27] WARNING root fetch - processPackages [pytube-local-0712]: Skipping, unable to determine old version
+[2023-07-13 01:54:27] INFO root fetch - main [MainThread]: End processing [pytube-local-0712] error
+[2023-07-13 01:54:27] INFO root fetch - processPackages [b2sim]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-13 01:54:27] INFO root fetch - processPackages [edc-rx]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-13 01:54:27] WARNING root fetch - processPackages [tootnotify]: Skipping, unable to determine old version
+[2023-07-13 01:54:27] INFO root fetch - main [MainThread]: End processing [tootnotify] error
+[2023-07-13 01:54:27] INFO root fetch - processPackages [banf]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-13 01:54:27] INFO root fetch - processPackages [threads-net]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-13 01:54:27] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/dd/6c/7d5ffb363ba985b326d3b266d8eaea74bc6cc890eb733cc9e0cc127ccc55/dragonfly-radiance-0.2.8.tar.gz
+[2023-07-13 01:54:27] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/a4/85/77a4eebeb490d7bc45e60e6916c5ab10d190723c7ae4c5663b7b845f1035/b2sim-1.0.9.tar.gz
+[2023-07-13 01:54:27] INFO root fetch - processPackages [edc-rx]: Downloading https://files.pythonhosted.org/packages/ea/42/a5673d554157f5d1d1e5c498b7fab95b8187494583f97b7e99dd95d5f221/edc-rx-0.1.6.tar.gz
+[2023-07-13 01:54:27] INFO root fetch - processPackages [banf]: Downloading https://files.pythonhosted.org/packages/9d/2d/89c0394629c58b59de1e9fba62ade4421c190937a8f2733f2c306203384f/banf-0.0.5-py3-none-any.whl
+[2023-07-13 01:54:27] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/11/ba/483f4770d7c413aff80cfdfd96da75d50912f6604255f4a04d7e8448a5a1/threads-net-0.0.7.tar.gz
+[2023-07-13 01:54:27] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/e9/01/706de1a3d81bb520c7a73e10a084040d9e5f37ff57b7defd9715a2c4018e/dragonfly-radiance-0.2.9.tar.gz
+[2023-07-13 01:54:27] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/78/d7/2fc0e3a1395376cc23c08c830320d26a3c2207410d440f7ab51b3fc4b361/b2sim-1.1.0.tar.gz
+[2023-07-13 01:54:27] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-07-13 01:54:27] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.8.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230713/d/dragonfly-radiance/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-13 01:54:27] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/de/bd/e372c12fe307c562ec3785151d74201431eddd2312171d55b8ee4ac81db6/threads-net-0.0.8.tar.gz
+[2023-07-13 01:54:28] INFO root fetch - processPackages [b2sim]: executing diffoscope
+[2023-07-13 01:54:28] INFO root fetch - processPackages [b2sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2sim-1.0.9.tar.gz tmp/b2sim-1.1.0.tar.gz --markdown 20230713/b/b2sim/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-13 01:54:28] INFO root fetch - processPackages [edc-rx]: Downloading https://files.pythonhosted.org/packages/70/de/33c04e689f19e000d857ff1efa746fb21741c18a8cd8d12369b0f4bfe8fd/edc-rx-0.1.7.tar.gz
+[2023-07-13 01:54:28] INFO root fetch - processPackages [banf]: Downloading https://files.pythonhosted.org/packages/ed/82/6dcec446486c1c2b557110f89e67ac0ce59092025b4e972f7d8b2c8f7305/banf-0.0.6-py3-none-any.whl
+[2023-07-13 01:54:28] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-13 01:54:28] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.7.tar.gz tmp/threads-net-0.0.8.tar.gz --markdown 20230713/t/threads-net/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-13 01:54:28] INFO root fetch - processPackages [edc-rx]: executing diffoscope
+[2023-07-13 01:54:28] INFO root fetch - processPackages [edc-rx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-rx-0.1.6.tar.gz tmp/edc-rx-0.1.7.tar.gz --markdown 20230713/e/edc-rx/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-13 01:54:28] INFO root fetch - processPackages [banf]: executing diffoscope
+[2023-07-13 01:54:28] INFO root fetch - processPackages [banf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banf-0.0.5-py3-none-any.whl.zip tmp/banf-0.0.6-py3-none-any.whl.zip --markdown 20230713/b/banf/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-13 01:54:28] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.8.tar.gz]
+[2023-07-13 01:54:28] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.9.tar.gz]
+[2023-07-13 01:54:28] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-07-13 01:54:28] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-1.0.9.tar.gz]
+[2023-07-13 01:54:28] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-1.1.0.tar.gz]
+[2023-07-13 01:54:29] INFO root fetch - main [MainThread]: End processing [b2sim]: success
+[2023-07-13 01:54:29] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.7.tar.gz]
+[2023-07-13 01:54:29] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.8.tar.gz]
+[2023-07-13 01:54:29] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-13 01:54:29] INFO root fetch - processPackages [banf]: Remove: archive file [/home/abi/fetcher/tmp/banf-0.0.5-py3-none-any.whl.zip]
+[2023-07-13 01:54:29] INFO root fetch - processPackages [banf]: Remove: archive file [/home/abi/fetcher/tmp/banf-0.0.6-py3-none-any.whl.zip]
+[2023-07-13 01:54:29] INFO root fetch - main [MainThread]: End processing [banf]: success
+[2023-07-13 01:54:29] INFO root fetch - processPackages [edc-rx]: Remove: archive file [/home/abi/fetcher/tmp/edc-rx-0.1.6.tar.gz]
+[2023-07-13 01:54:29] INFO root fetch - processPackages [edc-rx]: Remove: archive file [/home/abi/fetcher/tmp/edc-rx-0.1.7.tar.gz]
+[2023-07-13 01:54:29] INFO root fetch - main [MainThread]: End processing [edc-rx]: success
+[2023-07-13 01:54:29] INFO root fetch - main [MainThread]: Store serial: [18867253]
