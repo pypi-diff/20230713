@@ -249,3 +249,81 @@
 [2023-07-13 00:06:09] INFO root fetch - processPackages [iambic-core]: Remove: archive file [/home/abi/fetcher/tmp/iambic_core-0.9.8.tar.gz]
 [2023-07-13 00:06:09] INFO root fetch - main [MainThread]: End processing [iambic-core]: success
 [2023-07-13 00:06:09] INFO root fetch - main [MainThread]: Store serial: [18866507]
+[2023-07-13 00:11:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18866507]
+[2023-07-13 00:11:18] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-13 00:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CADPR
+[2023-07-13 00:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ghfetch-pip
+[2023-07-13 00:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LTEpy
+[2023-07-13 00:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gandai
+[2023-07-13 00:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simpleworkspace
+[2023-07-13 00:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openid-whisperer
+[2023-07-13 00:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tiskit-py
+[2023-07-13 00:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zylo
+[2023-07-13 00:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: truss
+[2023-07-13 00:11:18] INFO root fetch - processPackages [openid-whisperer]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-13 00:11:18] INFO root fetch - processPackages [zylo]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-13 00:11:18] INFO root fetch - processPackages [gandai]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-13 00:11:18] WARNING root fetch - processPackages [LTEpy]: Skipping, unable to determine old version
+[2023-07-13 00:11:18] INFO root fetch - main [MainThread]: End processing [LTEpy] error
+[2023-07-13 00:11:18] INFO root fetch - processPackages [tiskit-py]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-13 00:11:18] INFO root fetch - processPackages [CADPR]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-13 00:11:18] INFO root fetch - processPackages [ghfetch-pip]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-13 00:11:18] INFO root fetch - processPackages [simpleworkspace]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-13 00:11:18] INFO root fetch - processPackages [truss]: New version: [0.4.9rc9] Old Version: [0.4.9rc5]
+[2023-07-13 00:11:18] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/0a/a7/7238acf01d1803d95f664b8199c10dcf32acde67517660b7047db11a1ab2/zylo-1.0.3.tar.gz
+[2023-07-13 00:11:18] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/a5/47/279c85f2c70b577548880cf5a21581fdb8ca728dc0f6679604ff1042c2f5/gandai-1.1.9.tar.gz
+[2023-07-13 00:11:18] INFO root fetch - processPackages [openid-whisperer]: Downloading https://files.pythonhosted.org/packages/c7/41/d5c4796b21db6e9ada9919c116a26816c4c52d55616b5eda0d286f9cc178/openid_whisperer-0.1.2.tar.gz
+[2023-07-13 00:11:18] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/f6/4f/2281366c87c719dc22a92e26786e51e014b831234f2b10a111e39410dcd7/SimpleWorkspace-1.1.98-py3-none-any.whl
+[2023-07-13 00:11:18] INFO root fetch - processPackages [tiskit-py]: Downloading https://files.pythonhosted.org/packages/f2/b9/d4ff399668d30a100d6617a38e581049ab4e26d62b3fd7ed7c7133c24056/tiskit-py-0.3.2.tar.gz
+[2023-07-13 00:11:18] INFO root fetch - processPackages [ghfetch-pip]: Downloading https://files.pythonhosted.org/packages/84/f3/9f13f6d947244e46095cec5ede33d370bbe2dfca0076eb605e02091ee4e7/ghfetch-pip-1.0.0.tar.gz
+[2023-07-13 00:11:18] INFO root fetch - processPackages [CADPR]: Downloading https://files.pythonhosted.org/packages/4b/18/a36e4ce7b9c9ac3c8b6ababfa42f8661382080ad5e40abe97e7086682944/CADPR-0.1.0.tar.gz
+[2023-07-13 00:11:19] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/a5/ac/6da658c05b328c158997857f4315d9203f0c68cfcb1a90b247c8966bad5b/truss-0.4.9rc5.tar.gz
+[2023-07-13 00:11:19] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/f2/96/bb2ba0b436ed442fb5cfdc3375ae397c22412ef992d35981d8abb04d2b3e/gandai-1.2.0.tar.gz
+[2023-07-13 00:11:19] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/ec/08/9ba3e7b5c08279b596d19bf29f2b5d44c1caf78be7e72b097e23918a0d7c/zylo-1.0.4.tar.gz
+[2023-07-13 00:11:19] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/73/68/b37fd075b3b8cd9981a642f7ec1d4ddc9da08d49a99a6ea20c75731aca9e/SimpleWorkspace-1.1.99-py3-none-any.whl
+[2023-07-13 00:11:19] INFO root fetch - processPackages [openid-whisperer]: Downloading https://files.pythonhosted.org/packages/b6/83/bc47e624355473da297b2a02abcc9351929d9b7f96f0ef4194ae56b93e4c/openid_whisperer-0.1.3.tar.gz
+[2023-07-13 00:11:19] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2023-07-13 00:11:19] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.1.9.tar.gz tmp/gandai-1.2.0.tar.gz --markdown 20230713/g/gandai/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-13 00:11:19] INFO root fetch - processPackages [zylo]: executing diffoscope
+[2023-07-13 00:11:19] INFO root fetch - processPackages [zylo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zylo-1.0.3.tar.gz tmp/zylo-1.0.4.tar.gz --markdown 20230713/z/zylo/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-13 00:11:19] INFO root fetch - processPackages [tiskit-py]: Downloading https://files.pythonhosted.org/packages/df/3b/584e91401810483d684b3d718057210555180fee5cc2fceb453d2074c047/tiskit-py-0.3.3.tar.gz
+[2023-07-13 00:11:19] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2023-07-13 00:11:19] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip --markdown 20230713/s/simpleworkspace/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-13 00:11:19] INFO root fetch - processPackages [openid-whisperer]: executing diffoscope
+[2023-07-13 00:11:19] INFO root fetch - processPackages [openid-whisperer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openid_whisperer-0.1.2.tar.gz tmp/openid_whisperer-0.1.3.tar.gz --markdown 20230713/o/openid-whisperer/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-13 00:11:19] INFO root fetch - processPackages [ghfetch-pip]: Downloading https://files.pythonhosted.org/packages/16/fb/e2a89151d14f97c2a2b3c556c3d0a3350453b5cf872187acef34d9fa442f/ghfetch-pip-1.0.1.tar.gz
+[2023-07-13 00:11:19] INFO root fetch - processPackages [CADPR]: Downloading https://files.pythonhosted.org/packages/a2/1a/777f79380400c6635b4580baa1557a16ef0cb5f11c6cd772cfddf2a43f4b/CADPR-0.1.1.tar.gz
+[2023-07-13 00:11:19] INFO root fetch - processPackages [tiskit-py]: executing diffoscope
+[2023-07-13 00:11:19] INFO root fetch - processPackages [tiskit-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiskit-py-0.3.2.tar.gz tmp/tiskit-py-0.3.3.tar.gz --markdown 20230713/t/tiskit-py/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-13 00:11:19] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/92/97/5f78d50e5618eaf7c5f3f918d7ea2a494d65cb8ebc0daf5e329af774240d/truss-0.4.9rc9.tar.gz
+[2023-07-13 00:11:19] INFO root fetch - processPackages [CADPR]: executing diffoscope
+[2023-07-13 00:11:19] INFO root fetch - processPackages [CADPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADPR-0.1.0.tar.gz tmp/CADPR-0.1.1.tar.gz --markdown 20230713/C/CADPR/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-13 00:11:19] INFO root fetch - processPackages [truss]: executing diffoscope
+[2023-07-13 00:11:19] INFO root fetch - processPackages [truss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truss-0.4.9rc5.tar.gz tmp/truss-0.4.9rc9.tar.gz --markdown 20230713/t/truss/0.4.9rc5-0.4.9rc9/diff.md --exclude *.pyd
+[2023-07-13 00:11:19] INFO root fetch - processPackages [ghfetch-pip]: executing diffoscope
+[2023-07-13 00:11:19] INFO root fetch - processPackages [ghfetch-pip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghfetch-pip-1.0.0.tar.gz tmp/ghfetch-pip-1.0.1.tar.gz --markdown 20230713/g/ghfetch-pip/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-13 00:11:20] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-1.0.3.tar.gz]
+[2023-07-13 00:11:20] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-1.0.4.tar.gz]
+[2023-07-13 00:11:20] INFO root fetch - main [MainThread]: End processing [zylo]: success
+[2023-07-13 00:11:20] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip]
+[2023-07-13 00:11:20] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip]
+[2023-07-13 00:11:20] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2023-07-13 00:11:20] INFO root fetch - processPackages [ghfetch-pip]: Remove: archive file [/home/abi/fetcher/tmp/ghfetch-pip-1.0.0.tar.gz]
+[2023-07-13 00:11:20] INFO root fetch - processPackages [ghfetch-pip]: Remove: archive file [/home/abi/fetcher/tmp/ghfetch-pip-1.0.1.tar.gz]
+[2023-07-13 00:11:20] INFO root fetch - main [MainThread]: End processing [ghfetch-pip]: success
+[2023-07-13 00:11:20] INFO root fetch - processPackages [openid-whisperer]: Remove: archive file [/home/abi/fetcher/tmp/openid_whisperer-0.1.2.tar.gz]
+[2023-07-13 00:11:20] INFO root fetch - processPackages [openid-whisperer]: Remove: archive file [/home/abi/fetcher/tmp/openid_whisperer-0.1.3.tar.gz]
+[2023-07-13 00:11:20] INFO root fetch - main [MainThread]: End processing [openid-whisperer]: success
+[2023-07-13 00:11:20] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.1.9.tar.gz]
+[2023-07-13 00:11:20] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.2.0.tar.gz]
+[2023-07-13 00:11:20] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2023-07-13 00:11:20] INFO root fetch - processPackages [CADPR]: Remove: archive file [/home/abi/fetcher/tmp/CADPR-0.1.0.tar.gz]
+[2023-07-13 00:11:20] INFO root fetch - processPackages [CADPR]: Remove: archive file [/home/abi/fetcher/tmp/CADPR-0.1.1.tar.gz]
+[2023-07-13 00:11:20] INFO root fetch - main [MainThread]: End processing [CADPR]: success
+[2023-07-13 00:11:21] INFO root fetch - processPackages [tiskit-py]: Remove: archive file [/home/abi/fetcher/tmp/tiskit-py-0.3.2.tar.gz]
+[2023-07-13 00:11:21] INFO root fetch - processPackages [tiskit-py]: Remove: archive file [/home/abi/fetcher/tmp/tiskit-py-0.3.3.tar.gz]
+[2023-07-13 00:11:21] INFO root fetch - main [MainThread]: End processing [tiskit-py]: success
+[2023-07-13 00:11:21] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.4.9rc5.tar.gz]
+[2023-07-13 00:11:21] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.4.9rc9.tar.gz]
+[2023-07-13 00:11:21] INFO root fetch - main [MainThread]: End processing [truss]: success
+[2023-07-13 00:11:21] INFO root fetch - main [MainThread]: Store serial: [18866536]
