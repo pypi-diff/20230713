@@ -1450,3 +1450,69 @@
 [2023-07-13 01:06:40] INFO root fetch - processPackages [lktbotfb]: Remove: archive file [/home/abi/fetcher/tmp/lktbotfb-0.3.6.tar.gz]
 [2023-07-13 01:06:40] INFO root fetch - main [MainThread]: End processing [lktbotfb]: success
 [2023-07-13 01:06:40] INFO root fetch - main [MainThread]: Store serial: [18866992]
+[2023-07-13 01:11:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18866992]
+[2023-07-13 01:11:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-13 01:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jarvis-assistant-bot
+[2023-07-13 01:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ladybug-geometry-polyskel
+[2023-07-13 01:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trame-mnist
+[2023-07-13 01:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crypto-screening
+[2023-07-13 01:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trio
+[2023-07-13 01:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ladybug-core
+[2023-07-13 01:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastapi_swagger2
+[2023-07-13 01:11:49] INFO root fetch - processPackages [jarvis-assistant-bot]: New version: [1.4] Old Version: [1.3]
+[2023-07-13 01:11:49] INFO root fetch - processPackages [trio]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-13 01:11:49] INFO root fetch - processPackages [trame-mnist]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-07-13 01:11:49] INFO root fetch - processPackages [crypto-screening]: New version: [2.8.2] Old Version: [2.8.1]
+[2023-07-13 01:11:49] INFO root fetch - processPackages [fastapi_swagger2]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-13 01:11:49] INFO root fetch - processPackages [ladybug-geometry-polyskel]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-13 01:11:49] INFO root fetch - processPackages [ladybug-core]: New version: [0.41.9] Old Version: [0.41.8]
+[2023-07-13 01:11:49] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/cb/ca/dbb524375e8bcc8d68824fdc2c14904fbfca7893b75c21580d5a7c642ba4/crypto-screening-2.8.1.tar.gz
+[2023-07-13 01:11:49] INFO root fetch - processPackages [fastapi_swagger2]: Downloading https://files.pythonhosted.org/packages/ff/58/228c90a49cf913a8cbde9838b584fb4e7a4ba476325b9e595d992061eb33/fastapi_swagger2-0.0.2.tar.gz
+[2023-07-13 01:11:49] INFO root fetch - processPackages [jarvis-assistant-bot]: Downloading https://files.pythonhosted.org/packages/82/eb/409fbaa00b920842da39fd933d2cc2de7eac5e585a25f699c95da36defb9/jarvis_assistant_bot-1.3.tar.gz
+[2023-07-13 01:11:49] INFO root fetch - processPackages [trio]: Downloading https://files.pythonhosted.org/packages/e1/cb/ddabcabc9ffaa45f89535267f33a22780045c6f9c02dcd725cc7a2b01496/trio-0.8.0.tar.gz
+[2023-07-13 01:11:49] INFO root fetch - processPackages [trame-mnist]: Downloading https://files.pythonhosted.org/packages/92/8f/a701cfa4ab720fb5f693c210328b27789cdc079691b32fb5d9965660df2a/trame-mnist-2.0.1.tar.gz
+[2023-07-13 01:11:49] INFO root fetch - processPackages [ladybug-core]: Downloading https://files.pythonhosted.org/packages/b8/f4/9a3518e2f5cfc6784b95631e465a305b99314ec2627410faec6d64230814/ladybug-core-0.41.8.tar.gz
+[2023-07-13 01:11:49] INFO root fetch - processPackages [ladybug-geometry-polyskel]: Downloading https://files.pythonhosted.org/packages/70/a4/3886c230dd5638c38bc22e301d1316c55197f4909db218feb0b686d8d0ca/ladybug-geometry-polyskel-1.4.8.tar.gz
+[2023-07-13 01:11:49] INFO root fetch - processPackages [fastapi_swagger2]: Downloading https://files.pythonhosted.org/packages/70/46/00d576c94d8cc894df5547101efdb2e6b2baac0a7914834d7985684e95d3/fastapi_swagger2-0.1.0.tar.gz
+[2023-07-13 01:11:49] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/7d/c4/321f705df67b81962d7c03eae020f628807212b988a3737ab4eb07807962/crypto-screening-2.8.2.tar.gz
+[2023-07-13 01:11:49] INFO root fetch - processPackages [jarvis-assistant-bot]: Downloading https://files.pythonhosted.org/packages/15/e1/ef12c2100d8d49151f4c08d5d04276564f0a8f786ef0de2f7416bd987ebe/jarvis_assistant_bot-1.4.tar.gz
+[2023-07-13 01:11:50] INFO root fetch - processPackages [fastapi_swagger2]: executing diffoscope
+[2023-07-13 01:11:50] INFO root fetch - processPackages [fastapi_swagger2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_swagger2-0.0.2.tar.gz tmp/fastapi_swagger2-0.1.0.tar.gz --markdown 20230713/f/fastapi_swagger2/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-13 01:11:50] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-13 01:11:50] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-2.8.1.tar.gz tmp/crypto-screening-2.8.2.tar.gz --markdown 20230713/c/crypto-screening/2.8.1-2.8.2/diff.md --exclude *.pyd
+[2023-07-13 01:11:50] INFO root fetch - processPackages [trio]: Downloading https://files.pythonhosted.org/packages/69/70/d6f23892b898292736febebf4ead13cd0eb4df970dbf3498c7745c682835/trio-0.9.0.tar.gz
+[2023-07-13 01:11:50] INFO root fetch - processPackages [trame-mnist]: Downloading https://files.pythonhosted.org/packages/ea/ec/bfc600c3622d1b8560e42297c64a38ec2681cc5db988696eb9c9add5dec1/trame-mnist-2.1.0.tar.gz
+[2023-07-13 01:11:50] INFO root fetch - processPackages [ladybug-geometry-polyskel]: Downloading https://files.pythonhosted.org/packages/66/a8/40ffbd6d2853e09d79d44a42df2f0eb3ad91930a41d2879849788b686b64/ladybug-geometry-polyskel-1.4.9.tar.gz
+[2023-07-13 01:11:50] INFO root fetch - processPackages [jarvis-assistant-bot]: executing diffoscope
+[2023-07-13 01:11:50] INFO root fetch - processPackages [jarvis-assistant-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarvis_assistant_bot-1.3.tar.gz tmp/jarvis_assistant_bot-1.4.tar.gz --markdown 20230713/j/jarvis-assistant-bot/1.3-1.4/diff.md --exclude *.pyd
+[2023-07-13 01:11:50] INFO root fetch - processPackages [trame-mnist]: executing diffoscope
+[2023-07-13 01:11:50] INFO root fetch - processPackages [trame-mnist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-mnist-2.0.1.tar.gz tmp/trame-mnist-2.1.0.tar.gz --markdown 20230713/t/trame-mnist/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-07-13 01:11:50] INFO root fetch - processPackages [ladybug-core]: Downloading https://files.pythonhosted.org/packages/e0/fe/7b27104ccfd6ad4857ea5a3f5d6b0eb826607d119e0c52e11985cf7016ea/ladybug-core-0.41.9.tar.gz
+[2023-07-13 01:11:50] INFO root fetch - processPackages [ladybug-geometry-polyskel]: executing diffoscope
+[2023-07-13 01:11:50] INFO root fetch - processPackages [ladybug-geometry-polyskel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-geometry-polyskel-1.4.8.tar.gz tmp/ladybug-geometry-polyskel-1.4.9.tar.gz --markdown 20230713/l/ladybug-geometry-polyskel/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-13 01:11:50] INFO root fetch - processPackages [trio]: executing diffoscope
+[2023-07-13 01:11:50] INFO root fetch - processPackages [trio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trio-0.8.0.tar.gz tmp/trio-0.9.0.tar.gz --markdown 20230713/t/trio/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-13 01:11:50] INFO root fetch - processPackages [ladybug-core]: executing diffoscope
+[2023-07-13 01:11:50] INFO root fetch - processPackages [ladybug-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-core-0.41.8.tar.gz tmp/ladybug-core-0.41.9.tar.gz --markdown 20230713/l/ladybug-core/0.41.8-0.41.9/diff.md --exclude *.pyd
+[2023-07-13 01:11:51] INFO root fetch - processPackages [fastapi_swagger2]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_swagger2-0.0.2.tar.gz]
+[2023-07-13 01:11:51] INFO root fetch - processPackages [fastapi_swagger2]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_swagger2-0.1.0.tar.gz]
+[2023-07-13 01:11:51] INFO root fetch - main [MainThread]: End processing [fastapi_swagger2]: success
+[2023-07-13 01:11:51] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.8.1.tar.gz]
+[2023-07-13 01:11:51] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.8.2.tar.gz]
+[2023-07-13 01:11:51] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-13 01:11:51] INFO root fetch - processPackages [trame-mnist]: Remove: archive file [/home/abi/fetcher/tmp/trame-mnist-2.0.1.tar.gz]
+[2023-07-13 01:11:51] INFO root fetch - processPackages [trame-mnist]: Remove: archive file [/home/abi/fetcher/tmp/trame-mnist-2.1.0.tar.gz]
+[2023-07-13 01:11:51] INFO root fetch - main [MainThread]: End processing [trame-mnist]: success
+[2023-07-13 01:11:51] INFO root fetch - processPackages [ladybug-geometry-polyskel]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-geometry-polyskel-1.4.8.tar.gz]
+[2023-07-13 01:11:51] INFO root fetch - processPackages [ladybug-geometry-polyskel]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-geometry-polyskel-1.4.9.tar.gz]
+[2023-07-13 01:11:51] INFO root fetch - main [MainThread]: End processing [ladybug-geometry-polyskel]: success
+[2023-07-13 01:11:51] INFO root fetch - processPackages [jarvis-assistant-bot]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_assistant_bot-1.3.tar.gz]
+[2023-07-13 01:11:51] INFO root fetch - processPackages [jarvis-assistant-bot]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_assistant_bot-1.4.tar.gz]
+[2023-07-13 01:11:51] INFO root fetch - main [MainThread]: End processing [jarvis-assistant-bot]: success
+[2023-07-13 01:11:51] INFO root fetch - processPackages [ladybug-core]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-core-0.41.8.tar.gz]
+[2023-07-13 01:11:51] INFO root fetch - processPackages [ladybug-core]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-core-0.41.9.tar.gz]
+[2023-07-13 01:11:51] INFO root fetch - main [MainThread]: End processing [ladybug-core]: success
+[2023-07-13 01:11:52] INFO root fetch - processPackages [trio]: Remove: archive file [/home/abi/fetcher/tmp/trio-0.8.0.tar.gz]
+[2023-07-13 01:11:52] INFO root fetch - processPackages [trio]: Remove: archive file [/home/abi/fetcher/tmp/trio-0.9.0.tar.gz]
+[2023-07-13 01:11:52] INFO root fetch - main [MainThread]: End processing [trio]: success
+[2023-07-13 01:11:52] INFO root fetch - main [MainThread]: Store serial: [18867012]
