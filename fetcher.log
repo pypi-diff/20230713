@@ -1145,3 +1145,150 @@
 [2023-07-13 00:50:45] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
 [2023-07-13 00:50:45] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2023-07-13 00:50:45] INFO root fetch - main [MainThread]: Store serial: [18866892]
+[2023-07-13 00:55:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18866892]
+[2023-07-13 00:55:54] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-13 00:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OZI
+[2023-07-13 00:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trulens-eval
+[2023-07-13 00:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crypto-screening
+[2023-07-13 00:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: typetype
+[2023-07-13 00:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tonic
+[2023-07-13 00:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mk8dx
+[2023-07-13 00:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quartodoc
+[2023-07-13 00:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ladybug-geometry
+[2023-07-13 00:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lktbotfb
+[2023-07-13 00:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sees
+[2023-07-13 00:55:54] INFO root fetch - processPackages [quartodoc]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-07-13 00:55:54] INFO root fetch - processPackages [OZI]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-13 00:55:55] INFO root fetch - processPackages [crypto-screening]: New version: [2.8.0] Old Version: [2.7.1]
+[2023-07-13 00:55:55] INFO root fetch - processPackages [sees]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 00:55:55] INFO root fetch - processPackages [mk8dx]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-13 00:55:55] INFO root fetch - processPackages [lktbotfb]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-13 00:55:55] INFO root fetch - processPackages [trulens-eval]: New version: [0.5.0a0] Old Version: [0.5.0]
+[2023-07-13 00:55:55] INFO root fetch - processPackages [typetype]: New version: [1.2.0] Old Version: [1.1.5]
+[2023-07-13 00:55:55] INFO root fetch - processPackages [tonic]: New version: [1.3.4.dev1] Old Version: [1.3.3.dev3]
+[2023-07-13 00:55:55] INFO root fetch - processPackages [ladybug-geometry]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-13 00:55:55] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/35/78/e3aa6bfa56954522a745f92c05b3446fc9e1561da235cbb367311de84cca/crypto-screening-2.7.1.tar.gz
+[2023-07-13 00:55:55] INFO root fetch - processPackages [sees]: Downloading https://files.pythonhosted.org/packages/dd/0c/83a9e05015d0f5a1a91e2730f41f7a6af43511b67831a079542512044e37/sees-0.0.1.tar.gz
+[2023-07-13 00:55:55] INFO root fetch - processPackages [mk8dx]: Downloading https://files.pythonhosted.org/packages/3f/03/c40f61ace275f4d92e6a7a46d4ae19f91248af408629d83e25e062c0c9d0/mk8dx-1.1.0-py3-none-any.whl
+[2023-07-13 00:55:55] INFO root fetch - processPackages [typetype]: Downloading https://files.pythonhosted.org/packages/ef/9d/200d349c39773d2104763a63e06c70a97af6c58dc575a7148737e68bdc6a/typetype-1.1.5.tar.gz
+[2023-07-13 00:55:55] INFO root fetch - processPackages [quartodoc]: Downloading https://files.pythonhosted.org/packages/fb/ef/7ff724bca6c8338008f9348f05e82ee7a44496c1ba4857fe556be6a49e9e/quartodoc-0.3.5.tar.gz
+[2023-07-13 00:55:55] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/ae/9c/8fd980e33da77fefefc96bf26a328fdedda9b50452094fddb0d75d9894f2/OZI-0.0.6-~=3.9-none-any.whl
+[2023-07-13 00:55:55] INFO root fetch - processPackages [lktbotfb]: Downloading https://files.pythonhosted.org/packages/40/7e/b7255346793091c16e9dd97c348593a3e35e49ccec473228c871804995c5/lktbotfb-0.3.4.tar.gz
+[2023-07-13 00:55:55] INFO root fetch - processPackages [trulens-eval]: Downloading https://files.pythonhosted.org/packages/ca/ed/34b210b45099c96f1405b6193a161e2804dc47c270b852f451ce3f3cd637/trulens_eval-0.5.0-py3-none-any.whl
+[2023-07-13 00:55:55] INFO root fetch - processPackages [tonic]: Downloading https://files.pythonhosted.org/packages/b2/fe/726482ac1118b3e4cd813a87763bb1542e4ad331a398359801361cf4ec85/tonic-1.3.3.dev3.tar.gz
+[2023-07-13 00:55:55] INFO root fetch - processPackages [ladybug-geometry]: Downloading https://files.pythonhosted.org/packages/73/b9/eb0d232df800d6e5dfa1247520f85cfb316c1f1c0f1fa86404231a512779/ladybug-geometry-1.8.1.tar.gz
+[2023-07-13 00:55:55] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/13/f8/bdbe88310cfab41ce9bca049fd512888cac74697657064cdef95adaa7a30/crypto-screening-2.8.0.tar.gz
+[2023-07-13 00:55:55] INFO root fetch - processPackages [sees]: Downloading https://files.pythonhosted.org/packages/27/0b/2312e07c7dc814ff95b613ab8ce2da0d4f3a9425bface17e17b6f08571b0/sees-0.0.2.tar.gz
+[2023-07-13 00:55:55] INFO root fetch - processPackages [mk8dx]: Downloading https://files.pythonhosted.org/packages/ed/ae/23fb939c7a73cf4d4cfef6464f4d405ace7d94b8c0d54add5ac532bb432f/mk8dx-1.1.1-py3-none-any.whl
+[2023-07-13 00:55:55] INFO root fetch - processPackages [typetype]: Downloading https://files.pythonhosted.org/packages/b2/ea/23da7eaf5c421ec8574ed5441724eb82560aaf593d3c800bd27438334f93/typetype-1.2.0.tar.gz
+[2023-07-13 00:55:55] INFO root fetch - processPackages [trulens-eval]: Downloading https://files.pythonhosted.org/packages/61/77/c94272dd8b09b2cdce2cf49c7652e61bfdff841d289d8d97b10920265396/trulens_eval-0.5.0a0-py3-none-any.whl
+[2023-07-13 00:55:55] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/7f/12/46e3f3793de828bf9551ea05af54362105ebd5752e688a3067953670a206/OZI-0.0.7.tar.gz
+[2023-07-13 00:55:55] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-13 00:55:55] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-2.7.1.tar.gz tmp/crypto-screening-2.8.0.tar.gz --markdown 20230713/c/crypto-screening/2.7.1-2.8.0/diff.md --exclude *.pyd
+[2023-07-13 00:55:55] INFO root fetch - processPackages [quartodoc]: Downloading https://files.pythonhosted.org/packages/56/a1/7f68d1fd03da490e8beabf1c7d9c63a6c96b0c97f82198d1e7e89ab5795e/quartodoc-0.4.0.tar.gz
+[2023-07-13 00:55:55] INFO root fetch - processPackages [sees]: executing diffoscope
+[2023-07-13 00:55:55] INFO root fetch - processPackages [sees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sees-0.0.1.tar.gz tmp/sees-0.0.2.tar.gz --markdown 20230713/s/sees/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 00:55:56] INFO root fetch - processPackages [mk8dx]: executing diffoscope
+[2023-07-13 00:55:56] INFO root fetch - processPackages [mk8dx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mk8dx-1.1.0-py3-none-any.whl.zip tmp/mk8dx-1.1.1-py3-none-any.whl.zip --markdown 20230713/m/mk8dx/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-13 00:55:56] INFO root fetch - processPackages [lktbotfb]: Downloading https://files.pythonhosted.org/packages/87/71/a42b768ae8a9990b28ec8875c98917f50a48b4171e1cd3ac9bc1918d23c0/lktbotfb-0.3.5.tar.gz
+[2023-07-13 00:55:56] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2023-07-13 00:55:56] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-0.0.6-~=3.9-none-any.whl.zip tmp/OZI-0.0.7.tar.gz --markdown 20230713/O/OZI/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-13 00:55:56] INFO root fetch - processPackages [typetype]: executing diffoscope
+[2023-07-13 00:55:56] INFO root fetch - processPackages [typetype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typetype-1.1.5.tar.gz tmp/typetype-1.2.0.tar.gz --markdown 20230713/t/typetype/1.1.5-1.2.0/diff.md --exclude *.pyd
+[2023-07-13 00:55:56] INFO root fetch - processPackages [trulens-eval]: executing diffoscope
+[2023-07-13 00:55:56] INFO root fetch - processPackages [trulens-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trulens_eval-0.5.0-py3-none-any.whl.zip tmp/trulens_eval-0.5.0a0-py3-none-any.whl.zip --markdown 20230713/t/trulens-eval/0.5.0-0.5.0a0/diff.md --exclude *.pyd
+[2023-07-13 00:55:56] INFO root fetch - processPackages [quartodoc]: executing diffoscope
+[2023-07-13 00:55:56] INFO root fetch - processPackages [quartodoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quartodoc-0.3.5.tar.gz tmp/quartodoc-0.4.0.tar.gz --markdown 20230713/q/quartodoc/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2023-07-13 00:55:56] INFO root fetch - processPackages [ladybug-geometry]: Downloading https://files.pythonhosted.org/packages/1d/6e/0f64e45efb187aa1304e9685bee2042ef1bd0a00daba0172bf39aadfa2b6/ladybug-geometry-1.9.0.tar.gz
+[2023-07-13 00:55:56] INFO root fetch - processPackages [lktbotfb]: executing diffoscope
+[2023-07-13 00:55:56] INFO root fetch - processPackages [lktbotfb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lktbotfb-0.3.4.tar.gz tmp/lktbotfb-0.3.5.tar.gz --markdown 20230713/l/lktbotfb/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-13 00:55:56] INFO root fetch - processPackages [tonic]: Downloading https://files.pythonhosted.org/packages/83/46/550be6c69a48c58ec17ead996421cbdbcc8c64e3cb3b77eaffdb1b1c07bf/tonic-1.3.4.dev1.tar.gz
+[2023-07-13 00:55:56] INFO root fetch - processPackages [ladybug-geometry]: executing diffoscope
+[2023-07-13 00:55:56] INFO root fetch - processPackages [ladybug-geometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-geometry-1.8.1.tar.gz tmp/ladybug-geometry-1.9.0.tar.gz --markdown 20230713/l/ladybug-geometry/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-13 00:55:56] INFO root fetch - processPackages [tonic]: executing diffoscope
+[2023-07-13 00:55:56] INFO root fetch - processPackages [tonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonic-1.3.3.dev3.tar.gz tmp/tonic-1.3.4.dev1.tar.gz --markdown 20230713/t/tonic/1.3.3.dev3-1.3.4.dev1/diff.md --exclude *.pyd
+[2023-07-13 00:55:57] INFO root fetch - processPackages [sees]: Remove: archive file [/home/abi/fetcher/tmp/sees-0.0.1.tar.gz]
+[2023-07-13 00:55:57] INFO root fetch - processPackages [sees]: Remove: archive file [/home/abi/fetcher/tmp/sees-0.0.2.tar.gz]
+[2023-07-13 00:55:57] INFO root fetch - processPackages [sees]: Start processing: Metadata-Magic
+[2023-07-13 00:55:57] INFO root fetch - main [MainThread]: End processing [sees]: success
+[2023-07-13 00:55:57] INFO root fetch - processPackages [Metadata-Magic]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-13 00:55:57] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.6-~=3.9-none-any.whl.zip]
+[2023-07-13 00:55:57] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.7.tar.gz]
+[2023-07-13 00:55:57] INFO root fetch - processPackages [OZI]: Start processing: pymulticore
+[2023-07-13 00:55:57] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2023-07-13 00:55:57] INFO root fetch - processPackages [lktbotfb]: Remove: archive file [/home/abi/fetcher/tmp/lktbotfb-0.3.4.tar.gz]
+[2023-07-13 00:55:57] INFO root fetch - processPackages [lktbotfb]: Remove: archive file [/home/abi/fetcher/tmp/lktbotfb-0.3.5.tar.gz]
+[2023-07-13 00:55:57] INFO root fetch - processPackages [lktbotfb]: Start processing: gdshoplib
+[2023-07-13 00:55:57] INFO root fetch - main [MainThread]: End processing [lktbotfb]: success
+[2023-07-13 00:55:57] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.7.1.tar.gz]
+[2023-07-13 00:55:57] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.8.0.tar.gz]
+[2023-07-13 00:55:57] INFO root fetch - processPackages [crypto-screening]: Start processing: moesifdjango
+[2023-07-13 00:55:57] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-13 00:55:57] INFO root fetch - processPackages [pymulticore]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-13 00:55:57] INFO root fetch - processPackages [gdshoplib]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-13 00:55:57] INFO root fetch - processPackages [mk8dx]: Remove: archive file [/home/abi/fetcher/tmp/mk8dx-1.1.0-py3-none-any.whl.zip]
+[2023-07-13 00:55:57] INFO root fetch - processPackages [mk8dx]: Remove: archive file [/home/abi/fetcher/tmp/mk8dx-1.1.1-py3-none-any.whl.zip]
+[2023-07-13 00:55:57] INFO root fetch - processPackages [mk8dx]: Start processing: django-seriously
+[2023-07-13 00:55:57] INFO root fetch - main [MainThread]: End processing [mk8dx]: success
+[2023-07-13 00:55:57] INFO root fetch - processPackages [moesifdjango]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-07-13 00:55:57] INFO root fetch - processPackages [django-seriously]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-13 00:55:57] INFO root fetch - processPackages [trulens-eval]: Remove: archive file [/home/abi/fetcher/tmp/trulens_eval-0.5.0-py3-none-any.whl.zip]
+[2023-07-13 00:55:57] INFO root fetch - processPackages [trulens-eval]: Remove: archive file [/home/abi/fetcher/tmp/trulens_eval-0.5.0a0-py3-none-any.whl.zip]
+[2023-07-13 00:55:57] INFO root fetch - processPackages [trulens-eval]: Start processing: cohost
+[2023-07-13 00:55:57] INFO root fetch - main [MainThread]: End processing [trulens-eval]: success
+[2023-07-13 00:55:57] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/f4/06/202f5d84c30da81d62016b5bdb00594fa9fad23919b62990f36800194fc2/gdshoplib-2.0.1.tar.gz
+[2023-07-13 00:55:57] INFO root fetch - processPackages [Metadata-Magic]: Downloading https://files.pythonhosted.org/packages/1a/e7/e778e38d876563a50f0d457e76c644fcf87ef5de17362b7465ebcfc5b9b3/Metadata_Magic-0.5.2-py3-none-any.whl
+[2023-07-13 00:55:57] INFO root fetch - processPackages [typetype]: Remove: archive file [/home/abi/fetcher/tmp/typetype-1.1.5.tar.gz]
+[2023-07-13 00:55:57] INFO root fetch - processPackages [typetype]: Remove: archive file [/home/abi/fetcher/tmp/typetype-1.2.0.tar.gz]
+[2023-07-13 00:55:57] INFO root fetch - main [MainThread]: End processing [typetype]: success
+[2023-07-13 00:55:57] INFO root fetch - processPackages [cohost]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-13 00:55:57] INFO root fetch - processPackages [pymulticore]: Downloading https://files.pythonhosted.org/packages/9a/06/69460f5951a5b69e1621b2b09ae95acc2047110af4da95e2672d587bbf25/pymulticore-0.1.5.tar.gz
+[2023-07-13 00:55:58] INFO root fetch - processPackages [moesifdjango]: Downloading https://files.pythonhosted.org/packages/31/0b/ea5698d7304709d9199fbdbd794a66af5091aa944d688e7b9f5c0bc6db58/moesifdjango-2.3.2.tar.gz
+[2023-07-13 00:55:58] INFO root fetch - processPackages [django-seriously]: Downloading https://files.pythonhosted.org/packages/28/f5/ed9d65fcf90734542fc0073ebd14063b577de526d1593e62239d96351722/django-seriously-0.4.0.tar.gz
+[2023-07-13 00:55:58] INFO root fetch - processPackages [cohost]: Downloading https://files.pythonhosted.org/packages/5e/13/7a24752d6f6ee422d4dc561c4cfd3182a4a9f956679c5ee01ac7478b26b3/cohost-0.3.1.tar.gz
+[2023-07-13 00:55:58] INFO root fetch - processPackages [Metadata-Magic]: Downloading https://files.pythonhosted.org/packages/2b/a3/2cc48bafdf1a10c1255ba854bb3370836e7b2fe7228720c9b2839200a543/Metadata_Magic-0.5.3-py3-none-any.whl
+[2023-07-13 00:55:58] INFO root fetch - processPackages [quartodoc]: Remove: archive file [/home/abi/fetcher/tmp/quartodoc-0.3.5.tar.gz]
+[2023-07-13 00:55:58] INFO root fetch - processPackages [quartodoc]: Remove: archive file [/home/abi/fetcher/tmp/quartodoc-0.4.0.tar.gz]
+[2023-07-13 00:55:58] INFO root fetch - main [MainThread]: End processing [quartodoc]: success
+[2023-07-13 00:55:58] INFO root fetch - processPackages [pymulticore]: Downloading https://files.pythonhosted.org/packages/54/8e/386701bea9c059b97d434e22bc02b538cb0c1ef8e6a51dca1fef9dc2ff3d/pymulticore-0.1.6.tar.gz
+[2023-07-13 00:55:58] INFO root fetch - processPackages [Metadata-Magic]: executing diffoscope
+[2023-07-13 00:55:58] INFO root fetch - processPackages [Metadata-Magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Metadata_Magic-0.5.2-py3-none-any.whl.zip tmp/Metadata_Magic-0.5.3-py3-none-any.whl.zip --markdown 20230713/M/Metadata-Magic/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-13 00:55:58] INFO root fetch - processPackages [moesifdjango]: Downloading https://files.pythonhosted.org/packages/68/cc/0feb66611fb7fd3f01605cd6a07010b7c707db35409a4d2ef6c4ef1684fb/moesifdjango-2.3.3.tar.gz
+[2023-07-13 00:55:58] INFO root fetch - processPackages [pymulticore]: executing diffoscope
+[2023-07-13 00:55:58] INFO root fetch - processPackages [pymulticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymulticore-0.1.5.tar.gz tmp/pymulticore-0.1.6.tar.gz --markdown 20230713/p/pymulticore/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-13 00:55:58] INFO root fetch - processPackages [ladybug-geometry]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-geometry-1.8.1.tar.gz]
+[2023-07-13 00:55:58] INFO root fetch - processPackages [ladybug-geometry]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-geometry-1.9.0.tar.gz]
+[2023-07-13 00:55:58] INFO root fetch - main [MainThread]: End processing [ladybug-geometry]: success
+[2023-07-13 00:55:58] INFO root fetch - processPackages [cohost]: Downloading https://files.pythonhosted.org/packages/14/ff/c7d08b60e86e2055765390d9946a8af3fde085cfe1167da4c39f4abecd68/cohost-0.3.2.tar.gz
+[2023-07-13 00:55:58] INFO root fetch - processPackages [moesifdjango]: executing diffoscope
+[2023-07-13 00:55:58] INFO root fetch - processPackages [moesifdjango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moesifdjango-2.3.2.tar.gz tmp/moesifdjango-2.3.3.tar.gz --markdown 20230713/m/moesifdjango/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-07-13 00:55:58] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/66/e8/6797d23c4d5d0d9cf5d862d3d6c257426087e94b32d80dc9feff20427c1a/gdshoplib-2.0.2.tar.gz
+[2023-07-13 00:55:58] INFO root fetch - processPackages [django-seriously]: Downloading https://files.pythonhosted.org/packages/0d/ca/417d277314c82a1cef27a0b35e1f70cdf1156a63f857fadc3dab95f18d86/django-seriously-0.4.1.tar.gz
+[2023-07-13 00:55:58] INFO root fetch - processPackages [cohost]: executing diffoscope
+[2023-07-13 00:55:58] INFO root fetch - processPackages [cohost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohost-0.3.1.tar.gz tmp/cohost-0.3.2.tar.gz --markdown 20230713/c/cohost/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-13 00:55:58] INFO root fetch - processPackages [django-seriously]: executing diffoscope
+[2023-07-13 00:55:58] INFO root fetch - processPackages [django-seriously]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-seriously-0.4.0.tar.gz tmp/django-seriously-0.4.1.tar.gz --markdown 20230713/d/django-seriously/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-13 00:55:58] INFO root fetch - processPackages [gdshoplib]: executing diffoscope
+[2023-07-13 00:55:58] INFO root fetch - processPackages [gdshoplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdshoplib-2.0.1.tar.gz tmp/gdshoplib-2.0.2.tar.gz --markdown 20230713/g/gdshoplib/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-13 00:55:58] INFO root fetch - processPackages [tonic]: Remove: archive file [/home/abi/fetcher/tmp/tonic-1.3.3.dev3.tar.gz]
+[2023-07-13 00:55:58] INFO root fetch - processPackages [tonic]: Remove: archive file [/home/abi/fetcher/tmp/tonic-1.3.4.dev1.tar.gz]
+[2023-07-13 00:55:58] INFO root fetch - main [MainThread]: End processing [tonic]: success
+[2023-07-13 00:55:59] INFO root fetch - processPackages [pymulticore]: Remove: archive file [/home/abi/fetcher/tmp/pymulticore-0.1.5.tar.gz]
+[2023-07-13 00:55:59] INFO root fetch - processPackages [pymulticore]: Remove: archive file [/home/abi/fetcher/tmp/pymulticore-0.1.6.tar.gz]
+[2023-07-13 00:55:59] INFO root fetch - main [MainThread]: End processing [pymulticore]: success
+[2023-07-13 00:55:59] INFO root fetch - processPackages [moesifdjango]: Remove: archive file [/home/abi/fetcher/tmp/moesifdjango-2.3.2.tar.gz]
+[2023-07-13 00:55:59] INFO root fetch - processPackages [moesifdjango]: Remove: archive file [/home/abi/fetcher/tmp/moesifdjango-2.3.3.tar.gz]
+[2023-07-13 00:55:59] INFO root fetch - main [MainThread]: End processing [moesifdjango]: success
+[2023-07-13 00:55:59] INFO root fetch - processPackages [cohost]: Remove: archive file [/home/abi/fetcher/tmp/cohost-0.3.1.tar.gz]
+[2023-07-13 00:55:59] INFO root fetch - processPackages [cohost]: Remove: archive file [/home/abi/fetcher/tmp/cohost-0.3.2.tar.gz]
+[2023-07-13 00:55:59] INFO root fetch - main [MainThread]: End processing [cohost]: success
+[2023-07-13 00:55:59] INFO root fetch - processPackages [django-seriously]: Remove: archive file [/home/abi/fetcher/tmp/django-seriously-0.4.0.tar.gz]
+[2023-07-13 00:55:59] INFO root fetch - processPackages [django-seriously]: Remove: archive file [/home/abi/fetcher/tmp/django-seriously-0.4.1.tar.gz]
+[2023-07-13 00:55:59] INFO root fetch - main [MainThread]: End processing [django-seriously]: success
+[2023-07-13 00:55:59] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-2.0.1.tar.gz]
+[2023-07-13 00:55:59] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-2.0.2.tar.gz]
+[2023-07-13 00:55:59] INFO root fetch - main [MainThread]: End processing [gdshoplib]: success
+[2023-07-13 00:55:59] INFO root fetch - processPackages [Metadata-Magic]: Remove: archive file [/home/abi/fetcher/tmp/Metadata_Magic-0.5.2-py3-none-any.whl.zip]
+[2023-07-13 00:55:59] INFO root fetch - processPackages [Metadata-Magic]: Remove: archive file [/home/abi/fetcher/tmp/Metadata_Magic-0.5.3-py3-none-any.whl.zip]
+[2023-07-13 00:55:59] INFO root fetch - main [MainThread]: End processing [Metadata-Magic]: success
+[2023-07-13 00:55:59] INFO root fetch - main [MainThread]: Store serial: [18866937]
