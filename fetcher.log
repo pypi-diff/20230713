@@ -1926,3 +1926,87 @@
 [2023-07-13 01:37:57] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.8.2.tar.gz]
 [2023-07-13 01:37:57] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
 [2023-07-13 01:37:57] INFO root fetch - main [MainThread]: Store serial: [18867158]
+[2023-07-13 01:43:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18867158]
+[2023-07-13 01:43:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-13 01:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: d20-securityLayer
+[2023-07-13 01:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: retro-data-structures
+[2023-07-13 01:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: efrem-utils
+[2023-07-13 01:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: honeybee-radiance
+[2023-07-13 01:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: honeybee-energy
+[2023-07-13 01:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dragonfly-core
+[2023-07-13 01:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yiddish
+[2023-07-13 01:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lbt-ladybug
+[2023-07-13 01:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ultralytics
+[2023-07-13 01:43:06] INFO root fetch - processPackages [efrem-utils]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-07-13 01:43:06] INFO root fetch - processPackages [d20-securityLayer]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-07-13 01:43:06] INFO root fetch - processPackages [retro-data-structures]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-13 01:43:06] INFO root fetch - processPackages [yiddish]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 01:43:06] INFO root fetch - processPackages [honeybee-energy]: New version: [1.99.9] Old Version: [1.99.8]
+[2023-07-13 01:43:06] INFO root fetch - processPackages [ultralytics]: New version: [8.0.99] Old Version: [8.0.98]
+[2023-07-13 01:43:06] INFO root fetch - processPackages [lbt-ladybug]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-13 01:43:06] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-13 01:43:06] INFO root fetch - processPackages [honeybee-radiance]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-13 01:43:06] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/b1/ab/c8fb70e349d71cce95bac52782f7ea0659a6987ed84dd41c7fe2ef40806c/honeybee-energy-1.99.8.tar.gz
+[2023-07-13 01:43:07] INFO root fetch - processPackages [efrem-utils]: Downloading https://files.pythonhosted.org/packages/ee/be/b9ea90a1eca0213230d3096510d1ad19098cb25af8d2e252559272a774d4/efrem_utils-0.0.2.tar.gz
+[2023-07-13 01:43:07] INFO root fetch - processPackages [yiddish]: Downloading https://files.pythonhosted.org/packages/e1/92/e5e79d279e6096a731b9e577c79fcec12f8cff32ca03405e78dc8341caf6/yiddish-0.0.8.tar.gz
+[2023-07-13 01:43:07] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/48/ae/cca3e8aac6a72593fde7860cbf91882050c1a465c316efc2e0472bfa36e1/honeybee-radiance-1.9.1.tar.gz
+[2023-07-13 01:43:07] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/93/fd/7cad9d4c9406e421f7ce31b725936bb32ec8a421f9b143e829c33cae55dd/dragonfly-core-1.8.1.tar.gz
+[2023-07-13 01:43:07] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/b5/7f/086f837981170217116052b05373bbf9ede287aa375d582b42e31e612cf5/d20-securityLayer-2.0.0a8.tar.gz
+[2023-07-13 01:43:07] INFO root fetch - processPackages [retro-data-structures]: Downloading https://files.pythonhosted.org/packages/14/c8/fb99fe2074a617dd0f0d6145736aabd55c62863f640e03e31eecb6c1bc89/retro-data-structures-0.8.0.tar.gz
+[2023-07-13 01:43:07] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b6/de/f3172b8f928ec31c47cbc2e23d6a875eea575cba8e11ad4548900923efa1/ultralytics-8.0.98.tar.gz
+[2023-07-13 01:43:07] INFO root fetch - processPackages [lbt-ladybug]: Downloading https://files.pythonhosted.org/packages/e4/ac/474c600d6f495b8d63c49d7689b2b076f0c5f94c22728fe795233852a9e1/lbt-ladybug-0.8.1.tar.gz
+[2023-07-13 01:43:07] INFO root fetch - processPackages [yiddish]: Downloading https://files.pythonhosted.org/packages/a7/df/8afd673ad88a4fb03ec9f3c03518cf6e246165f76be54944d0c981a9ff70/yiddish-0.0.9.tar.gz
+[2023-07-13 01:43:07] INFO root fetch - processPackages [efrem-utils]: Downloading https://files.pythonhosted.org/packages/0e/21/1896867c8615c222ba8e1c0b25e359072a80025baa3b7d502d5e16eca2ab/efrem_utils-0.0.4.tar.gz
+[2023-07-13 01:43:07] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/8d/5e/1bc90eeaf45799cc7d5cda125017c1e4e2cf0ef068cd3db60d971b9596ba/honeybee-energy-1.99.9.tar.gz
+[2023-07-13 01:43:07] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/50/24/71a3a4863bb39caef68dcd79f1b380133b1f1968426af26bc9c4812376d1/honeybee-radiance-1.9.2.tar.gz
+[2023-07-13 01:43:07] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/75/cb/4a1ce4726a070a188305b8d5343b4300bf24190845d85c8718cc31aa3e53/dragonfly-core-1.9.0.tar.gz
+[2023-07-13 01:43:07] INFO root fetch - processPackages [yiddish]: executing diffoscope
+[2023-07-13 01:43:07] INFO root fetch - processPackages [yiddish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yiddish-0.0.8.tar.gz tmp/yiddish-0.0.9.tar.gz --markdown 20230713/y/yiddish/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 01:43:07] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/56/46/f3ba1d8980a81e7e0579b812ea29d2c68be9c442ea0e7168a51afcd8c79e/d20-securityLayer-2.0.0a9.tar.gz
+[2023-07-13 01:43:07] INFO root fetch - processPackages [honeybee-energy]: executing diffoscope
+[2023-07-13 01:43:07] INFO root fetch - processPackages [honeybee-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-energy-1.99.8.tar.gz tmp/honeybee-energy-1.99.9.tar.gz --markdown 20230713/h/honeybee-energy/1.99.8-1.99.9/diff.md --exclude *.pyd
+[2023-07-13 01:43:07] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2023-07-13 01:43:07] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20230713/d/dragonfly-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-13 01:43:07] INFO root fetch - processPackages [efrem-utils]: executing diffoscope
+[2023-07-13 01:43:07] INFO root fetch - processPackages [efrem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efrem_utils-0.0.2.tar.gz tmp/efrem_utils-0.0.4.tar.gz --markdown 20230713/e/efrem-utils/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-07-13 01:43:07] INFO root fetch - processPackages [honeybee-radiance]: executing diffoscope
+[2023-07-13 01:43:07] INFO root fetch - processPackages [honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-1.9.1.tar.gz tmp/honeybee-radiance-1.9.2.tar.gz --markdown 20230713/h/honeybee-radiance/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-13 01:43:07] INFO root fetch - processPackages [d20-securityLayer]: executing diffoscope
+[2023-07-13 01:43:07] INFO root fetch - processPackages [d20-securityLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-securityLayer-2.0.0a8.tar.gz tmp/d20-securityLayer-2.0.0a9.tar.gz --markdown 20230713/d/d20-securityLayer/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-07-13 01:43:07] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b3/b0/87b289ca8a910cd1421d5a217c06fb642b51546dd96bd6b923c67be00415/ultralytics-8.0.99.tar.gz
+[2023-07-13 01:43:07] INFO root fetch - processPackages [lbt-ladybug]: Downloading https://files.pythonhosted.org/packages/6e/e7/a4e6dcfc6b2750475acd6dee9e849a991053471ff22a90aa8f986eaef25b/lbt-ladybug-0.9.0.tar.gz
+[2023-07-13 01:43:08] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-07-13 01:43:08] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.98.tar.gz tmp/ultralytics-8.0.99.tar.gz --markdown 20230713/u/ultralytics/8.0.98-8.0.99/diff.md --exclude *.pyd
+[2023-07-13 01:43:08] INFO root fetch - processPackages [lbt-ladybug]: executing diffoscope
+[2023-07-13 01:43:08] INFO root fetch - processPackages [lbt-ladybug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-ladybug-0.8.1.tar.gz tmp/lbt-ladybug-0.9.0.tar.gz --markdown 20230713/l/lbt-ladybug/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-13 01:43:08] INFO root fetch - processPackages [yiddish]: Remove: archive file [/home/abi/fetcher/tmp/yiddish-0.0.8.tar.gz]
+[2023-07-13 01:43:08] INFO root fetch - processPackages [yiddish]: Remove: archive file [/home/abi/fetcher/tmp/yiddish-0.0.9.tar.gz]
+[2023-07-13 01:43:08] INFO root fetch - main [MainThread]: End processing [yiddish]: success
+[2023-07-13 01:43:08] INFO root fetch - processPackages [efrem-utils]: Remove: archive file [/home/abi/fetcher/tmp/efrem_utils-0.0.2.tar.gz]
+[2023-07-13 01:43:08] INFO root fetch - processPackages [efrem-utils]: Remove: archive file [/home/abi/fetcher/tmp/efrem_utils-0.0.4.tar.gz]
+[2023-07-13 01:43:08] INFO root fetch - main [MainThread]: End processing [efrem-utils]: success
+[2023-07-13 01:43:09] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a8.tar.gz]
+[2023-07-13 01:43:09] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a9.tar.gz]
+[2023-07-13 01:43:09] INFO root fetch - main [MainThread]: End processing [d20-securityLayer]: success
+[2023-07-13 01:43:09] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.8.1.tar.gz]
+[2023-07-13 01:43:09] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.9.0.tar.gz]
+[2023-07-13 01:43:09] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2023-07-13 01:43:09] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.8.tar.gz]
+[2023-07-13 01:43:09] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
+[2023-07-13 01:43:09] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
+[2023-07-13 01:43:09] INFO root fetch - processPackages [retro-data-structures]: Downloading https://files.pythonhosted.org/packages/95/99/3fc33634a4abebfc4c59c9a4a2274b5672a2f14c64b176626a92a4ddf88b/retro-data-structures-0.9.0.tar.gz
+[2023-07-13 01:43:10] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.1.tar.gz]
+[2023-07-13 01:43:10] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.2.tar.gz]
+[2023-07-13 01:43:10] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
+[2023-07-13 01:43:10] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.98.tar.gz]
+[2023-07-13 01:43:10] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
+[2023-07-13 01:43:10] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-07-13 01:43:10] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.8.1.tar.gz]
+[2023-07-13 01:43:10] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.9.0.tar.gz]
+[2023-07-13 01:43:10] INFO root fetch - main [MainThread]: End processing [lbt-ladybug]: success
+[2023-07-13 01:43:11] INFO root fetch - processPackages [retro-data-structures]: executing diffoscope
+[2023-07-13 01:43:11] INFO root fetch - processPackages [retro-data-structures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retro-data-structures-0.8.0.tar.gz tmp/retro-data-structures-0.9.0.tar.gz --markdown 20230713/r/retro-data-structures/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-13 01:44:05] INFO root fetch - processPackages [retro-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/retro-data-structures-0.8.0.tar.gz]
+[2023-07-13 01:44:05] INFO root fetch - processPackages [retro-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/retro-data-structures-0.9.0.tar.gz]
+[2023-07-13 01:44:05] INFO root fetch - main [MainThread]: End processing [retro-data-structures]: success
+[2023-07-13 01:44:05] INFO root fetch - main [MainThread]: Store serial: [18867185]
