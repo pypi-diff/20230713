@@ -134,3 +134,118 @@
 [2023-07-13 00:00:56] INFO root fetch - processPackages [janis-pipelines.core]: Remove: archive file [/home/abi/fetcher/tmp/janis-pipelines.core-0.9.9.tar.gz]
 [2023-07-13 00:00:56] INFO root fetch - main [MainThread]: End processing [janis-pipelines.core]: success
 [2023-07-13 00:00:56] INFO root fetch - main [MainThread]: Store serial: [18866466]
+[2023-07-13 00:06:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18866466]
+[2023-07-13 00:06:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-13 00:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dank-mids
+[2023-07-13 00:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zylo
+[2023-07-13 00:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grai-client
+[2023-07-13 00:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vollseg
+[2023-07-13 00:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CADPR
+[2023-07-13 00:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shipyard-fivetran
+[2023-07-13 00:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: databricks-sql-connector
+[2023-07-13 00:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jarvis-assistant-bot
+[2023-07-13 00:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gigagan-pytorch
+[2023-07-13 00:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Ninja-Smart-Finder-IM
+[2023-07-13 00:06:05] INFO root fetch - processPackages [CADPR]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-13 00:06:05] INFO root fetch - processPackages [zylo]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-13 00:06:05] INFO root fetch - processPackages [grai-client]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-07-13 00:06:05] INFO root fetch - processPackages [shipyard-fivetran]: New version: [0.1.2a7] Old Version: [0.1.2a6]
+[2023-07-13 00:06:05] INFO root fetch - processPackages [jarvis-assistant-bot]: New version: [1.2] Old Version: [1.1]
+[2023-07-13 00:06:05] INFO root fetch - processPackages [grai-client]: Downloading https://files.pythonhosted.org/packages/7b/0c/3ea2e50fbd7275dd1c4003dc273a6673f7f6072e73030d815eb008c57cf7/grai_client-0.3.0a8.tar.gz
+[2023-07-13 00:06:05] INFO root fetch - processPackages [Ninja-Smart-Finder-IM]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 00:06:05] INFO root fetch - processPackages [gigagan-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 00:06:05] INFO root fetch - processPackages [databricks-sql-connector]: New version: [2.7.1.dev3] Old Version: [2.7.1.dev2]
+[2023-07-13 00:06:05] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-13 00:06:05] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-07-13 00:06:05] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/87/08/d65e9902870763d57089d2b868de4f6d93eac16c3b973135d18053679d8d/zylo-1.0.2.tar.gz
+[2023-07-13 00:06:05] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/c0/aa/26bf6b7a863fb9525dd2ca84ff5122173d9bcd4d108b07c4aa8bb92431c7/gigagan-pytorch-0.0.8.tar.gz
+[2023-07-13 00:06:05] INFO root fetch - processPackages [databricks-sql-connector]: Downloading https://files.pythonhosted.org/packages/15/14/2d63fb8ef2cbd84ed1386a44533d11ccd91378ee09cc8df580aa24228afe/databricks_sql_connector-2.7.1.dev2.tar.gz
+[2023-07-13 00:06:05] INFO root fetch - processPackages [CADPR]: Downloading https://files.pythonhosted.org/packages/4b/18/a36e4ce7b9c9ac3c8b6ababfa42f8661382080ad5e40abe97e7086682944/CADPR-0.1.0.tar.gz
+[2023-07-13 00:06:05] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-13 00:06:05] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-07-13 00:06:05] INFO root fetch - processPackages [shipyard-fivetran]: Downloading https://files.pythonhosted.org/packages/f1/f9/2f0fc6388b6789a899b9221c30262ba39e349ee191b577616ced8b8985f4/shipyard_fivetran-0.1.2a6.tar.gz
+[2023-07-13 00:06:05] INFO root fetch - processPackages [jarvis-assistant-bot]: Downloading https://files.pythonhosted.org/packages/37/cf/a6fae3ba95a799261e90ac2cf869c614f7c30041de288bdc685e4f062b52/jarvis_assistant_bot-1.1.tar.gz
+[2023-07-13 00:06:05] INFO root fetch - processPackages [Ninja-Smart-Finder-IM]: Downloading https://files.pythonhosted.org/packages/40/a8/4484880f77a9a0be6fcb926d830f6489c94895e9924140b02e54272c6ee8/Ninja_Smart_Finder_IM-0.0.1.tar.gz
+[2023-07-13 00:06:05] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-07-13 00:06:05] INFO root fetch - processPackages [vollseg]: Start processing: apache-airflow-providers-fastetl
+[2023-07-13 00:06:05] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-07-13 00:06:06] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 00:06:06] INFO root fetch - processPackages [grai-client]: Downloading https://files.pythonhosted.org/packages/99/fe/aff0ad822eae61047cf64181e643629668c44ac5d46f6baf5af3086d1f1b/grai_client-0.3.0a9.tar.gz
+[2023-07-13 00:06:06] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: Downloading https://files.pythonhosted.org/packages/f2/c2/9e7ac137ff43470836125dc5e1c2227595775ef8f30a2c6d2085dd8eb7fe/apache-airflow-providers-fastetl-0.0.8.tar.gz
+[2023-07-13 00:06:06] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/88/15/d88c491945eed450311a7b87b5c2fc81ce2bdeb29f0c7c042a11e387769b/gigagan-pytorch-0.0.9.tar.gz
+[2023-07-13 00:06:06] INFO root fetch - processPackages [shipyard-fivetran]: executing diffoscope
+[2023-07-13 00:06:06] INFO root fetch - processPackages [shipyard-fivetran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_fivetran-0.1.2a6.tar.gz tmp/shipyard_fivetran-0.1.2a7.tar.gz --markdown 20230713/s/shipyard-fivetran/0.1.2a6-0.1.2a7/diff.md --exclude *.pyd
+[2023-07-13 00:06:06] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-13 00:06:06] INFO root fetch - processPackages [grai-client]: executing diffoscope
+[2023-07-13 00:06:06] INFO root fetch - processPackages [grai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_client-0.3.0a8.tar.gz tmp/grai_client-0.3.0a9.tar.gz --markdown 20230713/g/grai-client/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-07-13 00:06:06] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/0a/a7/7238acf01d1803d95f664b8199c10dcf32acde67517660b7047db11a1ab2/zylo-1.0.3.tar.gz
+[2023-07-13 00:06:06] INFO root fetch - processPackages [CADPR]: Downloading https://files.pythonhosted.org/packages/a2/1a/777f79380400c6635b4580baa1557a16ef0cb5f11c6cd772cfddf2a43f4b/CADPR-0.1.1.tar.gz
+[2023-07-13 00:06:06] INFO root fetch - processPackages [gigagan-pytorch]: executing diffoscope
+[2023-07-13 00:06:06] INFO root fetch - processPackages [gigagan-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagan-pytorch-0.0.8.tar.gz tmp/gigagan-pytorch-0.0.9.tar.gz --markdown 20230713/g/gigagan-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 00:06:06] INFO root fetch - processPackages [jarvis-assistant-bot]: Downloading https://files.pythonhosted.org/packages/28/0e/d9366548c793b5bac3390f3f44ade32127468f850582c87223a89f9fc8e0/jarvis_assistant_bot-1.2.tar.gz
+[2023-07-13 00:06:06] INFO root fetch - processPackages [Ninja-Smart-Finder-IM]: Downloading https://files.pythonhosted.org/packages/8c/4c/6ba6a3be9d3da55c4138a3e8f6509d9f2485ebefee390f621aaef3772692/Ninja_Smart_Finder_IM-0.0.2.tar.gz
+[2023-07-13 00:06:06] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-13 00:06:06] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230713/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-13 00:06:06] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: Downloading https://files.pythonhosted.org/packages/d4/f8/baf9fc62b93aeb50681580f8298179926c73ad768fa3910640c56d6c583e/apache-airflow-providers-fastetl-0.0.9.tar.gz
+[2023-07-13 00:06:06] INFO root fetch - processPackages [CADPR]: executing diffoscope
+[2023-07-13 00:06:06] INFO root fetch - processPackages [CADPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADPR-0.1.0.tar.gz tmp/CADPR-0.1.1.tar.gz --markdown 20230713/C/CADPR/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-13 00:06:06] INFO root fetch - processPackages [jarvis-assistant-bot]: executing diffoscope
+[2023-07-13 00:06:06] INFO root fetch - processPackages [jarvis-assistant-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarvis_assistant_bot-1.1.tar.gz tmp/jarvis_assistant_bot-1.2.tar.gz --markdown 20230713/j/jarvis-assistant-bot/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-13 00:06:06] INFO root fetch - processPackages [zylo]: executing diffoscope
+[2023-07-13 00:06:06] INFO root fetch - processPackages [zylo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zylo-1.0.2.tar.gz tmp/zylo-1.0.3.tar.gz --markdown 20230713/z/zylo/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-13 00:06:06] INFO root fetch - processPackages [databricks-sql-connector]: Downloading https://files.pythonhosted.org/packages/eb/88/12de0ae2d97eb8566cccecfb6eb0128fb562d021ce814f25b66d4127b584/databricks_sql_connector-2.7.1.dev3.tar.gz
+[2023-07-13 00:06:06] INFO root fetch - processPackages [Ninja-Smart-Finder-IM]: executing diffoscope
+[2023-07-13 00:06:06] INFO root fetch - processPackages [Ninja-Smart-Finder-IM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Ninja_Smart_Finder_IM-0.0.1.tar.gz tmp/Ninja_Smart_Finder_IM-0.0.2.tar.gz --markdown 20230713/N/Ninja-Smart-Finder-IM/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 00:06:06] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: executing diffoscope
+[2023-07-13 00:06:06] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-fastetl-0.0.8.tar.gz tmp/apache-airflow-providers-fastetl-0.0.9.tar.gz --markdown 20230713/a/apache-airflow-providers-fastetl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 00:06:06] INFO root fetch - processPackages [databricks-sql-connector]: executing diffoscope
+[2023-07-13 00:06:06] INFO root fetch - processPackages [databricks-sql-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_sql_connector-2.7.1.dev2.tar.gz tmp/databricks_sql_connector-2.7.1.dev3.tar.gz --markdown 20230713/d/databricks-sql-connector/2.7.1.dev2-2.7.1.dev3/diff.md --exclude *.pyd
+[2023-07-13 00:06:07] INFO root fetch - processPackages [shipyard-fivetran]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_fivetran-0.1.2a6.tar.gz]
+[2023-07-13 00:06:07] INFO root fetch - processPackages [shipyard-fivetran]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_fivetran-0.1.2a7.tar.gz]
+[2023-07-13 00:06:07] INFO root fetch - processPackages [shipyard-fivetran]: Start processing: iambic-core
+[2023-07-13 00:06:07] INFO root fetch - main [MainThread]: End processing [shipyard-fivetran]: success
+[2023-07-13 00:06:07] INFO root fetch - processPackages [iambic-core]: New version: [0.9.8] Old Version: [0.9.6]
+[2023-07-13 00:06:07] INFO root fetch - processPackages [grai-client]: Remove: archive file [/home/abi/fetcher/tmp/grai_client-0.3.0a8.tar.gz]
+[2023-07-13 00:06:07] INFO root fetch - processPackages [grai-client]: Remove: archive file [/home/abi/fetcher/tmp/grai_client-0.3.0a9.tar.gz]
+[2023-07-13 00:06:07] INFO root fetch - processPackages [grai-client]: Start processing: capeditor
+[2023-07-13 00:06:07] INFO root fetch - main [MainThread]: End processing [grai-client]: success
+[2023-07-13 00:06:07] INFO root fetch - processPackages [capeditor]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-13 00:06:07] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.0.8.tar.gz]
+[2023-07-13 00:06:07] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.0.9.tar.gz]
+[2023-07-13 00:06:07] INFO root fetch - main [MainThread]: End processing [gigagan-pytorch]: success
+[2023-07-13 00:06:07] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/0e/5a/675b0d887664ac3974c5aa9dae3ad7e9a3846429832e15c36b9df308f07a/capeditor-0.2.5.tar.gz
+[2023-07-13 00:06:07] INFO root fetch - processPackages [iambic-core]: Downloading https://files.pythonhosted.org/packages/9e/25/21eeb36df4421605a4e9a0f3f4ff71207d35463557f2a464b38aa3200082/iambic_core-0.9.6.tar.gz
+[2023-07-13 00:06:08] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-13 00:06:08] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-13 00:06:08] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-13 00:06:08] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/8d/5d/bbd0bc07a1b0846e794d560832f1235eab9c114c70062fffb4ac21b41080/capeditor-0.2.6.tar.gz
+[2023-07-13 00:06:08] INFO root fetch - processPackages [jarvis-assistant-bot]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_assistant_bot-1.1.tar.gz]
+[2023-07-13 00:06:08] INFO root fetch - processPackages [jarvis-assistant-bot]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_assistant_bot-1.2.tar.gz]
+[2023-07-13 00:06:08] INFO root fetch - main [MainThread]: End processing [jarvis-assistant-bot]: success
+[2023-07-13 00:06:08] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-1.0.2.tar.gz]
+[2023-07-13 00:06:08] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-1.0.3.tar.gz]
+[2023-07-13 00:06:08] INFO root fetch - main [MainThread]: End processing [zylo]: success
+[2023-07-13 00:06:08] INFO root fetch - processPackages [CADPR]: Remove: archive file [/home/abi/fetcher/tmp/CADPR-0.1.0.tar.gz]
+[2023-07-13 00:06:08] INFO root fetch - processPackages [CADPR]: Remove: archive file [/home/abi/fetcher/tmp/CADPR-0.1.1.tar.gz]
+[2023-07-13 00:06:08] INFO root fetch - main [MainThread]: End processing [CADPR]: success
+[2023-07-13 00:06:08] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-fastetl-0.0.8.tar.gz]
+[2023-07-13 00:06:08] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-fastetl-0.0.9.tar.gz]
+[2023-07-13 00:06:08] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-fastetl]: success
+[2023-07-13 00:06:08] INFO root fetch - processPackages [capeditor]: executing diffoscope
+[2023-07-13 00:06:08] INFO root fetch - processPackages [capeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capeditor-0.2.5.tar.gz tmp/capeditor-0.2.6.tar.gz --markdown 20230713/c/capeditor/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-13 00:06:08] INFO root fetch - processPackages [Ninja-Smart-Finder-IM]: Remove: archive file [/home/abi/fetcher/tmp/Ninja_Smart_Finder_IM-0.0.1.tar.gz]
+[2023-07-13 00:06:08] INFO root fetch - processPackages [Ninja-Smart-Finder-IM]: Remove: archive file [/home/abi/fetcher/tmp/Ninja_Smart_Finder_IM-0.0.2.tar.gz]
+[2023-07-13 00:06:08] INFO root fetch - main [MainThread]: End processing [Ninja-Smart-Finder-IM]: success
+[2023-07-13 00:06:08] INFO root fetch - processPackages [iambic-core]: Downloading https://files.pythonhosted.org/packages/6f/80/c1e31a0542c8c742b4f9f67bf67da9ea788a31fe7a030465447db59f3205/iambic_core-0.9.8.tar.gz
+[2023-07-13 00:06:08] INFO root fetch - processPackages [iambic-core]: executing diffoscope
+[2023-07-13 00:06:08] INFO root fetch - processPackages [iambic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iambic_core-0.9.6.tar.gz tmp/iambic_core-0.9.8.tar.gz --markdown 20230713/i/iambic-core/0.9.6-0.9.8/diff.md --exclude *.pyd
+[2023-07-13 00:06:08] INFO root fetch - processPackages [databricks-sql-connector]: Remove: archive file [/home/abi/fetcher/tmp/databricks_sql_connector-2.7.1.dev2.tar.gz]
+[2023-07-13 00:06:08] INFO root fetch - processPackages [databricks-sql-connector]: Remove: archive file [/home/abi/fetcher/tmp/databricks_sql_connector-2.7.1.dev3.tar.gz]
+[2023-07-13 00:06:08] INFO root fetch - main [MainThread]: End processing [databricks-sql-connector]: success
+[2023-07-13 00:06:09] INFO root fetch - processPackages [capeditor]: Remove: archive file [/home/abi/fetcher/tmp/capeditor-0.2.5.tar.gz]
+[2023-07-13 00:06:09] INFO root fetch - processPackages [capeditor]: Remove: archive file [/home/abi/fetcher/tmp/capeditor-0.2.6.tar.gz]
+[2023-07-13 00:06:09] INFO root fetch - main [MainThread]: End processing [capeditor]: success
+[2023-07-13 00:06:09] INFO root fetch - processPackages [iambic-core]: Remove: archive file [/home/abi/fetcher/tmp/iambic_core-0.9.6.tar.gz]
+[2023-07-13 00:06:09] INFO root fetch - processPackages [iambic-core]: Remove: archive file [/home/abi/fetcher/tmp/iambic_core-0.9.8.tar.gz]
+[2023-07-13 00:06:09] INFO root fetch - main [MainThread]: End processing [iambic-core]: success
+[2023-07-13 00:06:09] INFO root fetch - main [MainThread]: Store serial: [18866507]
