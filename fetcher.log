@@ -2010,3 +2010,64 @@
 [2023-07-13 01:44:05] INFO root fetch - processPackages [retro-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/retro-data-structures-0.9.0.tar.gz]
 [2023-07-13 01:44:05] INFO root fetch - main [MainThread]: End processing [retro-data-structures]: success
 [2023-07-13 01:44:05] INFO root fetch - main [MainThread]: Store serial: [18867185]
+[2023-07-13 01:49:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18867185]
+[2023-07-13 01:49:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-13 01:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2023-07-13 01:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: efrem-utils
+[2023-07-13 01:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lbt-honeybee
+[2023-07-13 01:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chiapos
+[2023-07-13 01:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skyplane-nightly
+[2023-07-13 01:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pxsecurityapi
+[2023-07-13 01:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: honeybee-radiance-postprocess
+[2023-07-13 01:49:14] INFO root fetch - processPackages [efrem-utils]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-13 01:49:14] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev20230711] Old Version: [0.3.2.dev20230710]
+[2023-07-13 01:49:14] INFO root fetch - processPackages [pxsecurityapi]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-13 01:49:14] INFO root fetch - processPackages [coiled]: New version: [0.8.8.dev6] Old Version: [0.8.8.dev5]
+[2023-07-13 01:49:14] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-07-13 01:49:14] INFO root fetch - processPackages [chiapos]: New version: [2.0.0b4] Old Version: [2.0.0b3]
+[2023-07-13 01:49:14] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-13 01:49:14] ERROR root fetch - processPackages [efrem-utils]: Unable to fetch info: No such project/version 'efrem-utils' 0.0.4
+[2023-07-13 01:49:14] INFO root fetch - main [MainThread]: End processing [efrem-utils] error
+[2023-07-13 01:49:14] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/77/b9/8cc659a293e38b1e68b115979585c5548a08bc2fbab75248c0a34b102d00/skyplane_nightly-0.3.2.dev20230710.tar.gz
+[2023-07-13 01:49:14] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/b6/91/e656cf214b08dde444b27576e74fc06004fa6bbc0d5f04f1d6514eb05429/honeybee-radiance-postprocess-0.4.98.tar.gz
+[2023-07-13 01:49:14] INFO root fetch - processPackages [pxsecurityapi]: Downloading https://files.pythonhosted.org/packages/37/43/a6bec38de7482c6e2c8c9fce568d5f661aef289f61fd6cad03397a46080c/pxsecurityapi-1.0.3.tar.gz
+[2023-07-13 01:49:14] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/c2/36/d3280db7c42d8129263408a3f396af4639164500ff0eedd1f5f164ffad77/coiled-0.8.8.dev5.tar.gz
+[2023-07-13 01:49:14] INFO root fetch - processPackages [chiapos]: Downloading https://files.pythonhosted.org/packages/3a/0f/46e4071ff81eb6bda75b32300eba9349d9ac43df14ee3396a52dda90a91c/chiapos-2.0.0b3.tar.gz
+[2023-07-13 01:49:14] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-13 01:49:14] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/9c/0e/893e4bd51345fe31c1586c02b880d2d62b5138654820cd2064a21b7d2b4b/skyplane_nightly-0.3.2.dev20230711.tar.gz
+[2023-07-13 01:49:14] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/e0/41/5be881e0724bb4d271ee5bb707666eff4c4b9ca79bc8c67f7316687d2f67/honeybee-radiance-postprocess-0.4.99.tar.gz
+[2023-07-13 01:49:14] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-07-13 01:49:14] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230713/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-07-13 01:49:15] INFO root fetch - processPackages [pxsecurityapi]: Downloading https://files.pythonhosted.org/packages/ec/92/8850dc581da27a793a8f258e32cfc25d67af11a52af92aa4390b9b4aa624/pxsecurityapi-1.0.4.tar.gz
+[2023-07-13 01:49:15] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-13 01:49:15] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev20230710.tar.gz tmp/skyplane_nightly-0.3.2.dev20230711.tar.gz --markdown 20230713/s/skyplane-nightly/0.3.2.dev20230710-0.3.2.dev20230711/diff.md --exclude *.pyd
+[2023-07-13 01:49:15] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/db/b4/b10f6a726c91a112ce80b345776624feecfd227d9ef8bb77d29fd5f10e00/coiled-0.8.8.dev6.tar.gz
+[2023-07-13 01:49:15] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-13 01:49:15] INFO root fetch - processPackages [pxsecurityapi]: executing diffoscope
+[2023-07-13 01:49:15] INFO root fetch - processPackages [pxsecurityapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxsecurityapi-1.0.3.tar.gz tmp/pxsecurityapi-1.0.4.tar.gz --markdown 20230713/p/pxsecurityapi/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-13 01:49:15] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-13 01:49:15] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230713/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-13 01:49:15] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-13 01:49:15] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.8.dev5.tar.gz tmp/coiled-0.8.8.dev6.tar.gz --markdown 20230713/c/coiled/0.8.8.dev5-0.8.8.dev6/diff.md --exclude *.pyd
+[2023-07-13 01:49:15] INFO root fetch - processPackages [chiapos]: Downloading https://files.pythonhosted.org/packages/61/b7/032f8667302ae663846aea5a160456907794166379aed03a9384e20ec2b5/chiapos-2.0.0b4.tar.gz
+[2023-07-13 01:49:15] INFO root fetch - processPackages [chiapos]: executing diffoscope
+[2023-07-13 01:49:15] INFO root fetch - processPackages [chiapos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiapos-2.0.0b3.tar.gz tmp/chiapos-2.0.0b4.tar.gz --markdown 20230713/c/chiapos/2.0.0b3-2.0.0b4/diff.md --exclude *.pyd
+[2023-07-13 01:49:16] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.98.tar.gz]
+[2023-07-13 01:49:16] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.99.tar.gz]
+[2023-07-13 01:49:16] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-07-13 01:49:16] INFO root fetch - processPackages [pxsecurityapi]: Remove: archive file [/home/abi/fetcher/tmp/pxsecurityapi-1.0.3.tar.gz]
+[2023-07-13 01:49:16] INFO root fetch - processPackages [pxsecurityapi]: Remove: archive file [/home/abi/fetcher/tmp/pxsecurityapi-1.0.4.tar.gz]
+[2023-07-13 01:49:16] INFO root fetch - main [MainThread]: End processing [pxsecurityapi]: success
+[2023-07-13 01:49:16] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-13 01:49:16] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-13 01:49:16] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-13 01:49:16] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.8.dev5.tar.gz]
+[2023-07-13 01:49:16] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.8.dev6.tar.gz]
+[2023-07-13 01:49:16] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-13 01:49:16] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230710.tar.gz]
+[2023-07-13 01:49:16] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230711.tar.gz]
+[2023-07-13 01:49:16] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-13 01:49:17] INFO root fetch - processPackages [chiapos]: Remove: archive file [/home/abi/fetcher/tmp/chiapos-2.0.0b3.tar.gz]
+[2023-07-13 01:49:17] INFO root fetch - processPackages [chiapos]: Remove: archive file [/home/abi/fetcher/tmp/chiapos-2.0.0b4.tar.gz]
+[2023-07-13 01:49:17] INFO root fetch - main [MainThread]: End processing [chiapos]: success
+[2023-07-13 01:49:17] INFO root fetch - main [MainThread]: Store serial: [18867230]
