@@ -1292,3 +1292,59 @@
 [2023-07-13 00:55:59] INFO root fetch - processPackages [Metadata-Magic]: Remove: archive file [/home/abi/fetcher/tmp/Metadata_Magic-0.5.3-py3-none-any.whl.zip]
 [2023-07-13 00:55:59] INFO root fetch - main [MainThread]: End processing [Metadata-Magic]: success
 [2023-07-13 00:55:59] INFO root fetch - main [MainThread]: Store serial: [18866937]
+[2023-07-13 01:01:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18866937]
+[2023-07-13 01:01:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-13 01:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opvious
+[2023-07-13 01:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: esphome
+[2023-07-13 01:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vollseg
+[2023-07-13 01:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: compel
+[2023-07-13 01:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pachyderm-sdk
+[2023-07-13 01:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: searchy
+[2023-07-13 01:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ossit
+[2023-07-13 01:01:08] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-07-13 01:01:08] INFO root fetch - processPackages [esphome]: New version: [2023.7.0b1] Old Version: [2023.6.5]
+[2023-07-13 01:01:08] INFO root fetch - processPackages [searchy]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-13 01:01:08] INFO root fetch - processPackages [compel]: New version: [2.0.0rc1] Old Version: [1.2.1]
+[2023-07-13 01:01:08] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-13 01:01:08] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-07-13 01:01:09] WARNING root fetch - processPackages [pachyderm-sdk]: Skipping, unable to determine old version
+[2023-07-13 01:01:09] INFO root fetch - main [MainThread]: End processing [pachyderm-sdk] error
+[2023-07-13 01:01:09] INFO root fetch - processPackages [ossit]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-13 01:01:09] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-07-13 01:01:09] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-07-13 01:01:09] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/d1/8f/b7e05d9b24e4dd1af2b9eab96fa7d1f97af088ed0836d9d8cfdb60c51360/opvious-0.9.5.tar.gz
+[2023-07-13 01:01:09] INFO root fetch - processPackages [searchy]: Downloading https://files.pythonhosted.org/packages/f3/42/9f6611978d452658dacaf1547f18ee1717639f6cd239ee5591c7a0f1df78/searchy-1.0.0.tar.gz
+[2023-07-13 01:01:09] INFO root fetch - processPackages [compel]: Downloading https://files.pythonhosted.org/packages/85/d2/726beb88214ca9d513ef09a1ca0738f61903ba867c9357c0c6be62ce754c/compel-1.2.1.tar.gz
+[2023-07-13 01:01:09] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/48/cd/dc2b0591dee0ebb32d26d95b969d28a63955eeef3b8c2abbeadfeec017c8/esphome-2023.6.5.tar.gz
+[2023-07-13 01:01:09] INFO root fetch - processPackages [ossit]: Downloading https://files.pythonhosted.org/packages/a4/9e/7d816fc506175c4379ff199d467f71f9112d4fa1bf16d94bcfa1dfba197e/ossit-0.2.0.tar.gz
+[2023-07-13 01:01:09] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/c2/c3/e2b95ca71e91eb624497389cb2391d3310907b4f9f25dee1a75b99798c14/opvious-0.9.6.tar.gz
+[2023-07-13 01:01:09] INFO root fetch - processPackages [searchy]: Downloading https://files.pythonhosted.org/packages/1a/42/e46b224b3eefb66b3593147086ee587c237195419bafdfe2ece8e631063c/searchy-1.0.1.tar.gz
+[2023-07-13 01:01:09] INFO root fetch - processPackages [compel]: Downloading https://files.pythonhosted.org/packages/ed/2c/de308e9d1095ba1f132e5cd11e6d3c180dfa21bc977889abe08329a097b7/compel-2.0.0rc1.tar.gz
+[2023-07-13 01:01:09] INFO root fetch - processPackages [searchy]: executing diffoscope
+[2023-07-13 01:01:09] INFO root fetch - processPackages [searchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchy-1.0.0.tar.gz tmp/searchy-1.0.1.tar.gz --markdown 20230713/s/searchy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-13 01:01:09] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-07-13 01:01:09] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230713/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-13 01:01:09] INFO root fetch - processPackages [ossit]: Downloading https://files.pythonhosted.org/packages/ce/ec/34cda702c5b2ac2b45536e76cfccb480bd6ff661919bcfe76952a2393502/ossit-0.2.1.tar.gz
+[2023-07-13 01:01:09] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/5e/f1/ec2a0c8d4ccf9a7c17b874f3d31dacc50491edcef9289c1179d21b32509e/esphome-2023.7.0b1.tar.gz
+[2023-07-13 01:01:09] INFO root fetch - processPackages [compel]: executing diffoscope
+[2023-07-13 01:01:09] INFO root fetch - processPackages [compel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compel-1.2.1.tar.gz tmp/compel-2.0.0rc1.tar.gz --markdown 20230713/c/compel/1.2.1-2.0.0rc1/diff.md --exclude *.pyd
+[2023-07-13 01:01:09] INFO root fetch - processPackages [ossit]: executing diffoscope
+[2023-07-13 01:01:09] INFO root fetch - processPackages [ossit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ossit-0.2.0.tar.gz tmp/ossit-0.2.1.tar.gz --markdown 20230713/o/ossit/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-13 01:01:10] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2023-07-13 01:01:10] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2023.6.5.tar.gz tmp/esphome-2023.7.0b1.tar.gz --markdown 20230713/e/esphome/2023.6.5-2023.7.0b1/diff.md --exclude *.pyd
+[2023-07-13 01:01:10] INFO root fetch - processPackages [searchy]: Remove: archive file [/home/abi/fetcher/tmp/searchy-1.0.0.tar.gz]
+[2023-07-13 01:01:10] INFO root fetch - processPackages [searchy]: Remove: archive file [/home/abi/fetcher/tmp/searchy-1.0.1.tar.gz]
+[2023-07-13 01:01:10] INFO root fetch - main [MainThread]: End processing [searchy]: success
+[2023-07-13 01:01:10] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.5.tar.gz]
+[2023-07-13 01:01:10] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.6.tar.gz]
+[2023-07-13 01:01:10] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-07-13 01:01:10] INFO root fetch - processPackages [compel]: Remove: archive file [/home/abi/fetcher/tmp/compel-1.2.1.tar.gz]
+[2023-07-13 01:01:10] INFO root fetch - processPackages [compel]: Remove: archive file [/home/abi/fetcher/tmp/compel-2.0.0rc1.tar.gz]
+[2023-07-13 01:01:10] INFO root fetch - main [MainThread]: End processing [compel]: success
+[2023-07-13 01:01:10] INFO root fetch - processPackages [ossit]: Remove: archive file [/home/abi/fetcher/tmp/ossit-0.2.0.tar.gz]
+[2023-07-13 01:01:10] INFO root fetch - processPackages [ossit]: Remove: archive file [/home/abi/fetcher/tmp/ossit-0.2.1.tar.gz]
+[2023-07-13 01:01:10] INFO root fetch - main [MainThread]: End processing [ossit]: success
+[2023-07-13 01:01:27] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.6.5.tar.gz]
+[2023-07-13 01:01:27] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.7.0b1.tar.gz]
+[2023-07-13 01:01:27] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2023-07-13 01:01:27] INFO root fetch - main [MainThread]: Store serial: [18866961]
