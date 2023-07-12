@@ -708,3 +708,170 @@
 [2023-07-13 00:33:44] INFO root fetch - processPackages [parimutuelsdk]: Remove: archive file [/home/abi/fetcher/tmp/parimutuelsdk-0.1.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-13 00:33:44] INFO root fetch - main [MainThread]: End processing [parimutuelsdk]: success
 [2023-07-13 00:33:44] INFO root fetch - main [MainThread]: Store serial: [18866712]
+[2023-07-13 00:39:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18866712]
+[2023-07-13 00:39:17] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-13 00:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cuquantum-python-cu12
+[2023-07-13 00:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: saracendb
+[2023-07-13 00:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyterlab-commands
+[2023-07-13 00:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cuquantum-python
+[2023-07-13 00:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zylo
+[2023-07-13 00:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: LabelFusion
+[2023-07-13 00:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: leadguru-data
+[2023-07-13 00:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: leadguru-common
+[2023-07-13 00:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastapi_swagger2
+[2023-07-13 00:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vollseg
+[2023-07-13 00:39:17] INFO root fetch - processPackages [cuquantum-python]: New version: [23.6.0] Old Version: [23.3.0]
+[2023-07-13 00:39:17] INFO root fetch - processPackages [jupyterlab-commands]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-07-13 00:39:17] INFO root fetch - processPackages [cuquantum-python-cu12]: New version: [23.6.0] Old Version: [23.3.0]
+[2023-07-13 00:39:17] INFO root fetch - processPackages [saracendb]: New version: [0.5] Old Version: [0.1]
+[2023-07-13 00:39:17] INFO root fetch - processPackages [zylo]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-13 00:39:17] INFO root fetch - processPackages [LabelFusion]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-13 00:39:17] INFO root fetch - processPackages [fastapi_swagger2]: New version: [0.0.2] Old Version: [0.0.1b5]
+[2023-07-13 00:39:17] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-07-13 00:39:17] INFO root fetch - processPackages [leadguru-data]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-13 00:39:17] INFO root fetch - processPackages [leadguru-common]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-13 00:39:17] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-07-13 00:39:17] INFO root fetch - processPackages [saracendb]: Downloading https://files.pythonhosted.org/packages/40/3a/76fed85ec8234f26adb0a1f86894aa8adcbbf364f4d94796d3fe904ff8b6/saracendb-0.1.tar.gz
+[2023-07-13 00:39:17] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/5a/b4/abd96eed36aeffb05ae82d4794e899fa981003504fa9c6901cda4f3ad185/zylo-1.0.6.tar.gz
+[2023-07-13 00:39:17] INFO root fetch - processPackages [jupyterlab-commands]: Downloading https://files.pythonhosted.org/packages/45/aa/ddf25857a9973edb75bdee492c93c08cbbaab9620ba4e45589a8fc5f9566/jupyterlab_commands-0.3.4.tar.gz
+[2023-07-13 00:39:17] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-07-13 00:39:17] INFO root fetch - processPackages [vollseg]: Start processing: gdshoplib
+[2023-07-13 00:39:17] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-07-13 00:39:17] INFO root fetch - processPackages [cuquantum-python-cu12]: Downloading https://files.pythonhosted.org/packages/00/27/c56cf5f373f476a841c9e925cbeb722309d74b5e25ed07bcd0ca198a90dd/cuquantum_python_cu12-23.3.0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-13 00:39:17] INFO root fetch - processPackages [cuquantum-python]: Downloading https://files.pythonhosted.org/packages/20/f9/31e84e7aa6c7f2efb9bac9cb574c42669c050e43bf2efd96e9070493fc7e/cuquantum-python-23.3.0.tar.gz
+[2023-07-13 00:39:17] INFO root fetch - processPackages [LabelFusion]: Downloading https://files.pythonhosted.org/packages/fa/f9/5ebb4fe3c5ee99a3799689b9467c3ac93e95946224b49d19de4d6b364e8b/LabelFusion-1.0.7-py3-none-any.whl
+[2023-07-13 00:39:17] INFO root fetch - processPackages [fastapi_swagger2]: Downloading https://files.pythonhosted.org/packages/e9/4c/d3f85cad624ce264ee8c4541af3abfd6c4226bda1e075aa1ffa3ae01ea3c/fastapi_swagger2-0.0.1b5.tar.gz
+[2023-07-13 00:39:17] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/fc/35/ca8dc82028975cbcb02faead26153071461e5c78a03fb67e0f27256aee8d/leadguru_common-0.98.0.tar.gz
+[2023-07-13 00:39:17] INFO root fetch - processPackages [gdshoplib]: New version: [2.0.1] Old Version: [1.9.0]
+[2023-07-13 00:39:17] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/81/bf/f4c758210f3132ad36cea5286e4857350dc02f38ded759934614da96bd78/leadguru_data-0.98.0.tar.gz
+[2023-07-13 00:39:18] INFO root fetch - processPackages [saracendb]: Downloading https://files.pythonhosted.org/packages/e1/f4/9ad1f9ca0c7fd75891cd875aaae19c73ec2208fd76e3bd4b882823a8e9f8/saracendb-0.5.tar.gz
+[2023-07-13 00:39:18] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/48/91/d657572826a5d41e3284ecce0fb4393bf35e0c761799a04d0d8397113ce7/gdshoplib-1.9.0.tar.gz
+[2023-07-13 00:39:18] INFO root fetch - processPackages [cuquantum-python]: Downloading https://files.pythonhosted.org/packages/6e/dd/de2ddebd111001f06d1eb072c4a9f4a8c6245e8a4ba51ab3115ddd6e8d65/cuquantum-python-23.6.0.tar.gz
+[2023-07-13 00:39:18] INFO root fetch - processPackages [jupyterlab-commands]: Downloading https://files.pythonhosted.org/packages/02/ba/992cd163d9474bc40986fee3ebe3adddb32bdc3de58dd35677eb473dfcb1/jupyterlab_commands-0.4.0.tar.gz
+[2023-07-13 00:39:18] INFO root fetch - processPackages [fastapi_swagger2]: Downloading https://files.pythonhosted.org/packages/ff/58/228c90a49cf913a8cbde9838b584fb4e7a4ba476325b9e595d992061eb33/fastapi_swagger2-0.0.2.tar.gz
+[2023-07-13 00:39:18] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/8d/96/e7b7505cef8e251378e3900b3db8edb6fd681b3ada74c5d1c10f0a81523a/zylo-1.0.7.tar.gz
+[2023-07-13 00:39:18] INFO root fetch - processPackages [saracendb]: executing diffoscope
+[2023-07-13 00:39:18] INFO root fetch - processPackages [saracendb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saracendb-0.1.tar.gz tmp/saracendb-0.5.tar.gz --markdown 20230713/s/saracendb/0.1-0.5/diff.md --exclude *.pyd
+[2023-07-13 00:39:18] INFO root fetch - processPackages [LabelFusion]: Downloading https://files.pythonhosted.org/packages/16/a9/ea35093ea78834faa354398b2dc35fe25764a4d6ab08e94854e6394cf105/LabelFusion-1.0.8-py3-none-any.whl
+[2023-07-13 00:39:18] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/16/1c/017bcd8f49a9ceed0d36796e84f43cefd77b1a273b4b9807a222b85cb578/leadguru_data-0.99.0.tar.gz
+[2023-07-13 00:39:18] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/4e/4f/236c71729e1b70c3c5c202003cf9aa48c1c9b9d202620f8c5e94a7aacdc9/leadguru_common-0.99.0.tar.gz
+[2023-07-13 00:39:18] INFO root fetch - processPackages [fastapi_swagger2]: executing diffoscope
+[2023-07-13 00:39:18] INFO root fetch - processPackages [fastapi_swagger2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_swagger2-0.0.1b5.tar.gz tmp/fastapi_swagger2-0.0.2.tar.gz --markdown 20230713/f/fastapi_swagger2/0.0.1b5-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 00:39:18] INFO root fetch - processPackages [zylo]: executing diffoscope
+[2023-07-13 00:39:18] INFO root fetch - processPackages [zylo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zylo-1.0.6.tar.gz tmp/zylo-1.0.7.tar.gz --markdown 20230713/z/zylo/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-13 00:39:18] INFO root fetch - processPackages [jupyterlab-commands]: executing diffoscope
+[2023-07-13 00:39:18] INFO root fetch - processPackages [jupyterlab-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_commands-0.3.4.tar.gz tmp/jupyterlab_commands-0.4.0.tar.gz --markdown 20230713/j/jupyterlab-commands/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-07-13 00:39:18] INFO root fetch - processPackages [LabelFusion]: executing diffoscope
+[2023-07-13 00:39:18] INFO root fetch - processPackages [LabelFusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LabelFusion-1.0.7-py3-none-any.whl.zip tmp/LabelFusion-1.0.8-py3-none-any.whl.zip --markdown 20230713/L/LabelFusion/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-13 00:39:18] INFO root fetch - processPackages [cuquantum-python]: executing diffoscope
+[2023-07-13 00:39:18] INFO root fetch - processPackages [cuquantum-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuquantum-python-23.3.0.tar.gz tmp/cuquantum-python-23.6.0.tar.gz --markdown 20230713/c/cuquantum-python/23.3.0-23.6.0/diff.md --exclude *.pyd
+[2023-07-13 00:39:18] INFO root fetch - processPackages [leadguru-data]: executing diffoscope
+[2023-07-13 00:39:18] INFO root fetch - processPackages [leadguru-common]: executing diffoscope
+[2023-07-13 00:39:18] INFO root fetch - processPackages [leadguru-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_data-0.98.0.tar.gz tmp/leadguru_data-0.99.0.tar.gz --markdown 20230713/l/leadguru-data/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-13 00:39:18] INFO root fetch - processPackages [leadguru-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_common-0.98.0.tar.gz tmp/leadguru_common-0.99.0.tar.gz --markdown 20230713/l/leadguru-common/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-13 00:39:18] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/f4/06/202f5d84c30da81d62016b5bdb00594fa9fad23919b62990f36800194fc2/gdshoplib-2.0.1.tar.gz
+[2023-07-13 00:39:18] INFO root fetch - processPackages [gdshoplib]: executing diffoscope
+[2023-07-13 00:39:18] INFO root fetch - processPackages [gdshoplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdshoplib-1.9.0.tar.gz tmp/gdshoplib-2.0.1.tar.gz --markdown 20230713/g/gdshoplib/1.9.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-13 00:39:18] INFO root fetch - processPackages [cuquantum-python-cu12]: Downloading https://files.pythonhosted.org/packages/33/63/4597b1af4f247ccd0b221e705ab0a3d00d8dfcb8d3e923f81e3b255eded9/cuquantum_python_cu12-23.6.0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-13 00:39:19] INFO root fetch - processPackages [saracendb]: Remove: archive file [/home/abi/fetcher/tmp/saracendb-0.1.tar.gz]
+[2023-07-13 00:39:19] INFO root fetch - processPackages [saracendb]: Remove: archive file [/home/abi/fetcher/tmp/saracendb-0.5.tar.gz]
+[2023-07-13 00:39:19] INFO root fetch - processPackages [saracendb]: Start processing: jupyterlab-pachyderm
+[2023-07-13 00:39:19] INFO root fetch - main [MainThread]: End processing [saracendb]: success
+[2023-07-13 00:39:19] INFO root fetch - processPackages [jupyterlab-pachyderm]: New version: [2.7.0a5] Old Version: [2.7.0a4]
+[2023-07-13 00:39:19] INFO root fetch - processPackages [cuquantum-python-cu12]: executing diffoscope
+[2023-07-13 00:39:19] INFO root fetch - processPackages [cuquantum-python-cu12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuquantum_python_cu12-23.3.0-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/cuquantum_python_cu12-23.6.0-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230713/c/cuquantum-python-cu12/23.3.0-23.6.0/diff.md --exclude *.pyd
+[2023-07-13 00:39:19] INFO root fetch - processPackages [jupyterlab-pachyderm]: Downloading https://files.pythonhosted.org/packages/83/13/9b723c2e6c25f53c6aa5bc1d8fa12ce9f8c0d3d8cb33eb740f3e97180b01/jupyterlab_pachyderm-2.7.0a4.tar.gz
+[2023-07-13 00:39:19] INFO root fetch - processPackages [LabelFusion]: Remove: archive file [/home/abi/fetcher/tmp/LabelFusion-1.0.7-py3-none-any.whl.zip]
+[2023-07-13 00:39:19] INFO root fetch - processPackages [LabelFusion]: Remove: archive file [/home/abi/fetcher/tmp/LabelFusion-1.0.8-py3-none-any.whl.zip]
+[2023-07-13 00:39:19] INFO root fetch - processPackages [LabelFusion]: Start processing: simpleworkspace
+[2023-07-13 00:39:19] INFO root fetch - main [MainThread]: End processing [LabelFusion]: success
+[2023-07-13 00:39:20] INFO root fetch - processPackages [cuquantum-python]: Remove: archive file [/home/abi/fetcher/tmp/cuquantum-python-23.3.0.tar.gz]
+[2023-07-13 00:39:20] INFO root fetch - processPackages [cuquantum-python]: Remove: archive file [/home/abi/fetcher/tmp/cuquantum-python-23.6.0.tar.gz]
+[2023-07-13 00:39:20] INFO root fetch - processPackages [cuquantum-python]: Start processing: proto-schema-parser
+[2023-07-13 00:39:20] INFO root fetch - main [MainThread]: End processing [cuquantum-python]: success
+[2023-07-13 00:39:20] INFO root fetch - processPackages [simpleworkspace]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-13 00:39:20] INFO root fetch - processPackages [proto-schema-parser]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-13 00:39:20] INFO root fetch - processPackages [jupyterlab-pachyderm]: Downloading https://files.pythonhosted.org/packages/1b/76/9a865f00071bda42906b2958d12a24f1ffc4b241cacbf483065e7663b173/jupyterlab_pachyderm-2.7.0a5.tar.gz
+[2023-07-13 00:39:20] INFO root fetch - processPackages [fastapi_swagger2]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_swagger2-0.0.1b5.tar.gz]
+[2023-07-13 00:39:20] INFO root fetch - processPackages [fastapi_swagger2]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_swagger2-0.0.2.tar.gz]
+[2023-07-13 00:39:20] INFO root fetch - processPackages [fastapi_swagger2]: Start processing: forcedimension
+[2023-07-13 00:39:20] INFO root fetch - main [MainThread]: End processing [fastapi_swagger2]: success
+[2023-07-13 00:39:20] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.98.0.tar.gz]
+[2023-07-13 00:39:20] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.99.0.tar.gz]
+[2023-07-13 00:39:20] INFO root fetch - processPackages [leadguru-common]: Start processing: leadguru-data
+[2023-07-13 00:39:20] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
+[2023-07-13 00:39:20] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/f6/4f/2281366c87c719dc22a92e26786e51e014b831234f2b10a111e39410dcd7/SimpleWorkspace-1.1.98-py3-none-any.whl
+[2023-07-13 00:39:20] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.98.0.tar.gz]
+[2023-07-13 00:39:20] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.99.0.tar.gz]
+[2023-07-13 00:39:20] INFO root fetch - processPackages [leadguru-data]: Start processing: better-rich-prompts
+[2023-07-13 00:39:20] INFO root fetch - main [MainThread]: End processing [leadguru-data]: success
+[2023-07-13 00:39:20] INFO root fetch - processPackages [forcedimension]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-13 00:39:20] INFO root fetch - processPackages [leadguru-data]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-13 00:39:20] WARNING root fetch - processPackages [better-rich-prompts]: Skipping, unable to determine old version
+[2023-07-13 00:39:20] INFO root fetch - processPackages [better-rich-prompts]: Start processing: IMSmartFinderNinja
+[2023-07-13 00:39:20] INFO root fetch - main [MainThread]: End processing [better-rich-prompts] error
+[2023-07-13 00:39:20] WARNING root fetch - processPackages [IMSmartFinderNinja]: Skipping, unable to determine old version
+[2023-07-13 00:39:20] INFO root fetch - processPackages [IMSmartFinderNinja]: Start processing: dbt-semantic-interfaces
+[2023-07-13 00:39:20] INFO root fetch - main [MainThread]: End processing [IMSmartFinderNinja] error
+[2023-07-13 00:39:20] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/81/bf/f4c758210f3132ad36cea5286e4857350dc02f38ded759934614da96bd78/leadguru_data-0.98.0.tar.gz
+[2023-07-13 00:39:20] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-1.0.6.tar.gz]
+[2023-07-13 00:39:20] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-1.0.7.tar.gz]
+[2023-07-13 00:39:20] INFO root fetch - processPackages [zylo]: Start processing: leadguru-common
+[2023-07-13 00:39:20] INFO root fetch - main [MainThread]: End processing [zylo]: success
+[2023-07-13 00:39:20] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-1.9.0.tar.gz]
+[2023-07-13 00:39:20] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-2.0.1.tar.gz]
+[2023-07-13 00:39:20] INFO root fetch - main [MainThread]: End processing [gdshoplib]: success
+[2023-07-13 00:39:20] INFO root fetch - processPackages [proto-schema-parser]: Downloading https://files.pythonhosted.org/packages/ae/2d/5a824f2c515f3349578680748490024cfcdaecd76acf9bdb220a41afbd46/proto_schema_parser-0.2.0.tar.gz
+[2023-07-13 00:39:20] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/73/68/b37fd075b3b8cd9981a642f7ec1d4ddc9da08d49a99a6ea20c75731aca9e/SimpleWorkspace-1.1.99-py3-none-any.whl
+[2023-07-13 00:39:20] INFO root fetch - processPackages [leadguru-common]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-13 00:39:20] INFO root fetch - processPackages [dbt-semantic-interfaces]: New version: [0.1.0rc1] Old Version: [0.1.0.dev9]
+[2023-07-13 00:39:20] INFO root fetch - processPackages [jupyterlab-pachyderm]: executing diffoscope
+[2023-07-13 00:39:20] INFO root fetch - processPackages [jupyterlab-pachyderm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_pachyderm-2.7.0a4.tar.gz tmp/jupyterlab_pachyderm-2.7.0a5.tar.gz --markdown 20230713/j/jupyterlab-pachyderm/2.7.0a4-2.7.0a5/diff.md --exclude *.pyd
+[2023-07-13 00:39:20] INFO root fetch - processPackages [forcedimension]: Downloading https://files.pythonhosted.org/packages/66/35/2da2ca8fd168f59f8030a48246174b8f2238cecbe64cfaab370a34d93522/forcedimension-0.1.5.tar.gz
+[2023-07-13 00:39:20] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/16/1c/017bcd8f49a9ceed0d36796e84f43cefd77b1a273b4b9807a222b85cb578/leadguru_data-0.99.0.tar.gz
+[2023-07-13 00:39:20] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/fc/35/ca8dc82028975cbcb02faead26153071461e5c78a03fb67e0f27256aee8d/leadguru_common-0.98.0.tar.gz
+[2023-07-13 00:39:20] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2023-07-13 00:39:20] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip --markdown 20230713/s/simpleworkspace/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-13 00:39:20] INFO root fetch - processPackages [leadguru-data]: executing diffoscope
+[2023-07-13 00:39:20] INFO root fetch - processPackages [leadguru-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_data-0.98.0.tar.gz tmp/leadguru_data-0.99.0.tar.gz --markdown 20230713/l/leadguru-data/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-13 00:39:20] INFO root fetch - processPackages [dbt-semantic-interfaces]: Downloading https://files.pythonhosted.org/packages/e4/25/0b4a2a42b4519e1e4a36e18eee96fc2e10ae3851cbeb0b380f1886a9173b/dbt_semantic_interfaces-0.1.0.dev9.tar.gz
+[2023-07-13 00:39:20] INFO root fetch - processPackages [proto-schema-parser]: Downloading https://files.pythonhosted.org/packages/ef/d3/48bf167c1fcc47cf8b1154ab22a85b6e3874b95970cbc2e795b5ba1abbf4/proto_schema_parser-0.3.0.tar.gz
+[2023-07-13 00:39:20] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/4e/4f/236c71729e1b70c3c5c202003cf9aa48c1c9b9d202620f8c5e94a7aacdc9/leadguru_common-0.99.0.tar.gz
+[2023-07-13 00:39:21] INFO root fetch - processPackages [forcedimension]: Downloading https://files.pythonhosted.org/packages/ec/32/4ecabef200b1645ec1731ef2c44047ddb0f147e5c5e413e8f819f468000e/forcedimension-0.1.6.tar.gz
+[2023-07-13 00:39:21] INFO root fetch - processPackages [proto-schema-parser]: executing diffoscope
+[2023-07-13 00:39:21] INFO root fetch - processPackages [proto-schema-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proto_schema_parser-0.2.0.tar.gz tmp/proto_schema_parser-0.3.0.tar.gz --markdown 20230713/p/proto-schema-parser/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-13 00:39:21] INFO root fetch - processPackages [leadguru-common]: executing diffoscope
+[2023-07-13 00:39:21] INFO root fetch - processPackages [leadguru-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_common-0.98.0.tar.gz tmp/leadguru_common-0.99.0.tar.gz --markdown 20230713/l/leadguru-common/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-13 00:39:21] INFO root fetch - processPackages [dbt-semantic-interfaces]: Downloading https://files.pythonhosted.org/packages/82/19/9b5a56f745470f6c171d4fe502a3c9921db76b469eda192ea98083564668/dbt_semantic_interfaces-0.1.0rc1.tar.gz
+[2023-07-13 00:39:21] INFO root fetch - processPackages [forcedimension]: executing diffoscope
+[2023-07-13 00:39:21] INFO root fetch - processPackages [forcedimension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forcedimension-0.1.5.tar.gz tmp/forcedimension-0.1.6.tar.gz --markdown 20230713/f/forcedimension/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-13 00:39:21] INFO root fetch - processPackages [jupyterlab-commands]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_commands-0.3.4.tar.gz]
+[2023-07-13 00:39:21] INFO root fetch - processPackages [jupyterlab-commands]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_commands-0.4.0.tar.gz]
+[2023-07-13 00:39:21] INFO root fetch - main [MainThread]: End processing [jupyterlab-commands]: success
+[2023-07-13 00:39:21] INFO root fetch - processPackages [dbt-semantic-interfaces]: executing diffoscope
+[2023-07-13 00:39:21] INFO root fetch - processPackages [dbt-semantic-interfaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_semantic_interfaces-0.1.0.dev9.tar.gz tmp/dbt_semantic_interfaces-0.1.0rc1.tar.gz --markdown 20230713/d/dbt-semantic-interfaces/0.1.0.dev9-0.1.0rc1/diff.md --exclude *.pyd
+[2023-07-13 00:39:21] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.98.0.tar.gz]
+[2023-07-13 00:39:21] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.99.0.tar.gz]
+[2023-07-13 00:39:21] INFO root fetch - main [MainThread]: End processing [leadguru-data]: success
+[2023-07-13 00:39:21] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip]
+[2023-07-13 00:39:21] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip]
+[2023-07-13 00:39:21] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2023-07-13 00:39:22] INFO root fetch - processPackages [proto-schema-parser]: Remove: archive file [/home/abi/fetcher/tmp/proto_schema_parser-0.2.0.tar.gz]
+[2023-07-13 00:39:22] INFO root fetch - processPackages [proto-schema-parser]: Remove: archive file [/home/abi/fetcher/tmp/proto_schema_parser-0.3.0.tar.gz]
+[2023-07-13 00:39:22] INFO root fetch - main [MainThread]: End processing [proto-schema-parser]: success
+[2023-07-13 00:39:22] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.98.0.tar.gz]
+[2023-07-13 00:39:22] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.99.0.tar.gz]
+[2023-07-13 00:39:22] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
+[2023-07-13 00:39:22] INFO root fetch - processPackages [forcedimension]: Remove: archive file [/home/abi/fetcher/tmp/forcedimension-0.1.5.tar.gz]
+[2023-07-13 00:39:22] INFO root fetch - processPackages [forcedimension]: Remove: archive file [/home/abi/fetcher/tmp/forcedimension-0.1.6.tar.gz]
+[2023-07-13 00:39:22] INFO root fetch - main [MainThread]: End processing [forcedimension]: success
+[2023-07-13 00:39:22] INFO root fetch - processPackages [dbt-semantic-interfaces]: Remove: archive file [/home/abi/fetcher/tmp/dbt_semantic_interfaces-0.1.0.dev9.tar.gz]
+[2023-07-13 00:39:22] INFO root fetch - processPackages [dbt-semantic-interfaces]: Remove: archive file [/home/abi/fetcher/tmp/dbt_semantic_interfaces-0.1.0rc1.tar.gz]
+[2023-07-13 00:39:22] INFO root fetch - main [MainThread]: End processing [dbt-semantic-interfaces]: success
+[2023-07-13 00:39:23] INFO root fetch - processPackages [jupyterlab-pachyderm]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_pachyderm-2.7.0a4.tar.gz]
+[2023-07-13 00:39:23] INFO root fetch - processPackages [jupyterlab-pachyderm]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_pachyderm-2.7.0a5.tar.gz]
+[2023-07-13 00:39:23] INFO root fetch - main [MainThread]: End processing [jupyterlab-pachyderm]: success
+[2023-07-13 00:39:38] INFO root fetch - processPackages [cuquantum-python-cu12]: Remove: archive file [/home/abi/fetcher/tmp/cuquantum_python_cu12-23.3.0-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-13 00:39:38] INFO root fetch - processPackages [cuquantum-python-cu12]: Remove: archive file [/home/abi/fetcher/tmp/cuquantum_python_cu12-23.6.0-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-13 00:39:38] INFO root fetch - main [MainThread]: End processing [cuquantum-python-cu12]: success
+[2023-07-13 00:39:38] INFO root fetch - main [MainThread]: Store serial: [18866772]
