@@ -16621,3 +16621,235 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 11:42:19] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pipe-base-26.0.0a20230500.tar.gz]
 [2023-07-13 11:42:19] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
 [2023-07-13 11:42:19] INFO root fetch - main [MainThread]: Store serial: [18872705]
+[2023-07-13 11:47:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18872705]
+[2023-07-13 11:47:37] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-07-13 11:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: magpiem
+[2023-07-13 11:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lsst-resources
+[2023-07-13 11:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nexus-api
+[2023-07-13 11:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nexus-extensibility
+[2023-07-13 11:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opsgeniecli
+[2023-07-13 11:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: infisical
+[2023-07-13 11:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: core-main-laidan
+[2023-07-13 11:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zflow
+[2023-07-13 11:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: akernel
+[2023-07-13 11:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lsst-daf-relation
+[2023-07-13 11:47:37] INFO root fetch - processPackages [akernel]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-13 11:47:37] INFO root fetch - processPackages [lsst-daf-relation]: New version: [1.0.0a20230500] Old Version: [1.0.0a20230400]
+[2023-07-13 11:47:37] INFO root fetch - processPackages [magpiem]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-13 11:47:37] INFO root fetch - processPackages [nexus-api]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-07-13 11:47:37] WARNING root fetch - processPackages [core-main-laidan]: Skipping, unable to determine old version
+[2023-07-13 11:47:37] INFO root fetch - processPackages [core-main-laidan]: Start processing: infisical
+[2023-07-13 11:47:37] INFO root fetch - main [MainThread]: End processing [core-main-laidan] error
+[2023-07-13 11:47:37] INFO root fetch - processPackages [nexus-extensibility]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-07-13 11:47:37] INFO root fetch - processPackages [lsst-resources]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-13 11:47:37] INFO root fetch - processPackages [zflow]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-07-13 11:47:37] INFO root fetch - processPackages [infisical]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-13 11:47:37] INFO root fetch - processPackages [opsgeniecli]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-07-13 11:47:37] INFO root fetch - processPackages [infisical]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-13 11:47:38] INFO root fetch - processPackages [akernel]: Downloading https://files.pythonhosted.org/packages/15/d1/183875a49558692af7d0004ab7b1b4c03e08dd9c869a2fd1bb80f1432260/akernel-0.1.1.tar.gz
+[2023-07-13 11:47:38] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/cf/ba/39bf44ae9e7557239b4e75ccc2395eff1e08c3015340be39cd798f07fb37/lsst-daf-relation-1.0.0a20230400.tar.gz
+[2023-07-13 11:47:38] INFO root fetch - processPackages [nexus-api]: Downloading https://files.pythonhosted.org/packages/47/b2/945c763bb6f1342aaa2c8b7332d3553915ec2bb874f05768d649c5432866/nexus_api-2.0.0b8-py3-none-any.whl
+[2023-07-13 11:47:38] INFO root fetch - processPackages [infisical]: Downloading https://files.pythonhosted.org/packages/8d/60/1264655672f1da47e68ff6438166920532e67ac9b677d4f3989302d4c83c/infisical-1.3.0.tar.gz
+[2023-07-13 11:47:38] INFO root fetch - processPackages [infisical]: Downloading https://files.pythonhosted.org/packages/8d/60/1264655672f1da47e68ff6438166920532e67ac9b677d4f3989302d4c83c/infisical-1.3.0.tar.gz
+[2023-07-13 11:47:38] INFO root fetch - processPackages [zflow]: Downloading https://files.pythonhosted.org/packages/24/4d/087cc9173a1832ae64d8296ec462ac799422d5bea40755b9cc10f50a109b/zflow-2.4.1.tar.gz
+[2023-07-13 11:47:38] INFO root fetch - processPackages [opsgeniecli]: Downloading https://files.pythonhosted.org/packages/68/b5/40f08fb2de92c774285fda246382dfa9d58eaf006cd45516bb8813b78d34/opsgeniecli-0.1.6.tar.gz
+[2023-07-13 11:47:38] INFO root fetch - processPackages [nexus-extensibility]: Downloading https://files.pythonhosted.org/packages/d8/b7/6489396aa641e7ed8f1102dfb4a82f76ea2df4288f0e39724b0c16b8f0f8/nexus_extensibility-2.0.0b8-py3-none-any.whl
+[2023-07-13 11:47:38] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/52/45/0dcc92ba8f25516fe59b89e0b4b6425fc82775a8f89d22382ac6ff4365d5/lsst-resources-26.0.0a20230400.tar.gz
+[2023-07-13 11:47:38] INFO root fetch - processPackages [magpiem]: Downloading https://files.pythonhosted.org/packages/45/35/d250bf6573e69555149afd85c64472c98900c85485f9ba46f5ac9f0b779a/MagpiEM-0.2.8-py3.10.egg
+[2023-07-13 11:47:38] INFO root fetch - processPackages [akernel]: Downloading https://files.pythonhosted.org/packages/02/41/7f068d93c35c1073371300496a446510a2ee0490ec744a4a380c6fa0d41c/akernel-0.2.0.tar.gz
+[2023-07-13 11:47:38] INFO root fetch - processPackages [infisical]: Downloading https://files.pythonhosted.org/packages/0f/99/f970cee21857599a3fb4df468b59af668bd0d2a1a60ec0d8eba75669d22d/infisical-1.4.0.tar.gz
+[2023-07-13 11:47:38] INFO root fetch - processPackages [infisical]: Downloading https://files.pythonhosted.org/packages/0f/99/f970cee21857599a3fb4df468b59af668bd0d2a1a60ec0d8eba75669d22d/infisical-1.4.0.tar.gz
+[2023-07-13 11:47:38] INFO root fetch - processPackages [nexus-api]: Downloading https://files.pythonhosted.org/packages/64/35/f59185cf98144efab1e91756ad313821d29cc4d3dc8f0009b534c8d4cabf/nexus_api-2.0.0b9-py3-none-any.whl
+[2023-07-13 11:47:38] INFO root fetch - processPackages [zflow]: Downloading https://files.pythonhosted.org/packages/19/fc/d1067c97ec3be3bed1d38431d37823cff175e79b83ec552b2210784e513b/zflow-2.4.2.tar.gz
+[2023-07-13 11:47:38] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/5e/5f/8e71741c69e90c32fd13e64e116dae04c056109846e98b96beed49ce1d01/lsst-daf-relation-1.0.0a20230500.tar.gz
+[2023-07-13 11:47:38] INFO root fetch - processPackages [opsgeniecli]: Downloading https://files.pythonhosted.org/packages/3a/81/6dd1d6fbfbebf84b85c15d3329e22db0bb2d8c6396676b0fac0572d40843/opsgeniecli-0.1.8.tar.gz
+[2023-07-13 11:47:38] INFO root fetch - processPackages [nexus-extensibility]: Downloading https://files.pythonhosted.org/packages/b2/6d/23c38c9a56668c811a793b51e09e88bd684bfe8d75be235e3b7d2d5cc64f/nexus_extensibility-2.0.0b9-py3-none-any.whl
+[2023-07-13 11:47:38] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/a1/31/225778e738d8196a59aa0442a433f627643f68797e49472ba8e7b8594e59/lsst-resources-26.0.0a20230500.tar.gz
+[2023-07-13 11:47:38] INFO root fetch - processPackages [akernel]: executing diffoscope
+[2023-07-13 11:47:38] INFO root fetch - processPackages [akernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akernel-0.1.1.tar.gz tmp/akernel-0.2.0.tar.gz --markdown 20230713/a/akernel/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-13 11:47:38] INFO root fetch - processPackages [magpiem]: Downloading https://files.pythonhosted.org/packages/51/5a/bf1b8ac14d82777897da1426f318247eff70192c32ddfa661461d68749b1/MagpiEM-0.2.9-py3.10.egg
+[2023-07-13 11:47:38] INFO root fetch - processPackages [nexus-api]: executing diffoscope
+[2023-07-13 11:47:38] INFO root fetch - processPackages [nexus-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexus_api-2.0.0b8-py3-none-any.whl.zip tmp/nexus_api-2.0.0b9-py3-none-any.whl.zip --markdown 20230713/n/nexus-api/2.0.0b8-2.0.0b9/diff.md --exclude *.pyd
+[2023-07-13 11:47:38] INFO root fetch - processPackages [zflow]: executing diffoscope
+[2023-07-13 11:47:38] INFO root fetch - processPackages [zflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zflow-2.4.1.tar.gz tmp/zflow-2.4.2.tar.gz --markdown 20230713/z/zflow/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-07-13 11:47:38] INFO root fetch - processPackages [lsst-daf-relation]: executing diffoscope
+[2023-07-13 11:47:38] INFO root fetch - processPackages [lsst-daf-relation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-relation-1.0.0a20230400.tar.gz tmp/lsst-daf-relation-1.0.0a20230500.tar.gz --markdown 20230713/l/lsst-daf-relation/1.0.0a20230400-1.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-13 11:47:39] INFO root fetch - processPackages [infisical]: executing diffoscope
+[2023-07-13 11:47:39] INFO root fetch - processPackages [infisical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infisical-1.3.0.tar.gz tmp/infisical-1.4.0.tar.gz --markdown 20230713/i/infisical/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-13 11:47:39] INFO root fetch - processPackages [infisical]: executing diffoscope
+[2023-07-13 11:47:39] INFO root fetch - processPackages [infisical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infisical-1.3.0.tar.gz tmp/infisical-1.4.0.tar.gz --markdown 20230713/i/infisical/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-13 11:47:39] INFO root fetch - processPackages [opsgeniecli]: executing diffoscope
+[2023-07-13 11:47:39] INFO root fetch - processPackages [opsgeniecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opsgeniecli-0.1.6.tar.gz tmp/opsgeniecli-0.1.8.tar.gz --markdown 20230713/o/opsgeniecli/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-07-13 11:47:39] INFO root fetch - processPackages [nexus-extensibility]: executing diffoscope
+[2023-07-13 11:47:39] INFO root fetch - processPackages [nexus-extensibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexus_extensibility-2.0.0b8-py3-none-any.whl.zip tmp/nexus_extensibility-2.0.0b9-py3-none-any.whl.zip --markdown 20230713/n/nexus-extensibility/2.0.0b8-2.0.0b9/diff.md --exclude *.pyd
+[2023-07-13 11:47:39] INFO root fetch - processPackages [lsst-resources]: executing diffoscope
+[2023-07-13 11:47:39] INFO root fetch - processPackages [lsst-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-resources-26.0.0a20230400.tar.gz tmp/lsst-resources-26.0.0a20230500.tar.gz --markdown 20230713/l/lsst-resources/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-13 11:47:39] INFO root fetch - processPackages [magpiem]: executing diffoscope
+[2023-07-13 11:47:39] INFO root fetch - processPackages [magpiem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MagpiEM-0.2.8-py3.10.egg tmp/MagpiEM-0.2.9-py3.10.egg --markdown 20230713/m/magpiem/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-13 11:47:40] INFO root fetch - processPackages [nexus-api]: Remove: archive file [/home/abi/fetcher/tmp/nexus_api-2.0.0b8-py3-none-any.whl.zip]
+[2023-07-13 11:47:40] INFO root fetch - processPackages [nexus-api]: Remove: archive file [/home/abi/fetcher/tmp/nexus_api-2.0.0b9-py3-none-any.whl.zip]
+[2023-07-13 11:47:40] INFO root fetch - processPackages [nexus-api]: Start processing: pandasai
+[2023-07-13 11:47:40] INFO root fetch - main [MainThread]: End processing [nexus-api]: success
+[2023-07-13 11:47:40] INFO root fetch - processPackages [pandasai]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-13 11:47:40] INFO root fetch - processPackages [akernel]: Remove: archive file [/home/abi/fetcher/tmp/akernel-0.1.1.tar.gz]
+[2023-07-13 11:47:40] INFO root fetch - processPackages [akernel]: Remove: archive file [/home/abi/fetcher/tmp/akernel-0.2.0.tar.gz]
+[2023-07-13 11:47:40] INFO root fetch - processPackages [akernel]: Start processing: pyB12SPS
+[2023-07-13 11:47:40] INFO root fetch - main [MainThread]: End processing [akernel]: success
+[2023-07-13 11:47:40] INFO root fetch - processPackages [nexus-extensibility]: Remove: archive file [/home/abi/fetcher/tmp/nexus_extensibility-2.0.0b8-py3-none-any.whl.zip]
+[2023-07-13 11:47:40] INFO root fetch - processPackages [nexus-extensibility]: Remove: archive file [/home/abi/fetcher/tmp/nexus_extensibility-2.0.0b9-py3-none-any.whl.zip]
+[2023-07-13 11:47:40] INFO root fetch - processPackages [nexus-extensibility]: Start processing: openeo-processes-dask
+[2023-07-13 11:47:40] INFO root fetch - main [MainThread]: End processing [nexus-extensibility]: success
+[2023-07-13 11:47:40] INFO root fetch - processPackages [pyB12SPS]: New version: [0.1.5] Old Version: [0.1.1]
+[2023-07-13 11:47:40] INFO root fetch - processPackages [zflow]: Remove: archive file [/home/abi/fetcher/tmp/zflow-2.4.1.tar.gz]
+[2023-07-13 11:47:40] INFO root fetch - processPackages [zflow]: Remove: archive file [/home/abi/fetcher/tmp/zflow-2.4.2.tar.gz]
+[2023-07-13 11:47:40] INFO root fetch - processPackages [zflow]: Start processing: assisted-service-client
+[2023-07-13 11:47:40] INFO root fetch - main [MainThread]: End processing [zflow]: success
+[2023-07-13 11:47:40] INFO root fetch - processPackages [openeo-processes-dask]: New version: [2023.7.1] Old Version: [2023.7.0]
+[2023-07-13 11:47:40] INFO root fetch - processPackages [infisical]: Remove: archive file [/home/abi/fetcher/tmp/infisical-1.3.0.tar.gz]
+[2023-07-13 11:47:40] INFO root fetch - processPackages [infisical]: Remove: archive file [/home/abi/fetcher/tmp/infisical-1.4.0.tar.gz]
+[2023-07-13 11:47:40] INFO root fetch - processPackages [infisical]: Start processing: lsst-utils
+[2023-07-13 11:47:40] INFO root fetch - main [MainThread]: End processing [infisical]: success
+[2023-07-13 11:47:40] INFO root fetch - processPackages [infisical]: Start processing: zitan
+[2023-07-13 11:47:40] INFO root fetch - main [MainThread]: End processing [infisical]: success
+[2023-07-13 11:47:40] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/8c/84/9a85dcf65104c8b25534a533538695163a524f1f79c54d082640809290ae/pandasai-0.6.8.tar.gz
+[2023-07-13 11:47:40] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-07-13 11:47:40] INFO root fetch - processPackages [lsst-utils]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-13 11:47:40] INFO root fetch - processPackages [openeo-processes-dask]: Downloading https://files.pythonhosted.org/packages/72/11/e2ed1896f9d1afe0986ff742fccea0208b5354877405ea1538aa503825b2/openeo_processes_dask-2023.7.0.tar.gz
+[2023-07-13 11:47:40] INFO root fetch - processPackages [zitan]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-13 11:47:40] INFO root fetch - processPackages [magpiem]: Remove: archive file [/home/abi/fetcher/tmp/MagpiEM-0.2.8-py3.10.egg]
+[2023-07-13 11:47:40] INFO root fetch - processPackages [magpiem]: Remove: archive file [/home/abi/fetcher/tmp/MagpiEM-0.2.9-py3.10.egg]
+[2023-07-13 11:47:40] INFO root fetch - processPackages [magpiem]: Start processing: threads-net
+[2023-07-13 11:47:40] INFO root fetch - main [MainThread]: End processing [magpiem]: success
+[2023-07-13 11:47:40] INFO root fetch - processPackages [lsst-resources]: Remove: archive file [/home/abi/fetcher/tmp/lsst-resources-26.0.0a20230400.tar.gz]
+[2023-07-13 11:47:40] INFO root fetch - processPackages [lsst-resources]: Remove: archive file [/home/abi/fetcher/tmp/lsst-resources-26.0.0a20230500.tar.gz]
+[2023-07-13 11:47:40] INFO root fetch - processPackages [lsst-resources]: Start processing: iteru
+[2023-07-13 11:47:40] INFO root fetch - main [MainThread]: End processing [lsst-resources]: success
+[2023-07-13 11:47:40] INFO root fetch - processPackages [lsst-daf-relation]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-relation-1.0.0a20230400.tar.gz]
+[2023-07-13 11:47:40] INFO root fetch - processPackages [lsst-daf-relation]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-relation-1.0.0a20230500.tar.gz]
+[2023-07-13 11:47:40] INFO root fetch - processPackages [lsst-daf-relation]: Start processing: saladpy
+[2023-07-13 11:47:40] INFO root fetch - main [MainThread]: End processing [lsst-daf-relation]: success
+[2023-07-13 11:47:40] INFO root fetch - processPackages [pyB12SPS]: Downloading https://files.pythonhosted.org/packages/cc/66/d9f8c55fc563d318040371e43c9735b717e4ab3e856e4182a6c95ff94938/pyB12SPS-0.1.1.tar.gz
+[2023-07-13 11:47:41] INFO root fetch - processPackages [opsgeniecli]: Remove: archive file [/home/abi/fetcher/tmp/opsgeniecli-0.1.6.tar.gz]
+[2023-07-13 11:47:41] INFO root fetch - processPackages [opsgeniecli]: Remove: archive file [/home/abi/fetcher/tmp/opsgeniecli-0.1.8.tar.gz]
+[2023-07-13 11:47:41] INFO root fetch - processPackages [opsgeniecli]: Start processing: nonebot-plugin-pjsk
+[2023-07-13 11:47:41] INFO root fetch - main [MainThread]: End processing [opsgeniecli]: success
+[2023-07-13 11:47:41] INFO root fetch - processPackages [threads-net]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-13 11:47:41] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-07-13 11:47:41] INFO root fetch - processPackages [iteru]: New version: [0.0.9] Old Version: [0.0.45]
+[2023-07-13 11:47:41] INFO root fetch - processPackages [saladpy]: New version: [1.0.2a5] Old Version: [1.0.2a4]
+[2023-07-13 11:47:41] INFO root fetch - processPackages [nonebot-plugin-pjsk]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-07-13 11:47:41] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/11/ba/483f4770d7c413aff80cfdfd96da75d50912f6604255f4a04d7e8448a5a1/threads-net-0.0.7.tar.gz
+[2023-07-13 11:47:41] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/95/d2/5d16674a9fbd9d5c6dd08502fdaf2392373a5ee644f82312b6433f0688b3/lsst-utils-26.0.0a20230400.tar.gz
+[2023-07-13 11:47:41] INFO root fetch - processPackages [zitan]: Downloading https://files.pythonhosted.org/packages/4c/3e/9898e28e9c5290877e9b511441fdb2e565abb2b1bca80a14414ef644f69f/zitan-0.1.0.tar.gz
+[2023-07-13 11:47:41] INFO root fetch - processPackages [nonebot-plugin-pjsk]: Downloading https://files.pythonhosted.org/packages/11/6c/63b10ed26dadf43c5d93525c0e6f3ef2c505a4b854c0dc7de9b598bd0f81/nonebot_plugin_pjsk-0.0.4.tar.gz
+[2023-07-13 11:47:41] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/f9/2a/12fe91158b2b1d2ea5e11fc3bc103067764f3befa7163b521f5c84af1e93/pandasai-0.6.9.tar.gz
+[2023-07-13 11:47:41] INFO root fetch - processPackages [saladpy]: Downloading https://files.pythonhosted.org/packages/eb/fc/93eb57276703bd3aabdbcdd51019df79fad371ec8ea761d7d5c33be63daa/saladpy-1.0.2a4.tar.gz
+[2023-07-13 11:47:41] INFO root fetch - processPackages [openeo-processes-dask]: Downloading https://files.pythonhosted.org/packages/6e/f2/29040f5cb03a7741cd4085497df7f82532d4fde0a5d1cb77f796d247f219/openeo_processes_dask-2023.7.1.tar.gz
+[2023-07-13 11:47:41] INFO root fetch - processPackages [iteru]: Downloading https://files.pythonhosted.org/packages/28/13/0d56542b641c3fa3586ec9743f7c9226a13b4f6a73819d293bf9c282c55a/iteru-0.0.45.tar.gz
+[2023-07-13 11:47:41] INFO root fetch - processPackages [pyB12SPS]: Downloading https://files.pythonhosted.org/packages/9d/2a/95e2c74ef0dbcb992a9d6636f7a4652cb787a074623e94fb9033790dc6e9/pyB12SPS-0.1.5.tar.gz
+[2023-07-13 11:47:41] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-07-13 11:47:41] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/de/bd/e372c12fe307c562ec3785151d74201431eddd2312171d55b8ee4ac81db6/threads-net-0.0.8.tar.gz
+[2023-07-13 11:47:41] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-07-13 11:47:41] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.6.8.tar.gz tmp/pandasai-0.6.9.tar.gz --markdown 20230713/p/pandasai/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-13 11:47:41] INFO root fetch - processPackages [zitan]: Downloading https://files.pythonhosted.org/packages/b9/5b/6e34b37011fdc38a8b4d3df6638af62fcee866487fe49c6ef8dd25de91ee/zitan-0.1.1.tar.gz
+[2023-07-13 11:47:41] INFO root fetch - processPackages [openeo-processes-dask]: executing diffoscope
+[2023-07-13 11:47:41] INFO root fetch - processPackages [openeo-processes-dask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openeo_processes_dask-2023.7.0.tar.gz tmp/openeo_processes_dask-2023.7.1.tar.gz --markdown 20230713/o/openeo-processes-dask/2023.7.0-2023.7.1/diff.md --exclude *.pyd
+[2023-07-13 11:47:41] INFO root fetch - processPackages [nonebot-plugin-pjsk]: Downloading https://files.pythonhosted.org/packages/dc/c4/a78da4b98aeb0c07c76379ddea4c257d6241f696b47c9ba2c032779e2803/nonebot_plugin_pjsk-0.1.0.tar.gz
+[2023-07-13 11:47:41] INFO root fetch - processPackages [pyB12SPS]: executing diffoscope
+[2023-07-13 11:47:41] INFO root fetch - processPackages [pyB12SPS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyB12SPS-0.1.1.tar.gz tmp/pyB12SPS-0.1.5.tar.gz --markdown 20230713/p/pyB12SPS/0.1.1-0.1.5/diff.md --exclude *.pyd
+[2023-07-13 11:47:41] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-13 11:47:41] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.7.tar.gz tmp/threads-net-0.0.8.tar.gz --markdown 20230713/t/threads-net/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-13 11:47:41] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-07-13 11:47:41] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230713/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-07-13 11:47:41] INFO root fetch - processPackages [zitan]: executing diffoscope
+[2023-07-13 11:47:41] INFO root fetch - processPackages [zitan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zitan-0.1.0.tar.gz tmp/zitan-0.1.1.tar.gz --markdown 20230713/z/zitan/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-13 11:47:41] INFO root fetch - processPackages [saladpy]: Downloading https://files.pythonhosted.org/packages/03/bb/2c691bd278e10b3b47693ca10c3bde790bc86dec75cfee0936160af84203/saladpy-1.0.2a5.tar.gz
+[2023-07-13 11:47:41] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/72/74/81575ebd50afb9ebc10787897207947703ae9d32205910da14de85cdef05/lsst-utils-26.0.0a20230500.tar.gz
+[2023-07-13 11:47:42] INFO root fetch - processPackages [nonebot-plugin-pjsk]: executing diffoscope
+[2023-07-13 11:47:42] INFO root fetch - processPackages [nonebot-plugin-pjsk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_pjsk-0.0.4.tar.gz tmp/nonebot_plugin_pjsk-0.1.0.tar.gz --markdown 20230713/n/nonebot-plugin-pjsk/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-07-13 11:47:42] INFO root fetch - processPackages [iteru]: Downloading https://files.pythonhosted.org/packages/77/b6/5dccabeb7ec0ac3d3f55c761842a10677f4d1b8e085d04251d3b0a38bc35/iteru-0.0.9.tar.gz
+[2023-07-13 11:47:42] INFO root fetch - processPackages [lsst-utils]: executing diffoscope
+[2023-07-13 11:47:42] INFO root fetch - processPackages [lsst-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-utils-26.0.0a20230400.tar.gz tmp/lsst-utils-26.0.0a20230500.tar.gz --markdown 20230713/l/lsst-utils/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-13 11:47:42] INFO root fetch - processPackages [saladpy]: executing diffoscope
+[2023-07-13 11:47:42] INFO root fetch - processPackages [saladpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saladpy-1.0.2a4.tar.gz tmp/saladpy-1.0.2a5.tar.gz --markdown 20230713/s/saladpy/1.0.2a4-1.0.2a5/diff.md --exclude *.pyd
+[2023-07-13 11:47:42] INFO root fetch - processPackages [iteru]: executing diffoscope
+[2023-07-13 11:47:42] INFO root fetch - processPackages [iteru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iteru-0.0.45.tar.gz tmp/iteru-0.0.9.tar.gz --markdown 20230713/i/iteru/0.0.45-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 11:47:43] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.8.tar.gz]
+[2023-07-13 11:47:43] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.9.tar.gz]
+[2023-07-13 11:47:43] INFO root fetch - processPackages [pandasai]: Start processing: tmtccmd
+[2023-07-13 11:47:43] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-07-13 11:47:43] INFO root fetch - processPackages [tmtccmd]: New version: [5.0.0rc0] Old Version: [5.0.0a0]
+[2023-07-13 11:47:43] INFO root fetch - processPackages [pyB12SPS]: Remove: archive file [/home/abi/fetcher/tmp/pyB12SPS-0.1.1.tar.gz]
+[2023-07-13 11:47:43] INFO root fetch - processPackages [pyB12SPS]: Remove: archive file [/home/abi/fetcher/tmp/pyB12SPS-0.1.5.tar.gz]
+[2023-07-13 11:47:43] INFO root fetch - processPackages [pyB12SPS]: Start processing: pureml-evaluate
+[2023-07-13 11:47:43] INFO root fetch - main [MainThread]: End processing [pyB12SPS]: success
+[2023-07-13 11:47:43] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.7.tar.gz]
+[2023-07-13 11:47:43] INFO root fetch - processPackages [zitan]: Remove: archive file [/home/abi/fetcher/tmp/zitan-0.1.0.tar.gz]
+[2023-07-13 11:47:43] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.8.tar.gz]
+[2023-07-13 11:47:43] INFO root fetch - processPackages [zitan]: Remove: archive file [/home/abi/fetcher/tmp/zitan-0.1.1.tar.gz]
+[2023-07-13 11:47:43] INFO root fetch - processPackages [threads-net]: Start processing: opensr-test
+[2023-07-13 11:47:43] INFO root fetch - processPackages [zitan]: Start processing: pydracogltf
+[2023-07-13 11:47:43] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-13 11:47:43] INFO root fetch - main [MainThread]: End processing [zitan]: success
+[2023-07-13 11:47:43] INFO root fetch - processPackages [pureml-evaluate]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-13 11:47:43] INFO root fetch - processPackages [nonebot-plugin-pjsk]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_pjsk-0.0.4.tar.gz]
+[2023-07-13 11:47:43] INFO root fetch - processPackages [nonebot-plugin-pjsk]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_pjsk-0.1.0.tar.gz]
+[2023-07-13 11:47:43] INFO root fetch - processPackages [nonebot-plugin-pjsk]: Start processing: cq23
+[2023-07-13 11:47:43] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-pjsk]: success
+[2023-07-13 11:47:43] INFO root fetch - processPackages [opensr-test]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 11:47:43] INFO root fetch - processPackages [tmtccmd]: Downloading https://files.pythonhosted.org/packages/55/d4/e101b7a4ec33ab6fea36fda894387f7c9aada1c89d15a5eb490d1dfa6efc/tmtccmd-5.0.0a0.tar.gz
+[2023-07-13 11:47:43] INFO root fetch - processPackages [pydracogltf]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 11:47:43] INFO root fetch - processPackages [saladpy]: Remove: archive file [/home/abi/fetcher/tmp/saladpy-1.0.2a4.tar.gz]
+[2023-07-13 11:47:43] INFO root fetch - processPackages [saladpy]: Remove: archive file [/home/abi/fetcher/tmp/saladpy-1.0.2a5.tar.gz]
+[2023-07-13 11:47:43] INFO root fetch - processPackages [saladpy]: Start processing: riekertsynapse
+[2023-07-13 11:47:43] INFO root fetch - main [MainThread]: End processing [saladpy]: success
+[2023-07-13 11:47:43] INFO root fetch - processPackages [cq23]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-07-13 11:47:43] INFO root fetch - processPackages [pydracogltf]: Downloading https://files.pythonhosted.org/packages/32/ab/5668be0efbdf0177f256d54c04403f902c1934c591a292d3ec59999001a3/pydracogltf-0.0.1-py3-none-win_amd64.whl
+[2023-07-13 11:47:43] INFO root fetch - processPackages [pureml-evaluate]: Downloading https://files.pythonhosted.org/packages/b5/d5/11b4da7bb04e17dd7429b21f0b742d86b1a08da01c49f16fd973dc61d3ac/pureml_evaluate-0.0.2.tar.gz
+[2023-07-13 11:47:43] INFO root fetch - processPackages [iteru]: Remove: archive file [/home/abi/fetcher/tmp/iteru-0.0.45.tar.gz]
+[2023-07-13 11:47:43] INFO root fetch - processPackages [iteru]: Remove: archive file [/home/abi/fetcher/tmp/iteru-0.0.9.tar.gz]
+[2023-07-13 11:47:43] INFO root fetch - main [MainThread]: End processing [iteru]: success
+[2023-07-13 11:47:43] WARNING root fetch - processPackages [riekertsynapse]: Skipping, unable to determine old version
+[2023-07-13 11:47:43] INFO root fetch - processPackages [lsst-utils]: Remove: archive file [/home/abi/fetcher/tmp/lsst-utils-26.0.0a20230400.tar.gz]
+[2023-07-13 11:47:43] INFO root fetch - main [MainThread]: End processing [riekertsynapse] error
+[2023-07-13 11:47:43] INFO root fetch - processPackages [lsst-utils]: Remove: archive file [/home/abi/fetcher/tmp/lsst-utils-26.0.0a20230500.tar.gz]
+[2023-07-13 11:47:43] INFO root fetch - processPackages [opensr-test]: Downloading https://files.pythonhosted.org/packages/0c/ea/4efa81b1751da1cb120f58addbff2aabccdda3c1950044481fe839a2addf/opensr-test-0.0.1.tar.gz
+[2023-07-13 11:47:43] INFO root fetch - main [MainThread]: End processing [lsst-utils]: success
+[2023-07-13 11:47:43] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/f2/06/a26adb8d24ce612461a4e289a691ffdfd90cca0619e4713ed30109c9c48b/cq23-2.2.0.tar.gz
+[2023-07-13 11:47:44] INFO root fetch - processPackages [openeo-processes-dask]: Remove: archive file [/home/abi/fetcher/tmp/openeo_processes_dask-2023.7.0.tar.gz]
+[2023-07-13 11:47:44] INFO root fetch - processPackages [openeo-processes-dask]: Remove: archive file [/home/abi/fetcher/tmp/openeo_processes_dask-2023.7.1.tar.gz]
+[2023-07-13 11:47:44] INFO root fetch - main [MainThread]: End processing [openeo-processes-dask]: success
+[2023-07-13 11:47:44] INFO root fetch - processPackages [pydracogltf]: Downloading https://files.pythonhosted.org/packages/b8/76/3f4738ecb3937d1eafaeea6084a0352cdcf009bcd0c82873ab379c1715e7/pydracogltf-0.0.2-py3-none-win_amd64.whl
+[2023-07-13 11:47:44] INFO root fetch - processPackages [pureml-evaluate]: Downloading https://files.pythonhosted.org/packages/4d/40/b0278531b445c41361121c69f7daf5d25f530f6bf744df304b9af4855169/pureml_evaluate-0.0.3.tar.gz
+[2023-07-13 11:47:44] INFO root fetch - processPackages [tmtccmd]: Downloading https://files.pythonhosted.org/packages/a8/45/4efdab11bf78b168346211e499060a8028c5b13a8f2870761aac20da4383/tmtccmd-5.0.0rc0.tar.gz
+[2023-07-13 11:47:44] INFO root fetch - processPackages [opensr-test]: Downloading https://files.pythonhosted.org/packages/27/93/6d93f2c6bc2a64b43f0595b56fef2c24a4099814b4843d136d68d0b25da6/opensr-test-0.0.2.tar.gz
+[2023-07-13 11:47:44] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/cc/46/b7784e855997b074185bec05a2d46a1a494fa5a378369780536a264bc671/cq23-2.2.1.tar.gz
+[2023-07-13 11:47:44] INFO root fetch - processPackages [pydracogltf]: executing diffoscope
+[2023-07-13 11:47:44] INFO root fetch - processPackages [pydracogltf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydracogltf-0.0.1-py3-none-win_amd64.whl.zip tmp/pydracogltf-0.0.2-py3-none-win_amd64.whl.zip --markdown 20230713/p/pydracogltf/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 11:47:44] INFO root fetch - processPackages [pureml-evaluate]: executing diffoscope
+[2023-07-13 11:47:44] INFO root fetch - processPackages [pureml-evaluate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pureml_evaluate-0.0.2.tar.gz tmp/pureml_evaluate-0.0.3.tar.gz --markdown 20230713/p/pureml-evaluate/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-13 11:47:44] INFO root fetch - processPackages [tmtccmd]: executing diffoscope
+[2023-07-13 11:47:44] INFO root fetch - processPackages [tmtccmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmtccmd-5.0.0a0.tar.gz tmp/tmtccmd-5.0.0rc0.tar.gz --markdown 20230713/t/tmtccmd/5.0.0a0-5.0.0rc0/diff.md --exclude *.pyd
+[2023-07-13 11:47:44] INFO root fetch - processPackages [opensr-test]: executing diffoscope
+[2023-07-13 11:47:44] INFO root fetch - processPackages [opensr-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensr-test-0.0.1.tar.gz tmp/opensr-test-0.0.2.tar.gz --markdown 20230713/o/opensr-test/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 11:47:44] INFO root fetch - processPackages [cq23]: executing diffoscope
+[2023-07-13 11:47:44] INFO root fetch - processPackages [cq23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cq23-2.2.0.tar.gz tmp/cq23-2.2.1.tar.gz --markdown 20230713/c/cq23/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-07-13 11:47:44] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-07-13 11:47:44] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-07-13 11:47:44] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-07-13 11:47:45] INFO root fetch - processPackages [pydracogltf]: Remove: archive file [/home/abi/fetcher/tmp/pydracogltf-0.0.1-py3-none-win_amd64.whl.zip]
+[2023-07-13 11:47:45] INFO root fetch - processPackages [pydracogltf]: Remove: archive file [/home/abi/fetcher/tmp/pydracogltf-0.0.2-py3-none-win_amd64.whl.zip]
+[2023-07-13 11:47:45] INFO root fetch - main [MainThread]: End processing [pydracogltf]: success
+[2023-07-13 11:47:45] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-2.2.0.tar.gz]
+[2023-07-13 11:47:45] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-2.2.1.tar.gz]
+[2023-07-13 11:47:45] INFO root fetch - main [MainThread]: End processing [cq23]: success
+[2023-07-13 11:47:45] INFO root fetch - processPackages [opensr-test]: Remove: archive file [/home/abi/fetcher/tmp/opensr-test-0.0.1.tar.gz]
+[2023-07-13 11:47:45] INFO root fetch - processPackages [opensr-test]: Remove: archive file [/home/abi/fetcher/tmp/opensr-test-0.0.2.tar.gz]
+[2023-07-13 11:47:45] INFO root fetch - main [MainThread]: End processing [opensr-test]: success
+[2023-07-13 11:47:45] INFO root fetch - processPackages [pureml-evaluate]: Remove: archive file [/home/abi/fetcher/tmp/pureml_evaluate-0.0.2.tar.gz]
+[2023-07-13 11:47:45] INFO root fetch - processPackages [pureml-evaluate]: Remove: archive file [/home/abi/fetcher/tmp/pureml_evaluate-0.0.3.tar.gz]
+[2023-07-13 11:47:45] INFO root fetch - main [MainThread]: End processing [pureml-evaluate]: success
+[2023-07-13 11:47:45] INFO root fetch - processPackages [tmtccmd]: Remove: archive file [/home/abi/fetcher/tmp/tmtccmd-5.0.0a0.tar.gz]
+[2023-07-13 11:47:45] INFO root fetch - processPackages [tmtccmd]: Remove: archive file [/home/abi/fetcher/tmp/tmtccmd-5.0.0rc0.tar.gz]
+[2023-07-13 11:47:45] INFO root fetch - main [MainThread]: End processing [tmtccmd]: success
+[2023-07-13 11:47:45] INFO root fetch - main [MainThread]: Store serial: [18872784]
