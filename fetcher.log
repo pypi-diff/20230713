@@ -13477,3 +13477,123 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 09:24:43] INFO root fetch - processPackages [xj-common]: Remove: archive file [/home/abi/fetcher/tmp/xj_common-1.0.9.tar.gz]
 [2023-07-13 09:24:43] INFO root fetch - main [MainThread]: End processing [xj-common]: success
 [2023-07-13 09:24:43] INFO root fetch - main [MainThread]: Store serial: [18871411]
+[2023-07-13 09:29:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18871411]
+[2023-07-13 09:29:52] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-13 09:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: texplain
+[2023-07-13 09:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: remotemanager
+[2023-07-13 09:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-collect
+[2023-07-13 09:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cjm-yolox-pytorch
+[2023-07-13 09:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: checkov
+[2023-07-13 09:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kw6
+[2023-07-13 09:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mocap
+[2023-07-13 09:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nse-workday
+[2023-07-13 09:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TEST-TC
+[2023-07-13 09:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xj-user
+[2023-07-13 09:29:52] WARNING root fetch - processPackages [nse-workday]: Skipping, unable to determine old version
+[2023-07-13 09:29:52] INFO root fetch - processPackages [nse-workday]: Start processing: utilset
+[2023-07-13 09:29:52] INFO root fetch - main [MainThread]: End processing [nse-workday] error
+[2023-07-13 09:29:52] INFO root fetch - processPackages [TEST-TC]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-13 09:29:52] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.85]
+[2023-07-13 09:29:52] INFO root fetch - processPackages [texplain]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-07-13 09:29:52] INFO root fetch - processPackages [mocap]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-13 09:29:52] INFO root fetch - processPackages [remotemanager]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-07-13 09:29:52] INFO root fetch - processPackages [kw6]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-13 09:29:52] INFO root fetch - processPackages [data-collect]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-13 09:29:52] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-13 09:29:53] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-13 09:29:53] INFO root fetch - processPackages [utilset]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 09:29:53] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/81/cd/5f2f83dcb6509e9a9151d6f7dad50aa647fbf2a1ffcaa9bbc086511e89a6/TEST_TC-1.0.6.tar.gz
+[2023-07-13 09:29:53] INFO root fetch - processPackages [mocap]: Downloading https://files.pythonhosted.org/packages/4e/f8/ee526e39788f465cc045cd9874f37bdc4bf4b5a66e42e4860571ddd9d9e1/mocap-0.1.2.tar.gz
+[2023-07-13 09:29:53] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/ee/de/1d75734230b831494fbfb426d992c5024c7aeaef6bd9d542e0ff2e4752f8/cjm-yolox-pytorch-0.0.85.tar.gz
+[2023-07-13 09:29:53] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-07-13 09:29:53] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-07-13 09:29:53] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/5b/33/04235236437d7672776091c791e045a8a1bbda45904923a4231f60a2594b/remotemanager-0.8.3.tar.gz
+[2023-07-13 09:29:53] INFO root fetch - processPackages [kw6]: Downloading https://files.pythonhosted.org/packages/30/b6/0b9af168f8193f37e3dabd4e466312ef03ad2fc788c72614a94c6182fb60/kw6-0.2.8.tar.gz
+[2023-07-13 09:29:53] INFO root fetch - processPackages [data-collect]: Downloading https://files.pythonhosted.org/packages/ef/84/0665b4ada0178d9ea27c81eacd35d279f3a63d2c73285b8abb7d40908a92/data_collect-0.8.8.tar.gz
+[2023-07-13 09:29:53] INFO root fetch - processPackages [texplain]: Downloading https://files.pythonhosted.org/packages/61/93/0d6335c50c0d6bb11e879e9a41138230f64cc92e6bc12e0972cbced0b39e/texplain-0.8.3.tar.gz
+[2023-07-13 09:29:53] INFO root fetch - processPackages [utilset]: Downloading https://files.pythonhosted.org/packages/db/67/28fc42a6eb52f260c2bf3e791d0e88c99c2e1dd92ee17076d7ccc55fcd95/utilset-0.0.1.tar.gz
+[2023-07-13 09:29:53] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 09:29:53] INFO root fetch - processPackages [mocap]: Downloading https://files.pythonhosted.org/packages/18/58/67503f06ce872b13e61bed796d8230f4b7474680aa7f5d8c076c785420b0/mocap-0.1.3.tar.gz
+[2023-07-13 09:29:53] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/3f/c9/7c8b0fc0f174ffe1956f584d31719756852440531723dfaab2a24af60b76/TEST_TC-1.0.7.tar.gz
+[2023-07-13 09:29:53] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-07-13 09:29:53] INFO root fetch - processPackages [mocap]: executing diffoscope
+[2023-07-13 09:29:53] INFO root fetch - processPackages [mocap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mocap-0.1.2.tar.gz tmp/mocap-0.1.3.tar.gz --markdown 20230713/m/mocap/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-13 09:29:53] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 09:29:53] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.85.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.85-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 09:29:54] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/fe/f6/f2e339ce589083f4f65551bf08d3db25bff753f9c1cd379988a6c55b60fd/remotemanager-0.8.4.tar.gz
+[2023-07-13 09:29:54] INFO root fetch - processPackages [texplain]: Downloading https://files.pythonhosted.org/packages/35/6d/35216f6d5e01c7279ee0d7729b62eb1cf43036380863ffdf3645982628a9/texplain-0.8.4.tar.gz
+[2023-07-13 09:29:54] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-07-13 09:29:54] INFO root fetch - processPackages [data-collect]: Downloading https://files.pythonhosted.org/packages/94/cb/8a5539104d678b82c38595d9ce65f6abc638f70286d80af701973acb64f8/data_collect-0.8.9.tar.gz
+[2023-07-13 09:29:54] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-07-13 09:29:54] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-1.0.6.tar.gz tmp/TEST_TC-1.0.7.tar.gz --markdown 20230713/T/TEST-TC/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-13 09:29:54] INFO root fetch - processPackages [kw6]: Downloading https://files.pythonhosted.org/packages/e7/79/b39b24ed4a89f659cd0d0a8974c9aaf86ac34d6988e26ea586c700e68172/kw6-0.2.9.tar.gz
+[2023-07-13 09:29:54] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-07-13 09:29:54] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230713/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-13 09:29:54] INFO root fetch - processPackages [utilset]: Downloading https://files.pythonhosted.org/packages/6b/2b/3a39ad74e6db2431176d9f4dca30f8fc7089d4fab5d91e11bbd66ca92e02/utilset-0.0.2.tar.gz
+[2023-07-13 09:29:54] INFO root fetch - processPackages [texplain]: executing diffoscope
+[2023-07-13 09:29:54] INFO root fetch - processPackages [texplain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/texplain-0.8.3.tar.gz tmp/texplain-0.8.4.tar.gz --markdown 20230713/t/texplain/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-07-13 09:29:54] INFO root fetch - processPackages [remotemanager]: executing diffoscope
+[2023-07-13 09:29:54] INFO root fetch - processPackages [remotemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotemanager-0.8.3.tar.gz tmp/remotemanager-0.8.4.tar.gz --markdown 20230713/r/remotemanager/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-07-13 09:29:54] INFO root fetch - processPackages [data-collect]: executing diffoscope
+[2023-07-13 09:29:54] INFO root fetch - processPackages [data-collect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_collect-0.8.8.tar.gz tmp/data_collect-0.8.9.tar.gz --markdown 20230713/d/data-collect/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-13 09:29:54] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-07-13 09:29:54] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230713/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-13 09:29:54] INFO root fetch - processPackages [kw6]: executing diffoscope
+[2023-07-13 09:29:54] INFO root fetch - processPackages [kw6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kw6-0.2.8.tar.gz tmp/kw6-0.2.9.tar.gz --markdown 20230713/k/kw6/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-13 09:29:54] INFO root fetch - processPackages [utilset]: executing diffoscope
+[2023-07-13 09:29:54] INFO root fetch - processPackages [utilset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilset-0.0.1.tar.gz tmp/utilset-0.0.2.tar.gz --markdown 20230713/u/utilset/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 09:29:55] INFO root fetch - processPackages [mocap]: Remove: archive file [/home/abi/fetcher/tmp/mocap-0.1.2.tar.gz]
+[2023-07-13 09:29:55] INFO root fetch - processPackages [mocap]: Remove: archive file [/home/abi/fetcher/tmp/mocap-0.1.3.tar.gz]
+[2023-07-13 09:29:55] INFO root fetch - processPackages [mocap]: Start processing: oarepo-model-builder-nr
+[2023-07-13 09:29:55] INFO root fetch - main [MainThread]: End processing [mocap]: success
+[2023-07-13 09:29:55] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.85.tar.gz]
+[2023-07-13 09:29:55] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 09:29:55] INFO root fetch - processPackages [cjm-yolox-pytorch]: Start processing: nvidia-smi2
+[2023-07-13 09:29:55] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 09:29:55] INFO root fetch - processPackages [oarepo-model-builder-nr]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 09:29:55] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.0.6.tar.gz]
+[2023-07-13 09:29:55] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.0.7.tar.gz]
+[2023-07-13 09:29:55] INFO root fetch - processPackages [TEST-TC]: Start processing: ankushpdf
+[2023-07-13 09:29:55] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-07-13 09:29:55] WARNING root fetch - processPackages [nvidia-smi2]: Skipping, unable to determine old version
+[2023-07-13 09:29:55] INFO root fetch - processPackages [nvidia-smi2]: Start processing: cjm-yolox-pytorch
+[2023-07-13 09:29:55] INFO root fetch - main [MainThread]: End processing [nvidia-smi2] error
+[2023-07-13 09:29:55] INFO root fetch - processPackages [kw6]: Remove: archive file [/home/abi/fetcher/tmp/kw6-0.2.8.tar.gz]
+[2023-07-13 09:29:55] INFO root fetch - processPackages [kw6]: Remove: archive file [/home/abi/fetcher/tmp/kw6-0.2.9.tar.gz]
+[2023-07-13 09:29:55] INFO root fetch - main [MainThread]: End processing [kw6]: success
+[2023-07-13 09:29:55] INFO root fetch - processPackages [oarepo-model-builder-nr]: Downloading https://files.pythonhosted.org/packages/7a/92/e2bdf5e04eec2ff64a0a607397c2749fa46ef5c5d28262faf7fd3e033e18/oarepo-model-builder-nr-1.0.8.tar.gz
+[2023-07-13 09:29:55] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.86]
+[2023-07-13 09:29:55] WARNING root fetch - processPackages [ankushpdf]: Skipping, unable to determine old version
+[2023-07-13 09:29:55] INFO root fetch - main [MainThread]: End processing [ankushpdf] error
+[2023-07-13 09:29:56] INFO root fetch - processPackages [data-collect]: Remove: archive file [/home/abi/fetcher/tmp/data_collect-0.8.8.tar.gz]
+[2023-07-13 09:29:56] INFO root fetch - processPackages [data-collect]: Remove: archive file [/home/abi/fetcher/tmp/data_collect-0.8.9.tar.gz]
+[2023-07-13 09:29:56] INFO root fetch - main [MainThread]: End processing [data-collect]: success
+[2023-07-13 09:29:56] INFO root fetch - processPackages [utilset]: Remove: archive file [/home/abi/fetcher/tmp/utilset-0.0.1.tar.gz]
+[2023-07-13 09:29:56] INFO root fetch - processPackages [utilset]: Remove: archive file [/home/abi/fetcher/tmp/utilset-0.0.2.tar.gz]
+[2023-07-13 09:29:56] INFO root fetch - main [MainThread]: End processing [utilset]: success
+[2023-07-13 09:29:56] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/76/37/07963c11074167f48d05eaa328b957831ee7cc427fc182f383de8c216ed5/cjm-yolox-pytorch-0.0.86.tar.gz
+[2023-07-13 09:29:56] INFO root fetch - processPackages [texplain]: Remove: archive file [/home/abi/fetcher/tmp/texplain-0.8.3.tar.gz]
+[2023-07-13 09:29:56] INFO root fetch - processPackages [texplain]: Remove: archive file [/home/abi/fetcher/tmp/texplain-0.8.4.tar.gz]
+[2023-07-13 09:29:56] INFO root fetch - main [MainThread]: End processing [texplain]: success
+[2023-07-13 09:29:56] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-07-13 09:29:56] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-07-13 09:29:56] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-07-13 09:29:56] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.8.3.tar.gz]
+[2023-07-13 09:29:56] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.8.4.tar.gz]
+[2023-07-13 09:29:56] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
+[2023-07-13 09:29:56] INFO root fetch - processPackages [oarepo-model-builder-nr]: Downloading https://files.pythonhosted.org/packages/30/d9/cc329dacb02f5419042487f10c9a7fba4a8d260427b07655899e7e42b096/oarepo-model-builder-nr-1.0.9.tar.gz
+[2023-07-13 09:29:56] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 09:29:56] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 09:29:56] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.86.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.86-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 09:29:56] INFO root fetch - processPackages [oarepo-model-builder-nr]: executing diffoscope
+[2023-07-13 09:29:56] INFO root fetch - processPackages [oarepo-model-builder-nr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-nr-1.0.8.tar.gz tmp/oarepo-model-builder-nr-1.0.9.tar.gz --markdown 20230713/o/oarepo-model-builder-nr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 09:29:57] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.86.tar.gz]
+[2023-07-13 09:29:57] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 09:29:57] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 09:29:57] INFO root fetch - processPackages [oarepo-model-builder-nr]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-nr-1.0.8.tar.gz]
+[2023-07-13 09:29:57] INFO root fetch - processPackages [oarepo-model-builder-nr]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-nr-1.0.9.tar.gz]
+[2023-07-13 09:29:57] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-nr]: success
+[2023-07-13 09:30:08] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-07-13 09:30:08] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-07-13 09:30:08] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-07-13 09:30:08] INFO root fetch - main [MainThread]: Store serial: [18871467]
