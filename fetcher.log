@@ -14685,3 +14685,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 10:33:09] INFO root fetch - processPackages [coregio]: Remove: archive file [/home/abi/fetcher/tmp/coregio-0.5.1.tar.gz]
 [2023-07-13 10:33:09] INFO root fetch - main [MainThread]: End processing [coregio]: success
 [2023-07-13 10:33:09] INFO root fetch - main [MainThread]: Store serial: [18871939]
+[2023-07-13 10:38:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18871939]
+[2023-07-13 10:38:20] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-13 10:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aie-sdk
+[2023-07-13 10:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Navix
+[2023-07-13 10:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: album-gui
+[2023-07-13 10:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eros_core
+[2023-07-13 10:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fossbill
+[2023-07-13 10:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dearwatson
+[2023-07-13 10:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: griffe
+[2023-07-13 10:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: piperider
+[2023-07-13 10:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ghidra-stubs
+[2023-07-13 10:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eros-cli
+[2023-07-13 10:38:20] INFO root fetch - processPackages [fossbill]: New version: [0.9.2] Old Version: [0.9.0]
+[2023-07-13 10:38:20] INFO root fetch - processPackages [aie-sdk]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-07-13 10:38:20] INFO root fetch - processPackages [dearwatson]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-13 10:38:20] WARNING root fetch - processPackages [album-gui]: Skipping, unable to determine old version
+[2023-07-13 10:38:20] INFO root fetch - processPackages [album-gui]: Start processing: tf-estimator-nightly
+[2023-07-13 10:38:20] INFO root fetch - main [MainThread]: End processing [album-gui] error
+[2023-07-13 10:38:20] INFO root fetch - processPackages [griffe]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-13 10:38:20] WARNING root fetch - processPackages [eros_core]: Skipping, unable to determine old version
+[2023-07-13 10:38:20] INFO root fetch - main [MainThread]: End processing [eros_core] error
+[2023-07-13 10:38:20] INFO root fetch - processPackages [ghidra-stubs]: New version: [9.2.2.1.0.3] Old Version: [9.2.2.1.0.2]
+[2023-07-13 10:38:20] INFO root fetch - processPackages [Navix]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-13 10:38:20] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-07-13 10:38:20] WARNING root fetch - processPackages [eros-cli]: Skipping, unable to determine old version
+[2023-07-13 10:38:20] INFO root fetch - main [MainThread]: End processing [eros-cli] error
+[2023-07-13 10:38:20] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-13 10:38:20] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/a4/50/e24b00f8c9eee6add2d234812268358dd31efb1c7692b89e4f2abcf53b3a/piperider-0.9.0.tar.gz
+[2023-07-13 10:38:21] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-13 10:38:21] INFO root fetch - processPackages [aie-sdk]: Downloading https://files.pythonhosted.org/packages/3f/7f/f4e5c7bdbb59b6a6c1640a2645feb3c69f3a7234358284a18b95565558f3/aie-sdk-3.0.2.tar.gz
+[2023-07-13 10:38:21] INFO root fetch - processPackages [fossbill]: Downloading https://files.pythonhosted.org/packages/06/57/01c7f211973b328bba6e445bfa190a9031e0d2fc1a9e2c409ba8fcd2bb0c/fossbill-0.9.0-py3-none-any.whl
+[2023-07-13 10:38:21] INFO root fetch - processPackages [dearwatson]: Downloading https://files.pythonhosted.org/packages/9d/37/dcc110ead9488fbe89c7cade30b859eb8781d23150b34bdfba665daec2f7/dearwatson-0.7.8.tar.gz
+[2023-07-13 10:38:21] INFO root fetch - processPackages [ghidra-stubs]: Downloading https://files.pythonhosted.org/packages/c6/c4/efbaccbb2757e7caf3dd6f04e8bc47464df3359fc8d443606e80bbbab1c4/ghidra-stubs-9.2.2.1.0.2.tar.gz
+[2023-07-13 10:38:21] INFO root fetch - processPackages [Navix]: Downloading https://files.pythonhosted.org/packages/b7/c7/6d56ec16264cb393b28723297067242cca06d109684a2fe751b7caeefd2c/Navix-0.3.5.tar.gz
+[2023-07-13 10:38:21] INFO root fetch - processPackages [griffe]: Downloading https://files.pythonhosted.org/packages/32/dd/bc07e7e6b53772e9c44c34a18ca7e4ceb99b58bfb2c2f72f7913e3f0d303/griffe-0.8.0.tar.gz
+[2023-07-13 10:38:21] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-13 10:38:21] INFO root fetch - processPackages [aie-sdk]: Downloading https://files.pythonhosted.org/packages/e1/0e/0c3895491efa47dad05d403fc2754dcb5b58379e6e85d67d92bedc7a4d95/aie-sdk-3.0.3.tar.gz
+[2023-07-13 10:38:21] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-13 10:38:21] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230713/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-13 10:38:21] INFO root fetch - processPackages [fossbill]: Downloading https://files.pythonhosted.org/packages/96/50/309395c101f67be40bd3ddb807746656afcefdb780178753138d6a2afce3/fossbill-0.9.2-py3-none-any.whl
+[2023-07-13 10:38:21] INFO root fetch - processPackages [aie-sdk]: executing diffoscope
+[2023-07-13 10:38:21] INFO root fetch - processPackages [aie-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aie-sdk-3.0.2.tar.gz tmp/aie-sdk-3.0.3.tar.gz --markdown 20230713/a/aie-sdk/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-07-13 10:38:21] INFO root fetch - processPackages [fossbill]: executing diffoscope
+[2023-07-13 10:38:21] INFO root fetch - processPackages [fossbill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fossbill-0.9.0-py3-none-any.whl.zip tmp/fossbill-0.9.2-py3-none-any.whl.zip --markdown 20230713/f/fossbill/0.9.0-0.9.2/diff.md --exclude *.pyd
+[2023-07-13 10:38:21] INFO root fetch - processPackages [Navix]: Downloading https://files.pythonhosted.org/packages/0c/1a/92e46c668d0a024735e4d25d9809d0aeddecc2a8c18062a1269bcaa8ac85/Navix-0.3.6.tar.gz
+[2023-07-13 10:38:21] INFO root fetch - processPackages [griffe]: Downloading https://files.pythonhosted.org/packages/97/67/6905162d0aeccc0a65143c6fda9d6510d04561725f6df7df71457a053c3d/griffe-0.9.0.tar.gz
+[2023-07-13 10:38:21] INFO root fetch - processPackages [Navix]: executing diffoscope
+[2023-07-13 10:38:21] INFO root fetch - processPackages [Navix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Navix-0.3.5.tar.gz tmp/Navix-0.3.6.tar.gz --markdown 20230713/N/Navix/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-13 10:38:21] INFO root fetch - processPackages [dearwatson]: Downloading https://files.pythonhosted.org/packages/bf/60/43c17bbcd0ca3615b601e72a2a6968955a421d0f00b7b8abde1869630301/dearwatson-0.7.9.tar.gz
+[2023-07-13 10:38:21] INFO root fetch - processPackages [griffe]: executing diffoscope
+[2023-07-13 10:38:21] INFO root fetch - processPackages [griffe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffe-0.8.0.tar.gz tmp/griffe-0.9.0.tar.gz --markdown 20230713/g/griffe/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-13 10:38:22] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/7a/f9/9cc8461c7b00069da016c58db04f6c975e2adf28d9cbd443a882dd7396de/piperider-0.9.0rc1.tar.gz
+[2023-07-13 10:38:22] INFO root fetch - processPackages [dearwatson]: executing diffoscope
+[2023-07-13 10:38:22] INFO root fetch - processPackages [dearwatson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dearwatson-0.7.8.tar.gz tmp/dearwatson-0.7.9.tar.gz --markdown 20230713/d/dearwatson/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-13 10:38:22] INFO root fetch - processPackages [ghidra-stubs]: Downloading https://files.pythonhosted.org/packages/64/e6/bb5d32606a3eb72797e8d746c2602875013a3e5c2eac7406d1664207e840/ghidra-stubs-9.2.2.1.0.3.tar.gz
+[2023-07-13 10:38:22] INFO root fetch - processPackages [aie-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aie-sdk-3.0.2.tar.gz]
+[2023-07-13 10:38:22] INFO root fetch - processPackages [aie-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aie-sdk-3.0.3.tar.gz]
+[2023-07-13 10:38:22] INFO root fetch - main [MainThread]: End processing [aie-sdk]: success
+[2023-07-13 10:38:22] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-07-13 10:38:22] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230713/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-07-13 10:38:23] INFO root fetch - processPackages [fossbill]: Remove: archive file [/home/abi/fetcher/tmp/fossbill-0.9.0-py3-none-any.whl.zip]
+[2023-07-13 10:38:23] INFO root fetch - processPackages [fossbill]: Remove: archive file [/home/abi/fetcher/tmp/fossbill-0.9.2-py3-none-any.whl.zip]
+[2023-07-13 10:38:23] INFO root fetch - main [MainThread]: End processing [fossbill]: success
+[2023-07-13 10:38:23] INFO root fetch - processPackages [Navix]: Remove: archive file [/home/abi/fetcher/tmp/Navix-0.3.5.tar.gz]
+[2023-07-13 10:38:23] INFO root fetch - processPackages [Navix]: Remove: archive file [/home/abi/fetcher/tmp/Navix-0.3.6.tar.gz]
+[2023-07-13 10:38:23] INFO root fetch - main [MainThread]: End processing [Navix]: success
+[2023-07-13 10:38:23] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-13 10:38:23] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-13 10:38:23] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-13 10:38:23] INFO root fetch - processPackages [griffe]: Remove: archive file [/home/abi/fetcher/tmp/griffe-0.8.0.tar.gz]
+[2023-07-13 10:38:23] INFO root fetch - processPackages [griffe]: Remove: archive file [/home/abi/fetcher/tmp/griffe-0.9.0.tar.gz]
+[2023-07-13 10:38:23] INFO root fetch - main [MainThread]: End processing [griffe]: success
+[2023-07-13 10:38:23] INFO root fetch - processPackages [dearwatson]: Remove: archive file [/home/abi/fetcher/tmp/dearwatson-0.7.8.tar.gz]
+[2023-07-13 10:38:23] INFO root fetch - processPackages [dearwatson]: Remove: archive file [/home/abi/fetcher/tmp/dearwatson-0.7.9.tar.gz]
+[2023-07-13 10:38:23] INFO root fetch - main [MainThread]: End processing [dearwatson]: success
+[2023-07-13 10:38:23] INFO root fetch - processPackages [ghidra-stubs]: executing diffoscope
+[2023-07-13 10:38:23] INFO root fetch - processPackages [ghidra-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghidra-stubs-9.2.2.1.0.2.tar.gz tmp/ghidra-stubs-9.2.2.1.0.3.tar.gz --markdown 20230713/g/ghidra-stubs/9.2.2.1.0.2-9.2.2.1.0.3/diff.md --exclude *.pyd
+[2023-07-13 10:38:24] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0.tar.gz]
+[2023-07-13 10:38:24] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0rc1.tar.gz]
+[2023-07-13 10:38:24] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-07-13 10:41:08] INFO root fetch - processPackages [ghidra-stubs]: Remove: archive file [/home/abi/fetcher/tmp/ghidra-stubs-9.2.2.1.0.2.tar.gz]
+[2023-07-13 10:41:08] INFO root fetch - processPackages [ghidra-stubs]: Remove: archive file [/home/abi/fetcher/tmp/ghidra-stubs-9.2.2.1.0.3.tar.gz]
+[2023-07-13 10:41:08] INFO root fetch - main [MainThread]: End processing [ghidra-stubs]: success
+[2023-07-13 10:41:08] INFO root fetch - main [MainThread]: Store serial: [18871980]
