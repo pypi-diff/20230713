@@ -20234,3 +20234,127 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 13:13:21] INFO root fetch - processPackages [flea]: Remove: archive file [/home/abi/fetcher/tmp/flea-9.1.1.tar.gz]
 [2023-07-13 13:13:21] INFO root fetch - main [MainThread]: End processing [flea]: success
 [2023-07-13 13:13:21] INFO root fetch - main [MainThread]: Store serial: [18873983]
+[2023-07-13 13:18:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18873983]
+[2023-07-13 13:18:30] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-13 13:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openhexa.toolbox
+[2023-07-13 13:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: checkov
+[2023-07-13 13:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ewoksid31
+[2023-07-13 13:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: faasmctl
+[2023-07-13 13:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvfuser-cu118
+[2023-07-13 13:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sign-language-translator
+[2023-07-13 13:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mbapy
+[2023-07-13 13:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ramodels
+[2023-07-13 13:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netbox-secrets
+[2023-07-13 13:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qvsed
+[2023-07-13 13:18:30] INFO root fetch - processPackages [sign-language-translator]: New version: [0.4.2] Old Version: [0.4.0]
+[2023-07-13 13:18:30] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-13 13:18:30] WARNING root fetch - processPackages [ewoksid31]: Skipping, unable to determine old version
+[2023-07-13 13:18:30] INFO root fetch - processPackages [ewoksid31]: Start processing: efrem-utils
+[2023-07-13 13:18:30] INFO root fetch - main [MainThread]: End processing [ewoksid31] error
+[2023-07-13 13:18:30] INFO root fetch - processPackages [faasmctl]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-13 13:18:30] INFO root fetch - processPackages [qvsed]: New version: [1.5.0] Old Version: [1.4.6]
+[2023-07-13 13:18:30] WARNING root fetch - processPackages [openhexa.toolbox]: Skipping, unable to determine old version
+[2023-07-13 13:18:30] INFO root fetch - processPackages [openhexa.toolbox]: Start processing: netbox-secrets
+[2023-07-13 13:18:30] INFO root fetch - main [MainThread]: End processing [openhexa.toolbox] error
+[2023-07-13 13:18:30] INFO root fetch - processPackages [mbapy]: New version: [0.1.4.1] Old Version: [0.1.4]
+[2023-07-13 13:18:30] INFO root fetch - processPackages [netbox-secrets]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-07-13 13:18:30] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-13 13:18:30] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-13 13:18:30] INFO root fetch - processPackages [efrem-utils]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-13 13:18:30] INFO root fetch - processPackages [netbox-secrets]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-07-13 13:18:30] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-13 13:18:30] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/00/72/e1e41d691943d94183a933d50dbb495a38c4de1b9d29592806aaa49c2113/qvsed-1.4.6.tar.gz
+[2023-07-13 13:18:30] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/a6/60/c000924acc1f91f03b1436bb36321eb7be94078d89b371e01cfea4429a60/faasmctl-0.3.5.tar.gz
+[2023-07-13 13:18:30] INFO root fetch - processPackages [mbapy]: Downloading https://files.pythonhosted.org/packages/3f/51/b81e83637f709282077218c311d1aa85c61e6d067904b9b51bf7c6d8979b/mbapy-0.1.4.tar.gz
+[2023-07-13 13:18:30] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-13 13:18:30] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-07-13 13:18:30] INFO root fetch - processPackages [netbox-secrets]: Downloading https://files.pythonhosted.org/packages/4f/e7/0b5fee4842bef58b21c3fe769a0285ccaa1ab0a4f01a159ed2a00feb0f29/netbox-secrets-1.8.4.tar.gz
+[2023-07-13 13:18:30] INFO root fetch - processPackages [efrem-utils]: Downloading https://files.pythonhosted.org/packages/ce/c0/025417ddec548d469f164921776ff12941054734af807f34ea60cd1a8351/efrem_utils-0.0.7.tar.gz
+[2023-07-13 13:18:30] INFO root fetch - processPackages [netbox-secrets]: Downloading https://files.pythonhosted.org/packages/4f/e7/0b5fee4842bef58b21c3fe769a0285ccaa1ab0a4f01a159ed2a00feb0f29/netbox-secrets-1.8.4.tar.gz
+[2023-07-13 13:18:30] INFO root fetch - processPackages [sign-language-translator]: Downloading https://files.pythonhosted.org/packages/42/d7/f9c6b52119a6b4b35916c7308c6322f6c01c72065656e36982dfc8631db2/sign_language_translator-0.4.0.tar.gz
+[2023-07-13 13:18:31] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-13 13:18:31] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/aa/e5/1eac6ae7d8127a1bdbd7b9ec7f067d23b3dacaebaa961eea7d3d57136d52/qvsed-1.5.0.tar.gz
+[2023-07-13 13:18:31] INFO root fetch - processPackages [mbapy]: Downloading https://files.pythonhosted.org/packages/02/91/8dc08842f712d02fdcbd1973789228813bbe59f413563170920687e3fe4c/mbapy-0.1.4.1.tar.gz
+[2023-07-13 13:18:31] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-07-13 13:18:31] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-13 13:18:31] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230713/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-13 13:18:31] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/95/0a/e3bbe604c1cb12a1df85466bc8fb8eb592e93b5a087cae3f4c3e1ab1ddda/faasmctl-0.3.6.tar.gz
+[2023-07-13 13:18:31] INFO root fetch - processPackages [netbox-secrets]: Downloading https://files.pythonhosted.org/packages/a9/ed/dd3fb4e989531d87b1e0c7fe41cfeb24d5a62a35edf20fe42e92ef4572bf/netbox-secrets-1.8.5.tar.gz
+[2023-07-13 13:18:31] INFO root fetch - processPackages [netbox-secrets]: Downloading https://files.pythonhosted.org/packages/a9/ed/dd3fb4e989531d87b1e0c7fe41cfeb24d5a62a35edf20fe42e92ef4572bf/netbox-secrets-1.8.5.tar.gz
+[2023-07-13 13:18:31] INFO root fetch - processPackages [qvsed]: executing diffoscope
+[2023-07-13 13:18:31] INFO root fetch - processPackages [qvsed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qvsed-1.4.6.tar.gz tmp/qvsed-1.5.0.tar.gz --markdown 20230713/q/qvsed/1.4.6-1.5.0/diff.md --exclude *.pyd
+[2023-07-13 13:18:31] INFO root fetch - processPackages [sign-language-translator]: Downloading https://files.pythonhosted.org/packages/d6/96/9461ce082e23d4dd521152a8841894f520527ab1aab19265e10ca8262104/sign_language_translator-0.4.2.tar.gz
+[2023-07-13 13:18:31] INFO root fetch - processPackages [mbapy]: executing diffoscope
+[2023-07-13 13:18:31] INFO root fetch - processPackages [mbapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbapy-0.1.4.tar.gz tmp/mbapy-0.1.4.1.tar.gz --markdown 20230713/m/mbapy/0.1.4-0.1.4.1/diff.md --exclude *.pyd
+[2023-07-13 13:18:31] INFO root fetch - processPackages [efrem-utils]: Downloading https://files.pythonhosted.org/packages/9a/9c/f1d993b12443383c64efb5ee2bc39ad5f8ef6ddd86a0702b868cf49d3447/efrem_utils-0.0.8.tar.gz
+[2023-07-13 13:18:31] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-07-13 13:18:31] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230713/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-13 13:18:31] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2023-07-13 13:18:31] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.3.5.tar.gz tmp/faasmctl-0.3.6.tar.gz --markdown 20230713/f/faasmctl/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-13 13:18:31] INFO root fetch - processPackages [netbox-secrets]: executing diffoscope
+[2023-07-13 13:18:31] INFO root fetch - processPackages [netbox-secrets]: executing diffoscope
+[2023-07-13 13:18:31] INFO root fetch - processPackages [netbox-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-secrets-1.8.4.tar.gz tmp/netbox-secrets-1.8.5.tar.gz --markdown 20230713/n/netbox-secrets/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-07-13 13:18:31] INFO root fetch - processPackages [netbox-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-secrets-1.8.4.tar.gz tmp/netbox-secrets-1.8.5.tar.gz --markdown 20230713/n/netbox-secrets/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-07-13 13:18:31] INFO root fetch - processPackages [sign-language-translator]: executing diffoscope
+[2023-07-13 13:18:31] INFO root fetch - processPackages [sign-language-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sign_language_translator-0.4.0.tar.gz tmp/sign_language_translator-0.4.2.tar.gz --markdown 20230713/s/sign-language-translator/0.4.0-0.4.2/diff.md --exclude *.pyd
+[2023-07-13 13:18:31] INFO root fetch - processPackages [efrem-utils]: executing diffoscope
+[2023-07-13 13:18:31] INFO root fetch - processPackages [efrem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efrem_utils-0.0.7.tar.gz tmp/efrem_utils-0.0.8.tar.gz --markdown 20230713/e/efrem-utils/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-13 13:18:31] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-13 13:18:32] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-13 13:18:32] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-13 13:18:32] INFO root fetch - processPackages [ramodels]: Start processing: jcopdl
+[2023-07-13 13:18:32] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-13 13:18:33] INFO root fetch - processPackages [jcopdl]: New version: [2.2.0] Old Version: [2.1.9]
+[2023-07-13 13:18:33] INFO root fetch - processPackages [efrem-utils]: Remove: archive file [/home/abi/fetcher/tmp/efrem_utils-0.0.7.tar.gz]
+[2023-07-13 13:18:33] INFO root fetch - processPackages [efrem-utils]: Remove: archive file [/home/abi/fetcher/tmp/efrem_utils-0.0.8.tar.gz]
+[2023-07-13 13:18:33] INFO root fetch - processPackages [efrem-utils]: Start processing: paybybot3
+[2023-07-13 13:18:33] INFO root fetch - main [MainThread]: End processing [efrem-utils]: success
+[2023-07-13 13:18:33] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.4.6.tar.gz]
+[2023-07-13 13:18:33] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.5.0.tar.gz]
+[2023-07-13 13:18:33] INFO root fetch - processPackages [qvsed]: Start processing: starknet-py
+[2023-07-13 13:18:33] INFO root fetch - main [MainThread]: End processing [qvsed]: success
+[2023-07-13 13:18:33] INFO root fetch - processPackages [paybybot3]: New version: [0.0.33] Old Version: [0.0.32]
+[2023-07-13 13:18:33] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-07-13 13:18:33] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230713/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-13 13:18:33] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.3.5.tar.gz]
+[2023-07-13 13:18:33] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.3.6.tar.gz]
+[2023-07-13 13:18:33] INFO root fetch - processPackages [jcopdl]: Downloading https://files.pythonhosted.org/packages/53/64/a571cfb149b15b5a636040969347ee824d3989bf985e34bc2a2fbb965a7f/jcopdl-2.1.9.tar.gz
+[2023-07-13 13:18:33] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2023-07-13 13:18:33] INFO root fetch - processPackages [mbapy]: Remove: archive file [/home/abi/fetcher/tmp/mbapy-0.1.4.tar.gz]
+[2023-07-13 13:18:33] INFO root fetch - processPackages [mbapy]: Remove: archive file [/home/abi/fetcher/tmp/mbapy-0.1.4.1.tar.gz]
+[2023-07-13 13:18:33] INFO root fetch - main [MainThread]: End processing [mbapy]: success
+[2023-07-13 13:18:33] INFO root fetch - processPackages [starknet-py]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2023-07-13 13:18:33] INFO root fetch - processPackages [netbox-secrets]: Remove: archive file [/home/abi/fetcher/tmp/netbox-secrets-1.8.4.tar.gz]
+[2023-07-13 13:18:33] INFO root fetch - processPackages [netbox-secrets]: Remove: archive file [/home/abi/fetcher/tmp/netbox-secrets-1.8.5.tar.gz]
+[2023-07-13 13:18:33] INFO root fetch - main [MainThread]: End processing [netbox-secrets]: success
+[2023-07-13 13:18:33] INFO root fetch - processPackages [sign-language-translator]: Remove: archive file [/home/abi/fetcher/tmp/sign_language_translator-0.4.0.tar.gz]
+[2023-07-13 13:18:33] INFO root fetch - processPackages [sign-language-translator]: Remove: archive file [/home/abi/fetcher/tmp/sign_language_translator-0.4.2.tar.gz]
+[2023-07-13 13:18:33] INFO root fetch - main [MainThread]: End processing [sign-language-translator]: success
+[2023-07-13 13:18:33] INFO root fetch - processPackages [paybybot3]: Downloading https://files.pythonhosted.org/packages/17/b6/339c4498d61508f57fac6fdefb0325b414da8507507835e5ca406d649aea/paybybot3-0.0.32.tar.gz
+[2023-07-13 13:18:33] INFO root fetch - main [MainThread]: End processing [netbox-secrets]: success
+[2023-07-13 13:18:33] INFO root fetch - processPackages [jcopdl]: Downloading https://files.pythonhosted.org/packages/cb/e0/114f3c541daf403f35a8da1c1cdf78f18a83a6540581095ed85e7400cd10/jcopdl-2.2.0.tar.gz
+[2023-07-13 13:18:33] INFO root fetch - processPackages [starknet-py]: Downloading https://files.pythonhosted.org/packages/df/05/e0d6957562bbfbaa99e85c746a7dbeb6677e95fa82ce3050158233a3c8f0/starknet_py-0.8.0a0.tar.gz
+[2023-07-13 13:18:33] INFO root fetch - processPackages [jcopdl]: executing diffoscope
+[2023-07-13 13:18:33] INFO root fetch - processPackages [jcopdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcopdl-2.1.9.tar.gz tmp/jcopdl-2.2.0.tar.gz --markdown 20230713/j/jcopdl/2.1.9-2.2.0/diff.md --exclude *.pyd
+[2023-07-13 13:18:33] INFO root fetch - processPackages [paybybot3]: Downloading https://files.pythonhosted.org/packages/e2/db/2304f899db0a1e5ae91a79e4623b4f293d7e2d58f9009d6d0390e59f159c/paybybot3-0.0.33.tar.gz
+[2023-07-13 13:18:34] INFO root fetch - processPackages [paybybot3]: executing diffoscope
+[2023-07-13 13:18:34] INFO root fetch - processPackages [paybybot3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paybybot3-0.0.32.tar.gz tmp/paybybot3-0.0.33.tar.gz --markdown 20230713/p/paybybot3/0.0.32-0.0.33/diff.md --exclude *.pyd
+[2023-07-13 13:18:34] INFO root fetch - processPackages [starknet-py]: Downloading https://files.pythonhosted.org/packages/39/85/cb9d711715372b05df51856aded3536333f1465c7c78e81db5c569fa46ff/starknet_py-0.9.0a0.tar.gz
+[2023-07-13 13:18:34] INFO root fetch - processPackages [jcopdl]: Remove: archive file [/home/abi/fetcher/tmp/jcopdl-2.1.9.tar.gz]
+[2023-07-13 13:18:34] INFO root fetch - processPackages [jcopdl]: Remove: archive file [/home/abi/fetcher/tmp/jcopdl-2.2.0.tar.gz]
+[2023-07-13 13:18:34] INFO root fetch - main [MainThread]: End processing [jcopdl]: success
+[2023-07-13 13:18:34] INFO root fetch - processPackages [starknet-py]: executing diffoscope
+[2023-07-13 13:18:34] INFO root fetch - processPackages [starknet-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starknet_py-0.8.0a0.tar.gz tmp/starknet_py-0.9.0a0.tar.gz --markdown 20230713/s/starknet-py/0.8.0a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-07-13 13:18:35] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-13 13:18:35] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-13 13:18:35] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-07-13 13:18:35] INFO root fetch - processPackages [paybybot3]: Remove: archive file [/home/abi/fetcher/tmp/paybybot3-0.0.32.tar.gz]
+[2023-07-13 13:18:35] INFO root fetch - processPackages [paybybot3]: Remove: archive file [/home/abi/fetcher/tmp/paybybot3-0.0.33.tar.gz]
+[2023-07-13 13:18:35] INFO root fetch - main [MainThread]: End processing [paybybot3]: success
+[2023-07-13 13:18:35] INFO root fetch - processPackages [starknet-py]: Remove: archive file [/home/abi/fetcher/tmp/starknet_py-0.8.0a0.tar.gz]
+[2023-07-13 13:18:35] INFO root fetch - processPackages [starknet-py]: Remove: archive file [/home/abi/fetcher/tmp/starknet_py-0.9.0a0.tar.gz]
+[2023-07-13 13:18:35] INFO root fetch - main [MainThread]: End processing [starknet-py]: success
+[2023-07-13 13:18:46] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-07-13 13:18:46] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-07-13 13:18:46] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-07-13 13:18:46] INFO root fetch - main [MainThread]: Store serial: [18874030]
