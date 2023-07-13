@@ -5487,3 +5487,69 @@
 [2023-07-13 02:48:11] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307120045.tar.gz]
 [2023-07-13 02:48:11] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-07-13 02:48:11] INFO root fetch - main [MainThread]: Store serial: [18868453]
+[2023-07-13 02:53:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18868453]
+[2023-07-13 02:53:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-13 02:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oloren
+[2023-07-13 02:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coldfront
+[2023-07-13 02:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: devopstrabalhofinal
+[2023-07-13 02:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dawgie
+[2023-07-13 02:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GPT4Readability
+[2023-07-13 02:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reliableGPT
+[2023-07-13 02:53:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edx-braze-client
+[2023-07-13 02:53:19] INFO root fetch - processPackages [devopstrabalhofinal]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-13 02:53:19] INFO root fetch - processPackages [GPT4Readability]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-13 02:53:19] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.984] Old Version: [0.2.983]
+[2023-07-13 02:53:19] INFO root fetch - processPackages [coldfront]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-13 02:53:19] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 02:53:19] INFO root fetch - processPackages [dawgie]: New version: [1.4.1rc1] Old Version: [1.4.0rc8]
+[2023-07-13 02:53:20] INFO root fetch - processPackages [edx-braze-client]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-13 02:53:20] INFO root fetch - processPackages [GPT4Readability]: Downloading https://files.pythonhosted.org/packages/8e/58/96e3f8ef79b9312624242f1adba6a3c6f070e6b868e28c42ed929808c407/GPT4Readability-0.0.2.tar.gz
+[2023-07-13 02:53:20] INFO root fetch - processPackages [devopstrabalhofinal]: Downloading https://files.pythonhosted.org/packages/62/97/e43f27acbd2db27cfb9f3020be0eb855c79a35f536a7871eabf4a3c28415/devopstrabalhofinal-0.0.3.tar.gz
+[2023-07-13 02:53:20] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/4c/0a/7dc0fd959ff7ea50779e4a09d7247d14f2e8b4c62c12f1b284e230e4fe73/reliableGPT-0.2.983.tar.gz
+[2023-07-13 02:53:20] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-07-13 02:53:20] INFO root fetch - processPackages [dawgie]: Downloading https://files.pythonhosted.org/packages/5d/cb/0e41522e0fa06aa90a9b98e1489ac1fe0ed03c1bffe594e838c69757aee9/dawgie-1.4.0rc8.tar.gz
+[2023-07-13 02:53:20] INFO root fetch - processPackages [edx-braze-client]: Downloading https://files.pythonhosted.org/packages/14/54/92eccf4a663357fe4fd789f6a629213d4bf5d15326481369d8700725c961/edx-braze-client-0.1.6.tar.gz
+[2023-07-13 02:53:20] INFO root fetch - processPackages [coldfront]: Downloading https://files.pythonhosted.org/packages/08/8b/db9223aedcc1408d1a0b60c8e10ca3fdaa4e33731d8c4acf0c3b0c7e6fb3/coldfront-1.1.4.tar.gz
+[2023-07-13 02:53:20] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/64/42/459259db71bba5f9689e12bcfa984d4b2e6e6741d538745a69b065add596/reliableGPT-0.2.984.tar.gz
+[2023-07-13 02:53:20] INFO root fetch - processPackages [devopstrabalhofinal]: Downloading https://files.pythonhosted.org/packages/60/08/77a838e25a7eaf5f6908c2e810b1925a190085d4ed715c04fcfcd0804180/devopstrabalhofinal-0.0.4.tar.gz
+[2023-07-13 02:53:20] INFO root fetch - processPackages [GPT4Readability]: Downloading https://files.pythonhosted.org/packages/c2/33/5dc208b51b4d5fd1e44b3757e67ac26508008badac1c5161202d46007198/GPT4Readability-0.0.3.tar.gz
+[2023-07-13 02:53:20] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-07-13 02:53:20] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-07-13 02:53:20] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.983.tar.gz tmp/reliableGPT-0.2.984.tar.gz --markdown 20230713/r/reliableGPT/0.2.983-0.2.984/diff.md --exclude *.pyd
+[2023-07-13 02:53:20] INFO root fetch - processPackages [devopstrabalhofinal]: executing diffoscope
+[2023-07-13 02:53:20] INFO root fetch - processPackages [devopstrabalhofinal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devopstrabalhofinal-0.0.3.tar.gz tmp/devopstrabalhofinal-0.0.4.tar.gz --markdown 20230713/d/devopstrabalhofinal/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-13 02:53:20] INFO root fetch - processPackages [GPT4Readability]: executing diffoscope
+[2023-07-13 02:53:20] INFO root fetch - processPackages [GPT4Readability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPT4Readability-0.0.2.tar.gz tmp/GPT4Readability-0.0.3.tar.gz --markdown 20230713/G/GPT4Readability/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-13 02:53:20] INFO root fetch - processPackages [dawgie]: Downloading https://files.pythonhosted.org/packages/11/76/4dd7c8beee95fab87f970be07aba4da277175f1f79d516cc625e036e2949/dawgie-1.4.1rc1.tar.gz
+[2023-07-13 02:53:20] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-07-13 02:53:20] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230713/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 02:53:20] INFO root fetch - processPackages [edx-braze-client]: Downloading https://files.pythonhosted.org/packages/ee/8a/6f470de2740ccd9b6f8bd6239a4e22de206a93a202557eea57a9e2ac752e/edx-braze-client-0.1.7.tar.gz
+[2023-07-13 02:53:20] INFO root fetch - processPackages [dawgie]: executing diffoscope
+[2023-07-13 02:53:20] INFO root fetch - processPackages [dawgie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dawgie-1.4.0rc8.tar.gz tmp/dawgie-1.4.1rc1.tar.gz --markdown 20230713/d/dawgie/1.4.0rc8-1.4.1rc1/diff.md --exclude *.pyd
+[2023-07-13 02:53:20] INFO root fetch - processPackages [edx-braze-client]: executing diffoscope
+[2023-07-13 02:53:20] INFO root fetch - processPackages [edx-braze-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-braze-client-0.1.6.tar.gz tmp/edx-braze-client-0.1.7.tar.gz --markdown 20230713/e/edx-braze-client/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-13 02:53:21] INFO root fetch - processPackages [coldfront]: Downloading https://files.pythonhosted.org/packages/ef/a8/96f0a330fc4b823dca76a97ffea53403d4f2e58ee664d860699b29efd496/coldfront-1.1.5.tar.gz
+[2023-07-13 02:53:21] INFO root fetch - processPackages [coldfront]: executing diffoscope
+[2023-07-13 02:53:21] INFO root fetch - processPackages [coldfront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coldfront-1.1.4.tar.gz tmp/coldfront-1.1.5.tar.gz --markdown 20230713/c/coldfront/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-13 02:53:21] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.983.tar.gz]
+[2023-07-13 02:53:21] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.984.tar.gz]
+[2023-07-13 02:53:21] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-07-13 02:53:21] INFO root fetch - processPackages [GPT4Readability]: Remove: archive file [/home/abi/fetcher/tmp/GPT4Readability-0.0.2.tar.gz]
+[2023-07-13 02:53:21] INFO root fetch - processPackages [GPT4Readability]: Remove: archive file [/home/abi/fetcher/tmp/GPT4Readability-0.0.3.tar.gz]
+[2023-07-13 02:53:21] INFO root fetch - main [MainThread]: End processing [GPT4Readability]: success
+[2023-07-13 02:53:21] INFO root fetch - processPackages [devopstrabalhofinal]: Remove: archive file [/home/abi/fetcher/tmp/devopstrabalhofinal-0.0.3.tar.gz]
+[2023-07-13 02:53:21] INFO root fetch - processPackages [devopstrabalhofinal]: Remove: archive file [/home/abi/fetcher/tmp/devopstrabalhofinal-0.0.4.tar.gz]
+[2023-07-13 02:53:21] INFO root fetch - main [MainThread]: End processing [devopstrabalhofinal]: success
+[2023-07-13 02:53:21] INFO root fetch - processPackages [dawgie]: Remove: archive file [/home/abi/fetcher/tmp/dawgie-1.4.0rc8.tar.gz]
+[2023-07-13 02:53:21] INFO root fetch - processPackages [dawgie]: Remove: archive file [/home/abi/fetcher/tmp/dawgie-1.4.1rc1.tar.gz]
+[2023-07-13 02:53:21] INFO root fetch - main [MainThread]: End processing [dawgie]: success
+[2023-07-13 02:53:22] INFO root fetch - processPackages [edx-braze-client]: Remove: archive file [/home/abi/fetcher/tmp/edx-braze-client-0.1.6.tar.gz]
+[2023-07-13 02:53:22] INFO root fetch - processPackages [edx-braze-client]: Remove: archive file [/home/abi/fetcher/tmp/edx-braze-client-0.1.7.tar.gz]
+[2023-07-13 02:53:22] INFO root fetch - main [MainThread]: End processing [edx-braze-client]: success
+[2023-07-13 02:53:23] INFO root fetch - processPackages [coldfront]: Remove: archive file [/home/abi/fetcher/tmp/coldfront-1.1.4.tar.gz]
+[2023-07-13 02:53:23] INFO root fetch - processPackages [coldfront]: Remove: archive file [/home/abi/fetcher/tmp/coldfront-1.1.5.tar.gz]
+[2023-07-13 02:53:23] INFO root fetch - main [MainThread]: End processing [coldfront]: success
+[2023-07-13 02:53:25] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-07-13 02:53:25] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-07-13 02:53:25] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-07-13 02:53:25] INFO root fetch - main [MainThread]: Store serial: [18868474]
