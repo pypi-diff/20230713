@@ -2254,3 +2254,99 @@
 [2023-07-13 01:59:43] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.9.tar.gz]
 [2023-07-13 01:59:43] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
 [2023-07-13 01:59:43] INFO root fetch - main [MainThread]: Store serial: [18867293]
+[2023-07-13 02:04:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18867293]
+[2023-07-13 02:04:51] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-13 02:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-dragonfly
+[2023-07-13 02:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kirkwoodnight
+[2023-07-13 02:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: isolate-proto
+[2023-07-13 02:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oms-mqclient
+[2023-07-13 02:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dank-mids
+[2023-07-13 02:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rdf-doctor
+[2023-07-13 02:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiochris
+[2023-07-13 02:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchdatasets-nightly
+[2023-07-13 02:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dequeai
+[2023-07-13 02:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: coiled
+[2023-07-13 02:04:51] INFO root fetch - processPackages [aiochris]: New version: [0.3.0rc2] Old Version: [0.3.0rc1]
+[2023-07-13 02:04:52] INFO root fetch - processPackages [rdf-doctor]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-07-13 02:04:52] INFO root fetch - processPackages [oms-mqclient]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-07-13 02:04:52] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-13 02:04:52] INFO root fetch - processPackages [isolate-proto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 02:04:52] INFO root fetch - processPackages [kirkwoodnight]: New version: [0.9] Old Version: [0.8]
+[2023-07-13 02:04:52] INFO root fetch - processPackages [dequeai]: New version: [0.8228] Old Version: [0.8128]
+[2023-07-13 02:04:52] INFO root fetch - processPackages [coiled]: New version: [0.8.8.dev6] Old Version: [0.8.8.dev5]
+[2023-07-13 02:04:52] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1689120209] Old Version: [1689033837]
+[2023-07-13 02:04:52] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-13 02:04:52] INFO root fetch - processPackages [aiochris]: Downloading https://files.pythonhosted.org/packages/c8/99/6cf0bc71d857fc4269849b5b24abb649e8646272753e0a7ac6f9b3cfc24e/aiochris-0.3.0rc1.tar.gz
+[2023-07-13 02:04:52] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/35/aa/df6dfc77515c99856305d9b2af349afe2c92b370ef272b2686d00f2c563b/rdf_doctor-1.0.0rc1-py3-none-any.whl
+[2023-07-13 02:04:52] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/d0/03/c3276d588150bec6f6a50fd308fbbffd3650c55d816fcb8f3c0ac2188adc/dequeai-0.8128.tar.gz
+[2023-07-13 02:04:52] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-13 02:04:52] INFO root fetch - processPackages [oms-mqclient]: Downloading https://files.pythonhosted.org/packages/17/6a/0fafd2b2c9e5e55d657cb75446550a3be8038654d5ca1786e8ffc84e0b82/oms-mqclient-2.3.0.tar.gz
+[2023-07-13 02:04:52] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/37/80/dbe4140241b6b9914d88c932850243c55ac54409e6a4d9c93708d625ea3b/torchdatasets-nightly-1689033837.tar.gz
+[2023-07-13 02:04:52] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-13 02:04:52] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/4a/cb/0933d24e41275b672f193d2903cf8bf47f4161c7a6575b8a40bd929b95f4/kirkwoodnight-0.8.tar.gz
+[2023-07-13 02:04:52] INFO root fetch - processPackages [isolate-proto]: Downloading https://files.pythonhosted.org/packages/fa/8a/f2719791cdda1843c75d559893bcfbee60dc9548d47a6c7ebbc5ca17efe1/isolate_proto-0.0.8.tar.gz
+[2023-07-13 02:04:52] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/c2/36/d3280db7c42d8129263408a3f396af4639164500ff0eedd1f5f164ffad77/coiled-0.8.8.dev5.tar.gz
+[2023-07-13 02:04:52] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/57/a0/1acd1cd515847bb3384752da79382bc1b525b21198ab055f1903e94f946d/rdf_doctor-1.0.0rc2-py3-none-any.whl
+[2023-07-13 02:04:52] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/a5/23/47343e03693f31531dcd2556876ba7f5f85e5286e575cfeb333af486f531/dequeai-0.8228.tar.gz
+[2023-07-13 02:04:52] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-13 02:04:52] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/fd/3d/35fd8910d194077812106943bc1bc53542eb2b97ae4f68449a446bc15056/kirkwoodnight-0.9.tar.gz
+[2023-07-13 02:04:52] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-13 02:04:52] INFO root fetch - processPackages [aiochris]: Downloading https://files.pythonhosted.org/packages/e1/ad/5706943e94605b963e50628cd92159e7d479de3c3a3a73ca04ac6cd2461e/aiochris-0.3.0rc2.tar.gz
+[2023-07-13 02:04:52] INFO root fetch - processPackages [rdf-doctor]: executing diffoscope
+[2023-07-13 02:04:52] INFO root fetch - processPackages [rdf-doctor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdf_doctor-1.0.0rc1-py3-none-any.whl.zip tmp/rdf_doctor-1.0.0rc2-py3-none-any.whl.zip --markdown 20230713/r/rdf-doctor/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-07-13 02:04:53] INFO root fetch - processPackages [oms-mqclient]: Downloading https://files.pythonhosted.org/packages/f2/5c/fa55f0036fec81a2e57028e1dc1d48fb21a8b24f6c2d096af39760c6bfd8/oms-mqclient-2.3.1.tar.gz
+[2023-07-13 02:04:53] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/db/b4/b10f6a726c91a112ce80b345776624feecfd227d9ef8bb77d29fd5f10e00/coiled-0.8.8.dev6.tar.gz
+[2023-07-13 02:04:53] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/05/4c/854422388d75c0b499b547b9cfc1d16cd5b59c4c8008dd5c48a4e92cf28f/torchdatasets-nightly-1689120209.tar.gz
+[2023-07-13 02:04:53] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-13 02:04:53] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230713/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-13 02:04:53] INFO root fetch - processPackages [isolate-proto]: Downloading https://files.pythonhosted.org/packages/b8/c1/616d33b533bec635af64d61f363188d18ee72950aa1fc3bf02c5073168cf/isolate_proto-0.0.9.tar.gz
+[2023-07-13 02:04:53] INFO root fetch - processPackages [dequeai]: executing diffoscope
+[2023-07-13 02:04:53] INFO root fetch - processPackages [dequeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dequeai-0.8128.tar.gz tmp/dequeai-0.8228.tar.gz --markdown 20230713/d/dequeai/0.8128-0.8228/diff.md --exclude *.pyd
+[2023-07-13 02:04:53] INFO root fetch - processPackages [kirkwoodnight]: executing diffoscope
+[2023-07-13 02:04:53] INFO root fetch - processPackages [kirkwoodnight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirkwoodnight-0.8.tar.gz tmp/kirkwoodnight-0.9.tar.gz --markdown 20230713/k/kirkwoodnight/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-13 02:04:53] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-13 02:04:53] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230713/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-13 02:04:53] INFO root fetch - processPackages [aiochris]: executing diffoscope
+[2023-07-13 02:04:53] INFO root fetch - processPackages [aiochris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiochris-0.3.0rc1.tar.gz tmp/aiochris-0.3.0rc2.tar.gz --markdown 20230713/a/aiochris/0.3.0rc1-0.3.0rc2/diff.md --exclude *.pyd
+[2023-07-13 02:04:53] INFO root fetch - processPackages [oms-mqclient]: executing diffoscope
+[2023-07-13 02:04:53] INFO root fetch - processPackages [oms-mqclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oms-mqclient-2.3.0.tar.gz tmp/oms-mqclient-2.3.1.tar.gz --markdown 20230713/o/oms-mqclient/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-07-13 02:04:53] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-13 02:04:53] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1689033837.tar.gz tmp/torchdatasets-nightly-1689120209.tar.gz --markdown 20230713/t/torchdatasets-nightly/1689033837-1689120209/diff.md --exclude *.pyd
+[2023-07-13 02:04:53] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-13 02:04:53] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.8.dev5.tar.gz tmp/coiled-0.8.8.dev6.tar.gz --markdown 20230713/c/coiled/0.8.8.dev5-0.8.8.dev6/diff.md --exclude *.pyd
+[2023-07-13 02:04:53] INFO root fetch - processPackages [isolate-proto]: executing diffoscope
+[2023-07-13 02:04:53] INFO root fetch - processPackages [isolate-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isolate_proto-0.0.8.tar.gz tmp/isolate_proto-0.0.9.tar.gz --markdown 20230713/i/isolate-proto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 02:04:54] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-1.0.0rc1-py3-none-any.whl.zip]
+[2023-07-13 02:04:54] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-1.0.0rc2-py3-none-any.whl.zip]
+[2023-07-13 02:04:54] INFO root fetch - processPackages [rdf-doctor]: Start processing: efrem-utils
+[2023-07-13 02:04:54] INFO root fetch - main [MainThread]: End processing [rdf-doctor]: success
+[2023-07-13 02:04:54] INFO root fetch - processPackages [dequeai]: Remove: archive file [/home/abi/fetcher/tmp/dequeai-0.8128.tar.gz]
+[2023-07-13 02:04:54] INFO root fetch - processPackages [dequeai]: Remove: archive file [/home/abi/fetcher/tmp/dequeai-0.8228.tar.gz]
+[2023-07-13 02:04:54] INFO root fetch - main [MainThread]: End processing [dequeai]: success
+[2023-07-13 02:04:54] WARNING root fetch - processPackages [efrem-utils]: Skipping, unable to determine old version
+[2023-07-13 02:04:54] INFO root fetch - main [MainThread]: End processing [efrem-utils] error
+[2023-07-13 02:04:54] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.8.tar.gz]
+[2023-07-13 02:04:54] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.9.tar.gz]
+[2023-07-13 02:04:54] INFO root fetch - main [MainThread]: End processing [kirkwoodnight]: success
+[2023-07-13 02:04:54] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-13 02:04:54] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-13 02:04:54] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-13 02:04:54] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-13 02:04:54] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-13 02:04:54] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-13 02:04:54] INFO root fetch - processPackages [isolate-proto]: Remove: archive file [/home/abi/fetcher/tmp/isolate_proto-0.0.8.tar.gz]
+[2023-07-13 02:04:54] INFO root fetch - processPackages [isolate-proto]: Remove: archive file [/home/abi/fetcher/tmp/isolate_proto-0.0.9.tar.gz]
+[2023-07-13 02:04:54] INFO root fetch - main [MainThread]: End processing [isolate-proto]: success
+[2023-07-13 02:04:54] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1689033837.tar.gz]
+[2023-07-13 02:04:54] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1689120209.tar.gz]
+[2023-07-13 02:04:54] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-13 02:04:55] INFO root fetch - processPackages [oms-mqclient]: Remove: archive file [/home/abi/fetcher/tmp/oms-mqclient-2.3.0.tar.gz]
+[2023-07-13 02:04:55] INFO root fetch - processPackages [oms-mqclient]: Remove: archive file [/home/abi/fetcher/tmp/oms-mqclient-2.3.1.tar.gz]
+[2023-07-13 02:04:55] INFO root fetch - main [MainThread]: End processing [oms-mqclient]: success
+[2023-07-13 02:04:55] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.8.dev5.tar.gz]
+[2023-07-13 02:04:55] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.8.dev6.tar.gz]
+[2023-07-13 02:04:55] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-13 02:04:55] INFO root fetch - processPackages [aiochris]: Remove: archive file [/home/abi/fetcher/tmp/aiochris-0.3.0rc1.tar.gz]
+[2023-07-13 02:04:55] INFO root fetch - processPackages [aiochris]: Remove: archive file [/home/abi/fetcher/tmp/aiochris-0.3.0rc2.tar.gz]
+[2023-07-13 02:04:55] INFO root fetch - main [MainThread]: End processing [aiochris]: success
+[2023-07-13 02:04:55] INFO root fetch - main [MainThread]: Store serial: [18867325]
