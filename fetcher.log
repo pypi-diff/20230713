@@ -14141,3 +14141,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 10:12:06] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230713.tar.gz]
 [2023-07-13 10:12:06] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-07-13 10:12:06] INFO root fetch - main [MainThread]: Store serial: [18871691]
+[2023-07-13 10:17:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18871691]
+[2023-07-13 10:17:14] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-13 10:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: artorias
+[2023-07-13 10:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starlette
+[2023-07-13 10:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: timez
+[2023-07-13 10:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: strawberry-django-auth-jwt
+[2023-07-13 10:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: samba-sampler
+[2023-07-13 10:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: djangorestframework-ext
+[2023-07-13 10:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spaceone-board
+[2023-07-13 10:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: parse-k8s-resources
+[2023-07-13 10:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mtg-ssm
+[2023-07-13 10:17:15] WARNING root fetch - processPackages [artorias]: Skipping, unable to determine old version
+[2023-07-13 10:17:15] INFO root fetch - main [MainThread]: End processing [artorias] error
+[2023-07-13 10:17:15] WARNING root fetch - processPackages [timez]: Skipping, unable to determine old version
+[2023-07-13 10:17:15] INFO root fetch - main [MainThread]: End processing [timez] error
+[2023-07-13 10:17:15] INFO root fetch - processPackages [strawberry-django-auth-jwt]: New version: [0.2.7.dev1689236019] Old Version: [0.2.5.dev1689230891]
+[2023-07-13 10:17:15] WARNING root fetch - processPackages [parse-k8s-resources]: Skipping, unable to determine old version
+[2023-07-13 10:17:15] INFO root fetch - main [MainThread]: End processing [parse-k8s-resources] error
+[2023-07-13 10:17:15] INFO root fetch - processPackages [starlette]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-13 10:17:15] WARNING root fetch - processPackages [samba-sampler]: Skipping, unable to determine old version
+[2023-07-13 10:17:15] INFO root fetch - main [MainThread]: End processing [samba-sampler] error
+[2023-07-13 10:17:15] INFO root fetch - processPackages [djangorestframework-ext]: New version: [0.9] Old Version: [0.8]
+[2023-07-13 10:17:15] INFO root fetch - processPackages [spaceone-board]: New version: [1.9.7rc1] Old Version: [1.9.7]
+[2023-07-13 10:17:15] INFO root fetch - processPackages [strawberry-django-auth-jwt]: Downloading https://files.pythonhosted.org/packages/11/44/1db1a9261a4e38682687fcfbdd95b61261c6b7f1fe0e94571ade03633fe6/strawberry_django_auth_jwt-0.2.5.dev1689230891.tar.gz
+[2023-07-13 10:17:15] INFO root fetch - processPackages [mtg-ssm]: New version: [2.6.2.dev1] Old Version: [2.6.1.dev1]
+[2023-07-13 10:17:15] INFO root fetch - processPackages [starlette]: Downloading https://files.pythonhosted.org/packages/3e/c6/88df156dc4ad2b9a3dba51c4b4e128309c2a60db7405df4567777f77bd0c/starlette-0.9.8.tar.gz
+[2023-07-13 10:17:15] INFO root fetch - processPackages [spaceone-board]: Downloading https://files.pythonhosted.org/packages/f5/66/e3fde81dfecfe1b911035bf54d30137e630f2b55fefc30aa5c025d264ef6/spaceone_board-1.9.7-py3-none-any.whl
+[2023-07-13 10:17:15] INFO root fetch - processPackages [djangorestframework-ext]: Downloading https://files.pythonhosted.org/packages/d6/be/76ec8844c998542b4bdda0eaf61bc3babcd7c9909cfabfb92ad236e7d7fe/djangorestframework-ext-0.8.tar.gz
+[2023-07-13 10:17:15] INFO root fetch - processPackages [mtg-ssm]: Downloading https://files.pythonhosted.org/packages/2c/93/0bf60b43ced494b711f6e8ca77b3f530d04fb6d9ed26edc6dabf2dbc6adc/mtg_ssm-2.6.1.dev1.tar.gz
+[2023-07-13 10:17:15] INFO root fetch - processPackages [strawberry-django-auth-jwt]: Downloading https://files.pythonhosted.org/packages/3b/18/f140a5bea5ee9818cd81a9663f546e980b9e2692aa90b60800eeaddf4eac/strawberry_django_auth_jwt-0.2.7.dev1689236019.tar.gz
+[2023-07-13 10:17:15] INFO root fetch - processPackages [strawberry-django-auth-jwt]: executing diffoscope
+[2023-07-13 10:17:15] INFO root fetch - processPackages [strawberry-django-auth-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry_django_auth_jwt-0.2.5.dev1689230891.tar.gz tmp/strawberry_django_auth_jwt-0.2.7.dev1689236019.tar.gz --markdown 20230713/s/strawberry-django-auth-jwt/0.2.5.dev1689230891-0.2.7.dev1689236019/diff.md --exclude *.pyd
+[2023-07-13 10:17:15] INFO root fetch - processPackages [starlette]: Downloading https://files.pythonhosted.org/packages/99/67/9760b15bc6785a1d1575bd19f332a7b140f67d006e3aa1a0e3c83280b150/starlette-0.9.9.tar.gz
+[2023-07-13 10:17:15] INFO root fetch - processPackages [spaceone-board]: Downloading https://files.pythonhosted.org/packages/6c/99/76c76da493b5a9ae9d6064d18ad2cc9d486b74675a1c2f37ff58337a7878/spaceone_board-1.9.7rc1-py3-none-any.whl
+[2023-07-13 10:17:15] INFO root fetch - processPackages [djangorestframework-ext]: Downloading https://files.pythonhosted.org/packages/68/7f/a0089289d4ec8908e1a1eb790688de9d770b056bc9785f48187b30f6178b/djangorestframework-ext-0.9.tar.gz
+[2023-07-13 10:17:15] INFO root fetch - processPackages [mtg-ssm]: Downloading https://files.pythonhosted.org/packages/50/3d/f64015451f35fbc0bca14b29971c0b08b05a4a50a77b2f17c260881b6ba5/mtg_ssm-2.6.2.dev1.tar.gz
+[2023-07-13 10:17:15] INFO root fetch - processPackages [starlette]: executing diffoscope
+[2023-07-13 10:17:15] INFO root fetch - processPackages [starlette]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlette-0.9.8.tar.gz tmp/starlette-0.9.9.tar.gz --markdown 20230713/s/starlette/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-13 10:17:16] INFO root fetch - processPackages [spaceone-board]: executing diffoscope
+[2023-07-13 10:17:16] INFO root fetch - processPackages [spaceone-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_board-1.9.7-py3-none-any.whl.zip tmp/spaceone_board-1.9.7rc1-py3-none-any.whl.zip --markdown 20230713/s/spaceone-board/1.9.7-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-13 10:17:16] INFO root fetch - processPackages [djangorestframework-ext]: executing diffoscope
+[2023-07-13 10:17:16] INFO root fetch - processPackages [djangorestframework-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangorestframework-ext-0.8.tar.gz tmp/djangorestframework-ext-0.9.tar.gz --markdown 20230713/d/djangorestframework-ext/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-13 10:17:16] INFO root fetch - processPackages [mtg-ssm]: executing diffoscope
+[2023-07-13 10:17:16] INFO root fetch - processPackages [mtg-ssm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtg_ssm-2.6.1.dev1.tar.gz tmp/mtg_ssm-2.6.2.dev1.tar.gz --markdown 20230713/m/mtg-ssm/2.6.1.dev1-2.6.2.dev1/diff.md --exclude *.pyd
+[2023-07-13 10:17:16] INFO root fetch - processPackages [strawberry-django-auth-jwt]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_auth_jwt-0.2.5.dev1689230891.tar.gz]
+[2023-07-13 10:17:16] INFO root fetch - processPackages [strawberry-django-auth-jwt]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_auth_jwt-0.2.7.dev1689236019.tar.gz]
+[2023-07-13 10:17:16] INFO root fetch - main [MainThread]: End processing [strawberry-django-auth-jwt]: success
+[2023-07-13 10:17:17] INFO root fetch - processPackages [starlette]: Remove: archive file [/home/abi/fetcher/tmp/starlette-0.9.8.tar.gz]
+[2023-07-13 10:17:17] INFO root fetch - processPackages [starlette]: Remove: archive file [/home/abi/fetcher/tmp/starlette-0.9.9.tar.gz]
+[2023-07-13 10:17:17] INFO root fetch - main [MainThread]: End processing [starlette]: success
+[2023-07-13 10:17:17] INFO root fetch - processPackages [spaceone-board]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_board-1.9.7-py3-none-any.whl.zip]
+[2023-07-13 10:17:17] INFO root fetch - processPackages [spaceone-board]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_board-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-13 10:17:17] INFO root fetch - main [MainThread]: End processing [spaceone-board]: success
+[2023-07-13 10:17:17] INFO root fetch - processPackages [djangorestframework-ext]: Remove: archive file [/home/abi/fetcher/tmp/djangorestframework-ext-0.8.tar.gz]
+[2023-07-13 10:17:17] INFO root fetch - processPackages [djangorestframework-ext]: Remove: archive file [/home/abi/fetcher/tmp/djangorestframework-ext-0.9.tar.gz]
+[2023-07-13 10:17:17] INFO root fetch - main [MainThread]: End processing [djangorestframework-ext]: success
+[2023-07-13 10:17:18] INFO root fetch - processPackages [mtg-ssm]: Remove: archive file [/home/abi/fetcher/tmp/mtg_ssm-2.6.1.dev1.tar.gz]
+[2023-07-13 10:17:18] INFO root fetch - processPackages [mtg-ssm]: Remove: archive file [/home/abi/fetcher/tmp/mtg_ssm-2.6.2.dev1.tar.gz]
+[2023-07-13 10:17:18] INFO root fetch - main [MainThread]: End processing [mtg-ssm]: success
+[2023-07-13 10:17:18] INFO root fetch - main [MainThread]: Store serial: [18871739]
