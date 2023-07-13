@@ -13401,3 +13401,79 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 09:19:27] INFO root fetch - processPackages [alibabacloud-iot20180120]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_iot20180120-3.1.4.tar.gz]
 [2023-07-13 09:19:27] INFO root fetch - main [MainThread]: End processing [alibabacloud-iot20180120]: success
 [2023-07-13 09:19:27] INFO root fetch - main [MainThread]: Store serial: [18871372]
+[2023-07-13 09:24:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18871372]
+[2023-07-13 09:24:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-13 09:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chaostoolkit-lib
+[2023-07-13 09:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flgo
+[2023-07-13 09:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvidia-smi2
+[2023-07-13 09:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfq-nightly
+[2023-07-13 09:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thipstercli
+[2023-07-13 09:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hmatrices
+[2023-07-13 09:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sphinx-docsearch
+[2023-07-13 09:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cjm-yolox-pytorch
+[2023-07-13 09:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xj-common
+[2023-07-13 09:24:40] INFO root fetch - processPackages [thipstercli]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-13 09:24:40] INFO root fetch - processPackages [hmatrices]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-13 09:24:40] INFO root fetch - processPackages [xj-common]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 09:24:40] INFO root fetch - processPackages [nvidia-smi2]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-13 09:24:40] INFO root fetch - processPackages [flgo]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-13 09:24:40] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.83]
+[2023-07-13 09:24:40] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230712] Old Version: [0.7.3.dev20230711]
+[2023-07-13 09:24:41] INFO root fetch - processPackages [sphinx-docsearch]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 09:24:41] INFO root fetch - processPackages [chaostoolkit-lib]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-13 09:24:41] INFO root fetch - processPackages [hmatrices]: Downloading https://files.pythonhosted.org/packages/91/ae/45d0fe7583d020210fbb2295f3c205b3405e8093d59ceb60790168904753/hmatrices-0.1.1.tar.gz
+[2023-07-13 09:24:41] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/2b/da/407fd2d37bc63fcc58b83e2cff3f53a0e3976dd06a12df6361cb86b80b59/thipstercli-0.5.8.tar.gz
+[2023-07-13 09:24:41] INFO root fetch - processPackages [nvidia-smi2]: Downloading https://files.pythonhosted.org/packages/0d/3f/11b1918a452bcc6c392a86ecd24f233c3a373e45747d465cb8bb59b26435/nvidia-smi2-0.0.5.tar.gz
+[2023-07-13 09:24:41] INFO root fetch - processPackages [xj-common]: Downloading https://files.pythonhosted.org/packages/b3/52/f57e547bfff3498ef241412dab5c76a22d267cd4d6fd77052d8fd2905d8a/xj_common-1.0.8.tar.gz
+[2023-07-13 09:24:41] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/09/17/24ecee6ab47e2070a2e4f8d5fb2fdf9285f82083e0e9fcbf417a23529386/cjm-yolox-pytorch-0.0.83.tar.gz
+[2023-07-13 09:24:41] INFO root fetch - processPackages [flgo]: Downloading https://files.pythonhosted.org/packages/d6/a1/2b6e7d316887a6a23703adbf92614de421a5d66bb58c35ad86d731be0bc5/flgo-0.0.3.tar.gz
+[2023-07-13 09:24:41] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/e9/20/6ca7ea7d0bdbd58cd5d3dd98a95a2c7e5e5d15037e1bb86ffc171dc692b3/tfq_nightly-0.7.3.dev20230711-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-13 09:24:41] INFO root fetch - processPackages [sphinx-docsearch]: Downloading https://files.pythonhosted.org/packages/4a/02/8ce9c2e6b8120257366dda35d6eba14f2814ae7b1a12a36ce56e63ab60f3/sphinx_docsearch-0.0.1.tar.gz
+[2023-07-13 09:24:41] INFO root fetch - processPackages [chaostoolkit-lib]: Downloading https://files.pythonhosted.org/packages/2a/b2/27ef91763ac611976a29729d92af54212c349b1f24fd343a2ab0429a6004/chaostoolkit-lib-1.8.1.tar.gz
+[2023-07-13 09:24:41] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807265>=10485760
+[2023-07-13 09:24:41] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-13 09:24:41] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/ca/93/0176a61faa13c3a53c556d028b5a8f64799c7dc89c98fbfaeeac643e8a41/thipstercli-0.5.9.tar.gz
+[2023-07-13 09:24:41] INFO root fetch - processPackages [hmatrices]: Downloading https://files.pythonhosted.org/packages/48/fd/d7e641253357452551c558c7ca804d49ad88e21421855869c1151902fc6f/hmatrices-0.1.2.tar.gz
+[2023-07-13 09:24:41] INFO root fetch - processPackages [xj-common]: Downloading https://files.pythonhosted.org/packages/e7/02/3b3bbfc48d247cf8d477729491ec2d1f4c2947a9f2c01c948da7088586f5/xj_common-1.0.9.tar.gz
+[2023-07-13 09:24:41] ERROR root fetch - processPackages [nvidia-smi2]: Unable to fetch info: No such project/version 'nvidia-smi2' 0.0.6
+[2023-07-13 09:24:41] INFO root fetch - main [MainThread]: End processing [nvidia-smi2] error
+[2023-07-13 09:24:41] INFO root fetch - processPackages [thipstercli]: executing diffoscope
+[2023-07-13 09:24:41] INFO root fetch - processPackages [thipstercli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipstercli-0.5.8.tar.gz tmp/thipstercli-0.5.9.tar.gz --markdown 20230713/t/thipstercli/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-13 09:24:41] INFO root fetch - processPackages [hmatrices]: executing diffoscope
+[2023-07-13 09:24:41] INFO root fetch - processPackages [hmatrices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmatrices-0.1.1.tar.gz tmp/hmatrices-0.1.2.tar.gz --markdown 20230713/h/hmatrices/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-13 09:24:41] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 09:24:41] INFO root fetch - processPackages [flgo]: Downloading https://files.pythonhosted.org/packages/e6/ee/3bf09e02d963e1fe9cbbec878c615000f37e0b0cd663682a067ce316f4bb/flgo-0.0.4.tar.gz
+[2023-07-13 09:24:41] INFO root fetch - processPackages [xj-common]: executing diffoscope
+[2023-07-13 09:24:41] INFO root fetch - processPackages [xj-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_common-1.0.8.tar.gz tmp/xj_common-1.0.9.tar.gz --markdown 20230713/x/xj-common/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 09:24:41] INFO root fetch - processPackages [chaostoolkit-lib]: Downloading https://files.pythonhosted.org/packages/ce/ed/18f1241fe016fd9143c099b74f06962ddab60503251292c27a44324ac201/chaostoolkit-lib-1.9.0.tar.gz
+[2023-07-13 09:24:41] INFO root fetch - processPackages [sphinx-docsearch]: Downloading https://files.pythonhosted.org/packages/ed/2b/4ef0f671a4bde497e53f0fe3b36bd31888ffb2b4cb122aa70ef8e40f841f/sphinx_docsearch-0.0.2.tar.gz
+[2023-07-13 09:24:41] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 09:24:41] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.83.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.83-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 09:24:41] INFO root fetch - processPackages [flgo]: executing diffoscope
+[2023-07-13 09:24:41] INFO root fetch - processPackages [flgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flgo-0.0.3.tar.gz tmp/flgo-0.0.4.tar.gz --markdown 20230713/f/flgo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-13 09:24:41] INFO root fetch - processPackages [sphinx-docsearch]: executing diffoscope
+[2023-07-13 09:24:41] INFO root fetch - processPackages [sphinx-docsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_docsearch-0.0.1.tar.gz tmp/sphinx_docsearch-0.0.2.tar.gz --markdown 20230713/s/sphinx-docsearch/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 09:24:41] INFO root fetch - processPackages [chaostoolkit-lib]: executing diffoscope
+[2023-07-13 09:24:41] INFO root fetch - processPackages [chaostoolkit-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-lib-1.8.1.tar.gz tmp/chaostoolkit-lib-1.9.0.tar.gz --markdown 20230713/c/chaostoolkit-lib/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-13 09:24:43] INFO root fetch - processPackages [hmatrices]: Remove: archive file [/home/abi/fetcher/tmp/hmatrices-0.1.1.tar.gz]
+[2023-07-13 09:24:43] INFO root fetch - processPackages [hmatrices]: Remove: archive file [/home/abi/fetcher/tmp/hmatrices-0.1.2.tar.gz]
+[2023-07-13 09:24:43] INFO root fetch - main [MainThread]: End processing [hmatrices]: success
+[2023-07-13 09:24:43] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.5.8.tar.gz]
+[2023-07-13 09:24:43] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.5.9.tar.gz]
+[2023-07-13 09:24:43] INFO root fetch - main [MainThread]: End processing [thipstercli]: success
+[2023-07-13 09:24:43] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.83.tar.gz]
+[2023-07-13 09:24:43] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 09:24:43] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 09:24:43] INFO root fetch - processPackages [chaostoolkit-lib]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-lib-1.8.1.tar.gz]
+[2023-07-13 09:24:43] INFO root fetch - processPackages [chaostoolkit-lib]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-lib-1.9.0.tar.gz]
+[2023-07-13 09:24:43] INFO root fetch - main [MainThread]: End processing [chaostoolkit-lib]: success
+[2023-07-13 09:24:43] INFO root fetch - processPackages [sphinx-docsearch]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_docsearch-0.0.1.tar.gz]
+[2023-07-13 09:24:43] INFO root fetch - processPackages [sphinx-docsearch]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_docsearch-0.0.2.tar.gz]
+[2023-07-13 09:24:43] INFO root fetch - main [MainThread]: End processing [sphinx-docsearch]: success
+[2023-07-13 09:24:43] INFO root fetch - processPackages [flgo]: Remove: archive file [/home/abi/fetcher/tmp/flgo-0.0.3.tar.gz]
+[2023-07-13 09:24:43] INFO root fetch - processPackages [flgo]: Remove: archive file [/home/abi/fetcher/tmp/flgo-0.0.4.tar.gz]
+[2023-07-13 09:24:43] INFO root fetch - main [MainThread]: End processing [flgo]: success
+[2023-07-13 09:24:43] INFO root fetch - processPackages [xj-common]: Remove: archive file [/home/abi/fetcher/tmp/xj_common-1.0.8.tar.gz]
+[2023-07-13 09:24:43] INFO root fetch - processPackages [xj-common]: Remove: archive file [/home/abi/fetcher/tmp/xj_common-1.0.9.tar.gz]
+[2023-07-13 09:24:43] INFO root fetch - main [MainThread]: End processing [xj-common]: success
+[2023-07-13 09:24:43] INFO root fetch - main [MainThread]: Store serial: [18871411]
