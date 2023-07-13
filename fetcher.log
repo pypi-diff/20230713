@@ -6012,3 +6012,60 @@
 [2023-07-13 03:30:20] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
 [2023-07-13 03:30:20] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
 [2023-07-13 03:30:20] INFO root fetch - main [MainThread]: Store serial: [18868677]
+[2023-07-13 03:35:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18868677]
+[2023-07-13 03:35:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-13 03:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mutual
+[2023-07-13 03:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sops-secrets
+[2023-07-13 03:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notros2
+[2023-07-13 03:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notros2
+[2023-07-13 03:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyISBO
+[2023-07-13 03:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sora-sdk
+[2023-07-13 03:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simple-token-bucket
+[2023-07-13 03:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-lambda-subminute
+[2023-07-13 03:35:30] INFO root fetch - processPackages [mutual]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 03:35:30] INFO root fetch - processPackages [notros2]: New version: [23.7.13.3751] Old Version: [23.7.13.3744]
+[2023-07-13 03:35:30] WARNING root fetch - processPackages [pyISBO]: Skipping, unable to determine old version
+[2023-07-13 03:35:30] INFO root fetch - main [MainThread]: End processing [pyISBO] error
+[2023-07-13 03:35:30] INFO root fetch - processPackages [notros2]: New version: [23.7.13.3751] Old Version: [23.7.13.3744]
+[2023-07-13 03:35:30] INFO root fetch - processPackages [sora-sdk]: New version: [2023.3.1] Old Version: [2023.3.0]
+[2023-07-13 03:35:30] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-13 03:35:30] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-13 03:35:30] WARNING root fetch - processPackages [simple-token-bucket]: Skipping, unable to determine old version
+[2023-07-13 03:35:30] INFO root fetch - main [MainThread]: End processing [simple-token-bucket] error
+[2023-07-13 03:35:30] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/c6/ca/fd353018f56ae28878b261981b5527729143d2cb6354a389a2b768504024/notros2-23.7.13.3744.tar.gz
+[2023-07-13 03:35:30] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/c6/ca/fd353018f56ae28878b261981b5527729143d2cb6354a389a2b768504024/notros2-23.7.13.3744.tar.gz
+[2023-07-13 03:35:30] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-07-13 03:35:30] INFO root fetch - processPackages [mutual]: Downloading https://files.pythonhosted.org/packages/7d/cd/fc5c5dd6e20c975d05bea8e0b6a8320173f01af9661370c59583301f6d78/mutual-0.0.1.tar.gz
+[2023-07-13 03:35:30] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/ea/fe/c1e9ad60db4d5c1171ba06ec9ca89654f44cf667c092796d10c587a90bbf/sora_sdk-2023.3.0.tar.gz
+[2023-07-13 03:35:30] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-13 03:35:30] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/5c/7a/1af16ee823fde5aedfc4338eda66e389dde46634c01199f8b30f201cd081/notros2-23.7.13.3751-py3-none-any.whl
+[2023-07-13 03:35:30] WARNING root fetch - processPackages [sora-sdk]: Skipping package: exceeds size limit 11017998>=10485760
+[2023-07-13 03:35:30] INFO root fetch - main [MainThread]: End processing [sora-sdk] error
+[2023-07-13 03:35:30] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/5c/7a/1af16ee823fde5aedfc4338eda66e389dde46634c01199f8b30f201cd081/notros2-23.7.13.3751-py3-none-any.whl
+[2023-07-13 03:35:30] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-07-13 03:35:31] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-13 03:35:31] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.13.3744.tar.gz tmp/notros2-23.7.13.3751-py3-none-any.whl.zip --markdown 20230713/n/notros2/23.7.13.3744-23.7.13.3751/diff.md --exclude *.pyd
+[2023-07-13 03:35:31] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-13 03:35:31] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.13.3744.tar.gz tmp/notros2-23.7.13.3751-py3-none-any.whl.zip --markdown 20230713/n/notros2/23.7.13.3744-23.7.13.3751/diff.md --exclude *.pyd
+[2023-07-13 03:35:31] INFO root fetch - processPackages [mutual]: Downloading https://files.pythonhosted.org/packages/1e/77/a74cf789a5914fde059885376ae0911e6145321fd3f79df150e34480f157/mutual-0.0.2.tar.gz
+[2023-07-13 03:35:31] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-07-13 03:35:31] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230713/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-13 03:35:31] INFO root fetch - processPackages [mutual]: executing diffoscope
+[2023-07-13 03:35:31] INFO root fetch - processPackages [mutual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutual-0.0.1.tar.gz tmp/mutual-0.0.2.tar.gz --markdown 20230713/m/mutual/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 03:35:31] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-13 03:35:31] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-13 03:35:31] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230713/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-13 03:35:31] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.13.3744.tar.gz]
+[2023-07-13 03:35:31] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.13.3751-py3-none-any.whl.zip]
+[2023-07-13 03:35:31] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-13 03:35:32] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-13 03:35:32] INFO root fetch - processPackages [mutual]: Remove: archive file [/home/abi/fetcher/tmp/mutual-0.0.1.tar.gz]
+[2023-07-13 03:35:32] INFO root fetch - processPackages [mutual]: Remove: archive file [/home/abi/fetcher/tmp/mutual-0.0.2.tar.gz]
+[2023-07-13 03:35:32] INFO root fetch - main [MainThread]: End processing [mutual]: success
+[2023-07-13 03:35:32] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-07-13 03:35:32] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-07-13 03:35:32] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-07-13 03:35:32] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-13 03:35:32] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-13 03:35:32] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-13 03:35:32] INFO root fetch - main [MainThread]: Store serial: [18868719]
