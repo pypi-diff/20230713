@@ -18885,3 +18885,128 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 12:15:12] INFO root fetch - processPackages [fastly]: Remove: archive file [/home/abi/fetcher/tmp/fastly-3.0.2.tar.gz]
 [2023-07-13 12:15:12] INFO root fetch - main [MainThread]: End processing [fastly]: success
 [2023-07-13 12:15:12] INFO root fetch - main [MainThread]: Store serial: [18873425]
+[2023-07-13 12:20:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18873425]
+[2023-07-13 12:20:21] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-13 12:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: formance-sdk-python
+[2023-07-13 12:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: audinterface
+[2023-07-13 12:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ddadevops
+[2023-07-13 12:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: solid-backend
+[2023-07-13 12:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: threads-net
+[2023-07-13 12:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qlknn
+[2023-07-13 12:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastapi-serve
+[2023-07-13 12:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: steampunk-spotter
+[2023-07-13 12:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gmxpy
+[2023-07-13 12:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ffcv-pl
+[2023-07-13 12:20:21] INFO root fetch - processPackages [ddadevops]: New version: [4.0.9] Old Version: [4.0.8.dev1]
+[2023-07-13 12:20:21] INFO root fetch - processPackages [formance-sdk-python]: New version: [1.0.20230713] Old Version: [1.0.20230710]
+[2023-07-13 12:20:21] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-13 12:20:21] INFO root fetch - processPackages [audinterface]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-13 12:20:21] INFO root fetch - processPackages [threads-net]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-13 12:20:21] INFO root fetch - processPackages [gmxpy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 12:20:21] INFO root fetch - processPackages [qlknn]: New version: [1.3.1] Old Version: [1.2.1]
+[2023-07-13 12:20:21] INFO root fetch - processPackages [solid-backend]: New version: [0.3a2] Old Version: [0.3.5]
+[2023-07-13 12:20:21] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/50/31/bd872754199abd349cb0d8332e473238d8fb7fee38d1dd4ec136ff1a84ab/ddadevops-4.0.8.dev1.tar.gz
+[2023-07-13 12:20:21] INFO root fetch - processPackages [ffcv-pl]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-07-13 12:20:21] INFO root fetch - processPackages [steampunk-spotter]: New version: [2.1.0rc2] Old Version: [2.1.0rc1]
+[2023-07-13 12:20:21] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/0d/5c/342759c036e86be942679631f5f86c8c9e6449d136b7846072fcd74be023/fastapi-serve-0.0.2.dev8.tar.gz
+[2023-07-13 12:20:21] INFO root fetch - processPackages [audinterface]: Downloading https://files.pythonhosted.org/packages/d9/c4/338ec6c106051372c043b3663721b2fb7f7f05b675620841a8f284f08217/audinterface-1.0.3.tar.gz
+[2023-07-13 12:20:21] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/11/ba/483f4770d7c413aff80cfdfd96da75d50912f6604255f4a04d7e8448a5a1/threads-net-0.0.7.tar.gz
+[2023-07-13 12:20:21] INFO root fetch - processPackages [formance-sdk-python]: Downloading https://files.pythonhosted.org/packages/a6/06/ca34fd701cc360fc43b789210d9037a670468134e02502c7f83c947d6cb1/formance-sdk-python-1.0.20230710.tar.gz
+[2023-07-13 12:20:22] INFO root fetch - processPackages [qlknn]: Downloading https://files.pythonhosted.org/packages/8d/39/45a5a5021053c7a9716862f225c858b1894652e31fd711356057606f253a/qlknn-1.2.1.tar.gz
+[2023-07-13 12:20:22] INFO root fetch - processPackages [gmxpy]: Downloading https://files.pythonhosted.org/packages/83/c1/9ab0b1a14915cd57970e7d78f4977d690b076b878f265d701c17fc730527/gmxpy-0.0.1.tar.gz
+[2023-07-13 12:20:22] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/4b/79/779c52ef96abc08d01ec9c0fe668a71ceb65cc58a0f7dea48a5df9f13b96/steampunk_spotter-2.1.0rc1-py3-none-any.whl
+[2023-07-13 12:20:22] INFO root fetch - processPackages [ffcv-pl]: Downloading https://files.pythonhosted.org/packages/7f/19/91e0f6f7ddd3647755a78a970c42f5b4b736a3aeba6776054a84b789dd28/ffcv_pl-0.2.3.tar.gz
+[2023-07-13 12:20:22] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/b7/86/883745ce4b39c3406ebec6269e63d99ab7400df2b79af3749014b70e2a7d/ddadevops-4.0.9.tar.gz
+[2023-07-13 12:20:22] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/44/43/0c3667ca8abfbfc54c8ce5f7d2b54ac1af100ec90f9ad59e15dc59a59d49/fastapi-serve-0.0.2.dev9.tar.gz
+[2023-07-13 12:20:22] INFO root fetch - processPackages [solid-backend]: Downloading https://files.pythonhosted.org/packages/d2/2b/e9a9b333bb6e796ea0bc85ada9dba37980beb8e57f09f44c5f385d210f26/solid_backend-0.3.5.tar.gz
+[2023-07-13 12:20:22] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/de/bd/e372c12fe307c562ec3785151d74201431eddd2312171d55b8ee4ac81db6/threads-net-0.0.8.tar.gz
+[2023-07-13 12:20:22] INFO root fetch - processPackages [audinterface]: Downloading https://files.pythonhosted.org/packages/61/e6/d1696edddf8102a9355cf1626d2549e62f7ca83e522da87376da73d75622/audinterface-1.0.4.tar.gz
+[2023-07-13 12:20:22] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-07-13 12:20:22] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.8.dev1.tar.gz tmp/ddadevops-4.0.9.tar.gz --markdown 20230713/d/ddadevops/4.0.8.dev1-4.0.9/diff.md --exclude *.pyd
+[2023-07-13 12:20:22] INFO root fetch - processPackages [formance-sdk-python]: Downloading https://files.pythonhosted.org/packages/c9/52/6ece488d61398e22cdb9fdb786c1ad3c974632902755b5c4eaccd5349c64/formance-sdk-python-1.0.20230713.tar.gz
+[2023-07-13 12:20:22] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-13 12:20:22] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.2.dev8.tar.gz tmp/fastapi-serve-0.0.2.dev9.tar.gz --markdown 20230713/f/fastapi-serve/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-13 12:20:22] INFO root fetch - processPackages [gmxpy]: Downloading https://files.pythonhosted.org/packages/47/2f/20bcda3cc4604f6c780b6e54d10049dcddf5a2c97d87067be3499bd9f59c/gmxpy-0.0.2.tar.gz
+[2023-07-13 12:20:22] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-13 12:20:22] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.7.tar.gz tmp/threads-net-0.0.8.tar.gz --markdown 20230713/t/threads-net/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-13 12:20:22] INFO root fetch - processPackages [audinterface]: executing diffoscope
+[2023-07-13 12:20:22] INFO root fetch - processPackages [audinterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audinterface-1.0.3.tar.gz tmp/audinterface-1.0.4.tar.gz --markdown 20230713/a/audinterface/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-13 12:20:22] INFO root fetch - processPackages [formance-sdk-python]: executing diffoscope
+[2023-07-13 12:20:22] INFO root fetch - processPackages [formance-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formance-sdk-python-1.0.20230710.tar.gz tmp/formance-sdk-python-1.0.20230713.tar.gz --markdown 20230713/f/formance-sdk-python/1.0.20230710-1.0.20230713/diff.md --exclude *.pyd
+[2023-07-13 12:20:22] INFO root fetch - processPackages [ffcv-pl]: Downloading https://files.pythonhosted.org/packages/3f/ed/82be44e25127cde029546349848842de776ce5331464e3198b34e56177c0/ffcv_pl-0.3.0.tar.gz
+[2023-07-13 12:20:22] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/8e/8f/b003760d9399f8b049d789465e5951d6b53f277698b284342467ab00b044/steampunk_spotter-2.1.0rc2-py3-none-any.whl
+[2023-07-13 12:20:22] INFO root fetch - processPackages [solid-backend]: Downloading https://files.pythonhosted.org/packages/07/07/8ba8601db1255c25754ad7cd3a48eec64325baeec5b3e0133a5e2bc916e6/solid_backend-0.3a2.tar.gz
+[2023-07-13 12:20:22] INFO root fetch - processPackages [gmxpy]: executing diffoscope
+[2023-07-13 12:20:22] INFO root fetch - processPackages [gmxpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmxpy-0.0.1.tar.gz tmp/gmxpy-0.0.2.tar.gz --markdown 20230713/g/gmxpy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 12:20:22] INFO root fetch - processPackages [steampunk-spotter]: executing diffoscope
+[2023-07-13 12:20:22] INFO root fetch - processPackages [steampunk-spotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steampunk_spotter-2.1.0rc1-py3-none-any.whl.zip tmp/steampunk_spotter-2.1.0rc2-py3-none-any.whl.zip --markdown 20230713/s/steampunk-spotter/2.1.0rc1-2.1.0rc2/diff.md --exclude *.pyd
+[2023-07-13 12:20:22] INFO root fetch - processPackages [ffcv-pl]: executing diffoscope
+[2023-07-13 12:20:22] INFO root fetch - processPackages [ffcv-pl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffcv_pl-0.2.3.tar.gz tmp/ffcv_pl-0.3.0.tar.gz --markdown 20230713/f/ffcv-pl/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-07-13 12:20:22] INFO root fetch - processPackages [solid-backend]: executing diffoscope
+[2023-07-13 12:20:22] INFO root fetch - processPackages [solid-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solid_backend-0.3.5.tar.gz tmp/solid_backend-0.3a2.tar.gz --markdown 20230713/s/solid-backend/0.3.5-0.3a2/diff.md --exclude *.pyd
+[2023-07-13 12:20:24] INFO root fetch - processPackages [qlknn]: Downloading https://files.pythonhosted.org/packages/bf/95/a10fc60125691e8a05d540d8335754f6e4b3c64abd79416fde665a64414d/qlknn-1.3.1.tar.gz
+[2023-07-13 12:20:24] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.0.8.dev1.tar.gz]
+[2023-07-13 12:20:24] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.0.9.tar.gz]
+[2023-07-13 12:20:24] INFO root fetch - processPackages [ddadevops]: Start processing: johnsnowlabs-for-databricks
+[2023-07-13 12:20:24] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-07-13 12:20:24] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev8.tar.gz]
+[2023-07-13 12:20:24] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev9.tar.gz]
+[2023-07-13 12:20:24] INFO root fetch - processPackages [fastapi-serve]: Start processing: certora-cli-alpha-master
+[2023-07-13 12:20:24] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-13 12:20:24] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: New version: [5.0.0] Old Version: [4.4.9]
+[2023-07-13 12:20:24] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230713.9.50.219442] Old Version: [20230713.7.16.180788]
+[2023-07-13 12:20:24] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.7.tar.gz]
+[2023-07-13 12:20:24] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.8.tar.gz]
+[2023-07-13 12:20:24] INFO root fetch - processPackages [threads-net]: Start processing: helios-rl
+[2023-07-13 12:20:24] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-13 12:20:24] INFO root fetch - processPackages [qlknn]: executing diffoscope
+[2023-07-13 12:20:24] INFO root fetch - processPackages [qlknn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlknn-1.2.1.tar.gz tmp/qlknn-1.3.1.tar.gz --markdown 20230713/q/qlknn/1.2.1-1.3.1/diff.md --exclude *.pyd
+[2023-07-13 12:20:24] INFO root fetch - processPackages [gmxpy]: Remove: archive file [/home/abi/fetcher/tmp/gmxpy-0.0.1.tar.gz]
+[2023-07-13 12:20:24] INFO root fetch - processPackages [gmxpy]: Remove: archive file [/home/abi/fetcher/tmp/gmxpy-0.0.2.tar.gz]
+[2023-07-13 12:20:24] INFO root fetch - processPackages [gmxpy]: Start processing: johnsnowlabs
+[2023-07-13 12:20:24] INFO root fetch - main [MainThread]: End processing [gmxpy]: success
+[2023-07-13 12:20:24] INFO root fetch - processPackages [helios-rl]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 12:20:24] INFO root fetch - processPackages [johnsnowlabs]: New version: [4.4.9] Old Version: [4.4.8]
+[2023-07-13 12:20:24] INFO root fetch - processPackages [ffcv-pl]: Remove: archive file [/home/abi/fetcher/tmp/ffcv_pl-0.2.3.tar.gz]
+[2023-07-13 12:20:24] INFO root fetch - processPackages [ffcv-pl]: Remove: archive file [/home/abi/fetcher/tmp/ffcv_pl-0.3.0.tar.gz]
+[2023-07-13 12:20:24] INFO root fetch - main [MainThread]: End processing [ffcv-pl]: success
+[2023-07-13 12:20:24] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/78/71/112109ad2b1aa685617dd84a150048372fbd6a5546c749679f55b88e8825/helios-rl-1.0.8.tar.gz
+[2023-07-13 12:20:24] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/fb/2d/14922abbacf2693bf233f7b8a802bf83fcfc9488a914577e77e268040dad/certora-cli-alpha-master-20230713.7.16.180788.tar.gz
+[2023-07-13 12:20:24] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: Downloading https://files.pythonhosted.org/packages/c7/f5/47f783f14e182e5a7fe81c3f74f539a82603f4f6e2468b965946a68e4e57/johnsnowlabs_for_databricks-4.4.9.tar.gz
+[2023-07-13 12:20:24] INFO root fetch - processPackages [audinterface]: Remove: archive file [/home/abi/fetcher/tmp/audinterface-1.0.3.tar.gz]
+[2023-07-13 12:20:24] INFO root fetch - processPackages [audinterface]: Remove: archive file [/home/abi/fetcher/tmp/audinterface-1.0.4.tar.gz]
+[2023-07-13 12:20:24] INFO root fetch - main [MainThread]: End processing [audinterface]: success
+[2023-07-13 12:20:24] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37487867>=10485760
+[2023-07-13 12:20:24] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-13 12:20:24] INFO root fetch - processPackages [johnsnowlabs]: Downloading https://files.pythonhosted.org/packages/e0/3a/2b375d77dc06f4f9b7b4259a6c3f8c01f5266598586477644e7339cafc08/johnsnowlabs-4.4.8.tar.gz
+[2023-07-13 12:20:24] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/38/b0/396024a90d94cd1b942fb7b480a67ba92baba52b21d550f8b04102a9c2ef/helios-rl-1.0.9.tar.gz
+[2023-07-13 12:20:24] INFO root fetch - processPackages [steampunk-spotter]: Remove: archive file [/home/abi/fetcher/tmp/steampunk_spotter-2.1.0rc1-py3-none-any.whl.zip]
+[2023-07-13 12:20:24] INFO root fetch - processPackages [steampunk-spotter]: Remove: archive file [/home/abi/fetcher/tmp/steampunk_spotter-2.1.0rc2-py3-none-any.whl.zip]
+[2023-07-13 12:20:24] INFO root fetch - main [MainThread]: End processing [steampunk-spotter]: success
+[2023-07-13 12:20:24] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: Downloading https://files.pythonhosted.org/packages/79/cb/991b3e18a2f8330cc8b015babfd1513a6862c22c632e604ad9ca2f9b0100/johnsnowlabs_for_databricks-5.0.0.tar.gz
+[2023-07-13 12:20:25] INFO root fetch - processPackages [helios-rl]: executing diffoscope
+[2023-07-13 12:20:25] INFO root fetch - processPackages [helios-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-rl-1.0.8.tar.gz tmp/helios-rl-1.0.9.tar.gz --markdown 20230713/h/helios-rl/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 12:20:25] INFO root fetch - processPackages [solid-backend]: Remove: archive file [/home/abi/fetcher/tmp/solid_backend-0.3.5.tar.gz]
+[2023-07-13 12:20:25] INFO root fetch - processPackages [solid-backend]: Remove: archive file [/home/abi/fetcher/tmp/solid_backend-0.3a2.tar.gz]
+[2023-07-13 12:20:25] INFO root fetch - main [MainThread]: End processing [solid-backend]: success
+[2023-07-13 12:20:25] INFO root fetch - processPackages [johnsnowlabs]: Downloading https://files.pythonhosted.org/packages/53/21/e4418e7682e6221769a64148a8ca576b39f81db0fa220d2011e7bbce7865/johnsnowlabs-4.4.9.tar.gz
+[2023-07-13 12:20:25] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: executing diffoscope
+[2023-07-13 12:20:25] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/johnsnowlabs_for_databricks-4.4.9.tar.gz tmp/johnsnowlabs_for_databricks-5.0.0.tar.gz --markdown 20230713/j/johnsnowlabs-for-databricks/4.4.9-5.0.0/diff.md --exclude *.pyd
+[2023-07-13 12:20:25] INFO root fetch - processPackages [johnsnowlabs]: executing diffoscope
+[2023-07-13 12:20:25] INFO root fetch - processPackages [johnsnowlabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/johnsnowlabs-4.4.8.tar.gz tmp/johnsnowlabs-4.4.9.tar.gz --markdown 20230713/j/johnsnowlabs/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2023-07-13 12:20:25] INFO root fetch - processPackages [formance-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/formance-sdk-python-1.0.20230710.tar.gz]
+[2023-07-13 12:20:25] INFO root fetch - processPackages [formance-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/formance-sdk-python-1.0.20230713.tar.gz]
+[2023-07-13 12:20:25] INFO root fetch - main [MainThread]: End processing [formance-sdk-python]: success
+[2023-07-13 12:20:26] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.8.tar.gz]
+[2023-07-13 12:20:26] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.9.tar.gz]
+[2023-07-13 12:20:26] INFO root fetch - main [MainThread]: End processing [helios-rl]: success
+[2023-07-13 12:20:26] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs_for_databricks-4.4.9.tar.gz]
+[2023-07-13 12:20:26] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs_for_databricks-5.0.0.tar.gz]
+[2023-07-13 12:20:26] INFO root fetch - main [MainThread]: End processing [johnsnowlabs-for-databricks]: success
+[2023-07-13 12:20:26] INFO root fetch - processPackages [johnsnowlabs]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs-4.4.8.tar.gz]
+[2023-07-13 12:20:26] INFO root fetch - processPackages [johnsnowlabs]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs-4.4.9.tar.gz]
+[2023-07-13 12:20:26] INFO root fetch - main [MainThread]: End processing [johnsnowlabs]: success
+[2023-07-13 12:20:27] INFO root fetch - processPackages [qlknn]: Remove: archive file [/home/abi/fetcher/tmp/qlknn-1.2.1.tar.gz]
+[2023-07-13 12:20:27] INFO root fetch - processPackages [qlknn]: Remove: archive file [/home/abi/fetcher/tmp/qlknn-1.3.1.tar.gz]
+[2023-07-13 12:20:27] INFO root fetch - main [MainThread]: End processing [qlknn]: success
+[2023-07-13 12:20:27] INFO root fetch - main [MainThread]: Store serial: [18873466]
