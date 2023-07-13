@@ -20358,3 +20358,105 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 13:18:46] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-07-13 13:18:46] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-07-13 13:18:46] INFO root fetch - main [MainThread]: Store serial: [18874030]
+[2023-07-13 13:23:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18874030]
+[2023-07-13 13:23:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-13 13:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-editable-dataframe
+[2023-07-13 13:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FAIRSave
+[2023-07-13 13:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rudderclient
+[2023-07-13 13:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: protarrow
+[2023-07-13 13:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jijmodeling
+[2023-07-13 13:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: helperfns
+[2023-07-13 13:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: freeGPT
+[2023-07-13 13:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiges
+[2023-07-13 13:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchmetrics
+[2023-07-13 13:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: plotly-resampler
+[2023-07-13 13:23:55] INFO root fetch - processPackages [streamlit-editable-dataframe]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 13:23:55] INFO root fetch - processPackages [rudderclient]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-13 13:23:55] INFO root fetch - processPackages [FAIRSave]: New version: [0.0.6.9] Old Version: [0.0.6.8]
+[2023-07-13 13:23:55] INFO root fetch - processPackages [protarrow]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-13 13:23:55] INFO root fetch - processPackages [aiges]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-13 13:23:55] INFO root fetch - processPackages [helperfns]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-13 13:23:55] INFO root fetch - processPackages [torchmetrics]: New version: [1.0.1] Old Version: [1.0.0rc1]
+[2023-07-13 13:23:55] INFO root fetch - processPackages [jijmodeling]: New version: [1.0.0rc3] Old Version: [1.0.0rc2]
+[2023-07-13 13:23:55] INFO root fetch - processPackages [freeGPT]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-13 13:23:55] INFO root fetch - processPackages [plotly-resampler]: New version: [0.9.1] Old Version: [0.9.0rc6]
+[2023-07-13 13:23:55] INFO root fetch - processPackages [streamlit-editable-dataframe]: Downloading https://files.pythonhosted.org/packages/fa/e0/ecc6c096561599fa9ab940289ec72dcd52d6d7a648680a72672feaddec5b/streamlit-editable-dataframe-0.0.1.tar.gz
+[2023-07-13 13:23:55] INFO root fetch - processPackages [rudderclient]: Downloading https://files.pythonhosted.org/packages/a5/4c/3a9afb62d90ff56381ecc175a96cf8cb4a4fb7732b6d3995b4784488a8ee/rudderclient-1.9.0.tar.gz
+[2023-07-13 13:23:55] INFO root fetch - processPackages [FAIRSave]: Downloading https://files.pythonhosted.org/packages/5e/90/7d5aedc36f5f877d9d3e7c541885df5d60e9e0472579546e44f05ba2858f/FAIRSave-0.0.6.8-py3-none-any.whl
+[2023-07-13 13:23:55] INFO root fetch - processPackages [protarrow]: Downloading https://files.pythonhosted.org/packages/ca/42/2c06c5c7bb7fd37529163b922ea8604b12be65b721718adffb299b0c92bd/protarrow-0.1.5.tar.gz
+[2023-07-13 13:23:56] INFO root fetch - processPackages [helperfns]: Downloading https://files.pythonhosted.org/packages/2f/88/55e4ef1b1d9d9a6cd29b5c58bf868f8046dfe934541d86f9801894dd006c/helperfns-0.0.4.tar.gz
+[2023-07-13 13:23:56] INFO root fetch - processPackages [jijmodeling]: Downloading https://files.pythonhosted.org/packages/b3/fd/d842756a5de2754afee039369e9e91616aa35872ee522aa2eb266e57e4c9/jijmodeling-1.0.0rc2-cp39-none-win_amd64.whl
+[2023-07-13 13:23:56] INFO root fetch - processPackages [aiges]: Downloading https://files.pythonhosted.org/packages/e9/5c/bf2d0d6fedce00e3446e524a5aa7201f7e1ed00162aa2cbbc57ca8c075de/aiges-0.8.8.tar.gz
+[2023-07-13 13:23:56] INFO root fetch - processPackages [plotly-resampler]: Downloading https://files.pythonhosted.org/packages/2d/fb/ca578703c746aa9fb97386c4c62942eff96871555f51985b82b41bb46f12/plotly_resampler-0.9.0rc6.tar.gz
+[2023-07-13 13:23:56] INFO root fetch - processPackages [freeGPT]: Downloading https://files.pythonhosted.org/packages/68/0c/4aedcecb4e0e2cdf9aef143ce798c8f3d1c48bf825d7e0541b2ea5ea1b2c/freeGPT-1.2.2.tar.gz
+[2023-07-13 13:23:56] INFO root fetch - processPackages [torchmetrics]: Downloading https://files.pythonhosted.org/packages/29/64/8507eb5eaee27b281ad71b4f4e90b2db50a5088d01f04eae77739a06976d/torchmetrics-1.0.0rc1.tar.gz
+[2023-07-13 13:23:56] INFO root fetch - processPackages [streamlit-editable-dataframe]: Downloading https://files.pythonhosted.org/packages/b1/22/9671b3aa4b730032f9ef765b37eddd9e1f83f78fb8f944e1e36752d512f4/streamlit-editable-dataframe-0.0.2.tar.gz
+[2023-07-13 13:23:56] INFO root fetch - processPackages [FAIRSave]: Downloading https://files.pythonhosted.org/packages/8f/c9/5fe23c9b9876cee4ff4baebb0d6bc53353b213b0db51bba0a0773a22a3d3/FAIRSave-0.0.6.9-py3-none-any.whl
+[2023-07-13 13:23:56] INFO root fetch - processPackages [protarrow]: Downloading https://files.pythonhosted.org/packages/51/6a/d7b4051ddf9815d772013d2bf33cdac92c80b37be79ac62f1d59b6f43032/protarrow-0.1.6.tar.gz
+[2023-07-13 13:23:56] INFO root fetch - processPackages [helperfns]: Downloading https://files.pythonhosted.org/packages/e4/a6/416e7af3c616089e5b15be73dd8c2148659eb3a4364239ed12eb13451527/helperfns-0.0.5.tar.gz
+[2023-07-13 13:23:56] INFO root fetch - processPackages [rudderclient]: Downloading https://files.pythonhosted.org/packages/a4/fe/2dab352156f0d6f5a40c80c9f3fbeb8f321f6e0c19ccd730f26a114a5da2/rudderclient-1.9.1.tar.gz
+[2023-07-13 13:23:56] INFO root fetch - processPackages [streamlit-editable-dataframe]: executing diffoscope
+[2023-07-13 13:23:56] INFO root fetch - processPackages [streamlit-editable-dataframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-editable-dataframe-0.0.1.tar.gz tmp/streamlit-editable-dataframe-0.0.2.tar.gz --markdown 20230713/s/streamlit-editable-dataframe/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 13:23:56] INFO root fetch - processPackages [freeGPT]: Downloading https://files.pythonhosted.org/packages/21/b9/3dc2190f84a303c7b404e82517cfa1490394f92a94dfa91ca37e88b890e4/freeGPT-1.2.3.tar.gz
+[2023-07-13 13:23:56] INFO root fetch - processPackages [plotly-resampler]: Downloading https://files.pythonhosted.org/packages/7e/b7/363f13b83ca3ded35d193c47a498adcb752be5e6b2bfbf6b5d8a5ae36f85/plotly_resampler-0.9.1.tar.gz
+[2023-07-13 13:23:56] INFO root fetch - processPackages [jijmodeling]: Downloading https://files.pythonhosted.org/packages/02/3a/059b0fdcd8fdc3e5b6978ea188b5cc5be2bd6d05f52d0e7de79fbc80752a/jijmodeling-1.0.0rc3-cp39-none-win_amd64.whl
+[2023-07-13 13:23:56] INFO root fetch - processPackages [FAIRSave]: executing diffoscope
+[2023-07-13 13:23:56] INFO root fetch - processPackages [FAIRSave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FAIRSave-0.0.6.8-py3-none-any.whl.zip tmp/FAIRSave-0.0.6.9-py3-none-any.whl.zip --markdown 20230713/F/FAIRSave/0.0.6.8-0.0.6.9/diff.md --exclude *.pyd
+[2023-07-13 13:23:56] INFO root fetch - processPackages [torchmetrics]: Downloading https://files.pythonhosted.org/packages/d1/d3/3027b6b3936c5f139b64a7fa884a14eb485c8c19ae2e94bd1af9a44fa4c7/torchmetrics-1.0.1-py3-none-any.whl
+[2023-07-13 13:23:56] INFO root fetch - processPackages [aiges]: Downloading https://files.pythonhosted.org/packages/69/79/46d6a9d36c04e1b04b372af7578163390cb12d189453ec87c8ce910593b0/aiges-0.8.9.tar.gz
+[2023-07-13 13:23:56] INFO root fetch - processPackages [protarrow]: executing diffoscope
+[2023-07-13 13:23:56] INFO root fetch - processPackages [protarrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protarrow-0.1.5.tar.gz tmp/protarrow-0.1.6.tar.gz --markdown 20230713/p/protarrow/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-13 13:23:56] INFO root fetch - processPackages [rudderclient]: executing diffoscope
+[2023-07-13 13:23:56] INFO root fetch - processPackages [rudderclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rudderclient-1.9.0.tar.gz tmp/rudderclient-1.9.1.tar.gz --markdown 20230713/r/rudderclient/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-13 13:23:56] INFO root fetch - processPackages [helperfns]: executing diffoscope
+[2023-07-13 13:23:56] INFO root fetch - processPackages [helperfns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helperfns-0.0.4.tar.gz tmp/helperfns-0.0.5.tar.gz --markdown 20230713/h/helperfns/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-13 13:23:56] INFO root fetch - processPackages [plotly-resampler]: executing diffoscope
+[2023-07-13 13:23:56] INFO root fetch - processPackages [plotly-resampler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotly_resampler-0.9.0rc6.tar.gz tmp/plotly_resampler-0.9.1.tar.gz --markdown 20230713/p/plotly-resampler/0.9.0rc6-0.9.1/diff.md --exclude *.pyd
+[2023-07-13 13:23:56] INFO root fetch - processPackages [freeGPT]: executing diffoscope
+[2023-07-13 13:23:56] INFO root fetch - processPackages [freeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeGPT-1.2.2.tar.gz tmp/freeGPT-1.2.3.tar.gz --markdown 20230713/f/freeGPT/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-13 13:23:56] INFO root fetch - processPackages [aiges]: executing diffoscope
+[2023-07-13 13:23:56] INFO root fetch - processPackages [aiges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiges-0.8.8.tar.gz tmp/aiges-0.8.9.tar.gz --markdown 20230713/a/aiges/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-13 13:23:56] INFO root fetch - processPackages [torchmetrics]: executing diffoscope
+[2023-07-13 13:23:56] INFO root fetch - processPackages [torchmetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchmetrics-1.0.0rc1.tar.gz tmp/torchmetrics-1.0.1-py3-none-any.whl.zip --markdown 20230713/t/torchmetrics/1.0.0rc1-1.0.1/diff.md --exclude *.pyd
+[2023-07-13 13:23:57] INFO root fetch - processPackages [jijmodeling]: executing diffoscope
+[2023-07-13 13:23:57] INFO root fetch - processPackages [jijmodeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijmodeling-1.0.0rc2-cp39-none-win_amd64.whl.zip tmp/jijmodeling-1.0.0rc3-cp39-none-win_amd64.whl.zip --markdown 20230713/j/jijmodeling/1.0.0rc2-1.0.0rc3/diff.md --exclude *.pyd
+[2023-07-13 13:23:58] INFO root fetch - processPackages [protarrow]: Remove: archive file [/home/abi/fetcher/tmp/protarrow-0.1.5.tar.gz]
+[2023-07-13 13:23:58] INFO root fetch - processPackages [protarrow]: Remove: archive file [/home/abi/fetcher/tmp/protarrow-0.1.6.tar.gz]
+[2023-07-13 13:23:58] INFO root fetch - processPackages [protarrow]: Start processing: gita
+[2023-07-13 13:23:58] INFO root fetch - main [MainThread]: End processing [protarrow]: success
+[2023-07-13 13:23:58] INFO root fetch - processPackages [rudderclient]: Remove: archive file [/home/abi/fetcher/tmp/rudderclient-1.9.0.tar.gz]
+[2023-07-13 13:23:58] INFO root fetch - processPackages [rudderclient]: Remove: archive file [/home/abi/fetcher/tmp/rudderclient-1.9.1.tar.gz]
+[2023-07-13 13:23:58] INFO root fetch - main [MainThread]: End processing [rudderclient]: success
+[2023-07-13 13:23:58] INFO root fetch - processPackages [gita]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-13 13:23:58] INFO root fetch - processPackages [helperfns]: Remove: archive file [/home/abi/fetcher/tmp/helperfns-0.0.4.tar.gz]
+[2023-07-13 13:23:58] INFO root fetch - processPackages [helperfns]: Remove: archive file [/home/abi/fetcher/tmp/helperfns-0.0.5.tar.gz]
+[2023-07-13 13:23:58] INFO root fetch - main [MainThread]: End processing [helperfns]: success
+[2023-07-13 13:23:58] INFO root fetch - processPackages [plotly-resampler]: Remove: archive file [/home/abi/fetcher/tmp/plotly_resampler-0.9.0rc6.tar.gz]
+[2023-07-13 13:23:58] INFO root fetch - processPackages [plotly-resampler]: Remove: archive file [/home/abi/fetcher/tmp/plotly_resampler-0.9.1.tar.gz]
+[2023-07-13 13:23:58] INFO root fetch - main [MainThread]: End processing [plotly-resampler]: success
+[2023-07-13 13:23:59] INFO root fetch - processPackages [FAIRSave]: Remove: archive file [/home/abi/fetcher/tmp/FAIRSave-0.0.6.8-py3-none-any.whl.zip]
+[2023-07-13 13:23:59] INFO root fetch - processPackages [FAIRSave]: Remove: archive file [/home/abi/fetcher/tmp/FAIRSave-0.0.6.9-py3-none-any.whl.zip]
+[2023-07-13 13:23:59] INFO root fetch - main [MainThread]: End processing [FAIRSave]: success
+[2023-07-13 13:23:59] INFO root fetch - processPackages [freeGPT]: Remove: archive file [/home/abi/fetcher/tmp/freeGPT-1.2.2.tar.gz]
+[2023-07-13 13:23:59] INFO root fetch - processPackages [freeGPT]: Remove: archive file [/home/abi/fetcher/tmp/freeGPT-1.2.3.tar.gz]
+[2023-07-13 13:23:59] INFO root fetch - main [MainThread]: End processing [freeGPT]: success
+[2023-07-13 13:23:59] INFO root fetch - processPackages [gita]: Downloading https://files.pythonhosted.org/packages/08/74/f22a1b2f90d56fbe2c376a3b676b3863eb1f5b17712bf29abb3b48d8ec8d/gita-0.9.8.tar.gz
+[2023-07-13 13:23:59] INFO root fetch - processPackages [jijmodeling]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling-1.0.0rc2-cp39-none-win_amd64.whl.zip]
+[2023-07-13 13:23:59] INFO root fetch - processPackages [jijmodeling]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling-1.0.0rc3-cp39-none-win_amd64.whl.zip]
+[2023-07-13 13:23:59] INFO root fetch - main [MainThread]: End processing [jijmodeling]: success
+[2023-07-13 13:23:59] INFO root fetch - processPackages [aiges]: Remove: archive file [/home/abi/fetcher/tmp/aiges-0.8.8.tar.gz]
+[2023-07-13 13:23:59] INFO root fetch - processPackages [aiges]: Remove: archive file [/home/abi/fetcher/tmp/aiges-0.8.9.tar.gz]
+[2023-07-13 13:23:59] INFO root fetch - main [MainThread]: End processing [aiges]: success
+[2023-07-13 13:23:59] INFO root fetch - processPackages [torchmetrics]: Remove: archive file [/home/abi/fetcher/tmp/torchmetrics-1.0.0rc1.tar.gz]
+[2023-07-13 13:23:59] INFO root fetch - processPackages [torchmetrics]: Remove: archive file [/home/abi/fetcher/tmp/torchmetrics-1.0.1-py3-none-any.whl.zip]
+[2023-07-13 13:23:59] INFO root fetch - main [MainThread]: End processing [torchmetrics]: success
+[2023-07-13 13:23:59] INFO root fetch - processPackages [gita]: Downloading https://files.pythonhosted.org/packages/1d/46/236c7ff23d6debdb85880ac7785267931325f3896b58d56f306e7a592a0f/gita-0.9.9.tar.gz
+[2023-07-13 13:23:59] INFO root fetch - processPackages [gita]: executing diffoscope
+[2023-07-13 13:23:59] INFO root fetch - processPackages [gita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gita-0.9.8.tar.gz tmp/gita-0.9.9.tar.gz --markdown 20230713/g/gita/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-13 13:24:00] INFO root fetch - processPackages [gita]: Remove: archive file [/home/abi/fetcher/tmp/gita-0.9.8.tar.gz]
+[2023-07-13 13:24:00] INFO root fetch - processPackages [gita]: Remove: archive file [/home/abi/fetcher/tmp/gita-0.9.9.tar.gz]
+[2023-07-13 13:24:00] INFO root fetch - main [MainThread]: End processing [gita]: success
+[2023-07-13 13:24:10] INFO root fetch - processPackages [streamlit-editable-dataframe]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-editable-dataframe-0.0.1.tar.gz]
+[2023-07-13 13:24:10] INFO root fetch - processPackages [streamlit-editable-dataframe]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-editable-dataframe-0.0.2.tar.gz]
+[2023-07-13 13:24:10] INFO root fetch - main [MainThread]: End processing [streamlit-editable-dataframe]: success
+[2023-07-13 13:24:10] INFO root fetch - main [MainThread]: Store serial: [18874095]
