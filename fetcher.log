@@ -8718,3 +8718,90 @@
 [2023-07-13 05:47:18] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip]
 [2023-07-13 05:47:18] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
 [2023-07-13 05:47:18] INFO root fetch - main [MainThread]: Store serial: [18869597]
+[2023-07-13 05:52:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18869597]
+[2023-07-13 05:52:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-13 05:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mutual
+[2023-07-13 05:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2023-07-13 05:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aacrgenie
+[2023-07-13 05:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lfinancial
+[2023-07-13 05:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysdf
+[2023-07-13 05:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-tusd
+[2023-07-13 05:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prog-models
+[2023-07-13 05:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aicodebot
+[2023-07-13 05:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo11-addon-l10n-it-withholding-tax
+[2023-07-13 05:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ForestScience
+[2023-07-13 05:52:27] INFO root fetch - processPackages [lfinancial]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-13 05:52:27] INFO root fetch - processPackages [mutual]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-13 05:52:28] INFO root fetch - processPackages [fastapi-tusd]: New version: [0.100.0] Old Version: [0.0.1]
+[2023-07-13 05:52:28] INFO root fetch - processPackages [pysdf]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-13 05:52:28] INFO root fetch - processPackages [aacrgenie]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-07-13 05:52:28] INFO root fetch - processPackages [prog-models]: New version: [1.5.1] Old Version: [1.5.0rc2]
+[2023-07-13 05:52:28] INFO root fetch - processPackages [aicodebot]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-13 05:52:28] INFO root fetch - processPackages [coiled]: New version: [0.8.8.dev9] Old Version: [0.8.8.dev8]
+[2023-07-13 05:52:28] INFO root fetch - processPackages [odoo11-addon-l10n-it-withholding-tax]: New version: [11.0.2.0.0.99.dev3] Old Version: [11.0.2.0.0.99.dev2]
+[2023-07-13 05:52:28] WARNING root fetch - processPackages [ForestScience]: Skipping, unable to determine old version
+[2023-07-13 05:52:28] INFO root fetch - main [MainThread]: End processing [ForestScience] error
+[2023-07-13 05:52:28] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/de/93/5893654a616bad8ecf7cff940e452492ff5cadede0c121a0b836015603f8/aicodebot-0.9.5.tar.gz
+[2023-07-13 05:52:28] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/72/0e/aa05a5141b5d80287919caffa6a9a6e611a363a221e0221298149c3579af/coiled-0.8.8.dev8.tar.gz
+[2023-07-13 05:52:28] INFO root fetch - processPackages [fastapi-tusd]: Downloading https://files.pythonhosted.org/packages/b3/e4/88f8ebfd8828a517290a39a69026ff841658738598bb618ba7a113be6e45/fastapi-tusd-0.0.1.tar.gz
+[2023-07-13 05:52:28] INFO root fetch - processPackages [mutual]: Downloading https://files.pythonhosted.org/packages/20/00/4c2a9d312783c82ec61fca3d084fd6e85035449ca4d18b3ea5f7e8db0863/mutual-0.0.3.tar.gz
+[2023-07-13 05:52:28] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/2b/d1/4175f1070a822900820ac79a3866576a49a63ff3a7864a419cfa3a37c457/lfinancial-0.2.8.tar.gz
+[2023-07-13 05:52:28] INFO root fetch - processPackages [aacrgenie]: Downloading https://files.pythonhosted.org/packages/19/fa/9ca9a4de0227ed3c3f80d23c7265ea0360752bbe1186a1827bf15df7d102/aacrgenie-9.0.0.tar.gz
+[2023-07-13 05:52:28] INFO root fetch - processPackages [odoo11-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/56/5e/1b93b82f977e97738bd77a7c5efb7751ccfb0402f1fd0bb3f9172b127c46/odoo11_addon_l10n_it_withholding_tax-11.0.2.0.0.99.dev2-py2.py3-none-any.whl
+[2023-07-13 05:52:28] INFO root fetch - processPackages [prog-models]: Downloading https://files.pythonhosted.org/packages/33/0b/2965d309d3589c1d127905a2b29c31df9691763131b2da4b269b55e5d305/prog_models-1.5.0rc2.tar.gz
+[2023-07-13 05:52:28] INFO root fetch - processPackages [pysdf]: Downloading https://files.pythonhosted.org/packages/64/62/5c6d8a019b95177adaaf4438b7d215d8eb6bcd3ca4173a08bd82a852c58e/pysdf-0.1.8.tar.gz
+[2023-07-13 05:52:28] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/f0/54/b7976dc18a7bd9ee80ceff88ce124d243c375fa58db5ebe25e50df423f49/aicodebot-0.9.6.tar.gz
+[2023-07-13 05:52:28] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/ba/43/ce3d3d4711a89756d25a0339f94da013117829985a8b9ecf405eb55248c5/coiled-0.8.8.dev9.tar.gz
+[2023-07-13 05:52:28] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-07-13 05:52:28] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.9.5.tar.gz tmp/aicodebot-0.9.6.tar.gz --markdown 20230713/a/aicodebot/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-13 05:52:28] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/58/bd/e84b7f9f738815583670f114ea03606d95a303924b7dab90c22f6c7bde21/lfinancial-0.2.9.tar.gz
+[2023-07-13 05:52:28] INFO root fetch - processPackages [fastapi-tusd]: Downloading https://files.pythonhosted.org/packages/16/dd/324065dcbeb47876d814e8cf8e4f2dfd9a6c9d8e2dc177b7d5a62a8c4164/fastapi-tusd-0.100.0.tar.gz
+[2023-07-13 05:52:29] INFO root fetch - processPackages [mutual]: Downloading https://files.pythonhosted.org/packages/94/a2/ba1de5d97f3637a03029d08f6c93555b8f26d53fc21fd0625cbc7c45fb45/mutual-0.0.4.tar.gz
+[2023-07-13 05:52:29] INFO root fetch - processPackages [pysdf]: Downloading https://files.pythonhosted.org/packages/1d/72/7fa831288ed26b7116ef04c413a51298e68e3b6fab0888f62a85da5b239a/pysdf-0.1.9.tar.gz
+[2023-07-13 05:52:29] INFO root fetch - processPackages [fastapi-tusd]: executing diffoscope
+[2023-07-13 05:52:29] INFO root fetch - processPackages [fastapi-tusd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-tusd-0.0.1.tar.gz tmp/fastapi-tusd-0.100.0.tar.gz --markdown 20230713/f/fastapi-tusd/0.0.1-0.100.0/diff.md --exclude *.pyd
+[2023-07-13 05:52:29] INFO root fetch - processPackages [prog-models]: Downloading https://files.pythonhosted.org/packages/96/ef/0676423dd2b1ba36cb2721a9732bb8155353b89192e8d87c5e73c821962c/prog_models-1.5.1.tar.gz
+[2023-07-13 05:52:29] INFO root fetch - processPackages [aacrgenie]: Downloading https://files.pythonhosted.org/packages/a0/5d/8d194190e7bf83515e8672bd09d3e8d1fb1c1c0ab5af74e657302ba63d8d/aacrgenie-9.0.1.tar.gz
+[2023-07-13 05:52:29] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-13 05:52:29] INFO root fetch - processPackages [lfinancial]: executing diffoscope
+[2023-07-13 05:52:29] INFO root fetch - processPackages [lfinancial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfinancial-0.2.8.tar.gz tmp/lfinancial-0.2.9.tar.gz --markdown 20230713/l/lfinancial/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-13 05:52:29] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.8.dev8.tar.gz tmp/coiled-0.8.8.dev9.tar.gz --markdown 20230713/c/coiled/0.8.8.dev8-0.8.8.dev9/diff.md --exclude *.pyd
+[2023-07-13 05:52:29] INFO root fetch - processPackages [odoo11-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/d7/21/5fbe65cf63e5067712c49f798bee6b45f45f3d9214671ba0b937cc5fb6cb/odoo11_addon_l10n_it_withholding_tax-11.0.2.0.0.99.dev3-py2.py3-none-any.whl
+[2023-07-13 05:52:29] INFO root fetch - processPackages [pysdf]: executing diffoscope
+[2023-07-13 05:52:29] INFO root fetch - processPackages [pysdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysdf-0.1.8.tar.gz tmp/pysdf-0.1.9.tar.gz --markdown 20230713/p/pysdf/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-13 05:52:29] INFO root fetch - processPackages [mutual]: executing diffoscope
+[2023-07-13 05:52:29] INFO root fetch - processPackages [mutual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutual-0.0.3.tar.gz tmp/mutual-0.0.4.tar.gz --markdown 20230713/m/mutual/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-13 05:52:29] INFO root fetch - processPackages [prog-models]: executing diffoscope
+[2023-07-13 05:52:29] INFO root fetch - processPackages [prog-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prog_models-1.5.0rc2.tar.gz tmp/prog_models-1.5.1.tar.gz --markdown 20230713/p/prog-models/1.5.0rc2-1.5.1/diff.md --exclude *.pyd
+[2023-07-13 05:52:29] INFO root fetch - processPackages [aacrgenie]: executing diffoscope
+[2023-07-13 05:52:29] INFO root fetch - processPackages [aacrgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aacrgenie-9.0.0.tar.gz tmp/aacrgenie-9.0.1.tar.gz --markdown 20230713/a/aacrgenie/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-07-13 05:52:29] INFO root fetch - processPackages [odoo11-addon-l10n-it-withholding-tax]: executing diffoscope
+[2023-07-13 05:52:29] INFO root fetch - processPackages [odoo11-addon-l10n-it-withholding-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_l10n_it_withholding_tax-11.0.2.0.0.99.dev2-py2.py3-none-any.whl.zip tmp/odoo11_addon_l10n_it_withholding_tax-11.0.2.0.0.99.dev3-py2.py3-none-any.whl.zip --markdown 20230713/o/odoo11-addon-l10n-it-withholding-tax/11.0.2.0.0.99.dev2-11.0.2.0.0.99.dev3/diff.md --exclude *.pyd
+[2023-07-13 05:52:31] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.5.tar.gz]
+[2023-07-13 05:52:31] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.6.tar.gz]
+[2023-07-13 05:52:31] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-07-13 05:52:31] INFO root fetch - processPackages [fastapi-tusd]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-tusd-0.0.1.tar.gz]
+[2023-07-13 05:52:31] INFO root fetch - processPackages [fastapi-tusd]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-tusd-0.100.0.tar.gz]
+[2023-07-13 05:52:31] INFO root fetch - main [MainThread]: End processing [fastapi-tusd]: success
+[2023-07-13 05:52:31] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.2.8.tar.gz]
+[2023-07-13 05:52:31] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.2.9.tar.gz]
+[2023-07-13 05:52:31] INFO root fetch - main [MainThread]: End processing [lfinancial]: success
+[2023-07-13 05:52:31] INFO root fetch - processPackages [mutual]: Remove: archive file [/home/abi/fetcher/tmp/mutual-0.0.3.tar.gz]
+[2023-07-13 05:52:31] INFO root fetch - processPackages [mutual]: Remove: archive file [/home/abi/fetcher/tmp/mutual-0.0.4.tar.gz]
+[2023-07-13 05:52:31] INFO root fetch - main [MainThread]: End processing [mutual]: success
+[2023-07-13 05:52:32] INFO root fetch - processPackages [pysdf]: Remove: archive file [/home/abi/fetcher/tmp/pysdf-0.1.8.tar.gz]
+[2023-07-13 05:52:32] INFO root fetch - processPackages [pysdf]: Remove: archive file [/home/abi/fetcher/tmp/pysdf-0.1.9.tar.gz]
+[2023-07-13 05:52:32] INFO root fetch - main [MainThread]: End processing [pysdf]: success
+[2023-07-13 05:52:32] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.8.dev8.tar.gz]
+[2023-07-13 05:52:32] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.8.dev9.tar.gz]
+[2023-07-13 05:52:32] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-13 05:52:32] INFO root fetch - processPackages [odoo11-addon-l10n-it-withholding-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_it_withholding_tax-11.0.2.0.0.99.dev2-py2.py3-none-any.whl.zip]
+[2023-07-13 05:52:32] INFO root fetch - processPackages [odoo11-addon-l10n-it-withholding-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_it_withholding_tax-11.0.2.0.0.99.dev3-py2.py3-none-any.whl.zip]
+[2023-07-13 05:52:32] INFO root fetch - main [MainThread]: End processing [odoo11-addon-l10n-it-withholding-tax]: success
+[2023-07-13 05:52:32] INFO root fetch - processPackages [aacrgenie]: Remove: archive file [/home/abi/fetcher/tmp/aacrgenie-9.0.0.tar.gz]
+[2023-07-13 05:52:32] INFO root fetch - processPackages [aacrgenie]: Remove: archive file [/home/abi/fetcher/tmp/aacrgenie-9.0.1.tar.gz]
+[2023-07-13 05:52:32] INFO root fetch - main [MainThread]: End processing [aacrgenie]: success
+[2023-07-13 05:52:32] INFO root fetch - processPackages [prog-models]: Remove: archive file [/home/abi/fetcher/tmp/prog_models-1.5.0rc2.tar.gz]
+[2023-07-13 05:52:32] INFO root fetch - processPackages [prog-models]: Remove: archive file [/home/abi/fetcher/tmp/prog_models-1.5.1.tar.gz]
+[2023-07-13 05:52:32] INFO root fetch - main [MainThread]: End processing [prog-models]: success
+[2023-07-13 05:52:32] INFO root fetch - main [MainThread]: Store serial: [18869626]
