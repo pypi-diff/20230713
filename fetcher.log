@@ -16406,3 +16406,218 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 11:37:01] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.1.0.3.dev0.tar.gz]
 [2023-07-13 11:37:01] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
 [2023-07-13 11:37:01] INFO root fetch - main [MainThread]: Store serial: [18872637]
+[2023-07-13 11:42:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18872637]
+[2023-07-13 11:42:12] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-13 11:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lavd
+[2023-07-13 11:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: titan-iris
+[2023-07-13 11:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-workflow-sdk-preview
+[2023-07-13 11:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ML-Algo
+[2023-07-13 11:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: giza-cli
+[2023-07-13 11:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: troncos
+[2023-07-13 11:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: preprocessing-pgp
+[2023-07-13 11:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lsst-pex-config
+[2023-07-13 11:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ogc-na
+[2023-07-13 11:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: specklia
+[2023-07-13 11:42:12] INFO root fetch - processPackages [ML-Algo]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-07-13 11:42:12] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.348] Old Version: [0.1.347]
+[2023-07-13 11:42:12] INFO root fetch - processPackages [giza-cli]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 11:42:12] INFO root fetch - processPackages [titan-iris]: New version: [0.9.2.dev5] Old Version: [0.9.2]
+[2023-07-13 11:42:12] INFO root fetch - processPackages [lsst-pex-config]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-13 11:42:12] INFO root fetch - processPackages [lavd]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-13 11:42:12] INFO root fetch - processPackages [ogc-na]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-13 11:42:12] INFO root fetch - processPackages [troncos]: New version: [4.0.1] Old Version: [4.0.0b9]
+[2023-07-13 11:42:12] INFO root fetch - processPackages [specklia]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-13 11:42:12] INFO root fetch - processPackages [preprocessing-pgp]: New version: [0.2.9.post9.dev8] Old Version: [0.2.9.post9.dev7]
+[2023-07-13 11:42:12] INFO root fetch - processPackages [ML-Algo]: Downloading https://files.pythonhosted.org/packages/f4/a7/73959948aa280214984cbe2b5145a014844aca006892295170e1d231ac42/ML-Algo-1.2.6.tar.gz
+[2023-07-13 11:42:12] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/08/7b/d1a326265898c9d52f3a526697d9f0f458664b7dd04889cf4b95fcae2b5a/ogc_na-0.2.9.tar.gz
+[2023-07-13 11:42:12] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/2a/bd/1379d90b6bd45442f7550556688400cbbbfc9ca64d3a7d78533565069eda/specklia-1.2.8.tar.gz
+[2023-07-13 11:42:12] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/9f/76/a395a1e4fedda7a3476b46cba392a17b553c17ecf0c129c4f3c2fa91dd4f/lusid-workflow-sdk-preview-0.1.347.tar.gz
+[2023-07-13 11:42:12] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/b6/0f/8dbffb2a836a4fe17d08efc2906ab871433188a391787a4042eb3f8cc131/titan-iris-0.9.2.tar.gz
+[2023-07-13 11:42:12] INFO root fetch - processPackages [giza-cli]: Downloading https://files.pythonhosted.org/packages/7f/80/2785f9f9ca3cb49ffb6143845473c40907a94f1d553c30ad281060ea726c/giza_cli-0.0.1.tar.gz
+[2023-07-13 11:42:12] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/d7/0c/0464eaef88f46db58e9972a38d5221f68038faa115510c0cb95799422145/lsst-pex-config-26.0.0a20230400.tar.gz
+[2023-07-13 11:42:12] INFO root fetch - processPackages [preprocessing-pgp]: Downloading https://files.pythonhosted.org/packages/3b/ff/280ddfc30db341960587617aede0239f03d7380c369e1410cf3fc31d07bf/preprocessing-pgp-0.2.9.post9.dev7.tar.gz
+[2023-07-13 11:42:12] INFO root fetch - processPackages [lavd]: Downloading https://files.pythonhosted.org/packages/6e/a8/090af05443c73b07c489089d3190c7d9fc4117dda4fba043cfd5d0d5984c/lavd-0.2.6.tar.gz
+[2023-07-13 11:42:12] INFO root fetch - processPackages [troncos]: Downloading https://files.pythonhosted.org/packages/74/74/a0ec518c84ad6b09c05621a50ddfe1997109619d228a21218152c34d8bc2/troncos-4.0.0b9.tar.gz
+[2023-07-13 11:42:13] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/82/ab/63cdd26880b2cbe03073ca9cb599a0ed43a52df679f722fa5d3eaab6c4c5/specklia-1.2.9.tar.gz
+[2023-07-13 11:42:13] INFO root fetch - processPackages [ML-Algo]: Downloading https://files.pythonhosted.org/packages/ac/db/313ef855d6a4fba6d6aad6f32cf62c6021ddb3b4c52a4d6a3799ddf3dde4/ML-Algo-1.2.7.tar.gz
+[2023-07-13 11:42:13] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/4f/b8/7e671ed02223070a65b95175ef7be8ac69944cc0bed430f891b7f808db49/ogc_na-0.3.0.tar.gz
+[2023-07-13 11:42:13] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/72/e9/a5844e1906f099ce6ffd53d9c64f0f019b81ca42c883224909454d2722c3/lusid-workflow-sdk-preview-0.1.348.tar.gz
+[2023-07-13 11:42:13] INFO root fetch - processPackages [giza-cli]: Downloading https://files.pythonhosted.org/packages/4b/1c/0071525392ec5fe29c858a4e3412a41d62cf0114b7af78de520ed59412e0/giza_cli-0.0.2.tar.gz
+[2023-07-13 11:42:13] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2023-07-13 11:42:13] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.2.8.tar.gz tmp/specklia-1.2.9.tar.gz --markdown 20230713/s/specklia/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-13 11:42:13] INFO root fetch - processPackages [ML-Algo]: executing diffoscope
+[2023-07-13 11:42:13] INFO root fetch - processPackages [ML-Algo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ML-Algo-1.2.6.tar.gz tmp/ML-Algo-1.2.7.tar.gz --markdown 20230713/M/ML-Algo/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-07-13 11:42:13] INFO root fetch - processPackages [ogc-na]: executing diffoscope
+[2023-07-13 11:42:13] INFO root fetch - processPackages [ogc-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogc_na-0.2.9.tar.gz tmp/ogc_na-0.3.0.tar.gz --markdown 20230713/o/ogc-na/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-13 11:42:13] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2023-07-13 11:42:13] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.347.tar.gz tmp/lusid-workflow-sdk-preview-0.1.348.tar.gz --markdown 20230713/l/lusid-workflow-sdk-preview/0.1.347-0.1.348/diff.md --exclude *.pyd
+[2023-07-13 11:42:13] INFO root fetch - processPackages [giza-cli]: executing diffoscope
+[2023-07-13 11:42:13] INFO root fetch - processPackages [giza-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giza_cli-0.0.1.tar.gz tmp/giza_cli-0.0.2.tar.gz --markdown 20230713/g/giza-cli/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 11:42:13] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d8/4a/02919e9fa5b5ed0fc3b652fc6bd854246cd85b81a3bf56f61ea4ea1bbe89/titan-iris-0.9.2.dev5.tar.gz
+[2023-07-13 11:42:13] INFO root fetch - processPackages [troncos]: Downloading https://files.pythonhosted.org/packages/50/98/d11bc519f31ba6cc8118b1699ba4d9efdcc62e94f3355a55a91937ee439f/troncos-4.0.1.tar.gz
+[2023-07-13 11:42:13] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/cb/e7/b5b77ed48e975232d6d946423eca1f7883eb826cf1844d70b96ddddd1696/lsst-pex-config-26.0.0a20230500.tar.gz
+[2023-07-13 11:42:13] INFO root fetch - processPackages [troncos]: executing diffoscope
+[2023-07-13 11:42:13] INFO root fetch - processPackages [troncos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troncos-4.0.0b9.tar.gz tmp/troncos-4.0.1.tar.gz --markdown 20230713/t/troncos/4.0.0b9-4.0.1/diff.md --exclude *.pyd
+[2023-07-13 11:42:13] WARNING root fetch - processPackages [preprocessing-pgp]: Skipping package: exceeds size limit 78857974>=10485760
+[2023-07-13 11:42:13] INFO root fetch - processPackages [preprocessing-pgp]: Start processing: ewoksdata
+[2023-07-13 11:42:13] INFO root fetch - main [MainThread]: End processing [preprocessing-pgp] error
+[2023-07-13 11:42:13] INFO root fetch - processPackages [ewoksdata]: New version: [0.3.0] Old Version: [0.2.7]
+[2023-07-13 11:42:13] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-07-13 11:42:13] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.9.2.tar.gz tmp/titan-iris-0.9.2.dev5.tar.gz --markdown 20230713/t/titan-iris/0.9.2-0.9.2.dev5/diff.md --exclude *.pyd
+[2023-07-13 11:42:13] INFO root fetch - processPackages [lsst-pex-config]: executing diffoscope
+[2023-07-13 11:42:13] INFO root fetch - processPackages [lsst-pex-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pex-config-26.0.0a20230400.tar.gz tmp/lsst-pex-config-26.0.0a20230500.tar.gz --markdown 20230713/l/lsst-pex-config/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-13 11:42:13] INFO root fetch - processPackages [ewoksdata]: Downloading https://files.pythonhosted.org/packages/4b/d7/e1836c5a51476e76ad900d2523f075efece11fe53d2a2cfa27dc588020a1/ewoksdata-0.2.7.tar.gz
+[2023-07-13 11:42:14] INFO root fetch - processPackages [ewoksdata]: Downloading https://files.pythonhosted.org/packages/f3/b2/aecb2083ee1154bbe300e72a4d4bc1b9c96c748a70c630b40c8e2b34b17e/ewoksdata-0.3.0.tar.gz
+[2023-07-13 11:42:14] INFO root fetch - processPackages [lavd]: Downloading https://files.pythonhosted.org/packages/ba/b1/c5cfea48b60c31326d74baa4d5cfadd65ae42ffedb106ab4e52836d8b0a6/lavd-0.2.7.tar.gz
+[2023-07-13 11:42:14] INFO root fetch - processPackages [ewoksdata]: executing diffoscope
+[2023-07-13 11:42:14] INFO root fetch - processPackages [ewoksdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewoksdata-0.2.7.tar.gz tmp/ewoksdata-0.3.0.tar.gz --markdown 20230713/e/ewoksdata/0.2.7-0.3.0/diff.md --exclude *.pyd
+[2023-07-13 11:42:14] INFO root fetch - processPackages [lavd]: executing diffoscope
+[2023-07-13 11:42:14] INFO root fetch - processPackages [lavd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavd-0.2.6.tar.gz tmp/lavd-0.2.7.tar.gz --markdown 20230713/l/lavd/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-13 11:42:14] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.8.tar.gz]
+[2023-07-13 11:42:14] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.9.tar.gz]
+[2023-07-13 11:42:14] INFO root fetch - processPackages [specklia]: Start processing: tiskitpy
+[2023-07-13 11:42:14] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2023-07-13 11:42:14] INFO root fetch - processPackages [ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/ML-Algo-1.2.6.tar.gz]
+[2023-07-13 11:42:14] INFO root fetch - processPackages [ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/ML-Algo-1.2.7.tar.gz]
+[2023-07-13 11:42:14] INFO root fetch - processPackages [ML-Algo]: Start processing: py-datalab
+[2023-07-13 11:42:14] INFO root fetch - main [MainThread]: End processing [ML-Algo]: success
+[2023-07-13 11:42:14] INFO root fetch - processPackages [tiskitpy]: New version: [0.4.post1] Old Version: [0.4]
+[2023-07-13 11:42:14] INFO root fetch - processPackages [py-datalab]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-13 11:42:14] INFO root fetch - processPackages [giza-cli]: Remove: archive file [/home/abi/fetcher/tmp/giza_cli-0.0.1.tar.gz]
+[2023-07-13 11:42:14] INFO root fetch - processPackages [giza-cli]: Remove: archive file [/home/abi/fetcher/tmp/giza_cli-0.0.2.tar.gz]
+[2023-07-13 11:42:14] INFO root fetch - processPackages [giza-cli]: Start processing: lsst-ctrl-bps-panda
+[2023-07-13 11:42:14] INFO root fetch - main [MainThread]: End processing [giza-cli]: success
+[2023-07-13 11:42:14] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-13 11:42:14] INFO root fetch - processPackages [tiskitpy]: Downloading https://files.pythonhosted.org/packages/7b/d6/15ff65018ab15e924cfdde83661f65984bbe60be1608755823c5053c8ef1/tiskitpy-0.4.tar.gz
+[2023-07-13 11:42:14] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.9.tar.gz]
+[2023-07-13 11:42:14] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.3.0.tar.gz]
+[2023-07-13 11:42:14] INFO root fetch - processPackages [ogc-na]: Start processing: lsst-ctrl-bps-parsl
+[2023-07-13 11:42:14] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
+[2023-07-13 11:42:14] INFO root fetch - processPackages [py-datalab]: Downloading https://files.pythonhosted.org/packages/4f/66/172c684820815e235adc6f925ab7924581913104769254ba0bafd5a39c46/py-datalab-0.2.3.tar.gz
+[2023-07-13 11:42:14] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-13 11:42:15] INFO root fetch - processPackages [troncos]: Remove: archive file [/home/abi/fetcher/tmp/troncos-4.0.0b9.tar.gz]
+[2023-07-13 11:42:15] INFO root fetch - processPackages [troncos]: Remove: archive file [/home/abi/fetcher/tmp/troncos-4.0.1.tar.gz]
+[2023-07-13 11:42:15] INFO root fetch - processPackages [troncos]: Start processing: lsst-ctrl-bps-htcondor
+[2023-07-13 11:42:15] INFO root fetch - main [MainThread]: End processing [troncos]: success
+[2023-07-13 11:42:15] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Downloading https://files.pythonhosted.org/packages/a0/22/0b893c9cd95d92d19da99d597013f1dd89c378a4a37bd4122e57406ac7c5/lsst-ctrl-bps-panda-26.0.0a20230400.tar.gz
+[2023-07-13 11:42:15] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-13 11:42:15] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.tar.gz]
+[2023-07-13 11:42:15] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.dev5.tar.gz]
+[2023-07-13 11:42:15] INFO root fetch - processPackages [titan-iris]: Start processing: jsonmerge
+[2023-07-13 11:42:15] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-07-13 11:42:15] INFO root fetch - processPackages [jsonmerge]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-13 11:42:15] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pex-config-26.0.0a20230400.tar.gz]
+[2023-07-13 11:42:15] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pex-config-26.0.0a20230500.tar.gz]
+[2023-07-13 11:42:15] INFO root fetch - processPackages [lsst-pex-config]: Start processing: astro-metadata-translator
+[2023-07-13 11:42:15] INFO root fetch - main [MainThread]: End processing [lsst-pex-config]: success
+[2023-07-13 11:42:15] INFO root fetch - processPackages [tiskitpy]: Downloading https://files.pythonhosted.org/packages/0f/79/d802f9be5a7b5911ef1e96446d4cf17e7a9a98b19049a388413055c46b5a/tiskitpy-0.4.post1.tar.gz
+[2023-07-13 11:42:15] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/35/8c/c122879a959643f033a579ff1b13d2b33ec6c21551ffa1629264c6d3561a/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz
+[2023-07-13 11:42:15] INFO root fetch - processPackages [astro-metadata-translator]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-13 11:42:15] INFO root fetch - processPackages [py-datalab]: Downloading https://files.pythonhosted.org/packages/76/0d/ff349987f0a0621b38a5106fc653b3de1a6d53d8b9bb09719832ea189877/py-datalab-0.2.4.tar.gz
+[2023-07-13 11:42:15] INFO root fetch - processPackages [tiskitpy]: executing diffoscope
+[2023-07-13 11:42:15] INFO root fetch - processPackages [tiskitpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiskitpy-0.4.tar.gz tmp/tiskitpy-0.4.post1.tar.gz --markdown 20230713/t/tiskitpy/0.4-0.4.post1/diff.md --exclude *.pyd
+[2023-07-13 11:42:15] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/9c/29/1a3392502c8a25f2eb2fabe112e03edaf4de2d8396df282510856200f6a7/lsst-ctrl-bps-htcondor-26.0.0a20230400.tar.gz
+[2023-07-13 11:42:15] INFO root fetch - processPackages [py-datalab]: executing diffoscope
+[2023-07-13 11:42:15] INFO root fetch - processPackages [py-datalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-datalab-0.2.3.tar.gz tmp/py-datalab-0.2.4.tar.gz --markdown 20230713/p/py-datalab/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-13 11:42:15] INFO root fetch - processPackages [jsonmerge]: Downloading https://files.pythonhosted.org/packages/8b/81/7284c1871590f688b145af26611a3bd9daea9dbcb149492f2f46eb0c696f/jsonmerge-1.9.0.tar.gz
+[2023-07-13 11:42:15] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.347.tar.gz]
+[2023-07-13 11:42:15] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.348.tar.gz]
+[2023-07-13 11:42:15] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Start processing: another-sd-client
+[2023-07-13 11:42:15] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2023-07-13 11:42:15] INFO root fetch - processPackages [another-sd-client]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-07-13 11:42:15] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Downloading https://files.pythonhosted.org/packages/68/73/220eb613172bcce921a4d51c76efc50a37bcd1469c86a7fdd5726300f75b/lsst-ctrl-bps-panda-26.0.0a20230500.tar.gz
+[2023-07-13 11:42:15] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/88/0f/ddf4d690ba71629b94ef331c1dcf381615f5fa0220cfb725331d64d70fe9/astro-metadata-translator-26.0.0a20230400.tar.gz
+[2023-07-13 11:42:15] INFO root fetch - processPackages [ewoksdata]: Remove: archive file [/home/abi/fetcher/tmp/ewoksdata-0.2.7.tar.gz]
+[2023-07-13 11:42:15] INFO root fetch - processPackages [ewoksdata]: Remove: archive file [/home/abi/fetcher/tmp/ewoksdata-0.3.0.tar.gz]
+[2023-07-13 11:42:15] INFO root fetch - processPackages [ewoksdata]: Start processing: lsst-ctrl-bps
+[2023-07-13 11:42:15] INFO root fetch - main [MainThread]: End processing [ewoksdata]: success
+[2023-07-13 11:42:15] INFO root fetch - processPackages [jsonmerge]: Downloading https://files.pythonhosted.org/packages/db/cc/3df4599a2ffeafcc16262ece96a1a4cf172578863ea272ed7b65be9493f8/jsonmerge-1.9.1.tar.gz
+[2023-07-13 11:42:15] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/73/d7/e06e478c242de09a2c5605a32a3c6bc7f4a1e1aca5c81495250b2cc49b28/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz
+[2023-07-13 11:42:15] INFO root fetch - processPackages [lsst-ctrl-bps]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-13 11:42:15] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: executing diffoscope
+[2023-07-13 11:42:15] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-panda-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-panda-26.0.0a20230500.tar.gz --markdown 20230713/l/lsst-ctrl-bps-panda/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-13 11:42:15] INFO root fetch - processPackages [another-sd-client]: Downloading https://files.pythonhosted.org/packages/bb/ea/0c614ccd33e3b453ff2c410a7e491687323e4ab801bfd4e413e93923c34a/another_sd_client-1.3.1.tar.gz
+[2023-07-13 11:42:15] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/3c/cc/c973405023d7f2d0de5436529223459d8600f71b8be3454b9262b1ac019c/lsst-ctrl-bps-htcondor-26.0.0a20230500.tar.gz
+[2023-07-13 11:42:15] INFO root fetch - processPackages [jsonmerge]: executing diffoscope
+[2023-07-13 11:42:15] INFO root fetch - processPackages [jsonmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonmerge-1.9.0.tar.gz tmp/jsonmerge-1.9.1.tar.gz --markdown 20230713/j/jsonmerge/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-13 11:42:15] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: executing diffoscope
+[2023-07-13 11:42:15] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz --markdown 20230713/l/lsst-ctrl-bps-parsl/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-13 11:42:16] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/3f/25/dd5788122d831e91f7a5b6df98e8e2d65df587d64b2a7e8e703b9f85d293/lsst-ctrl-bps-26.0.0a20230400.tar.gz
+[2023-07-13 11:42:16] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/f6/a2/6962018c4d5dc18839328422a99767c526540467659fab3d4282192e3763/astro-metadata-translator-26.0.0a20230500.tar.gz
+[2023-07-13 11:42:16] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: executing diffoscope
+[2023-07-13 11:42:16] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-htcondor-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-htcondor-26.0.0a20230500.tar.gz --markdown 20230713/l/lsst-ctrl-bps-htcondor/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-13 11:42:16] INFO root fetch - processPackages [astro-metadata-translator]: executing diffoscope
+[2023-07-13 11:42:16] INFO root fetch - processPackages [astro-metadata-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-metadata-translator-26.0.0a20230400.tar.gz tmp/astro-metadata-translator-26.0.0a20230500.tar.gz --markdown 20230713/a/astro-metadata-translator/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-13 11:42:16] INFO root fetch - processPackages [another-sd-client]: Downloading https://files.pythonhosted.org/packages/e6/cf/662f854bd8a6ccdbb8cd69e7cd16a5e8e52e2650fe351b255dec228ad66f/another_sd_client-1.4.0.tar.gz
+[2023-07-13 11:42:16] INFO root fetch - processPackages [another-sd-client]: executing diffoscope
+[2023-07-13 11:42:16] INFO root fetch - processPackages [another-sd-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/another_sd_client-1.3.1.tar.gz tmp/another_sd_client-1.4.0.tar.gz --markdown 20230713/a/another-sd-client/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-07-13 11:42:16] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/74/ca/f9dbc4fb6958267f1ee9ce347a76bcb3d1dcb671ceaf427711055ab6c67c/lsst-ctrl-bps-26.0.0a20230500.tar.gz
+[2023-07-13 11:42:16] INFO root fetch - processPackages [py-datalab]: Remove: archive file [/home/abi/fetcher/tmp/py-datalab-0.2.3.tar.gz]
+[2023-07-13 11:42:16] INFO root fetch - processPackages [py-datalab]: Remove: archive file [/home/abi/fetcher/tmp/py-datalab-0.2.4.tar.gz]
+[2023-07-13 11:42:16] INFO root fetch - processPackages [py-datalab]: Start processing: PyBIS
+[2023-07-13 11:42:16] INFO root fetch - main [MainThread]: End processing [py-datalab]: success
+[2023-07-13 11:42:16] INFO root fetch - processPackages [lsst-ctrl-bps]: executing diffoscope
+[2023-07-13 11:42:16] INFO root fetch - processPackages [lsst-ctrl-bps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-26.0.0a20230500.tar.gz --markdown 20230713/l/lsst-ctrl-bps/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-13 11:42:16] INFO root fetch - processPackages [PyBIS]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-07-13 11:42:16] INFO root fetch - processPackages [tiskitpy]: Remove: archive file [/home/abi/fetcher/tmp/tiskitpy-0.4.tar.gz]
+[2023-07-13 11:42:16] INFO root fetch - processPackages [tiskitpy]: Remove: archive file [/home/abi/fetcher/tmp/tiskitpy-0.4.post1.tar.gz]
+[2023-07-13 11:42:16] INFO root fetch - processPackages [tiskitpy]: Start processing: lsst-ctrl-mpexec
+[2023-07-13 11:42:16] INFO root fetch - main [MainThread]: End processing [tiskitpy]: success
+[2023-07-13 11:42:17] INFO root fetch - processPackages [lsst-ctrl-mpexec]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-13 11:42:17] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/0b/44/fe0231003ffc36a7b01dff7dcb46629cccf554473e121900d1388e6c6260/PyBIS-1.9.7.tar.gz
+[2023-07-13 11:42:17] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-panda-26.0.0a20230400.tar.gz]
+[2023-07-13 11:42:17] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-panda-26.0.0a20230500.tar.gz]
+[2023-07-13 11:42:17] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Start processing: ramodels
+[2023-07-13 11:42:17] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-panda]: success
+[2023-07-13 11:42:17] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-13 11:42:17] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/7d/95/1fd49d0ac8149861738d465629d14648e00335b6f27b60edea825d22869f/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz
+[2023-07-13 11:42:17] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-13 11:42:17] INFO root fetch - processPackages [jsonmerge]: Remove: archive file [/home/abi/fetcher/tmp/jsonmerge-1.9.0.tar.gz]
+[2023-07-13 11:42:17] INFO root fetch - processPackages [jsonmerge]: Remove: archive file [/home/abi/fetcher/tmp/jsonmerge-1.9.1.tar.gz]
+[2023-07-13 11:42:17] INFO root fetch - processPackages [jsonmerge]: Start processing: lsst-pipe-base
+[2023-07-13 11:42:17] INFO root fetch - main [MainThread]: End processing [jsonmerge]: success
+[2023-07-13 11:42:17] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-htcondor-26.0.0a20230400.tar.gz]
+[2023-07-13 11:42:17] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-htcondor-26.0.0a20230500.tar.gz]
+[2023-07-13 11:42:17] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-htcondor]: success
+[2023-07-13 11:42:17] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz]
+[2023-07-13 11:42:17] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz]
+[2023-07-13 11:42:17] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-parsl]: success
+[2023-07-13 11:42:17] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/de/6a/e2fbd779a6f64422fe1720ef3dd721543ce07d5e1ea97c26bc9ff21ac882/PyBIS-1.9.8.tar.gz
+[2023-07-13 11:42:17] INFO root fetch - processPackages [lsst-pipe-base]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-13 11:42:17] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-13 11:42:17] INFO root fetch - processPackages [another-sd-client]: Remove: archive file [/home/abi/fetcher/tmp/another_sd_client-1.3.1.tar.gz]
+[2023-07-13 11:42:17] INFO root fetch - processPackages [another-sd-client]: Remove: archive file [/home/abi/fetcher/tmp/another_sd_client-1.4.0.tar.gz]
+[2023-07-13 11:42:17] INFO root fetch - main [MainThread]: End processing [another-sd-client]: success
+[2023-07-13 11:42:17] INFO root fetch - processPackages [astro-metadata-translator]: Remove: archive file [/home/abi/fetcher/tmp/astro-metadata-translator-26.0.0a20230400.tar.gz]
+[2023-07-13 11:42:17] INFO root fetch - processPackages [astro-metadata-translator]: Remove: archive file [/home/abi/fetcher/tmp/astro-metadata-translator-26.0.0a20230500.tar.gz]
+[2023-07-13 11:42:17] INFO root fetch - main [MainThread]: End processing [astro-metadata-translator]: success
+[2023-07-13 11:42:17] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/61/b7/81e5f821fadf907a5b8aba51baef7441e1a4b2d1899448ea4c15512f8b33/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz
+[2023-07-13 11:42:17] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-13 11:42:17] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230713/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-13 11:42:17] INFO root fetch - processPackages [PyBIS]: executing diffoscope
+[2023-07-13 11:42:17] INFO root fetch - processPackages [PyBIS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBIS-1.9.7.tar.gz tmp/PyBIS-1.9.8.tar.gz --markdown 20230713/P/PyBIS/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-07-13 11:42:17] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/4a/2a/d7e53c7284052c1d3edb447a5c44734c2eb2276c39ac6857f02d9a0e77d3/lsst-pipe-base-26.0.0a20230400.tar.gz
+[2023-07-13 11:42:17] INFO root fetch - processPackages [lsst-ctrl-mpexec]: executing diffoscope
+[2023-07-13 11:42:17] INFO root fetch - processPackages [lsst-ctrl-mpexec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz tmp/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz --markdown 20230713/l/lsst-ctrl-mpexec/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-13 11:42:18] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-26.0.0a20230400.tar.gz]
+[2023-07-13 11:42:18] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-26.0.0a20230500.tar.gz]
+[2023-07-13 11:42:18] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps]: success
+[2023-07-13 11:42:18] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/43/b8/e01f76a3da14b328fd43a97c36653216b676c2f3b0fd8c71e30d4ff1132e/lsst-pipe-base-26.0.0a20230500.tar.gz
+[2023-07-13 11:42:18] INFO root fetch - processPackages [lsst-pipe-base]: executing diffoscope
+[2023-07-13 11:42:18] INFO root fetch - processPackages [lsst-pipe-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pipe-base-26.0.0a20230400.tar.gz tmp/lsst-pipe-base-26.0.0a20230500.tar.gz --markdown 20230713/l/lsst-pipe-base/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-13 11:42:18] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-13 11:42:18] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-13 11:42:18] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-13 11:42:18] INFO root fetch - processPackages [PyBIS]: Remove: archive file [/home/abi/fetcher/tmp/PyBIS-1.9.7.tar.gz]
+[2023-07-13 11:42:18] INFO root fetch - processPackages [PyBIS]: Remove: archive file [/home/abi/fetcher/tmp/PyBIS-1.9.8.tar.gz]
+[2023-07-13 11:42:18] INFO root fetch - main [MainThread]: End processing [PyBIS]: success
+[2023-07-13 11:42:18] INFO root fetch - processPackages [lavd]: Remove: archive file [/home/abi/fetcher/tmp/lavd-0.2.6.tar.gz]
+[2023-07-13 11:42:18] INFO root fetch - processPackages [lavd]: Remove: archive file [/home/abi/fetcher/tmp/lavd-0.2.7.tar.gz]
+[2023-07-13 11:42:18] INFO root fetch - main [MainThread]: End processing [lavd]: success
+[2023-07-13 11:42:19] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz]
+[2023-07-13 11:42:19] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz]
+[2023-07-13 11:42:19] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-mpexec]: success
+[2023-07-13 11:42:19] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pipe-base-26.0.0a20230400.tar.gz]
+[2023-07-13 11:42:19] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pipe-base-26.0.0a20230500.tar.gz]
+[2023-07-13 11:42:19] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
+[2023-07-13 11:42:19] INFO root fetch - main [MainThread]: Store serial: [18872705]
