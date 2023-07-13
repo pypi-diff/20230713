@@ -6381,3 +6381,56 @@
 [2023-07-13 03:53:22] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
 [2023-07-13 03:53:22] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-07-13 03:53:22] INFO root fetch - main [MainThread]: Store serial: [18868843]
+[2023-07-13 03:58:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18868843]
+[2023-07-13 03:58:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-13 03:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nebulae
+[2023-07-13 03:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tic-tac-toe-backend
+[2023-07-13 03:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pptx-tools
+[2023-07-13 03:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-url-tokenizer
+[2023-07-13 03:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rayfed-nightly
+[2023-07-13 03:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NikGapps
+[2023-07-13 03:58:33] INFO root fetch - processPackages [pptx-tools]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-13 03:58:33] INFO root fetch - processPackages [rayfed-nightly]: New version: [0.1.0b20230712.dev0] Old Version: [0.1.0b20230711.dev0]
+[2023-07-13 03:58:33] INFO root fetch - processPackages [tic-tac-toe-backend]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-07-13 03:58:33] INFO root fetch - processPackages [nebulae]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-07-13 03:58:33] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 03:58:33] INFO root fetch - processPackages [rayfed-nightly]: Downloading https://files.pythonhosted.org/packages/fc/aa/8fadb5fefd06e8a1217d16201c87a2a460ec4e0712594fd9e1327b01f8cd/rayfed_nightly-0.1.0b20230711.dev0-py3-none-any.whl
+[2023-07-13 03:58:33] INFO root fetch - processPackages [tic-tac-toe-backend]: Downloading https://files.pythonhosted.org/packages/de/0e/24705119f66b0fa90c2d12762d5a5859ae59f880a7cce47817f47f58e037/tic-tac-toe-backend-1.4.1.tar.gz
+[2023-07-13 03:58:33] INFO root fetch - processPackages [NikGapps]: New version: [1.64] Old Version: [1.63]
+[2023-07-13 03:58:33] INFO root fetch - processPackages [nebulae]: Downloading https://files.pythonhosted.org/packages/31/ec/d0ad768c60e8a9e72e49b076af162124b61d4058729dc38043250f17847d/nebulae-0.6.7.tar.gz
+[2023-07-13 03:58:33] INFO root fetch - processPackages [pptx-tools]: Downloading https://files.pythonhosted.org/packages/85/79/0bd983d0cd77cc0b1aa7b922725b95dd287b997ee04cc2340d8a8c730fa2/pptx-tools-0.1.3.tar.gz
+[2023-07-13 03:58:33] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/01/a8/d71eaeccc5433fbd2bb936ce5f815741e6da147e20a08f53baae3cef9f74/django-url-tokenizer-0.0.1.tar.gz
+[2023-07-13 03:58:33] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/ea/9c/94b7b1cf94eb5b8b3bc354d0085402ae42434feddb5aadcbe4672c4839de/NikGapps-1.63.tar.gz
+[2023-07-13 03:58:33] INFO root fetch - processPackages [rayfed-nightly]: Downloading https://files.pythonhosted.org/packages/37/6e/3369d0aed5b80c4a6e78f0969518285a9bdc2132989bf72497f5a9bdd241/rayfed_nightly-0.1.0b20230712.dev0-py3-none-any.whl
+[2023-07-13 03:58:33] INFO root fetch - processPackages [tic-tac-toe-backend]: Downloading https://files.pythonhosted.org/packages/c2/80/da5008bcc5f26093feb1b5f80d31437e13e0550b0f9fc9e8e59679acfdf0/tic-tac-toe-backend-1.5.0.tar.gz
+[2023-07-13 03:58:33] INFO root fetch - processPackages [rayfed-nightly]: executing diffoscope
+[2023-07-13 03:58:33] INFO root fetch - processPackages [rayfed-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayfed_nightly-0.1.0b20230711.dev0-py3-none-any.whl.zip tmp/rayfed_nightly-0.1.0b20230712.dev0-py3-none-any.whl.zip --markdown 20230713/r/rayfed-nightly/0.1.0b20230711.dev0-0.1.0b20230712.dev0/diff.md --exclude *.pyd
+[2023-07-13 03:58:33] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41564879>=10485760
+[2023-07-13 03:58:33] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-07-13 03:58:33] INFO root fetch - processPackages [pptx-tools]: Downloading https://files.pythonhosted.org/packages/78/35/c83888fda7741ea975ce5c356033e7f039814003006d1bca96b4757b9a51/pptx-tools-0.1.4.tar.gz
+[2023-07-13 03:58:33] INFO root fetch - processPackages [nebulae]: Downloading https://files.pythonhosted.org/packages/a4/9d/62c04d68afc7b0e5d049f5579c4703bf49fef4cd096ef1f34b9e3272573b/nebulae-0.6.9.tar.gz
+[2023-07-13 03:58:33] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/76/a4/1837fde9bba8944d0330410a2f0a420a27ec83c684b965be0b0e40ac9a30/django-url-tokenizer-0.0.2.tar.gz
+[2023-07-13 03:58:33] INFO root fetch - processPackages [tic-tac-toe-backend]: executing diffoscope
+[2023-07-13 03:58:33] INFO root fetch - processPackages [tic-tac-toe-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tic-tac-toe-backend-1.4.1.tar.gz tmp/tic-tac-toe-backend-1.5.0.tar.gz --markdown 20230713/t/tic-tac-toe-backend/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-07-13 03:58:34] INFO root fetch - processPackages [pptx-tools]: executing diffoscope
+[2023-07-13 03:58:34] INFO root fetch - processPackages [pptx-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pptx-tools-0.1.3.tar.gz tmp/pptx-tools-0.1.4.tar.gz --markdown 20230713/p/pptx-tools/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-13 03:58:34] INFO root fetch - processPackages [nebulae]: executing diffoscope
+[2023-07-13 03:58:34] INFO root fetch - processPackages [nebulae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nebulae-0.6.7.tar.gz tmp/nebulae-0.6.9.tar.gz --markdown 20230713/n/nebulae/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-07-13 03:58:34] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-13 03:58:34] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.1.tar.gz tmp/django-url-tokenizer-0.0.2.tar.gz --markdown 20230713/d/django-url-tokenizer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 03:58:34] INFO root fetch - processPackages [rayfed-nightly]: Remove: archive file [/home/abi/fetcher/tmp/rayfed_nightly-0.1.0b20230711.dev0-py3-none-any.whl.zip]
+[2023-07-13 03:58:34] INFO root fetch - processPackages [rayfed-nightly]: Remove: archive file [/home/abi/fetcher/tmp/rayfed_nightly-0.1.0b20230712.dev0-py3-none-any.whl.zip]
+[2023-07-13 03:58:34] INFO root fetch - main [MainThread]: End processing [rayfed-nightly]: success
+[2023-07-13 03:58:34] INFO root fetch - processPackages [tic-tac-toe-backend]: Remove: archive file [/home/abi/fetcher/tmp/tic-tac-toe-backend-1.4.1.tar.gz]
+[2023-07-13 03:58:34] INFO root fetch - processPackages [tic-tac-toe-backend]: Remove: archive file [/home/abi/fetcher/tmp/tic-tac-toe-backend-1.5.0.tar.gz]
+[2023-07-13 03:58:34] INFO root fetch - main [MainThread]: End processing [tic-tac-toe-backend]: success
+[2023-07-13 03:58:35] INFO root fetch - processPackages [pptx-tools]: Remove: archive file [/home/abi/fetcher/tmp/pptx-tools-0.1.3.tar.gz]
+[2023-07-13 03:58:35] INFO root fetch - processPackages [pptx-tools]: Remove: archive file [/home/abi/fetcher/tmp/pptx-tools-0.1.4.tar.gz]
+[2023-07-13 03:58:35] INFO root fetch - main [MainThread]: End processing [pptx-tools]: success
+[2023-07-13 03:58:35] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.1.tar.gz]
+[2023-07-13 03:58:35] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.2.tar.gz]
+[2023-07-13 03:58:35] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-13 03:58:35] INFO root fetch - processPackages [nebulae]: Remove: archive file [/home/abi/fetcher/tmp/nebulae-0.6.7.tar.gz]
+[2023-07-13 03:58:35] INFO root fetch - processPackages [nebulae]: Remove: archive file [/home/abi/fetcher/tmp/nebulae-0.6.9.tar.gz]
+[2023-07-13 03:58:35] INFO root fetch - main [MainThread]: End processing [nebulae]: success
+[2023-07-13 03:58:35] INFO root fetch - main [MainThread]: Store serial: [18868861]
