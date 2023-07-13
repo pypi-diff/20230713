@@ -12191,3 +12191,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 08:09:43] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.2.6.tar.gz]
 [2023-07-13 08:09:43] INFO root fetch - main [MainThread]: End processing [insights-core]: success
 [2023-07-13 08:09:43] INFO root fetch - main [MainThread]: Store serial: [18870699]
+[2023-07-13 08:14:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18870699]
+[2023-07-13 08:14:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-13 08:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fedml
+[2023-07-13 08:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mysqlx-generator
+[2023-07-13 08:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-base-search-custom-field-filter
+[2023-07-13 08:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: numerapi
+[2023-07-13 08:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imesh
+[2023-07-13 08:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pheno-utils
+[2023-07-13 08:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lanfacesdk
+[2023-07-13 08:14:52] INFO root fetch - processPackages [lanfacesdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 08:14:52] INFO root fetch - processPackages [pheno-utils]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-13 08:14:52] INFO root fetch - processPackages [odoo-addon-base-search-custom-field-filter]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.3]
+[2023-07-13 08:14:52] INFO root fetch - processPackages [mysqlx-generator]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-13 08:14:52] INFO root fetch - processPackages [imesh]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 08:14:52] INFO root fetch - processPackages [numerapi]: New version: [2.9.4] Old Version: [2.9.3]
+[2023-07-13 08:14:52] INFO root fetch - processPackages [fedml]: New version: [0.8.6a4] Old Version: [0.8.6a3]
+[2023-07-13 08:14:52] INFO root fetch - processPackages [mysqlx-generator]: Downloading https://files.pythonhosted.org/packages/9d/ef/86e9b8ee8d695138e03bf2a96b7d0cf0046547a7de738a1ecc884569c068/mysqlx-generator-1.5.0.tar.gz
+[2023-07-13 08:14:52] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/73/88/de5e0cc5f80fbd063f0133678585c33601999b00b368d3a90048f7a52772/fedml-0.8.6a3.tar.gz
+[2023-07-13 08:14:52] INFO root fetch - processPackages [lanfacesdk]: Downloading https://files.pythonhosted.org/packages/d2/af/8a48bfac1a824fbc3a698f2b62e746df325fc5398ba93e415632e6016e79/lanfacesdk-0.0.8.tar.gz
+[2023-07-13 08:14:52] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/d3/c7/06c9457ef7e084554964ff765b2d30b95df6ed50ecb869b458c928b41d99/pheno-utils-0.3.3.tar.gz
+[2023-07-13 08:14:52] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/f8/11/fbb815700a24d95cfbe7365213d0aee80141c751106cf6f5ca79461d9263/imesh-0.0.8.tar.gz
+[2023-07-13 08:14:52] INFO root fetch - processPackages [odoo-addon-base-search-custom-field-filter]: Downloading https://files.pythonhosted.org/packages/a7/2f/e9f4d072ca55ef8d4b1413d04f020cf164adb62a72bd8691bdc6900148ef/odoo_addon_base_search_custom_field_filter-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-13 08:14:52] INFO root fetch - processPackages [numerapi]: Downloading https://files.pythonhosted.org/packages/51/e5/ac8f2690cd55352913deae8f515e8949d17848aff7b13edb395c180a1d9e/numerapi-2.9.3.tar.gz
+[2023-07-13 08:14:52] INFO root fetch - processPackages [mysqlx-generator]: Downloading https://files.pythonhosted.org/packages/77/44/c216c4dfd22ac7eca23562cdfa723184df8afdcbca78109def48da5b1d82/mysqlx-generator-1.5.1.tar.gz
+[2023-07-13 08:14:53] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/86/a5/63c86de38682c8e75d7608d30e43c6403a7457c28e95c313a914e07f0ebd/fedml-0.8.6a4.tar.gz
+[2023-07-13 08:14:53] INFO root fetch - processPackages [lanfacesdk]: Downloading https://files.pythonhosted.org/packages/97/a2/038eaf0bf025dfcf22ba9ee7cb8e66aecd807f40297ce32693c90f350635/lanfacesdk-0.0.9.tar.gz
+[2023-07-13 08:14:53] INFO root fetch - processPackages [mysqlx-generator]: executing diffoscope
+[2023-07-13 08:14:53] INFO root fetch - processPackages [mysqlx-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-generator-1.5.0.tar.gz tmp/mysqlx-generator-1.5.1.tar.gz --markdown 20230713/m/mysqlx-generator/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-13 08:14:53] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/bd/5c/6d9fca1b38f00359fd5489a8e87431846776836a6aef6e311c3dc810b221/pheno-utils-0.3.4.tar.gz
+[2023-07-13 08:14:53] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/9b/8d/a9d2b6ef3ee8c478fed84a6db20ce40bbc8121280b7ede35f9e98d939a5d/imesh-0.0.9.tar.gz
+[2023-07-13 08:14:53] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-07-13 08:14:53] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.6a3.tar.gz tmp/fedml-0.8.6a4.tar.gz --markdown 20230713/f/fedml/0.8.6a3-0.8.6a4/diff.md --exclude *.pyd
+[2023-07-13 08:14:53] INFO root fetch - processPackages [odoo-addon-base-search-custom-field-filter]: Downloading https://files.pythonhosted.org/packages/5e/10/22b7288fc273f1a082470639011ff9118286726646ce119bfe46ec510aef/odoo_addon_base_search_custom_field_filter-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-13 08:14:53] INFO root fetch - processPackages [lanfacesdk]: executing diffoscope
+[2023-07-13 08:14:53] INFO root fetch - processPackages [lanfacesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanfacesdk-0.0.8.tar.gz tmp/lanfacesdk-0.0.9.tar.gz --markdown 20230713/l/lanfacesdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 08:14:53] INFO root fetch - processPackages [numerapi]: Downloading https://files.pythonhosted.org/packages/fc/e8/df8911847b6eec6f1536838546345bfe53c7d14f2f10c39ca5499747ba27/numerapi-2.9.4.tar.gz
+[2023-07-13 08:14:53] INFO root fetch - processPackages [pheno-utils]: executing diffoscope
+[2023-07-13 08:14:53] INFO root fetch - processPackages [pheno-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pheno-utils-0.3.3.tar.gz tmp/pheno-utils-0.3.4.tar.gz --markdown 20230713/p/pheno-utils/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-13 08:14:53] INFO root fetch - processPackages [imesh]: executing diffoscope
+[2023-07-13 08:14:53] INFO root fetch - processPackages [imesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imesh-0.0.8.tar.gz tmp/imesh-0.0.9.tar.gz --markdown 20230713/i/imesh/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 08:14:53] INFO root fetch - processPackages [odoo-addon-base-search-custom-field-filter]: executing diffoscope
+[2023-07-13 08:14:53] INFO root fetch - processPackages [odoo-addon-base-search-custom-field-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_search_custom_field_filter-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_base_search_custom_field_filter-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-base-search-custom-field-filter/15.0.1.0.0.3-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-13 08:14:53] INFO root fetch - processPackages [numerapi]: executing diffoscope
+[2023-07-13 08:14:53] INFO root fetch - processPackages [numerapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerapi-2.9.3.tar.gz tmp/numerapi-2.9.4.tar.gz --markdown 20230713/n/numerapi/2.9.3-2.9.4/diff.md --exclude *.pyd
+[2023-07-13 08:14:54] INFO root fetch - processPackages [mysqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-generator-1.5.0.tar.gz]
+[2023-07-13 08:14:54] INFO root fetch - processPackages [mysqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-generator-1.5.1.tar.gz]
+[2023-07-13 08:14:54] INFO root fetch - main [MainThread]: End processing [mysqlx-generator]: success
+[2023-07-13 08:14:54] INFO root fetch - processPackages [lanfacesdk]: Remove: archive file [/home/abi/fetcher/tmp/lanfacesdk-0.0.8.tar.gz]
+[2023-07-13 08:14:54] INFO root fetch - processPackages [lanfacesdk]: Remove: archive file [/home/abi/fetcher/tmp/lanfacesdk-0.0.9.tar.gz]
+[2023-07-13 08:14:54] INFO root fetch - main [MainThread]: End processing [lanfacesdk]: success
+[2023-07-13 08:14:54] INFO root fetch - processPackages [pheno-utils]: Remove: archive file [/home/abi/fetcher/tmp/pheno-utils-0.3.3.tar.gz]
+[2023-07-13 08:14:54] INFO root fetch - processPackages [pheno-utils]: Remove: archive file [/home/abi/fetcher/tmp/pheno-utils-0.3.4.tar.gz]
+[2023-07-13 08:14:54] INFO root fetch - main [MainThread]: End processing [pheno-utils]: success
+[2023-07-13 08:14:54] INFO root fetch - processPackages [odoo-addon-base-search-custom-field-filter]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_search_custom_field_filter-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-13 08:14:54] INFO root fetch - processPackages [odoo-addon-base-search-custom-field-filter]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_search_custom_field_filter-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-13 08:14:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-search-custom-field-filter]: success
+[2023-07-13 08:14:55] INFO root fetch - processPackages [numerapi]: Remove: archive file [/home/abi/fetcher/tmp/numerapi-2.9.3.tar.gz]
+[2023-07-13 08:14:55] INFO root fetch - processPackages [numerapi]: Remove: archive file [/home/abi/fetcher/tmp/numerapi-2.9.4.tar.gz]
+[2023-07-13 08:14:55] INFO root fetch - main [MainThread]: End processing [numerapi]: success
+[2023-07-13 08:14:55] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.8.tar.gz]
+[2023-07-13 08:14:55] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.9.tar.gz]
+[2023-07-13 08:14:55] INFO root fetch - main [MainThread]: End processing [imesh]: success
+[2023-07-13 08:14:58] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.6a3.tar.gz]
+[2023-07-13 08:14:58] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.6a4.tar.gz]
+[2023-07-13 08:14:58] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-07-13 08:14:58] INFO root fetch - main [MainThread]: Store serial: [18870732]
