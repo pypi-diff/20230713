@@ -8879,3 +8879,54 @@
 [2023-07-13 05:57:44] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev8-py3-none-any.whl.zip]
 [2023-07-13 05:57:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-intrastat]: success
 [2023-07-13 05:57:44] INFO root fetch - main [MainThread]: Store serial: [18869658]
+[2023-07-13 06:02:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18869658]
+[2023-07-13 06:02:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-13 06:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-l10n-netherlands
+[2023-07-13 06:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evals-nightly
+[2023-07-13 06:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-tea
+[2023-07-13 06:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: f5project
+[2023-07-13 06:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pdm-packer
+[2023-07-13 06:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ForestScience
+[2023-07-13 06:02:53] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230711] Old Version: [1.0.3.dev20230710]
+[2023-07-13 06:02:53] WARNING root fetch - processPackages [ForestScience]: Skipping, unable to determine old version
+[2023-07-13 06:02:53] INFO root fetch - main [MainThread]: End processing [ForestScience] error
+[2023-07-13 06:02:53] INFO root fetch - processPackages [f5project]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 06:02:53] INFO root fetch - processPackages [alibabacloud-tea]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-13 06:02:53] INFO root fetch - processPackages [pdm-packer]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-13 06:02:53] INFO root fetch - processPackages [odoo-addons-oca-l10n-netherlands]: New version: [16.0.20230712.0] Old Version: [16.0.20230330.0]
+[2023-07-13 06:02:53] INFO root fetch - processPackages [f5project]: Downloading https://files.pythonhosted.org/packages/8a/ce/a2b802cb0a7a9a64f0d88b731fcc7ca0f5ca928115bac89d8656a17f8854/f5project-0.0.8.tar.gz
+[2023-07-13 06:02:53] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/f0/56/d82155a4b997cfc8f8178cf6902c54b869dd44fc64f78a391812de079020/evals-nightly-1.0.3.dev20230710.tar.gz
+[2023-07-13 06:02:53] INFO root fetch - processPackages [pdm-packer]: Downloading https://files.pythonhosted.org/packages/ca/c0/213790484d181ad6e1437cec5162db709974053a06337c11268028145ed7/pdm-packer-0.6.0.tar.gz
+[2023-07-13 06:02:54] INFO root fetch - processPackages [alibabacloud-tea]: Downloading https://files.pythonhosted.org/packages/c0/22/4e41a46f2593141f4c833d0c8ddd58ca57eac17cb1fac6fe5b4c293942b9/alibabacloud-tea-0.3.2.tar.gz
+[2023-07-13 06:02:54] INFO root fetch - processPackages [odoo-addons-oca-l10n-netherlands]: Downloading https://files.pythonhosted.org/packages/ab/5b/68a6827086e04fe3c3c8db8a8735f8bbc75136e4c2b4a8087bf62f7e4c82/odoo_addons_oca_l10n_netherlands-16.0.20230330.0-py3-none-any.whl
+[2023-07-13 06:02:54] INFO root fetch - processPackages [f5project]: Downloading https://files.pythonhosted.org/packages/e8/2f/220c8e52debbe80fc55bf5ede9dfa7c496cdf95165ba8f9486f38aca2c5e/f5project-0.0.9.tar.gz
+[2023-07-13 06:02:54] INFO root fetch - processPackages [f5project]: executing diffoscope
+[2023-07-13 06:02:54] INFO root fetch - processPackages [f5project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f5project-0.0.8.tar.gz tmp/f5project-0.0.9.tar.gz --markdown 20230713/f/f5project/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 06:02:54] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/4c/e1/f5d0473baa458108731c451d27cb32f23dcc074459821d107c403f26e453/evals-nightly-1.0.3.dev20230711.tar.gz
+[2023-07-13 06:02:54] INFO root fetch - processPackages [alibabacloud-tea]: Downloading https://files.pythonhosted.org/packages/f8/5e/73749a119cd2fe051c0fb9973dea5a9658d0985a494b62dc55b6389f87f4/alibabacloud-tea-0.3.3.tar.gz
+[2023-07-13 06:02:54] INFO root fetch - processPackages [pdm-packer]: Downloading https://files.pythonhosted.org/packages/dd/b0/0be460bf123496047e093e22a3e6cd424ea99d7633d9036fdb62ecebc8db/pdm_packer-0.6.1.tar.gz
+[2023-07-13 06:02:54] INFO root fetch - processPackages [pdm-packer]: executing diffoscope
+[2023-07-13 06:02:54] INFO root fetch - processPackages [pdm-packer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm-packer-0.6.0.tar.gz tmp/pdm_packer-0.6.1.tar.gz --markdown 20230713/p/pdm-packer/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-13 06:02:54] INFO root fetch - processPackages [odoo-addons-oca-l10n-netherlands]: Downloading https://files.pythonhosted.org/packages/19/bf/421d5a5dc224d3991189c57d1fae6e3c96a1438833a2ed4366b4f36a7117/odoo_addons_oca_l10n_netherlands-16.0.20230712.0-py3-none-any.whl
+[2023-07-13 06:02:54] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-07-13 06:02:54] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230710.tar.gz tmp/evals-nightly-1.0.3.dev20230711.tar.gz --markdown 20230713/e/evals-nightly/1.0.3.dev20230710-1.0.3.dev20230711/diff.md --exclude *.pyd
+[2023-07-13 06:02:54] INFO root fetch - processPackages [alibabacloud-tea]: executing diffoscope
+[2023-07-13 06:02:54] INFO root fetch - processPackages [alibabacloud-tea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud-tea-0.3.2.tar.gz tmp/alibabacloud-tea-0.3.3.tar.gz --markdown 20230713/a/alibabacloud-tea/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-13 06:02:54] INFO root fetch - processPackages [odoo-addons-oca-l10n-netherlands]: executing diffoscope
+[2023-07-13 06:02:54] INFO root fetch - processPackages [odoo-addons-oca-l10n-netherlands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_netherlands-16.0.20230330.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_netherlands-16.0.20230712.0-py3-none-any.whl.zip --markdown 20230713/o/odoo-addons-oca-l10n-netherlands/16.0.20230330.0-16.0.20230712.0/diff.md --exclude *.pyd
+[2023-07-13 06:02:55] INFO root fetch - processPackages [f5project]: Remove: archive file [/home/abi/fetcher/tmp/f5project-0.0.8.tar.gz]
+[2023-07-13 06:02:55] INFO root fetch - processPackages [f5project]: Remove: archive file [/home/abi/fetcher/tmp/f5project-0.0.9.tar.gz]
+[2023-07-13 06:02:55] INFO root fetch - main [MainThread]: End processing [f5project]: success
+[2023-07-13 06:02:55] INFO root fetch - processPackages [pdm-packer]: Remove: archive file [/home/abi/fetcher/tmp/pdm-packer-0.6.0.tar.gz]
+[2023-07-13 06:02:55] INFO root fetch - processPackages [pdm-packer]: Remove: archive file [/home/abi/fetcher/tmp/pdm_packer-0.6.1.tar.gz]
+[2023-07-13 06:02:55] INFO root fetch - main [MainThread]: End processing [pdm-packer]: success
+[2023-07-13 06:02:55] INFO root fetch - processPackages [odoo-addons-oca-l10n-netherlands]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_netherlands-16.0.20230330.0-py3-none-any.whl.zip]
+[2023-07-13 06:02:55] INFO root fetch - processPackages [odoo-addons-oca-l10n-netherlands]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_netherlands-16.0.20230712.0-py3-none-any.whl.zip]
+[2023-07-13 06:02:55] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-netherlands]: success
+[2023-07-13 06:02:55] INFO root fetch - processPackages [alibabacloud-tea]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud-tea-0.3.2.tar.gz]
+[2023-07-13 06:02:55] INFO root fetch - processPackages [alibabacloud-tea]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud-tea-0.3.3.tar.gz]
+[2023-07-13 06:02:55] INFO root fetch - main [MainThread]: End processing [alibabacloud-tea]: success
+[2023-07-13 06:02:56] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230710.tar.gz]
+[2023-07-13 06:02:56] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230711.tar.gz]
+[2023-07-13 06:02:56] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-07-13 06:02:56] INFO root fetch - main [MainThread]: Store serial: [18869681]
