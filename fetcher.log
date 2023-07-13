@@ -12495,3 +12495,76 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 08:31:02] INFO root fetch - processPackages [EmberFactory]: Remove: archive file [/home/abi/fetcher/tmp/EmberFactory-1.8.0b3-py3-none-any.whl.zip]
 [2023-07-13 08:31:02] INFO root fetch - main [MainThread]: End processing [EmberFactory]: success
 [2023-07-13 08:31:02] INFO root fetch - main [MainThread]: Store serial: [18870809]
+[2023-07-13 08:36:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18870809]
+[2023-07-13 08:36:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-13 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyxllib
+[2023-07-13 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cjm-yolox-pytorch
+[2023-07-13 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pwed-cdk
+[2023-07-13 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: computing-toolbox
+[2023-07-13 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fedml
+[2023-07-13 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aliyun-python-sdk-cbn
+[2023-07-13 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cjm-yolox-pytorch
+[2023-07-13 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kcli
+[2023-07-13 08:36:15] INFO root fetch - processPackages [aliyun-python-sdk-cbn]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 08:36:15] INFO root fetch - processPackages [computing-toolbox]: New version: [1.0.0] Old Version: [0.6.1]
+[2023-07-13 08:36:15] INFO root fetch - processPackages [kcli]: New version: [99.0.202307121017] Old Version: [99.0.202307120642]
+[2023-07-13 08:36:15] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 08:36:15] INFO root fetch - processPackages [pwed-cdk]: New version: [0.0.68] Old Version: [0.0.67]
+[2023-07-13 08:36:15] INFO root fetch - processPackages [fedml]: New version: [0.8.6a4] Old Version: [0.8.6a3]
+[2023-07-13 08:36:15] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 08:36:15] INFO root fetch - processPackages [pyxllib]: New version: [0.3.9] Old Version: [0.3.8.1]
+[2023-07-13 08:36:15] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-13 08:36:15] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/23/a7/aa4ffbbaf4cf6412a523c80872d6c638827cc95a01c8979e74fe8283e6e5/kcli-99.0.202307120642-py3-none-any.whl
+[2023-07-13 08:36:15] INFO root fetch - processPackages [pwed-cdk]: Downloading https://files.pythonhosted.org/packages/ee/69/d7ead62648c2591b4aa57a2087c8b85930a40ed7cc5f88b3a95b0ba2b3e6/pwed-cdk-0.0.67.tar.gz
+[2023-07-13 08:36:15] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/73/88/de5e0cc5f80fbd063f0133678585c33601999b00b368d3a90048f7a52772/fedml-0.8.6a3.tar.gz
+[2023-07-13 08:36:15] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-13 08:36:15] INFO root fetch - processPackages [aliyun-python-sdk-cbn]: Downloading https://files.pythonhosted.org/packages/9b/06/a9c8bdc291552021f32489e6d948d2949a6f18bc8fee6754b8aecc9d1e2f/aliyun-python-sdk-cbn-1.0.8.tar.gz
+[2023-07-13 08:36:15] INFO root fetch - processPackages [pyxllib]: Downloading https://files.pythonhosted.org/packages/92/b3/63c0f112ecbc647b12359588e1a5e43868ba4542e1fdb6d0f037c3b00b1f/pyxllib-0.3.8.1.tar.gz
+[2023-07-13 08:36:15] INFO root fetch - processPackages [computing-toolbox]: Downloading https://files.pythonhosted.org/packages/14/51/8b95e58c452406d056dd599cd4b5c46f521e21091c222b4459ec8b0c4767/computing-toolbox-0.6.1.tar.gz
+[2023-07-13 08:36:15] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 08:36:15] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/15/5e/8696aa9ef22789f21162fc699856e68cccd761bebcc3e79fd3a4bd8494ff/kcli-99.0.202307121017-py3-none-any.whl
+[2023-07-13 08:36:15] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 08:36:15] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/86/a5/63c86de38682c8e75d7608d30e43c6403a7457c28e95c313a914e07f0ebd/fedml-0.8.6a4.tar.gz
+[2023-07-13 08:36:15] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 08:36:15] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 08:36:15] INFO root fetch - processPackages [pwed-cdk]: Downloading https://files.pythonhosted.org/packages/ba/0d/877109711a0ba5346ffa709a03c88a885b593dd60b3a9b4393e73b1b8a11/pwed-cdk-0.0.68.tar.gz
+[2023-07-13 08:36:15] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 08:36:15] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 08:36:15] INFO root fetch - processPackages [aliyun-python-sdk-cbn]: Downloading https://files.pythonhosted.org/packages/e2/b1/1e3d987ae888edcd445ba12c4d8f002e174d1ed23284cafeb15372a1b8c3/aliyun-python-sdk-cbn-1.0.9.tar.gz
+[2023-07-13 08:36:16] INFO root fetch - processPackages [pyxllib]: Downloading https://files.pythonhosted.org/packages/13/39/f5a231f530fcc02e172ed8ed86feec98a3adf3989fabedaeb988e624cefa/pyxllib-0.3.9.tar.gz
+[2023-07-13 08:36:16] INFO root fetch - processPackages [computing-toolbox]: Downloading https://files.pythonhosted.org/packages/59/4a/aa069dac0d9714d2b112cf9a0ebb9a083269c0c511d234ac0885cedf0877/computing-toolbox-1.0.0.tar.gz
+[2023-07-13 08:36:16] INFO root fetch - processPackages [pwed-cdk]: executing diffoscope
+[2023-07-13 08:36:16] INFO root fetch - processPackages [pwed-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwed-cdk-0.0.67.tar.gz tmp/pwed-cdk-0.0.68.tar.gz --markdown 20230713/p/pwed-cdk/0.0.67-0.0.68/diff.md --exclude *.pyd
+[2023-07-13 08:36:16] INFO root fetch - processPackages [computing-toolbox]: executing diffoscope
+[2023-07-13 08:36:16] INFO root fetch - processPackages [computing-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/computing-toolbox-0.6.1.tar.gz tmp/computing-toolbox-1.0.0.tar.gz --markdown 20230713/c/computing-toolbox/0.6.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-13 08:36:16] INFO root fetch - processPackages [aliyun-python-sdk-cbn]: executing diffoscope
+[2023-07-13 08:36:16] INFO root fetch - processPackages [aliyun-python-sdk-cbn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-cbn-1.0.8.tar.gz tmp/aliyun-python-sdk-cbn-1.0.9.tar.gz --markdown 20230713/a/aliyun-python-sdk-cbn/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 08:36:16] INFO root fetch - processPackages [pyxllib]: executing diffoscope
+[2023-07-13 08:36:16] INFO root fetch - processPackages [pyxllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxllib-0.3.8.1.tar.gz tmp/pyxllib-0.3.9.tar.gz --markdown 20230713/p/pyxllib/0.3.8.1-0.3.9/diff.md --exclude *.pyd
+[2023-07-13 08:36:16] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-07-13 08:36:16] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.6a3.tar.gz tmp/fedml-0.8.6a4.tar.gz --markdown 20230713/f/fedml/0.8.6a3-0.8.6a4/diff.md --exclude *.pyd
+[2023-07-13 08:36:17] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-13 08:36:17] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 08:36:17] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 08:36:17] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 08:36:17] INFO root fetch - processPackages [computing-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/computing-toolbox-0.6.1.tar.gz]
+[2023-07-13 08:36:17] INFO root fetch - processPackages [computing-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/computing-toolbox-1.0.0.tar.gz]
+[2023-07-13 08:36:17] INFO root fetch - main [MainThread]: End processing [computing-toolbox]: success
+[2023-07-13 08:36:17] INFO root fetch - processPackages [pwed-cdk]: Remove: archive file [/home/abi/fetcher/tmp/pwed-cdk-0.0.67.tar.gz]
+[2023-07-13 08:36:17] INFO root fetch - processPackages [pwed-cdk]: Remove: archive file [/home/abi/fetcher/tmp/pwed-cdk-0.0.68.tar.gz]
+[2023-07-13 08:36:17] INFO root fetch - main [MainThread]: End processing [pwed-cdk]: success
+[2023-07-13 08:36:17] INFO root fetch - processPackages [aliyun-python-sdk-cbn]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-cbn-1.0.8.tar.gz]
+[2023-07-13 08:36:17] INFO root fetch - processPackages [aliyun-python-sdk-cbn]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-cbn-1.0.9.tar.gz]
+[2023-07-13 08:36:17] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-cbn]: success
+[2023-07-13 08:36:18] INFO root fetch - processPackages [pyxllib]: Remove: archive file [/home/abi/fetcher/tmp/pyxllib-0.3.8.1.tar.gz]
+[2023-07-13 08:36:18] INFO root fetch - processPackages [pyxllib]: Remove: archive file [/home/abi/fetcher/tmp/pyxllib-0.3.9.tar.gz]
+[2023-07-13 08:36:18] INFO root fetch - main [MainThread]: End processing [pyxllib]: success
+[2023-07-13 08:36:21] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.6a3.tar.gz]
+[2023-07-13 08:36:21] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.6a4.tar.gz]
+[2023-07-13 08:36:21] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-07-13 08:36:29] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-13 08:36:29] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307120642-py3-none-any.whl.zip tmp/kcli-99.0.202307121017-py3-none-any.whl.zip --markdown 20230713/k/kcli/99.0.202307120642-99.0.202307121017/diff.md --exclude *.pyd
+[2023-07-13 08:36:32] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307120642-py3-none-any.whl.zip]
+[2023-07-13 08:36:32] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307121017-py3-none-any.whl.zip]
+[2023-07-13 08:36:32] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-13 08:36:32] INFO root fetch - main [MainThread]: Store serial: [18870901]
