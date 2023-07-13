@@ -12842,3 +12842,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 08:52:31] INFO root fetch - processPackages [surfify]: Remove: archive file [/home/abi/fetcher/tmp/surfify-0.2.0.tar.gz]
 [2023-07-13 08:52:31] INFO root fetch - main [MainThread]: End processing [surfify]: success
 [2023-07-13 08:52:31] INFO root fetch - main [MainThread]: Store serial: [18871082]
+[2023-07-13 08:57:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18871082]
+[2023-07-13 08:57:41] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-13 08:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sevent
+[2023-07-13 08:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aihero
+[2023-07-13 08:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tux
+[2023-07-13 08:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydantic-resolve
+[2023-07-13 08:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tuxsuite
+[2023-07-13 08:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cjm-yolox-pytorch
+[2023-07-13 08:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quao
+[2023-07-13 08:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-capoo
+[2023-07-13 08:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hhhash
+[2023-07-13 08:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: arctix
+[2023-07-13 08:57:41] INFO root fetch - processPackages [tuxsuite]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-13 08:57:41] INFO root fetch - processPackages [sevent]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-13 08:57:41] INFO root fetch - processPackages [aihero]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-13 08:57:41] INFO root fetch - processPackages [quao]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-13 08:57:41] INFO root fetch - processPackages [pydantic-resolve]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-07-13 08:57:41] INFO root fetch - processPackages [tux]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 08:57:41] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.80]
+[2023-07-13 08:57:41] WARNING root fetch - processPackages [arctix]: Skipping, unable to determine old version
+[2023-07-13 08:57:41] INFO root fetch - main [MainThread]: End processing [arctix] error
+[2023-07-13 08:57:41] INFO root fetch - processPackages [hhhash]: New version: [0.2] Old Version: [0.1]
+[2023-07-13 08:57:41] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/27/14/f25c40bc531aff32551c08e4d9c8b6894d4749d5ad96f37b58cc307cfb29/tuxsuite-1.8.0.tar.gz
+[2023-07-13 08:57:41] INFO root fetch - processPackages [nonebot-plugin-capoo]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-13 08:57:41] INFO root fetch - processPackages [aihero]: Downloading https://files.pythonhosted.org/packages/e7/8c/851bc7ef1fd3ece924d7bd839d1f8a18342da531f9039db99e68481ea688/aihero-0.2.1.tar.gz
+[2023-07-13 08:57:41] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/a1/d9/1b8d368125709e5408109e7ef87a2aea5b352a6026365cc0ef00fc6e25df/pydantic_resolve-1.6.1.tar.gz
+[2023-07-13 08:57:41] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/e4/80/9a49d5962752df6e27e8a8050356e17b4c6c5b4dd12a7bb6b01682262e15/quao-0.3.6.tar.gz
+[2023-07-13 08:57:41] INFO root fetch - processPackages [hhhash]: Downloading https://files.pythonhosted.org/packages/8a/21/22198aee1c603deaa2f9e124da6a1b4989e8a20a0f6630d16b5f7f5cc689/hhhash-0.1.tar.gz
+[2023-07-13 08:57:41] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/87/64/b1f3327be42ba06f13d0046fb03928ea7d55411c2ccc79b56051422fdc45/cjm-yolox-pytorch-0.0.80.tar.gz
+[2023-07-13 08:57:41] INFO root fetch - processPackages [sevent]: Downloading https://files.pythonhosted.org/packages/2a/64/26775e965c183a310f70edf0d10c4a258fad182d439fff40ef2d72a4d021/sevent-0.4.8.tar.gz
+[2023-07-13 08:57:41] INFO root fetch - processPackages [tux]: Downloading https://files.pythonhosted.org/packages/7e/63/e855f331f184d7333e2432aad69b7d2a377f724cc3f3914f88d2579f5d87/tux-0.0.1.tar.gz
+[2023-07-13 08:57:41] INFO root fetch - processPackages [nonebot-plugin-capoo]: Downloading https://files.pythonhosted.org/packages/b5/72/998089b3d19eefd82088c6bd95526351a77d654ee832accc1a46f9194f41/nonebot_plugin_capoo-0.1.2.tar.gz
+[2023-07-13 08:57:42] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/4d/5e/8be806f24d5782026eef566b71100557104f363339b8917671132eadf1ea/tuxsuite-1.9.0.tar.gz
+[2023-07-13 08:57:42] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 08:57:42] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/97/85/6199dac272f5f135560803d717dc20c165fcd51f9b45ecb7eda64806d18b/quao-0.3.7.tar.gz
+[2023-07-13 08:57:42] INFO root fetch - processPackages [hhhash]: Downloading https://files.pythonhosted.org/packages/fd/1d/b8100e00bdc9024aa561e22098b7139ff395888d4ffde663d86db50f08ce/hhhash-0.2.tar.gz
+[2023-07-13 08:57:42] INFO root fetch - processPackages [aihero]: Downloading https://files.pythonhosted.org/packages/43/f9/4f360ed3eb6afae272c48a231bda06b733fb174411cbc1cf8f621d4a21a4/aihero-0.2.2.tar.gz
+[2023-07-13 08:57:42] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/51/ac/e128f6b1683bddae884aaa8021dd64089942daad2056125d2e92252945ff/pydantic_resolve-1.6.2.tar.gz
+[2023-07-13 08:57:42] INFO root fetch - processPackages [sevent]: Downloading https://files.pythonhosted.org/packages/2e/01/faecf37dd2138ccb67f6595b3baea9607e4e81e94df3fdfe34bf00ffe22f/sevent-0.4.9.tar.gz
+[2023-07-13 08:57:42] INFO root fetch - processPackages [tuxsuite]: executing diffoscope
+[2023-07-13 08:57:42] INFO root fetch - processPackages [tuxsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxsuite-1.8.0.tar.gz tmp/tuxsuite-1.9.0.tar.gz --markdown 20230713/t/tuxsuite/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-13 08:57:42] INFO root fetch - processPackages [tux]: Downloading https://files.pythonhosted.org/packages/fe/a5/5932e7855531f9209c5d4d05e972acc01fe1bb3d52e0b220aa2e7d951a59/tux-0.0.2.tar.gz
+[2023-07-13 08:57:42] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 08:57:42] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.80.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.80-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 08:57:42] INFO root fetch - processPackages [nonebot-plugin-capoo]: Downloading https://files.pythonhosted.org/packages/86/ed/8e246ad55e85bf6b3a3b87917d3cca15c7bd5dd00873dc2f7521eb2e6a50/nonebot_plugin_capoo-0.1.3.tar.gz
+[2023-07-13 08:57:42] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-13 08:57:42] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.6.tar.gz tmp/quao-0.3.7.tar.gz --markdown 20230713/q/quao/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-13 08:57:42] INFO root fetch - processPackages [aihero]: executing diffoscope
+[2023-07-13 08:57:42] INFO root fetch - processPackages [aihero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihero-0.2.1.tar.gz tmp/aihero-0.2.2.tar.gz --markdown 20230713/a/aihero/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-13 08:57:42] INFO root fetch - processPackages [pydantic-resolve]: executing diffoscope
+[2023-07-13 08:57:42] INFO root fetch - processPackages [pydantic-resolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_resolve-1.6.1.tar.gz tmp/pydantic_resolve-1.6.2.tar.gz --markdown 20230713/p/pydantic-resolve/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-07-13 08:57:42] INFO root fetch - processPackages [hhhash]: executing diffoscope
+[2023-07-13 08:57:42] INFO root fetch - processPackages [hhhash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hhhash-0.1.tar.gz tmp/hhhash-0.2.tar.gz --markdown 20230713/h/hhhash/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-13 08:57:42] INFO root fetch - processPackages [tux]: executing diffoscope
+[2023-07-13 08:57:42] INFO root fetch - processPackages [tux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tux-0.0.1.tar.gz tmp/tux-0.0.2.tar.gz --markdown 20230713/t/tux/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 08:57:42] INFO root fetch - processPackages [sevent]: executing diffoscope
+[2023-07-13 08:57:42] INFO root fetch - processPackages [sevent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sevent-0.4.8.tar.gz tmp/sevent-0.4.9.tar.gz --markdown 20230713/s/sevent/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-13 08:57:42] INFO root fetch - processPackages [nonebot-plugin-capoo]: executing diffoscope
+[2023-07-13 08:57:42] INFO root fetch - processPackages [nonebot-plugin-capoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_capoo-0.1.2.tar.gz tmp/nonebot_plugin_capoo-0.1.3.tar.gz --markdown 20230713/n/nonebot-plugin-capoo/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-13 08:57:43] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.80.tar.gz]
+[2023-07-13 08:57:43] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 08:57:43] INFO root fetch - processPackages [tux]: Remove: archive file [/home/abi/fetcher/tmp/tux-0.0.1.tar.gz]
+[2023-07-13 08:57:43] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 08:57:43] INFO root fetch - processPackages [tux]: Remove: archive file [/home/abi/fetcher/tmp/tux-0.0.2.tar.gz]
+[2023-07-13 08:57:43] INFO root fetch - main [MainThread]: End processing [tux]: success
+[2023-07-13 08:57:43] INFO root fetch - processPackages [aihero]: Remove: archive file [/home/abi/fetcher/tmp/aihero-0.2.1.tar.gz]
+[2023-07-13 08:57:43] INFO root fetch - processPackages [aihero]: Remove: archive file [/home/abi/fetcher/tmp/aihero-0.2.2.tar.gz]
+[2023-07-13 08:57:43] INFO root fetch - main [MainThread]: End processing [aihero]: success
+[2023-07-13 08:57:44] INFO root fetch - processPackages [hhhash]: Remove: archive file [/home/abi/fetcher/tmp/hhhash-0.1.tar.gz]
+[2023-07-13 08:57:44] INFO root fetch - processPackages [hhhash]: Remove: archive file [/home/abi/fetcher/tmp/hhhash-0.2.tar.gz]
+[2023-07-13 08:57:44] INFO root fetch - main [MainThread]: End processing [hhhash]: success
+[2023-07-13 08:57:44] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.6.tar.gz]
+[2023-07-13 08:57:44] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.7.tar.gz]
+[2023-07-13 08:57:44] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-13 08:57:44] INFO root fetch - processPackages [sevent]: Remove: archive file [/home/abi/fetcher/tmp/sevent-0.4.8.tar.gz]
+[2023-07-13 08:57:44] INFO root fetch - processPackages [sevent]: Remove: archive file [/home/abi/fetcher/tmp/sevent-0.4.9.tar.gz]
+[2023-07-13 08:57:44] INFO root fetch - main [MainThread]: End processing [sevent]: success
+[2023-07-13 08:57:44] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.6.1.tar.gz]
+[2023-07-13 08:57:44] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.6.2.tar.gz]
+[2023-07-13 08:57:44] INFO root fetch - main [MainThread]: End processing [pydantic-resolve]: success
+[2023-07-13 08:57:44] INFO root fetch - processPackages [nonebot-plugin-capoo]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_capoo-0.1.2.tar.gz]
+[2023-07-13 08:57:44] INFO root fetch - processPackages [nonebot-plugin-capoo]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_capoo-0.1.3.tar.gz]
+[2023-07-13 08:57:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-capoo]: success
+[2023-07-13 08:57:44] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.8.0.tar.gz]
+[2023-07-13 08:57:44] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.9.0.tar.gz]
+[2023-07-13 08:57:44] INFO root fetch - main [MainThread]: End processing [tuxsuite]: success
+[2023-07-13 08:57:44] INFO root fetch - main [MainThread]: Store serial: [18871149]
