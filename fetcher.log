@@ -12685,3 +12685,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 08:41:50] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.2.7.tar.gz]
 [2023-07-13 08:41:50] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-07-13 08:41:50] INFO root fetch - main [MainThread]: Store serial: [18870970]
+[2023-07-13 08:46:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18870970]
+[2023-07-13 08:47:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-13 08:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nwebclient
+[2023-07-13 08:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cjm-yolox-pytorch
+[2023-07-13 08:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: muffin-admin
+[2023-07-13 08:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fedml
+[2023-07-13 08:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyncos-module
+[2023-07-13 08:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyacaia-async
+[2023-07-13 08:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigflow
+[2023-07-13 08:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pinterest-crawler
+[2023-07-13 08:47:00] WARNING root fetch - processPackages [pyacaia-async]: Skipping, unable to determine old version
+[2023-07-13 08:47:00] INFO root fetch - main [MainThread]: End processing [pyacaia-async] error
+[2023-07-13 08:47:00] ERROR root fetch - processPackages [pinterest-crawler]: Unable to get metadata: No such project 'pinterest-crawler'
+[2023-07-13 08:47:00] INFO root fetch - main [MainThread]: End processing [pinterest-crawler] error
+[2023-07-13 08:47:00] INFO root fetch - processPackages [pyncos-module]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 08:47:00] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-13 08:47:00] INFO root fetch - processPackages [fedml]: New version: [0.8.7a1] Old Version: [0.8.6a4]
+[2023-07-13 08:47:00] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 08:47:00] INFO root fetch - processPackages [bigflow]: New version: [1.8.0] Old Version: [1.7.2]
+[2023-07-13 08:47:00] INFO root fetch - processPackages [muffin-admin]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-13 08:47:00] INFO root fetch - processPackages [pyncos-module]: Downloading https://files.pythonhosted.org/packages/63/ff/0901eae35fb46a6cdc5a1f5835a7ca2b23b694932479bc717eeca95b9444/pyncos-module-0.0.8.tar.gz
+[2023-07-13 08:47:00] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-13 08:47:00] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/86/a5/63c86de38682c8e75d7608d30e43c6403a7457c28e95c313a914e07f0ebd/fedml-0.8.6a4.tar.gz
+[2023-07-13 08:47:00] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-13 08:47:01] INFO root fetch - processPackages [bigflow]: Downloading https://files.pythonhosted.org/packages/3f/5f/63f8f0e1aaaf599be97e56bc33bac5ee4c8c5fafa9db25c837f2d8573962/bigflow-1.7.2.tar.gz
+[2023-07-13 08:47:01] INFO root fetch - processPackages [pyncos-module]: Downloading https://files.pythonhosted.org/packages/20/ed/1e03da676886a5e1f50037ff8be976a946768e47bd083e2ff49c922c7b4c/pyncos-module-0.0.9.tar.gz
+[2023-07-13 08:47:01] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 08:47:01] INFO root fetch - processPackages [pyncos-module]: executing diffoscope
+[2023-07-13 08:47:01] INFO root fetch - processPackages [pyncos-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyncos-module-0.0.8.tar.gz tmp/pyncos-module-0.0.9.tar.gz --markdown 20230713/p/pyncos-module/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 08:47:01] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/81/a6/7c7bcbea2f0571db8d972f2e59a075c0770dd4a2263d104f7479fa9eca1e/fedml-0.8.7a1.tar.gz
+[2023-07-13 08:47:01] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 08:47:01] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 08:47:01] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-13 08:47:01] INFO root fetch - processPackages [muffin-admin]: Downloading https://files.pythonhosted.org/packages/63/e9/6b034c32bbf3742c8219ee3a69ba44c2b94b9758f99cfa0ec0aa10c3d352/muffin-admin-1.8.1.tar.gz
+[2023-07-13 08:47:01] INFO root fetch - processPackages [bigflow]: Downloading https://files.pythonhosted.org/packages/b4/48/e38e70428dfdcaa488643da7e1df11d63e7f9879dea844e8088f059090b8/bigflow-1.8.0.tar.gz
+[2023-07-13 08:47:01] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-13 08:47:01] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230713/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-13 08:47:01] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-07-13 08:47:01] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.6a4.tar.gz tmp/fedml-0.8.7a1.tar.gz --markdown 20230713/f/fedml/0.8.6a4-0.8.7a1/diff.md --exclude *.pyd
+[2023-07-13 08:47:01] INFO root fetch - processPackages [bigflow]: executing diffoscope
+[2023-07-13 08:47:01] INFO root fetch - processPackages [bigflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigflow-1.7.2.tar.gz tmp/bigflow-1.8.0.tar.gz --markdown 20230713/b/bigflow/1.7.2-1.8.0/diff.md --exclude *.pyd
+[2023-07-13 08:47:02] INFO root fetch - processPackages [muffin-admin]: Downloading https://files.pythonhosted.org/packages/9e/5b/3cda6b53f22847d402f99962337e921c6478b940e51a6d1e692ea3b0538f/muffin-admin-1.9.0.tar.gz
+[2023-07-13 08:47:02] INFO root fetch - processPackages [pyncos-module]: Remove: archive file [/home/abi/fetcher/tmp/pyncos-module-0.0.8.tar.gz]
+[2023-07-13 08:47:02] INFO root fetch - processPackages [pyncos-module]: Remove: archive file [/home/abi/fetcher/tmp/pyncos-module-0.0.9.tar.gz]
+[2023-07-13 08:47:02] INFO root fetch - main [MainThread]: End processing [pyncos-module]: success
+[2023-07-13 08:47:02] INFO root fetch - processPackages [muffin-admin]: executing diffoscope
+[2023-07-13 08:47:02] INFO root fetch - processPackages [muffin-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin-admin-1.8.1.tar.gz tmp/muffin-admin-1.9.0.tar.gz --markdown 20230713/m/muffin-admin/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-13 08:47:02] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-13 08:47:02] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 08:47:02] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 08:47:02] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-13 08:47:02] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-13 08:47:02] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-13 08:47:03] INFO root fetch - processPackages [bigflow]: Remove: archive file [/home/abi/fetcher/tmp/bigflow-1.7.2.tar.gz]
+[2023-07-13 08:47:03] INFO root fetch - processPackages [bigflow]: Remove: archive file [/home/abi/fetcher/tmp/bigflow-1.8.0.tar.gz]
+[2023-07-13 08:47:03] INFO root fetch - main [MainThread]: End processing [bigflow]: success
+[2023-07-13 08:47:06] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.6a4.tar.gz]
+[2023-07-13 08:47:06] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.7a1.tar.gz]
+[2023-07-13 08:47:06] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-07-13 08:47:17] INFO root fetch - processPackages [muffin-admin]: Remove: archive file [/home/abi/fetcher/tmp/muffin-admin-1.8.1.tar.gz]
+[2023-07-13 08:47:17] INFO root fetch - processPackages [muffin-admin]: Remove: archive file [/home/abi/fetcher/tmp/muffin-admin-1.9.0.tar.gz]
+[2023-07-13 08:47:17] INFO root fetch - main [MainThread]: End processing [muffin-admin]: success
+[2023-07-13 08:47:17] INFO root fetch - main [MainThread]: Store serial: [18871042]
