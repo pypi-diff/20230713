@@ -6434,3 +6434,72 @@
 [2023-07-13 03:58:35] INFO root fetch - processPackages [nebulae]: Remove: archive file [/home/abi/fetcher/tmp/nebulae-0.6.9.tar.gz]
 [2023-07-13 03:58:35] INFO root fetch - main [MainThread]: End processing [nebulae]: success
 [2023-07-13 03:58:35] INFO root fetch - main [MainThread]: Store serial: [18868861]
+[2023-07-13 04:03:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18868861]
+[2023-07-13 04:03:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-13 04:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autosrt
+[2023-07-13 04:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quao
+[2023-07-13 04:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apache-dolphinscheduler
+[2023-07-13 04:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-wordpress
+[2023-07-13 04:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyapp-flow
+[2023-07-13 04:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apache-dolphinscheduler
+[2023-07-13 04:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proactive
+[2023-07-13 04:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qna-builder
+[2023-07-13 04:03:44] INFO root fetch - processPackages [quao]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-13 04:03:44] INFO root fetch - processPackages [autosrt]: New version: [1.4.6] Old Version: [1.3.9]
+[2023-07-13 04:03:44] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-13 04:03:44] INFO root fetch - processPackages [pyapp-flow]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-13 04:03:44] INFO root fetch - processPackages [apache-dolphinscheduler]: New version: [4.0.3] Old Version: [4.0.2a9]
+[2023-07-13 04:03:44] INFO root fetch - processPackages [apache-dolphinscheduler]: New version: [4.0.3] Old Version: [4.0.2a9]
+[2023-07-13 04:03:44] INFO root fetch - processPackages [qna-builder]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-13 04:03:44] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/45/ac/a42258e50a55316a492ca08c1f67116cd3514992ff606918747eed93b922/quao-0.3.5.tar.gz
+[2023-07-13 04:03:44] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-07-13 04:03:44] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-07-13 04:03:44] INFO root fetch - processPackages [apache-dolphinscheduler]: Downloading https://files.pythonhosted.org/packages/9f/7b/5bbac5b2d1b93f79a0814dd4d556cebd11c97191289b6c4d6cd2b83585cd/apache-dolphinscheduler-4.0.2a9.tar.gz
+[2023-07-13 04:03:44] INFO root fetch - processPackages [apache-dolphinscheduler]: Downloading https://files.pythonhosted.org/packages/9f/7b/5bbac5b2d1b93f79a0814dd4d556cebd11c97191289b6c4d6cd2b83585cd/apache-dolphinscheduler-4.0.2a9.tar.gz
+[2023-07-13 04:03:44] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/50/b5/2f112c29ffa8a2e7aaf1b0860a34b080c6141aabae2c3209112564773dd5/autosrt-1.3.9.tar.gz
+[2023-07-13 04:03:44] INFO root fetch - processPackages [pyapp-flow]: Downloading https://files.pythonhosted.org/packages/53/87/1efc290f9bb68a9cceff43028608a3e89fcd1f6119434010259c73294707/pyapp-flow-0.8.0.tar.gz
+[2023-07-13 04:03:44] INFO root fetch - processPackages [qna-builder]: Downloading https://files.pythonhosted.org/packages/f5/07/bbf69ae1915497f6afaff05490b1a3c87f7492b87b1911418b399e781a84/qna-builder-0.1.2.tar.gz
+[2023-07-13 04:03:44] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-07-13 04:03:44] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-07-13 04:03:44] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-07-13 04:03:44] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-07-13 04:03:45] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/e4/80/9a49d5962752df6e27e8a8050356e17b4c6c5b4dd12a7bb6b01682262e15/quao-0.3.6.tar.gz
+[2023-07-13 04:03:45] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-07-13 04:03:45] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230713/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-13 04:03:45] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/76/50/4e6191f498f51e994eb36f54365bf74eb6563b2834ec5233fbbcf1dc018b/autosrt-1.4.6.tar.gz
+[2023-07-13 04:03:45] INFO root fetch - processPackages [apache-dolphinscheduler]: Downloading https://files.pythonhosted.org/packages/26/34/bdbab9df54fba2c58036cb5ecde9596fa6b9ef30f3e697ed5a4d720403d8/apache-dolphinscheduler-4.0.3.tar.gz
+[2023-07-13 04:03:45] INFO root fetch - processPackages [apache-dolphinscheduler]: Downloading https://files.pythonhosted.org/packages/26/34/bdbab9df54fba2c58036cb5ecde9596fa6b9ef30f3e697ed5a4d720403d8/apache-dolphinscheduler-4.0.3.tar.gz
+[2023-07-13 04:03:45] INFO root fetch - processPackages [qna-builder]: Downloading https://files.pythonhosted.org/packages/15/f6/439bf873040b39bcdc353ab621c6b5e5527f190edbfa0bf8485602688b45/qna-builder-0.1.3.tar.gz
+[2023-07-13 04:03:45] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-13 04:03:45] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.5.tar.gz tmp/quao-0.3.6.tar.gz --markdown 20230713/q/quao/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-13 04:03:45] INFO root fetch - processPackages [autosrt]: executing diffoscope
+[2023-07-13 04:03:45] INFO root fetch - processPackages [autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosrt-1.3.9.tar.gz tmp/autosrt-1.4.6.tar.gz --markdown 20230713/a/autosrt/1.3.9-1.4.6/diff.md --exclude *.pyd
+[2023-07-13 04:03:45] INFO root fetch - processPackages [pyapp-flow]: Downloading https://files.pythonhosted.org/packages/76/0a/afcf5faf502ffe35479eb84cff6e0526f4e49c11a766c2290b8543a65f75/pyapp-flow-0.9.0.tar.gz
+[2023-07-13 04:03:45] INFO root fetch - processPackages [apache-dolphinscheduler]: executing diffoscope
+[2023-07-13 04:03:45] INFO root fetch - processPackages [apache-dolphinscheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-dolphinscheduler-4.0.2a9.tar.gz tmp/apache-dolphinscheduler-4.0.3.tar.gz --markdown 20230713/a/apache-dolphinscheduler/4.0.2a9-4.0.3/diff.md --exclude *.pyd
+[2023-07-13 04:03:45] INFO root fetch - processPackages [apache-dolphinscheduler]: executing diffoscope
+[2023-07-13 04:03:45] INFO root fetch - processPackages [apache-dolphinscheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-dolphinscheduler-4.0.2a9.tar.gz tmp/apache-dolphinscheduler-4.0.3.tar.gz --markdown 20230713/a/apache-dolphinscheduler/4.0.2a9-4.0.3/diff.md --exclude *.pyd
+[2023-07-13 04:03:45] INFO root fetch - processPackages [qna-builder]: executing diffoscope
+[2023-07-13 04:03:45] INFO root fetch - processPackages [qna-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qna-builder-0.1.2.tar.gz tmp/qna-builder-0.1.3.tar.gz --markdown 20230713/q/qna-builder/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-13 04:03:45] INFO root fetch - processPackages [pyapp-flow]: executing diffoscope
+[2023-07-13 04:03:45] INFO root fetch - processPackages [pyapp-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyapp-flow-0.8.0.tar.gz tmp/pyapp-flow-0.9.0.tar.gz --markdown 20230713/p/pyapp-flow/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-13 04:03:46] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-07-13 04:03:46] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-07-13 04:03:46] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-07-13 04:03:46] INFO root fetch - processPackages [autosrt]: Remove: archive file [/home/abi/fetcher/tmp/autosrt-1.3.9.tar.gz]
+[2023-07-13 04:03:46] INFO root fetch - processPackages [autosrt]: Remove: archive file [/home/abi/fetcher/tmp/autosrt-1.4.6.tar.gz]
+[2023-07-13 04:03:46] INFO root fetch - main [MainThread]: End processing [autosrt]: success
+[2023-07-13 04:03:46] INFO root fetch - processPackages [qna-builder]: Remove: archive file [/home/abi/fetcher/tmp/qna-builder-0.1.2.tar.gz]
+[2023-07-13 04:03:46] INFO root fetch - processPackages [qna-builder]: Remove: archive file [/home/abi/fetcher/tmp/qna-builder-0.1.3.tar.gz]
+[2023-07-13 04:03:46] INFO root fetch - main [MainThread]: End processing [qna-builder]: success
+[2023-07-13 04:03:46] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.5.tar.gz]
+[2023-07-13 04:03:46] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.6.tar.gz]
+[2023-07-13 04:03:46] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-13 04:03:46] INFO root fetch - processPackages [pyapp-flow]: Remove: archive file [/home/abi/fetcher/tmp/pyapp-flow-0.8.0.tar.gz]
+[2023-07-13 04:03:46] INFO root fetch - processPackages [pyapp-flow]: Remove: archive file [/home/abi/fetcher/tmp/pyapp-flow-0.9.0.tar.gz]
+[2023-07-13 04:03:46] INFO root fetch - main [MainThread]: End processing [pyapp-flow]: success
+[2023-07-13 04:03:46] INFO root fetch - processPackages [apache-dolphinscheduler]: Remove: archive file [/home/abi/fetcher/tmp/apache-dolphinscheduler-4.0.2a9.tar.gz]
+[2023-07-13 04:03:46] INFO root fetch - processPackages [apache-dolphinscheduler]: Remove: archive file [/home/abi/fetcher/tmp/apache-dolphinscheduler-4.0.3.tar.gz]
+[2023-07-13 04:03:46] INFO root fetch - main [MainThread]: End processing [apache-dolphinscheduler]: success
+[2023-07-13 04:03:47] INFO root fetch - main [MainThread]: End processing [apache-dolphinscheduler]: success
+[2023-07-13 04:03:47] INFO root fetch - main [MainThread]: Store serial: [18868888]
