@@ -22537,3 +22537,147 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 14:51:29] INFO root fetch - processPackages [pyconverters-newsml]: Remove: archive file [/home/abi/fetcher/tmp/pyconverters_newsml-0.5.97-py3-none-any.whl.zip]
 [2023-07-13 14:51:29] INFO root fetch - main [MainThread]: End processing [pyconverters-newsml]: success
 [2023-07-13 14:51:29] INFO root fetch - main [MainThread]: Store serial: [18874892]
+[2023-07-13 14:56:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18874892]
+[2023-07-13 14:56:38] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-13 14:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: delphi-epidata
+[2023-07-13 14:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: manticore
+[2023-07-13 14:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-standalone-docs
+[2023-07-13 14:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nomad-camels
+[2023-07-13 14:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prophecy-libs
+[2023-07-13 14:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: suitable
+[2023-07-13 14:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: takpy
+[2023-07-13 14:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: darwinio
+[2023-07-13 14:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyconverters-newsml
+[2023-07-13 14:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: seaplayer
+[2023-07-13 14:56:38] INFO root fetch - processPackages [pyconverters-newsml]: New version: [0.5.97] Old Version: [0.5.88]
+[2023-07-13 14:56:39] INFO root fetch - processPackages [suitable]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-13 14:56:39] INFO root fetch - processPackages [nomad-camels]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-13 14:56:39] INFO root fetch - processPackages [darwinio]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-13 14:56:39] INFO root fetch - processPackages [fastapi-standalone-docs]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-13 14:56:39] WARNING root fetch - processPackages [takpy]: Skipping, unable to determine old version
+[2023-07-13 14:56:39] INFO root fetch - processPackages [takpy]: Start processing: qvsed
+[2023-07-13 14:56:39] INFO root fetch - main [MainThread]: End processing [takpy] error
+[2023-07-13 14:56:39] INFO root fetch - processPackages [prophecy-libs]: New version: [1.5.9.dev0] Old Version: [1.5.8]
+[2023-07-13 14:56:39] INFO root fetch - processPackages [delphi-epidata]: New version: [4.1.6] Old Version: [4.1.5]
+[2023-07-13 14:56:39] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230713] Old Version: [0.3.8.dev230712]
+[2023-07-13 14:56:39] INFO root fetch - processPackages [qvsed]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-13 14:56:39] INFO root fetch - processPackages [seaplayer]: New version: [0.5.5.post2] Old Version: [0.5.5.post1]
+[2023-07-13 14:56:39] INFO root fetch - processPackages [pyconverters-newsml]: Downloading https://files.pythonhosted.org/packages/3a/96/ba551391aa9ea9f7e2b94d7f27e9cfccb6d692735189ba56e94bf84f101d/pyconverters-newsml-0.5.88.tar.gz
+[2023-07-13 14:56:39] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/0f/b7/cbbbffbeeb091b7dc2c6eeef9326e853ace27e03b30a96166ae86220d1b6/qvsed-1.5.2.tar.gz
+[2023-07-13 14:56:39] INFO root fetch - processPackages [darwinio]: Downloading https://files.pythonhosted.org/packages/a5/56/15e4373adc6b05092034766e156919f683fa54dc4dfde2b6568e67f5310a/darwinio-0.3.1.tar.gz
+[2023-07-13 14:56:39] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/70/ca/4debda4b5205cc7550b342be9854d49f5d9a9a2d4c312e39f4d0467908d8/manticore-0.3.8.dev230712.tar.gz
+[2023-07-13 14:56:39] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/c4/79/fb8da54dd09704884770d0f87e4bd1a3acb68441202d03a3be7b1fe04faa/prophecy-libs-1.5.8.tar.gz
+[2023-07-13 14:56:39] INFO root fetch - processPackages [nomad-camels]: Downloading https://files.pythonhosted.org/packages/28/12/bc8e621f146b617c614155d76160bc69a4f9ae01ba41bbd61f573d1dc1fb/nomad_camels-0.1.4.tar.gz
+[2023-07-13 14:56:39] INFO root fetch - processPackages [fastapi-standalone-docs]: Downloading https://files.pythonhosted.org/packages/3f/a4/f702b210f7e102c295015bbf97be4037a92ecb9caf7ba046e92477b952b7/fastapi_standalone_docs-0.1.3.tar.gz
+[2023-07-13 14:56:39] INFO root fetch - processPackages [suitable]: Downloading https://files.pythonhosted.org/packages/61/31/8c3785a0ebd958a34ec73a57d15613c6783bf44835a9ad05e6d763ea8ef8/suitable-0.8.1.tar.gz
+[2023-07-13 14:56:39] INFO root fetch - processPackages [delphi-epidata]: Downloading https://files.pythonhosted.org/packages/3d/c9/fe6db40daf2e14969d039cb6ca1e60b5d5fff773d1a937728953c505f14e/delphi_epidata-4.1.5.tar.gz
+[2023-07-13 14:56:39] INFO root fetch - processPackages [seaplayer]: Downloading https://files.pythonhosted.org/packages/54/00/d7c855340bde8e1019dba9d82c7d2e408edfe0afed81ef353b2b63ae7541/seaplayer-0.5.5.post1.tar.gz
+[2023-07-13 14:56:39] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/46/ab/0c40424e423b4551a19a04de5f04384efc8f0511aff9ef462e912050ca3b/qvsed-1.5.3.tar.gz
+[2023-07-13 14:56:39] INFO root fetch - processPackages [pyconverters-newsml]: Downloading https://files.pythonhosted.org/packages/35/36/d5b2c7cf9167e9617ea8f6d104118bc1baf38c41b2a72147016c6f105c4b/pyconverters_newsml-0.5.97-py3-none-any.whl
+[2023-07-13 14:56:39] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/80/94/edeba85dbc518781d442179a68e037a77ac188c817b153cf02aea12c6e3f/prophecy-libs-1.5.9.dev0.tar.gz
+[2023-07-13 14:56:39] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/71/6d/219169a60d0780908c2a281c8ca9a8d18c5d799808680ed23c38f0766487/manticore-0.3.8.dev230713.tar.gz
+[2023-07-13 14:56:39] INFO root fetch - processPackages [delphi-epidata]: Downloading https://files.pythonhosted.org/packages/46/71/2e0abd57972e050d98628f489bbad901256a2bf392b98c2b9d3fd84087d2/delphi_epidata-4.1.6.tar.gz
+[2023-07-13 14:56:39] INFO root fetch - processPackages [fastapi-standalone-docs]: Downloading https://files.pythonhosted.org/packages/36/fe/e2b996c97a9eeb72bebe6af43f3ff2396feeadef3cb93aea8cf77c813856/fastapi_standalone_docs-0.1.4.tar.gz
+[2023-07-13 14:56:39] INFO root fetch - processPackages [darwinio]: Downloading https://files.pythonhosted.org/packages/7d/cf/d4938a44938c0e47db4403e6edadc49e637f214481c4b5c71cb47b2d5e4f/darwinio-0.3.2.tar.gz
+[2023-07-13 14:56:39] INFO root fetch - processPackages [seaplayer]: Downloading https://files.pythonhosted.org/packages/cc/88/ee59460dcea842c9dae147e39b2fa3a4983668c69f98634404df83e91645/seaplayer-0.5.5.post2.tar.gz
+[2023-07-13 14:56:39] INFO root fetch - processPackages [qvsed]: executing diffoscope
+[2023-07-13 14:56:39] INFO root fetch - processPackages [qvsed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qvsed-1.5.2.tar.gz tmp/qvsed-1.5.3.tar.gz --markdown 20230713/q/qvsed/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-13 14:56:40] INFO root fetch - processPackages [pyconverters-newsml]: executing diffoscope
+[2023-07-13 14:56:40] INFO root fetch - processPackages [pyconverters-newsml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconverters-newsml-0.5.88.tar.gz tmp/pyconverters_newsml-0.5.97-py3-none-any.whl.zip --markdown 20230713/p/pyconverters-newsml/0.5.88-0.5.97/diff.md --exclude *.pyd
+[2023-07-13 14:56:40] INFO root fetch - processPackages [nomad-camels]: Downloading https://files.pythonhosted.org/packages/a2/bb/f2473274cef1d8835111d1a8453e6bc48024bcaf676f517ac243e906c099/nomad_camels-0.1.5.tar.gz
+[2023-07-13 14:56:40] INFO root fetch - processPackages [suitable]: Downloading https://files.pythonhosted.org/packages/62/89/6a6ef07e3144a8021dd9a94e79223088abd09862097598097ae18a5a6fcf/suitable-0.9.0.tar.gz
+[2023-07-13 14:56:40] INFO root fetch - processPackages [prophecy-libs]: executing diffoscope
+[2023-07-13 14:56:40] INFO root fetch - processPackages [prophecy-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-libs-1.5.8.tar.gz tmp/prophecy-libs-1.5.9.dev0.tar.gz --markdown 20230713/p/prophecy-libs/1.5.8-1.5.9.dev0/diff.md --exclude *.pyd
+[2023-07-13 14:56:40] INFO root fetch - processPackages [delphi-epidata]: executing diffoscope
+[2023-07-13 14:56:40] INFO root fetch - processPackages [delphi-epidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphi_epidata-4.1.5.tar.gz tmp/delphi_epidata-4.1.6.tar.gz --markdown 20230713/d/delphi-epidata/4.1.5-4.1.6/diff.md --exclude *.pyd
+[2023-07-13 14:56:40] INFO root fetch - processPackages [fastapi-standalone-docs]: executing diffoscope
+[2023-07-13 14:56:40] INFO root fetch - processPackages [fastapi-standalone-docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_standalone_docs-0.1.3.tar.gz tmp/fastapi_standalone_docs-0.1.4.tar.gz --markdown 20230713/f/fastapi-standalone-docs/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-13 14:56:40] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-07-13 14:56:40] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230712.tar.gz tmp/manticore-0.3.8.dev230713.tar.gz --markdown 20230713/m/manticore/0.3.8.dev230712-0.3.8.dev230713/diff.md --exclude *.pyd
+[2023-07-13 14:56:40] INFO root fetch - processPackages [seaplayer]: executing diffoscope
+[2023-07-13 14:56:40] INFO root fetch - processPackages [seaplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplayer-0.5.5.post1.tar.gz tmp/seaplayer-0.5.5.post2.tar.gz --markdown 20230713/s/seaplayer/0.5.5.post1-0.5.5.post2/diff.md --exclude *.pyd
+[2023-07-13 14:56:40] INFO root fetch - processPackages [nomad-camels]: executing diffoscope
+[2023-07-13 14:56:40] INFO root fetch - processPackages [nomad-camels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomad_camels-0.1.4.tar.gz tmp/nomad_camels-0.1.5.tar.gz --markdown 20230713/n/nomad-camels/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-13 14:56:40] INFO root fetch - processPackages [darwinio]: executing diffoscope
+[2023-07-13 14:56:40] INFO root fetch - processPackages [darwinio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darwinio-0.3.1.tar.gz tmp/darwinio-0.3.2.tar.gz --markdown 20230713/d/darwinio/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-13 14:56:40] INFO root fetch - processPackages [suitable]: executing diffoscope
+[2023-07-13 14:56:40] INFO root fetch - processPackages [suitable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suitable-0.8.1.tar.gz tmp/suitable-0.9.0.tar.gz --markdown 20230713/s/suitable/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-13 14:56:41] INFO root fetch - processPackages [pyconverters-newsml]: Remove: archive file [/home/abi/fetcher/tmp/pyconverters-newsml-0.5.88.tar.gz]
+[2023-07-13 14:56:41] INFO root fetch - processPackages [pyconverters-newsml]: Remove: archive file [/home/abi/fetcher/tmp/pyconverters_newsml-0.5.97-py3-none-any.whl.zip]
+[2023-07-13 14:56:41] INFO root fetch - processPackages [pyconverters-newsml]: Start processing: longyuanpower
+[2023-07-13 14:56:41] INFO root fetch - main [MainThread]: End processing [pyconverters-newsml]: success
+[2023-07-13 14:56:41] WARNING root fetch - processPackages [longyuanpower]: Skipping, unable to determine old version
+[2023-07-13 14:56:41] INFO root fetch - processPackages [longyuanpower]: Start processing: lightly
+[2023-07-13 14:56:41] INFO root fetch - main [MainThread]: End processing [longyuanpower] error
+[2023-07-13 14:56:41] INFO root fetch - processPackages [lightly]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-07-13 14:56:42] INFO root fetch - processPackages [delphi-epidata]: Remove: archive file [/home/abi/fetcher/tmp/delphi_epidata-4.1.5.tar.gz]
+[2023-07-13 14:56:42] INFO root fetch - processPackages [delphi-epidata]: Remove: archive file [/home/abi/fetcher/tmp/delphi_epidata-4.1.6.tar.gz]
+[2023-07-13 14:56:42] INFO root fetch - processPackages [delphi-epidata]: Start processing: dynatrace-opentelemetry-azure-functions
+[2023-07-13 14:56:42] INFO root fetch - main [MainThread]: End processing [delphi-epidata]: success
+[2023-07-13 14:56:42] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.5.2.tar.gz]
+[2023-07-13 14:56:42] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.5.3.tar.gz]
+[2023-07-13 14:56:42] INFO root fetch - processPackages [qvsed]: Start processing: dynatrace-opentelemetry-core
+[2023-07-13 14:56:42] INFO root fetch - main [MainThread]: End processing [qvsed]: success
+[2023-07-13 14:56:42] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.5.8.tar.gz]
+[2023-07-13 14:56:42] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.5.9.dev0.tar.gz]
+[2023-07-13 14:56:42] INFO root fetch - processPackages [dynatrace-opentelemetry-azure-functions]: New version: [1.269.3] Old Version: [1.267.3]
+[2023-07-13 14:56:42] INFO root fetch - processPackages [prophecy-libs]: Start processing: dynatrace-opentelemetry-gcf
+[2023-07-13 14:56:42] INFO root fetch - main [MainThread]: End processing [prophecy-libs]: success
+[2023-07-13 14:56:42] INFO root fetch - processPackages [dynatrace-opentelemetry-core]: New version: [1.269.3] Old Version: [1.267.3]
+[2023-07-13 14:56:42] INFO root fetch - processPackages [dynatrace-opentelemetry-gcf]: New version: [1.269.3] Old Version: [1.267.3]
+[2023-07-13 14:56:42] INFO root fetch - processPackages [lightly]: Downloading https://files.pythonhosted.org/packages/d0/34/8f127fd141110cc9eb8862e19287641d86206e9b8b58535bc9168eacedd7/lightly-1.4.7.tar.gz
+[2023-07-13 14:56:42] INFO root fetch - processPackages [seaplayer]: Remove: archive file [/home/abi/fetcher/tmp/seaplayer-0.5.5.post1.tar.gz]
+[2023-07-13 14:56:42] INFO root fetch - processPackages [seaplayer]: Remove: archive file [/home/abi/fetcher/tmp/seaplayer-0.5.5.post2.tar.gz]
+[2023-07-13 14:56:42] INFO root fetch - processPackages [seaplayer]: Start processing: odd-dbt
+[2023-07-13 14:56:42] INFO root fetch - main [MainThread]: End processing [seaplayer]: success
+[2023-07-13 14:56:42] INFO root fetch - processPackages [fastapi-standalone-docs]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_standalone_docs-0.1.3.tar.gz]
+[2023-07-13 14:56:42] INFO root fetch - processPackages [dynatrace-opentelemetry-core]: Downloading https://files.pythonhosted.org/packages/10/e2/a68db5e2a44174f2cafb12c43ca4ae0d1225b68d3bd4df3a67355ecb35b1/dynatrace_opentelemetry_core-1.267.3-py3-none-any.whl
+[2023-07-13 14:56:42] INFO root fetch - processPackages [fastapi-standalone-docs]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_standalone_docs-0.1.4.tar.gz]
+[2023-07-13 14:56:42] INFO root fetch - main [MainThread]: End processing [fastapi-standalone-docs]: success
+[2023-07-13 14:56:42] INFO root fetch - processPackages [dynatrace-opentelemetry-azure-functions]: Downloading https://files.pythonhosted.org/packages/78/63/be7c33049a47d4760441ad81cfd51400e51dcd60c8657472a453f79fdef6/dynatrace_opentelemetry_azure_functions-1.267.3-py3-none-any.whl
+[2023-07-13 14:56:42] INFO root fetch - processPackages [suitable]: Remove: archive file [/home/abi/fetcher/tmp/suitable-0.8.1.tar.gz]
+[2023-07-13 14:56:42] INFO root fetch - processPackages [suitable]: Remove: archive file [/home/abi/fetcher/tmp/suitable-0.9.0.tar.gz]
+[2023-07-13 14:56:42] INFO root fetch - main [MainThread]: End processing [suitable]: success
+[2023-07-13 14:56:42] INFO root fetch - processPackages [dynatrace-opentelemetry-gcf]: Downloading https://files.pythonhosted.org/packages/a1/46/50f13d1804d78c55b44fb300a9058b32861de20c37cfdb62e9b6c18e9d67/dynatrace_opentelemetry_gcf-1.267.3-py3-none-any.whl
+[2023-07-13 14:56:42] INFO root fetch - processPackages [odd-dbt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-13 14:56:42] INFO root fetch - processPackages [darwinio]: Remove: archive file [/home/abi/fetcher/tmp/darwinio-0.3.1.tar.gz]
+[2023-07-13 14:56:42] INFO root fetch - processPackages [darwinio]: Remove: archive file [/home/abi/fetcher/tmp/darwinio-0.3.2.tar.gz]
+[2023-07-13 14:56:42] INFO root fetch - main [MainThread]: End processing [darwinio]: success
+[2023-07-13 14:56:42] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230712.tar.gz]
+[2023-07-13 14:56:42] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230713.tar.gz]
+[2023-07-13 14:56:42] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-07-13 14:56:42] INFO root fetch - processPackages [lightly]: Downloading https://files.pythonhosted.org/packages/22/4f/08b2315b8a277a13960ced57b9a287366c1b0b543b24ae52aea86d1fec16/lightly-1.4.8.tar.gz
+[2023-07-13 14:56:42] INFO root fetch - processPackages [dynatrace-opentelemetry-azure-functions]: Downloading https://files.pythonhosted.org/packages/4f/46/0625bb387188b04dcfcf116c86de69335999755d0e4eba8c7499013915ca/dynatrace_opentelemetry_azure_functions-1.269.3-py3-none-any.whl
+[2023-07-13 14:56:42] INFO root fetch - processPackages [dynatrace-opentelemetry-core]: Downloading https://files.pythonhosted.org/packages/3e/85/39f11bf1b5a7ad742c1aebf62b694bfe42499c5d7118a53122ff15a17f9e/dynatrace_opentelemetry_core-1.269.3-py3-none-any.whl
+[2023-07-13 14:56:42] INFO root fetch - processPackages [odd-dbt]: Downloading https://files.pythonhosted.org/packages/b7/77/67690ce5b1e290b99a44b98cc3db13869c03435faaa81822b620ed66a2cd/odd_dbt-0.1.8.tar.gz
+[2023-07-13 14:56:42] INFO root fetch - processPackages [dynatrace-opentelemetry-gcf]: Downloading https://files.pythonhosted.org/packages/fa/fd/04a6201dad1651b1fa86d00a3604dc7878dd3aad4cc853a67f32f6b4d859/dynatrace_opentelemetry_gcf-1.269.3-py3-none-any.whl
+[2023-07-13 14:56:42] INFO root fetch - processPackages [lightly]: executing diffoscope
+[2023-07-13 14:56:42] INFO root fetch - processPackages [lightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightly-1.4.7.tar.gz tmp/lightly-1.4.8.tar.gz --markdown 20230713/l/lightly/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-07-13 14:56:43] INFO root fetch - processPackages [dynatrace-opentelemetry-azure-functions]: executing diffoscope
+[2023-07-13 14:56:43] INFO root fetch - processPackages [dynatrace-opentelemetry-azure-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynatrace_opentelemetry_azure_functions-1.267.3-py3-none-any.whl.zip tmp/dynatrace_opentelemetry_azure_functions-1.269.3-py3-none-any.whl.zip --markdown 20230713/d/dynatrace-opentelemetry-azure-functions/1.267.3-1.269.3/diff.md --exclude *.pyd
+[2023-07-13 14:56:43] INFO root fetch - processPackages [dynatrace-opentelemetry-core]: executing diffoscope
+[2023-07-13 14:56:43] INFO root fetch - processPackages [dynatrace-opentelemetry-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynatrace_opentelemetry_core-1.267.3-py3-none-any.whl.zip tmp/dynatrace_opentelemetry_core-1.269.3-py3-none-any.whl.zip --markdown 20230713/d/dynatrace-opentelemetry-core/1.267.3-1.269.3/diff.md --exclude *.pyd
+[2023-07-13 14:56:43] INFO root fetch - processPackages [dynatrace-opentelemetry-gcf]: executing diffoscope
+[2023-07-13 14:56:43] INFO root fetch - processPackages [dynatrace-opentelemetry-gcf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynatrace_opentelemetry_gcf-1.267.3-py3-none-any.whl.zip tmp/dynatrace_opentelemetry_gcf-1.269.3-py3-none-any.whl.zip --markdown 20230713/d/dynatrace-opentelemetry-gcf/1.267.3-1.269.3/diff.md --exclude *.pyd
+[2023-07-13 14:56:43] INFO root fetch - processPackages [odd-dbt]: Downloading https://files.pythonhosted.org/packages/76/80/81cebf15f3ce39f89419c1c84befe62cab623b6f95a7b4808ef81c967e1b/odd_dbt-0.1.9.tar.gz
+[2023-07-13 14:56:43] INFO root fetch - processPackages [odd-dbt]: executing diffoscope
+[2023-07-13 14:56:43] INFO root fetch - processPackages [odd-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd_dbt-0.1.8.tar.gz tmp/odd_dbt-0.1.9.tar.gz --markdown 20230713/o/odd-dbt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-13 14:56:43] INFO root fetch - processPackages [nomad-camels]: Remove: archive file [/home/abi/fetcher/tmp/nomad_camels-0.1.4.tar.gz]
+[2023-07-13 14:56:43] INFO root fetch - processPackages [nomad-camels]: Remove: archive file [/home/abi/fetcher/tmp/nomad_camels-0.1.5.tar.gz]
+[2023-07-13 14:56:43] INFO root fetch - main [MainThread]: End processing [nomad-camels]: success
+[2023-07-13 14:56:43] INFO root fetch - processPackages [dynatrace-opentelemetry-azure-functions]: Remove: archive file [/home/abi/fetcher/tmp/dynatrace_opentelemetry_azure_functions-1.267.3-py3-none-any.whl.zip]
+[2023-07-13 14:56:43] INFO root fetch - processPackages [dynatrace-opentelemetry-azure-functions]: Remove: archive file [/home/abi/fetcher/tmp/dynatrace_opentelemetry_azure_functions-1.269.3-py3-none-any.whl.zip]
+[2023-07-13 14:56:44] INFO root fetch - main [MainThread]: End processing [dynatrace-opentelemetry-azure-functions]: success
+[2023-07-13 14:56:44] INFO root fetch - processPackages [dynatrace-opentelemetry-gcf]: Remove: archive file [/home/abi/fetcher/tmp/dynatrace_opentelemetry_gcf-1.267.3-py3-none-any.whl.zip]
+[2023-07-13 14:56:44] INFO root fetch - processPackages [dynatrace-opentelemetry-gcf]: Remove: archive file [/home/abi/fetcher/tmp/dynatrace_opentelemetry_gcf-1.269.3-py3-none-any.whl.zip]
+[2023-07-13 14:56:44] INFO root fetch - main [MainThread]: End processing [dynatrace-opentelemetry-gcf]: success
+[2023-07-13 14:56:44] INFO root fetch - processPackages [odd-dbt]: Remove: archive file [/home/abi/fetcher/tmp/odd_dbt-0.1.8.tar.gz]
+[2023-07-13 14:56:44] INFO root fetch - processPackages [odd-dbt]: Remove: archive file [/home/abi/fetcher/tmp/odd_dbt-0.1.9.tar.gz]
+[2023-07-13 14:56:44] INFO root fetch - main [MainThread]: End processing [odd-dbt]: success
+[2023-07-13 14:56:44] INFO root fetch - processPackages [dynatrace-opentelemetry-core]: Remove: archive file [/home/abi/fetcher/tmp/dynatrace_opentelemetry_core-1.267.3-py3-none-any.whl.zip]
+[2023-07-13 14:56:44] INFO root fetch - processPackages [dynatrace-opentelemetry-core]: Remove: archive file [/home/abi/fetcher/tmp/dynatrace_opentelemetry_core-1.269.3-py3-none-any.whl.zip]
+[2023-07-13 14:56:44] INFO root fetch - main [MainThread]: End processing [dynatrace-opentelemetry-core]: success
+[2023-07-13 14:56:45] INFO root fetch - processPackages [lightly]: Remove: archive file [/home/abi/fetcher/tmp/lightly-1.4.7.tar.gz]
+[2023-07-13 14:56:45] INFO root fetch - processPackages [lightly]: Remove: archive file [/home/abi/fetcher/tmp/lightly-1.4.8.tar.gz]
+[2023-07-13 14:56:45] INFO root fetch - main [MainThread]: End processing [lightly]: success
+[2023-07-13 14:56:45] INFO root fetch - main [MainThread]: Store serial: [18874942]
