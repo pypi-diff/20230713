@@ -6255,3 +6255,129 @@
 [2023-07-13 03:47:55] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
 [2023-07-13 03:47:55] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-07-13 03:47:55] INFO root fetch - main [MainThread]: Store serial: [18868790]
+[2023-07-13 03:53:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18868790]
+[2023-07-13 03:53:07] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-13 03:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idlib
+[2023-07-13 03:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-sdk-preview
+[2023-07-13 03:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-sdk
+[2023-07-13 03:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fileformats
+[2023-07-13 03:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deep-training
+[2023-07-13 03:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-django
+[2023-07-13 03:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-url-tokenizer
+[2023-07-13 03:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scotthsieh-projen-statemachine
+[2023-07-13 03:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sphractal
+[2023-07-13 03:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-apl
+[2023-07-13 03:53:07] INFO root fetch - processPackages [deep-training]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-13 03:53:07] WARNING root fetch - processPackages [django-url-tokenizer]: Skipping, unable to determine old version
+[2023-07-13 03:53:07] INFO root fetch - processPackages [django-url-tokenizer]: Start processing: SPACEL
+[2023-07-13 03:53:07] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer] error
+[2023-07-13 03:53:07] INFO root fetch - processPackages [idlib]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-07-13 03:53:07] INFO root fetch - processPackages [sphractal]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-13 03:53:07] INFO root fetch - processPackages [fileformats]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-07-13 03:53:07] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.891] Old Version: [0.0.890]
+[2023-07-13 03:53:07] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-13 03:53:07] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-13 03:53:07] INFO root fetch - processPackages [SPACEL]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-13 03:53:07] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-07-13 03:53:07] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-07-13 03:53:07] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/9b/a4/c3fee67b14a9c2d63809abd28321884f28eeb88752ce25b9cb66ee5f4ddb/nbdev-apl-0.0.890.tar.gz
+[2023-07-13 03:53:07] INFO root fetch - processPackages [SPACEL]: Downloading https://files.pythonhosted.org/packages/90/75/9e9f30a28f55a4cced6271dd90a4bf7bd1264eecd9451842c4c3fa8b8af6/SPACEL-1.1.2.tar.gz
+[2023-07-13 03:53:07] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/87/b3/3c8fcf7b1e70c43e235098b71636333ed9cdfaf9b6c6fbc85f67531280e1/deep_training-0.1.8-py3-none-any.whl
+[2023-07-13 03:53:08] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/75/2e/d50f8b081603ac850ec9b5d5d5206498a7d302b7a6ea31adbd59cb01a4ae/scotthsieh_projen_statemachine-2.0.98.tar.gz
+[2023-07-13 03:53:08] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b1/6d/156256fa9e3fa7de2df2059d47e10f9622e16808846d88bf7a096397ad36/sphractal-0.9.0.tar.gz
+[2023-07-13 03:53:08] INFO root fetch - processPackages [fileformats]: Downloading https://files.pythonhosted.org/packages/0b/d9/8bea3a397c86343b4b017cecbbd6d1a9bc769b21a20522d5a47b4bedcdcb/fileformats-0.6.5.tar.gz
+[2023-07-13 03:53:08] INFO root fetch - processPackages [idlib]: Downloading https://files.pythonhosted.org/packages/ef/c4/8414aee8cdedaf0a9f78abd75952aab798dd5ac10935b4ddde824dbe07fb/idlib-0.0.1.dev8.tar.gz
+[2023-07-13 03:53:08] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-07-13 03:53:08] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-13 03:53:08] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-07-13 03:53:08] INFO root fetch - processPackages [SPACEL]: Downloading https://files.pythonhosted.org/packages/af/86/cc4de41103a3963dff050792b85f15b67866e15d341e10e71e6377337d6a/SPACEL-1.1.3.tar.gz
+[2023-07-13 03:53:08] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/76/73/89b5dca307a3fa053419f39f77612865d10fddfe1d9ddea37c5766390a83/nbdev-apl-0.0.891.tar.gz
+[2023-07-13 03:53:08] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/97/8f/30bf3a3b2b45dc48f23a82065cc1cff429cfa9ec38e2c8dfd40bc15ada07/deep_training-0.1.9-py3-none-any.whl
+[2023-07-13 03:53:08] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b7/3c/357fa6f2eda84dc8aff5499145b341ad2d8a7162270a504b401c65b633a3/sphractal-0.9.1.tar.gz
+[2023-07-13 03:53:08] INFO root fetch - processPackages [fileformats]: Downloading https://files.pythonhosted.org/packages/73/43/0ba099f8f9ff76fae3ba93011f46c5f4b5bb9879056519a328083609601e/fileformats-0.6.6.tar.gz
+[2023-07-13 03:53:08] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/8d/5b/2a5beec8e0ad27c9cbe9feb5d73fadf98cf28ce1a01ad03f7abb00f14071/scotthsieh_projen_statemachine-2.0.99.tar.gz
+[2023-07-13 03:53:08] INFO root fetch - processPackages [idlib]: Downloading https://files.pythonhosted.org/packages/d5/42/332c64cca3053b5cb52129d94ba0a0325aa03294413b3935ff1b1d4f9f83/idlib-0.0.1.dev9.tar.gz
+[2023-07-13 03:53:08] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-13 03:53:08] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.890.tar.gz tmp/nbdev-apl-0.0.891.tar.gz --markdown 20230713/n/nbdev-apl/0.0.890-0.0.891/diff.md --exclude *.pyd
+[2023-07-13 03:53:08] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-13 03:53:08] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-07-13 03:53:08] INFO root fetch - processPackages [SPACEL]: executing diffoscope
+[2023-07-13 03:53:08] INFO root fetch - processPackages [SPACEL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPACEL-1.1.2.tar.gz tmp/SPACEL-1.1.3.tar.gz --markdown 20230713/S/SPACEL/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-13 03:53:08] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-07-13 03:53:08] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.9.0.tar.gz tmp/sphractal-0.9.1.tar.gz --markdown 20230713/s/sphractal/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-13 03:53:08] INFO root fetch - processPackages [fileformats]: executing diffoscope
+[2023-07-13 03:53:08] INFO root fetch - processPackages [fileformats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats-0.6.5.tar.gz tmp/fileformats-0.6.6.tar.gz --markdown 20230713/f/fileformats/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-07-13 03:53:08] INFO root fetch - processPackages [deep-training]: executing diffoscope
+[2023-07-13 03:53:08] INFO root fetch - processPackages [deep-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_training-0.1.8-py3-none-any.whl.zip tmp/deep_training-0.1.9-py3-none-any.whl.zip --markdown 20230713/d/deep-training/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-13 03:53:08] INFO root fetch - processPackages [idlib]: executing diffoscope
+[2023-07-13 03:53:08] INFO root fetch - processPackages [idlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idlib-0.0.1.dev8.tar.gz tmp/idlib-0.0.1.dev9.tar.gz --markdown 20230713/i/idlib/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-13 03:53:08] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-13 03:53:08] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230713/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-13 03:53:09] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-07-13 03:53:09] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-07-13 03:53:09] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230713/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-13 03:53:09] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-07-13 03:53:09] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230713/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-07-13 03:53:09] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-07-13 03:53:09] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230713/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-07-13 03:53:10] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.890.tar.gz]
+[2023-07-13 03:53:10] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.891.tar.gz]
+[2023-07-13 03:53:10] INFO root fetch - processPackages [nbdev-apl]: Start processing: unitclass
+[2023-07-13 03:53:10] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-13 03:53:10] INFO root fetch - processPackages [unitclass]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-13 03:53:10] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.0.tar.gz]
+[2023-07-13 03:53:10] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.1.tar.gz]
+[2023-07-13 03:53:10] INFO root fetch - processPackages [sphractal]: Start processing: pycyclops
+[2023-07-13 03:53:10] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-07-13 03:53:10] INFO root fetch - processPackages [SPACEL]: Remove: archive file [/home/abi/fetcher/tmp/SPACEL-1.1.2.tar.gz]
+[2023-07-13 03:53:10] INFO root fetch - processPackages [SPACEL]: Remove: archive file [/home/abi/fetcher/tmp/SPACEL-1.1.3.tar.gz]
+[2023-07-13 03:53:10] INFO root fetch - processPackages [SPACEL]: Start processing: wasmpy-build
+[2023-07-13 03:53:10] INFO root fetch - main [MainThread]: End processing [SPACEL]: success
+[2023-07-13 03:53:10] INFO root fetch - processPackages [unitclass]: Downloading https://files.pythonhosted.org/packages/e8/f0/a77f953e66b643829003ef092df82c683c05a9b2c68185b084627d16b5f7/unitclass-1.0.2.tar.gz
+[2023-07-13 03:53:10] INFO root fetch - processPackages [pycyclops]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-13 03:53:10] INFO root fetch - processPackages [wasmpy-build]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-13 03:53:10] INFO root fetch - processPackages [wasmpy-build]: Downloading https://files.pythonhosted.org/packages/a8/9f/e79c198a0df4f7f513c2513fc091d66cce22df69d04f5e8e0f9ab30c09d4/wasmpy-build-0.2.1.tar.gz
+[2023-07-13 03:53:10] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-13 03:53:10] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-13 03:53:10] INFO root fetch - processPackages [nbdev-django]: Start processing: ffmpeg-media-type
+[2023-07-13 03:53:10] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-13 03:53:10] INFO root fetch - processPackages [idlib]: Remove: archive file [/home/abi/fetcher/tmp/idlib-0.0.1.dev8.tar.gz]
+[2023-07-13 03:53:10] INFO root fetch - processPackages [idlib]: Remove: archive file [/home/abi/fetcher/tmp/idlib-0.0.1.dev9.tar.gz]
+[2023-07-13 03:53:10] INFO root fetch - main [MainThread]: End processing [idlib]: success
+[2023-07-13 03:53:10] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz]
+[2023-07-13 03:53:10] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz]
+[2023-07-13 03:53:10] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-07-13 03:53:10] INFO root fetch - processPackages [pycyclops]: Downloading https://files.pythonhosted.org/packages/f4/bb/2f5e6d5836c21b65c66b83c9a5aa420e99fde04952dfb4441af7346a9551/pycyclops-0.1.8.tar.gz
+[2023-07-13 03:53:10] WARNING root fetch - processPackages [ffmpeg-media-type]: Skipping, unable to determine old version
+[2023-07-13 03:53:10] INFO root fetch - main [MainThread]: End processing [ffmpeg-media-type] error
+[2023-07-13 03:53:10] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.6.5.tar.gz]
+[2023-07-13 03:53:10] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.6.6.tar.gz]
+[2023-07-13 03:53:10] INFO root fetch - main [MainThread]: End processing [fileformats]: success
+[2023-07-13 03:53:10] INFO root fetch - processPackages [wasmpy-build]: Downloading https://files.pythonhosted.org/packages/6a/cb/038fe7f41d0e4b484519ca32e07e204c167104b805bf10b4b2a5f23b92ca/wasmpy-build-0.3.0.tar.gz
+[2023-07-13 03:53:10] INFO root fetch - processPackages [unitclass]: Downloading https://files.pythonhosted.org/packages/26/3d/09e50cc85136f7ee16ef5677fee7b702d4ae5bd325dc73a9be93a63f2713/unitclass-1.0.3.tar.gz
+[2023-07-13 03:53:11] INFO root fetch - processPackages [unitclass]: executing diffoscope
+[2023-07-13 03:53:11] INFO root fetch - processPackages [unitclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitclass-1.0.2.tar.gz tmp/unitclass-1.0.3.tar.gz --markdown 20230713/u/unitclass/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-13 03:53:11] INFO root fetch - processPackages [wasmpy-build]: executing diffoscope
+[2023-07-13 03:53:11] INFO root fetch - processPackages [wasmpy-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wasmpy-build-0.2.1.tar.gz tmp/wasmpy-build-0.3.0.tar.gz --markdown 20230713/w/wasmpy-build/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-13 03:53:11] INFO root fetch - processPackages [pycyclops]: Downloading https://files.pythonhosted.org/packages/11/1b/e44a11b4db8509af2a75b2521e48cdf9665c8a2a621381e31ef9a9ef246c/pycyclops-0.1.9.tar.gz
+[2023-07-13 03:53:11] INFO root fetch - processPackages [pycyclops]: executing diffoscope
+[2023-07-13 03:53:11] INFO root fetch - processPackages [pycyclops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycyclops-0.1.8.tar.gz tmp/pycyclops-0.1.9.tar.gz --markdown 20230713/p/pycyclops/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-13 03:53:11] INFO root fetch - processPackages [deep-training]: Remove: archive file [/home/abi/fetcher/tmp/deep_training-0.1.8-py3-none-any.whl.zip]
+[2023-07-13 03:53:11] INFO root fetch - processPackages [deep-training]: Remove: archive file [/home/abi/fetcher/tmp/deep_training-0.1.9-py3-none-any.whl.zip]
+[2023-07-13 03:53:11] INFO root fetch - main [MainThread]: End processing [deep-training]: success
+[2023-07-13 03:53:12] INFO root fetch - processPackages [unitclass]: Remove: archive file [/home/abi/fetcher/tmp/unitclass-1.0.2.tar.gz]
+[2023-07-13 03:53:12] INFO root fetch - processPackages [unitclass]: Remove: archive file [/home/abi/fetcher/tmp/unitclass-1.0.3.tar.gz]
+[2023-07-13 03:53:12] INFO root fetch - main [MainThread]: End processing [unitclass]: success
+[2023-07-13 03:53:12] INFO root fetch - processPackages [pycyclops]: Remove: archive file [/home/abi/fetcher/tmp/pycyclops-0.1.8.tar.gz]
+[2023-07-13 03:53:12] INFO root fetch - processPackages [pycyclops]: Remove: archive file [/home/abi/fetcher/tmp/pycyclops-0.1.9.tar.gz]
+[2023-07-13 03:53:12] INFO root fetch - main [MainThread]: End processing [pycyclops]: success
+[2023-07-13 03:53:15] INFO root fetch - processPackages [wasmpy-build]: Remove: archive file [/home/abi/fetcher/tmp/wasmpy-build-0.2.1.tar.gz]
+[2023-07-13 03:53:15] INFO root fetch - processPackages [wasmpy-build]: Remove: archive file [/home/abi/fetcher/tmp/wasmpy-build-0.3.0.tar.gz]
+[2023-07-13 03:53:15] INFO root fetch - main [MainThread]: End processing [wasmpy-build]: success
+[2023-07-13 03:53:19] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.91.tar.gz]
+[2023-07-13 03:53:19] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
+[2023-07-13 03:53:19] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-07-13 03:53:22] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.91.tar.gz]
+[2023-07-13 03:53:22] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
+[2023-07-13 03:53:22] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-07-13 03:53:22] INFO root fetch - main [MainThread]: Store serial: [18868843]
