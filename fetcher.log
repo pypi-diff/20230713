@@ -16853,3 +16853,125 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 11:47:45] INFO root fetch - processPackages [tmtccmd]: Remove: archive file [/home/abi/fetcher/tmp/tmtccmd-5.0.0rc0.tar.gz]
 [2023-07-13 11:47:45] INFO root fetch - main [MainThread]: End processing [tmtccmd]: success
 [2023-07-13 11:47:45] INFO root fetch - main [MainThread]: Store serial: [18872784]
+[2023-07-13 11:52:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18872784]
+[2023-07-13 11:52:55] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-13 11:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c8connector
+[2023-07-13 11:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diaossama-test2
+[2023-07-13 11:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coolpandas
+[2023-07-13 11:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trailblazer
+[2023-07-13 11:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytango
+[2023-07-13 11:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyquadim
+[2023-07-13 11:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unified-planning
+[2023-07-13 11:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-master
+[2023-07-13 11:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: merlin-sdk
+[2023-07-13 11:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyBIS
+[2023-07-13 11:52:55] WARNING root fetch - processPackages [diaossama-test2]: Skipping, unable to determine old version
+[2023-07-13 11:52:55] INFO root fetch - processPackages [diaossama-test2]: Start processing: odoo-filter-addons
+[2023-07-13 11:52:55] INFO root fetch - main [MainThread]: End processing [diaossama-test2] error
+[2023-07-13 11:52:55] INFO root fetch - processPackages [PyBIS]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-07-13 11:52:55] INFO root fetch - processPackages [coolpandas]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-13 11:52:55] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2023-07-13 11:52:55] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230713.7.16.180788] Old Version: [20230712.15.52.577227]
+[2023-07-13 11:52:55] INFO root fetch - processPackages [c8connector]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 11:52:55] INFO root fetch - processPackages [pytango]: New version: [9.4.2rc1] Old Version: [9.4.1rc1]
+[2023-07-13 11:52:55] WARNING root fetch - processPackages [pyquadim]: Skipping, unable to determine old version
+[2023-07-13 11:52:55] INFO root fetch - processPackages [pyquadim]: Start processing: fastapi-serve
+[2023-07-13 11:52:55] INFO root fetch - main [MainThread]: End processing [pyquadim] error
+[2023-07-13 11:52:55] INFO root fetch - processPackages [odoo-filter-addons]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-13 11:52:55] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-13 11:52:55] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/0b/44/fe0231003ffc36a7b01dff7dcb46629cccf554473e121900d1388e6c6260/PyBIS-1.9.7.tar.gz
+[2023-07-13 11:52:55] INFO root fetch - processPackages [merlin-sdk]: New version: [0.9.1] Old Version: [0.9.0.dev0]
+[2023-07-13 11:52:55] INFO root fetch - processPackages [unified-planning]: New version: [1.0.0.2.dev1] Old Version: [1.0.0]
+[2023-07-13 11:52:55] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2023-07-13 11:52:55] INFO root fetch - processPackages [coolpandas]: Downloading https://files.pythonhosted.org/packages/8e/7d/c44e565c80ba600b2ca66f1f373955f7b1ab9df792de8ac67909f0835c9d/coolpandas-0.4.1.tar.gz
+[2023-07-13 11:52:55] INFO root fetch - processPackages [c8connector]: Downloading https://files.pythonhosted.org/packages/f5/41/1d6cf1d7e899ee8eb044b7c68250945e84ef99425e6d2c3658bbb903d580/c8connector-0.0.8.tar.gz
+[2023-07-13 11:52:55] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/cd/69/d6d670cda2913616cbef7856ce8f787c7b9ab81b00aff225a90ef37b9754/certora-cli-alpha-master-20230712.15.52.577227.tar.gz
+[2023-07-13 11:52:55] INFO root fetch - processPackages [pytango]: Downloading https://files.pythonhosted.org/packages/d9/10/6c46d9f1a9ae8b1fc4a9590aca85c118b12fab3ad8c331e04d5d705a0be5/pytango-9.4.1rc1.tar.gz
+[2023-07-13 11:52:55] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37489249>=10485760
+[2023-07-13 11:52:55] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: oxalis
+[2023-07-13 11:52:55] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-13 11:52:55] INFO root fetch - processPackages [odoo-filter-addons]: Downloading https://files.pythonhosted.org/packages/30/5d/3f432864d7c7ecc0026429127310c6eb5678d0a78d6743cd3e1139112e99/odoo_filter_addons-1.2.1.tar.gz
+[2023-07-13 11:52:55] INFO root fetch - processPackages [oxalis]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-07-13 11:52:55] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/a6/93/1ec49bc87e9c3783e78f1047b5a8045a37c626115351da0f603c1ae6a894/merlin-sdk-0.9.0.dev0.tar.gz
+[2023-07-13 11:52:55] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/c1/f6/b67c649b8809f9a0f915a1b9324153c125ca2698b59be61faf286d2a6b48/unified_planning-1.0.0.tar.gz
+[2023-07-13 11:52:55] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/0d/5c/342759c036e86be942679631f5f86c8c9e6449d136b7846072fcd74be023/fastapi-serve-0.0.2.dev8.tar.gz
+[2023-07-13 11:52:55] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2023-07-13 11:52:56] INFO root fetch - processPackages [coolpandas]: Downloading https://files.pythonhosted.org/packages/f3/d0/cca04630bb42277672be2ec1ce6e4f136ec769f0f380b55912a0c7af5e6f/coolpandas-0.4.2.tar.gz
+[2023-07-13 11:52:56] INFO root fetch - processPackages [oxalis]: Downloading https://files.pythonhosted.org/packages/80/9a/7483837acfb766a60be04fee50be0ecdef4a0caf5a4734007eecb74ecc10/oxalis-0.6.4.tar.gz
+[2023-07-13 11:52:56] INFO root fetch - processPackages [c8connector]: Downloading https://files.pythonhosted.org/packages/a4/3a/d5e3d87254f7a5c4983165bbbf9752fb19c15dc5fbdaf03bbe5e5ba41f68/c8connector-0.0.9.tar.gz
+[2023-07-13 11:52:56] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/de/6a/e2fbd779a6f64422fe1720ef3dd721543ce07d5e1ea97c26bc9ff21ac882/PyBIS-1.9.8.tar.gz
+[2023-07-13 11:52:56] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2023-07-13 11:52:56] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20230713/t/trailblazer/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2023-07-13 11:52:56] INFO root fetch - processPackages [c8connector]: executing diffoscope
+[2023-07-13 11:52:56] INFO root fetch - processPackages [c8connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c8connector-0.0.8.tar.gz tmp/c8connector-0.0.9.tar.gz --markdown 20230713/c/c8connector/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 11:52:56] INFO root fetch - processPackages [coolpandas]: executing diffoscope
+[2023-07-13 11:52:56] INFO root fetch - processPackages [coolpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolpandas-0.4.1.tar.gz tmp/coolpandas-0.4.2.tar.gz --markdown 20230713/c/coolpandas/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-13 11:52:56] INFO root fetch - processPackages [PyBIS]: executing diffoscope
+[2023-07-13 11:52:56] INFO root fetch - processPackages [PyBIS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBIS-1.9.7.tar.gz tmp/PyBIS-1.9.8.tar.gz --markdown 20230713/P/PyBIS/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-07-13 11:52:56] INFO root fetch - processPackages [odoo-filter-addons]: Downloading https://files.pythonhosted.org/packages/ce/81/16f49dc048ec0a5bc7419b7e0bdb5734bfe71ae6d853b6924c93614d0f61/odoo_filter_addons-1.2.2.tar.gz
+[2023-07-13 11:52:56] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/dd/65/577d81f52f4fc6c631d7cea19752fa71759ac01c492326f04677b3fc4710/unified_planning-1.0.0.2.dev1.tar.gz
+[2023-07-13 11:52:56] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/44/43/0c3667ca8abfbfc54c8ce5f7d2b54ac1af100ec90f9ad59e15dc59a59d49/fastapi-serve-0.0.2.dev9.tar.gz
+[2023-07-13 11:52:56] INFO root fetch - processPackages [oxalis]: Downloading https://files.pythonhosted.org/packages/4a/cd/79582018f50a0718b95bf3cb81d3079a7898eb4141b27e70123ec968ed3e/oxalis-0.6.5.tar.gz
+[2023-07-13 11:52:56] INFO root fetch - processPackages [odoo-filter-addons]: executing diffoscope
+[2023-07-13 11:52:56] INFO root fetch - processPackages [odoo-filter-addons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_filter_addons-1.2.1.tar.gz tmp/odoo_filter_addons-1.2.2.tar.gz --markdown 20230713/o/odoo-filter-addons/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-13 11:52:56] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/48/3b/5e6b41bed4feb59823f7fa8ccbf076c977df12a20955a3c783fab418f126/merlin-sdk-0.9.1.tar.gz
+[2023-07-13 11:52:56] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-13 11:52:56] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.2.dev8.tar.gz tmp/fastapi-serve-0.0.2.dev9.tar.gz --markdown 20230713/f/fastapi-serve/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-13 11:52:56] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-07-13 11:52:56] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-1.0.0.tar.gz tmp/unified_planning-1.0.0.2.dev1.tar.gz --markdown 20230713/u/unified-planning/1.0.0-1.0.0.2.dev1/diff.md --exclude *.pyd
+[2023-07-13 11:52:56] INFO root fetch - processPackages [oxalis]: executing diffoscope
+[2023-07-13 11:52:56] INFO root fetch - processPackages [oxalis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxalis-0.6.4.tar.gz tmp/oxalis-0.6.5.tar.gz --markdown 20230713/o/oxalis/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-07-13 11:52:56] INFO root fetch - processPackages [merlin-sdk]: executing diffoscope
+[2023-07-13 11:52:56] INFO root fetch - processPackages [merlin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sdk-0.9.0.dev0.tar.gz tmp/merlin-sdk-0.9.1.tar.gz --markdown 20230713/m/merlin-sdk/0.9.0.dev0-0.9.1/diff.md --exclude *.pyd
+[2023-07-13 11:52:56] INFO root fetch - processPackages [pytango]: Downloading https://files.pythonhosted.org/packages/5f/c7/fee4062b1466ebc4654c3e4bf46066596a1d6a24deeafaba5c9eb559abd6/pytango-9.4.2rc1.tar.gz
+[2023-07-13 11:52:57] INFO root fetch - processPackages [pytango]: executing diffoscope
+[2023-07-13 11:52:57] INFO root fetch - processPackages [pytango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytango-9.4.1rc1.tar.gz tmp/pytango-9.4.2rc1.tar.gz --markdown 20230713/p/pytango/9.4.1rc1-9.4.2rc1/diff.md --exclude *.pyd
+[2023-07-13 11:52:57] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2023-07-13 11:52:57] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2023-07-13 11:52:57] INFO root fetch - processPackages [trailblazer]: Start processing: peerdid
+[2023-07-13 11:52:57] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2023-07-13 11:52:57] INFO root fetch - processPackages [peerdid]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-13 11:52:57] INFO root fetch - processPackages [c8connector]: Remove: archive file [/home/abi/fetcher/tmp/c8connector-0.0.8.tar.gz]
+[2023-07-13 11:52:57] INFO root fetch - processPackages [c8connector]: Remove: archive file [/home/abi/fetcher/tmp/c8connector-0.0.9.tar.gz]
+[2023-07-13 11:52:57] INFO root fetch - processPackages [c8connector]: Start processing: pureml
+[2023-07-13 11:52:57] INFO root fetch - main [MainThread]: End processing [c8connector]: success
+[2023-07-13 11:52:58] INFO root fetch - processPackages [coolpandas]: Remove: archive file [/home/abi/fetcher/tmp/coolpandas-0.4.1.tar.gz]
+[2023-07-13 11:52:58] INFO root fetch - processPackages [coolpandas]: Remove: archive file [/home/abi/fetcher/tmp/coolpandas-0.4.2.tar.gz]
+[2023-07-13 11:52:58] INFO root fetch - main [MainThread]: End processing [coolpandas]: success
+[2023-07-13 11:52:58] INFO root fetch - processPackages [peerdid]: Downloading https://files.pythonhosted.org/packages/1e/84/ece022546489e615094f8a107ce34e7db39ec0810d896e47fc87a5189fd5/peerdid-0.5.1.tar.gz
+[2023-07-13 11:52:58] INFO root fetch - processPackages [odoo-filter-addons]: Remove: archive file [/home/abi/fetcher/tmp/odoo_filter_addons-1.2.1.tar.gz]
+[2023-07-13 11:52:58] INFO root fetch - processPackages [odoo-filter-addons]: Remove: archive file [/home/abi/fetcher/tmp/odoo_filter_addons-1.2.2.tar.gz]
+[2023-07-13 11:52:58] INFO root fetch - main [MainThread]: End processing [odoo-filter-addons]: success
+[2023-07-13 11:52:58] INFO root fetch - processPackages [pureml]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-07-13 11:52:58] INFO root fetch - processPackages [PyBIS]: Remove: archive file [/home/abi/fetcher/tmp/PyBIS-1.9.7.tar.gz]
+[2023-07-13 11:52:58] INFO root fetch - processPackages [PyBIS]: Remove: archive file [/home/abi/fetcher/tmp/PyBIS-1.9.8.tar.gz]
+[2023-07-13 11:52:58] INFO root fetch - main [MainThread]: End processing [PyBIS]: success
+[2023-07-13 11:52:58] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev8.tar.gz]
+[2023-07-13 11:52:58] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev9.tar.gz]
+[2023-07-13 11:52:58] INFO root fetch - processPackages [oxalis]: Remove: archive file [/home/abi/fetcher/tmp/oxalis-0.6.4.tar.gz]
+[2023-07-13 11:52:58] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-13 11:52:58] INFO root fetch - processPackages [oxalis]: Remove: archive file [/home/abi/fetcher/tmp/oxalis-0.6.5.tar.gz]
+[2023-07-13 11:52:58] INFO root fetch - main [MainThread]: End processing [oxalis]: success
+[2023-07-13 11:52:58] INFO root fetch - processPackages [pureml]: Downloading https://files.pythonhosted.org/packages/18/5f/775251f0a2d7561aac891279a101a1d462a96a6c355b4510b978abc1d93e/pureml-0.3.9.tar.gz
+[2023-07-13 11:52:58] INFO root fetch - processPackages [peerdid]: Downloading https://files.pythonhosted.org/packages/ee/53/9148681bcffcaa735829c5d9fa73cc915473e8476f5e4b296c027975a16e/peerdid-0.5.2.tar.gz
+[2023-07-13 11:52:58] INFO root fetch - processPackages [peerdid]: executing diffoscope
+[2023-07-13 11:52:58] INFO root fetch - processPackages [peerdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peerdid-0.5.1.tar.gz tmp/peerdid-0.5.2.tar.gz --markdown 20230713/p/peerdid/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-13 11:52:58] INFO root fetch - processPackages [pureml]: Downloading https://files.pythonhosted.org/packages/b4/8b/387f585bf2aeb827c51cb618d7fc05deb971ba0dd436e4f68f55fa328dbf/pureml-0.4.0.tar.gz
+[2023-07-13 11:52:59] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.0.dev0.tar.gz]
+[2023-07-13 11:52:59] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
+[2023-07-13 11:52:59] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
+[2023-07-13 11:52:59] INFO root fetch - processPackages [pureml]: executing diffoscope
+[2023-07-13 11:52:59] INFO root fetch - processPackages [pureml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pureml-0.3.9.tar.gz tmp/pureml-0.4.0.tar.gz --markdown 20230713/p/pureml/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-07-13 11:52:59] INFO root fetch - processPackages [peerdid]: Remove: archive file [/home/abi/fetcher/tmp/peerdid-0.5.1.tar.gz]
+[2023-07-13 11:52:59] INFO root fetch - processPackages [peerdid]: Remove: archive file [/home/abi/fetcher/tmp/peerdid-0.5.2.tar.gz]
+[2023-07-13 11:52:59] INFO root fetch - main [MainThread]: End processing [peerdid]: success
+[2023-07-13 11:52:59] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.0.0.tar.gz]
+[2023-07-13 11:52:59] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.0.0.2.dev1.tar.gz]
+[2023-07-13 11:52:59] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-07-13 11:53:00] INFO root fetch - processPackages [pureml]: Remove: archive file [/home/abi/fetcher/tmp/pureml-0.3.9.tar.gz]
+[2023-07-13 11:53:00] INFO root fetch - processPackages [pureml]: Remove: archive file [/home/abi/fetcher/tmp/pureml-0.4.0.tar.gz]
+[2023-07-13 11:53:00] INFO root fetch - main [MainThread]: End processing [pureml]: success
+[2023-07-13 11:53:00] INFO root fetch - processPackages [pytango]: Remove: archive file [/home/abi/fetcher/tmp/pytango-9.4.1rc1.tar.gz]
+[2023-07-13 11:53:00] INFO root fetch - processPackages [pytango]: Remove: archive file [/home/abi/fetcher/tmp/pytango-9.4.2rc1.tar.gz]
+[2023-07-13 11:53:00] INFO root fetch - main [MainThread]: End processing [pytango]: success
+[2023-07-13 11:53:00] INFO root fetch - main [MainThread]: Store serial: [18872835]
