@@ -20141,3 +20141,96 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 13:08:08] INFO root fetch - processPackages [lemonai]: Remove: archive file [/home/abi/fetcher/tmp/lemonai-0.1.0.tar.gz]
 [2023-07-13 13:08:08] INFO root fetch - main [MainThread]: End processing [lemonai]: success
 [2023-07-13 13:08:08] INFO root fetch - main [MainThread]: Store serial: [18873954]
+[2023-07-13 13:13:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18873954]
+[2023-07-13 13:13:17] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-13 13:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hscan
+[2023-07-13 13:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-payfast
+[2023-07-13 13:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: svc-reg
+[2023-07-13 13:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-allauth-2fa
+[2023-07-13 13:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pprint3x
+[2023-07-13 13:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tzspace
+[2023-07-13 13:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gchar
+[2023-07-13 13:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ghga-connector
+[2023-07-13 13:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flea
+[2023-07-13 13:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aigc-zoo
+[2023-07-13 13:13:17] INFO root fetch - processPackages [django-allauth-2fa]: New version: [0.9rc1] Old Version: [0.9]
+[2023-07-13 13:13:17] INFO root fetch - processPackages [hscan]: New version: [2.7.0] Old Version: [2.6.1]
+[2023-07-13 13:13:17] INFO root fetch - processPackages [ghga-connector]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-13 13:13:17] INFO root fetch - processPackages [flea]: New version: [9.1.1] Old Version: [9.1.0]
+[2023-07-13 13:13:17] INFO root fetch - processPackages [pprint3x]: New version: [3.10.4.3] Old Version: [3.10.4.2]
+[2023-07-13 13:13:17] INFO root fetch - processPackages [gchar]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-13 13:13:17] INFO root fetch - processPackages [aigc-zoo]: New version: [0.1.11.post2] Old Version: [0.1.11.post1]
+[2023-07-13 13:13:17] INFO root fetch - processPackages [python-payfast]: New version: [0.3] Old Version: [0.2]
+[2023-07-13 13:13:17] INFO root fetch - processPackages [tzspace]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-13 13:13:17] INFO root fetch - processPackages [svc-reg]: New version: [23.2.0] Old Version: [23.1.0]
+[2023-07-13 13:13:17] INFO root fetch - processPackages [svc-reg]: Downloading https://files.pythonhosted.org/packages/18/63/5e16fb88a795724dd4f1fcfc2726dac9824a9b566efa76acd1c480ef4753/svc_reg-23.1.0.tar.gz
+[2023-07-13 13:13:17] INFO root fetch - processPackages [ghga-connector]: Downloading https://files.pythonhosted.org/packages/dc/58/103b75a175f5a0fe16a30cc14944fe3184ca4368f636dbbf2e31f924a093/ghga_connector-0.3.6.tar.gz
+[2023-07-13 13:13:17] INFO root fetch - processPackages [django-allauth-2fa]: Downloading https://files.pythonhosted.org/packages/7d/6b/e4450c69502de3cbd39a6cefe84c193070faa351beefea0adb42a68eaf46/django-allauth-2fa-0.9.tar.gz
+[2023-07-13 13:13:17] INFO root fetch - processPackages [hscan]: Downloading https://files.pythonhosted.org/packages/19/e0/785500aa5675437b218484711ca34aedd2d114f65b44929bd9fcbf9ec4c2/hscan-2.6.1.tar.gz
+[2023-07-13 13:13:17] INFO root fetch - processPackages [pprint3x]: Downloading https://files.pythonhosted.org/packages/cf/23/d2e2943212328aca9c97bae56c07dbc724016935576221803667032d7a2b/pprint3x-3.10.4.2.tar.gz
+[2023-07-13 13:13:17] INFO root fetch - processPackages [flea]: Downloading https://files.pythonhosted.org/packages/06/69/dfb229a93171bb490b82790ad260ec39c8df534d9c609849a8984d9da2c7/flea-9.1.0.tar.gz
+[2023-07-13 13:13:17] INFO root fetch - processPackages [python-payfast]: Downloading https://files.pythonhosted.org/packages/d0/4e/627bf49639c220ce4b1dbf63220c0a1d219b843d6e4bc921f7832be21c07/python-payfast-0.2.tar.gz
+[2023-07-13 13:13:17] INFO root fetch - processPackages [tzspace]: Downloading https://files.pythonhosted.org/packages/39/a2/cd28167afb5da43914d6ce05ef5df2ae03b3bd5e281127a569acad62fb86/tzspace-0.0.6.tar.gz
+[2023-07-13 13:13:17] INFO root fetch - processPackages [aigc-zoo]: Downloading https://files.pythonhosted.org/packages/c6/06/16075d419251ae041a8a7bf81b0949829734e3df95f0fc90150a5e2ea69e/aigc_zoo-0.1.11.post1-py3-none-any.whl
+[2023-07-13 13:13:17] INFO root fetch - processPackages [gchar]: Downloading https://files.pythonhosted.org/packages/1e/57/e781937065817437442984c0ffedcb7379bae60270c17e2be12cc4319021/gchar-0.0.9.tar.gz
+[2023-07-13 13:13:18] INFO root fetch - processPackages [svc-reg]: Downloading https://files.pythonhosted.org/packages/20/dc/c0866d57b30c01a6ed82f3e93d1763b77064bd0b80c543bb594c37f438d0/svc_reg-23.2.0.tar.gz
+[2023-07-13 13:13:18] INFO root fetch - processPackages [django-allauth-2fa]: Downloading https://files.pythonhosted.org/packages/04/7b/96c3bb87de27b4df74e07d6dc6f467dd628d9b3cbee5ed1d1b0955d7ca38/django_allauth_2fa-0.9rc1-py3-none-any.whl
+[2023-07-13 13:13:18] INFO root fetch - processPackages [ghga-connector]: Downloading https://files.pythonhosted.org/packages/17/e7/0bf146a2d4d85364da3e8e8b244d39a45e1f39eb035b85d64f694b3d3a9e/ghga_connector-0.3.7.tar.gz
+[2023-07-13 13:13:18] INFO root fetch - processPackages [svc-reg]: executing diffoscope
+[2023-07-13 13:13:18] INFO root fetch - processPackages [svc-reg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svc_reg-23.1.0.tar.gz tmp/svc_reg-23.2.0.tar.gz --markdown 20230713/s/svc-reg/23.1.0-23.2.0/diff.md --exclude *.pyd
+[2023-07-13 13:13:18] INFO root fetch - processPackages [hscan]: Downloading https://files.pythonhosted.org/packages/fa/1e/3ad5599687b5ede8a1286cf766d187445c70f0b6ddc3e352d15b12d9dd95/hscan-2.7.0.tar.gz
+[2023-07-13 13:13:18] INFO root fetch - processPackages [django-allauth-2fa]: executing diffoscope
+[2023-07-13 13:13:18] INFO root fetch - processPackages [django-allauth-2fa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-allauth-2fa-0.9.tar.gz tmp/django_allauth_2fa-0.9rc1-py3-none-any.whl.zip --markdown 20230713/d/django-allauth-2fa/0.9-0.9rc1/diff.md --exclude *.pyd
+[2023-07-13 13:13:18] INFO root fetch - processPackages [aigc-zoo]: Downloading https://files.pythonhosted.org/packages/d5/47/76e090da3a680231d4641693dcc5a1e46fae5e5340b89840e5b39a7e6df1/aigc_zoo-0.1.11.post2-py3-none-any.whl
+[2023-07-13 13:13:18] INFO root fetch - processPackages [python-payfast]: Downloading https://files.pythonhosted.org/packages/91/28/4e2a443ffb002033d4dccfb57b0af214ec21feac51440f135a34fff67a8e/python-payfast-0.3.tar.gz
+[2023-07-13 13:13:18] INFO root fetch - processPackages [pprint3x]: Downloading https://files.pythonhosted.org/packages/93/91/830a34c6a7e5197566aa4840869cc3312e8e90d364b300252d7b3617be30/pprint3x-3.10.4.3.tar.gz
+[2023-07-13 13:13:18] INFO root fetch - processPackages [ghga-connector]: executing diffoscope
+[2023-07-13 13:13:18] INFO root fetch - processPackages [ghga-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghga_connector-0.3.6.tar.gz tmp/ghga_connector-0.3.7.tar.gz --markdown 20230713/g/ghga-connector/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-13 13:13:18] INFO root fetch - processPackages [flea]: Downloading https://files.pythonhosted.org/packages/3f/f6/45854ac75dc9eb0e05bb6955b5c7ef8feec546a1aa80f49fe97bbf946c4b/flea-9.1.1.tar.gz
+[2023-07-13 13:13:18] INFO root fetch - processPackages [hscan]: executing diffoscope
+[2023-07-13 13:13:18] INFO root fetch - processPackages [hscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hscan-2.6.1.tar.gz tmp/hscan-2.7.0.tar.gz --markdown 20230713/h/hscan/2.6.1-2.7.0/diff.md --exclude *.pyd
+[2023-07-13 13:13:18] INFO root fetch - processPackages [tzspace]: Downloading https://files.pythonhosted.org/packages/d5/51/c01bf8d59132597f4eeeed3e9d985ae43f5d1f2c045198eea6741c7908b8/tzspace-0.0.7.tar.gz
+[2023-07-13 13:13:18] INFO root fetch - processPackages [aigc-zoo]: executing diffoscope
+[2023-07-13 13:13:18] INFO root fetch - processPackages [aigc-zoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aigc_zoo-0.1.11.post1-py3-none-any.whl.zip tmp/aigc_zoo-0.1.11.post2-py3-none-any.whl.zip --markdown 20230713/a/aigc-zoo/0.1.11.post1-0.1.11.post2/diff.md --exclude *.pyd
+[2023-07-13 13:13:18] INFO root fetch - processPackages [gchar]: Downloading https://files.pythonhosted.org/packages/ea/1e/60e722805151b036c5d7e834fbf86de6496975910d0d0a911e79b39b3a75/gchar-0.1.0.tar.gz
+[2023-07-13 13:13:18] INFO root fetch - processPackages [python-payfast]: executing diffoscope
+[2023-07-13 13:13:18] INFO root fetch - processPackages [python-payfast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-payfast-0.2.tar.gz tmp/python-payfast-0.3.tar.gz --markdown 20230713/p/python-payfast/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-13 13:13:18] INFO root fetch - processPackages [flea]: executing diffoscope
+[2023-07-13 13:13:18] INFO root fetch - processPackages [flea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flea-9.1.0.tar.gz tmp/flea-9.1.1.tar.gz --markdown 20230713/f/flea/9.1.0-9.1.1/diff.md --exclude *.pyd
+[2023-07-13 13:13:18] INFO root fetch - processPackages [pprint3x]: executing diffoscope
+[2023-07-13 13:13:18] INFO root fetch - processPackages [pprint3x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pprint3x-3.10.4.2.tar.gz tmp/pprint3x-3.10.4.3.tar.gz --markdown 20230713/p/pprint3x/3.10.4.2-3.10.4.3/diff.md --exclude *.pyd
+[2023-07-13 13:13:18] INFO root fetch - processPackages [tzspace]: executing diffoscope
+[2023-07-13 13:13:18] INFO root fetch - processPackages [tzspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tzspace-0.0.6.tar.gz tmp/tzspace-0.0.7.tar.gz --markdown 20230713/t/tzspace/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-13 13:13:18] INFO root fetch - processPackages [gchar]: executing diffoscope
+[2023-07-13 13:13:18] INFO root fetch - processPackages [gchar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gchar-0.0.9.tar.gz tmp/gchar-0.1.0.tar.gz --markdown 20230713/g/gchar/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-13 13:13:20] INFO root fetch - processPackages [svc-reg]: Remove: archive file [/home/abi/fetcher/tmp/svc_reg-23.1.0.tar.gz]
+[2023-07-13 13:13:20] INFO root fetch - processPackages [svc-reg]: Remove: archive file [/home/abi/fetcher/tmp/svc_reg-23.2.0.tar.gz]
+[2023-07-13 13:13:20] INFO root fetch - main [MainThread]: End processing [svc-reg]: success
+[2023-07-13 13:13:20] INFO root fetch - processPackages [django-allauth-2fa]: Remove: archive file [/home/abi/fetcher/tmp/django-allauth-2fa-0.9.tar.gz]
+[2023-07-13 13:13:20] INFO root fetch - processPackages [django-allauth-2fa]: Remove: archive file [/home/abi/fetcher/tmp/django_allauth_2fa-0.9rc1-py3-none-any.whl.zip]
+[2023-07-13 13:13:20] INFO root fetch - main [MainThread]: End processing [django-allauth-2fa]: success
+[2023-07-13 13:13:20] INFO root fetch - processPackages [hscan]: Remove: archive file [/home/abi/fetcher/tmp/hscan-2.6.1.tar.gz]
+[2023-07-13 13:13:20] INFO root fetch - processPackages [hscan]: Remove: archive file [/home/abi/fetcher/tmp/hscan-2.7.0.tar.gz]
+[2023-07-13 13:13:20] INFO root fetch - main [MainThread]: End processing [hscan]: success
+[2023-07-13 13:13:20] INFO root fetch - processPackages [aigc-zoo]: Remove: archive file [/home/abi/fetcher/tmp/aigc_zoo-0.1.11.post1-py3-none-any.whl.zip]
+[2023-07-13 13:13:20] INFO root fetch - processPackages [aigc-zoo]: Remove: archive file [/home/abi/fetcher/tmp/aigc_zoo-0.1.11.post2-py3-none-any.whl.zip]
+[2023-07-13 13:13:20] INFO root fetch - main [MainThread]: End processing [aigc-zoo]: success
+[2023-07-13 13:13:20] INFO root fetch - processPackages [python-payfast]: Remove: archive file [/home/abi/fetcher/tmp/python-payfast-0.2.tar.gz]
+[2023-07-13 13:13:20] INFO root fetch - processPackages [python-payfast]: Remove: archive file [/home/abi/fetcher/tmp/python-payfast-0.3.tar.gz]
+[2023-07-13 13:13:20] INFO root fetch - main [MainThread]: End processing [python-payfast]: success
+[2023-07-13 13:13:20] INFO root fetch - processPackages [tzspace]: Remove: archive file [/home/abi/fetcher/tmp/tzspace-0.0.6.tar.gz]
+[2023-07-13 13:13:20] INFO root fetch - processPackages [tzspace]: Remove: archive file [/home/abi/fetcher/tmp/tzspace-0.0.7.tar.gz]
+[2023-07-13 13:13:20] INFO root fetch - main [MainThread]: End processing [tzspace]: success
+[2023-07-13 13:13:20] INFO root fetch - processPackages [pprint3x]: Remove: archive file [/home/abi/fetcher/tmp/pprint3x-3.10.4.2.tar.gz]
+[2023-07-13 13:13:20] INFO root fetch - processPackages [pprint3x]: Remove: archive file [/home/abi/fetcher/tmp/pprint3x-3.10.4.3.tar.gz]
+[2023-07-13 13:13:20] INFO root fetch - main [MainThread]: End processing [pprint3x]: success
+[2023-07-13 13:13:20] INFO root fetch - processPackages [ghga-connector]: Remove: archive file [/home/abi/fetcher/tmp/ghga_connector-0.3.6.tar.gz]
+[2023-07-13 13:13:20] INFO root fetch - processPackages [ghga-connector]: Remove: archive file [/home/abi/fetcher/tmp/ghga_connector-0.3.7.tar.gz]
+[2023-07-13 13:13:20] INFO root fetch - main [MainThread]: End processing [ghga-connector]: success
+[2023-07-13 13:13:21] INFO root fetch - processPackages [gchar]: Remove: archive file [/home/abi/fetcher/tmp/gchar-0.0.9.tar.gz]
+[2023-07-13 13:13:21] INFO root fetch - processPackages [gchar]: Remove: archive file [/home/abi/fetcher/tmp/gchar-0.1.0.tar.gz]
+[2023-07-13 13:13:21] INFO root fetch - main [MainThread]: End processing [gchar]: success
+[2023-07-13 13:13:21] INFO root fetch - processPackages [flea]: Remove: archive file [/home/abi/fetcher/tmp/flea-9.1.0.tar.gz]
+[2023-07-13 13:13:21] INFO root fetch - processPackages [flea]: Remove: archive file [/home/abi/fetcher/tmp/flea-9.1.1.tar.gz]
+[2023-07-13 13:13:21] INFO root fetch - main [MainThread]: End processing [flea]: success
+[2023-07-13 13:13:21] INFO root fetch - main [MainThread]: Store serial: [18873983]
