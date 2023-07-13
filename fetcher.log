@@ -9529,3 +9529,42 @@
 [2023-07-13 06:34:13] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.7.8.tar.gz]
 [2023-07-13 06:34:13] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
 [2023-07-13 06:34:13] INFO root fetch - main [MainThread]: Store serial: [18869870]
+[2023-07-13 06:39:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18869870]
+[2023-07-13 06:39:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-13 06:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: entail
+[2023-07-13 06:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-pos-place
+[2023-07-13 06:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pinject-design
+[2023-07-13 06:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyawskit
+[2023-07-13 06:39:22] INFO root fetch - processPackages [entail]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-13 06:39:22] INFO root fetch - processPackages [odoo12-addon-pos-place]: New version: [12.0.1.0.4.99.dev4] Old Version: [12.0.1.0.4.99.dev3]
+[2023-07-13 06:39:22] INFO root fetch - processPackages [pyawskit]: New version: [0.1.75] Old Version: [0.1.74]
+[2023-07-13 06:39:22] INFO root fetch - processPackages [pinject-design]: New version: [0.1.94] Old Version: [0.1.93]
+[2023-07-13 06:39:22] INFO root fetch - processPackages [pyawskit]: Downloading https://files.pythonhosted.org/packages/b1/76/7f6ae6ded8d9f34e390cee69d721a6284e57849ae3a17636d592be855c30/pyawskit-0.1.74.tar.gz
+[2023-07-13 06:39:22] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/6c/d0/f8dfbd91b0b89250915d60529ccb8ff1def3e701d81d044c6cd837581dfb/pinject_design-0.1.93.tar.gz
+[2023-07-13 06:39:22] INFO root fetch - processPackages [entail]: Downloading https://files.pythonhosted.org/packages/6f/55/79a159f7ec1aa8514e482f7462f89b2fdfc3e4b923804562be82bfd22bd5/entail-0.0.1.tar.gz
+[2023-07-13 06:39:22] INFO root fetch - processPackages [odoo12-addon-pos-place]: Downloading https://files.pythonhosted.org/packages/51/60/53396a1e97145d03de5e8b33cb6385c952889bcd4fe2fc6723fbca343eb0/odoo12_addon_pos_place-12.0.1.0.4.99.dev3-py3-none-any.whl
+[2023-07-13 06:39:22] INFO root fetch - processPackages [pyawskit]: Downloading https://files.pythonhosted.org/packages/76/4f/0fedd7dea064c139d98a58ad220103ad839ba461d3cdbaadf41a7a7e0409/pyawskit-0.1.75.tar.gz
+[2023-07-13 06:39:22] INFO root fetch - processPackages [pyawskit]: executing diffoscope
+[2023-07-13 06:39:22] INFO root fetch - processPackages [pyawskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyawskit-0.1.74.tar.gz tmp/pyawskit-0.1.75.tar.gz --markdown 20230713/p/pyawskit/0.1.74-0.1.75/diff.md --exclude *.pyd
+[2023-07-13 06:39:23] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/83/54/db1ad9fbd52ffa6923d08e0e7ea99aa93072a16004adf9e2dd0b5e3bbe6b/pinject_design-0.1.94.tar.gz
+[2023-07-13 06:39:23] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-13 06:39:23] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject_design-0.1.93.tar.gz tmp/pinject_design-0.1.94.tar.gz --markdown 20230713/p/pinject-design/0.1.93-0.1.94/diff.md --exclude *.pyd
+[2023-07-13 06:39:23] INFO root fetch - processPackages [entail]: Downloading https://files.pythonhosted.org/packages/ef/93/3b5a990260ba8a23ea08ccf746e0bc78f157306b102c130244dc269a3139/entail-0.1.0.tar.gz
+[2023-07-13 06:39:23] INFO root fetch - processPackages [odoo12-addon-pos-place]: Downloading https://files.pythonhosted.org/packages/5e/90/31f8d2fdf064dd1372a03d21770c81f7364e9ef1c98da9b1273c3a8b2684/odoo12_addon_pos_place-12.0.1.0.4.99.dev4-py3-none-any.whl
+[2023-07-13 06:39:23] INFO root fetch - processPackages [entail]: executing diffoscope
+[2023-07-13 06:39:23] INFO root fetch - processPackages [entail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entail-0.0.1.tar.gz tmp/entail-0.1.0.tar.gz --markdown 20230713/e/entail/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-13 06:39:23] INFO root fetch - processPackages [odoo12-addon-pos-place]: executing diffoscope
+[2023-07-13 06:39:23] INFO root fetch - processPackages [odoo12-addon-pos-place]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_pos_place-12.0.1.0.4.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_pos_place-12.0.1.0.4.99.dev4-py3-none-any.whl.zip --markdown 20230713/o/odoo12-addon-pos-place/12.0.1.0.4.99.dev3-12.0.1.0.4.99.dev4/diff.md --exclude *.pyd
+[2023-07-13 06:39:23] INFO root fetch - processPackages [pyawskit]: Remove: archive file [/home/abi/fetcher/tmp/pyawskit-0.1.74.tar.gz]
+[2023-07-13 06:39:23] INFO root fetch - processPackages [pyawskit]: Remove: archive file [/home/abi/fetcher/tmp/pyawskit-0.1.75.tar.gz]
+[2023-07-13 06:39:23] INFO root fetch - main [MainThread]: End processing [pyawskit]: success
+[2023-07-13 06:39:24] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.93.tar.gz]
+[2023-07-13 06:39:24] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.94.tar.gz]
+[2023-07-13 06:39:24] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-13 06:39:24] INFO root fetch - processPackages [entail]: Remove: archive file [/home/abi/fetcher/tmp/entail-0.0.1.tar.gz]
+[2023-07-13 06:39:24] INFO root fetch - processPackages [entail]: Remove: archive file [/home/abi/fetcher/tmp/entail-0.1.0.tar.gz]
+[2023-07-13 06:39:24] INFO root fetch - main [MainThread]: End processing [entail]: success
+[2023-07-13 06:39:24] INFO root fetch - processPackages [odoo12-addon-pos-place]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_pos_place-12.0.1.0.4.99.dev3-py3-none-any.whl.zip]
+[2023-07-13 06:39:24] INFO root fetch - processPackages [odoo12-addon-pos-place]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_pos_place-12.0.1.0.4.99.dev4-py3-none-any.whl.zip]
+[2023-07-13 06:39:24] INFO root fetch - main [MainThread]: End processing [odoo12-addon-pos-place]: success
+[2023-07-13 06:39:24] INFO root fetch - main [MainThread]: Store serial: [18869904]
