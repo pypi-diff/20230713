@@ -12062,3 +12062,132 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 08:04:21] INFO root fetch - processPackages [fugue]: Remove: archive file [/home/abi/fetcher/tmp/fugue-0.8.6.dev1.tar.gz]
 [2023-07-13 08:04:21] INFO root fetch - main [MainThread]: End processing [fugue]: success
 [2023-07-13 08:04:21] INFO root fetch - main [MainThread]: Store serial: [18870650]
+[2023-07-13 08:09:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18870650]
+[2023-07-13 08:09:31] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-13 08:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyncos-module
+[2023-07-13 08:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bluetooth-data-tools
+[2023-07-13 08:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vcarhilclient
+[2023-07-13 08:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: insights-core
+[2023-07-13 08:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: labeva
+[2023-07-13 08:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-go-template
+[2023-07-13 08:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: amqp-mqtt-transport
+[2023-07-13 08:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assemblyline-service-client
+[2023-07-13 08:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-service-server
+[2023-07-13 08:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assemblyline-ui
+[2023-07-13 08:09:31] INFO root fetch - processPackages [pyncos-module]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 08:09:31] WARNING root fetch - processPackages [labeva]: Skipping, unable to determine old version
+[2023-07-13 08:09:31] INFO root fetch - processPackages [labeva]: Start processing: assemblyline-v4-service
+[2023-07-13 08:09:31] INFO root fetch - main [MainThread]: End processing [labeva] error
+[2023-07-13 08:09:31] INFO root fetch - processPackages [insights-core]: New version: [3.2.6] Old Version: [3.2.5]
+[2023-07-13 08:09:31] INFO root fetch - processPackages [vcarhilclient]: New version: [1.0.713] Old Version: [1.0.706]
+[2023-07-13 08:09:31] INFO root fetch - processPackages [bluetooth-data-tools]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-13 08:09:31] INFO root fetch - processPackages [amqp-mqtt-transport]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-13 08:09:31] WARNING root fetch - processPackages [py-go-template]: Skipping, unable to determine old version
+[2023-07-13 08:09:31] INFO root fetch - processPackages [py-go-template]: Start processing: assemblyline
+[2023-07-13 08:09:31] INFO root fetch - main [MainThread]: End processing [py-go-template] error
+[2023-07-13 08:09:31] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-13 08:09:31] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-13 08:09:31] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-13 08:09:31] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-13 08:09:31] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-13 08:09:31] INFO root fetch - processPackages [amqp-mqtt-transport]: Downloading https://files.pythonhosted.org/packages/9e/5d/8c8d7e581d2c47e33072cb0c37d82c6f26261f782f7950a3af6a132ae111/amqp_mqtt_transport-0.1.8.tar.gz
+[2023-07-13 08:09:31] INFO root fetch - processPackages [pyncos-module]: Downloading https://files.pythonhosted.org/packages/63/ff/0901eae35fb46a6cdc5a1f5835a7ca2b23b694932479bc717eeca95b9444/pyncos-module-0.0.8.tar.gz
+[2023-07-13 08:09:31] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/d0/9d/73a653591c81e927ff88321d05e4273374e7a6b83130aa29fe2ca8a8f3c8/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl
+[2023-07-13 08:09:31] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/fb/ca/10ec337efc2ea70b32ead6e4b7d46e1e23f2d1a7638e8bfd6b51a182d2af/assemblyline-4.4.1.dev98.tar.gz
+[2023-07-13 08:09:31] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/a4/73/2640c3bfcb2613b0f095aa242df946dd9c81ed47f2dd21c43c0eca553226/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl
+[2023-07-13 08:09:31] INFO root fetch - processPackages [vcarhilclient]: Downloading https://files.pythonhosted.org/packages/08/d3/09f86dedc57e907ed3b345ed92ec01e5b1608ef11d8bab1758c2b19e2ae3/vcarhilclient-1.0.706.tar.gz
+[2023-07-13 08:09:31] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/88/f0/1e1ea5a38c6644090daf7b8e756373614f960038fc4187021d034bab3f59/assemblyline_ui-4.4.1.dev98-py3-none-any.whl
+[2023-07-13 08:09:31] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/54/b5/0024f1bbc1ef0292649291a4c2f013a75eee15fbabb5b0a69eab5421c568/insights-core-3.2.5.tar.gz
+[2023-07-13 08:09:31] INFO root fetch - processPackages [bluetooth-data-tools]: Downloading https://files.pythonhosted.org/packages/a4/79/4b0d5407d71c15569ab5eb75995bac150629223e99987f6ea2d439d5c150/bluetooth_data_tools-1.3.0.tar.gz
+[2023-07-13 08:09:32] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/0d/18/25fd38ec83bbb1da504d3063623af0139b964cc4957ee52dab43c8a48eec/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl
+[2023-07-13 08:09:32] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/2c/65/290b479a07ea2714c26e302d7ee822da3dcfd3a50ecbfcf4091efd378829/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl
+[2023-07-13 08:09:32] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/bd/c6/6e355350483536185a855a768a59edd86f3a9b152d83c0e328adfb3c5158/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl
+[2023-07-13 08:09:32] INFO root fetch - processPackages [pyncos-module]: Downloading https://files.pythonhosted.org/packages/20/ed/1e03da676886a5e1f50037ff8be976a946768e47bd083e2ff49c922c7b4c/pyncos-module-0.0.9.tar.gz
+[2023-07-13 08:09:32] INFO root fetch - processPackages [amqp-mqtt-transport]: Downloading https://files.pythonhosted.org/packages/5f/dc/f44da89700ac05a4667136ebf0650a6aadf109dc36b18f30cc9b3c4d5aa1/amqp_mqtt_transport-0.1.9.tar.gz
+[2023-07-13 08:09:32] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/bd/bc/8573bd972e279862ab5c57e5a99e53f5087cd49a2741a054d2753ef654a7/assemblyline-4.4.1.dev99.tar.gz
+[2023-07-13 08:09:32] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/e3/c6/dfade12e5e90540956305d36f873c5aed23370282783a34e66dc3b21a383/assemblyline_ui-4.4.1.dev99-py3-none-any.whl
+[2023-07-13 08:09:32] INFO root fetch - processPackages [vcarhilclient]: Downloading https://files.pythonhosted.org/packages/5c/3f/e8e5c9a1a8c3c0dadce84c284ea42654864fe6399322bda6b343efe8f376/vcarhilclient-1.0.713.tar.gz
+[2023-07-13 08:09:32] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-07-13 08:09:32] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230713/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-13 08:09:32] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/47/8f/28c4f84deeaf6ecece9518c5613a84646d9a0b9e24b8c8791e4612f1738c/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl
+[2023-07-13 08:09:32] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-07-13 08:09:32] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230713/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-13 08:09:32] INFO root fetch - processPackages [bluetooth-data-tools]: Downloading https://files.pythonhosted.org/packages/9e/89/309522c7188ee1c32eab2001257f3fed18ff760284a434bddc8c09900931/bluetooth_data_tools-1.4.0.tar.gz
+[2023-07-13 08:09:32] INFO root fetch - processPackages [pyncos-module]: executing diffoscope
+[2023-07-13 08:09:32] INFO root fetch - processPackages [pyncos-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyncos-module-0.0.8.tar.gz tmp/pyncos-module-0.0.9.tar.gz --markdown 20230713/p/pyncos-module/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 08:09:32] INFO root fetch - processPackages [amqp-mqtt-transport]: executing diffoscope
+[2023-07-13 08:09:32] INFO root fetch - processPackages [amqp-mqtt-transport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amqp_mqtt_transport-0.1.8.tar.gz tmp/amqp_mqtt_transport-0.1.9.tar.gz --markdown 20230713/a/amqp-mqtt-transport/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-13 08:09:32] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-07-13 08:09:32] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230713/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-13 08:09:32] INFO root fetch - processPackages [vcarhilclient]: executing diffoscope
+[2023-07-13 08:09:32] INFO root fetch - processPackages [vcarhilclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcarhilclient-1.0.706.tar.gz tmp/vcarhilclient-1.0.713.tar.gz --markdown 20230713/v/vcarhilclient/1.0.706-1.0.713/diff.md --exclude *.pyd
+[2023-07-13 08:09:32] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/87/4d/5022c539ef449e625c69fe9c962f9e8cb3984016412f926f9bf7b9735db3/insights-core-3.2.6.tar.gz
+[2023-07-13 08:09:32] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-07-13 08:09:32] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230713/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-13 08:09:32] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-07-13 08:09:32] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230713/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-13 08:09:32] INFO root fetch - processPackages [bluetooth-data-tools]: executing diffoscope
+[2023-07-13 08:09:32] INFO root fetch - processPackages [bluetooth-data-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluetooth_data_tools-1.3.0.tar.gz tmp/bluetooth_data_tools-1.4.0.tar.gz --markdown 20230713/b/bluetooth-data-tools/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-13 08:09:32] INFO root fetch - processPackages [insights-core]: executing diffoscope
+[2023-07-13 08:09:32] INFO root fetch - processPackages [insights-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insights-core-3.2.5.tar.gz tmp/insights-core-3.2.6.tar.gz --markdown 20230713/i/insights-core/3.2.5-3.2.6/diff.md --exclude *.pyd
+[2023-07-13 08:09:33] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-13 08:09:33] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-13 08:09:33] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: assemblyline-core
+[2023-07-13 08:09:33] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-07-13 08:09:34] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-13 08:09:34] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-13 08:09:34] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-13 08:09:34] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: pyg-nightly
+[2023-07-13 08:09:34] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-07-13 08:09:34] INFO root fetch - processPackages [pyncos-module]: Remove: archive file [/home/abi/fetcher/tmp/pyncos-module-0.0.8.tar.gz]
+[2023-07-13 08:09:34] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/c6/b0/1bb0cc8f270604c12a6c573e663a56b4479a805585b2f0dec5745c366b75/assemblyline-core-4.4.1.dev98.tar.gz
+[2023-07-13 08:09:34] INFO root fetch - processPackages [pyncos-module]: Remove: archive file [/home/abi/fetcher/tmp/pyncos-module-0.0.9.tar.gz]
+[2023-07-13 08:09:34] INFO root fetch - processPackages [pyncos-module]: Start processing: mysqlx
+[2023-07-13 08:09:34] INFO root fetch - main [MainThread]: End processing [pyncos-module]: success
+[2023-07-13 08:09:34] INFO root fetch - processPackages [amqp-mqtt-transport]: Remove: archive file [/home/abi/fetcher/tmp/amqp_mqtt_transport-0.1.8.tar.gz]
+[2023-07-13 08:09:34] INFO root fetch - processPackages [amqp-mqtt-transport]: Remove: archive file [/home/abi/fetcher/tmp/amqp_mqtt_transport-0.1.9.tar.gz]
+[2023-07-13 08:09:34] INFO root fetch - processPackages [amqp-mqtt-transport]: Start processing: how-so
+[2023-07-13 08:09:34] INFO root fetch - main [MainThread]: End processing [amqp-mqtt-transport]: success
+[2023-07-13 08:09:34] INFO root fetch - processPackages [vcarhilclient]: Remove: archive file [/home/abi/fetcher/tmp/vcarhilclient-1.0.706.tar.gz]
+[2023-07-13 08:09:34] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230712] Old Version: [2.4.0.dev20230711]
+[2023-07-13 08:09:34] INFO root fetch - processPackages [vcarhilclient]: Remove: archive file [/home/abi/fetcher/tmp/vcarhilclient-1.0.713.tar.gz]
+[2023-07-13 08:09:34] INFO root fetch - main [MainThread]: End processing [vcarhilclient]: success
+[2023-07-13 08:09:34] WARNING root fetch - processPackages [how-so]: Skipping, unable to determine old version
+[2023-07-13 08:09:34] INFO root fetch - main [MainThread]: End processing [how-so] error
+[2023-07-13 08:09:34] INFO root fetch - processPackages [bluetooth-data-tools]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth_data_tools-1.3.0.tar.gz]
+[2023-07-13 08:09:34] INFO root fetch - processPackages [bluetooth-data-tools]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth_data_tools-1.4.0.tar.gz]
+[2023-07-13 08:09:34] INFO root fetch - main [MainThread]: End processing [bluetooth-data-tools]: success
+[2023-07-13 08:09:34] INFO root fetch - processPackages [mysqlx]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-13 08:09:34] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/98/25/0c6ce5534a5b7011b445d7f1f6ff4d043bf4b2bd3579ca8a49947d478f96/pyg_nightly-2.4.0.dev20230711.tar.gz
+[2023-07-13 08:09:34] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/63/40/1e762930effd688f4bca07aca72276ca6ebee782934f06a6006ea66b2f16/assemblyline-core-4.4.1.dev99.tar.gz
+[2023-07-13 08:09:34] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-13 08:09:34] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-13 08:09:34] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-07-13 08:09:34] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/0a/5d/dec59e19e28b564f367f692c3ccc531ddeb60ce25b5d209de4b6474e53bb/mysqlx-1.5.0.tar.gz
+[2023-07-13 08:09:34] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-07-13 08:09:34] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230713/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-13 08:09:35] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/ee/0f/2ec7146bcc99e985f973182f670d5460fc50baae05870cac7881c4447e79/pyg_nightly-2.4.0.dev20230712.tar.gz
+[2023-07-13 08:09:35] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/72/4a/480983cf6d63ba875aa055a5158830978b1f5fe566ca272f860c620bfc4c/mysqlx-1.5.1.tar.gz
+[2023-07-13 08:09:35] INFO root fetch - processPackages [mysqlx]: executing diffoscope
+[2023-07-13 08:09:35] INFO root fetch - processPackages [mysqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-1.5.0.tar.gz tmp/mysqlx-1.5.1.tar.gz --markdown 20230713/m/mysqlx/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-13 08:09:35] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev98.tar.gz]
+[2023-07-13 08:09:35] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev99.tar.gz]
+[2023-07-13 08:09:35] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-07-13 08:09:35] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-07-13 08:09:35] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230711.tar.gz tmp/pyg_nightly-2.4.0.dev20230712.tar.gz --markdown 20230713/p/pyg-nightly/2.4.0.dev20230711-2.4.0.dev20230712/diff.md --exclude *.pyd
+[2023-07-13 08:09:35] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-13 08:09:35] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-13 08:09:35] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-07-13 08:09:35] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev98.tar.gz]
+[2023-07-13 08:09:35] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev99.tar.gz]
+[2023-07-13 08:09:35] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-07-13 08:09:36] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.5.0.tar.gz]
+[2023-07-13 08:09:36] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.5.1.tar.gz]
+[2023-07-13 08:09:36] INFO root fetch - main [MainThread]: End processing [mysqlx]: success
+[2023-07-13 08:09:38] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230711.tar.gz]
+[2023-07-13 08:09:38] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230712.tar.gz]
+[2023-07-13 08:09:38] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-07-13 08:09:43] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.2.5.tar.gz]
+[2023-07-13 08:09:43] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.2.6.tar.gz]
+[2023-07-13 08:09:43] INFO root fetch - main [MainThread]: End processing [insights-core]: success
+[2023-07-13 08:09:43] INFO root fetch - main [MainThread]: Store serial: [18870699]
