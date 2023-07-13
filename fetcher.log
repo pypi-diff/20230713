@@ -13597,3 +13597,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 09:30:08] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-07-13 09:30:08] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-07-13 09:30:08] INFO root fetch - main [MainThread]: Store serial: [18871467]
+[2023-07-13 09:35:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18871467]
+[2023-07-13 09:35:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-13 09:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inspire-matcher
+[2023-07-13 09:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cjm-yolox-pytorch
+[2023-07-13 09:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iqm-cortex-cli
+[2023-07-13 09:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TEST-TC
+[2023-07-13 09:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qontract-reconcile
+[2023-07-13 09:35:17] INFO root fetch - processPackages [TEST-TC]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-13 09:35:17] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.86]
+[2023-07-13 09:35:17] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-13 09:35:17] INFO root fetch - processPackages [iqm-cortex-cli]: New version: [4.4] Old Version: [4.3]
+[2023-07-13 09:35:17] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/81/cd/5f2f83dcb6509e9a9151d6f7dad50aa647fbf2a1ffcaa9bbc086511e89a6/TEST_TC-1.0.6.tar.gz
+[2023-07-13 09:35:17] INFO root fetch - processPackages [inspire-matcher]: New version: [9.0.9] Old Version: [9.0.8]
+[2023-07-13 09:35:17] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/76/37/07963c11074167f48d05eaa328b957831ee7cc427fc182f383de8c216ed5/cjm-yolox-pytorch-0.0.86.tar.gz
+[2023-07-13 09:35:17] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-13 09:35:17] INFO root fetch - processPackages [iqm-cortex-cli]: Downloading https://files.pythonhosted.org/packages/61/ae/12823fbca5ac65af30b17ff2bee4ac5011677cd094116caebcd5b0521d27/iqm-cortex-cli-4.3.tar.gz
+[2023-07-13 09:35:17] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 09:35:17] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/3f/c9/7c8b0fc0f174ffe1956f584d31719756852440531723dfaab2a24af60b76/TEST_TC-1.0.7.tar.gz
+[2023-07-13 09:35:17] INFO root fetch - processPackages [inspire-matcher]: Downloading https://files.pythonhosted.org/packages/67/f2/08879e7de2f80f2f406079940733e9ac8b296a59a7ad850538d88cd8977c/inspire-matcher-9.0.8.tar.gz
+[2023-07-13 09:35:18] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-13 09:35:18] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 09:35:18] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.86.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.86-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 09:35:18] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-07-13 09:35:18] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-1.0.6.tar.gz tmp/TEST_TC-1.0.7.tar.gz --markdown 20230713/T/TEST-TC/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-13 09:35:18] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-13 09:35:18] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230713/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-13 09:35:18] INFO root fetch - processPackages [iqm-cortex-cli]: Downloading https://files.pythonhosted.org/packages/71/b5/ee761e060e2dd952cae15d42751e69866d9e5682b69e6f9f3284afe94375/iqm-cortex-cli-4.4.tar.gz
+[2023-07-13 09:35:18] INFO root fetch - processPackages [inspire-matcher]: Downloading https://files.pythonhosted.org/packages/5f/fc/b7b4438f22f28ecc302dba3d038b3e60c4e5fed5b66c2bf27a5af20e91f9/inspire-matcher-9.0.9.tar.gz
+[2023-07-13 09:35:18] INFO root fetch - processPackages [inspire-matcher]: executing diffoscope
+[2023-07-13 09:35:18] INFO root fetch - processPackages [inspire-matcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspire-matcher-9.0.8.tar.gz tmp/inspire-matcher-9.0.9.tar.gz --markdown 20230713/i/inspire-matcher/9.0.8-9.0.9/diff.md --exclude *.pyd
+[2023-07-13 09:35:18] INFO root fetch - processPackages [iqm-cortex-cli]: executing diffoscope
+[2023-07-13 09:35:18] INFO root fetch - processPackages [iqm-cortex-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqm-cortex-cli-4.3.tar.gz tmp/iqm-cortex-cli-4.4.tar.gz --markdown 20230713/i/iqm-cortex-cli/4.3-4.4/diff.md --exclude *.pyd
+[2023-07-13 09:35:21] INFO root fetch - processPackages [inspire-matcher]: Remove: archive file [/home/abi/fetcher/tmp/inspire-matcher-9.0.8.tar.gz]
+[2023-07-13 09:35:21] INFO root fetch - processPackages [inspire-matcher]: Remove: archive file [/home/abi/fetcher/tmp/inspire-matcher-9.0.9.tar.gz]
+[2023-07-13 09:35:21] INFO root fetch - main [MainThread]: End processing [inspire-matcher]: success
+[2023-07-13 09:35:22] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.86.tar.gz]
+[2023-07-13 09:35:22] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 09:35:22] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 09:35:22] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.0.6.tar.gz]
+[2023-07-13 09:35:22] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.0.7.tar.gz]
+[2023-07-13 09:35:22] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-07-13 09:35:22] INFO root fetch - processPackages [iqm-cortex-cli]: Remove: archive file [/home/abi/fetcher/tmp/iqm-cortex-cli-4.3.tar.gz]
+[2023-07-13 09:35:22] INFO root fetch - processPackages [iqm-cortex-cli]: Remove: archive file [/home/abi/fetcher/tmp/iqm-cortex-cli-4.4.tar.gz]
+[2023-07-13 09:35:22] INFO root fetch - main [MainThread]: End processing [iqm-cortex-cli]: success
+[2023-07-13 09:35:23] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-13 09:35:23] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-13 09:35:23] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-13 09:35:23] INFO root fetch - main [MainThread]: Store serial: [18871485]
