@@ -20881,3 +20881,72 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 13:40:15] INFO root fetch - processPackages [MetaGram]: Remove: archive file [/home/abi/fetcher/tmp/MetaGram-2.0.1.tar.gz]
 [2023-07-13 13:40:15] INFO root fetch - main [MainThread]: End processing [MetaGram]: success
 [2023-07-13 13:40:15] INFO root fetch - main [MainThread]: Store serial: [18874259]
+[2023-07-13 13:45:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18874259]
+[2023-07-13 13:45:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-13 13:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Python-Package-Project
+[2023-07-13 13:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: db-gpt
+[2023-07-13 13:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sensenova
+[2023-07-13 13:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: checkmk-dev-tools
+[2023-07-13 13:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: read-tydex-file-pkg
+[2023-07-13 13:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openhexa.toolbox
+[2023-07-13 13:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: threads-net
+[2023-07-13 13:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: propel-client
+[2023-07-13 13:45:24] WARNING root fetch - processPackages [Python-Package-Project]: Skipping, unable to determine old version
+[2023-07-13 13:45:24] INFO root fetch - main [MainThread]: End processing [Python-Package-Project] error
+[2023-07-13 13:45:24] INFO root fetch - processPackages [sensenova]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-13 13:45:24] INFO root fetch - processPackages [db-gpt]: New version: [0.3.0] Old Version: [0.2.8]
+[2023-07-13 13:45:24] INFO root fetch - processPackages [openhexa.toolbox]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-13 13:45:24] INFO root fetch - processPackages [checkmk-dev-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-13 13:45:24] INFO root fetch - processPackages [threads-net]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-13 13:45:24] INFO root fetch - processPackages [read-tydex-file-pkg]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-13 13:45:24] INFO root fetch - processPackages [propel-client]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 13:45:24] INFO root fetch - processPackages [sensenova]: Downloading https://files.pythonhosted.org/packages/76/75/2905ec3ea13dd689e349a842d408b61df64b4dfdb49e11a7667eb7f745a1/sensenova-1.0.2.tar.gz
+[2023-07-13 13:45:24] INFO root fetch - processPackages [checkmk-dev-tools]: Downloading https://files.pythonhosted.org/packages/a5/44/09fe3238664c76b0dde99d19f15393d76e212e1d1eec081b474e6eaae194/checkmk_dev_tools-0.1.8.tar.gz
+[2023-07-13 13:45:24] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/11/ba/483f4770d7c413aff80cfdfd96da75d50912f6604255f4a04d7e8448a5a1/threads-net-0.0.7.tar.gz
+[2023-07-13 13:45:24] INFO root fetch - processPackages [db-gpt]: Downloading https://files.pythonhosted.org/packages/c1/a0/d13a573d1b15dfae9879a58a0dcd966b1b56df4292a401561519bf395c9b/db-gpt-0.2.8.tar.gz
+[2023-07-13 13:45:24] INFO root fetch - processPackages [openhexa.toolbox]: Downloading https://files.pythonhosted.org/packages/ea/97/ffa732c8aa58b85f88d5fe19bc4d99f8f926a63b3dd0b25b6f9626e5a481/openhexa.toolbox-0.1.1.tar.gz
+[2023-07-13 13:45:24] INFO root fetch - processPackages [read-tydex-file-pkg]: Downloading https://files.pythonhosted.org/packages/22/2b/86fc2971110203b1d1396ddf0a4daba651f260c1a2af8ece791d0b1ed3c6/read_tydex_file_pkg-0.0.2.tar.gz
+[2023-07-13 13:45:24] INFO root fetch - processPackages [propel-client]: Downloading https://files.pythonhosted.org/packages/9e/3a/f3e162f266a63c139230793b482232d951066329a745c49bb59d96d57b8a/propel_client-0.0.1.tar.gz
+[2023-07-13 13:45:24] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/de/bd/e372c12fe307c562ec3785151d74201431eddd2312171d55b8ee4ac81db6/threads-net-0.0.8.tar.gz
+[2023-07-13 13:45:24] INFO root fetch - processPackages [sensenova]: Downloading https://files.pythonhosted.org/packages/c9/3d/c2b8e73484ac67be0d7edc19669ab316a4b87096eabd7a072fd90606bc7e/sensenova-1.0.3.tar.gz
+[2023-07-13 13:45:24] INFO root fetch - processPackages [checkmk-dev-tools]: Downloading https://files.pythonhosted.org/packages/c1/1e/654ed63ab53350017ff4219e2e1d8cc32780c62f86a397bbc8134674c84e/checkmk_dev_tools-0.1.9.tar.gz
+[2023-07-13 13:45:25] INFO root fetch - processPackages [openhexa.toolbox]: Downloading https://files.pythonhosted.org/packages/56/04/88a33a562e4db6ac2fc4ce881df1098bdf816b76400a9df8eaa4f6885b66/openhexa.toolbox-0.1.2.tar.gz
+[2023-07-13 13:45:25] INFO root fetch - processPackages [db-gpt]: Downloading https://files.pythonhosted.org/packages/bf/d5/0ebac5ca3602dc02a84b02978334a24c9182c7b56dcf12183295a8d7f617/db-gpt-0.3.0.tar.gz
+[2023-07-13 13:45:25] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-13 13:45:25] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.7.tar.gz tmp/threads-net-0.0.8.tar.gz --markdown 20230713/t/threads-net/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-13 13:45:25] INFO root fetch - processPackages [propel-client]: Downloading https://files.pythonhosted.org/packages/4e/a3/bcb2377743aa396001e0b32668a870111a86229e83ad5e51ddc6568fc76d/propel_client-0.0.2.tar.gz
+[2023-07-13 13:45:25] INFO root fetch - processPackages [read-tydex-file-pkg]: Downloading https://files.pythonhosted.org/packages/b6/f4/ca7e12ecd9aa255c116cbd92781dda195de6392ab77d54db607ec197b1a7/read_tydex_file_pkg-0.0.3.tar.gz
+[2023-07-13 13:45:25] INFO root fetch - processPackages [checkmk-dev-tools]: executing diffoscope
+[2023-07-13 13:45:25] INFO root fetch - processPackages [checkmk-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkmk_dev_tools-0.1.8.tar.gz tmp/checkmk_dev_tools-0.1.9.tar.gz --markdown 20230713/c/checkmk-dev-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-13 13:45:25] INFO root fetch - processPackages [sensenova]: executing diffoscope
+[2023-07-13 13:45:25] INFO root fetch - processPackages [sensenova]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sensenova-1.0.2.tar.gz tmp/sensenova-1.0.3.tar.gz --markdown 20230713/s/sensenova/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-13 13:45:25] INFO root fetch - processPackages [openhexa.toolbox]: executing diffoscope
+[2023-07-13 13:45:25] INFO root fetch - processPackages [openhexa.toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhexa.toolbox-0.1.1.tar.gz tmp/openhexa.toolbox-0.1.2.tar.gz --markdown 20230713/o/openhexa.toolbox/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-13 13:45:25] INFO root fetch - processPackages [read-tydex-file-pkg]: executing diffoscope
+[2023-07-13 13:45:25] INFO root fetch - processPackages [read-tydex-file-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/read_tydex_file_pkg-0.0.2.tar.gz tmp/read_tydex_file_pkg-0.0.3.tar.gz --markdown 20230713/r/read-tydex-file-pkg/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-13 13:45:25] INFO root fetch - processPackages [db-gpt]: executing diffoscope
+[2023-07-13 13:45:25] INFO root fetch - processPackages [db-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/db-gpt-0.2.8.tar.gz tmp/db-gpt-0.3.0.tar.gz --markdown 20230713/d/db-gpt/0.2.8-0.3.0/diff.md --exclude *.pyd
+[2023-07-13 13:45:25] INFO root fetch - processPackages [propel-client]: executing diffoscope
+[2023-07-13 13:45:25] INFO root fetch - processPackages [propel-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propel_client-0.0.1.tar.gz tmp/propel_client-0.0.2.tar.gz --markdown 20230713/p/propel-client/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 13:45:26] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.7.tar.gz]
+[2023-07-13 13:45:26] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.8.tar.gz]
+[2023-07-13 13:45:26] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-13 13:45:26] INFO root fetch - processPackages [read-tydex-file-pkg]: Remove: archive file [/home/abi/fetcher/tmp/read_tydex_file_pkg-0.0.2.tar.gz]
+[2023-07-13 13:45:26] INFO root fetch - processPackages [read-tydex-file-pkg]: Remove: archive file [/home/abi/fetcher/tmp/read_tydex_file_pkg-0.0.3.tar.gz]
+[2023-07-13 13:45:26] INFO root fetch - main [MainThread]: End processing [read-tydex-file-pkg]: success
+[2023-07-13 13:45:26] INFO root fetch - processPackages [checkmk-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/checkmk_dev_tools-0.1.8.tar.gz]
+[2023-07-13 13:45:26] INFO root fetch - processPackages [checkmk-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/checkmk_dev_tools-0.1.9.tar.gz]
+[2023-07-13 13:45:26] INFO root fetch - main [MainThread]: End processing [checkmk-dev-tools]: success
+[2023-07-13 13:45:26] INFO root fetch - processPackages [propel-client]: Remove: archive file [/home/abi/fetcher/tmp/propel_client-0.0.1.tar.gz]
+[2023-07-13 13:45:26] INFO root fetch - processPackages [propel-client]: Remove: archive file [/home/abi/fetcher/tmp/propel_client-0.0.2.tar.gz]
+[2023-07-13 13:45:26] INFO root fetch - main [MainThread]: End processing [propel-client]: success
+[2023-07-13 13:45:26] INFO root fetch - processPackages [sensenova]: Remove: archive file [/home/abi/fetcher/tmp/sensenova-1.0.2.tar.gz]
+[2023-07-13 13:45:26] INFO root fetch - processPackages [sensenova]: Remove: archive file [/home/abi/fetcher/tmp/sensenova-1.0.3.tar.gz]
+[2023-07-13 13:45:26] INFO root fetch - main [MainThread]: End processing [sensenova]: success
+[2023-07-13 13:45:26] INFO root fetch - processPackages [openhexa.toolbox]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.toolbox-0.1.1.tar.gz]
+[2023-07-13 13:45:26] INFO root fetch - processPackages [openhexa.toolbox]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.toolbox-0.1.2.tar.gz]
+[2023-07-13 13:45:26] INFO root fetch - main [MainThread]: End processing [openhexa.toolbox]: success
+[2023-07-13 13:45:27] INFO root fetch - processPackages [db-gpt]: Remove: archive file [/home/abi/fetcher/tmp/db-gpt-0.2.8.tar.gz]
+[2023-07-13 13:45:27] INFO root fetch - processPackages [db-gpt]: Remove: archive file [/home/abi/fetcher/tmp/db-gpt-0.3.0.tar.gz]
+[2023-07-13 13:45:27] INFO root fetch - main [MainThread]: End processing [db-gpt]: success
+[2023-07-13 13:45:27] INFO root fetch - main [MainThread]: Store serial: [18874283]
