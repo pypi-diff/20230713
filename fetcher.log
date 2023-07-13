@@ -19980,3 +19980,164 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 13:02:52] INFO root fetch - processPackages [twnet-parser]: Remove: archive file [/home/abi/fetcher/tmp/twnet_parser-0.8.0.tar.gz]
 [2023-07-13 13:02:52] INFO root fetch - main [MainThread]: End processing [twnet-parser]: success
 [2023-07-13 13:02:52] INFO root fetch - main [MainThread]: Store serial: [18873873]
+[2023-07-13 13:07:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18873873]
+[2023-07-13 13:08:01] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-13 13:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: helios-rl
+[2023-07-13 13:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-project-version
+[2023-07-13 13:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parse-it
+[2023-07-13 13:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: efrem-utils
+[2023-07-13 13:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyElli
+[2023-07-13 13:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ramodels
+[2023-07-13 13:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: doy
+[2023-07-13 13:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: contact-magic
+[2023-07-13 13:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-payfast
+[2023-07-13 13:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lightning-template
+[2023-07-13 13:08:02] INFO root fetch - processPackages [django-project-version]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-13 13:08:02] INFO root fetch - processPackages [helios-rl]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 13:08:02] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-13 13:08:02] INFO root fetch - processPackages [doy]: New version: [1.2] Old Version: [1.1]
+[2023-07-13 13:08:02] INFO root fetch - processPackages [efrem-utils]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-13 13:08:02] INFO root fetch - processPackages [contact-magic]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-13 13:08:02] INFO root fetch - processPackages [python-payfast]: New version: [0.2] Old Version: [0.1]
+[2023-07-13 13:08:02] INFO root fetch - processPackages [pyElli]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-13 13:08:02] INFO root fetch - processPackages [lightning-template]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 13:08:02] INFO root fetch - processPackages [parse-it]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-07-13 13:08:02] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-13 13:08:02] INFO root fetch - processPackages [doy]: Downloading https://files.pythonhosted.org/packages/6b/0f/68b08a4bbf4c0cebbfe4e32234968c84629df5a47f52a32e30518d26aaf1/doy-1.1.tar.gz
+[2023-07-13 13:08:02] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/78/71/112109ad2b1aa685617dd84a150048372fbd6a5546c749679f55b88e8825/helios-rl-1.0.8.tar.gz
+[2023-07-13 13:08:02] INFO root fetch - processPackages [pyElli]: Downloading https://files.pythonhosted.org/packages/98/ff/e2530fb70531fa86e54bbadb8148b4118523ca8354700f507c8aad9e45e6/pyElli-0.9.1.tar.gz
+[2023-07-13 13:08:02] INFO root fetch - processPackages [django-project-version]: Downloading https://files.pythonhosted.org/packages/c2/c1/e33c3021d3f50e3d8af787a2870a85fa67c279cb0ec630f55c0522878a6d/django-project-version-0.9.3.zip
+[2023-07-13 13:08:02] INFO root fetch - processPackages [efrem-utils]: Downloading https://files.pythonhosted.org/packages/a5/54/7882b9295063806c56d93b1cb68392785009e8256e36df8095c9f36117d2/efrem_utils-0.0.6.tar.gz
+[2023-07-13 13:08:02] INFO root fetch - processPackages [python-payfast]: Downloading https://files.pythonhosted.org/packages/f1/aa/d4cb11000874500891db54fea2a6812898689e6b9cc0afe8049772aed4c6/python-payfast-0.1.tar.gz
+[2023-07-13 13:08:02] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/f7/71/5cdc09e73e6a3bbe14f9df3882412999e839e8d612a02144be1660eac3e2/contact_magic-0.5.2.tar.gz
+[2023-07-13 13:08:02] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/bb/23/283f51826390193fc77c120c748d3599480b234089dc9eea07057d06ac6a/lightning-template-1.0.8.tar.gz
+[2023-07-13 13:08:02] INFO root fetch - processPackages [parse-it]: Downloading https://files.pythonhosted.org/packages/cd/52/dbb13663fccbffb09d020cc56e8a7a1b551efa4c47759a518f758bba3f02/parse_it-3.7.0.tar.gz
+[2023-07-13 13:08:02] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-13 13:08:02] INFO root fetch - processPackages [doy]: Downloading https://files.pythonhosted.org/packages/63/1a/d8ad6dae009a928ed276aed176c0e2ae5d21793bbc6f2222371c3308130d/doy-1.2.tar.gz
+[2023-07-13 13:08:02] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/38/b0/396024a90d94cd1b942fb7b480a67ba92baba52b21d550f8b04102a9c2ef/helios-rl-1.0.9.tar.gz
+[2023-07-13 13:08:02] INFO root fetch - processPackages [efrem-utils]: Downloading https://files.pythonhosted.org/packages/ce/c0/025417ddec548d469f164921776ff12941054734af807f34ea60cd1a8351/efrem_utils-0.0.7.tar.gz
+[2023-07-13 13:08:02] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-13 13:08:02] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230713/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-13 13:08:02] INFO root fetch - processPackages [doy]: executing diffoscope
+[2023-07-13 13:08:02] INFO root fetch - processPackages [doy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doy-1.1.tar.gz tmp/doy-1.2.tar.gz --markdown 20230713/d/doy/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-13 13:08:02] INFO root fetch - processPackages [python-payfast]: Downloading https://files.pythonhosted.org/packages/d0/4e/627bf49639c220ce4b1dbf63220c0a1d219b843d6e4bc921f7832be21c07/python-payfast-0.2.tar.gz
+[2023-07-13 13:08:03] INFO root fetch - processPackages [helios-rl]: executing diffoscope
+[2023-07-13 13:08:03] INFO root fetch - processPackages [helios-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-rl-1.0.8.tar.gz tmp/helios-rl-1.0.9.tar.gz --markdown 20230713/h/helios-rl/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 13:08:03] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/fe/b7/379eb1e2af504be9f00c9d36152a56b4508e19ad1607de6669cdcd8016fe/contact_magic-0.5.3.tar.gz
+[2023-07-13 13:08:03] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/3c/15/188896748e785a66931b38a2f6e0ae23e7a6c736948e3b34b74d3220587a/lightning-template-1.0.9.tar.gz
+[2023-07-13 13:08:03] INFO root fetch - processPackages [efrem-utils]: executing diffoscope
+[2023-07-13 13:08:03] INFO root fetch - processPackages [efrem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efrem_utils-0.0.6.tar.gz tmp/efrem_utils-0.0.7.tar.gz --markdown 20230713/e/efrem-utils/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-13 13:08:03] INFO root fetch - processPackages [pyElli]: Downloading https://files.pythonhosted.org/packages/dc/05/5b5ae522fef24dfa9a3e0dcb1d3918b5b1f2f9a8488f30c51fe474875a95/pyElli-0.9.2.tar.gz
+[2023-07-13 13:08:03] INFO root fetch - processPackages [django-project-version]: Downloading https://files.pythonhosted.org/packages/12/d1/3e180231857444f1db35ebf93be0a40379425a85027592ecaa4a9d7bea01/django-project-version-0.9.4.zip
+[2023-07-13 13:08:03] INFO root fetch - processPackages [contact-magic]: executing diffoscope
+[2023-07-13 13:08:03] INFO root fetch - processPackages [contact-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_magic-0.5.2.tar.gz tmp/contact_magic-0.5.3.tar.gz --markdown 20230713/c/contact-magic/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-13 13:08:03] INFO root fetch - processPackages [lightning-template]: executing diffoscope
+[2023-07-13 13:08:03] INFO root fetch - processPackages [lightning-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-template-1.0.8.tar.gz tmp/lightning-template-1.0.9.tar.gz --markdown 20230713/l/lightning-template/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 13:08:03] INFO root fetch - processPackages [python-payfast]: executing diffoscope
+[2023-07-13 13:08:03] INFO root fetch - processPackages [python-payfast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-payfast-0.1.tar.gz tmp/python-payfast-0.2.tar.gz --markdown 20230713/p/python-payfast/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-13 13:08:03] INFO root fetch - processPackages [django-project-version]: executing diffoscope
+[2023-07-13 13:08:03] INFO root fetch - processPackages [django-project-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-project-version-0.9.3.zip tmp/django-project-version-0.9.4.zip --markdown 20230713/d/django-project-version/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-13 13:08:03] INFO root fetch - processPackages [parse-it]: Downloading https://files.pythonhosted.org/packages/3b/d8/0a3f4a732fa677a35dbea4e9c72741f55e44859dc1c79bf5edfce61d95f0/parse_it-3.8.0.tar.gz
+[2023-07-13 13:08:03] INFO root fetch - processPackages [parse-it]: executing diffoscope
+[2023-07-13 13:08:03] INFO root fetch - processPackages [parse-it]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_it-3.7.0.tar.gz tmp/parse_it-3.8.0.tar.gz --markdown 20230713/p/parse-it/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-07-13 13:08:04] INFO root fetch - processPackages [pyElli]: executing diffoscope
+[2023-07-13 13:08:04] INFO root fetch - processPackages [pyElli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyElli-0.9.1.tar.gz tmp/pyElli-0.9.2.tar.gz --markdown 20230713/p/pyElli/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-13 13:08:04] INFO root fetch - processPackages [doy]: Remove: archive file [/home/abi/fetcher/tmp/doy-1.1.tar.gz]
+[2023-07-13 13:08:04] INFO root fetch - processPackages [doy]: Remove: archive file [/home/abi/fetcher/tmp/doy-1.2.tar.gz]
+[2023-07-13 13:08:04] INFO root fetch - processPackages [doy]: Start processing: pyacaia-async
+[2023-07-13 13:08:04] INFO root fetch - main [MainThread]: End processing [doy]: success
+[2023-07-13 13:08:04] INFO root fetch - processPackages [efrem-utils]: Remove: archive file [/home/abi/fetcher/tmp/efrem_utils-0.0.6.tar.gz]
+[2023-07-13 13:08:04] INFO root fetch - processPackages [efrem-utils]: Remove: archive file [/home/abi/fetcher/tmp/efrem_utils-0.0.7.tar.gz]
+[2023-07-13 13:08:04] INFO root fetch - processPackages [efrem-utils]: Start processing: lmclient-core
+[2023-07-13 13:08:04] INFO root fetch - main [MainThread]: End processing [efrem-utils]: success
+[2023-07-13 13:08:05] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-13 13:08:05] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-13 13:08:05] INFO root fetch - processPackages [ramodels]: Start processing: utbot-executor
+[2023-07-13 13:08:05] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-13 13:08:05] INFO root fetch - processPackages [pyacaia-async]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-13 13:08:05] INFO root fetch - processPackages [lmclient-core]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-13 13:08:05] INFO root fetch - processPackages [utbot-executor]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-07-13 13:08:05] INFO root fetch - processPackages [pyacaia-async]: Downloading https://files.pythonhosted.org/packages/0e/a0/17f36d4fce03b92b2e98a6e171a98b10b3cd54864f27797fe73b86f8a355/pyacaia_async-0.0.2.tar.gz
+[2023-07-13 13:08:05] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.5.2.tar.gz]
+[2023-07-13 13:08:05] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.5.3.tar.gz]
+[2023-07-13 13:08:05] INFO root fetch - processPackages [contact-magic]: Start processing: ckanext-editable-config
+[2023-07-13 13:08:05] INFO root fetch - main [MainThread]: End processing [contact-magic]: success
+[2023-07-13 13:08:05] INFO root fetch - processPackages [ckanext-editable-config]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-13 13:08:05] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.8.tar.gz]
+[2023-07-13 13:08:05] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.9.tar.gz]
+[2023-07-13 13:08:05] INFO root fetch - processPackages [helios-rl]: Start processing: splinepy
+[2023-07-13 13:08:05] INFO root fetch - main [MainThread]: End processing [helios-rl]: success
+[2023-07-13 13:08:05] INFO root fetch - processPackages [lmclient-core]: Downloading https://files.pythonhosted.org/packages/25/01/03583f2faeba7034209fa7ae302174ac283a63d2a61456c744453c28e2a0/lmclient-core-0.2.1.tar.gz
+[2023-07-13 13:08:05] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.0.8.tar.gz]
+[2023-07-13 13:08:05] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.0.9.tar.gz]
+[2023-07-13 13:08:05] INFO root fetch - processPackages [lightning-template]: Start processing: lemonai
+[2023-07-13 13:08:05] INFO root fetch - main [MainThread]: End processing [lightning-template]: success
+[2023-07-13 13:08:05] INFO root fetch - processPackages [python-payfast]: Remove: archive file [/home/abi/fetcher/tmp/python-payfast-0.1.tar.gz]
+[2023-07-13 13:08:05] INFO root fetch - processPackages [python-payfast]: Remove: archive file [/home/abi/fetcher/tmp/python-payfast-0.2.tar.gz]
+[2023-07-13 13:08:05] INFO root fetch - processPackages [python-payfast]: Start processing: siman
+[2023-07-13 13:08:05] INFO root fetch - main [MainThread]: End processing [python-payfast]: success
+[2023-07-13 13:08:05] INFO root fetch - processPackages [splinepy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 13:08:05] INFO root fetch - processPackages [utbot-executor]: Downloading https://files.pythonhosted.org/packages/43/d1/3498b21e6332df747db757ec82d2ef4eaf0ae568632fc3ba770918a4917e/utbot_executor-1.6.2.tar.gz
+[2023-07-13 13:08:05] INFO root fetch - processPackages [lemonai]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-13 13:08:05] INFO root fetch - processPackages [django-project-version]: Remove: archive file [/home/abi/fetcher/tmp/django-project-version-0.9.3.zip]
+[2023-07-13 13:08:05] INFO root fetch - processPackages [django-project-version]: Remove: archive file [/home/abi/fetcher/tmp/django-project-version-0.9.4.zip]
+[2023-07-13 13:08:05] INFO root fetch - processPackages [django-project-version]: Start processing: baltic
+[2023-07-13 13:08:05] INFO root fetch - main [MainThread]: End processing [django-project-version]: success
+[2023-07-13 13:08:05] INFO root fetch - processPackages [siman]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-13 13:08:05] INFO root fetch - processPackages [baltic]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-13 13:08:05] INFO root fetch - processPackages [ckanext-editable-config]: Downloading https://files.pythonhosted.org/packages/c7/8a/3cbe92b5e6ed88662bf2670cab156697044dee75d571b0bc1c9053fa0ba3/ckanext-editable-config-0.0.2.tar.gz
+[2023-07-13 13:08:05] INFO root fetch - processPackages [pyacaia-async]: Downloading https://files.pythonhosted.org/packages/a1/d5/9c98e66c9a45985d1036e290a8f48484fc502c740ad88efad1feb226a657/pyacaia_async-0.0.3.tar.gz
+[2023-07-13 13:08:05] INFO root fetch - processPackages [parse-it]: Remove: archive file [/home/abi/fetcher/tmp/parse_it-3.7.0.tar.gz]
+[2023-07-13 13:08:05] INFO root fetch - processPackages [parse-it]: Remove: archive file [/home/abi/fetcher/tmp/parse_it-3.8.0.tar.gz]
+[2023-07-13 13:08:05] INFO root fetch - main [MainThread]: End processing [parse-it]: success
+[2023-07-13 13:08:05] INFO root fetch - processPackages [siman]: Downloading https://files.pythonhosted.org/packages/93/0b/6feee7df9c987e8beb90d7207546888948fbf605cc3de1e335bab74bde6f/siman-1.3.4.tar.gz
+[2023-07-13 13:08:05] INFO root fetch - processPackages [baltic]: Downloading https://files.pythonhosted.org/packages/e3/00/cf27e9472828c50e04f27167d9b3c9188b647f23550e5d64f0f52f529028/baltic-0.2.0.tar.gz
+[2023-07-13 13:08:05] INFO root fetch - processPackages [splinepy]: Downloading https://files.pythonhosted.org/packages/bb/f9/449dc1918123e036b143d10967e10c2e9cf37b8ea4d1fc2f55c29b53f70c/splinepy-0.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-13 13:08:05] INFO root fetch - processPackages [lmclient-core]: Downloading https://files.pythonhosted.org/packages/16/9b/43936b65a034d12c19503e9e5e837dbe7be9e2b93221b0e8bb27be7bcd8d/lmclient_core-0.3.0.tar.gz
+[2023-07-13 13:08:05] INFO root fetch - processPackages [lemonai]: Downloading https://files.pythonhosted.org/packages/38/2a/7da79cc1dd9ba48ce7c6e52166b5af39d32ca952568f4070b07f6372746f/lemonai-0.0.9.tar.gz
+[2023-07-13 13:08:05] INFO root fetch - processPackages [pyacaia-async]: executing diffoscope
+[2023-07-13 13:08:05] INFO root fetch - processPackages [pyacaia-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyacaia_async-0.0.2.tar.gz tmp/pyacaia_async-0.0.3.tar.gz --markdown 20230713/p/pyacaia-async/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-13 13:08:05] WARNING root fetch - processPackages [splinepy]: Skipping package: exceeds size limit 12503999>=10485760
+[2023-07-13 13:08:05] INFO root fetch - main [MainThread]: End processing [splinepy] error
+[2023-07-13 13:08:05] INFO root fetch - processPackages [lmclient-core]: executing diffoscope
+[2023-07-13 13:08:05] INFO root fetch - processPackages [lmclient-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmclient-core-0.2.1.tar.gz tmp/lmclient_core-0.3.0.tar.gz --markdown 20230713/l/lmclient-core/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-13 13:08:05] INFO root fetch - processPackages [utbot-executor]: Downloading https://files.pythonhosted.org/packages/d3/d5/eedae354add65867448b3062ce5d9971a93da9e8272a05276ecd1a9bdb13/utbot_executor-1.6.3.tar.gz
+[2023-07-13 13:08:06] INFO root fetch - processPackages [siman]: Downloading https://files.pythonhosted.org/packages/30/78/64a2ef8a1326aeb0598b00e57aa8b94a094e71a1d485bac1a9703743bdd0/siman-1.3.5.tar.gz
+[2023-07-13 13:08:06] INFO root fetch - processPackages [ckanext-editable-config]: Downloading https://files.pythonhosted.org/packages/87/6a/e83b22f11dcea2cd655e32fcccbf71618df3907e69796eaaaee16f62618e/ckanext-editable-config-0.0.3.tar.gz
+[2023-07-13 13:08:06] INFO root fetch - processPackages [utbot-executor]: executing diffoscope
+[2023-07-13 13:08:06] INFO root fetch - processPackages [utbot-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utbot_executor-1.6.2.tar.gz tmp/utbot_executor-1.6.3.tar.gz --markdown 20230713/u/utbot-executor/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-07-13 13:08:06] INFO root fetch - processPackages [baltic]: Downloading https://files.pythonhosted.org/packages/ec/07/6e7ecc3ec4e4809df3cf1402ecee81e47abe1d1d1c8a50b1f4881a2bf3d0/baltic-0.2.1.tar.gz
+[2023-07-13 13:08:06] INFO root fetch - processPackages [pyElli]: Remove: archive file [/home/abi/fetcher/tmp/pyElli-0.9.1.tar.gz]
+[2023-07-13 13:08:06] INFO root fetch - processPackages [pyElli]: Remove: archive file [/home/abi/fetcher/tmp/pyElli-0.9.2.tar.gz]
+[2023-07-13 13:08:06] INFO root fetch - main [MainThread]: End processing [pyElli]: success
+[2023-07-13 13:08:06] INFO root fetch - processPackages [siman]: executing diffoscope
+[2023-07-13 13:08:06] INFO root fetch - processPackages [siman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siman-1.3.4.tar.gz tmp/siman-1.3.5.tar.gz --markdown 20230713/s/siman/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-13 13:08:06] INFO root fetch - processPackages [baltic]: executing diffoscope
+[2023-07-13 13:08:06] INFO root fetch - processPackages [baltic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baltic-0.2.0.tar.gz tmp/baltic-0.2.1.tar.gz --markdown 20230713/b/baltic/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-13 13:08:06] INFO root fetch - processPackages [ckanext-editable-config]: executing diffoscope
+[2023-07-13 13:08:06] INFO root fetch - processPackages [ckanext-editable-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-editable-config-0.0.2.tar.gz tmp/ckanext-editable-config-0.0.3.tar.gz --markdown 20230713/c/ckanext-editable-config/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-13 13:08:06] INFO root fetch - processPackages [lemonai]: Downloading https://files.pythonhosted.org/packages/13/0a/9a0d703022f086e0ef19b876bab35ee2dc8cab1514d5ede6a5c21635dfd3/lemonai-0.1.0.tar.gz
+[2023-07-13 13:08:06] INFO root fetch - processPackages [lemonai]: executing diffoscope
+[2023-07-13 13:08:06] INFO root fetch - processPackages [lemonai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lemonai-0.0.9.tar.gz tmp/lemonai-0.1.0.tar.gz --markdown 20230713/l/lemonai/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-13 13:08:07] INFO root fetch - processPackages [pyacaia-async]: Remove: archive file [/home/abi/fetcher/tmp/pyacaia_async-0.0.2.tar.gz]
+[2023-07-13 13:08:07] INFO root fetch - processPackages [pyacaia-async]: Remove: archive file [/home/abi/fetcher/tmp/pyacaia_async-0.0.3.tar.gz]
+[2023-07-13 13:08:07] INFO root fetch - main [MainThread]: End processing [pyacaia-async]: success
+[2023-07-13 13:08:07] INFO root fetch - processPackages [lmclient-core]: Remove: archive file [/home/abi/fetcher/tmp/lmclient-core-0.2.1.tar.gz]
+[2023-07-13 13:08:07] INFO root fetch - processPackages [lmclient-core]: Remove: archive file [/home/abi/fetcher/tmp/lmclient_core-0.3.0.tar.gz]
+[2023-07-13 13:08:07] INFO root fetch - main [MainThread]: End processing [lmclient-core]: success
+[2023-07-13 13:08:07] INFO root fetch - processPackages [utbot-executor]: Remove: archive file [/home/abi/fetcher/tmp/utbot_executor-1.6.2.tar.gz]
+[2023-07-13 13:08:07] INFO root fetch - processPackages [utbot-executor]: Remove: archive file [/home/abi/fetcher/tmp/utbot_executor-1.6.3.tar.gz]
+[2023-07-13 13:08:07] INFO root fetch - main [MainThread]: End processing [utbot-executor]: success
+[2023-07-13 13:08:07] INFO root fetch - processPackages [ckanext-editable-config]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-editable-config-0.0.2.tar.gz]
+[2023-07-13 13:08:07] INFO root fetch - processPackages [ckanext-editable-config]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-editable-config-0.0.3.tar.gz]
+[2023-07-13 13:08:07] INFO root fetch - main [MainThread]: End processing [ckanext-editable-config]: success
+[2023-07-13 13:08:08] INFO root fetch - processPackages [baltic]: Remove: archive file [/home/abi/fetcher/tmp/baltic-0.2.0.tar.gz]
+[2023-07-13 13:08:08] INFO root fetch - processPackages [baltic]: Remove: archive file [/home/abi/fetcher/tmp/baltic-0.2.1.tar.gz]
+[2023-07-13 13:08:08] INFO root fetch - main [MainThread]: End processing [baltic]: success
+[2023-07-13 13:08:08] INFO root fetch - processPackages [siman]: Remove: archive file [/home/abi/fetcher/tmp/siman-1.3.4.tar.gz]
+[2023-07-13 13:08:08] INFO root fetch - processPackages [siman]: Remove: archive file [/home/abi/fetcher/tmp/siman-1.3.5.tar.gz]
+[2023-07-13 13:08:08] INFO root fetch - main [MainThread]: End processing [siman]: success
+[2023-07-13 13:08:08] INFO root fetch - processPackages [lemonai]: Remove: archive file [/home/abi/fetcher/tmp/lemonai-0.0.9.tar.gz]
+[2023-07-13 13:08:08] INFO root fetch - processPackages [lemonai]: Remove: archive file [/home/abi/fetcher/tmp/lemonai-0.1.0.tar.gz]
+[2023-07-13 13:08:08] INFO root fetch - main [MainThread]: End processing [lemonai]: success
+[2023-07-13 13:08:08] INFO root fetch - main [MainThread]: Store serial: [18873954]
