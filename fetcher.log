@@ -7919,3 +7919,98 @@
 [2023-07-13 05:20:32] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
 [2023-07-13 05:20:32] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-07-13 05:20:32] INFO root fetch - main [MainThread]: Store serial: [18869367]
+[2023-07-13 05:25:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18869367]
+[2023-07-13 05:25:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-13 05:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GANDLF
+[2023-07-13 05:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: f5project
+[2023-07-13 05:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sj-tool
+[2023-07-13 05:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-fieldservice
+[2023-07-13 05:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zipp
+[2023-07-13 05:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crowdstrike-falconpy
+[2023-07-13 05:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-fieldservice
+[2023-07-13 05:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-fieldservice-stock-request
+[2023-07-13 05:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-fieldservice-change-management
+[2023-07-13 05:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zfl-ai
+[2023-07-13 05:25:43] INFO root fetch - processPackages [f5project]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 05:25:43] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.80]
+[2023-07-13 05:25:43] INFO root fetch - processPackages [crowdstrike-falconpy]: New version: [1.3.0.dev5] Old Version: [1.3.0.dev4]
+[2023-07-13 05:25:43] INFO root fetch - processPackages [odoo14-addon-fieldservice-change-management]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-07-13 05:25:43] INFO root fetch - processPackages [odoo-addon-fieldservice]: New version: [16.0.1.0.1.9] Old Version: [16.0.1.0.1.8]
+[2023-07-13 05:25:43] INFO root fetch - processPackages [odoo14-addon-fieldservice-stock-request]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev18]
+[2023-07-13 05:25:43] INFO root fetch - processPackages [zfl-ai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-13 05:25:43] INFO root fetch - processPackages [zipp]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-13 05:25:44] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230713] Old Version: [0.0.17.dev20230712]
+[2023-07-13 05:25:44] INFO root fetch - processPackages [odoo14-addon-fieldservice]: New version: [14.0.1.9.0] Old Version: [14.0.1.8.1.dev2]
+[2023-07-13 05:25:44] INFO root fetch - processPackages [f5project]: Downloading https://files.pythonhosted.org/packages/8a/ce/a2b802cb0a7a9a64f0d88b731fcc7ca0f5ca928115bac89d8656a17f8854/f5project-0.0.8.tar.gz
+[2023-07-13 05:25:44] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/c3/7a/416337720021581f57f312f7713d573e1d0d858da7ac260847258b858ef0/sj_tool-1.0.80-py3-none-any.whl
+[2023-07-13 05:25:44] INFO root fetch - processPackages [crowdstrike-falconpy]: Downloading https://files.pythonhosted.org/packages/e7/10/2764ba7bfefa1e1040d04055585be788ff8c05a389144aeae01e32da49f6/crowdstrike-falconpy-1.3.0.dev4.tar.gz
+[2023-07-13 05:25:44] INFO root fetch - processPackages [odoo14-addon-fieldservice-change-management]: Downloading https://files.pythonhosted.org/packages/86/61/030fe4cb6564518bb6d2a8ee429641fd2e2a12a9e2e79470e2fd0c3b4e8c/odoo14_addon_fieldservice_change_management-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-07-13 05:25:44] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/09/57/ed4a9efdc31fff38f7d6810756943aae399a99702c94c0bd67d7c53f5684/odoo_addon_fieldservice-16.0.1.0.1.8-py3-none-any.whl
+[2023-07-13 05:25:44] INFO root fetch - processPackages [zfl-ai]: Downloading https://files.pythonhosted.org/packages/65/7f/a564cf222b46f308f175d77f198fe28ce26948c4793fe4bedb2436d79c52/zfl_ai-0.0.7.tar.gz
+[2023-07-13 05:25:44] INFO root fetch - processPackages [odoo14-addon-fieldservice-stock-request]: Downloading https://files.pythonhosted.org/packages/fa/1e/23dc5c65e8c79dc3de06183e81a47ec191cc1a6faeb31c5713deefb5737a/odoo14_addon_fieldservice_stock_request-14.0.1.0.1.dev18-py3-none-any.whl
+[2023-07-13 05:25:44] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/e9/0a/4f403fad2559da21b84ccd3f022dd4377bd624888854366878da08ecd357/odoo14_addon_fieldservice-14.0.1.8.1.dev2-py3-none-any.whl
+[2023-07-13 05:25:44] INFO root fetch - processPackages [zipp]: Downloading https://files.pythonhosted.org/packages/41/2e/1341c5634c25e7254df01ec1f6cbd2bcdee3e647709e7c3647d1b362e3ac/zipp-3.9.0.tar.gz
+[2023-07-13 05:25:44] WARNING root fetch - processPackages [zfl-ai]: Skipping package: exceeds size limit 30240298>=10485760
+[2023-07-13 05:25:44] INFO root fetch - processPackages [zfl-ai]: Start processing: odoo-addon-fieldservice
+[2023-07-13 05:25:44] INFO root fetch - main [MainThread]: End processing [zfl-ai] error
+[2023-07-13 05:25:44] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/14/d0/b724314ea272433da7d5e36deebb747f6db3ead2cb49cc231d2d30366026/GANDLF-0.0.17.dev20230712.tar.gz
+[2023-07-13 05:25:44] INFO root fetch - processPackages [f5project]: Downloading https://files.pythonhosted.org/packages/e8/2f/220c8e52debbe80fc55bf5ede9dfa7c496cdf95165ba8f9486f38aca2c5e/f5project-0.0.9.tar.gz
+[2023-07-13 05:25:44] INFO root fetch - processPackages [odoo-addon-fieldservice]: New version: [16.0.1.0.1.9] Old Version: [16.0.1.0.1.8]
+[2023-07-13 05:25:44] INFO root fetch - processPackages [f5project]: executing diffoscope
+[2023-07-13 05:25:44] INFO root fetch - processPackages [f5project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f5project-0.0.8.tar.gz tmp/f5project-0.0.9.tar.gz --markdown 20230713/f/f5project/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 05:25:44] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-13 05:25:44] INFO root fetch - processPackages [crowdstrike-falconpy]: Downloading https://files.pythonhosted.org/packages/5d/32/01425dc7cfb10bd46c69240b4effa634878171bf4d4db9b95ff21feec6f4/crowdstrike-falconpy-1.3.0.dev5.tar.gz
+[2023-07-13 05:25:44] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/bc/3d/11a8f7e067c2d86acfde953d26ca1bb6972c5badbcb23298205f5d451181/odoo_addon_fieldservice-16.0.1.0.1.9-py3-none-any.whl
+[2023-07-13 05:25:44] INFO root fetch - processPackages [odoo14-addon-fieldservice-change-management]: Downloading https://files.pythonhosted.org/packages/eb/c6/87431868567ace4c4317d470da0c0d69ac886a05c94ebcc7bc681171f9e2/odoo14_addon_fieldservice_change_management-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-07-13 05:25:44] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/bc/3d/11a8f7e067c2d86acfde953d26ca1bb6972c5badbcb23298205f5d451181/odoo_addon_fieldservice-16.0.1.0.1.9-py3-none-any.whl
+[2023-07-13 05:25:45] INFO root fetch - processPackages [zipp]: Downloading https://files.pythonhosted.org/packages/21/40/791c00c9788d8a8b005a20248a9ce2fb46aaf12fa12b0ff9e1639aea04af/zipp-3.9.1.tar.gz
+[2023-07-13 05:25:45] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/20/fe/b8770a75e4faefb4c2eb7f413384c8e1409820cc9f4e3f0fdc94532aaa73/GANDLF-0.0.17.dev20230713.tar.gz
+[2023-07-13 05:25:45] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-13 05:25:45] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.80-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230713/s/sj-tool/1.0.80-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 05:25:45] INFO root fetch - processPackages [odoo14-addon-fieldservice-stock-request]: Downloading https://files.pythonhosted.org/packages/8a/b9/8b46e9a959abb62388d609457a5139910b34fc3c976acb7aac85966b21fb/odoo14_addon_fieldservice_stock_request-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-07-13 05:25:45] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/3d/74/ca80c19c22d228dc8ed506d3f593667c03000d63f4bac7c7c02685ea3c2a/odoo14_addon_fieldservice-14.0.1.9.0-py3-none-any.whl
+[2023-07-13 05:25:45] INFO root fetch - processPackages [zipp]: executing diffoscope
+[2023-07-13 05:25:45] INFO root fetch - processPackages [odoo-addon-fieldservice]: executing diffoscope
+[2023-07-13 05:25:45] INFO root fetch - processPackages [crowdstrike-falconpy]: executing diffoscope
+[2023-07-13 05:25:45] INFO root fetch - processPackages [zipp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipp-3.9.0.tar.gz tmp/zipp-3.9.1.tar.gz --markdown 20230713/z/zipp/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-13 05:25:45] INFO root fetch - processPackages [odoo-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice-16.0.1.0.1.8-py3-none-any.whl.zip tmp/odoo_addon_fieldservice-16.0.1.0.1.9-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-fieldservice/16.0.1.0.1.8-16.0.1.0.1.9/diff.md --exclude *.pyd
+[2023-07-13 05:25:45] INFO root fetch - processPackages [crowdstrike-falconpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdstrike-falconpy-1.3.0.dev4.tar.gz tmp/crowdstrike-falconpy-1.3.0.dev5.tar.gz --markdown 20230713/c/crowdstrike-falconpy/1.3.0.dev4-1.3.0.dev5/diff.md --exclude *.pyd
+[2023-07-13 05:25:45] INFO root fetch - processPackages [odoo-addon-fieldservice]: executing diffoscope
+[2023-07-13 05:25:45] INFO root fetch - processPackages [odoo-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice-16.0.1.0.1.8-py3-none-any.whl.zip tmp/odoo_addon_fieldservice-16.0.1.0.1.9-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-fieldservice/16.0.1.0.1.8-16.0.1.0.1.9/diff.md --exclude *.pyd
+[2023-07-13 05:25:45] INFO root fetch - processPackages [odoo14-addon-fieldservice-change-management]: executing diffoscope
+[2023-07-13 05:25:45] INFO root fetch - processPackages [odoo14-addon-fieldservice-change-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fieldservice_change_management-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_fieldservice_change_management-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-fieldservice-change-management/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-13 05:25:45] INFO root fetch - processPackages [odoo14-addon-fieldservice-stock-request]: executing diffoscope
+[2023-07-13 05:25:45] INFO root fetch - processPackages [odoo14-addon-fieldservice-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fieldservice_stock_request-14.0.1.0.1.dev18-py3-none-any.whl.zip tmp/odoo14_addon_fieldservice_stock_request-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-fieldservice-stock-request/14.0.1.0.1.dev18-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-13 05:25:45] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-07-13 05:25:45] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230712.tar.gz tmp/GANDLF-0.0.17.dev20230713.tar.gz --markdown 20230713/G/GANDLF/0.0.17.dev20230712-0.0.17.dev20230713/diff.md --exclude *.pyd
+[2023-07-13 05:25:45] INFO root fetch - processPackages [odoo14-addon-fieldservice]: executing diffoscope
+[2023-07-13 05:25:45] INFO root fetch - processPackages [odoo14-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fieldservice-14.0.1.8.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_fieldservice-14.0.1.9.0-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-fieldservice/14.0.1.8.1.dev2-14.0.1.9.0/diff.md --exclude *.pyd
+[2023-07-13 05:25:46] INFO root fetch - processPackages [f5project]: Remove: archive file [/home/abi/fetcher/tmp/f5project-0.0.8.tar.gz]
+[2023-07-13 05:25:46] INFO root fetch - processPackages [f5project]: Remove: archive file [/home/abi/fetcher/tmp/f5project-0.0.9.tar.gz]
+[2023-07-13 05:25:46] INFO root fetch - main [MainThread]: End processing [f5project]: success
+[2023-07-13 05:25:47] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.80-py3-none-any.whl.zip]
+[2023-07-13 05:25:47] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-13 05:25:47] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-13 05:25:47] INFO root fetch - processPackages [zipp]: Remove: archive file [/home/abi/fetcher/tmp/zipp-3.9.0.tar.gz]
+[2023-07-13 05:25:47] INFO root fetch - processPackages [zipp]: Remove: archive file [/home/abi/fetcher/tmp/zipp-3.9.1.tar.gz]
+[2023-07-13 05:25:47] INFO root fetch - main [MainThread]: End processing [zipp]: success
+[2023-07-13 05:25:48] INFO root fetch - processPackages [odoo14-addon-fieldservice-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice_stock_request-14.0.1.0.1.dev18-py3-none-any.whl.zip]
+[2023-07-13 05:25:48] INFO root fetch - processPackages [odoo14-addon-fieldservice-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice_stock_request-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-07-13 05:25:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice-stock-request]: success
+[2023-07-13 05:25:48] INFO root fetch - processPackages [odoo14-addon-fieldservice-change-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice_change_management-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-07-13 05:25:48] INFO root fetch - processPackages [odoo14-addon-fieldservice-change-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice_change_management-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-07-13 05:25:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice-change-management]: success
+[2023-07-13 05:25:48] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-16.0.1.0.1.8-py3-none-any.whl.zip]
+[2023-07-13 05:25:48] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-16.0.1.0.1.9-py3-none-any.whl.zip]
+[2023-07-13 05:25:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
+[2023-07-13 05:25:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
+[2023-07-13 05:25:48] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice-14.0.1.8.1.dev2-py3-none-any.whl.zip]
+[2023-07-13 05:25:48] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice-14.0.1.9.0-py3-none-any.whl.zip]
+[2023-07-13 05:25:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice]: success
+[2023-07-13 05:25:49] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230712.tar.gz]
+[2023-07-13 05:25:49] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230713.tar.gz]
+[2023-07-13 05:25:49] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-07-13 05:25:49] INFO root fetch - processPackages [crowdstrike-falconpy]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-1.3.0.dev4.tar.gz]
+[2023-07-13 05:25:49] INFO root fetch - processPackages [crowdstrike-falconpy]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-1.3.0.dev5.tar.gz]
+[2023-07-13 05:25:49] INFO root fetch - main [MainThread]: End processing [crowdstrike-falconpy]: success
+[2023-07-13 05:25:49] INFO root fetch - main [MainThread]: Store serial: [18869395]
