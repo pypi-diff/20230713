@@ -16247,3 +16247,162 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 11:31:39] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-07-13 11:31:39] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-07-13 11:31:39] INFO root fetch - main [MainThread]: Store serial: [18872581]
+[2023-07-13 11:36:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18872581]
+[2023-07-13 11:36:49] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-13 11:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idms
+[2023-07-13 11:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seqslab-connector
+[2023-07-13 11:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: casbin-async-sqlalchemy-adapter
+[2023-07-13 11:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openmetadata-ingestion
+[2023-07-13 11:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypaz
+[2023-07-13 11:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moonstreamdb
+[2023-07-13 11:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: authentication-factory
+[2023-07-13 11:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-rds-database-running-scheduler
+[2023-07-13 11:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: imarkdown
+[2023-07-13 11:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kubectl-ng
+[2023-07-13 11:36:50] INFO root fetch - processPackages [authentication-factory]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 11:36:50] INFO root fetch - processPackages [seqslab-connector]: New version: [0.9.5] Old Version: [0.9.0]
+[2023-07-13 11:36:50] INFO root fetch - processPackages [pypaz]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-13 11:36:50] INFO root fetch - processPackages [casbin-async-sqlalchemy-adapter]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-13 11:36:50] INFO root fetch - processPackages [moonstreamdb]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-13 11:36:50] INFO root fetch - processPackages [idms]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-13 11:36:50] INFO root fetch - processPackages [kubectl-ng]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-07-13 11:36:50] INFO root fetch - processPackages [imarkdown]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-13 11:36:50] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.1.0.3.dev0] Old Version: [1.1.0.3]
+[2023-07-13 11:36:50] WARNING root fetch - processPackages [aws-rds-database-running-scheduler]: Skipping, unable to determine old version
+[2023-07-13 11:36:50] INFO root fetch - processPackages [aws-rds-database-running-scheduler]: Start processing: puwifi
+[2023-07-13 11:36:50] INFO root fetch - main [MainThread]: End processing [aws-rds-database-running-scheduler] error
+[2023-07-13 11:36:50] INFO root fetch - processPackages [puwifi]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-13 11:36:50] INFO root fetch - processPackages [puwifi]: Downloading https://files.pythonhosted.org/packages/5c/d2/9209e0b2ffc2b86c34b8182f757f6ba4f9b1a41467590d0c5eb23c380034/puwifi-1.0.4.tar.gz
+[2023-07-13 11:36:50] INFO root fetch - processPackages [authentication-factory]: Downloading https://files.pythonhosted.org/packages/20/c1/2745fbd90e5050ab44a3534536e9f2005c53019501588c451d1a8d2c1243/authentication-factory-0.0.1.tar.gz
+[2023-07-13 11:36:50] INFO root fetch - processPackages [pypaz]: Downloading https://files.pythonhosted.org/packages/52/cc/03299e0b58ba974a25c9f40d7b1926e5e744bd5f8d459606a57dd8c7cdf8/pypaz-0.2.4.tar.gz
+[2023-07-13 11:36:50] INFO root fetch - processPackages [imarkdown]: Downloading https://files.pythonhosted.org/packages/6e/ab/7245df3ca5d8ae307f14a7fbd895433630b101d66a59196594991e43adbb/imarkdown-1.0.1.tar.gz
+[2023-07-13 11:36:50] INFO root fetch - processPackages [casbin-async-sqlalchemy-adapter]: Downloading https://files.pythonhosted.org/packages/60/b2/4db1ae73647b11525eb57e2dfda0cf96aac24191e00ab660ecffcff3b0b6/casbin_async_sqlalchemy_adapter-1.1.0.tar.gz
+[2023-07-13 11:36:50] INFO root fetch - processPackages [kubectl-ng]: Downloading https://files.pythonhosted.org/packages/7b/6e/4f557a4355bb0badf5f0ec3422e16b0db9637c8887d434fbaaf8b035094d/kubectl_ng-0.8.4.tar.gz
+[2023-07-13 11:36:50] INFO root fetch - processPackages [idms]: Downloading https://files.pythonhosted.org/packages/40/7d/a71ce9ce755d4e2dd61e06ca44c68f14cfd975f41fe0947590a3ba9cdd36/idms-0.2.0.tar.gz
+[2023-07-13 11:36:50] INFO root fetch - processPackages [moonstreamdb]: Downloading https://files.pythonhosted.org/packages/02/51/74416e70c1454b7a98b95c67494d80049e61fce5b64c086ff79b00b78bd1/moonstreamdb-0.3.3.tar.gz
+[2023-07-13 11:36:50] INFO root fetch - processPackages [seqslab-connector]: Downloading https://files.pythonhosted.org/packages/a7/48/e415c7bbc5902c14a2bcc671a4639357a1a6408fce5c74b6fd3911b2d814/seqslab-connector-0.9.0.tar.gz
+[2023-07-13 11:36:50] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/9f/00/7653f451da32823a96186ddf4e26bdb1ed105b05da1168e5e8d254263811/openmetadata-ingestion-1.1.0.3.tar.gz
+[2023-07-13 11:36:50] INFO root fetch - processPackages [puwifi]: Downloading https://files.pythonhosted.org/packages/41/82/89e93b07f394eda89f5ee5edf0606cf195caf20ec9df12870029dcf526d4/puwifi-1.0.5.tar.gz
+[2023-07-13 11:36:50] INFO root fetch - processPackages [authentication-factory]: Downloading https://files.pythonhosted.org/packages/23/e5/da88705d91d332726b6d80b7eafa12a1924de2a12da28d404cca73fc08c5/authentication-factory-0.0.2.tar.gz
+[2023-07-13 11:36:51] INFO root fetch - processPackages [imarkdown]: Downloading https://files.pythonhosted.org/packages/78/68/29565c3f95f25e4051e029eb8bd5b958720694045fa7d8ab317822c011c7/imarkdown-1.1.0.tar.gz
+[2023-07-13 11:36:51] INFO root fetch - processPackages [kubectl-ng]: Downloading https://files.pythonhosted.org/packages/87/5c/853cf6aa767223b1eda0b6fdd4a6db29f7eb3792757cb3bc6e99bceb13f3/kubectl_ng-0.8.5.tar.gz
+[2023-07-13 11:36:51] INFO root fetch - processPackages [pypaz]: Downloading https://files.pythonhosted.org/packages/cc/b1/b3d29b7b7046580abff3e3aed66d679da044352d30674a37960802390fa7/pypaz-0.2.5.tar.gz
+[2023-07-13 11:36:51] INFO root fetch - processPackages [puwifi]: executing diffoscope
+[2023-07-13 11:36:51] INFO root fetch - processPackages [puwifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/puwifi-1.0.4.tar.gz tmp/puwifi-1.0.5.tar.gz --markdown 20230713/p/puwifi/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-13 11:36:51] INFO root fetch - processPackages [casbin-async-sqlalchemy-adapter]: Downloading https://files.pythonhosted.org/packages/0c/09/97fceb219da2d11683f7afb146974bc99a21c4640917fc0851ae1d4e06ff/casbin_async_sqlalchemy_adapter-1.1.1.tar.gz
+[2023-07-13 11:36:51] INFO root fetch - processPackages [idms]: Downloading https://files.pythonhosted.org/packages/c3/2b/ef69cfd1ef3348d46e2b5f9ccf2b26c1b43e4c7d79e073d28d2612dedb67/idms-0.2.1.tar.gz
+[2023-07-13 11:36:51] INFO root fetch - processPackages [seqslab-connector]: Downloading https://files.pythonhosted.org/packages/62/d7/1ea00ab985bea7b26e70ffc97a208f29cb4e2af6a744170d96273ab8e382/seqslab-connector-0.9.5.tar.gz
+[2023-07-13 11:36:51] INFO root fetch - processPackages [authentication-factory]: executing diffoscope
+[2023-07-13 11:36:51] INFO root fetch - processPackages [authentication-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authentication-factory-0.0.1.tar.gz tmp/authentication-factory-0.0.2.tar.gz --markdown 20230713/a/authentication-factory/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 11:36:51] INFO root fetch - processPackages [moonstreamdb]: Downloading https://files.pythonhosted.org/packages/82/ce/5a1292af518e28006fcce4c2c58b4ba4e90b3f0fa53f4ea5acf9200468a8/moonstreamdb-0.3.4.tar.gz
+[2023-07-13 11:36:51] INFO root fetch - processPackages [imarkdown]: executing diffoscope
+[2023-07-13 11:36:51] INFO root fetch - processPackages [imarkdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imarkdown-1.0.1.tar.gz tmp/imarkdown-1.1.0.tar.gz --markdown 20230713/i/imarkdown/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-13 11:36:51] INFO root fetch - processPackages [kubectl-ng]: executing diffoscope
+[2023-07-13 11:36:51] INFO root fetch - processPackages [kubectl-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubectl_ng-0.8.4.tar.gz tmp/kubectl_ng-0.8.5.tar.gz --markdown 20230713/k/kubectl-ng/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-07-13 11:36:51] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/e7/f1/0a6d744286dd18e37d7b177a17882eaaed2df429153cbab475b126f01f6e/openmetadata-ingestion-1.1.0.3.dev0.tar.gz
+[2023-07-13 11:36:51] INFO root fetch - processPackages [pypaz]: executing diffoscope
+[2023-07-13 11:36:51] INFO root fetch - processPackages [pypaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypaz-0.2.4.tar.gz tmp/pypaz-0.2.5.tar.gz --markdown 20230713/p/pypaz/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-13 11:36:51] INFO root fetch - processPackages [casbin-async-sqlalchemy-adapter]: executing diffoscope
+[2023-07-13 11:36:51] INFO root fetch - processPackages [casbin-async-sqlalchemy-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casbin_async_sqlalchemy_adapter-1.1.0.tar.gz tmp/casbin_async_sqlalchemy_adapter-1.1.1.tar.gz --markdown 20230713/c/casbin-async-sqlalchemy-adapter/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-13 11:36:51] INFO root fetch - processPackages [idms]: executing diffoscope
+[2023-07-13 11:36:51] INFO root fetch - processPackages [idms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idms-0.2.0.tar.gz tmp/idms-0.2.1.tar.gz --markdown 20230713/i/idms/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-13 11:36:51] INFO root fetch - processPackages [moonstreamdb]: executing diffoscope
+[2023-07-13 11:36:51] INFO root fetch - processPackages [moonstreamdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonstreamdb-0.3.3.tar.gz tmp/moonstreamdb-0.3.4.tar.gz --markdown 20230713/m/moonstreamdb/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-13 11:36:51] INFO root fetch - processPackages [seqslab-connector]: executing diffoscope
+[2023-07-13 11:36:51] INFO root fetch - processPackages [seqslab-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqslab-connector-0.9.0.tar.gz tmp/seqslab-connector-0.9.5.tar.gz --markdown 20230713/s/seqslab-connector/0.9.0-0.9.5/diff.md --exclude *.pyd
+[2023-07-13 11:36:51] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2023-07-13 11:36:51] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.1.0.3.tar.gz tmp/openmetadata-ingestion-1.1.0.3.dev0.tar.gz --markdown 20230713/o/openmetadata-ingestion/1.1.0.3-1.1.0.3.dev0/diff.md --exclude *.pyd
+[2023-07-13 11:36:52] INFO root fetch - processPackages [puwifi]: Remove: archive file [/home/abi/fetcher/tmp/puwifi-1.0.4.tar.gz]
+[2023-07-13 11:36:52] INFO root fetch - processPackages [puwifi]: Remove: archive file [/home/abi/fetcher/tmp/puwifi-1.0.5.tar.gz]
+[2023-07-13 11:36:52] INFO root fetch - processPackages [puwifi]: Start processing: kr8s
+[2023-07-13 11:36:52] INFO root fetch - main [MainThread]: End processing [puwifi]: success
+[2023-07-13 11:36:52] INFO root fetch - processPackages [imarkdown]: Remove: archive file [/home/abi/fetcher/tmp/imarkdown-1.0.1.tar.gz]
+[2023-07-13 11:36:52] INFO root fetch - processPackages [kubectl-ng]: Remove: archive file [/home/abi/fetcher/tmp/kubectl_ng-0.8.4.tar.gz]
+[2023-07-13 11:36:52] INFO root fetch - processPackages [imarkdown]: Remove: archive file [/home/abi/fetcher/tmp/imarkdown-1.1.0.tar.gz]
+[2023-07-13 11:36:52] INFO root fetch - processPackages [kubectl-ng]: Remove: archive file [/home/abi/fetcher/tmp/kubectl_ng-0.8.5.tar.gz]
+[2023-07-13 11:36:52] INFO root fetch - processPackages [imarkdown]: Start processing: DGet
+[2023-07-13 11:36:52] INFO root fetch - main [MainThread]: End processing [imarkdown]: success
+[2023-07-13 11:36:52] INFO root fetch - processPackages [kubectl-ng]: Start processing: zipline-tej
+[2023-07-13 11:36:52] INFO root fetch - main [MainThread]: End processing [kubectl-ng]: success
+[2023-07-13 11:36:52] INFO root fetch - processPackages [authentication-factory]: Remove: archive file [/home/abi/fetcher/tmp/authentication-factory-0.0.1.tar.gz]
+[2023-07-13 11:36:52] INFO root fetch - processPackages [authentication-factory]: Remove: archive file [/home/abi/fetcher/tmp/authentication-factory-0.0.2.tar.gz]
+[2023-07-13 11:36:52] INFO root fetch - processPackages [authentication-factory]: Start processing: coolpandas
+[2023-07-13 11:36:52] INFO root fetch - main [MainThread]: End processing [authentication-factory]: success
+[2023-07-13 11:36:52] INFO root fetch - processPackages [kr8s]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-07-13 11:36:52] INFO root fetch - processPackages [coolpandas]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-13 11:36:53] INFO root fetch - processPackages [DGet]: New version: [0.9] Old Version: [0.8]
+[2023-07-13 11:36:53] INFO root fetch - processPackages [idms]: Remove: archive file [/home/abi/fetcher/tmp/idms-0.2.0.tar.gz]
+[2023-07-13 11:36:53] INFO root fetch - processPackages [idms]: Remove: archive file [/home/abi/fetcher/tmp/idms-0.2.1.tar.gz]
+[2023-07-13 11:36:53] INFO root fetch - processPackages [idms]: Start processing: tej-tool-api
+[2023-07-13 11:36:53] INFO root fetch - main [MainThread]: End processing [idms]: success
+[2023-07-13 11:36:53] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 11:36:53] INFO root fetch - processPackages [tej-tool-api]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-13 11:36:53] INFO root fetch - processPackages [seqslab-connector]: Remove: archive file [/home/abi/fetcher/tmp/seqslab-connector-0.9.0.tar.gz]
+[2023-07-13 11:36:53] INFO root fetch - processPackages [seqslab-connector]: Remove: archive file [/home/abi/fetcher/tmp/seqslab-connector-0.9.5.tar.gz]
+[2023-07-13 11:36:53] INFO root fetch - processPackages [seqslab-connector]: Start processing: ciderpolarity
+[2023-07-13 11:36:53] INFO root fetch - main [MainThread]: End processing [seqslab-connector]: success
+[2023-07-13 11:36:53] INFO root fetch - processPackages [DGet]: Downloading https://files.pythonhosted.org/packages/9d/da/c24dfb2d507cb307cb8aa1a7eb560de93376054f8184bc55124a3834e932/DGet-0.8.tar.gz
+[2023-07-13 11:36:53] INFO root fetch - processPackages [coolpandas]: Downloading https://files.pythonhosted.org/packages/c8/c3/b87cd29cb928b46b6172d5bea1f5d4f6fe17eb60fc43554d6cba5508b2fd/coolpandas-0.4.0.tar.gz
+[2023-07-13 11:36:53] INFO root fetch - processPackages [moonstreamdb]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-0.3.3.tar.gz]
+[2023-07-13 11:36:53] INFO root fetch - processPackages [moonstreamdb]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-0.3.4.tar.gz]
+[2023-07-13 11:36:53] INFO root fetch - processPackages [moonstreamdb]: Start processing: voila-vuetify-template-tuwien
+[2023-07-13 11:36:53] INFO root fetch - main [MainThread]: End processing [moonstreamdb]: success
+[2023-07-13 11:36:53] INFO root fetch - processPackages [ciderpolarity]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-13 11:36:53] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/c5/f5/9e3b4e3cffddf5bc5a57b22ce9e4320719b09a79614af0cec120f6f3858d/kr8s-0.8.4.tar.gz
+[2023-07-13 11:36:53] INFO root fetch - processPackages [voila-vuetify-template-tuwien]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-13 11:36:53] INFO root fetch - processPackages [casbin-async-sqlalchemy-adapter]: Remove: archive file [/home/abi/fetcher/tmp/casbin_async_sqlalchemy_adapter-1.1.0.tar.gz]
+[2023-07-13 11:36:53] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-07-13 11:36:53] INFO root fetch - processPackages [casbin-async-sqlalchemy-adapter]: Remove: archive file [/home/abi/fetcher/tmp/casbin_async_sqlalchemy_adapter-1.1.1.tar.gz]
+[2023-07-13 11:36:53] INFO root fetch - main [MainThread]: End processing [casbin-async-sqlalchemy-adapter]: success
+[2023-07-13 11:36:53] INFO root fetch - processPackages [pypaz]: Remove: archive file [/home/abi/fetcher/tmp/pypaz-0.2.4.tar.gz]
+[2023-07-13 11:36:53] INFO root fetch - processPackages [pypaz]: Remove: archive file [/home/abi/fetcher/tmp/pypaz-0.2.5.tar.gz]
+[2023-07-13 11:36:53] INFO root fetch - main [MainThread]: End processing [pypaz]: success
+[2023-07-13 11:36:53] INFO root fetch - processPackages [tej-tool-api]: Downloading https://files.pythonhosted.org/packages/cc/a4/073bfadbb454575db83dcb75468af85e424ca0893f9bd39c85f0ba12e566/tej-tool-api-1.0.2.tar.gz
+[2023-07-13 11:36:53] INFO root fetch - processPackages [ciderpolarity]: Downloading https://files.pythonhosted.org/packages/79/63/a1934f8480e938b0496fd7c40d6adead88de67030e13cb88d07a5ece126f/ciderpolarity-0.2.2.tar.gz
+[2023-07-13 11:36:53] INFO root fetch - processPackages [DGet]: Downloading https://files.pythonhosted.org/packages/34/87/4cf24c82732362ebb31866944ddbb4566ad0b8a317c80e4983dcf18e525f/DGet-0.9.tar.gz
+[2023-07-13 11:36:53] INFO root fetch - processPackages [voila-vuetify-template-tuwien]: Downloading https://files.pythonhosted.org/packages/db/4d/8c512cf0c3bcb82d2ae1b3ee81637ff63a43b59b276f12a86e49de24f2c4/voila-vuetify-template-tuwien-0.6.3.tar.gz
+[2023-07-13 11:36:53] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/72/7e/a63ebec12ffd32a47c22c028c0c22ac00d41419c744370e2b3f51e4ad134/kr8s-0.8.5.tar.gz
+[2023-07-13 11:36:53] INFO root fetch - processPackages [coolpandas]: Downloading https://files.pythonhosted.org/packages/8e/7d/c44e565c80ba600b2ca66f1f373955f7b1ab9df792de8ac67909f0835c9d/coolpandas-0.4.1.tar.gz
+[2023-07-13 11:36:53] INFO root fetch - processPackages [DGet]: executing diffoscope
+[2023-07-13 11:36:53] INFO root fetch - processPackages [DGet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DGet-0.8.tar.gz tmp/DGet-0.9.tar.gz --markdown 20230713/D/DGet/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-13 11:36:53] INFO root fetch - processPackages [kr8s]: executing diffoscope
+[2023-07-13 11:36:53] INFO root fetch - processPackages [kr8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kr8s-0.8.4.tar.gz tmp/kr8s-0.8.5.tar.gz --markdown 20230713/k/kr8s/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-07-13 11:36:53] INFO root fetch - processPackages [coolpandas]: executing diffoscope
+[2023-07-13 11:36:53] INFO root fetch - processPackages [coolpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolpandas-0.4.0.tar.gz tmp/coolpandas-0.4.1.tar.gz --markdown 20230713/c/coolpandas/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-13 11:36:53] INFO root fetch - processPackages [tej-tool-api]: Downloading https://files.pythonhosted.org/packages/e2/bf/bcd3e664f9203d7f16422f498441564a429bd5b96df06c43199f9f3a3a36/tej-tool-api-1.0.3.tar.gz
+[2023-07-13 11:36:53] INFO root fetch - processPackages [ciderpolarity]: Downloading https://files.pythonhosted.org/packages/5d/21/eb2c1428a75b23ab80006ce84a2696094c47543320e715fc562854ce9676/ciderpolarity-0.2.3.tar.gz
+[2023-07-13 11:36:53] INFO root fetch - processPackages [voila-vuetify-template-tuwien]: Downloading https://files.pythonhosted.org/packages/10/4e/f31ea184fcd503daf0c46bc5f3c50db9af1a1c6c08e299ca64ffdda552cf/voila-vuetify-template-tuwien-0.6.4.tar.gz
+[2023-07-13 11:36:53] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-07-13 11:36:54] INFO root fetch - processPackages [tej-tool-api]: executing diffoscope
+[2023-07-13 11:36:54] INFO root fetch - processPackages [tej-tool-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tej-tool-api-1.0.2.tar.gz tmp/tej-tool-api-1.0.3.tar.gz --markdown 20230713/t/tej-tool-api/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-13 11:36:54] INFO root fetch - processPackages [ciderpolarity]: executing diffoscope
+[2023-07-13 11:36:54] INFO root fetch - processPackages [ciderpolarity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciderpolarity-0.2.2.tar.gz tmp/ciderpolarity-0.2.3.tar.gz --markdown 20230713/c/ciderpolarity/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-13 11:36:54] INFO root fetch - processPackages [voila-vuetify-template-tuwien]: executing diffoscope
+[2023-07-13 11:36:54] INFO root fetch - processPackages [voila-vuetify-template-tuwien]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voila-vuetify-template-tuwien-0.6.3.tar.gz tmp/voila-vuetify-template-tuwien-0.6.4.tar.gz --markdown 20230713/v/voila-vuetify-template-tuwien/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-13 11:36:54] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-07-13 11:36:54] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230713/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 11:36:55] INFO root fetch - processPackages [DGet]: Remove: archive file [/home/abi/fetcher/tmp/DGet-0.8.tar.gz]
+[2023-07-13 11:36:55] INFO root fetch - processPackages [DGet]: Remove: archive file [/home/abi/fetcher/tmp/DGet-0.9.tar.gz]
+[2023-07-13 11:36:55] INFO root fetch - main [MainThread]: End processing [DGet]: success
+[2023-07-13 11:36:55] INFO root fetch - processPackages [coolpandas]: Remove: archive file [/home/abi/fetcher/tmp/coolpandas-0.4.0.tar.gz]
+[2023-07-13 11:36:55] INFO root fetch - processPackages [coolpandas]: Remove: archive file [/home/abi/fetcher/tmp/coolpandas-0.4.1.tar.gz]
+[2023-07-13 11:36:55] INFO root fetch - main [MainThread]: End processing [coolpandas]: success
+[2023-07-13 11:36:55] INFO root fetch - processPackages [kr8s]: Remove: archive file [/home/abi/fetcher/tmp/kr8s-0.8.4.tar.gz]
+[2023-07-13 11:36:55] INFO root fetch - processPackages [kr8s]: Remove: archive file [/home/abi/fetcher/tmp/kr8s-0.8.5.tar.gz]
+[2023-07-13 11:36:55] INFO root fetch - main [MainThread]: End processing [kr8s]: success
+[2023-07-13 11:36:55] INFO root fetch - processPackages [tej-tool-api]: Remove: archive file [/home/abi/fetcher/tmp/tej-tool-api-1.0.2.tar.gz]
+[2023-07-13 11:36:55] INFO root fetch - processPackages [tej-tool-api]: Remove: archive file [/home/abi/fetcher/tmp/tej-tool-api-1.0.3.tar.gz]
+[2023-07-13 11:36:55] INFO root fetch - main [MainThread]: End processing [tej-tool-api]: success
+[2023-07-13 11:36:55] INFO root fetch - processPackages [ciderpolarity]: Remove: archive file [/home/abi/fetcher/tmp/ciderpolarity-0.2.2.tar.gz]
+[2023-07-13 11:36:55] INFO root fetch - processPackages [ciderpolarity]: Remove: archive file [/home/abi/fetcher/tmp/ciderpolarity-0.2.3.tar.gz]
+[2023-07-13 11:36:55] INFO root fetch - main [MainThread]: End processing [ciderpolarity]: success
+[2023-07-13 11:36:55] INFO root fetch - processPackages [voila-vuetify-template-tuwien]: Remove: archive file [/home/abi/fetcher/tmp/voila-vuetify-template-tuwien-0.6.3.tar.gz]
+[2023-07-13 11:36:55] INFO root fetch - processPackages [voila-vuetify-template-tuwien]: Remove: archive file [/home/abi/fetcher/tmp/voila-vuetify-template-tuwien-0.6.4.tar.gz]
+[2023-07-13 11:36:55] INFO root fetch - main [MainThread]: End processing [voila-vuetify-template-tuwien]: success
+[2023-07-13 11:36:56] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-07-13 11:36:56] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-07-13 11:36:56] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-07-13 11:37:01] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.1.0.3.tar.gz]
+[2023-07-13 11:37:01] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.1.0.3.dev0.tar.gz]
+[2023-07-13 11:37:01] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2023-07-13 11:37:01] INFO root fetch - main [MainThread]: Store serial: [18872637]
