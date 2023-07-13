@@ -19211,3 +19211,151 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 12:25:57] INFO root fetch - processPackages [microprobe-doc]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_doc-0.5.20230713062001-py2.py3-none-any.whl.zip]
 [2023-07-13 12:25:57] INFO root fetch - main [MainThread]: End processing [microprobe-doc]: success
 [2023-07-13 12:25:57] INFO root fetch - main [MainThread]: Store serial: [18873540]
+[2023-07-13 12:31:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18873540]
+[2023-07-13 12:31:09] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-13 12:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ckanext-editable-config
+[2023-07-13 12:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blockapi
+[2023-07-13 12:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: helios-rl
+[2023-07-13 12:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metallicious
+[2023-07-13 12:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metallicious
+[2023-07-13 12:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-filter-addons
+[2023-07-13 12:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: microprobe-all
+[2023-07-13 12:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: microprobe-core
+[2023-07-13 12:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: microprobe-doc
+[2023-07-13 12:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: microprobe-target-power
+[2023-07-13 12:31:09] INFO root fetch - processPackages [microprobe-core]: New version: [0.5.20230713062648] Old Version: [0.5.20230713062001]
+[2023-07-13 12:31:09] INFO root fetch - processPackages [microprobe-doc]: New version: [0.5.20230713062648] Old Version: [0.5.20230713062001]
+[2023-07-13 12:31:09] INFO root fetch - processPackages [microprobe-all]: New version: [0.5.20230713062648] Old Version: [0.5.20230713062001]
+[2023-07-13 12:31:09] INFO root fetch - processPackages [ckanext-editable-config]: New version: [0.0.2] Old Version: [0.0.1.post1]
+[2023-07-13 12:31:09] INFO root fetch - processPackages [helios-rl]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 12:31:09] INFO root fetch - processPackages [odoo-filter-addons]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-07-13 12:31:09] INFO root fetch - processPackages [microprobe-target-power]: New version: [0.5.20230713062648] Old Version: [0.5.20230713062001]
+[2023-07-13 12:31:09] INFO root fetch - processPackages [metallicious]: New version: [0.2.16] Old Version: [0.2.15]
+[2023-07-13 12:31:09] INFO root fetch - processPackages [metallicious]: New version: [0.2.16] Old Version: [0.2.15]
+[2023-07-13 12:31:09] INFO root fetch - processPackages [blockapi]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-13 12:31:09] INFO root fetch - processPackages [microprobe-doc]: Downloading https://files.pythonhosted.org/packages/e9/d7/a394646f22c6e157dca7d6bb1954bfeb4d3a2c2e14acb364a15a5ac24895/microprobe_doc-0.5.20230713062001-py2.py3-none-any.whl
+[2023-07-13 12:31:09] INFO root fetch - processPackages [microprobe-core]: Downloading https://files.pythonhosted.org/packages/c2/a6/10fa058cd8c312ed441c873d32957fa75953d72857fbcda7ceb5942a467d/microprobe_core-0.5.20230713062001-py2.py3-none-any.whl
+[2023-07-13 12:31:09] INFO root fetch - processPackages [microprobe-all]: Downloading https://files.pythonhosted.org/packages/16/aa/77d20b862611606fdc5cc23e2c8c2d5d4e3824fc6a986d5952bd548c2947/microprobe_all-0.5.20230713062001-py2.py3-none-any.whl
+[2023-07-13 12:31:09] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/78/71/112109ad2b1aa685617dd84a150048372fbd6a5546c749679f55b88e8825/helios-rl-1.0.8.tar.gz
+[2023-07-13 12:31:09] INFO root fetch - processPackages [odoo-filter-addons]: Downloading https://files.pythonhosted.org/packages/ce/81/16f49dc048ec0a5bc7419b7e0bdb5734bfe71ae6d853b6924c93614d0f61/odoo_filter_addons-1.2.2.tar.gz
+[2023-07-13 12:31:09] INFO root fetch - processPackages [microprobe-target-power]: Downloading https://files.pythonhosted.org/packages/19/24/799edabad509d01660bb1bc3ec6898a2a357a439647252dc68ef91d482c7/microprobe_target_power-0.5.20230713062001-py2.py3-none-any.whl
+[2023-07-13 12:31:09] INFO root fetch - processPackages [metallicious]: Downloading https://files.pythonhosted.org/packages/a3/cc/994ac110e7b8ef4adc4c5bc5fc1f7d32b1fef7aebbabe93fba4ba8253770/metallicious-0.2.15-py3-none-any.whl
+[2023-07-13 12:31:09] INFO root fetch - processPackages [metallicious]: Downloading https://files.pythonhosted.org/packages/a3/cc/994ac110e7b8ef4adc4c5bc5fc1f7d32b1fef7aebbabe93fba4ba8253770/metallicious-0.2.15-py3-none-any.whl
+[2023-07-13 12:31:09] INFO root fetch - processPackages [ckanext-editable-config]: Downloading https://files.pythonhosted.org/packages/07/96/1107be900d1673c993851bd5da97f4e014f92cd49d1d41d2c50e5b7687f7/ckanext-editable-config-0.0.1.post1.tar.gz
+[2023-07-13 12:31:10] INFO root fetch - processPackages [blockapi]: Downloading https://files.pythonhosted.org/packages/31/4d/7d461a226992bb823af9a205b83532fd5cf942306b4ad4f220a2817a8ee4/blockapi-0.8.1.tar.gz
+[2023-07-13 12:31:10] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/38/b0/396024a90d94cd1b942fb7b480a67ba92baba52b21d550f8b04102a9c2ef/helios-rl-1.0.9.tar.gz
+[2023-07-13 12:31:10] INFO root fetch - processPackages [odoo-filter-addons]: Downloading https://files.pythonhosted.org/packages/e6/ad/bb2d579fce5c49a92c40e8a8bde5f34efc7cc1256d7fcc9fa7c8e9107293/odoo_filter_addons-1.3.0.tar.gz
+[2023-07-13 12:31:10] INFO root fetch - processPackages [helios-rl]: executing diffoscope
+[2023-07-13 12:31:10] INFO root fetch - processPackages [helios-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-rl-1.0.8.tar.gz tmp/helios-rl-1.0.9.tar.gz --markdown 20230713/h/helios-rl/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 12:31:10] INFO root fetch - processPackages [microprobe-core]: Downloading https://files.pythonhosted.org/packages/71/a4/aed321cddabb3c3fafb21d06a29800053aa1113a016375946017f7cc633e/microprobe_core-0.5.20230713062648-py2.py3-none-any.whl
+[2023-07-13 12:31:10] INFO root fetch - processPackages [microprobe-all]: Downloading https://files.pythonhosted.org/packages/44/25/37200b4ccd9c0dff4041e7af05b7ea75471e7a3fbe09888f54f7bd212896/microprobe_all-0.5.20230713062648-py2.py3-none-any.whl
+[2023-07-13 12:31:10] INFO root fetch - processPackages [microprobe-target-power]: Downloading https://files.pythonhosted.org/packages/57/8a/f0f4e197661bbf502d82d586a51b7eeb39b692323cb259dccbf458ef8f31/microprobe_target_power-0.5.20230713062648-py2.py3-none-any.whl
+[2023-07-13 12:31:10] INFO root fetch - processPackages [metallicious]: Downloading https://files.pythonhosted.org/packages/64/d0/d3a06252b024a6034e2c95fc62ed697c1de8d7b6a4e3d5f01a251113efb9/metallicious-0.2.16-py3-none-any.whl
+[2023-07-13 12:31:10] INFO root fetch - processPackages [metallicious]: Downloading https://files.pythonhosted.org/packages/64/d0/d3a06252b024a6034e2c95fc62ed697c1de8d7b6a4e3d5f01a251113efb9/metallicious-0.2.16-py3-none-any.whl
+[2023-07-13 12:31:10] INFO root fetch - processPackages [odoo-filter-addons]: executing diffoscope
+[2023-07-13 12:31:10] INFO root fetch - processPackages [odoo-filter-addons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_filter_addons-1.2.2.tar.gz tmp/odoo_filter_addons-1.3.0.tar.gz --markdown 20230713/o/odoo-filter-addons/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-07-13 12:31:10] INFO root fetch - processPackages [microprobe-core]: executing diffoscope
+[2023-07-13 12:31:10] INFO root fetch - processPackages [microprobe-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microprobe_core-0.5.20230713062001-py2.py3-none-any.whl.zip tmp/microprobe_core-0.5.20230713062648-py2.py3-none-any.whl.zip --markdown 20230713/m/microprobe-core/0.5.20230713062001-0.5.20230713062648/diff.md --exclude *.pyd
+[2023-07-13 12:31:10] INFO root fetch - processPackages [ckanext-editable-config]: Downloading https://files.pythonhosted.org/packages/c7/8a/3cbe92b5e6ed88662bf2670cab156697044dee75d571b0bc1c9053fa0ba3/ckanext-editable-config-0.0.2.tar.gz
+[2023-07-13 12:31:10] INFO root fetch - processPackages [microprobe-all]: executing diffoscope
+[2023-07-13 12:31:10] INFO root fetch - processPackages [microprobe-all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microprobe_all-0.5.20230713062001-py2.py3-none-any.whl.zip tmp/microprobe_all-0.5.20230713062648-py2.py3-none-any.whl.zip --markdown 20230713/m/microprobe-all/0.5.20230713062001-0.5.20230713062648/diff.md --exclude *.pyd
+[2023-07-13 12:31:10] INFO root fetch - processPackages [microprobe-target-power]: executing diffoscope
+[2023-07-13 12:31:10] INFO root fetch - processPackages [microprobe-target-power]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microprobe_target_power-0.5.20230713062001-py2.py3-none-any.whl.zip tmp/microprobe_target_power-0.5.20230713062648-py2.py3-none-any.whl.zip --markdown 20230713/m/microprobe-target-power/0.5.20230713062001-0.5.20230713062648/diff.md --exclude *.pyd
+[2023-07-13 12:31:10] INFO root fetch - processPackages [blockapi]: Downloading https://files.pythonhosted.org/packages/6a/ed/17b1b9e53b4a0bb6d3d31ae17aeaa73238a3bc01d6b208f6b4fb0812d638/blockapi-0.9.0.tar.gz
+[2023-07-13 12:31:10] INFO root fetch - processPackages [ckanext-editable-config]: executing diffoscope
+[2023-07-13 12:31:10] INFO root fetch - processPackages [ckanext-editable-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-editable-config-0.0.1.post1.tar.gz tmp/ckanext-editable-config-0.0.2.tar.gz --markdown 20230713/c/ckanext-editable-config/0.0.1.post1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 12:31:10] INFO root fetch - processPackages [metallicious]: executing diffoscope
+[2023-07-13 12:31:10] INFO root fetch - processPackages [metallicious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metallicious-0.2.15-py3-none-any.whl.zip tmp/metallicious-0.2.16-py3-none-any.whl.zip --markdown 20230713/m/metallicious/0.2.15-0.2.16/diff.md --exclude *.pyd
+[2023-07-13 12:31:10] INFO root fetch - processPackages [microprobe-doc]: Downloading https://files.pythonhosted.org/packages/2d/d4/5cb34396bb053d38560cb80441e02c34cdfcc8d7fe4145f937d494389e00/microprobe_doc-0.5.20230713062648-py2.py3-none-any.whl
+[2023-07-13 12:31:10] INFO root fetch - processPackages [metallicious]: executing diffoscope
+[2023-07-13 12:31:10] INFO root fetch - processPackages [metallicious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metallicious-0.2.15-py3-none-any.whl.zip tmp/metallicious-0.2.16-py3-none-any.whl.zip --markdown 20230713/m/metallicious/0.2.15-0.2.16/diff.md --exclude *.pyd
+[2023-07-13 12:31:10] INFO root fetch - processPackages [blockapi]: executing diffoscope
+[2023-07-13 12:31:10] INFO root fetch - processPackages [blockapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockapi-0.8.1.tar.gz tmp/blockapi-0.9.0.tar.gz --markdown 20230713/b/blockapi/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-13 12:31:10] INFO root fetch - processPackages [microprobe-doc]: executing diffoscope
+[2023-07-13 12:31:10] INFO root fetch - processPackages [microprobe-doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microprobe_doc-0.5.20230713062001-py2.py3-none-any.whl.zip tmp/microprobe_doc-0.5.20230713062648-py2.py3-none-any.whl.zip --markdown 20230713/m/microprobe-doc/0.5.20230713062001-0.5.20230713062648/diff.md --exclude *.pyd
+[2023-07-13 12:31:12] INFO root fetch - processPackages [odoo-filter-addons]: Remove: archive file [/home/abi/fetcher/tmp/odoo_filter_addons-1.2.2.tar.gz]
+[2023-07-13 12:31:12] INFO root fetch - processPackages [odoo-filter-addons]: Remove: archive file [/home/abi/fetcher/tmp/odoo_filter_addons-1.3.0.tar.gz]
+[2023-07-13 12:31:12] INFO root fetch - processPackages [odoo-filter-addons]: Start processing: microprobe-target-riscv
+[2023-07-13 12:31:12] INFO root fetch - main [MainThread]: End processing [odoo-filter-addons]: success
+[2023-07-13 12:31:12] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.8.tar.gz]
+[2023-07-13 12:31:12] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.9.tar.gz]
+[2023-07-13 12:31:12] INFO root fetch - processPackages [helios-rl]: Start processing: pytelibs
+[2023-07-13 12:31:12] INFO root fetch - main [MainThread]: End processing [helios-rl]: success
+[2023-07-13 12:31:12] INFO root fetch - processPackages [microprobe-target-riscv]: New version: [0.5.20230713062648] Old Version: [0.5.20230713062001]
+[2023-07-13 12:31:12] WARNING root fetch - processPackages [pytelibs]: Skipping, unable to determine old version
+[2023-07-13 12:31:12] INFO root fetch - processPackages [pytelibs]: Start processing: threads-net
+[2023-07-13 12:31:12] INFO root fetch - main [MainThread]: End processing [pytelibs] error
+[2023-07-13 12:31:12] INFO root fetch - processPackages [threads-net]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-13 12:31:12] INFO root fetch - processPackages [microprobe-target-riscv]: Downloading https://files.pythonhosted.org/packages/59/e5/6ea1f70d0e0fd1767572b10cf4ea7f1c97307103e997df66160dc083a34b/microprobe_target_riscv-0.5.20230713062001-py2.py3-none-any.whl
+[2023-07-13 12:31:12] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/11/ba/483f4770d7c413aff80cfdfd96da75d50912f6604255f4a04d7e8448a5a1/threads-net-0.0.7.tar.gz
+[2023-07-13 12:31:12] INFO root fetch - processPackages [ckanext-editable-config]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-editable-config-0.0.1.post1.tar.gz]
+[2023-07-13 12:31:12] INFO root fetch - processPackages [ckanext-editable-config]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-editable-config-0.0.2.tar.gz]
+[2023-07-13 12:31:12] INFO root fetch - processPackages [ckanext-editable-config]: Start processing: vdk-jupyterlab-extension
+[2023-07-13 12:31:12] INFO root fetch - main [MainThread]: End processing [ckanext-editable-config]: success
+[2023-07-13 12:31:12] INFO root fetch - processPackages [vdk-jupyterlab-extension]: New version: [0.1.929969845] Old Version: [0.1.0]
+[2023-07-13 12:31:12] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/de/bd/e372c12fe307c562ec3785151d74201431eddd2312171d55b8ee4ac81db6/threads-net-0.0.8.tar.gz
+[2023-07-13 12:31:12] INFO root fetch - processPackages [microprobe-all]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_all-0.5.20230713062001-py2.py3-none-any.whl.zip]
+[2023-07-13 12:31:12] INFO root fetch - processPackages [microprobe-all]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_all-0.5.20230713062648-py2.py3-none-any.whl.zip]
+[2023-07-13 12:31:12] INFO root fetch - processPackages [microprobe-all]: Start processing: rosa-python-client
+[2023-07-13 12:31:12] INFO root fetch - main [MainThread]: End processing [microprobe-all]: success
+[2023-07-13 12:31:12] INFO root fetch - processPackages [microprobe-target-riscv]: Downloading https://files.pythonhosted.org/packages/fc/72/af608b8c0c50a022f50ec1a33d2c87033c561642429f2bac55e5bc05a0e0/microprobe_target_riscv-0.5.20230713062648-py2.py3-none-any.whl
+[2023-07-13 12:31:12] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-13 12:31:12] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.7.tar.gz tmp/threads-net-0.0.8.tar.gz --markdown 20230713/t/threads-net/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-13 12:31:12] INFO root fetch - processPackages [rosa-python-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 12:31:12] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/cd/71/610d4efe8ced79e2259b06dfeea5cc3eb06b5826a697248f91675ba0e2db/vdk-jupyterlab-extension-0.1.0.tar.gz
+[2023-07-13 12:31:12] INFO root fetch - processPackages [microprobe-target-riscv]: executing diffoscope
+[2023-07-13 12:31:12] INFO root fetch - processPackages [microprobe-target-riscv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microprobe_target_riscv-0.5.20230713062001-py2.py3-none-any.whl.zip tmp/microprobe_target_riscv-0.5.20230713062648-py2.py3-none-any.whl.zip --markdown 20230713/m/microprobe-target-riscv/0.5.20230713062001-0.5.20230713062648/diff.md --exclude *.pyd
+[2023-07-13 12:31:13] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/9d/3d/13a352dc8b1b3b85a795352b1cee6cd40ca9d5cb9e015f6174830f9ffb0e/rosa_python_client-1.0.8.tar.gz
+[2023-07-13 12:31:13] INFO root fetch - processPackages [microprobe-core]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_core-0.5.20230713062001-py2.py3-none-any.whl.zip]
+[2023-07-13 12:31:13] INFO root fetch - processPackages [microprobe-core]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_core-0.5.20230713062648-py2.py3-none-any.whl.zip]
+[2023-07-13 12:31:13] INFO root fetch - processPackages [microprobe-core]: Start processing: dcg-service
+[2023-07-13 12:31:13] INFO root fetch - main [MainThread]: End processing [microprobe-core]: success
+[2023-07-13 12:31:13] INFO root fetch - processPackages [dcg-service]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-13 12:31:13] INFO root fetch - processPackages [blockapi]: Remove: archive file [/home/abi/fetcher/tmp/blockapi-0.8.1.tar.gz]
+[2023-07-13 12:31:13] INFO root fetch - processPackages [blockapi]: Remove: archive file [/home/abi/fetcher/tmp/blockapi-0.9.0.tar.gz]
+[2023-07-13 12:31:13] INFO root fetch - processPackages [blockapi]: Start processing: emlib
+[2023-07-13 12:31:13] INFO root fetch - main [MainThread]: End processing [blockapi]: success
+[2023-07-13 12:31:13] INFO root fetch - processPackages [emlib]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-13 12:31:13] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/57/71/77aa94783e126449ad00cda27a853d3161809a6117e0e34f7ab67ade9050/rosa_python_client-1.0.9.tar.gz
+[2023-07-13 12:31:13] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/fa/cb/de4cb61d790e0b1222bdd12836bb5dd4eab5807bd72289755d95a2288360/vdk_jupyterlab_extension-0.1.929969845.tar.gz
+[2023-07-13 12:31:13] INFO root fetch - processPackages [emlib]: Downloading https://files.pythonhosted.org/packages/ea/67/fcf1b6dc7769f14e2b9f7d88a82eceead943a9d14bd5e7491c508bda8545/emlib-1.9.1.tar.gz
+[2023-07-13 12:31:13] INFO root fetch - processPackages [rosa-python-client]: executing diffoscope
+[2023-07-13 12:31:13] INFO root fetch - processPackages [rosa-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosa_python_client-1.0.8.tar.gz tmp/rosa_python_client-1.0.9.tar.gz --markdown 20230713/r/rosa-python-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 12:31:13] INFO root fetch - processPackages [dcg-service]: Downloading https://files.pythonhosted.org/packages/36/c5/4573c090db181b80ad83bfb2902db2ef3188f8df5b430bdaa3ffd01eccf6/dcg_service-0.0.4.tar.gz
+[2023-07-13 12:31:13] INFO root fetch - processPackages [vdk-jupyterlab-extension]: executing diffoscope
+[2023-07-13 12:31:13] INFO root fetch - processPackages [vdk-jupyterlab-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-jupyterlab-extension-0.1.0.tar.gz tmp/vdk_jupyterlab_extension-0.1.929969845.tar.gz --markdown 20230713/v/vdk-jupyterlab-extension/0.1.0-0.1.929969845/diff.md --exclude *.pyd
+[2023-07-13 12:31:13] INFO root fetch - processPackages [emlib]: Downloading https://files.pythonhosted.org/packages/2a/c4/46ac55b0f07ecc3157df3355733a20fad3d385671267e699bd178aabd98b/emlib-1.9.2.tar.gz
+[2023-07-13 12:31:13] INFO root fetch - processPackages [dcg-service]: Downloading https://files.pythonhosted.org/packages/85/ef/e749182cebb48868bfec93b289a25ef79679733d8690cf9697630f97800d/dcg_service-0.0.5.tar.gz
+[2023-07-13 12:31:13] INFO root fetch - processPackages [emlib]: executing diffoscope
+[2023-07-13 12:31:13] INFO root fetch - processPackages [emlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emlib-1.9.1.tar.gz tmp/emlib-1.9.2.tar.gz --markdown 20230713/e/emlib/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-13 12:31:13] INFO root fetch - processPackages [dcg-service]: executing diffoscope
+[2023-07-13 12:31:13] INFO root fetch - processPackages [dcg-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcg_service-0.0.4.tar.gz tmp/dcg_service-0.0.5.tar.gz --markdown 20230713/d/dcg-service/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-13 12:31:14] INFO root fetch - processPackages [microprobe-target-power]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_target_power-0.5.20230713062001-py2.py3-none-any.whl.zip]
+[2023-07-13 12:31:14] INFO root fetch - processPackages [microprobe-target-power]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_target_power-0.5.20230713062648-py2.py3-none-any.whl.zip]
+[2023-07-13 12:31:14] INFO root fetch - main [MainThread]: End processing [microprobe-target-power]: success
+[2023-07-13 12:31:14] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.7.tar.gz]
+[2023-07-13 12:31:14] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.8.tar.gz]
+[2023-07-13 12:31:14] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-13 12:31:14] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.8.tar.gz]
+[2023-07-13 12:31:14] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.9.tar.gz]
+[2023-07-13 12:31:14] INFO root fetch - main [MainThread]: End processing [rosa-python-client]: success
+[2023-07-13 12:31:14] INFO root fetch - processPackages [metallicious]: Remove: archive file [/home/abi/fetcher/tmp/metallicious-0.2.15-py3-none-any.whl.zip]
+[2023-07-13 12:31:14] INFO root fetch - processPackages [metallicious]: Remove: archive file [/home/abi/fetcher/tmp/metallicious-0.2.16-py3-none-any.whl.zip]
+[2023-07-13 12:31:14] INFO root fetch - main [MainThread]: End processing [metallicious]: success
+[2023-07-13 12:31:14] INFO root fetch - main [MainThread]: End processing [metallicious]: success
+[2023-07-13 12:31:14] INFO root fetch - processPackages [microprobe-target-riscv]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_target_riscv-0.5.20230713062001-py2.py3-none-any.whl.zip]
+[2023-07-13 12:31:14] INFO root fetch - processPackages [microprobe-target-riscv]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_target_riscv-0.5.20230713062648-py2.py3-none-any.whl.zip]
+[2023-07-13 12:31:14] INFO root fetch - main [MainThread]: End processing [microprobe-target-riscv]: success
+[2023-07-13 12:31:14] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/vdk-jupyterlab-extension-0.1.0.tar.gz]
+[2023-07-13 12:31:14] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/vdk_jupyterlab_extension-0.1.929969845.tar.gz]
+[2023-07-13 12:31:14] INFO root fetch - main [MainThread]: End processing [vdk-jupyterlab-extension]: success
+[2023-07-13 12:31:15] INFO root fetch - processPackages [dcg-service]: Remove: archive file [/home/abi/fetcher/tmp/dcg_service-0.0.4.tar.gz]
+[2023-07-13 12:31:15] INFO root fetch - processPackages [dcg-service]: Remove: archive file [/home/abi/fetcher/tmp/dcg_service-0.0.5.tar.gz]
+[2023-07-13 12:31:15] INFO root fetch - main [MainThread]: End processing [dcg-service]: success
+[2023-07-13 12:31:15] INFO root fetch - processPackages [emlib]: Remove: archive file [/home/abi/fetcher/tmp/emlib-1.9.1.tar.gz]
+[2023-07-13 12:31:15] INFO root fetch - processPackages [emlib]: Remove: archive file [/home/abi/fetcher/tmp/emlib-1.9.2.tar.gz]
+[2023-07-13 12:31:15] INFO root fetch - main [MainThread]: End processing [emlib]: success
+[2023-07-13 12:31:19] INFO root fetch - processPackages [microprobe-doc]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_doc-0.5.20230713062001-py2.py3-none-any.whl.zip]
+[2023-07-13 12:31:19] INFO root fetch - processPackages [microprobe-doc]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_doc-0.5.20230713062648-py2.py3-none-any.whl.zip]
+[2023-07-13 12:31:19] INFO root fetch - main [MainThread]: End processing [microprobe-doc]: success
+[2023-07-13 12:31:19] INFO root fetch - main [MainThread]: Store serial: [18873586]
