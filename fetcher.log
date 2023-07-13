@@ -20460,3 +20460,159 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 13:24:10] INFO root fetch - processPackages [streamlit-editable-dataframe]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-editable-dataframe-0.0.2.tar.gz]
 [2023-07-13 13:24:10] INFO root fetch - main [MainThread]: End processing [streamlit-editable-dataframe]: success
 [2023-07-13 13:24:10] INFO root fetch - main [MainThread]: Store serial: [18874095]
+[2023-07-13 13:29:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18874095]
+[2023-07-13 13:29:19] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-13 13:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ewoksid22
+[2023-07-13 13:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Abg
+[2023-07-13 13:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tb-nightly
+[2023-07-13 13:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autoxx
+[2023-07-13 13:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchtnt-nightly
+[2023-07-13 13:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: influxdb3-python
+[2023-07-13 13:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: guify
+[2023-07-13 13:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: helperfns
+[2023-07-13 13:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: optimal-data-selector
+[2023-07-13 13:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: th2-grpc-act-template
+[2023-07-13 13:29:19] INFO root fetch - processPackages [ewoksid22]: New version: [0.1.0] Old Version: [0.0.2rc0]
+[2023-07-13 13:29:19] INFO root fetch - processPackages [Abg]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-07-13 13:29:19] INFO root fetch - processPackages [influxdb3-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-13 13:29:19] INFO root fetch - processPackages [autoxx]: New version: [0.0.39] Old Version: [0.0.38]
+[2023-07-13 13:29:19] INFO root fetch - processPackages [helperfns]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-13 13:29:19] INFO root fetch - processPackages [guify]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-13 13:29:19] WARNING root fetch - processPackages [optimal-data-selector]: Skipping, unable to determine old version
+[2023-07-13 13:29:19] INFO root fetch - processPackages [optimal-data-selector]: Start processing: rpcclient
+[2023-07-13 13:29:19] INFO root fetch - main [MainThread]: End processing [optimal-data-selector] error
+[2023-07-13 13:29:19] INFO root fetch - processPackages [th2-grpc-act-template]: New version: [4.1.0.dev5542494983] Old Version: [4.1.0.dev5531718452]
+[2023-07-13 13:29:19] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-13 13:29:20] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-07-13 13:29:20] INFO root fetch - processPackages [rpcclient]: New version: [3.17.0] Old Version: [3.16.2]
+[2023-07-13 13:29:20] INFO root fetch - processPackages [th2-grpc-act-template]: Downloading https://files.pythonhosted.org/packages/82/73/0fcd24defa5fc6f6ba7fa5e039dc2caa17d9643fa3c958d01593a4ced461/th2_grpc_act_template-4.1.0.dev5531718452.tar.gz
+[2023-07-13 13:29:20] INFO root fetch - processPackages [helperfns]: Downloading https://files.pythonhosted.org/packages/e4/a6/416e7af3c616089e5b15be73dd8c2148659eb3a4364239ed12eb13451527/helperfns-0.0.5.tar.gz
+[2023-07-13 13:29:20] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/47/a5/6e0ce29c38b55188a4ab6ec32c5f4908ef7a19908d233cb0c077fcc21462/torchtnt-nightly-2023.7.8.tar.gz
+[2023-07-13 13:29:20] INFO root fetch - processPackages [influxdb3-python]: Downloading https://files.pythonhosted.org/packages/de/27/ebd07852b007741ab91ad2310a5780902564195b902791ae1533d09d1468/influxdb3-python-0.1.8.tar.gz
+[2023-07-13 13:29:20] INFO root fetch - processPackages [ewoksid22]: Downloading https://files.pythonhosted.org/packages/ab/10/0b7d8edaf8ef3c02206815c7fc1b865db4fddd4e952fddd5fd48f279d448/ewoksid22-0.0.2rc0.tar.gz
+[2023-07-13 13:29:20] INFO root fetch - processPackages [Abg]: Downloading https://files.pythonhosted.org/packages/2b/20/d63fac92af3b5c4d133d3a7ffa898e607122e3dc3eeb3dd495d592d8cd80/Abg-2.3.1.tar.gz
+[2023-07-13 13:29:20] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/7c/4c/13620db0bcd91ab3480714bf5bc330712068fa8bc44ff08dc03b4689171d/guify-0.2.8.tar.gz
+[2023-07-13 13:29:20] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/88/ee/7b40a5a506e832b0d667941bf247cffb505ed6ca43076def918a265813cd/autoxx-0.0.38.tar.gz
+[2023-07-13 13:29:20] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-07-13 13:29:20] INFO root fetch - processPackages [rpcclient]: Downloading https://files.pythonhosted.org/packages/38/47/d7f5efe01e31b92effe3ca91c59fbb030b7b9c82e52a7e147656c0bbd87b/rpcclient-3.16.2.tar.gz
+[2023-07-13 13:29:20] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/ae/7f/589eb3c0712725a4a9594bdbc4229b9087a94038117bda63c54ef6d2e7e5/torchtnt-nightly-2023.7.9.tar.gz
+[2023-07-13 13:29:20] INFO root fetch - processPackages [th2-grpc-act-template]: Downloading https://files.pythonhosted.org/packages/f1/69/6e11ad89613ffba69e09d90f753ed0a3ec804a2aed58ef2e429942c975bd/th2_grpc_act_template-4.1.0.dev5542494983.tar.gz
+[2023-07-13 13:29:20] INFO root fetch - processPackages [helperfns]: Downloading https://files.pythonhosted.org/packages/d0/c7/d47433dca8f5ce3d58cdbb4bf43e86140d9f9e621af5e92b43e12d880116/helperfns-0.0.6.tar.gz
+[2023-07-13 13:29:20] INFO root fetch - processPackages [influxdb3-python]: Downloading https://files.pythonhosted.org/packages/d1/bb/ea15f40ba2ce1c306d98e6f04d3c0c2e09d27991ab8b08607e7074a5a561/influxdb3-python-0.1.9.tar.gz
+[2023-07-13 13:29:20] INFO root fetch - processPackages [Abg]: Downloading https://files.pythonhosted.org/packages/b5/7d/0b371f1a46648d487d14330deacbbb378ff1830def46441c5dd1957e4086/Abg-2.3.2.tar.gz
+[2023-07-13 13:29:20] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/b1/9c/10706a21e75844465af6ac2e4dd6f9d0a1f364134a48a6700811521ca152/guify-0.2.9.tar.gz
+[2023-07-13 13:29:20] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-07-13 13:29:20] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.7.8.tar.gz tmp/torchtnt-nightly-2023.7.9.tar.gz --markdown 20230713/t/torchtnt-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-13 13:29:20] INFO root fetch - processPackages [helperfns]: executing diffoscope
+[2023-07-13 13:29:20] INFO root fetch - processPackages [helperfns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helperfns-0.0.5.tar.gz tmp/helperfns-0.0.6.tar.gz --markdown 20230713/h/helperfns/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-13 13:29:20] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/f7/7d/86c002fad5e32d4b0ddce54eec9f2e4a85bbb1ee5ade5184e0ab0b0d3be1/autoxx-0.0.39.tar.gz
+[2023-07-13 13:29:20] INFO root fetch - processPackages [th2-grpc-act-template]: executing diffoscope
+[2023-07-13 13:29:20] INFO root fetch - processPackages [th2-grpc-act-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_act_template-4.1.0.dev5531718452.tar.gz tmp/th2_grpc_act_template-4.1.0.dev5542494983.tar.gz --markdown 20230713/t/th2-grpc-act-template/4.1.0.dev5531718452-4.1.0.dev5542494983/diff.md --exclude *.pyd
+[2023-07-13 13:29:20] INFO root fetch - processPackages [influxdb3-python]: executing diffoscope
+[2023-07-13 13:29:20] INFO root fetch - processPackages [influxdb3-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/influxdb3-python-0.1.8.tar.gz tmp/influxdb3-python-0.1.9.tar.gz --markdown 20230713/i/influxdb3-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-13 13:29:20] INFO root fetch - processPackages [guify]: executing diffoscope
+[2023-07-13 13:29:20] INFO root fetch - processPackages [guify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guify-0.2.8.tar.gz tmp/guify-0.2.9.tar.gz --markdown 20230713/g/guify/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-13 13:29:20] INFO root fetch - processPackages [ewoksid22]: Downloading https://files.pythonhosted.org/packages/ba/54/f81e3171242740ebb41d8759e7b3b54516293bf28f53f5c4c54617725d54/ewoksid22-0.1.0.tar.gz
+[2023-07-13 13:29:20] INFO root fetch - processPackages [rpcclient]: Downloading https://files.pythonhosted.org/packages/41/a4/61ad91e441bf616ba274f31b9b39a9c423f064c11db99fe338d1e5b77acf/rpcclient-3.17.0.tar.gz
+[2023-07-13 13:29:21] INFO root fetch - processPackages [Abg]: executing diffoscope
+[2023-07-13 13:29:21] INFO root fetch - processPackages [Abg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Abg-2.3.1.tar.gz tmp/Abg-2.3.2.tar.gz --markdown 20230713/A/Abg/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-07-13 13:29:21] INFO root fetch - processPackages [autoxx]: executing diffoscope
+[2023-07-13 13:29:21] INFO root fetch - processPackages [autoxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoxx-0.0.38.tar.gz tmp/autoxx-0.0.39.tar.gz --markdown 20230713/a/autoxx/0.0.38-0.0.39/diff.md --exclude *.pyd
+[2023-07-13 13:29:21] INFO root fetch - processPackages [rpcclient]: executing diffoscope
+[2023-07-13 13:29:21] INFO root fetch - processPackages [rpcclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpcclient-3.16.2.tar.gz tmp/rpcclient-3.17.0.tar.gz --markdown 20230713/r/rpcclient/3.16.2-3.17.0/diff.md --exclude *.pyd
+[2023-07-13 13:29:21] INFO root fetch - processPackages [ewoksid22]: executing diffoscope
+[2023-07-13 13:29:21] INFO root fetch - processPackages [ewoksid22]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewoksid22-0.0.2rc0.tar.gz tmp/ewoksid22-0.1.0.tar.gz --markdown 20230713/e/ewoksid22/0.0.2rc0-0.1.0/diff.md --exclude *.pyd
+[2023-07-13 13:29:21] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-07-13 13:29:22] INFO root fetch - processPackages [helperfns]: Remove: archive file [/home/abi/fetcher/tmp/helperfns-0.0.5.tar.gz]
+[2023-07-13 13:29:22] INFO root fetch - processPackages [helperfns]: Remove: archive file [/home/abi/fetcher/tmp/helperfns-0.0.6.tar.gz]
+[2023-07-13 13:29:22] INFO root fetch - processPackages [helperfns]: Start processing: fablablib-python-ver1
+[2023-07-13 13:29:22] INFO root fetch - main [MainThread]: End processing [helperfns]: success
+[2023-07-13 13:29:22] INFO root fetch - processPackages [influxdb3-python]: Remove: archive file [/home/abi/fetcher/tmp/influxdb3-python-0.1.8.tar.gz]
+[2023-07-13 13:29:22] INFO root fetch - processPackages [influxdb3-python]: Remove: archive file [/home/abi/fetcher/tmp/influxdb3-python-0.1.9.tar.gz]
+[2023-07-13 13:29:22] INFO root fetch - processPackages [influxdb3-python]: Start processing: th2-grpc-lw-data-provider
+[2023-07-13 13:29:22] INFO root fetch - main [MainThread]: End processing [influxdb3-python]: success
+[2023-07-13 13:29:22] WARNING root fetch - processPackages [fablablib-python-ver1]: Skipping, unable to determine old version
+[2023-07-13 13:29:22] INFO root fetch - processPackages [fablablib-python-ver1]: Start processing: read-vme-file-pkg
+[2023-07-13 13:29:22] INFO root fetch - main [MainThread]: End processing [fablablib-python-ver1] error
+[2023-07-13 13:29:22] WARNING root fetch - processPackages [read-vme-file-pkg]: Skipping, unable to determine old version
+[2023-07-13 13:29:22] INFO root fetch - processPackages [read-vme-file-pkg]: Start processing: vdk-jupyterlab-extension
+[2023-07-13 13:29:22] INFO root fetch - main [MainThread]: End processing [read-vme-file-pkg] error
+[2023-07-13 13:29:22] INFO root fetch - processPackages [th2-grpc-act-template]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_act_template-4.1.0.dev5531718452.tar.gz]
+[2023-07-13 13:29:22] INFO root fetch - processPackages [th2-grpc-act-template]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_act_template-4.1.0.dev5542494983.tar.gz]
+[2023-07-13 13:29:22] INFO root fetch - processPackages [th2-grpc-act-template]: Start processing: chainfury-server
+[2023-07-13 13:29:22] INFO root fetch - main [MainThread]: End processing [th2-grpc-act-template]: success
+[2023-07-13 13:29:22] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5542495650]
+[2023-07-13 13:29:22] INFO root fetch - processPackages [chainfury-server]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-13 13:29:22] INFO root fetch - processPackages [vdk-jupyterlab-extension]: New version: [0.1.930039523] Old Version: [0.1.929969845]
+[2023-07-13 13:29:22] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-07-13 13:29:22] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230713/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-07-13 13:29:22] INFO root fetch - processPackages [chainfury-server]: Downloading https://files.pythonhosted.org/packages/c3/bf/db7abb1f16c90f91c6b498226c2bf08fbac76b8a6adeb69d001b161f4f6b/chainfury_server-1.0.0.tar.gz
+[2023-07-13 13:29:22] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.8.tar.gz]
+[2023-07-13 13:29:22] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/fa/cb/de4cb61d790e0b1222bdd12836bb5dd4eab5807bd72289755d95a2288360/vdk_jupyterlab_extension-0.1.929969845.tar.gz
+[2023-07-13 13:29:22] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.9.tar.gz]
+[2023-07-13 13:29:22] INFO root fetch - processPackages [torchtnt-nightly]: Start processing: cohere-sagemaker
+[2023-07-13 13:29:22] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-07-13 13:29:22] INFO root fetch - processPackages [cohere-sagemaker]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-13 13:29:22] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/71/f4/362204de9c1cb24fcfea8771f26d8e316ff4ee7b27a4fa95e8cc42c2f442/th2_grpc_lw_data_provider-2.0.0.dev5542495650.tar.gz
+[2023-07-13 13:29:22] INFO root fetch - processPackages [autoxx]: Remove: archive file [/home/abi/fetcher/tmp/autoxx-0.0.38.tar.gz]
+[2023-07-13 13:29:22] INFO root fetch - processPackages [autoxx]: Remove: archive file [/home/abi/fetcher/tmp/autoxx-0.0.39.tar.gz]
+[2023-07-13 13:29:22] INFO root fetch - processPackages [autoxx]: Start processing: torchrl-nightly
+[2023-07-13 13:29:22] INFO root fetch - main [MainThread]: End processing [autoxx]: success
+[2023-07-13 13:29:23] INFO root fetch - processPackages [Abg]: Remove: archive file [/home/abi/fetcher/tmp/Abg-2.3.1.tar.gz]
+[2023-07-13 13:29:23] INFO root fetch - processPackages [Abg]: Remove: archive file [/home/abi/fetcher/tmp/Abg-2.3.2.tar.gz]
+[2023-07-13 13:29:23] INFO root fetch - processPackages [Abg]: Start processing: slurmpie
+[2023-07-13 13:29:23] INFO root fetch - main [MainThread]: End processing [Abg]: success
+[2023-07-13 13:29:23] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-13 13:29:23] INFO root fetch - processPackages [cohere-sagemaker]: Downloading https://files.pythonhosted.org/packages/bb/0a/cb10f585e4faddc2fef05ca04f9bde07c8007f8cceb476b453f94d521e51/cohere-sagemaker-0.7.0.tar.gz
+[2023-07-13 13:29:23] INFO root fetch - processPackages [chainfury-server]: Downloading https://files.pythonhosted.org/packages/6d/53/739293a56d92b447504fdbb38842817a4405add6d4dd102690b83f2f437d/chainfury_server-1.0.1-py3-none-any.whl
+[2023-07-13 13:29:23] INFO root fetch - processPackages [slurmpie]: New version: [0.7.1] Old Version: [0.6.1]
+[2023-07-13 13:29:23] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/4b/a1/cf3a73414acc1d12cc917148f7c816fec71e4459716c5818828261f786c9/vdk_jupyterlab_extension-0.1.930039523.tar.gz
+[2023-07-13 13:29:23] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/38/33/59a88ceafbd8e349b7f261de4859c91912b883bd14249422d344f09ba9ed/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-13 13:29:23] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-07-13 13:29:23] INFO root fetch - processPackages [rpcclient]: Remove: archive file [/home/abi/fetcher/tmp/rpcclient-3.16.2.tar.gz]
+[2023-07-13 13:29:23] INFO root fetch - processPackages [rpcclient]: Remove: archive file [/home/abi/fetcher/tmp/rpcclient-3.17.0.tar.gz]
+[2023-07-13 13:29:23] INFO root fetch - main [MainThread]: End processing [rpcclient]: success
+[2023-07-13 13:29:23] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-07-13 13:29:23] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5542495650.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230713/t/th2-grpc-lw-data-provider/2.0.0.dev5542495650-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-07-13 13:29:23] INFO root fetch - processPackages [slurmpie]: Downloading https://files.pythonhosted.org/packages/39/8d/4e1d3ed85db8c0d692a98fc95cc06ad5e8a627265578769cba8f1e0bcd4b/slurmpie-0.6.1.tar.gz
+[2023-07-13 13:29:23] INFO root fetch - processPackages [cohere-sagemaker]: Downloading https://files.pythonhosted.org/packages/a0/73/0358e1e7c0c8a2cb869b4db3a1e0ab480aeabcc465729d4481eb24a95d77/cohere-sagemaker-0.7.1.tar.gz
+[2023-07-13 13:29:23] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/22/59/298ac6427c9497e554f2b3ba5d253603250fe69672e94a74affda6a5613c/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-13 13:29:23] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-07-13 13:29:23] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230713/t/torchrl-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-13 13:29:23] INFO root fetch - processPackages [cohere-sagemaker]: executing diffoscope
+[2023-07-13 13:29:23] INFO root fetch - processPackages [cohere-sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohere-sagemaker-0.7.0.tar.gz tmp/cohere-sagemaker-0.7.1.tar.gz --markdown 20230713/c/cohere-sagemaker/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-13 13:29:23] INFO root fetch - processPackages [slurmpie]: Downloading https://files.pythonhosted.org/packages/a3/7f/c5faaafc8240b2211153d32c5bfb1483d63f7427d77fb5843391f022bf10/slurmpie-0.7.1.tar.gz
+[2023-07-13 13:29:23] INFO root fetch - processPackages [vdk-jupyterlab-extension]: executing diffoscope
+[2023-07-13 13:29:23] INFO root fetch - processPackages [vdk-jupyterlab-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk_jupyterlab_extension-0.1.929969845.tar.gz tmp/vdk_jupyterlab_extension-0.1.930039523.tar.gz --markdown 20230713/v/vdk-jupyterlab-extension/0.1.929969845-0.1.930039523/diff.md --exclude *.pyd
+[2023-07-13 13:29:24] INFO root fetch - processPackages [slurmpie]: executing diffoscope
+[2023-07-13 13:29:24] INFO root fetch - processPackages [slurmpie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurmpie-0.6.1.tar.gz tmp/slurmpie-0.7.1.tar.gz --markdown 20230713/s/slurmpie/0.6.1-0.7.1/diff.md --exclude *.pyd
+[2023-07-13 13:29:24] INFO root fetch - processPackages [chainfury-server]: executing diffoscope
+[2023-07-13 13:29:24] INFO root fetch - processPackages [chainfury-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainfury_server-1.0.0.tar.gz tmp/chainfury_server-1.0.1-py3-none-any.whl.zip --markdown 20230713/c/chainfury-server/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-13 13:29:24] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5542495650.tar.gz]
+[2023-07-13 13:29:24] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-07-13 13:29:24] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-07-13 13:29:25] INFO root fetch - processPackages [cohere-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/cohere-sagemaker-0.7.0.tar.gz]
+[2023-07-13 13:29:25] INFO root fetch - processPackages [cohere-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/cohere-sagemaker-0.7.1.tar.gz]
+[2023-07-13 13:29:25] INFO root fetch - main [MainThread]: End processing [cohere-sagemaker]: success
+[2023-07-13 13:29:25] INFO root fetch - processPackages [slurmpie]: Remove: archive file [/home/abi/fetcher/tmp/slurmpie-0.6.1.tar.gz]
+[2023-07-13 13:29:25] INFO root fetch - processPackages [slurmpie]: Remove: archive file [/home/abi/fetcher/tmp/slurmpie-0.7.1.tar.gz]
+[2023-07-13 13:29:25] INFO root fetch - main [MainThread]: End processing [slurmpie]: success
+[2023-07-13 13:29:26] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-13 13:29:26] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-13 13:29:26] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-07-13 13:29:26] INFO root fetch - processPackages [chainfury-server]: Remove: archive file [/home/abi/fetcher/tmp/chainfury_server-1.0.0.tar.gz]
+[2023-07-13 13:29:26] INFO root fetch - processPackages [chainfury-server]: Remove: archive file [/home/abi/fetcher/tmp/chainfury_server-1.0.1-py3-none-any.whl.zip]
+[2023-07-13 13:29:26] INFO root fetch - main [MainThread]: End processing [chainfury-server]: success
+[2023-07-13 13:29:26] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-07-13 13:29:26] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-07-13 13:29:26] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-07-13 13:29:26] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/vdk_jupyterlab_extension-0.1.929969845.tar.gz]
+[2023-07-13 13:29:26] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/vdk_jupyterlab_extension-0.1.930039523.tar.gz]
+[2023-07-13 13:29:26] INFO root fetch - main [MainThread]: End processing [vdk-jupyterlab-extension]: success
+[2023-07-13 13:29:30] INFO root fetch - processPackages [guify]: Remove: archive file [/home/abi/fetcher/tmp/guify-0.2.8.tar.gz]
+[2023-07-13 13:29:30] INFO root fetch - processPackages [guify]: Remove: archive file [/home/abi/fetcher/tmp/guify-0.2.9.tar.gz]
+[2023-07-13 13:29:30] INFO root fetch - main [MainThread]: End processing [guify]: success
+[2023-07-13 13:29:37] INFO root fetch - processPackages [ewoksid22]: Remove: archive file [/home/abi/fetcher/tmp/ewoksid22-0.0.2rc0.tar.gz]
+[2023-07-13 13:29:37] INFO root fetch - processPackages [ewoksid22]: Remove: archive file [/home/abi/fetcher/tmp/ewoksid22-0.1.0.tar.gz]
+[2023-07-13 13:29:37] INFO root fetch - main [MainThread]: End processing [ewoksid22]: success
+[2023-07-13 13:29:37] INFO root fetch - main [MainThread]: Store serial: [18874153]
