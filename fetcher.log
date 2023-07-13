@@ -16163,3 +16163,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 11:26:25] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9214410208671.tar.gz]
 [2023-07-13 11:26:25] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2023-07-13 11:26:25] INFO root fetch - main [MainThread]: Store serial: [18872530]
+[2023-07-13 11:31:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18872530]
+[2023-07-13 11:31:34] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-13 11:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipekit-sdk
+[2023-07-13 11:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tbp-nightly
+[2023-07-13 11:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ddadevops
+[2023-07-13 11:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dsmlibrary-viz
+[2023-07-13 11:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: evo
+[2023-07-13 11:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zen-engine
+[2023-07-13 11:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: puwifi
+[2023-07-13 11:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sat-toolkit
+[2023-07-13 11:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gender-detection-local
+[2023-07-13 11:31:34] INFO root fetch - processPackages [sat-toolkit]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-13 11:31:34] INFO root fetch - processPackages [zen-engine]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-07-13 11:31:34] INFO root fetch - processPackages [dsmlibrary-viz]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-13 11:31:34] INFO root fetch - processPackages [gender-detection-local]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-13 11:31:34] INFO root fetch - processPackages [pipekit-sdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 11:31:34] INFO root fetch - processPackages [ddadevops]: New version: [4.0.9] Old Version: [4.0.8.dev1]
+[2023-07-13 11:31:34] INFO root fetch - processPackages [puwifi]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-13 11:31:34] INFO root fetch - processPackages [evo]: New version: [1.9.1] Old Version: [1.9]
+[2023-07-13 11:31:34] INFO root fetch - processPackages [dsmlibrary-viz]: Downloading https://files.pythonhosted.org/packages/9b/3d/000d74c33fe95e8646881595dd255a43f00357478489cc14b4de242c2194/dsmlibrary_viz-0.0.4.tar.gz
+[2023-07-13 11:31:34] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-07-13 11:31:34] INFO root fetch - processPackages [evo]: Downloading https://files.pythonhosted.org/packages/fa/e5/ee49f9a9284fdc048d92a81fd7415a0edbfcdfb5cb1a4591bf861ed3ee41/evo-1.9.tar.gz
+[2023-07-13 11:31:34] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/50/31/bd872754199abd349cb0d8332e473238d8fb7fee38d1dd4ec136ff1a84ab/ddadevops-4.0.8.dev1.tar.gz
+[2023-07-13 11:31:34] INFO root fetch - processPackages [sat-toolkit]: Downloading https://files.pythonhosted.org/packages/69/36/2adf6d650417f9681aa70b7ab218f1711ab2cf516246dd0adfe828f4f385/sat-toolkit-0.1.2.tar.gz
+[2023-07-13 11:31:34] INFO root fetch - processPackages [gender-detection-local]: Downloading https://files.pythonhosted.org/packages/2c/df/9a06627ef0421ff557bef1772bf934e81a2a65d9bb8d0c0ad82e9d97ccf2/gender-detection-local-0.0.6.tar.gz
+[2023-07-13 11:31:34] INFO root fetch - processPackages [pipekit-sdk]: Downloading https://files.pythonhosted.org/packages/fd/3d/cebcf959514b4bbb499e5a8c076f87c43b3923d3438224650480a720487f/pipekit_sdk-0.0.1.tar.gz
+[2023-07-13 11:31:34] INFO root fetch - processPackages [zen-engine]: Downloading https://files.pythonhosted.org/packages/fb/8b/24ee84f88766f1d947a54e9c439842e186c253bfa4dca8d95080466c83b5/zen_engine-0.6.1.tar.gz
+[2023-07-13 11:31:35] INFO root fetch - processPackages [puwifi]: Downloading https://files.pythonhosted.org/packages/27/5e/e69d9741baad0801fb3360c6f01835355cac21f56360abac311c3f2558b2/puwifi-1.0.3.tar.gz
+[2023-07-13 11:31:35] INFO root fetch - processPackages [dsmlibrary-viz]: Downloading https://files.pythonhosted.org/packages/2f/ed/28ecd117e72e059bbd51e9651d4085aa0795ad0da38749624a53d3bdb9b8/dsmlibrary_viz-0.0.5.tar.gz
+[2023-07-13 11:31:35] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-07-13 11:31:35] INFO root fetch - processPackages [evo]: Downloading https://files.pythonhosted.org/packages/a2/43/5be79fe2d4ceac3509b0eabb311aa1a37ae30e1bf2a0267346548575c189/evo-1.9.1.tar.gz
+[2023-07-13 11:31:35] INFO root fetch - processPackages [dsmlibrary-viz]: executing diffoscope
+[2023-07-13 11:31:35] INFO root fetch - processPackages [dsmlibrary-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsmlibrary_viz-0.0.4.tar.gz tmp/dsmlibrary_viz-0.0.5.tar.gz --markdown 20230713/d/dsmlibrary-viz/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-13 11:31:35] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/b7/86/883745ce4b39c3406ebec6269e63d99ab7400df2b79af3749014b70e2a7d/ddadevops-4.0.9.tar.gz
+[2023-07-13 11:31:35] INFO root fetch - processPackages [pipekit-sdk]: Downloading https://files.pythonhosted.org/packages/60/b2/b750a96056726256189a4d48a7354edc2fff58ae00445885b093e7e3b286/pipekit_sdk-0.0.2.tar.gz
+[2023-07-13 11:31:35] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-07-13 11:31:35] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.8.dev1.tar.gz tmp/ddadevops-4.0.9.tar.gz --markdown 20230713/d/ddadevops/4.0.8.dev1-4.0.9/diff.md --exclude *.pyd
+[2023-07-13 11:31:35] INFO root fetch - processPackages [evo]: executing diffoscope
+[2023-07-13 11:31:35] INFO root fetch - processPackages [evo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo-1.9.tar.gz tmp/evo-1.9.1.tar.gz --markdown 20230713/e/evo/1.9-1.9.1/diff.md --exclude *.pyd
+[2023-07-13 11:31:35] INFO root fetch - processPackages [pipekit-sdk]: executing diffoscope
+[2023-07-13 11:31:35] INFO root fetch - processPackages [pipekit-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipekit_sdk-0.0.1.tar.gz tmp/pipekit_sdk-0.0.2.tar.gz --markdown 20230713/p/pipekit-sdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 11:31:35] INFO root fetch - processPackages [zen-engine]: Downloading https://files.pythonhosted.org/packages/53/08/366cb0cf84f0966013ca14fb4b731e155e74a24f278760facba2ae134303/zen_engine-0.7.0.tar.gz
+[2023-07-13 11:31:35] INFO root fetch - processPackages [sat-toolkit]: Downloading https://files.pythonhosted.org/packages/ec/c2/7e4890d6178009f8496c98b9630b0a84013bb9ef56fcfb4305c792707bc7/sat-toolkit-0.2.0.tar.gz
+[2023-07-13 11:31:35] INFO root fetch - processPackages [puwifi]: Downloading https://files.pythonhosted.org/packages/5c/d2/9209e0b2ffc2b86c34b8182f757f6ba4f9b1a41467590d0c5eb23c380034/puwifi-1.0.4.tar.gz
+[2023-07-13 11:31:35] INFO root fetch - processPackages [sat-toolkit]: executing diffoscope
+[2023-07-13 11:31:35] INFO root fetch - processPackages [sat-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sat-toolkit-0.1.2.tar.gz tmp/sat-toolkit-0.2.0.tar.gz --markdown 20230713/s/sat-toolkit/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-13 11:31:35] INFO root fetch - processPackages [puwifi]: executing diffoscope
+[2023-07-13 11:31:35] INFO root fetch - processPackages [puwifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/puwifi-1.0.3.tar.gz tmp/puwifi-1.0.4.tar.gz --markdown 20230713/p/puwifi/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-13 11:31:35] INFO root fetch - processPackages [zen-engine]: executing diffoscope
+[2023-07-13 11:31:35] INFO root fetch - processPackages [zen-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zen_engine-0.6.1.tar.gz tmp/zen_engine-0.7.0.tar.gz --markdown 20230713/z/zen-engine/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-07-13 11:31:36] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-07-13 11:31:36] INFO root fetch - processPackages [gender-detection-local]: Downloading https://files.pythonhosted.org/packages/31/d1/cb2a782b23ac1c8edc6e556de18bb2e55030a7e11301cebe1994a1d07374/gender-detection-local-0.0.7.tar.gz
+[2023-07-13 11:31:36] INFO root fetch - processPackages [gender-detection-local]: executing diffoscope
+[2023-07-13 11:31:36] INFO root fetch - processPackages [gender-detection-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gender-detection-local-0.0.6.tar.gz tmp/gender-detection-local-0.0.7.tar.gz --markdown 20230713/g/gender-detection-local/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-13 11:31:36] INFO root fetch - processPackages [dsmlibrary-viz]: Remove: archive file [/home/abi/fetcher/tmp/dsmlibrary_viz-0.0.4.tar.gz]
+[2023-07-13 11:31:36] INFO root fetch - processPackages [dsmlibrary-viz]: Remove: archive file [/home/abi/fetcher/tmp/dsmlibrary_viz-0.0.5.tar.gz]
+[2023-07-13 11:31:36] INFO root fetch - main [MainThread]: End processing [dsmlibrary-viz]: success
+[2023-07-13 11:31:37] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-07-13 11:31:37] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230713/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-07-13 11:31:37] INFO root fetch - processPackages [pipekit-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pipekit_sdk-0.0.1.tar.gz]
+[2023-07-13 11:31:37] INFO root fetch - processPackages [pipekit-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pipekit_sdk-0.0.2.tar.gz]
+[2023-07-13 11:31:37] INFO root fetch - main [MainThread]: End processing [pipekit-sdk]: success
+[2023-07-13 11:31:37] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.0.8.dev1.tar.gz]
+[2023-07-13 11:31:37] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.0.9.tar.gz]
+[2023-07-13 11:31:37] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-07-13 11:31:37] INFO root fetch - processPackages [puwifi]: Remove: archive file [/home/abi/fetcher/tmp/puwifi-1.0.3.tar.gz]
+[2023-07-13 11:31:37] INFO root fetch - processPackages [puwifi]: Remove: archive file [/home/abi/fetcher/tmp/puwifi-1.0.4.tar.gz]
+[2023-07-13 11:31:37] INFO root fetch - main [MainThread]: End processing [puwifi]: success
+[2023-07-13 11:31:37] INFO root fetch - processPackages [evo]: Remove: archive file [/home/abi/fetcher/tmp/evo-1.9.tar.gz]
+[2023-07-13 11:31:37] INFO root fetch - processPackages [evo]: Remove: archive file [/home/abi/fetcher/tmp/evo-1.9.1.tar.gz]
+[2023-07-13 11:31:37] INFO root fetch - main [MainThread]: End processing [evo]: success
+[2023-07-13 11:31:37] INFO root fetch - processPackages [sat-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/sat-toolkit-0.1.2.tar.gz]
+[2023-07-13 11:31:37] INFO root fetch - processPackages [sat-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/sat-toolkit-0.2.0.tar.gz]
+[2023-07-13 11:31:37] INFO root fetch - main [MainThread]: End processing [sat-toolkit]: success
+[2023-07-13 11:31:38] INFO root fetch - processPackages [zen-engine]: Remove: archive file [/home/abi/fetcher/tmp/zen_engine-0.6.1.tar.gz]
+[2023-07-13 11:31:38] INFO root fetch - processPackages [zen-engine]: Remove: archive file [/home/abi/fetcher/tmp/zen_engine-0.7.0.tar.gz]
+[2023-07-13 11:31:38] INFO root fetch - main [MainThread]: End processing [zen-engine]: success
+[2023-07-13 11:31:38] INFO root fetch - processPackages [gender-detection-local]: Remove: archive file [/home/abi/fetcher/tmp/gender-detection-local-0.0.6.tar.gz]
+[2023-07-13 11:31:38] INFO root fetch - processPackages [gender-detection-local]: Remove: archive file [/home/abi/fetcher/tmp/gender-detection-local-0.0.7.tar.gz]
+[2023-07-13 11:31:38] INFO root fetch - main [MainThread]: End processing [gender-detection-local]: success
+[2023-07-13 11:31:39] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-07-13 11:31:39] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-07-13 11:31:39] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-07-13 11:31:39] INFO root fetch - main [MainThread]: Store serial: [18872581]
