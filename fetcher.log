@@ -7804,3 +7804,118 @@
 [2023-07-13 05:14:58] INFO root fetch - processPackages [unqlite]: Remove: archive file [/home/abi/fetcher/tmp/unqlite-0.9.4.tar.gz]
 [2023-07-13 05:14:58] INFO root fetch - main [MainThread]: End processing [unqlite]: success
 [2023-07-13 05:14:58] INFO root fetch - main [MainThread]: Store serial: [18869321]
+[2023-07-13 05:20:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18869321]
+[2023-07-13 05:20:08] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-13 05:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-sdk
+[2023-07-13 05:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fedml
+[2023-07-13 05:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-energyexpertexternal20220923-py2
+[2023-07-13 05:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-sdk-preview
+[2023-07-13 05:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-energyexpertexternal20220923
+[2023-07-13 05:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: f5project
+[2023-07-13 05:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gdocsync
+[2023-07-13 05:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xgo-pythonlib
+[2023-07-13 05:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fleks
+[2023-07-13 05:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sshg
+[2023-07-13 05:20:09] WARNING root fetch - processPackages [alibabacloud-energyexpertexternal20220923]: Skipping, unable to determine old version
+[2023-07-13 05:20:09] INFO root fetch - processPackages [alibabacloud-energyexpertexternal20220923]: Start processing: zhu
+[2023-07-13 05:20:09] INFO root fetch - main [MainThread]: End processing [alibabacloud-energyexpertexternal20220923] error
+[2023-07-13 05:20:09] INFO root fetch - processPackages [sshg]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-13 05:20:09] INFO root fetch - processPackages [f5project]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 05:20:09] INFO root fetch - processPackages [xgo-pythonlib]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-13 05:20:09] WARNING root fetch - processPackages [alibabacloud-energyexpertexternal20220923-py2]: Skipping, unable to determine old version
+[2023-07-13 05:20:09] INFO root fetch - processPackages [alibabacloud-energyexpertexternal20220923-py2]: Start processing: f5project
+[2023-07-13 05:20:09] INFO root fetch - main [MainThread]: End processing [alibabacloud-energyexpertexternal20220923-py2] error
+[2023-07-13 05:20:09] INFO root fetch - processPackages [gdocsync]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-13 05:20:09] INFO root fetch - processPackages [fleks]: New version: [2023.7.13.3.16] Old Version: [2023.7.13.2.21]
+[2023-07-13 05:20:09] INFO root fetch - processPackages [zhu]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 05:20:09] INFO root fetch - processPackages [fedml]: New version: [0.8.6a3] Old Version: [0.8.6a2]
+[2023-07-13 05:20:09] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-07-13 05:20:09] INFO root fetch - processPackages [f5project]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 05:20:09] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-07-13 05:20:09] INFO root fetch - processPackages [f5project]: Downloading https://files.pythonhosted.org/packages/8a/ce/a2b802cb0a7a9a64f0d88b731fcc7ca0f5ca928115bac89d8656a17f8854/f5project-0.0.8.tar.gz
+[2023-07-13 05:20:09] INFO root fetch - processPackages [fleks]: Downloading https://files.pythonhosted.org/packages/14/18/fea7c6350a3a8367e131b83af96299cf1ab1cf9326925586705e348c8f82/fleks-2023.7.13.2.21.tar.gz
+[2023-07-13 05:20:09] INFO root fetch - processPackages [f5project]: Downloading https://files.pythonhosted.org/packages/8a/ce/a2b802cb0a7a9a64f0d88b731fcc7ca0f5ca928115bac89d8656a17f8854/f5project-0.0.8.tar.gz
+[2023-07-13 05:20:09] INFO root fetch - processPackages [sshg]: Downloading https://files.pythonhosted.org/packages/01/b5/58b91fcdb2b93c99ac96c5f414d95ec943df51c1dc6de878f0652eb4c8aa/sshg-0.1.4.tar.gz
+[2023-07-13 05:20:09] INFO root fetch - processPackages [zhu]: Downloading https://files.pythonhosted.org/packages/a7/8b/1917e33ce783250dc5a11c04436af8de388815bbb481911176bb6c2f56e6/zhu-0.0.1.tar.gz
+[2023-07-13 05:20:09] INFO root fetch - processPackages [xgo-pythonlib]: Downloading https://files.pythonhosted.org/packages/c7/5c/984696f3bd0643cc115bfebeefaa8711b9a06d1004527e81d8218394c7a3/xgo-pythonlib-0.2.3.tar.gz
+[2023-07-13 05:20:09] INFO root fetch - processPackages [gdocsync]: Downloading https://files.pythonhosted.org/packages/81/d8/db0e2fd5b760303265c2b5afd92319e64d23fe6a352e8d98c13357dbcf69/gdocsync-0.0.3.tar.gz
+[2023-07-13 05:20:09] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/4f/82/324d0d276f769f49b0f3fcaff7c1329bf11943e94e96a91dc0d3a5ee8907/fedml-0.8.6a2.tar.gz
+[2023-07-13 05:20:09] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-07-13 05:20:09] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-07-13 05:20:10] INFO root fetch - processPackages [f5project]: Downloading https://files.pythonhosted.org/packages/e8/2f/220c8e52debbe80fc55bf5ede9dfa7c496cdf95165ba8f9486f38aca2c5e/f5project-0.0.9.tar.gz
+[2023-07-13 05:20:10] INFO root fetch - processPackages [f5project]: Downloading https://files.pythonhosted.org/packages/e8/2f/220c8e52debbe80fc55bf5ede9dfa7c496cdf95165ba8f9486f38aca2c5e/f5project-0.0.9.tar.gz
+[2023-07-13 05:20:10] INFO root fetch - processPackages [fleks]: Downloading https://files.pythonhosted.org/packages/2a/0d/f938b9a6c655e6b23f8363d14d56f544134aac1b88601fda68fec47da90b/fleks-2023.7.13.3.16.tar.gz
+[2023-07-13 05:20:10] INFO root fetch - processPackages [zhu]: Downloading https://files.pythonhosted.org/packages/97/a8/fcdff2fe80f8ea9b1d2b9185e9839358551684718f15e44701704dd51460/zhu-0.0.2.tar.gz
+[2023-07-13 05:20:10] INFO root fetch - processPackages [sshg]: Downloading https://files.pythonhosted.org/packages/23/fe/0fc446ff56d3380739a0b6507c19cfc302b232e1cc9978054277f74d0737/sshg-0.1.5.tar.gz
+[2023-07-13 05:20:10] INFO root fetch - processPackages [f5project]: executing diffoscope
+[2023-07-13 05:20:10] INFO root fetch - processPackages [f5project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f5project-0.0.8.tar.gz tmp/f5project-0.0.9.tar.gz --markdown 20230713/f/f5project/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 05:20:10] INFO root fetch - processPackages [xgo-pythonlib]: Downloading https://files.pythonhosted.org/packages/b8/60/7ddb1db6e647b2451df0481036b52af3241ed6febe3c1a7eae179012d71c/xgo-pythonlib-0.2.4.tar.gz
+[2023-07-13 05:20:10] INFO root fetch - processPackages [gdocsync]: Downloading https://files.pythonhosted.org/packages/cd/23/635d29f6338ebffac896ec9ef6833bb8d8c98bf2854c1e508a716eea0c04/gdocsync-0.0.4.tar.gz
+[2023-07-13 05:20:10] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/73/88/de5e0cc5f80fbd063f0133678585c33601999b00b368d3a90048f7a52772/fedml-0.8.6a3.tar.gz
+[2023-07-13 05:20:10] INFO root fetch - processPackages [f5project]: executing diffoscope
+[2023-07-13 05:20:10] INFO root fetch - processPackages [f5project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f5project-0.0.8.tar.gz tmp/f5project-0.0.9.tar.gz --markdown 20230713/f/f5project/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 05:20:10] INFO root fetch - processPackages [fleks]: executing diffoscope
+[2023-07-13 05:20:10] INFO root fetch - processPackages [fleks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fleks-2023.7.13.2.21.tar.gz tmp/fleks-2023.7.13.3.16.tar.gz --markdown 20230713/f/fleks/2023.7.13.2.21-2023.7.13.3.16/diff.md --exclude *.pyd
+[2023-07-13 05:20:10] INFO root fetch - processPackages [zhu]: executing diffoscope
+[2023-07-13 05:20:10] INFO root fetch - processPackages [zhu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhu-0.0.1.tar.gz tmp/zhu-0.0.2.tar.gz --markdown 20230713/z/zhu/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 05:20:10] INFO root fetch - processPackages [gdocsync]: executing diffoscope
+[2023-07-13 05:20:10] INFO root fetch - processPackages [gdocsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdocsync-0.0.3.tar.gz tmp/gdocsync-0.0.4.tar.gz --markdown 20230713/g/gdocsync/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-13 05:20:10] INFO root fetch - processPackages [sshg]: executing diffoscope
+[2023-07-13 05:20:10] INFO root fetch - processPackages [sshg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sshg-0.1.4.tar.gz tmp/sshg-0.1.5.tar.gz --markdown 20230713/s/sshg/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-13 05:20:10] INFO root fetch - processPackages [xgo-pythonlib]: executing diffoscope
+[2023-07-13 05:20:10] INFO root fetch - processPackages [xgo-pythonlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xgo-pythonlib-0.2.3.tar.gz tmp/xgo-pythonlib-0.2.4.tar.gz --markdown 20230713/x/xgo-pythonlib/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-13 05:20:10] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-07-13 05:20:10] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-07-13 05:20:10] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-07-13 05:20:10] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.6a2.tar.gz tmp/fedml-0.8.6a3.tar.gz --markdown 20230713/f/fedml/0.8.6a2-0.8.6a3/diff.md --exclude *.pyd
+[2023-07-13 05:20:10] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-07-13 05:20:10] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230713/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-07-13 05:20:10] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-07-13 05:20:10] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230713/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-07-13 05:20:12] INFO root fetch - processPackages [f5project]: Remove: archive file [/home/abi/fetcher/tmp/f5project-0.0.8.tar.gz]
+[2023-07-13 05:20:12] INFO root fetch - processPackages [f5project]: Remove: archive file [/home/abi/fetcher/tmp/f5project-0.0.9.tar.gz]
+[2023-07-13 05:20:12] INFO root fetch - processPackages [f5project]: Start processing: niche-cv
+[2023-07-13 05:20:12] INFO root fetch - main [MainThread]: End processing [f5project]: success
+[2023-07-13 05:20:12] INFO root fetch - processPackages [f5project]: Start processing: robotslacker-testcli
+[2023-07-13 05:20:12] INFO root fetch - main [MainThread]: End processing [f5project]: success
+[2023-07-13 05:20:12] INFO root fetch - processPackages [niche-cv]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 05:20:12] INFO root fetch - processPackages [robotslacker-testcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 05:20:12] INFO root fetch - processPackages [zhu]: Remove: archive file [/home/abi/fetcher/tmp/zhu-0.0.1.tar.gz]
+[2023-07-13 05:20:12] INFO root fetch - processPackages [zhu]: Remove: archive file [/home/abi/fetcher/tmp/zhu-0.0.2.tar.gz]
+[2023-07-13 05:20:12] INFO root fetch - main [MainThread]: End processing [zhu]: success
+[2023-07-13 05:20:13] INFO root fetch - processPackages [niche-cv]: Downloading https://files.pythonhosted.org/packages/49/26/3dc7d945a64f5f813ef7710ec8ecaf35a566d15bf4fde6fc518769ac61e2/niche_cv-0.0.1.tar.gz
+[2023-07-13 05:20:13] INFO root fetch - processPackages [fleks]: Remove: archive file [/home/abi/fetcher/tmp/fleks-2023.7.13.2.21.tar.gz]
+[2023-07-13 05:20:13] INFO root fetch - processPackages [fleks]: Remove: archive file [/home/abi/fetcher/tmp/fleks-2023.7.13.3.16.tar.gz]
+[2023-07-13 05:20:13] INFO root fetch - main [MainThread]: End processing [fleks]: success
+[2023-07-13 05:20:13] INFO root fetch - processPackages [robotslacker-testcli]: Downloading https://files.pythonhosted.org/packages/57/71/45cf11c2c66e7969006d17b79832678705ed38a0df644acf7ca1110f208b/robotslacker-testcli-0.0.8.tar.gz
+[2023-07-13 05:20:13] INFO root fetch - processPackages [sshg]: Remove: archive file [/home/abi/fetcher/tmp/sshg-0.1.4.tar.gz]
+[2023-07-13 05:20:13] INFO root fetch - processPackages [sshg]: Remove: archive file [/home/abi/fetcher/tmp/sshg-0.1.5.tar.gz]
+[2023-07-13 05:20:13] INFO root fetch - main [MainThread]: End processing [sshg]: success
+[2023-07-13 05:20:13] INFO root fetch - processPackages [xgo-pythonlib]: Remove: archive file [/home/abi/fetcher/tmp/xgo-pythonlib-0.2.3.tar.gz]
+[2023-07-13 05:20:13] INFO root fetch - processPackages [xgo-pythonlib]: Remove: archive file [/home/abi/fetcher/tmp/xgo-pythonlib-0.2.4.tar.gz]
+[2023-07-13 05:20:13] INFO root fetch - main [MainThread]: End processing [xgo-pythonlib]: success
+[2023-07-13 05:20:13] INFO root fetch - processPackages [gdocsync]: Remove: archive file [/home/abi/fetcher/tmp/gdocsync-0.0.3.tar.gz]
+[2023-07-13 05:20:13] INFO root fetch - processPackages [gdocsync]: Remove: archive file [/home/abi/fetcher/tmp/gdocsync-0.0.4.tar.gz]
+[2023-07-13 05:20:13] INFO root fetch - main [MainThread]: End processing [gdocsync]: success
+[2023-07-13 05:20:13] INFO root fetch - processPackages [niche-cv]: Downloading https://files.pythonhosted.org/packages/7b/56/f95d0aaef4e8ddc19caa107f0a76d617034b538b56bea473fa79a9628e96/niche_cv-0.0.2.tar.gz
+[2023-07-13 05:20:13] INFO root fetch - processPackages [niche-cv]: executing diffoscope
+[2023-07-13 05:20:13] INFO root fetch - processPackages [niche-cv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niche_cv-0.0.1.tar.gz tmp/niche_cv-0.0.2.tar.gz --markdown 20230713/n/niche-cv/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 05:20:13] INFO root fetch - processPackages [robotslacker-testcli]: Downloading https://files.pythonhosted.org/packages/49/c7/4e9f25562dae606566643edd46e0c7fdfcb015dd742780c7eeb381d4ae43/robotslacker-testcli-0.0.9.tar.gz
+[2023-07-13 05:20:14] INFO root fetch - processPackages [robotslacker-testcli]: executing diffoscope
+[2023-07-13 05:20:14] INFO root fetch - processPackages [robotslacker-testcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotslacker-testcli-0.0.8.tar.gz tmp/robotslacker-testcli-0.0.9.tar.gz --markdown 20230713/r/robotslacker-testcli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 05:20:15] INFO root fetch - processPackages [niche-cv]: Remove: archive file [/home/abi/fetcher/tmp/niche_cv-0.0.1.tar.gz]
+[2023-07-13 05:20:15] INFO root fetch - processPackages [niche-cv]: Remove: archive file [/home/abi/fetcher/tmp/niche_cv-0.0.2.tar.gz]
+[2023-07-13 05:20:15] INFO root fetch - main [MainThread]: End processing [niche-cv]: success
+[2023-07-13 05:20:17] INFO root fetch - processPackages [robotslacker-testcli]: Remove: archive file [/home/abi/fetcher/tmp/robotslacker-testcli-0.0.8.tar.gz]
+[2023-07-13 05:20:17] INFO root fetch - processPackages [robotslacker-testcli]: Remove: archive file [/home/abi/fetcher/tmp/robotslacker-testcli-0.0.9.tar.gz]
+[2023-07-13 05:20:17] INFO root fetch - main [MainThread]: End processing [robotslacker-testcli]: success
+[2023-07-13 05:20:20] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.6a2.tar.gz]
+[2023-07-13 05:20:20] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.6a3.tar.gz]
+[2023-07-13 05:20:20] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-07-13 05:20:26] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.91.tar.gz]
+[2023-07-13 05:20:26] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
+[2023-07-13 05:20:26] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-07-13 05:20:32] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.91.tar.gz]
+[2023-07-13 05:20:32] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
+[2023-07-13 05:20:32] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-07-13 05:20:32] INFO root fetch - main [MainThread]: Store serial: [18869367]
