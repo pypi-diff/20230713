@@ -21686,3 +21686,187 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 14:29:09] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
 [2023-07-13 14:29:09] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
 [2023-07-13 14:29:09] INFO root fetch - main [MainThread]: Store serial: [18874570]
+[2023-07-13 14:34:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18874570]
+[2023-07-13 14:34:19] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-13 14:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-query-inspector
+[2023-07-13 14:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: assisted-service-client
+[2023-07-13 14:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lino-react
+[2023-07-13 14:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysros
+[2023-07-13 14:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qsi-tk
+[2023-07-13 14:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PythonAPIClientBase
+[2023-07-13 14:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: siat
+[2023-07-13 14:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chaostoolkit-reliably
+[2023-07-13 14:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: few-shot-priming
+[2023-07-13 14:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: shtns
+[2023-07-13 14:34:19] INFO root fetch - processPackages [django-query-inspector]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-13 14:34:19] INFO root fetch - processPackages [PythonAPIClientBase]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-13 14:34:19] INFO root fetch - processPackages [lino-react]: New version: [23.7.1] Old Version: [23.7.0]
+[2023-07-13 14:34:19] INFO root fetch - processPackages [shtns]: New version: [3.6.1] Old Version: [2.6.5]
+[2023-07-13 14:34:19] INFO root fetch - processPackages [pysros]: New version: [23.7.1] Old Version: [23.3.3]
+[2023-07-13 14:34:19] INFO root fetch - processPackages [qsi-tk]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-13 14:34:19] INFO root fetch - processPackages [chaostoolkit-reliably]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-13 14:34:19] INFO root fetch - processPackages [siat]: New version: [2.3.6] Old Version: [2.3.1]
+[2023-07-13 14:34:19] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-13 14:34:19] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-07-13 14:34:19] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/3a/c9/60267afcf70d618a5b218d9afd5f7f4057e9affcc2f6808bd20518d9cb6f/siat-2.3.1-py3-none-any.whl
+[2023-07-13 14:34:19] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-13 14:34:19] INFO root fetch - processPackages [qsi-tk]: Downloading https://files.pythonhosted.org/packages/99/64/19eb3333f67bca0f7adbb1fa83199b49d74a52e163456b0c568fd2188022/qsi_tk-1.0.2-py3-none-any.whl
+[2023-07-13 14:34:19] WARNING root fetch - processPackages [shtns]: fallback to get urls: [2.6.5]
+[2023-07-13 14:34:19] INFO root fetch - processPackages [django-query-inspector]: Downloading https://files.pythonhosted.org/packages/88/95/b25530ffd4dc35299acbaf2579f2ddee4150d98d2908320f5540c716c5c7/django_query_inspector-1.2.0-py2.py3-none-any.whl
+[2023-07-13 14:34:19] INFO root fetch - processPackages [lino-react]: Downloading https://files.pythonhosted.org/packages/47/98/b8f181536ba0ac182a5ed3bb4cce45fcc180658b940dfac85a092c1d6dae/lino_react-23.7.0.tar.gz
+[2023-07-13 14:34:19] INFO root fetch - processPackages [PythonAPIClientBase]: Downloading https://files.pythonhosted.org/packages/c1/04/017343cc4e64fb0f9372b0620ec0902d6d8a4b807e12368f41379bbbc5ec/PythonAPIClientBase-0.0.7.tar.gz
+[2023-07-13 14:34:20] INFO root fetch - processPackages [pysros]: Downloading https://files.pythonhosted.org/packages/95/ab/a9b08018892123a3466a427721900cace167d6ab74d583ce6477c30a0066/pysros-23.3.3.tar.gz
+[2023-07-13 14:34:20] WARNING root fetch - processPackages [shtns]: None
+[2023-07-13 14:34:20] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-07-13 14:34:20] WARNING root fetch - processPackages [qsi-tk]: Skipping package: exceeds size limit 58510670>=10485760
+[2023-07-13 14:34:20] INFO root fetch - processPackages [qsi-tk]: Start processing: EllucianEthosPythonClient
+[2023-07-13 14:34:20] INFO root fetch - main [MainThread]: End processing [qsi-tk] error
+[2023-07-13 14:34:20] INFO root fetch - processPackages [chaostoolkit-reliably]: Downloading https://files.pythonhosted.org/packages/32/df/58422a4f470f2c9c9d486c7b83bf6c238d72841a2ae64f0b7c88350a6b01/chaostoolkit-reliably-0.9.3.tar.gz
+[2023-07-13 14:34:20] WARNING root fetch - processPackages [shtns]: None
+[2023-07-13 14:34:20] INFO root fetch - processPackages [EllucianEthosPythonClient]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-13 14:34:20] WARNING root fetch - processPackages [shtns]: unable to get url for both version [2.6.5]
+[2023-07-13 14:34:20] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-13 14:34:20] WARNING root fetch - processPackages [shtns]: None
+[2023-07-13 14:34:20] INFO root fetch - processPackages [shtns]: Start processing: ogc-na
+[2023-07-13 14:34:20] INFO root fetch - main [MainThread]: End processing [shtns] error
+[2023-07-13 14:34:20] INFO root fetch - processPackages [EllucianEthosPythonClient]: Downloading https://files.pythonhosted.org/packages/06/ef/178af4ebf1b05cb1e0124cc460a242e9bf988f50342c8179357be852f736/EllucianEthosPythonClient-0.2.8.tar.gz
+[2023-07-13 14:34:20] INFO root fetch - processPackages [django-query-inspector]: Downloading https://files.pythonhosted.org/packages/f0/95/f47ed38ec9d0f74c5dfaa5981f950a00eec70741c44c0e4084a5faa0aeaa/django_query_inspector-1.2.1-py2.py3-none-any.whl
+[2023-07-13 14:34:20] INFO root fetch - processPackages [ogc-na]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-13 14:34:20] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/06/97/d36e27c54f4d5dc3f831fce529676d0c953a30bfdf80ce56a7748be911b1/siat-2.3.6-py3-none-any.whl
+[2023-07-13 14:34:20] INFO root fetch - processPackages [PythonAPIClientBase]: Downloading https://files.pythonhosted.org/packages/ef/ba/6617cfb04964b90f5793051a09b1d279017192746314213bdd59f3bb4936/PythonAPIClientBase-0.0.8.tar.gz
+[2023-07-13 14:34:20] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-13 14:34:20] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230713/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-13 14:34:20] INFO root fetch - processPackages [lino-react]: Downloading https://files.pythonhosted.org/packages/97/3b/9227e095d80416a67983cca93bc333df25ebbe51dc509ff990aa07d0d713/lino_react-23.7.1.tar.gz
+[2023-07-13 14:34:20] INFO root fetch - processPackages [django-query-inspector]: executing diffoscope
+[2023-07-13 14:34:20] INFO root fetch - processPackages [django-query-inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_query_inspector-1.2.0-py2.py3-none-any.whl.zip tmp/django_query_inspector-1.2.1-py2.py3-none-any.whl.zip --markdown 20230713/d/django-query-inspector/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-13 14:34:20] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/45/30/ec89de2a81ce8ab4403f353f3dbda1452e03728f6f9f36dfa39987cd9fc1/ogc_na-0.3.1.tar.gz
+[2023-07-13 14:34:20] INFO root fetch - processPackages [pysros]: Downloading https://files.pythonhosted.org/packages/87/a6/58ef4d4b157a6afb2415e37d1bb262e8649dc1cea3ca4c1a7c614cbda856/pysros-23.7.1.tar.gz
+[2023-07-13 14:34:20] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-07-13 14:34:20] INFO root fetch - processPackages [PythonAPIClientBase]: executing diffoscope
+[2023-07-13 14:34:20] INFO root fetch - processPackages [PythonAPIClientBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonAPIClientBase-0.0.7.tar.gz tmp/PythonAPIClientBase-0.0.8.tar.gz --markdown 20230713/P/PythonAPIClientBase/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-13 14:34:20] INFO root fetch - processPackages [siat]: executing diffoscope
+[2023-07-13 14:34:20] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-2.3.1-py3-none-any.whl.zip tmp/siat-2.3.6-py3-none-any.whl.zip --markdown 20230713/s/siat/2.3.1-2.3.6/diff.md --exclude *.pyd
+[2023-07-13 14:34:20] INFO root fetch - processPackages [chaostoolkit-reliably]: Downloading https://files.pythonhosted.org/packages/b8/c5/810c74691ec477bb4963d5199f379e4a81d6cce5b71db42bc848f3477e16/chaostoolkit-reliably-0.9.4.tar.gz
+[2023-07-13 14:34:20] INFO root fetch - processPackages [lino-react]: executing diffoscope
+[2023-07-13 14:34:20] INFO root fetch - processPackages [lino-react]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino_react-23.7.0.tar.gz tmp/lino_react-23.7.1.tar.gz --markdown 20230713/l/lino-react/23.7.0-23.7.1/diff.md --exclude *.pyd
+[2023-07-13 14:34:20] INFO root fetch - processPackages [pysros]: executing diffoscope
+[2023-07-13 14:34:20] INFO root fetch - processPackages [pysros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysros-23.3.3.tar.gz tmp/pysros-23.7.1.tar.gz --markdown 20230713/p/pysros/23.3.3-23.7.1/diff.md --exclude *.pyd
+[2023-07-13 14:34:20] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-07-13 14:34:20] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230713/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-07-13 14:34:20] INFO root fetch - processPackages [EllucianEthosPythonClient]: Downloading https://files.pythonhosted.org/packages/65/35/951f1fb0fb5d4dbbca2d9a93bdfaaaa59ed44610e76fe197020732f5b1cd/EllucianEthosPythonClient-0.2.9.tar.gz
+[2023-07-13 14:34:21] INFO root fetch - processPackages [chaostoolkit-reliably]: executing diffoscope
+[2023-07-13 14:34:21] INFO root fetch - processPackages [chaostoolkit-reliably]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-reliably-0.9.3.tar.gz tmp/chaostoolkit-reliably-0.9.4.tar.gz --markdown 20230713/c/chaostoolkit-reliably/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-13 14:34:21] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/18/2a/de74fe96a788b1e5db161889147f3dbd820325bdba01464965b270f6dc07/ogc_na-0.3.2.tar.gz
+[2023-07-13 14:34:21] INFO root fetch - processPackages [EllucianEthosPythonClient]: executing diffoscope
+[2023-07-13 14:34:21] INFO root fetch - processPackages [EllucianEthosPythonClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EllucianEthosPythonClient-0.2.8.tar.gz tmp/EllucianEthosPythonClient-0.2.9.tar.gz --markdown 20230713/E/EllucianEthosPythonClient/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-13 14:34:21] INFO root fetch - processPackages [ogc-na]: executing diffoscope
+[2023-07-13 14:34:21] INFO root fetch - processPackages [ogc-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogc_na-0.3.1.tar.gz tmp/ogc_na-0.3.2.tar.gz --markdown 20230713/o/ogc-na/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-13 14:34:22] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-13 14:34:22] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-13 14:34:22] INFO root fetch - processPackages [few-shot-priming]: Start processing: openeo-pg-parser-networkx
+[2023-07-13 14:34:22] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-13 14:34:22] INFO root fetch - processPackages [PythonAPIClientBase]: Remove: archive file [/home/abi/fetcher/tmp/PythonAPIClientBase-0.0.7.tar.gz]
+[2023-07-13 14:34:22] INFO root fetch - processPackages [PythonAPIClientBase]: Remove: archive file [/home/abi/fetcher/tmp/PythonAPIClientBase-0.0.8.tar.gz]
+[2023-07-13 14:34:22] INFO root fetch - processPackages [PythonAPIClientBase]: Start processing: autoxx
+[2023-07-13 14:34:22] INFO root fetch - main [MainThread]: End processing [PythonAPIClientBase]: success
+[2023-07-13 14:34:22] INFO root fetch - processPackages [autoxx]: New version: [0.0.40] Old Version: [0.0.39]
+[2023-07-13 14:34:22] INFO root fetch - processPackages [openeo-pg-parser-networkx]: New version: [2023.7.0] Old Version: [2023.5.1]
+[2023-07-13 14:34:22] INFO root fetch - processPackages [django-query-inspector]: Remove: archive file [/home/abi/fetcher/tmp/django_query_inspector-1.2.0-py2.py3-none-any.whl.zip]
+[2023-07-13 14:34:22] INFO root fetch - processPackages [django-query-inspector]: Remove: archive file [/home/abi/fetcher/tmp/django_query_inspector-1.2.1-py2.py3-none-any.whl.zip]
+[2023-07-13 14:34:22] INFO root fetch - processPackages [django-query-inspector]: Start processing: lemonai
+[2023-07-13 14:34:22] INFO root fetch - main [MainThread]: End processing [django-query-inspector]: success
+[2023-07-13 14:34:22] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/f7/7d/86c002fad5e32d4b0ddce54eec9f2e4a85bbb1ee5ade5184e0ab0b0d3be1/autoxx-0.0.39.tar.gz
+[2023-07-13 14:34:22] INFO root fetch - processPackages [lemonai]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-13 14:34:22] INFO root fetch - processPackages [pysros]: Remove: archive file [/home/abi/fetcher/tmp/pysros-23.3.3.tar.gz]
+[2023-07-13 14:34:22] INFO root fetch - processPackages [pysros]: Remove: archive file [/home/abi/fetcher/tmp/pysros-23.7.1.tar.gz]
+[2023-07-13 14:34:22] INFO root fetch - processPackages [pysros]: Start processing: shapelets-platform
+[2023-07-13 14:34:22] INFO root fetch - main [MainThread]: End processing [pysros]: success
+[2023-07-13 14:34:22] INFO root fetch - processPackages [shapelets-platform]: New version: [2.0.87] Old Version: [2.0.86]
+[2023-07-13 14:34:22] INFO root fetch - processPackages [openeo-pg-parser-networkx]: Downloading https://files.pythonhosted.org/packages/6a/13/2e05aa7665568199a50f4a5942db678cb8f65c1e1b592572fb1adcebdee0/openeo_pg_parser_networkx-2023.5.1.tar.gz
+[2023-07-13 14:34:22] INFO root fetch - processPackages [lemonai]: Downloading https://files.pythonhosted.org/packages/13/0a/9a0d703022f086e0ef19b876bab35ee2dc8cab1514d5ede6a5c21635dfd3/lemonai-0.1.0.tar.gz
+[2023-07-13 14:34:22] INFO root fetch - processPackages [chaostoolkit-reliably]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-reliably-0.9.3.tar.gz]
+[2023-07-13 14:34:22] INFO root fetch - processPackages [chaostoolkit-reliably]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-reliably-0.9.4.tar.gz]
+[2023-07-13 14:34:22] INFO root fetch - processPackages [chaostoolkit-reliably]: Start processing: flet-core
+[2023-07-13 14:34:22] INFO root fetch - main [MainThread]: End processing [chaostoolkit-reliably]: success
+[2023-07-13 14:34:22] INFO root fetch - processPackages [shapelets-platform]: Downloading https://files.pythonhosted.org/packages/55/28/f77dd016fdd6405298f565b571f7de9a3f90836e3eabd698a2d180f500fe/shapelets-platform-2.0.86.tar.gz
+[2023-07-13 14:34:22] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.3.1.tar.gz]
+[2023-07-13 14:34:22] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.3.2.tar.gz]
+[2023-07-13 14:34:22] INFO root fetch - processPackages [ogc-na]: Start processing: flet-runtime
+[2023-07-13 14:34:22] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
+[2023-07-13 14:34:22] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/f6/8c/93c8d53226adad9b83ff0d3b20abec0f8b919fc249f1fc1a2611b349b0c1/autoxx-0.0.40.tar.gz
+[2023-07-13 14:34:22] INFO root fetch - processPackages [EllucianEthosPythonClient]: Remove: archive file [/home/abi/fetcher/tmp/EllucianEthosPythonClient-0.2.8.tar.gz]
+[2023-07-13 14:34:22] INFO root fetch - processPackages [EllucianEthosPythonClient]: Remove: archive file [/home/abi/fetcher/tmp/EllucianEthosPythonClient-0.2.9.tar.gz]
+[2023-07-13 14:34:22] INFO root fetch - processPackages [EllucianEthosPythonClient]: Start processing: alibabacloud-ehpc20180412-py2
+[2023-07-13 14:34:22] INFO root fetch - main [MainThread]: End processing [EllucianEthosPythonClient]: success
+[2023-07-13 14:34:22] INFO root fetch - processPackages [flet-core]: New version: [0.9.0.dev1614] Old Version: [0.9.0.dev1606]
+[2023-07-13 14:34:23] INFO root fetch - processPackages [autoxx]: executing diffoscope
+[2023-07-13 14:34:23] INFO root fetch - processPackages [autoxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoxx-0.0.39.tar.gz tmp/autoxx-0.0.40.tar.gz --markdown 20230713/a/autoxx/0.0.39-0.0.40/diff.md --exclude *.pyd
+[2023-07-13 14:34:23] INFO root fetch - processPackages [flet-runtime]: New version: [0.9.0.dev1614] Old Version: [0.9.0.dev1606]
+[2023-07-13 14:34:23] INFO root fetch - processPackages [alibabacloud-ehpc20180412-py2]: New version: [1.14.9] Old Version: [1.14.8]
+[2023-07-13 14:34:23] INFO root fetch - processPackages [openeo-pg-parser-networkx]: Downloading https://files.pythonhosted.org/packages/5c/b7/ce5b3ea57cc10c4995877e0feafa4180899bdbba74ec3d17bcb024dc1a36/openeo_pg_parser_networkx-2023.7.0.tar.gz
+[2023-07-13 14:34:23] INFO root fetch - processPackages [shapelets-platform]: Downloading https://files.pythonhosted.org/packages/b7/e8/ff7b53fb9181db57fd0ac4c22d220ebd8753d00eb8ac53a835666dff48a9/shapelets-platform-2.0.87.tar.gz
+[2023-07-13 14:34:23] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/96/c2/65618798b8d89baa5d467ace7407c5b48784584494c2696075c59d6bd3fd/flet_core-0.9.0.dev1606.tar.gz
+[2023-07-13 14:34:23] INFO root fetch - processPackages [openeo-pg-parser-networkx]: executing diffoscope
+[2023-07-13 14:34:23] INFO root fetch - processPackages [openeo-pg-parser-networkx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openeo_pg_parser_networkx-2023.5.1.tar.gz tmp/openeo_pg_parser_networkx-2023.7.0.tar.gz --markdown 20230713/o/openeo-pg-parser-networkx/2023.5.1-2023.7.0/diff.md --exclude *.pyd
+[2023-07-13 14:34:23] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/15/fe/20a282e228dc22a3a7d9e40896f4d3b9fe189f8712fed4a5d55a21b9b19d/flet_runtime-0.9.0.dev1606.tar.gz
+[2023-07-13 14:34:23] INFO root fetch - processPackages [alibabacloud-ehpc20180412-py2]: Downloading https://files.pythonhosted.org/packages/e6/7d/64e68de885e19ace407e73d7ed672ff517f834ea5e75b0507adc2b498faa/alibabacloud_ehpc20180412_py2-1.14.8.tar.gz
+[2023-07-13 14:34:23] INFO root fetch - processPackages [shapelets-platform]: executing diffoscope
+[2023-07-13 14:34:23] INFO root fetch - processPackages [shapelets-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapelets-platform-2.0.86.tar.gz tmp/shapelets-platform-2.0.87.tar.gz --markdown 20230713/s/shapelets-platform/2.0.86-2.0.87/diff.md --exclude *.pyd
+[2023-07-13 14:34:23] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/a1/2d/fbab11cc5130a137ed2c066a9c6b82eaaa61b9f093b198eef526bdbe116c/flet_core-0.9.0.dev1614-py3-none-any.whl
+[2023-07-13 14:34:23] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.3.1-py3-none-any.whl.zip]
+[2023-07-13 14:34:23] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.3.6-py3-none-any.whl.zip]
+[2023-07-13 14:34:23] INFO root fetch - processPackages [siat]: Start processing: flet-embed
+[2023-07-13 14:34:23] INFO root fetch - main [MainThread]: End processing [siat]: success
+[2023-07-13 14:34:23] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/3d/5e/7ca0ec4c3c9500a45a65d88d2cc6e769fa548d9cbe72188337fae07bcca6/flet_runtime-0.9.0.dev1614-py3-none-any.whl
+[2023-07-13 14:34:23] INFO root fetch - processPackages [flet-embed]: New version: [0.9.0.dev1614] Old Version: [0.9.0.dev1606]
+[2023-07-13 14:34:23] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-07-13 14:34:23] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.9.0.dev1606.tar.gz tmp/flet_core-0.9.0.dev1614-py3-none-any.whl.zip --markdown 20230713/f/flet-core/0.9.0.dev1606-0.9.0.dev1614/diff.md --exclude *.pyd
+[2023-07-13 14:34:23] INFO root fetch - processPackages [alibabacloud-ehpc20180412-py2]: Downloading https://files.pythonhosted.org/packages/ca/55/565ea81b09104c955c79fa2f348c8b484b01cd0d966add24154d88013dd1/alibabacloud_ehpc20180412_py2-1.14.9.tar.gz
+[2023-07-13 14:34:23] INFO root fetch - processPackages [flet-runtime]: executing diffoscope
+[2023-07-13 14:34:23] INFO root fetch - processPackages [flet-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_runtime-0.9.0.dev1606.tar.gz tmp/flet_runtime-0.9.0.dev1614-py3-none-any.whl.zip --markdown 20230713/f/flet-runtime/0.9.0.dev1606-0.9.0.dev1614/diff.md --exclude *.pyd
+[2023-07-13 14:34:24] INFO root fetch - processPackages [lemonai]: Downloading https://files.pythonhosted.org/packages/c0/41/6e91eaa2033f74ad95f90df7da924f239fa4f8cf7243fbb5d1c3971e80f6/lemonai-0.1.1.tar.gz
+[2023-07-13 14:34:24] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-07-13 14:34:24] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-07-13 14:34:24] INFO root fetch - processPackages [alibabacloud-ehpc20180412-py2]: executing diffoscope
+[2023-07-13 14:34:24] INFO root fetch - processPackages [alibabacloud-ehpc20180412-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ehpc20180412_py2-1.14.8.tar.gz tmp/alibabacloud_ehpc20180412_py2-1.14.9.tar.gz --markdown 20230713/a/alibabacloud-ehpc20180412-py2/1.14.8-1.14.9/diff.md --exclude *.pyd
+[2023-07-13 14:34:24] INFO root fetch - processPackages [assisted-service-client]: Start processing: flet
+[2023-07-13 14:34:24] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-07-13 14:34:24] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/ef/c7/5e8ee98c47f795118b5f4ac043f83dc2686e7dc8775e0c83764b02e4766f/flet_embed-0.9.0.dev1606.tar.gz
+[2023-07-13 14:34:24] INFO root fetch - processPackages [autoxx]: Remove: archive file [/home/abi/fetcher/tmp/autoxx-0.0.39.tar.gz]
+[2023-07-13 14:34:24] INFO root fetch - processPackages [autoxx]: Remove: archive file [/home/abi/fetcher/tmp/autoxx-0.0.40.tar.gz]
+[2023-07-13 14:34:24] INFO root fetch - main [MainThread]: End processing [autoxx]: success
+[2023-07-13 14:34:24] INFO root fetch - processPackages [lemonai]: executing diffoscope
+[2023-07-13 14:34:24] INFO root fetch - processPackages [lemonai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lemonai-0.1.0.tar.gz tmp/lemonai-0.1.1.tar.gz --markdown 20230713/l/lemonai/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-13 14:34:24] INFO root fetch - processPackages [openeo-pg-parser-networkx]: Remove: archive file [/home/abi/fetcher/tmp/openeo_pg_parser_networkx-2023.5.1.tar.gz]
+[2023-07-13 14:34:24] INFO root fetch - processPackages [openeo-pg-parser-networkx]: Remove: archive file [/home/abi/fetcher/tmp/openeo_pg_parser_networkx-2023.7.0.tar.gz]
+[2023-07-13 14:34:24] INFO root fetch - main [MainThread]: End processing [openeo-pg-parser-networkx]: success
+[2023-07-13 14:34:24] INFO root fetch - processPackages [flet]: New version: [0.9.0.dev1614] Old Version: [0.9.0.dev1606]
+[2023-07-13 14:34:24] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/b8/57/5acf3c3d9a68f9980f0e98e9176d9ddefa5907d34678721a79d02b2de688/flet_embed-0.9.0.dev1614-py3-none-any.whl
+[2023-07-13 14:34:24] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/54/2d/f0971ac6fae91d2965e7df5c1156cf8300ff8bda609bebe3d609d88149dc/flet-0.9.0.dev1606.tar.gz
+[2023-07-13 14:34:24] INFO root fetch - processPackages [flet-embed]: executing diffoscope
+[2023-07-13 14:34:24] INFO root fetch - processPackages [flet-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_embed-0.9.0.dev1606.tar.gz tmp/flet_embed-0.9.0.dev1614-py3-none-any.whl.zip --markdown 20230713/f/flet-embed/0.9.0.dev1606-0.9.0.dev1614/diff.md --exclude *.pyd
+[2023-07-13 14:34:24] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.9.0.dev1606.tar.gz]
+[2023-07-13 14:34:24] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.9.0.dev1614-py3-none-any.whl.zip]
+[2023-07-13 14:34:24] INFO root fetch - main [MainThread]: End processing [flet-runtime]: success
+[2023-07-13 14:34:25] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1606.tar.gz]
+[2023-07-13 14:34:25] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1614-py3-none-any.whl.zip]
+[2023-07-13 14:34:25] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-07-13 14:34:25] INFO root fetch - processPackages [alibabacloud-ehpc20180412-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ehpc20180412_py2-1.14.8.tar.gz]
+[2023-07-13 14:34:25] INFO root fetch - processPackages [alibabacloud-ehpc20180412-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ehpc20180412_py2-1.14.9.tar.gz]
+[2023-07-13 14:34:25] INFO root fetch - main [MainThread]: End processing [alibabacloud-ehpc20180412-py2]: success
+[2023-07-13 14:34:25] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/7f/6c/0f643ff63b47c1f975acb2590f0aff0ef5aa02a0d695f909d019222b3be2/flet-0.9.0.dev1614-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-13 14:34:25] INFO root fetch - processPackages [lemonai]: Remove: archive file [/home/abi/fetcher/tmp/lemonai-0.1.0.tar.gz]
+[2023-07-13 14:34:25] INFO root fetch - processPackages [lemonai]: Remove: archive file [/home/abi/fetcher/tmp/lemonai-0.1.1.tar.gz]
+[2023-07-13 14:34:25] INFO root fetch - main [MainThread]: End processing [lemonai]: success
+[2023-07-13 14:34:25] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.9.0.dev1606.tar.gz]
+[2023-07-13 14:34:25] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.9.0.dev1614-py3-none-any.whl.zip]
+[2023-07-13 14:34:25] INFO root fetch - main [MainThread]: End processing [flet-embed]: success
+[2023-07-13 14:34:26] WARNING root fetch - processPackages [flet]: Skipping package: exceeds size limit 20685882>=10485760
+[2023-07-13 14:34:26] INFO root fetch - main [MainThread]: End processing [flet] error
+[2023-07-13 14:34:33] INFO root fetch - processPackages [lino-react]: Remove: archive file [/home/abi/fetcher/tmp/lino_react-23.7.0.tar.gz]
+[2023-07-13 14:34:33] INFO root fetch - processPackages [lino-react]: Remove: archive file [/home/abi/fetcher/tmp/lino_react-23.7.1.tar.gz]
+[2023-07-13 14:34:33] INFO root fetch - main [MainThread]: End processing [lino-react]: success
+[2023-07-13 14:35:30] INFO root fetch - processPackages [shapelets-platform]: Remove: archive file [/home/abi/fetcher/tmp/shapelets-platform-2.0.86.tar.gz]
+[2023-07-13 14:35:30] INFO root fetch - processPackages [shapelets-platform]: Remove: archive file [/home/abi/fetcher/tmp/shapelets-platform-2.0.87.tar.gz]
+[2023-07-13 14:35:30] INFO root fetch - main [MainThread]: End processing [shapelets-platform]: success
+[2023-07-13 14:35:30] INFO root fetch - main [MainThread]: Store serial: [18874628]
