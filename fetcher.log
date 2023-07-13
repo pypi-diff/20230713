@@ -12929,3 +12929,121 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 08:57:44] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.9.0.tar.gz]
 [2023-07-13 08:57:44] INFO root fetch - main [MainThread]: End processing [tuxsuite]: success
 [2023-07-13 08:57:44] INFO root fetch - main [MainThread]: Store serial: [18871149]
+[2023-07-13 09:02:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18871149]
+[2023-07-13 09:02:54] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-13 09:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: terminal-manager
+[2023-07-13 09:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cjm-yolox-pytorch
+[2023-07-13 09:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aihero
+[2023-07-13 09:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hmatrices
+[2023-07-13 09:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prettyqt
+[2023-07-13 09:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sam
+[2023-07-13 09:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cjm-yolox-pytorch
+[2023-07-13 09:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: enebootools
+[2023-07-13 09:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchphysics
+[2023-07-13 09:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zoviz
+[2023-07-13 09:02:54] INFO root fetch - processPackages [terminal-manager]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-13 09:02:54] INFO root fetch - processPackages [aihero]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-13 09:02:54] INFO root fetch - processPackages [torchphysics]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-13 09:02:54] INFO root fetch - processPackages [sam]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-07-13 09:02:54] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.82]
+[2023-07-13 09:02:54] INFO root fetch - processPackages [hmatrices]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-13 09:02:54] INFO root fetch - processPackages [enebootools]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-13 09:02:54] INFO root fetch - processPackages [zoviz]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-07-13 09:02:54] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.82]
+[2023-07-13 09:02:54] INFO root fetch - processPackages [prettyqt]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-13 09:02:54] INFO root fetch - processPackages [aihero]: Downloading https://files.pythonhosted.org/packages/43/f9/4f360ed3eb6afae272c48a231bda06b733fb174411cbc1cf8f621d4a21a4/aihero-0.2.2.tar.gz
+[2023-07-13 09:02:54] INFO root fetch - processPackages [hmatrices]: Downloading https://files.pythonhosted.org/packages/91/ae/45d0fe7583d020210fbb2295f3c205b3405e8093d59ceb60790168904753/hmatrices-0.1.1.tar.gz
+[2023-07-13 09:02:54] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/96/a6/f5dbde2a17640259ee0c244a670ffca24661530f548753a68de5b812a140/enebootools-2.0.8.tar.gz
+[2023-07-13 09:02:54] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/41/36/bc8e618001308c0bb460a24e4ff5d1b7459ff86dec6d286ab3f7060407bf/terminal_manager-0.3.0.tar.gz
+[2023-07-13 09:02:55] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/6c/c6/b9afa0f1de3d542ddb05c7e71fe392bf8cc5f3a8b287de2492a9644deb0d/cjm-yolox-pytorch-0.0.82.tar.gz
+[2023-07-13 09:02:55] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/6c/c6/b9afa0f1de3d542ddb05c7e71fe392bf8cc5f3a8b287de2492a9644deb0d/cjm-yolox-pytorch-0.0.82.tar.gz
+[2023-07-13 09:02:55] INFO root fetch - processPackages [torchphysics]: Downloading https://files.pythonhosted.org/packages/6b/44/a79339e8d959c5b460c51fa4f600839be74f92869800a9a4af1d31ad2125/torchphysics-1.0.0.tar.gz
+[2023-07-13 09:02:55] INFO root fetch - processPackages [prettyqt]: Downloading https://files.pythonhosted.org/packages/90/b7/c5a53747168c1ccc1d26309eca89b437a5f5c027f7a8486b65463ad4770c/prettyqt-1.9.1.tar.gz
+[2023-07-13 09:02:55] INFO root fetch - processPackages [sam]: Downloading https://files.pythonhosted.org/packages/81/c5/4389372e3270e445ba5beef24d570d8cbb9a77431e5a50ad91dbf24144d8/sam-3.1.8.tar.gz
+[2023-07-13 09:02:55] INFO root fetch - processPackages [zoviz]: Downloading https://files.pythonhosted.org/packages/39/01/118ff39e3e5bc58e05756a517d2b426abe032aa3420d27e3000aaac3b14a/zoviz-0.4.98.tar.gz
+[2023-07-13 09:02:55] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/0b/50/a98ff2d478f2b96df200e7e6a5c0ff28fe92712c685482f5ce0bd910c066/enebootools-2.0.9.tar.gz
+[2023-07-13 09:02:55] INFO root fetch - processPackages [hmatrices]: Downloading https://files.pythonhosted.org/packages/48/fd/d7e641253357452551c558c7ca804d49ad88e21421855869c1151902fc6f/hmatrices-0.1.2.tar.gz
+[2023-07-13 09:02:55] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 09:02:55] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/c7/55/773d18932affdd188f6e4b70acf0b141dcb23790c75d292f4094ca68fdde/terminal_manager-0.4.0.tar.gz
+[2023-07-13 09:02:55] INFO root fetch - processPackages [aihero]: Downloading https://files.pythonhosted.org/packages/ae/87/ebe6b2a0832a3aba6fc5771a72efceb8447d78ecd087099340efc5d76595/aihero-0.2.3.tar.gz
+[2023-07-13 09:02:55] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 09:02:55] INFO root fetch - processPackages [hmatrices]: executing diffoscope
+[2023-07-13 09:02:55] INFO root fetch - processPackages [hmatrices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmatrices-0.1.1.tar.gz tmp/hmatrices-0.1.2.tar.gz --markdown 20230713/h/hmatrices/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-13 09:02:55] INFO root fetch - processPackages [enebootools]: executing diffoscope
+[2023-07-13 09:02:55] INFO root fetch - processPackages [enebootools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enebootools-2.0.8.tar.gz tmp/enebootools-2.0.9.tar.gz --markdown 20230713/e/enebootools/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-13 09:02:55] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 09:02:55] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.82.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.82-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 09:02:55] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 09:02:55] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.82.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.82-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 09:02:55] INFO root fetch - processPackages [zoviz]: Downloading https://files.pythonhosted.org/packages/4b/9a/dea269ed1403497e3e963b49e4d08cdc0e831c8642e0f505481d42cdc405/zoviz-0.4.99.tar.gz
+[2023-07-13 09:02:55] INFO root fetch - processPackages [aihero]: executing diffoscope
+[2023-07-13 09:02:55] INFO root fetch - processPackages [aihero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihero-0.2.2.tar.gz tmp/aihero-0.2.3.tar.gz --markdown 20230713/a/aihero/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-13 09:02:55] INFO root fetch - processPackages [terminal-manager]: executing diffoscope
+[2023-07-13 09:02:55] INFO root fetch - processPackages [terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal_manager-0.3.0.tar.gz tmp/terminal_manager-0.4.0.tar.gz --markdown 20230713/t/terminal-manager/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-13 09:02:55] INFO root fetch - processPackages [zoviz]: executing diffoscope
+[2023-07-13 09:02:55] INFO root fetch - processPackages [zoviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoviz-0.4.98.tar.gz tmp/zoviz-0.4.99.tar.gz --markdown 20230713/z/zoviz/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-07-13 09:02:55] INFO root fetch - processPackages [prettyqt]: Downloading https://files.pythonhosted.org/packages/49/65/b381f14f4a70e301a6f9cd50931dea1693b62567e0d6f4a9f55040563489/prettyqt-1.9.2.tar.gz
+[2023-07-13 09:02:56] INFO root fetch - processPackages [sam]: Downloading https://files.pythonhosted.org/packages/9a/6c/e556807bc9d42d5492e2d150d14d3fa2ba094fb93b2c2cea82545dd57164/sam-3.1.9.tar.gz
+[2023-07-13 09:02:56] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-07-13 09:02:56] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.9.1.tar.gz tmp/prettyqt-1.9.2.tar.gz --markdown 20230713/p/prettyqt/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-13 09:02:56] INFO root fetch - processPackages [hmatrices]: Remove: archive file [/home/abi/fetcher/tmp/hmatrices-0.1.1.tar.gz]
+[2023-07-13 09:02:56] INFO root fetch - processPackages [hmatrices]: Remove: archive file [/home/abi/fetcher/tmp/hmatrices-0.1.2.tar.gz]
+[2023-07-13 09:02:56] INFO root fetch - processPackages [hmatrices]: Start processing: arctix
+[2023-07-13 09:02:56] INFO root fetch - main [MainThread]: End processing [hmatrices]: success
+[2023-07-13 09:02:57] INFO root fetch - processPackages [arctix]: New version: [0.0.0a14] Old Version: [0.0.0a13]
+[2023-07-13 09:02:57] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.82.tar.gz]
+[2023-07-13 09:02:57] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 09:02:57] INFO root fetch - processPackages [cjm-yolox-pytorch]: Start processing: ssh-terminal-manager
+[2023-07-13 09:02:57] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 09:02:57] INFO root fetch - processPackages [arctix]: Downloading https://files.pythonhosted.org/packages/54/c4/97fb454ac69f9a4f2b59e395b691f406d249c0489dd2804fc99a3ca882a3/arctix-0.0.0a13.tar.gz
+[2023-07-13 09:02:57] INFO root fetch - processPackages [aihero]: Remove: archive file [/home/abi/fetcher/tmp/aihero-0.2.2.tar.gz]
+[2023-07-13 09:02:57] INFO root fetch - processPackages [aihero]: Remove: archive file [/home/abi/fetcher/tmp/aihero-0.2.3.tar.gz]
+[2023-07-13 09:02:57] INFO root fetch - processPackages [aihero]: Start processing: seqio-nightly
+[2023-07-13 09:02:57] INFO root fetch - main [MainThread]: End processing [aihero]: success
+[2023-07-13 09:02:57] INFO root fetch - processPackages [ssh-terminal-manager]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-13 09:02:57] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.3.0.tar.gz]
+[2023-07-13 09:02:57] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.4.0.tar.gz]
+[2023-07-13 09:02:57] INFO root fetch - main [MainThread]: End processing [terminal-manager]: success
+[2023-07-13 09:02:57] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 09:02:57] INFO root fetch - processPackages [sam]: executing diffoscope
+[2023-07-13 09:02:57] INFO root fetch - processPackages [sam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sam-3.1.8.tar.gz tmp/sam-3.1.9.tar.gz --markdown 20230713/s/sam/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-07-13 09:02:57] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-07-13 09:02:57] INFO root fetch - processPackages [zoviz]: Remove: archive file [/home/abi/fetcher/tmp/zoviz-0.4.98.tar.gz]
+[2023-07-13 09:02:57] INFO root fetch - processPackages [zoviz]: Remove: archive file [/home/abi/fetcher/tmp/zoviz-0.4.99.tar.gz]
+[2023-07-13 09:02:57] INFO root fetch - main [MainThread]: End processing [zoviz]: success
+[2023-07-13 09:02:57] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/c3/a5/3bdac0f988dbcc3a23f40bc4be7cbc88cfc84f7961d7b969b8a771bb40aa/ssh_terminal_manager-0.3.0.tar.gz
+[2023-07-13 09:02:57] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-07-13 09:02:57] INFO root fetch - processPackages [enebootools]: Remove: archive file [/home/abi/fetcher/tmp/enebootools-2.0.8.tar.gz]
+[2023-07-13 09:02:57] INFO root fetch - processPackages [enebootools]: Remove: archive file [/home/abi/fetcher/tmp/enebootools-2.0.9.tar.gz]
+[2023-07-13 09:02:57] INFO root fetch - main [MainThread]: End processing [enebootools]: success
+[2023-07-13 09:02:57] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-07-13 09:02:57] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/03/7a/98ef21459f400ecee3cbb175b23de509f0a6b040659c131f4fd0b7a25495/ssh_terminal_manager-0.4.0.tar.gz
+[2023-07-13 09:02:57] INFO root fetch - processPackages [arctix]: Downloading https://files.pythonhosted.org/packages/69/eb/818027eff77b484f02059dc412d38be89b230ea1e392a62c9df5560d1c97/arctix-0.0.0a14.tar.gz
+[2023-07-13 09:02:57] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-07-13 09:02:57] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230713/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-07-13 09:02:57] INFO root fetch - processPackages [ssh-terminal-manager]: executing diffoscope
+[2023-07-13 09:02:57] INFO root fetch - processPackages [ssh-terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_terminal_manager-0.3.0.tar.gz tmp/ssh_terminal_manager-0.4.0.tar.gz --markdown 20230713/s/ssh-terminal-manager/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-13 09:02:58] INFO root fetch - processPackages [arctix]: executing diffoscope
+[2023-07-13 09:02:58] INFO root fetch - processPackages [arctix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arctix-0.0.0a13.tar.gz tmp/arctix-0.0.0a14.tar.gz --markdown 20230713/a/arctix/0.0.0a13-0.0.0a14/diff.md --exclude *.pyd
+[2023-07-13 09:02:58] INFO root fetch - processPackages [torchphysics]: Downloading https://files.pythonhosted.org/packages/d1/df/8d775bd20572cc480ef66666724006043090ac43c3eb6f8e93980fcba9a8/torchphysics-1.0.1.tar.gz
+[2023-07-13 09:02:58] INFO root fetch - processPackages [torchphysics]: executing diffoscope
+[2023-07-13 09:02:58] INFO root fetch - processPackages [torchphysics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchphysics-1.0.0.tar.gz tmp/torchphysics-1.0.1.tar.gz --markdown 20230713/t/torchphysics/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-13 09:02:59] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.3.0.tar.gz]
+[2023-07-13 09:02:59] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.4.0.tar.gz]
+[2023-07-13 09:02:59] INFO root fetch - main [MainThread]: End processing [ssh-terminal-manager]: success
+[2023-07-13 09:02:59] INFO root fetch - processPackages [arctix]: Remove: archive file [/home/abi/fetcher/tmp/arctix-0.0.0a13.tar.gz]
+[2023-07-13 09:02:59] INFO root fetch - processPackages [arctix]: Remove: archive file [/home/abi/fetcher/tmp/arctix-0.0.0a14.tar.gz]
+[2023-07-13 09:02:59] INFO root fetch - main [MainThread]: End processing [arctix]: success
+[2023-07-13 09:02:59] INFO root fetch - processPackages [sam]: Remove: archive file [/home/abi/fetcher/tmp/sam-3.1.8.tar.gz]
+[2023-07-13 09:02:59] INFO root fetch - processPackages [sam]: Remove: archive file [/home/abi/fetcher/tmp/sam-3.1.9.tar.gz]
+[2023-07-13 09:02:59] INFO root fetch - main [MainThread]: End processing [sam]: success
+[2023-07-13 09:02:59] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-07-13 09:02:59] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-07-13 09:02:59] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-07-13 09:03:01] INFO root fetch - processPackages [torchphysics]: Remove: archive file [/home/abi/fetcher/tmp/torchphysics-1.0.0.tar.gz]
+[2023-07-13 09:03:01] INFO root fetch - processPackages [torchphysics]: Remove: archive file [/home/abi/fetcher/tmp/torchphysics-1.0.1.tar.gz]
+[2023-07-13 09:03:01] INFO root fetch - main [MainThread]: End processing [torchphysics]: success
+[2023-07-13 09:03:01] INFO root fetch - processPackages [prettyqt]: Remove: archive file [/home/abi/fetcher/tmp/prettyqt-1.9.1.tar.gz]
+[2023-07-13 09:03:01] INFO root fetch - processPackages [prettyqt]: Remove: archive file [/home/abi/fetcher/tmp/prettyqt-1.9.2.tar.gz]
+[2023-07-13 09:03:01] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-07-13 09:03:01] INFO root fetch - main [MainThread]: Store serial: [18871194]
