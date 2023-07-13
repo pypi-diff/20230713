@@ -6129,3 +6129,129 @@
 [2023-07-13 03:40:44] INFO root fetch - processPackages [roboto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/roboto_sdk-0.1.9.tar.gz]
 [2023-07-13 03:40:44] INFO root fetch - main [MainThread]: End processing [roboto-sdk]: success
 [2023-07-13 03:40:44] INFO root fetch - main [MainThread]: Store serial: [18868743]
+[2023-07-13 03:45:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18868743]
+[2023-07-13 03:45:53] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-13 03:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: model-hub
+[2023-07-13 03:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: determined
+[2023-07-13 03:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-pytorch
+[2023-07-13 03:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pmg
+[2023-07-13 03:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bioregistry
+[2023-07-13 03:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-manifest
+[2023-07-13 03:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crypto-screening
+[2023-07-13 03:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-scipy
+[2023-07-13 03:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: app-model
+[2023-07-13 03:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: urltokenizer
+[2023-07-13 03:45:53] INFO root fetch - processPackages [crypto-screening]: New version: [2.8.4] Old Version: [2.8.3]
+[2023-07-13 03:45:53] INFO root fetch - processPackages [determined]: New version: [0.23.3rc1] Old Version: [0.23.3rc0]
+[2023-07-13 03:45:53] WARNING root fetch - processPackages [urltokenizer]: Skipping, unable to determine old version
+[2023-07-13 03:45:53] INFO root fetch - processPackages [urltokenizer]: Start processing: pyresponse
+[2023-07-13 03:45:53] INFO root fetch - main [MainThread]: End processing [urltokenizer] error
+[2023-07-13 03:45:53] INFO root fetch - processPackages [app-model]: New version: [0.2.0rc1] Old Version: [0.2.0]
+[2023-07-13 03:45:53] INFO root fetch - processPackages [pmg]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-13 03:45:53] INFO root fetch - processPackages [python-manifest]: New version: [2.0.0] Old Version: [1.4.1]
+[2023-07-13 03:45:53] INFO root fetch - processPackages [model-hub]: New version: [0.23.3rc1] Old Version: [0.23.3rc0]
+[2023-07-13 03:45:53] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-13 03:45:53] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-13 03:45:53] WARNING root fetch - processPackages [pyresponse]: Skipping, unable to determine old version
+[2023-07-13 03:45:53] INFO root fetch - processPackages [pyresponse]: Start processing: nbdev-sphinx
+[2023-07-13 03:45:53] INFO root fetch - main [MainThread]: End processing [pyresponse] error
+[2023-07-13 03:45:53] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-13 03:45:53] INFO root fetch - processPackages [app-model]: Downloading https://files.pythonhosted.org/packages/7a/a4/606a282b587f69af78c726120b370d8cb5742505b8fc105f3652dd426905/app_model-0.2.0.tar.gz
+[2023-07-13 03:45:53] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-13 03:45:53] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/ee/e6/efd8e84d399ef657b03f6d70fedb0b2afc8c58274a6812750334d2ca7532/crypto-screening-2.8.3.tar.gz
+[2023-07-13 03:45:53] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-13 03:45:53] INFO root fetch - processPackages [pmg]: Downloading https://files.pythonhosted.org/packages/76/f2/fed33ea897244135b308387be59ebbfdec101db0c007b59d829b9d909c3b/pmg-1.0.1.tar.gz
+[2023-07-13 03:45:53] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/f3/d0/3fcd39383564cdf2bc1bfed83858cf2c0c2ab6b38f14de16981324126d96/determined-0.23.3rc0-py3-none-any.whl
+[2023-07-13 03:45:53] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-13 03:45:53] INFO root fetch - processPackages [python-manifest]: Downloading https://files.pythonhosted.org/packages/a9/69/db03d12b74f15071a3f3fde6b92e7bec91a14ac8d07edd00b505e298a1e9/python_manifest-1.4.1-py3-none-any.whl
+[2023-07-13 03:45:53] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/f2/f4/5365c017766df517b654a9cffc0075344dde6470e0a5ef74a8931da40f9a/model_hub-0.23.3rc0-py3-none-any.whl
+[2023-07-13 03:45:53] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-07-13 03:45:53] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-07-13 03:45:54] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-13 03:45:54] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-13 03:45:54] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/0a/e4/5ce7da9321f56797c748e08fab4f1e176e2dad35112fe683175d9faf2d00/crypto-screening-2.8.4.tar.gz
+[2023-07-13 03:45:54] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/68/a3/7dc9ee959ccc7fa92be9a1fb6758666c06a29371d3020e6dc29ea077e5d7/model_hub-0.23.3rc1-py3-none-any.whl
+[2023-07-13 03:45:54] INFO root fetch - processPackages [app-model]: Downloading https://files.pythonhosted.org/packages/40/a9/6a85edc75946e39b122b84371c1a09e80bd5ef7e901aa613de86c88e3406/app_model-0.2.0rc1.tar.gz
+[2023-07-13 03:45:54] INFO root fetch - processPackages [pmg]: Downloading https://files.pythonhosted.org/packages/7b/53/228368d30c3b52c957e88fca10b6cfb06bb1077e37be79ca160c0f2f635c/pmg-1.0.2.tar.gz
+[2023-07-13 03:45:54] INFO root fetch - processPackages [python-manifest]: Downloading https://files.pythonhosted.org/packages/5f/ae/82e57d7b4edd91924f6f6088204bd804b944043b7dee5b5a964f9f962858/python_manifest-2.0.0-py3-none-any.whl
+[2023-07-13 03:45:54] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-07-13 03:45:54] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-13 03:45:54] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230713/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-13 03:45:54] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-13 03:45:54] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230713/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-13 03:45:54] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/4a/af/3cc2309c24f94f16866c5c0b398f5de04ae008c1eda07714b5b2cf5d6a98/determined-0.23.3rc1-py3-none-any.whl
+[2023-07-13 03:45:54] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-13 03:45:54] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-2.8.3.tar.gz tmp/crypto-screening-2.8.4.tar.gz --markdown 20230713/c/crypto-screening/2.8.3-2.8.4/diff.md --exclude *.pyd
+[2023-07-13 03:45:54] INFO root fetch - processPackages [python-manifest]: executing diffoscope
+[2023-07-13 03:45:54] INFO root fetch - processPackages [python-manifest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_manifest-1.4.1-py3-none-any.whl.zip tmp/python_manifest-2.0.0-py3-none-any.whl.zip --markdown 20230713/p/python-manifest/1.4.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-13 03:45:54] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-07-13 03:45:54] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230713/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-13 03:45:54] INFO root fetch - processPackages [pmg]: executing diffoscope
+[2023-07-13 03:45:54] INFO root fetch - processPackages [pmg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmg-1.0.1.tar.gz tmp/pmg-1.0.2.tar.gz --markdown 20230713/p/pmg/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-13 03:45:54] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2023-07-13 03:45:54] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.23.3rc0-py3-none-any.whl.zip tmp/model_hub-0.23.3rc1-py3-none-any.whl.zip --markdown 20230713/m/model-hub/0.23.3rc0-0.23.3rc1/diff.md --exclude *.pyd
+[2023-07-13 03:45:54] INFO root fetch - processPackages [app-model]: executing diffoscope
+[2023-07-13 03:45:54] INFO root fetch - processPackages [app-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/app_model-0.2.0.tar.gz tmp/app_model-0.2.0rc1.tar.gz --markdown 20230713/a/app-model/0.2.0-0.2.0rc1/diff.md --exclude *.pyd
+[2023-07-13 03:45:54] INFO root fetch - processPackages [determined]: executing diffoscope
+[2023-07-13 03:45:54] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.23.3rc0-py3-none-any.whl.zip tmp/determined-0.23.3rc1-py3-none-any.whl.zip --markdown 20230713/d/determined/0.23.3rc0-0.23.3rc1/diff.md --exclude *.pyd
+[2023-07-13 03:45:55] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-13 03:45:55] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-13 03:45:55] INFO root fetch - processPackages [nbdev-scipy]: Start processing: circuitree
+[2023-07-13 03:45:55] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-13 03:45:56] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-07-13 03:45:56] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-07-13 03:45:56] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: cdk-lambda-layer-curl
+[2023-07-13 03:45:56] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-07-13 03:45:56] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-13 03:45:56] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-13 03:45:56] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: unitclass
+[2023-07-13 03:45:56] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-13 03:45:56] INFO root fetch - processPackages [circuitree]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-13 03:45:56] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-13 03:45:56] INFO root fetch - processPackages [python-manifest]: Remove: archive file [/home/abi/fetcher/tmp/python_manifest-1.4.1-py3-none-any.whl.zip]
+[2023-07-13 03:45:56] INFO root fetch - processPackages [python-manifest]: Remove: archive file [/home/abi/fetcher/tmp/python_manifest-2.0.0-py3-none-any.whl.zip]
+[2023-07-13 03:45:56] INFO root fetch - main [MainThread]: End processing [python-manifest]: success
+[2023-07-13 03:45:56] INFO root fetch - processPackages [unitclass]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-13 03:45:56] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.23.3rc0-py3-none-any.whl.zip]
+[2023-07-13 03:45:56] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.23.3rc1-py3-none-any.whl.zip]
+[2023-07-13 03:45:56] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2023-07-13 03:45:56] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-13 03:45:56] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.8.3.tar.gz]
+[2023-07-13 03:45:56] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.8.4.tar.gz]
+[2023-07-13 03:45:56] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-13 03:45:56] INFO root fetch - processPackages [pmg]: Remove: archive file [/home/abi/fetcher/tmp/pmg-1.0.1.tar.gz]
+[2023-07-13 03:45:56] INFO root fetch - processPackages [pmg]: Remove: archive file [/home/abi/fetcher/tmp/pmg-1.0.2.tar.gz]
+[2023-07-13 03:45:56] INFO root fetch - main [MainThread]: End processing [pmg]: success
+[2023-07-13 03:45:56] INFO root fetch - processPackages [unitclass]: Downloading https://files.pythonhosted.org/packages/b0/7c/6d7ab3578fac9557882ba3e13fb73d42464e2d2aa03fb1a7375050d2a1e2/unitclass-1.0.0.tar.gz
+[2023-07-13 03:45:56] INFO root fetch - processPackages [circuitree]: Downloading https://files.pythonhosted.org/packages/d7/e4/1ab7233806d4e2f69ac84a3fa47d158ab60265e2ea024613a7c3f9d9f1fa/circuitree-0.2.0.tar.gz
+[2023-07-13 03:45:56] INFO root fetch - processPackages [app-model]: Remove: archive file [/home/abi/fetcher/tmp/app_model-0.2.0.tar.gz]
+[2023-07-13 03:45:56] INFO root fetch - processPackages [app-model]: Remove: archive file [/home/abi/fetcher/tmp/app_model-0.2.0rc1.tar.gz]
+[2023-07-13 03:45:56] INFO root fetch - main [MainThread]: End processing [app-model]: success
+[2023-07-13 03:45:56] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-13 03:45:56] INFO root fetch - processPackages [unitclass]: Downloading https://files.pythonhosted.org/packages/9d/59/20438ae54e87973bfe8a7ef567b46b7a916db31f1d6756139ae2195113d2/unitclass-1.0.1.tar.gz
+[2023-07-13 03:45:56] INFO root fetch - processPackages [circuitree]: Downloading https://files.pythonhosted.org/packages/46/14/7cbb5a26178316d638fb1f3137cbe4f7b5de67d7d396095ba5c23a91f1cf/circuitree-0.3.0.tar.gz
+[2023-07-13 03:45:56] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-13 03:45:56] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230713/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-13 03:45:56] INFO root fetch - processPackages [unitclass]: executing diffoscope
+[2023-07-13 03:45:56] INFO root fetch - processPackages [unitclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitclass-1.0.0.tar.gz tmp/unitclass-1.0.1.tar.gz --markdown 20230713/u/unitclass/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-13 03:45:56] INFO root fetch - processPackages [circuitree]: executing diffoscope
+[2023-07-13 03:45:56] INFO root fetch - processPackages [circuitree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitree-0.2.0.tar.gz tmp/circuitree-0.3.0.tar.gz --markdown 20230713/c/circuitree/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-13 03:45:57] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.3rc0-py3-none-any.whl.zip]
+[2023-07-13 03:45:57] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.3rc1-py3-none-any.whl.zip]
+[2023-07-13 03:45:57] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2023-07-13 03:45:57] INFO root fetch - processPackages [unitclass]: Remove: archive file [/home/abi/fetcher/tmp/unitclass-1.0.0.tar.gz]
+[2023-07-13 03:45:57] INFO root fetch - processPackages [unitclass]: Remove: archive file [/home/abi/fetcher/tmp/unitclass-1.0.1.tar.gz]
+[2023-07-13 03:45:57] INFO root fetch - main [MainThread]: End processing [unitclass]: success
+[2023-07-13 03:45:57] INFO root fetch - processPackages [circuitree]: Remove: archive file [/home/abi/fetcher/tmp/circuitree-0.2.0.tar.gz]
+[2023-07-13 03:45:57] INFO root fetch - processPackages [circuitree]: Remove: archive file [/home/abi/fetcher/tmp/circuitree-0.3.0.tar.gz]
+[2023-07-13 03:45:57] INFO root fetch - main [MainThread]: End processing [circuitree]: success
+[2023-07-13 03:45:57] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-13 03:45:57] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-13 03:45:57] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-13 03:45:59] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-07-13 03:46:00] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-07-13 03:46:00] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230713/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-13 03:47:55] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.8.tar.gz]
+[2023-07-13 03:47:55] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
+[2023-07-13 03:47:55] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-07-13 03:47:55] INFO root fetch - main [MainThread]: Store serial: [18868790]
