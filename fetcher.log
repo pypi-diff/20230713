@@ -5841,3 +5841,48 @@
 [2023-07-13 03:14:41] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
 [2023-07-13 03:14:41] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
 [2023-07-13 03:14:41] INFO root fetch - main [MainThread]: Store serial: [18868584]
+[2023-07-13 03:19:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18868584]
+[2023-07-13 03:19:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-13 03:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aemcmc-nightly
+[2023-07-13 03:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tootnotify
+[2023-07-13 03:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: devopstrabalhofinal
+[2023-07-13 03:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aicodebot
+[2023-07-13 03:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: notionaut
+[2023-07-13 03:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wasmpy-build
+[2023-07-13 03:19:51] WARNING root fetch - processPackages [tootnotify]: Skipping, unable to determine old version
+[2023-07-13 03:19:51] INFO root fetch - main [MainThread]: End processing [tootnotify] error
+[2023-07-13 03:19:51] INFO root fetch - processPackages [devopstrabalhofinal]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-13 03:19:51] WARNING root fetch - processPackages [notionaut]: Skipping, unable to determine old version
+[2023-07-13 03:19:51] INFO root fetch - main [MainThread]: End processing [notionaut] error
+[2023-07-13 03:19:51] INFO root fetch - processPackages [aicodebot]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-13 03:19:51] INFO root fetch - processPackages [devopstrabalhofinal]: Downloading https://files.pythonhosted.org/packages/60/08/77a838e25a7eaf5f6908c2e810b1925a190085d4ed715c04fcfcd0804180/devopstrabalhofinal-0.0.4.tar.gz
+[2023-07-13 03:19:51] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/de/93/5893654a616bad8ecf7cff940e452492ff5cadede0c121a0b836015603f8/aicodebot-0.9.5.tar.gz
+[2023-07-13 03:19:51] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230713] Old Version: [0.0.8.dev20230712]
+[2023-07-13 03:19:51] INFO root fetch - processPackages [wasmpy-build]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-13 03:19:51] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/f0/54/b7976dc18a7bd9ee80ceff88ce124d243c375fa58db5ebe25e50df423f49/aicodebot-0.9.6.tar.gz
+[2023-07-13 03:19:51] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/8d/03/a6ff55509c3dcdfd68439aead3b52a18c57330e115b287c29f60033db24a/aemcmc-nightly-0.0.8.dev20230712.tar.gz
+[2023-07-13 03:19:51] INFO root fetch - processPackages [devopstrabalhofinal]: Downloading https://files.pythonhosted.org/packages/23/55/114bdf8a092d0af3bae1a4d73eaf15e615326248dce0cfe1033c2ab82bb4/devopstrabalhofinal-0.0.5.tar.gz
+[2023-07-13 03:19:51] INFO root fetch - processPackages [wasmpy-build]: Downloading https://files.pythonhosted.org/packages/a8/9f/e79c198a0df4f7f513c2513fc091d66cce22df69d04f5e8e0f9ab30c09d4/wasmpy-build-0.2.1.tar.gz
+[2023-07-13 03:19:51] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-07-13 03:19:51] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.9.5.tar.gz tmp/aicodebot-0.9.6.tar.gz --markdown 20230713/a/aicodebot/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-13 03:19:51] INFO root fetch - processPackages [devopstrabalhofinal]: executing diffoscope
+[2023-07-13 03:19:51] INFO root fetch - processPackages [devopstrabalhofinal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devopstrabalhofinal-0.0.4.tar.gz tmp/devopstrabalhofinal-0.0.5.tar.gz --markdown 20230713/d/devopstrabalhofinal/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-13 03:19:52] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/ba/90/032256ecab42594e4705dd24a61a9afcaa5f400ee35ec150fab5329832b4/aemcmc-nightly-0.0.8.dev20230713.tar.gz
+[2023-07-13 03:19:52] INFO root fetch - processPackages [wasmpy-build]: Downloading https://files.pythonhosted.org/packages/a8/58/fc3d32c9189cad4186b952054bcd1eabff8ee4d9889b173255cd481efa5d/wasmpy_build-0.3.0-py3-none-any.whl
+[2023-07-13 03:19:52] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-07-13 03:19:52] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230712.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230713.tar.gz --markdown 20230713/a/aemcmc-nightly/0.0.8.dev20230712-0.0.8.dev20230713/diff.md --exclude *.pyd
+[2023-07-13 03:19:52] INFO root fetch - processPackages [wasmpy-build]: executing diffoscope
+[2023-07-13 03:19:52] INFO root fetch - processPackages [wasmpy-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wasmpy-build-0.2.1.tar.gz tmp/wasmpy_build-0.3.0-py3-none-any.whl.zip --markdown 20230713/w/wasmpy-build/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-13 03:19:52] INFO root fetch - processPackages [devopstrabalhofinal]: Remove: archive file [/home/abi/fetcher/tmp/devopstrabalhofinal-0.0.4.tar.gz]
+[2023-07-13 03:19:52] INFO root fetch - processPackages [devopstrabalhofinal]: Remove: archive file [/home/abi/fetcher/tmp/devopstrabalhofinal-0.0.5.tar.gz]
+[2023-07-13 03:19:52] INFO root fetch - main [MainThread]: End processing [devopstrabalhofinal]: success
+[2023-07-13 03:19:52] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.5.tar.gz]
+[2023-07-13 03:19:52] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.6.tar.gz]
+[2023-07-13 03:19:52] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-07-13 03:19:53] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230712.tar.gz]
+[2023-07-13 03:19:53] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230713.tar.gz]
+[2023-07-13 03:19:53] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-07-13 03:19:53] INFO root fetch - processPackages [wasmpy-build]: Remove: archive file [/home/abi/fetcher/tmp/wasmpy-build-0.2.1.tar.gz]
+[2023-07-13 03:19:53] INFO root fetch - processPackages [wasmpy-build]: Remove: archive file [/home/abi/fetcher/tmp/wasmpy_build-0.3.0-py3-none-any.whl.zip]
+[2023-07-13 03:19:53] INFO root fetch - main [MainThread]: End processing [wasmpy-build]: success
+[2023-07-13 03:19:53] INFO root fetch - main [MainThread]: Store serial: [18868600]
