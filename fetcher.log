@@ -14201,3 +14201,117 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 10:17:18] INFO root fetch - processPackages [mtg-ssm]: Remove: archive file [/home/abi/fetcher/tmp/mtg_ssm-2.6.2.dev1.tar.gz]
 [2023-07-13 10:17:18] INFO root fetch - main [MainThread]: End processing [mtg-ssm]: success
 [2023-07-13 10:17:18] INFO root fetch - main [MainThread]: Store serial: [18871739]
+[2023-07-13 10:22:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18871739]
+[2023-07-13 10:22:27] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-13 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Spatialign
+[2023-07-13 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mtg-ssm
+[2023-07-13 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ats-case
+[2023-07-13 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blendersynth
+[2023-07-13 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hukudo
+[2023-07-13 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gaitmap-datasets
+[2023-07-13 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MeUtils
+[2023-07-13 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spaceone-config
+[2023-07-13 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chainfury-server
+[2023-07-13 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spaceone-cost-analysis
+[2023-07-13 10:22:28] INFO root fetch - processPackages [blendersynth]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-13 10:22:28] INFO root fetch - processPackages [spaceone-config]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-07-13 10:22:28] INFO root fetch - processPackages [gaitmap-datasets]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-13 10:22:28] WARNING root fetch - processPackages [Spatialign]: Skipping, unable to determine old version
+[2023-07-13 10:22:28] INFO root fetch - processPackages [Spatialign]: Start processing: prepare-toolbox
+[2023-07-13 10:22:28] INFO root fetch - main [MainThread]: End processing [Spatialign] error
+[2023-07-13 10:22:28] INFO root fetch - processPackages [hukudo]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-07-13 10:22:28] INFO root fetch - processPackages [ats-case]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-13 10:22:28] WARNING root fetch - processPackages [chainfury-server]: Skipping, unable to determine old version
+[2023-07-13 10:22:28] INFO root fetch - processPackages [chainfury-server]: Start processing: labeva
+[2023-07-13 10:22:28] INFO root fetch - main [MainThread]: End processing [chainfury-server] error
+[2023-07-13 10:22:28] INFO root fetch - processPackages [mtg-ssm]: New version: [2.6.2.dev2] Old Version: [2.6.2.dev1]
+[2023-07-13 10:22:28] INFO root fetch - processPackages [spaceone-cost-analysis]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-07-13 10:22:28] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.7.15.3.6] Old Version: [2023.7.6.9.18.40]
+[2023-07-13 10:22:28] WARNING root fetch - processPackages [prepare-toolbox]: Skipping, unable to determine old version
+[2023-07-13 10:22:28] INFO root fetch - processPackages [prepare-toolbox]: Start processing: spaceone-file-manager
+[2023-07-13 10:22:28] INFO root fetch - main [MainThread]: End processing [prepare-toolbox] error
+[2023-07-13 10:22:28] WARNING root fetch - processPackages [labeva]: Skipping, unable to determine old version
+[2023-07-13 10:22:28] INFO root fetch - processPackages [labeva]: Start processing: spaceone-identity
+[2023-07-13 10:22:28] INFO root fetch - main [MainThread]: End processing [labeva] error
+[2023-07-13 10:22:28] INFO root fetch - processPackages [spaceone-file-manager]: New version: [1.8.11rc1] Old Version: [1.8.11]
+[2023-07-13 10:22:28] INFO root fetch - processPackages [mtg-ssm]: Downloading https://files.pythonhosted.org/packages/50/3d/f64015451f35fbc0bca14b29971c0b08b05a4a50a77b2f17c260881b6ba5/mtg_ssm-2.6.2.dev1.tar.gz
+[2023-07-13 10:22:28] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-13 10:22:28] INFO root fetch - processPackages [blendersynth]: Downloading https://files.pythonhosted.org/packages/a6/2a/1e695f675e26dfdc71712bd94e9a0fb5caba743eb8e0bfef66d50267b2b0/blendersynth-0.0.3.tar.gz
+[2023-07-13 10:22:28] INFO root fetch - processPackages [spaceone-config]: Downloading https://files.pythonhosted.org/packages/08/28/a6ce3345230d3f14eda6a5c108839017b971498dd9b3a4c8ff660bdd3ae7/spaceone_config-1.9.7.1-py3-none-any.whl
+[2023-07-13 10:22:28] INFO root fetch - processPackages [hukudo]: Downloading https://files.pythonhosted.org/packages/68/11/dedd00c7d19745238cad0e3c05cf49198bbe46c9cca2124d6f6d42d9acf8/hukudo-3.2.0.tar.gz
+[2023-07-13 10:22:28] INFO root fetch - processPackages [gaitmap-datasets]: Downloading https://files.pythonhosted.org/packages/9b/3c/4b174ecede237cc76bdca94d99e925d5e2e01a58acae41ba37cd1f79a295/gaitmap_datasets-0.8.0.tar.gz
+[2023-07-13 10:22:28] INFO root fetch - processPackages [spaceone-identity]: New version: [1.9.7rc2] Old Version: [1.9.7rc1]
+[2023-07-13 10:22:28] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/ca/57/274de01859938ee0ea18fde02a27bd004721324e14d9173c1aed6ce505f5/spaceone_cost_analysis-1.9.7.1-py3-none-any.whl
+[2023-07-13 10:22:28] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/04/da/b171ada6344192f8d804a421bc8808a47ee94e5d1f28c7daca14485ad4a7/ats_case-0.9.8.tar.gz
+[2023-07-13 10:22:28] INFO root fetch - processPackages [spaceone-file-manager]: Downloading https://files.pythonhosted.org/packages/39/83/53e3265ff092fe178def112f8d649eaf4f4a6c624252d955923c5c2404d3/spaceone_file_manager-1.8.11-py3-none-any.whl
+[2023-07-13 10:22:28] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/60/aa/ad6f2d637740b2091883707db26053c4633dec76ccabc1af7b0ea0753106/spaceone_identity-1.9.7rc1-py3-none-any.whl
+[2023-07-13 10:22:28] INFO root fetch - processPackages [blendersynth]: Downloading https://files.pythonhosted.org/packages/21/18/6a574ee321656ff99323c0e5c26ce12210899f61ce5807a9b685c679f980/blendersynth-0.0.4.tar.gz
+[2023-07-13 10:22:28] INFO root fetch - processPackages [hukudo]: Downloading https://files.pythonhosted.org/packages/fc/37/9f4acbaf1053e59fe1eaa36dcd53a2319c77c3bd4881218897fa89ffc09a/hukudo-3.3.0.tar.gz
+[2023-07-13 10:22:28] INFO root fetch - processPackages [spaceone-config]: Downloading https://files.pythonhosted.org/packages/2e/52/933581152a4ad53294053afa4f1e01b4306b1cc56d69a4b3b5bf10067b9a/spaceone_config-1.9.7rc1-py3-none-any.whl
+[2023-07-13 10:22:29] INFO root fetch - processPackages [mtg-ssm]: Downloading https://files.pythonhosted.org/packages/11/9a/fc8e9096480500e889fdb7ae0df590f92300e87624aea6da65e914f5fd23/mtg_ssm-2.6.2.dev2.tar.gz
+[2023-07-13 10:22:29] INFO root fetch - processPackages [gaitmap-datasets]: Downloading https://files.pythonhosted.org/packages/98/12/6d8a43e91dfb1b9d09f95042817b710102c668cd72a5193ef65a61ea586c/gaitmap_datasets-0.9.0.tar.gz
+[2023-07-13 10:22:29] INFO root fetch - processPackages [blendersynth]: executing diffoscope
+[2023-07-13 10:22:29] INFO root fetch - processPackages [blendersynth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blendersynth-0.0.3.tar.gz tmp/blendersynth-0.0.4.tar.gz --markdown 20230713/b/blendersynth/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-13 10:22:29] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/7f/68/87f6eca1406e5f35351915c2062c1db2b77cdfcaebb646e255d7baf5e023/ats_case-0.9.9.tar.gz
+[2023-07-13 10:22:29] INFO root fetch - processPackages [hukudo]: executing diffoscope
+[2023-07-13 10:22:29] INFO root fetch - processPackages [hukudo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hukudo-3.2.0.tar.gz tmp/hukudo-3.3.0.tar.gz --markdown 20230713/h/hukudo/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-07-13 10:22:29] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/cf/26/f9d82f22108804a06ee9380b339d652897bc5997f046962edc93c30d5f6a/spaceone_cost_analysis-1.9.7rc1-py3-none-any.whl
+[2023-07-13 10:22:29] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/1e/99/2f228a790c6fc15f93482f3f0fa7bbad95d15d6e0aa883c7919fe4a66c95/MeUtils-2023.7.7.15.3.6.tar.gz
+[2023-07-13 10:22:29] INFO root fetch - processPackages [spaceone-config]: executing diffoscope
+[2023-07-13 10:22:29] INFO root fetch - processPackages [spaceone-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_config-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_config-1.9.7rc1-py3-none-any.whl.zip --markdown 20230713/s/spaceone-config/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-13 10:22:29] INFO root fetch - processPackages [spaceone-file-manager]: Downloading https://files.pythonhosted.org/packages/cb/7c/347b7347009395177c4a6bf9d242a111b632144ff1d3c7aca938749477a7/spaceone_file_manager-1.8.11rc1-py3-none-any.whl
+[2023-07-13 10:22:29] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-07-13 10:22:29] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.9.8.tar.gz tmp/ats_case-0.9.9.tar.gz --markdown 20230713/a/ats-case/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-13 10:22:29] INFO root fetch - processPackages [gaitmap-datasets]: executing diffoscope
+[2023-07-13 10:22:29] INFO root fetch - processPackages [gaitmap-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaitmap_datasets-0.8.0.tar.gz tmp/gaitmap_datasets-0.9.0.tar.gz --markdown 20230713/g/gaitmap-datasets/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-13 10:22:29] INFO root fetch - processPackages [mtg-ssm]: executing diffoscope
+[2023-07-13 10:22:29] INFO root fetch - processPackages [mtg-ssm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtg_ssm-2.6.2.dev1.tar.gz tmp/mtg_ssm-2.6.2.dev2.tar.gz --markdown 20230713/m/mtg-ssm/2.6.2.dev1-2.6.2.dev2/diff.md --exclude *.pyd
+[2023-07-13 10:22:29] INFO root fetch - processPackages [spaceone-cost-analysis]: executing diffoscope
+[2023-07-13 10:22:29] INFO root fetch - processPackages [spaceone-cost-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_cost_analysis-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_cost_analysis-1.9.7rc1-py3-none-any.whl.zip --markdown 20230713/s/spaceone-cost-analysis/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-13 10:22:29] INFO root fetch - processPackages [spaceone-file-manager]: executing diffoscope
+[2023-07-13 10:22:29] INFO root fetch - processPackages [spaceone-file-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_file_manager-1.8.11-py3-none-any.whl.zip tmp/spaceone_file_manager-1.8.11rc1-py3-none-any.whl.zip --markdown 20230713/s/spaceone-file-manager/1.8.11-1.8.11rc1/diff.md --exclude *.pyd
+[2023-07-13 10:22:29] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/50/45/8e8840de775e39139fb06889be9ab1840dd86ff941971f3ceaa2e62488c0/spaceone_identity-1.9.7rc2-py3-none-any.whl
+[2023-07-13 10:22:29] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-13 10:22:29] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.18.40.tar.gz tmp/MeUtils-2023.7.7.15.3.6.tar.gz --markdown 20230713/M/MeUtils/2023.7.6.9.18.40-2023.7.7.15.3.6/diff.md --exclude *.pyd
+[2023-07-13 10:22:29] INFO root fetch - processPackages [spaceone-identity]: executing diffoscope
+[2023-07-13 10:22:29] INFO root fetch - processPackages [spaceone-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_identity-1.9.7rc1-py3-none-any.whl.zip tmp/spaceone_identity-1.9.7rc2-py3-none-any.whl.zip --markdown 20230713/s/spaceone-identity/1.9.7rc1-1.9.7rc2/diff.md --exclude *.pyd
+[2023-07-13 10:22:31] INFO root fetch - processPackages [hukudo]: Remove: archive file [/home/abi/fetcher/tmp/hukudo-3.2.0.tar.gz]
+[2023-07-13 10:22:31] INFO root fetch - processPackages [hukudo]: Remove: archive file [/home/abi/fetcher/tmp/hukudo-3.3.0.tar.gz]
+[2023-07-13 10:22:31] INFO root fetch - processPackages [hukudo]: Start processing: git-dl
+[2023-07-13 10:22:31] INFO root fetch - main [MainThread]: End processing [hukudo]: success
+[2023-07-13 10:22:31] INFO root fetch - processPackages [git-dl]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 10:22:31] INFO root fetch - processPackages [blendersynth]: Remove: archive file [/home/abi/fetcher/tmp/blendersynth-0.0.3.tar.gz]
+[2023-07-13 10:22:31] INFO root fetch - processPackages [blendersynth]: Remove: archive file [/home/abi/fetcher/tmp/blendersynth-0.0.4.tar.gz]
+[2023-07-13 10:22:31] INFO root fetch - main [MainThread]: End processing [blendersynth]: success
+[2023-07-13 10:22:31] INFO root fetch - processPackages [spaceone-config]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_config-1.9.7.1-py3-none-any.whl.zip]
+[2023-07-13 10:22:31] INFO root fetch - processPackages [spaceone-config]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_config-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-13 10:22:31] INFO root fetch - main [MainThread]: End processing [spaceone-config]: success
+[2023-07-13 10:22:31] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.8.tar.gz]
+[2023-07-13 10:22:31] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.9.tar.gz]
+[2023-07-13 10:22:31] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-07-13 10:22:31] INFO root fetch - processPackages [git-dl]: Downloading https://files.pythonhosted.org/packages/57/db/6a855a26a24c57500468a0c7617b6328b1309eaa8f1baf0e3afbd31f67dc/git_dl-0.0.1.tar.gz
+[2023-07-13 10:22:31] INFO root fetch - processPackages [spaceone-file-manager]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_file_manager-1.8.11-py3-none-any.whl.zip]
+[2023-07-13 10:22:31] INFO root fetch - processPackages [spaceone-file-manager]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_file_manager-1.8.11rc1-py3-none-any.whl.zip]
+[2023-07-13 10:22:31] INFO root fetch - main [MainThread]: End processing [spaceone-file-manager]: success
+[2023-07-13 10:22:31] INFO root fetch - processPackages [gaitmap-datasets]: Remove: archive file [/home/abi/fetcher/tmp/gaitmap_datasets-0.8.0.tar.gz]
+[2023-07-13 10:22:31] INFO root fetch - processPackages [gaitmap-datasets]: Remove: archive file [/home/abi/fetcher/tmp/gaitmap_datasets-0.9.0.tar.gz]
+[2023-07-13 10:22:31] INFO root fetch - main [MainThread]: End processing [gaitmap-datasets]: success
+[2023-07-13 10:22:31] INFO root fetch - processPackages [git-dl]: Downloading https://files.pythonhosted.org/packages/65/11/d751d824cb42aae9607b3f6159cc9ca0ae911499c0fdbdb2d87f492b43c7/git_dl-0.0.2.tar.gz
+[2023-07-13 10:22:32] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_cost_analysis-1.9.7.1-py3-none-any.whl.zip]
+[2023-07-13 10:22:32] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_cost_analysis-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-13 10:22:32] INFO root fetch - main [MainThread]: End processing [spaceone-cost-analysis]: success
+[2023-07-13 10:22:32] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_identity-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-13 10:22:32] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_identity-1.9.7rc2-py3-none-any.whl.zip]
+[2023-07-13 10:22:32] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
+[2023-07-13 10:22:32] INFO root fetch - processPackages [git-dl]: executing diffoscope
+[2023-07-13 10:22:32] INFO root fetch - processPackages [git-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_dl-0.0.1.tar.gz tmp/git_dl-0.0.2.tar.gz --markdown 20230713/g/git-dl/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 10:22:32] INFO root fetch - processPackages [git-dl]: Remove: archive file [/home/abi/fetcher/tmp/git_dl-0.0.1.tar.gz]
+[2023-07-13 10:22:32] INFO root fetch - processPackages [git-dl]: Remove: archive file [/home/abi/fetcher/tmp/git_dl-0.0.2.tar.gz]
+[2023-07-13 10:22:32] INFO root fetch - main [MainThread]: End processing [git-dl]: success
+[2023-07-13 10:22:33] INFO root fetch - processPackages [mtg-ssm]: Remove: archive file [/home/abi/fetcher/tmp/mtg_ssm-2.6.2.dev1.tar.gz]
+[2023-07-13 10:22:33] INFO root fetch - processPackages [mtg-ssm]: Remove: archive file [/home/abi/fetcher/tmp/mtg_ssm-2.6.2.dev2.tar.gz]
+[2023-07-13 10:22:33] INFO root fetch - main [MainThread]: End processing [mtg-ssm]: success
+[2023-07-13 10:22:34] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
+[2023-07-13 10:22:34] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
+[2023-07-13 10:22:34] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-13 10:22:34] INFO root fetch - main [MainThread]: Store serial: [18871793]
