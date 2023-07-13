@@ -6639,3 +6639,29 @@
 [2023-07-13 04:14:13] INFO root fetch - processPackages [trimnami]: Remove: archive file [/home/abi/fetcher/tmp/trimnami-0.0.6.tar.gz]
 [2023-07-13 04:14:13] INFO root fetch - main [MainThread]: End processing [trimnami]: success
 [2023-07-13 04:14:13] INFO root fetch - main [MainThread]: Store serial: [18868950]
+[2023-07-13 04:19:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18868950]
+[2023-07-13 04:19:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-13 04:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hana-ml
+[2023-07-13 04:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mathtext
+[2023-07-13 04:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyautosrt
+[2023-07-13 04:19:22] INFO root fetch - processPackages [pyautosrt]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-13 04:19:22] INFO root fetch - processPackages [hana-ml]: New version: [2.9.21072600] Old Version: [2.9.21070902]
+[2023-07-13 04:19:22] INFO root fetch - processPackages [mathtext]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 04:19:22] INFO root fetch - processPackages [pyautosrt]: Downloading https://files.pythonhosted.org/packages/6d/e7/dfffbd8aae0ef39ab6207933cc2486791a9c98d4add02ddab573e2949b30/pyautosrt-0.2.8.tar.gz
+[2023-07-13 04:19:22] INFO root fetch - processPackages [hana-ml]: Downloading https://files.pythonhosted.org/packages/bd/d0/0a066bb14a55ba8920480dd58c7e08c1decfd1102bf1b108546c61b21162/hana_ml-2.9.21070902-py3-none-any.whl
+[2023-07-13 04:19:22] INFO root fetch - processPackages [mathtext]: Downloading https://files.pythonhosted.org/packages/12/fc/43c69273b15fcec408339f8eb8bdcad454e58c30e87634b864c78b60a6d2/mathtext-0.0.8.tar.gz
+[2023-07-13 04:19:22] WARNING root fetch - processPackages [mathtext]: Skipping package: exceeds size limit 11880565>=10485760
+[2023-07-13 04:19:22] INFO root fetch - main [MainThread]: End processing [mathtext] error
+[2023-07-13 04:19:22] INFO root fetch - processPackages [pyautosrt]: Downloading https://files.pythonhosted.org/packages/0b/39/1f0ec5c8fcfa2dbd3cce3e9fa4a41cdddbc3e11123a2ebf947cb6d66772d/pyautosrt-0.2.9.tar.gz
+[2023-07-13 04:19:22] INFO root fetch - processPackages [pyautosrt]: executing diffoscope
+[2023-07-13 04:19:22] INFO root fetch - processPackages [pyautosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyautosrt-0.2.8.tar.gz tmp/pyautosrt-0.2.9.tar.gz --markdown 20230713/p/pyautosrt/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-13 04:19:22] INFO root fetch - processPackages [hana-ml]: Downloading https://files.pythonhosted.org/packages/11/a4/1139c239a5357dfb4c7bf0d380f11f356195222a7feb2dde835c60f9d7a9/hana_ml-2.9.21072600-py3-none-any.whl
+[2023-07-13 04:19:23] INFO root fetch - processPackages [hana-ml]: executing diffoscope
+[2023-07-13 04:19:23] INFO root fetch - processPackages [hana-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hana_ml-2.9.21070902-py3-none-any.whl.zip tmp/hana_ml-2.9.21072600-py3-none-any.whl.zip --markdown 20230713/h/hana-ml/2.9.21070902-2.9.21072600/diff.md --exclude *.pyd
+[2023-07-13 04:19:23] INFO root fetch - processPackages [pyautosrt]: Remove: archive file [/home/abi/fetcher/tmp/pyautosrt-0.2.8.tar.gz]
+[2023-07-13 04:19:23] INFO root fetch - processPackages [pyautosrt]: Remove: archive file [/home/abi/fetcher/tmp/pyautosrt-0.2.9.tar.gz]
+[2023-07-13 04:19:23] INFO root fetch - main [MainThread]: End processing [pyautosrt]: success
+[2023-07-13 04:19:24] INFO root fetch - processPackages [hana-ml]: Remove: archive file [/home/abi/fetcher/tmp/hana_ml-2.9.21070902-py3-none-any.whl.zip]
+[2023-07-13 04:19:24] INFO root fetch - processPackages [hana-ml]: Remove: archive file [/home/abi/fetcher/tmp/hana_ml-2.9.21072600-py3-none-any.whl.zip]
+[2023-07-13 04:19:24] INFO root fetch - main [MainThread]: End processing [hana-ml]: success
+[2023-07-13 04:19:24] INFO root fetch - main [MainThread]: Store serial: [18868957]
