@@ -5553,3 +5553,56 @@
 [2023-07-13 02:53:25] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-07-13 02:53:25] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-07-13 02:53:25] INFO root fetch - main [MainThread]: Store serial: [18868474]
+[2023-07-13 02:58:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18868474]
+[2023-07-13 02:58:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-13 02:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-comprehend-s3olap
+[2023-07-13 02:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BERTSimilar
+[2023-07-13 02:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stable-ts
+[2023-07-13 02:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: council-ai
+[2023-07-13 02:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nir
+[2023-07-13 02:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyhrms
+[2023-07-13 02:58:35] INFO root fetch - processPackages [stable-ts]: New version: [2.7.0] Old Version: [2.6.4]
+[2023-07-13 02:58:35] INFO root fetch - processPackages [BERTSimilar]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-13 02:58:35] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-13 02:58:35] INFO root fetch - processPackages [nir]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-07-13 02:58:35] INFO root fetch - processPackages [council-ai]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-13 02:58:35] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-07-13 02:58:35] INFO root fetch - processPackages [pyhrms]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-13 02:58:35] INFO root fetch - processPackages [BERTSimilar]: Downloading https://files.pythonhosted.org/packages/40/17/c5ccf5dbf0b3ebd99baeac328cd5fe40f5eb6974e1e8fe119b5514d3f27b/BERTSimilar-0.1.1.tar.gz
+[2023-07-13 02:58:35] INFO root fetch - processPackages [stable-ts]: Downloading https://files.pythonhosted.org/packages/fc/45/3e677609b669211c924aa92dd55010c4785021b216af167e8ed3d651cdde/stable-ts-2.6.4.tar.gz
+[2023-07-13 02:58:35] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-07-13 02:58:35] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-07-13 02:58:35] INFO root fetch - processPackages [nir]: Downloading https://files.pythonhosted.org/packages/f3/d6/80eab0a440f7fa2a3a78d417ed4717f037ecac119f4e4ce252894947a3c6/nir-0.0.6.tar.gz
+[2023-07-13 02:58:35] INFO root fetch - processPackages [council-ai]: Downloading https://files.pythonhosted.org/packages/48/ff/9760ab0af3165c888a9739085364a55e4ee175071ae9bc4c362def59bf3f/council_ai-0.0.3.tar.gz
+[2023-07-13 02:58:35] INFO root fetch - processPackages [pyhrms]: Downloading https://files.pythonhosted.org/packages/e9/e6/bc2f8987e719bddb1e850d575beab86daa0eb138fe12ea48d61da6077ce1/pyhrms-0.6.0.zip
+[2023-07-13 02:58:35] INFO root fetch - processPackages [BERTSimilar]: Downloading https://files.pythonhosted.org/packages/6b/21/9db53b900e8755713ea9972d73a1f46b92312666067b9f72bd93a274d80d/BERTSimilar-0.1.2.tar.gz
+[2023-07-13 02:58:35] INFO root fetch - processPackages [stable-ts]: Downloading https://files.pythonhosted.org/packages/6f/cb/92ce698ec855fb6458b53c54ec763eaab6b5c3a2c44e7857286bbf3852bf/stable-ts-2.7.0.tar.gz
+[2023-07-13 02:58:35] INFO root fetch - processPackages [BERTSimilar]: executing diffoscope
+[2023-07-13 02:58:35] INFO root fetch - processPackages [BERTSimilar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BERTSimilar-0.1.1.tar.gz tmp/BERTSimilar-0.1.2.tar.gz --markdown 20230713/B/BERTSimilar/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-13 02:58:35] INFO root fetch - processPackages [council-ai]: Downloading https://files.pythonhosted.org/packages/f7/2c/f18375fd6ddbff5546cb3800e055c055b646281b0451b396c0a39540a918/council_ai-0.0.4.tar.gz
+[2023-07-13 02:58:35] INFO root fetch - processPackages [stable-ts]: executing diffoscope
+[2023-07-13 02:58:35] INFO root fetch - processPackages [stable-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stable-ts-2.6.4.tar.gz tmp/stable-ts-2.7.0.tar.gz --markdown 20230713/s/stable-ts/2.6.4-2.7.0/diff.md --exclude *.pyd
+[2023-07-13 02:58:35] INFO root fetch - processPackages [nir]: Downloading https://files.pythonhosted.org/packages/65/28/5ac827f15e35fcf485c1a66007da8f1821975f6a4b9d173c9b9ec426508d/nir-0.1.0.tar.gz
+[2023-07-13 02:58:35] INFO root fetch - processPackages [pyhrms]: Downloading https://files.pythonhosted.org/packages/f1/de/054d8ab4a079702676c48f1ae7f4c39e45169ffbdc3d837b0a035aab532c/pyhrms-0.6.1.zip
+[2023-07-13 02:58:36] INFO root fetch - processPackages [nir]: executing diffoscope
+[2023-07-13 02:58:36] INFO root fetch - processPackages [nir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nir-0.0.6.tar.gz tmp/nir-0.1.0.tar.gz --markdown 20230713/n/nir/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-07-13 02:58:36] INFO root fetch - processPackages [pyhrms]: executing diffoscope
+[2023-07-13 02:58:36] INFO root fetch - processPackages [pyhrms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhrms-0.6.0.zip tmp/pyhrms-0.6.1.zip --markdown 20230713/p/pyhrms/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-13 02:58:36] INFO root fetch - processPackages [council-ai]: executing diffoscope
+[2023-07-13 02:58:36] INFO root fetch - processPackages [council-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/council_ai-0.0.3.tar.gz tmp/council_ai-0.0.4.tar.gz --markdown 20230713/c/council-ai/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-13 02:58:36] INFO root fetch - processPackages [BERTSimilar]: Remove: archive file [/home/abi/fetcher/tmp/BERTSimilar-0.1.1.tar.gz]
+[2023-07-13 02:58:36] INFO root fetch - processPackages [BERTSimilar]: Remove: archive file [/home/abi/fetcher/tmp/BERTSimilar-0.1.2.tar.gz]
+[2023-07-13 02:58:36] INFO root fetch - main [MainThread]: End processing [BERTSimilar]: success
+[2023-07-13 02:58:36] INFO root fetch - processPackages [stable-ts]: Remove: archive file [/home/abi/fetcher/tmp/stable-ts-2.6.4.tar.gz]
+[2023-07-13 02:58:36] INFO root fetch - processPackages [stable-ts]: Remove: archive file [/home/abi/fetcher/tmp/stable-ts-2.7.0.tar.gz]
+[2023-07-13 02:58:36] INFO root fetch - main [MainThread]: End processing [stable-ts]: success
+[2023-07-13 02:58:37] INFO root fetch - processPackages [pyhrms]: Remove: archive file [/home/abi/fetcher/tmp/pyhrms-0.6.0.zip]
+[2023-07-13 02:58:37] INFO root fetch - processPackages [pyhrms]: Remove: archive file [/home/abi/fetcher/tmp/pyhrms-0.6.1.zip]
+[2023-07-13 02:58:37] INFO root fetch - main [MainThread]: End processing [pyhrms]: success
+[2023-07-13 02:58:37] INFO root fetch - processPackages [nir]: Remove: archive file [/home/abi/fetcher/tmp/nir-0.0.6.tar.gz]
+[2023-07-13 02:58:37] INFO root fetch - processPackages [nir]: Remove: archive file [/home/abi/fetcher/tmp/nir-0.1.0.tar.gz]
+[2023-07-13 02:58:37] INFO root fetch - main [MainThread]: End processing [nir]: success
+[2023-07-13 02:58:37] INFO root fetch - processPackages [council-ai]: Remove: archive file [/home/abi/fetcher/tmp/council_ai-0.0.3.tar.gz]
+[2023-07-13 02:58:37] INFO root fetch - processPackages [council-ai]: Remove: archive file [/home/abi/fetcher/tmp/council_ai-0.0.4.tar.gz]
+[2023-07-13 02:58:37] INFO root fetch - main [MainThread]: End processing [council-ai]: success
+[2023-07-13 02:58:37] INFO root fetch - main [MainThread]: Store serial: [18868491]
