@@ -14315,3 +14315,222 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 10:22:34] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
 [2023-07-13 10:22:34] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-07-13 10:22:34] INFO root fetch - main [MainThread]: Store serial: [18871793]
+[2023-07-13 10:27:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18871793]
+[2023-07-13 10:27:44] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-13 10:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaceone-monitoring
+[2023-07-13 10:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-model-optimization-nightly
+[2023-07-13 10:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-notification
+[2023-07-13 10:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spaceone-plugin
+[2023-07-13 10:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mtg-ssm
+[2023-07-13 10:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spaceone-repository
+[2023-07-13 10:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eyes-images
+[2023-07-13 10:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eyes-playwright
+[2023-07-13 10:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eyes-selenium
+[2023-07-13 10:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pythogen
+[2023-07-13 10:27:44] INFO root fetch - processPackages [spaceone-monitoring]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-07-13 10:27:44] INFO root fetch - processPackages [spaceone-notification]: New version: [1.12.dev7] Old Version: [1.12.dev6]
+[2023-07-13 10:27:44] INFO root fetch - processPackages [pythogen]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-13 10:27:44] INFO root fetch - processPackages [eyes-images]: New version: [5.20.0] Old Version: [5.19.0]
+[2023-07-13 10:27:44] INFO root fetch - processPackages [spaceone-repository]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-07-13 10:27:44] INFO root fetch - processPackages [mtg-ssm]: New version: [2.6.2.dev3] Old Version: [2.6.2.dev2]
+[2023-07-13 10:27:44] INFO root fetch - processPackages [eyes-playwright]: New version: [5.20.0] Old Version: [5.19.0]
+[2023-07-13 10:27:44] INFO root fetch - processPackages [eyes-selenium]: New version: [5.9.0] Old Version: [5.8.0]
+[2023-07-13 10:27:44] INFO root fetch - processPackages [spaceone-plugin]: New version: [1.9.7rc1] Old Version: [1.9.7.2]
+[2023-07-13 10:27:45] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230713] Old Version: [0.7.5.dev20230711]
+[2023-07-13 10:27:45] INFO root fetch - processPackages [pythogen]: Downloading https://files.pythonhosted.org/packages/a1/b6/7f15f6b6311955f30f7afbb65cd6014bff0f479300d01d4b763979062b42/pythogen-0.2.4.tar.gz
+[2023-07-13 10:27:45] INFO root fetch - processPackages [spaceone-notification]: Downloading https://files.pythonhosted.org/packages/31/4a/292c4a5e95e7a14813c52cda539604ce95e2c7ec2b185a498a8a969c85d5/spaceone-notification-1.12.dev6.tar.gz
+[2023-07-13 10:27:45] INFO root fetch - processPackages [eyes-images]: Downloading https://files.pythonhosted.org/packages/99/5a/03554dbd8d74f15610ab7563dae2633df8e1819a534a13563a0beb8281b6/eyes_images-5.19.0-py2.py3-none-any.whl
+[2023-07-13 10:27:45] INFO root fetch - processPackages [mtg-ssm]: Downloading https://files.pythonhosted.org/packages/11/9a/fc8e9096480500e889fdb7ae0df590f92300e87624aea6da65e914f5fd23/mtg_ssm-2.6.2.dev2.tar.gz
+[2023-07-13 10:27:45] INFO root fetch - processPackages [spaceone-monitoring]: Downloading https://files.pythonhosted.org/packages/31/50/1785bbc97bdfb08a3303bb03b26d953cde9e97d4e2e70c591a6acd91bd55/spaceone_monitoring-1.9.7.1-py3-none-any.whl
+[2023-07-13 10:27:45] INFO root fetch - processPackages [eyes-playwright]: Downloading https://files.pythonhosted.org/packages/fc/c7/671c0e28f6bcc1e40ec8a6e751e2e099ec49f358f0591a586a43967b8fb0/eyes_playwright-5.19.0-py3-none-any.whl
+[2023-07-13 10:27:45] INFO root fetch - processPackages [spaceone-repository]: Downloading https://files.pythonhosted.org/packages/0c/5b/3ef4abc3acb2fefb7705a1bb9afca1085b0b831ddaf9156ca2a8be0c2e87/spaceone_repository-1.9.7.1-py3-none-any.whl
+[2023-07-13 10:27:45] INFO root fetch - processPackages [eyes-selenium]: Downloading https://files.pythonhosted.org/packages/ce/26/457d40e82171dcfe45eda1b142a903be4aeb73e0295cf4cfb05aa6987ce4/eyes_selenium-5.8.0.tar.gz
+[2023-07-13 10:27:45] INFO root fetch - processPackages [spaceone-plugin]: Downloading https://files.pythonhosted.org/packages/fc/e2/7181fc4fb594e9563106bb073b7d0a2163965fb92346319bfb2767f674f6/spaceone_plugin-1.9.7.2-py3-none-any.whl
+[2023-07-13 10:27:45] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/6e/9a/dc4fa739ce01313051cfc5dcb635f91496d1c3a3bdd0771a0ca4fb5eb74d/tf_model_optimization_nightly-0.7.5.dev20230711-py2.py3-none-any.whl
+[2023-07-13 10:27:45] INFO root fetch - processPackages [pythogen]: Downloading https://files.pythonhosted.org/packages/16/65/4933516fb8fd9cb9236d839073125ee4bf0a87589cf81f040deb2175417c/pythogen-0.2.5.tar.gz
+[2023-07-13 10:27:45] INFO root fetch - processPackages [pythogen]: executing diffoscope
+[2023-07-13 10:27:45] INFO root fetch - processPackages [pythogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythogen-0.2.4.tar.gz tmp/pythogen-0.2.5.tar.gz --markdown 20230713/p/pythogen/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-13 10:27:45] INFO root fetch - processPackages [spaceone-notification]: Downloading https://files.pythonhosted.org/packages/80/af/c2a409a07735e55b07ec5f0f4259e9744455645b611ed57b946688d2d7a4/spaceone-notification-1.12.dev7.tar.gz
+[2023-07-13 10:27:45] INFO root fetch - processPackages [spaceone-monitoring]: Downloading https://files.pythonhosted.org/packages/5c/43/1bcb4990406f113187354a4bc48e34799ab22b38cce64bbf832545718082/spaceone_monitoring-1.9.7rc1-py3-none-any.whl
+[2023-07-13 10:27:45] INFO root fetch - processPackages [eyes-images]: Downloading https://files.pythonhosted.org/packages/f0/ba/9b7bbcf9bd3faf84680d0169ac998a94485aa1518406f2a62c9736eacdf7/eyes_images-5.20.0-py2.py3-none-any.whl
+[2023-07-13 10:27:45] INFO root fetch - processPackages [mtg-ssm]: Downloading https://files.pythonhosted.org/packages/d5/63/5a8f326baf5cebf67f2274462b642425bf195de54b427a07abdc3fc64796/mtg_ssm-2.6.2.dev3.tar.gz
+[2023-07-13 10:27:45] INFO root fetch - processPackages [spaceone-repository]: Downloading https://files.pythonhosted.org/packages/15/4a/2de661da258ab7143f3a7e26a6226f76f03b84a178b745fcf9f33209acc3/spaceone_repository-1.9.7rc1-py3-none-any.whl
+[2023-07-13 10:27:45] INFO root fetch - processPackages [eyes-playwright]: Downloading https://files.pythonhosted.org/packages/cf/5b/bc3442ae15bd01b6332d12d7c21d032ae5191533788ba6651dc0445de767/eyes_playwright-5.20.0-py3-none-any.whl
+[2023-07-13 10:27:45] INFO root fetch - processPackages [spaceone-plugin]: Downloading https://files.pythonhosted.org/packages/49/24/2f5d11b22569fcca24e6ced49a4d3ca780ebadcff4047b6229deb760e6ee/spaceone_plugin-1.9.7rc1-py3-none-any.whl
+[2023-07-13 10:27:45] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/4b/f9/20a193e2ae42d4bf4d763a88510a2bf6004854be9777110bd93cec2774ff/tf_model_optimization_nightly-0.7.5.dev20230713-py2.py3-none-any.whl
+[2023-07-13 10:27:45] INFO root fetch - processPackages [eyes-selenium]: Downloading https://files.pythonhosted.org/packages/94/46/bdd8b2f661c4edefb5da178809217d15b736cfd984b3eca1afe213575308/eyes_selenium-5.9.0-py2.py3-none-any.whl
+[2023-07-13 10:27:45] INFO root fetch - processPackages [spaceone-notification]: executing diffoscope
+[2023-07-13 10:27:45] INFO root fetch - processPackages [spaceone-notification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-notification-1.12.dev6.tar.gz tmp/spaceone-notification-1.12.dev7.tar.gz --markdown 20230713/s/spaceone-notification/1.12.dev6-1.12.dev7/diff.md --exclude *.pyd
+[2023-07-13 10:27:45] INFO root fetch - processPackages [eyes-images]: executing diffoscope
+[2023-07-13 10:27:45] INFO root fetch - processPackages [eyes-images]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_images-5.19.0-py2.py3-none-any.whl.zip tmp/eyes_images-5.20.0-py2.py3-none-any.whl.zip --markdown 20230713/e/eyes-images/5.19.0-5.20.0/diff.md --exclude *.pyd
+[2023-07-13 10:27:45] INFO root fetch - processPackages [eyes-playwright]: executing diffoscope
+[2023-07-13 10:27:45] INFO root fetch - processPackages [eyes-playwright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_playwright-5.19.0-py3-none-any.whl.zip tmp/eyes_playwright-5.20.0-py3-none-any.whl.zip --markdown 20230713/e/eyes-playwright/5.19.0-5.20.0/diff.md --exclude *.pyd
+[2023-07-13 10:27:45] INFO root fetch - processPackages [spaceone-repository]: executing diffoscope
+[2023-07-13 10:27:45] INFO root fetch - processPackages [spaceone-repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_repository-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_repository-1.9.7rc1-py3-none-any.whl.zip --markdown 20230713/s/spaceone-repository/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-13 10:27:45] INFO root fetch - processPackages [spaceone-plugin]: executing diffoscope
+[2023-07-13 10:27:45] INFO root fetch - processPackages [spaceone-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_plugin-1.9.7.2-py3-none-any.whl.zip tmp/spaceone_plugin-1.9.7rc1-py3-none-any.whl.zip --markdown 20230713/s/spaceone-plugin/1.9.7.2-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-13 10:27:46] INFO root fetch - processPackages [spaceone-monitoring]: executing diffoscope
+[2023-07-13 10:27:46] INFO root fetch - processPackages [spaceone-monitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_monitoring-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_monitoring-1.9.7rc1-py3-none-any.whl.zip --markdown 20230713/s/spaceone-monitoring/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-13 10:27:46] INFO root fetch - processPackages [mtg-ssm]: executing diffoscope
+[2023-07-13 10:27:46] INFO root fetch - processPackages [mtg-ssm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtg_ssm-2.6.2.dev2.tar.gz tmp/mtg_ssm-2.6.2.dev3.tar.gz --markdown 20230713/m/mtg-ssm/2.6.2.dev2-2.6.2.dev3/diff.md --exclude *.pyd
+[2023-07-13 10:27:46] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-07-13 10:27:46] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230711-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230713-py2.py3-none-any.whl.zip --markdown 20230713/t/tf-model-optimization-nightly/0.7.5.dev20230711-0.7.5.dev20230713/diff.md --exclude *.pyd
+[2023-07-13 10:27:46] INFO root fetch - processPackages [eyes-selenium]: executing diffoscope
+[2023-07-13 10:27:46] INFO root fetch - processPackages [eyes-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_selenium-5.8.0.tar.gz tmp/eyes_selenium-5.9.0-py2.py3-none-any.whl.zip --markdown 20230713/e/eyes-selenium/5.8.0-5.9.0/diff.md --exclude *.pyd
+[2023-07-13 10:27:47] INFO root fetch - processPackages [pythogen]: Remove: archive file [/home/abi/fetcher/tmp/pythogen-0.2.4.tar.gz]
+[2023-07-13 10:27:47] INFO root fetch - processPackages [pythogen]: Remove: archive file [/home/abi/fetcher/tmp/pythogen-0.2.5.tar.gz]
+[2023-07-13 10:27:47] INFO root fetch - processPackages [pythogen]: Start processing: spaceone-secret
+[2023-07-13 10:27:47] INFO root fetch - main [MainThread]: End processing [pythogen]: success
+[2023-07-13 10:27:47] INFO root fetch - processPackages [spaceone-secret]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-07-13 10:27:48] INFO root fetch - processPackages [spaceone-secret]: Downloading https://files.pythonhosted.org/packages/f9/0a/b0db39cfa927121fe0322281b733f6c509647d8bd40c54b566a8f3ebb08f/spaceone_secret-1.9.7.1-py3-none-any.whl
+[2023-07-13 10:27:48] INFO root fetch - processPackages [eyes-playwright]: Remove: archive file [/home/abi/fetcher/tmp/eyes_playwright-5.19.0-py3-none-any.whl.zip]
+[2023-07-13 10:27:48] INFO root fetch - processPackages [eyes-playwright]: Remove: archive file [/home/abi/fetcher/tmp/eyes_playwright-5.20.0-py3-none-any.whl.zip]
+[2023-07-13 10:27:48] INFO root fetch - processPackages [eyes-playwright]: Start processing: spaceone-statistics
+[2023-07-13 10:27:48] INFO root fetch - main [MainThread]: End processing [eyes-playwright]: success
+[2023-07-13 10:27:48] INFO root fetch - processPackages [spaceone-statistics]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-07-13 10:27:48] INFO root fetch - processPackages [spaceone-secret]: Downloading https://files.pythonhosted.org/packages/75/44/b92d2532a1c1a1ec9c13a58d77760d51c0bc17b65ca3f67bf0944c9476db/spaceone_secret-1.9.7rc1-py3-none-any.whl
+[2023-07-13 10:27:48] INFO root fetch - processPackages [spaceone-statistics]: Downloading https://files.pythonhosted.org/packages/c4/cd/89cbaa5162f9dcaf485930e348ccbab424a9547c14941e7949b917ba2397/spaceone_statistics-1.9.7.1-py3-none-any.whl
+[2023-07-13 10:27:48] INFO root fetch - processPackages [eyes-selenium]: Remove: archive file [/home/abi/fetcher/tmp/eyes_selenium-5.8.0.tar.gz]
+[2023-07-13 10:27:48] INFO root fetch - processPackages [eyes-selenium]: Remove: archive file [/home/abi/fetcher/tmp/eyes_selenium-5.9.0-py2.py3-none-any.whl.zip]
+[2023-07-13 10:27:48] INFO root fetch - processPackages [eyes-selenium]: Start processing: mrob
+[2023-07-13 10:27:48] INFO root fetch - main [MainThread]: End processing [eyes-selenium]: success
+[2023-07-13 10:27:48] INFO root fetch - processPackages [mrob]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-13 10:27:48] INFO root fetch - processPackages [spaceone-secret]: executing diffoscope
+[2023-07-13 10:27:48] INFO root fetch - processPackages [spaceone-secret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_secret-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_secret-1.9.7rc1-py3-none-any.whl.zip --markdown 20230713/s/spaceone-secret/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-13 10:27:48] INFO root fetch - processPackages [spaceone-notification]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-notification-1.12.dev6.tar.gz]
+[2023-07-13 10:27:48] INFO root fetch - processPackages [spaceone-notification]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-notification-1.12.dev7.tar.gz]
+[2023-07-13 10:27:48] INFO root fetch - processPackages [spaceone-notification]: Start processing: Alphakit
+[2023-07-13 10:27:48] INFO root fetch - main [MainThread]: End processing [spaceone-notification]: success
+[2023-07-13 10:27:48] INFO root fetch - processPackages [spaceone-repository]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_repository-1.9.7.1-py3-none-any.whl.zip]
+[2023-07-13 10:27:48] INFO root fetch - processPackages [spaceone-repository]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_repository-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-13 10:27:49] INFO root fetch - processPackages [spaceone-repository]: Start processing: kraken-build
+[2023-07-13 10:27:49] INFO root fetch - main [MainThread]: End processing [spaceone-repository]: success
+[2023-07-13 10:27:49] INFO root fetch - processPackages [spaceone-plugin]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_plugin-1.9.7.2-py3-none-any.whl.zip]
+[2023-07-13 10:27:49] INFO root fetch - processPackages [spaceone-plugin]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_plugin-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-13 10:27:49] INFO root fetch - processPackages [spaceone-plugin]: Start processing: kraken-common
+[2023-07-13 10:27:49] INFO root fetch - main [MainThread]: End processing [spaceone-plugin]: success
+[2023-07-13 10:27:49] INFO root fetch - processPackages [Alphakit]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-13 10:27:49] INFO root fetch - processPackages [kraken-build]: New version: [0.29.0] Old Version: [0.28.4]
+[2023-07-13 10:27:49] INFO root fetch - processPackages [kraken-common]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-13 10:27:49] INFO root fetch - processPackages [mtg-ssm]: Remove: archive file [/home/abi/fetcher/tmp/mtg_ssm-2.6.2.dev2.tar.gz]
+[2023-07-13 10:27:49] INFO root fetch - processPackages [mtg-ssm]: Remove: archive file [/home/abi/fetcher/tmp/mtg_ssm-2.6.2.dev3.tar.gz]
+[2023-07-13 10:27:49] INFO root fetch - processPackages [mtg-ssm]: Start processing: kraken-core
+[2023-07-13 10:27:49] INFO root fetch - main [MainThread]: End processing [mtg-ssm]: success
+[2023-07-13 10:27:49] INFO root fetch - processPackages [Alphakit]: Downloading https://files.pythonhosted.org/packages/15/97/dc2fee004aa1bf0b0b4c9e489e7f8d33ebc2dcdb20aaecd0692f1323a216/Alphakit-1.2.1.tar.gz
+[2023-07-13 10:27:49] INFO root fetch - processPackages [mrob]: Downloading https://files.pythonhosted.org/packages/09/21/557f4b17f980d5892522880a8fb6b9110a6c4ba44f9362bedf4860a75d8e/mrob-0.0.7-py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-07-13 10:27:49] INFO root fetch - processPackages [kraken-core]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-13 10:27:49] INFO root fetch - processPackages [spaceone-statistics]: Downloading https://files.pythonhosted.org/packages/d8/90/c82400b8d58297dc11095bbdb405ef1da35645a64f284e3f7024b4234ff6/spaceone_statistics-1.9.7rc1-py3-none-any.whl
+[2023-07-13 10:27:49] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/a5/15/73eeab488ca216ecbc6482ef1232fd1a2666e51913df349a022815c5d3f0/kraken_build-0.28.4.tar.gz
+[2023-07-13 10:27:49] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/88/b6/970ad5d730a7c28f02ecce40246458941d521ab7049074d0c03bc6304f7c/kraken_common-0.5.3.tar.gz
+[2023-07-13 10:27:49] INFO root fetch - processPackages [spaceone-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_monitoring-1.9.7.1-py3-none-any.whl.zip]
+[2023-07-13 10:27:49] INFO root fetch - processPackages [spaceone-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_monitoring-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-13 10:27:49] INFO root fetch - processPackages [spaceone-monitoring]: Start processing: YYYTools
+[2023-07-13 10:27:49] INFO root fetch - main [MainThread]: End processing [spaceone-monitoring]: success
+[2023-07-13 10:27:49] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230711-py2.py3-none-any.whl.zip]
+[2023-07-13 10:27:49] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230713-py2.py3-none-any.whl.zip]
+[2023-07-13 10:27:49] INFO root fetch - processPackages [tf-model-optimization-nightly]: Start processing: kraken-wrapper
+[2023-07-13 10:27:49] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-07-13 10:27:49] INFO root fetch - processPackages [YYYTools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-13 10:27:49] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/c6/4c/480e3d597162031534e0e300b1d98eeec0838406875f691703142326e36a/kraken-core-0.9.5.tar.gz
+[2023-07-13 10:27:49] INFO root fetch - processPackages [spaceone-statistics]: executing diffoscope
+[2023-07-13 10:27:49] INFO root fetch - processPackages [spaceone-statistics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_statistics-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_statistics-1.9.7rc1-py3-none-any.whl.zip --markdown 20230713/s/spaceone-statistics/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-13 10:27:49] INFO root fetch - processPackages [Alphakit]: Downloading https://files.pythonhosted.org/packages/5b/24/4c61b5beb2955a12d71cd5301d12b7a9690867a1f378926f94b1231117b8/Alphakit-1.2.2.tar.gz
+[2023-07-13 10:27:49] INFO root fetch - processPackages [kraken-wrapper]: New version: [0.29.0] Old Version: [0.28.4]
+[2023-07-13 10:27:49] INFO root fetch - processPackages [eyes-images]: Remove: archive file [/home/abi/fetcher/tmp/eyes_images-5.19.0-py2.py3-none-any.whl.zip]
+[2023-07-13 10:27:49] INFO root fetch - processPackages [eyes-images]: Remove: archive file [/home/abi/fetcher/tmp/eyes_images-5.20.0-py2.py3-none-any.whl.zip]
+[2023-07-13 10:27:49] INFO root fetch - processPackages [eyes-images]: Start processing: kraken-std
+[2023-07-13 10:27:49] INFO root fetch - main [MainThread]: End processing [eyes-images]: success
+[2023-07-13 10:27:49] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/9e/71/d9409fd1c40a0cfed7a5286a782b826e974b7dd73e8e21079d37d8338f65/kraken_build-0.29.0.tar.gz
+[2023-07-13 10:27:49] INFO root fetch - processPackages [kraken-std]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-13 10:27:49] INFO root fetch - processPackages [Alphakit]: executing diffoscope
+[2023-07-13 10:27:49] INFO root fetch - processPackages [Alphakit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alphakit-1.2.1.tar.gz tmp/Alphakit-1.2.2.tar.gz --markdown 20230713/A/Alphakit/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-13 10:27:49] INFO root fetch - processPackages [YYYTools]: Downloading https://files.pythonhosted.org/packages/a3/2d/a51f3af1c4022e8828be764ecc2035f73ca295154d150e125e1bf6ecf12d/YYYTools-0.1.8.tar.gz
+[2023-07-13 10:27:49] INFO root fetch - processPackages [kraken-build]: executing diffoscope
+[2023-07-13 10:27:49] INFO root fetch - processPackages [kraken-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_build-0.28.4.tar.gz tmp/kraken_build-0.29.0.tar.gz --markdown 20230713/k/kraken-build/0.28.4-0.29.0/diff.md --exclude *.pyd
+[2023-07-13 10:27:49] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/59/56/ca2311dd7b4f5726f288630f69534a594a9b29762241fb4415c74f6e628e/kraken_wrapper-0.28.4.tar.gz
+[2023-07-13 10:27:49] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/b6/f4/2ddff1c25849833594115f69989cc831a594882af04a874bbb728e402668/kraken-core-0.9.6.tar.gz
+[2023-07-13 10:27:49] INFO root fetch - processPackages [mrob]: Downloading https://files.pythonhosted.org/packages/2f/df/32022658f3967c87cc34658a8023f63670bccaf7cdd94d96127cc1da4728/mrob-0.0.8-py3-none-win_amd64.whl
+[2023-07-13 10:27:49] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/28/6b/40996d0e584f418f756a443a993b2ef5a68d9d934839d39b791b65917fc9/kraken_common-0.5.4.tar.gz
+[2023-07-13 10:27:50] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/d2/93/fc7a0d5c20d6a3d551ef23ed605451eef6aa6cb35c9cf7b3366ffe5cc5e0/kraken_std-0.8.8.tar.gz
+[2023-07-13 10:27:50] INFO root fetch - processPackages [kraken-core]: executing diffoscope
+[2023-07-13 10:27:50] INFO root fetch - processPackages [kraken-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken-core-0.9.5.tar.gz tmp/kraken-core-0.9.6.tar.gz --markdown 20230713/k/kraken-core/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-13 10:27:50] INFO root fetch - processPackages [kraken-common]: executing diffoscope
+[2023-07-13 10:27:50] INFO root fetch - processPackages [kraken-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_common-0.5.3.tar.gz tmp/kraken_common-0.5.4.tar.gz --markdown 20230713/k/kraken-common/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-13 10:27:50] INFO root fetch - processPackages [YYYTools]: Downloading https://files.pythonhosted.org/packages/a0/12/a35d4f6588ab31f265ff7823cad95e190c9d2bfd91e0de59511bf89fae72/YYYTools-0.1.9.tar.gz
+[2023-07-13 10:27:50] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/20/8e/6822e74ab9207c52c596b00d946622d349aa76710a473dee8f6434616cb3/kraken_wrapper-0.29.0.tar.gz
+[2023-07-13 10:27:50] INFO root fetch - processPackages [YYYTools]: executing diffoscope
+[2023-07-13 10:27:50] INFO root fetch - processPackages [YYYTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YYYTools-0.1.8.tar.gz tmp/YYYTools-0.1.9.tar.gz --markdown 20230713/Y/YYYTools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-13 10:27:50] INFO root fetch - processPackages [kraken-wrapper]: executing diffoscope
+[2023-07-13 10:27:50] INFO root fetch - processPackages [kraken-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_wrapper-0.28.4.tar.gz tmp/kraken_wrapper-0.29.0.tar.gz --markdown 20230713/k/kraken-wrapper/0.28.4-0.29.0/diff.md --exclude *.pyd
+[2023-07-13 10:27:50] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/a6/a8/8a0c122aadc67da4627c416b4669ed0c677b7b474f97ddb283c496a82a37/kraken_std-0.8.9.tar.gz
+[2023-07-13 10:27:50] INFO root fetch - processPackages [mrob]: executing diffoscope
+[2023-07-13 10:27:50] INFO root fetch - processPackages [mrob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrob-0.0.7-py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/mrob-0.0.8-py3-none-win_amd64.whl.zip --markdown 20230713/m/mrob/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-13 10:27:50] INFO root fetch - processPackages [kraken-std]: executing diffoscope
+[2023-07-13 10:27:50] INFO root fetch - processPackages [kraken-std]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_std-0.8.8.tar.gz tmp/kraken_std-0.8.9.tar.gz --markdown 20230713/k/kraken-std/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-13 10:27:50] INFO root fetch - processPackages [spaceone-secret]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_secret-1.9.7.1-py3-none-any.whl.zip]
+[2023-07-13 10:27:50] INFO root fetch - processPackages [spaceone-secret]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_secret-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-13 10:27:50] INFO root fetch - processPackages [spaceone-secret]: Start processing: ural
+[2023-07-13 10:27:50] INFO root fetch - main [MainThread]: End processing [spaceone-secret]: success
+[2023-07-13 10:27:50] INFO root fetch - processPackages [ural]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-13 10:27:50] INFO root fetch - processPackages [ural]: Downloading https://files.pythonhosted.org/packages/f4/e5/a271a9f3c09f5ab118bade0be5451084882b62d366453410b5b99716dc20/ural-0.8.0.tar.gz
+[2023-07-13 10:27:51] INFO root fetch - processPackages [ural]: Downloading https://files.pythonhosted.org/packages/8d/1a/a55321eefe2a11952939c061467755bbb0efafe278341985aebf3333527c/ural-0.9.0.tar.gz
+[2023-07-13 10:27:51] INFO root fetch - processPackages [ural]: executing diffoscope
+[2023-07-13 10:27:51] INFO root fetch - processPackages [ural]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ural-0.8.0.tar.gz tmp/ural-0.9.0.tar.gz --markdown 20230713/u/ural/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-13 10:27:51] INFO root fetch - processPackages [spaceone-statistics]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_statistics-1.9.7.1-py3-none-any.whl.zip]
+[2023-07-13 10:27:51] INFO root fetch - processPackages [spaceone-statistics]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_statistics-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-13 10:27:51] INFO root fetch - processPackages [spaceone-statistics]: Start processing: gcp-ng-helpers
+[2023-07-13 10:27:51] INFO root fetch - main [MainThread]: End processing [spaceone-statistics]: success
+[2023-07-13 10:27:51] INFO root fetch - processPackages [gcp-ng-helpers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 10:27:52] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.28.4.tar.gz]
+[2023-07-13 10:27:52] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.29.0.tar.gz]
+[2023-07-13 10:27:52] INFO root fetch - processPackages [kraken-build]: Start processing: parse-k8s-resources
+[2023-07-13 10:27:52] INFO root fetch - main [MainThread]: End processing [kraken-build]: success
+[2023-07-13 10:27:52] INFO root fetch - processPackages [parse-k8s-resources]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 10:27:52] INFO root fetch - processPackages [gcp-ng-helpers]: Downloading https://files.pythonhosted.org/packages/54/78/15f3207f0255fc2e3b7c7eaa198c84588a50a8e4a7da118ad1c8f76f5eba/gcp_ng_helpers-0.0.8.tar.gz
+[2023-07-13 10:27:52] INFO root fetch - processPackages [Alphakit]: Remove: archive file [/home/abi/fetcher/tmp/Alphakit-1.2.1.tar.gz]
+[2023-07-13 10:27:52] INFO root fetch - processPackages [Alphakit]: Remove: archive file [/home/abi/fetcher/tmp/Alphakit-1.2.2.tar.gz]
+[2023-07-13 10:27:52] INFO root fetch - processPackages [Alphakit]: Start processing: sekoia-automation-sdk
+[2023-07-13 10:27:52] INFO root fetch - main [MainThread]: End processing [Alphakit]: success
+[2023-07-13 10:27:52] INFO root fetch - processPackages [sekoia-automation-sdk]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-07-13 10:27:52] INFO root fetch - processPackages [parse-k8s-resources]: Downloading https://files.pythonhosted.org/packages/51/9d/bb5610f4355cbbae98ed905806dd4414b1ff6be6962a082da6e80f7ab6c6/parse-k8s-resources-0.0.1.tar.gz
+[2023-07-13 10:27:52] INFO root fetch - processPackages [sekoia-automation-sdk]: Downloading https://files.pythonhosted.org/packages/ac/3c/b353a94aa9553f86d49a27a5c819178834098175da8e3f397700329d841f/sekoia_automation_sdk-1.3.6.tar.gz
+[2023-07-13 10:27:52] INFO root fetch - processPackages [kraken-common]: Remove: archive file [/home/abi/fetcher/tmp/kraken_common-0.5.3.tar.gz]
+[2023-07-13 10:27:52] INFO root fetch - processPackages [kraken-common]: Remove: archive file [/home/abi/fetcher/tmp/kraken_common-0.5.4.tar.gz]
+[2023-07-13 10:27:52] INFO root fetch - main [MainThread]: End processing [kraken-common]: success
+[2023-07-13 10:27:52] INFO root fetch - processPackages [gcp-ng-helpers]: Downloading https://files.pythonhosted.org/packages/c9/5b/f3d84d39a61bb6b652aaf1d308da0692936d869373c6fe507bcd898f29cb/gcp_ng_helpers-0.0.9.tar.gz
+[2023-07-13 10:27:52] INFO root fetch - processPackages [gcp-ng-helpers]: executing diffoscope
+[2023-07-13 10:27:52] INFO root fetch - processPackages [gcp-ng-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp_ng_helpers-0.0.8.tar.gz tmp/gcp_ng_helpers-0.0.9.tar.gz --markdown 20230713/g/gcp-ng-helpers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 10:27:52] INFO root fetch - processPackages [sekoia-automation-sdk]: Downloading https://files.pythonhosted.org/packages/58/32/56b88b0b0e591827dc71a295a3ec4c396c753db49f3199e72792a9e9a0c9/sekoia_automation_sdk-1.3.7.tar.gz
+[2023-07-13 10:27:52] INFO root fetch - processPackages [parse-k8s-resources]: Downloading https://files.pythonhosted.org/packages/68/c4/354036ca48300f1bf9cd864477c431833603c13076db5f7a07233b602315/parse-k8s-resources-0.0.2.tar.gz
+[2023-07-13 10:27:52] INFO root fetch - processPackages [sekoia-automation-sdk]: executing diffoscope
+[2023-07-13 10:27:52] INFO root fetch - processPackages [sekoia-automation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sekoia_automation_sdk-1.3.6.tar.gz tmp/sekoia_automation_sdk-1.3.7.tar.gz --markdown 20230713/s/sekoia-automation-sdk/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-07-13 10:27:53] INFO root fetch - processPackages [kraken-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/kraken_wrapper-0.28.4.tar.gz]
+[2023-07-13 10:27:53] INFO root fetch - processPackages [kraken-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/kraken_wrapper-0.29.0.tar.gz]
+[2023-07-13 10:27:53] INFO root fetch - main [MainThread]: End processing [kraken-wrapper]: success
+[2023-07-13 10:27:53] INFO root fetch - processPackages [kraken-core]: Remove: archive file [/home/abi/fetcher/tmp/kraken-core-0.9.5.tar.gz]
+[2023-07-13 10:27:53] INFO root fetch - processPackages [kraken-core]: Remove: archive file [/home/abi/fetcher/tmp/kraken-core-0.9.6.tar.gz]
+[2023-07-13 10:27:53] INFO root fetch - main [MainThread]: End processing [kraken-core]: success
+[2023-07-13 10:27:53] INFO root fetch - processPackages [parse-k8s-resources]: executing diffoscope
+[2023-07-13 10:27:53] INFO root fetch - processPackages [parse-k8s-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse-k8s-resources-0.0.1.tar.gz tmp/parse-k8s-resources-0.0.2.tar.gz --markdown 20230713/p/parse-k8s-resources/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 10:27:53] INFO root fetch - processPackages [YYYTools]: Remove: archive file [/home/abi/fetcher/tmp/YYYTools-0.1.8.tar.gz]
+[2023-07-13 10:27:53] INFO root fetch - processPackages [YYYTools]: Remove: archive file [/home/abi/fetcher/tmp/YYYTools-0.1.9.tar.gz]
+[2023-07-13 10:27:53] INFO root fetch - main [MainThread]: End processing [YYYTools]: success
+[2023-07-13 10:27:53] INFO root fetch - processPackages [mrob]: Remove: archive file [/home/abi/fetcher/tmp/mrob-0.0.7-py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
+[2023-07-13 10:27:53] INFO root fetch - processPackages [mrob]: Remove: archive file [/home/abi/fetcher/tmp/mrob-0.0.8-py3-none-win_amd64.whl.zip]
+[2023-07-13 10:27:53] INFO root fetch - main [MainThread]: End processing [mrob]: success
+[2023-07-13 10:27:53] INFO root fetch - processPackages [kraken-std]: Remove: archive file [/home/abi/fetcher/tmp/kraken_std-0.8.8.tar.gz]
+[2023-07-13 10:27:53] INFO root fetch - processPackages [kraken-std]: Remove: archive file [/home/abi/fetcher/tmp/kraken_std-0.8.9.tar.gz]
+[2023-07-13 10:27:53] INFO root fetch - main [MainThread]: End processing [kraken-std]: success
+[2023-07-13 10:27:53] INFO root fetch - processPackages [ural]: Remove: archive file [/home/abi/fetcher/tmp/ural-0.8.0.tar.gz]
+[2023-07-13 10:27:53] INFO root fetch - processPackages [ural]: Remove: archive file [/home/abi/fetcher/tmp/ural-0.9.0.tar.gz]
+[2023-07-13 10:27:53] INFO root fetch - main [MainThread]: End processing [ural]: success
+[2023-07-13 10:27:54] INFO root fetch - processPackages [sekoia-automation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sekoia_automation_sdk-1.3.6.tar.gz]
+[2023-07-13 10:27:54] INFO root fetch - processPackages [sekoia-automation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sekoia_automation_sdk-1.3.7.tar.gz]
+[2023-07-13 10:27:54] INFO root fetch - main [MainThread]: End processing [sekoia-automation-sdk]: success
+[2023-07-13 10:27:54] INFO root fetch - processPackages [gcp-ng-helpers]: Remove: archive file [/home/abi/fetcher/tmp/gcp_ng_helpers-0.0.8.tar.gz]
+[2023-07-13 10:27:54] INFO root fetch - processPackages [gcp-ng-helpers]: Remove: archive file [/home/abi/fetcher/tmp/gcp_ng_helpers-0.0.9.tar.gz]
+[2023-07-13 10:27:54] INFO root fetch - main [MainThread]: End processing [gcp-ng-helpers]: success
+[2023-07-13 10:27:54] INFO root fetch - processPackages [parse-k8s-resources]: Remove: archive file [/home/abi/fetcher/tmp/parse-k8s-resources-0.0.1.tar.gz]
+[2023-07-13 10:27:54] INFO root fetch - processPackages [parse-k8s-resources]: Remove: archive file [/home/abi/fetcher/tmp/parse-k8s-resources-0.0.2.tar.gz]
+[2023-07-13 10:27:54] INFO root fetch - main [MainThread]: End processing [parse-k8s-resources]: success
+[2023-07-13 10:27:54] INFO root fetch - main [MainThread]: Store serial: [18871871]
