@@ -12748,3 +12748,97 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 08:47:17] INFO root fetch - processPackages [muffin-admin]: Remove: archive file [/home/abi/fetcher/tmp/muffin-admin-1.9.0.tar.gz]
 [2023-07-13 08:47:17] INFO root fetch - main [MainThread]: End processing [muffin-admin]: success
 [2023-07-13 08:47:17] INFO root fetch - main [MainThread]: Store serial: [18871042]
+[2023-07-13 08:52:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18871042]
+[2023-07-13 08:52:26] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-13 08:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: surfify
+[2023-07-13 08:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cjm-yolox-pytorch
+[2023-07-13 08:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bframe
+[2023-07-13 08:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: strawberry-django-auth-jwt
+[2023-07-13 08:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ML-Algo
+[2023-07-13 08:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: axelot-autotesting
+[2023-07-13 08:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aihero
+[2023-07-13 08:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: timespan
+[2023-07-13 08:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cjm-yolox-pytorch
+[2023-07-13 08:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: EmberFactory
+[2023-07-13 08:52:27] INFO root fetch - processPackages [surfify]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-13 08:52:27] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 08:52:27] WARNING root fetch - processPackages [axelot-autotesting]: Skipping, unable to determine old version
+[2023-07-13 08:52:27] INFO root fetch - processPackages [axelot-autotesting]: Start processing: gpassw
+[2023-07-13 08:52:27] INFO root fetch - main [MainThread]: End processing [axelot-autotesting] error
+[2023-07-13 08:52:27] INFO root fetch - processPackages [aihero]: New version: [0.2.1] Old Version: [0.1.9]
+[2023-07-13 08:52:27] INFO root fetch - processPackages [bframe]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 08:52:27] INFO root fetch - processPackages [timespan]: New version: [0.2.0] Old Version: [0.1]
+[2023-07-13 08:52:27] INFO root fetch - processPackages [EmberFactory]: New version: [1.8.0b3] Old Version: [1.8.0]
+[2023-07-13 08:52:27] INFO root fetch - processPackages [strawberry-django-auth-jwt]: New version: [0.2.5.dev1689230891] Old Version: [0.2.5.dev1689110373]
+[2023-07-13 08:52:27] INFO root fetch - processPackages [ML-Algo]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-13 08:52:27] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 08:52:27] INFO root fetch - processPackages [gpassw]: New version: [0.1.3] Old Version: [0.1.12]
+[2023-07-13 08:52:27] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-13 08:52:27] INFO root fetch - processPackages [ML-Algo]: Downloading https://files.pythonhosted.org/packages/f6/b3/16ca27fe7239a4817336508dbf8337b736658a4254d0205359894fe68923/ML-Algo-1.2.5.tar.gz
+[2023-07-13 08:52:27] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-13 08:52:27] INFO root fetch - processPackages [EmberFactory]: Downloading https://files.pythonhosted.org/packages/bd/e6/27ba67d32cd640d0a6573577debd4c59718907ca846f26d48a9fe865f62c/EmberFactory-1.8.0-py3-none-any.whl
+[2023-07-13 08:52:27] INFO root fetch - processPackages [surfify]: Downloading https://files.pythonhosted.org/packages/f8/97/6af7337e88d0f50522651d41f9afe03bb6554f52ee28a6b77d27076f4903/surfify-0.1.0.tar.gz
+[2023-07-13 08:52:27] INFO root fetch - processPackages [aihero]: Downloading https://files.pythonhosted.org/packages/dc/9f/887a8f6947c89760f6794d2e0e2163d3e0f1f06e0fe24f3b1bd5591c214f/aihero-0.1.9.tar.gz
+[2023-07-13 08:52:27] INFO root fetch - processPackages [timespan]: Downloading https://files.pythonhosted.org/packages/0f/cd/ea6913e0966290240537112e255f4f986ed093ad39b2070abe6175091bdd/timespan-0.1.tar.gz
+[2023-07-13 08:52:27] INFO root fetch - processPackages [strawberry-django-auth-jwt]: Downloading https://files.pythonhosted.org/packages/99/56/afb2b7f1f165742a82a7eb6dedf1ef472ab9f6f214bf0fad0ddae3e11ad1/strawberry_django_auth_jwt-0.2.5.dev1689110373.tar.gz
+[2023-07-13 08:52:27] INFO root fetch - processPackages [bframe]: Downloading https://files.pythonhosted.org/packages/d3/61/fed8421780daf86bbd7120fe2c164bce718c0003d727fcafb7988181e1f0/bframe-0.0.8-py3-none-any.whl
+[2023-07-13 08:52:27] INFO root fetch - processPackages [gpassw]: Downloading https://files.pythonhosted.org/packages/ae/07/de8c21a262d0c7d615cbba3a34860669f9710d0a0c8417d2de6ef0952d3c/gpassw-0.1.12.tar.gz
+[2023-07-13 08:52:27] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 08:52:27] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 08:52:27] INFO root fetch - processPackages [ML-Algo]: Downloading https://files.pythonhosted.org/packages/f4/a7/73959948aa280214984cbe2b5145a014844aca006892295170e1d231ac42/ML-Algo-1.2.6.tar.gz
+[2023-07-13 08:52:27] INFO root fetch - processPackages [EmberFactory]: Downloading https://files.pythonhosted.org/packages/f2/9f/cba824fdadea9e9a0b0af2f7428aa1598e5629590d780d67ebca6e3cbb38/EmberFactory-1.8.0b3-py3-none-any.whl
+[2023-07-13 08:52:27] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 08:52:27] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 08:52:28] INFO root fetch - processPackages [aihero]: Downloading https://files.pythonhosted.org/packages/e7/8c/851bc7ef1fd3ece924d7bd839d1f8a18342da531f9039db99e68481ea688/aihero-0.2.1.tar.gz
+[2023-07-13 08:52:28] INFO root fetch - processPackages [timespan]: Downloading https://files.pythonhosted.org/packages/67/8e/eabdcfc51c2c54055134f7f34cffe2e426c95812dca18be0be6c4a902e4e/timespan-0.2.0-py3-none-any.whl
+[2023-07-13 08:52:28] INFO root fetch - processPackages [gpassw]: Downloading https://files.pythonhosted.org/packages/fe/7d/7f6b506e3fcbc2d411eb9ba6bb9a2ce77ac197e0e70b5d2d3e5dc9495afe/gpassw-0.1.3-py3-none-any.whl
+[2023-07-13 08:52:28] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 08:52:28] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 08:52:28] INFO root fetch - processPackages [bframe]: Downloading https://files.pythonhosted.org/packages/fe/33/5d35e89e156d3969e0b68bb0e8cb2520172fd0a508e360d3cabed118ac46/bframe-0.0.9-py3-none-any.whl
+[2023-07-13 08:52:28] INFO root fetch - processPackages [strawberry-django-auth-jwt]: Downloading https://files.pythonhosted.org/packages/11/44/1db1a9261a4e38682687fcfbdd95b61261c6b7f1fe0e94571ade03633fe6/strawberry_django_auth_jwt-0.2.5.dev1689230891.tar.gz
+[2023-07-13 08:52:28] INFO root fetch - processPackages [ML-Algo]: executing diffoscope
+[2023-07-13 08:52:28] INFO root fetch - processPackages [ML-Algo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ML-Algo-1.2.5.tar.gz tmp/ML-Algo-1.2.6.tar.gz --markdown 20230713/M/ML-Algo/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-13 08:52:28] INFO root fetch - processPackages [aihero]: executing diffoscope
+[2023-07-13 08:52:28] INFO root fetch - processPackages [aihero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihero-0.1.9.tar.gz tmp/aihero-0.2.1.tar.gz --markdown 20230713/a/aihero/0.1.9-0.2.1/diff.md --exclude *.pyd
+[2023-07-13 08:52:28] INFO root fetch - processPackages [timespan]: executing diffoscope
+[2023-07-13 08:52:28] INFO root fetch - processPackages [timespan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timespan-0.1.tar.gz tmp/timespan-0.2.0-py3-none-any.whl.zip --markdown 20230713/t/timespan/0.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-13 08:52:28] INFO root fetch - processPackages [EmberFactory]: executing diffoscope
+[2023-07-13 08:52:28] INFO root fetch - processPackages [EmberFactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EmberFactory-1.8.0-py3-none-any.whl.zip tmp/EmberFactory-1.8.0b3-py3-none-any.whl.zip --markdown 20230713/E/EmberFactory/1.8.0-1.8.0b3/diff.md --exclude *.pyd
+[2023-07-13 08:52:28] INFO root fetch - processPackages [bframe]: executing diffoscope
+[2023-07-13 08:52:28] INFO root fetch - processPackages [bframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bframe-0.0.8-py3-none-any.whl.zip tmp/bframe-0.0.9-py3-none-any.whl.zip --markdown 20230713/b/bframe/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 08:52:28] INFO root fetch - processPackages [gpassw]: executing diffoscope
+[2023-07-13 08:52:28] INFO root fetch - processPackages [gpassw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpassw-0.1.12.tar.gz tmp/gpassw-0.1.3-py3-none-any.whl.zip --markdown 20230713/g/gpassw/0.1.12-0.1.3/diff.md --exclude *.pyd
+[2023-07-13 08:52:28] INFO root fetch - processPackages [strawberry-django-auth-jwt]: executing diffoscope
+[2023-07-13 08:52:28] INFO root fetch - processPackages [strawberry-django-auth-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry_django_auth_jwt-0.2.5.dev1689110373.tar.gz tmp/strawberry_django_auth_jwt-0.2.5.dev1689230891.tar.gz --markdown 20230713/s/strawberry-django-auth-jwt/0.2.5.dev1689110373-0.2.5.dev1689230891/diff.md --exclude *.pyd
+[2023-07-13 08:52:28] INFO root fetch - processPackages [surfify]: Downloading https://files.pythonhosted.org/packages/26/ed/bb90ed7183dc5fa7adfddffdb1762c319fbbcc48b0df3c5632a80b6aaea1/surfify-0.2.0.tar.gz
+[2023-07-13 08:52:29] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-13 08:52:29] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 08:52:29] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 08:52:29] INFO root fetch - processPackages [surfify]: executing diffoscope
+[2023-07-13 08:52:29] INFO root fetch - processPackages [surfify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfify-0.1.0.tar.gz tmp/surfify-0.2.0.tar.gz --markdown 20230713/s/surfify/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-13 08:52:29] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 08:52:29] INFO root fetch - processPackages [aihero]: Remove: archive file [/home/abi/fetcher/tmp/aihero-0.1.9.tar.gz]
+[2023-07-13 08:52:29] INFO root fetch - processPackages [aihero]: Remove: archive file [/home/abi/fetcher/tmp/aihero-0.2.1.tar.gz]
+[2023-07-13 08:52:29] INFO root fetch - main [MainThread]: End processing [aihero]: success
+[2023-07-13 08:52:29] INFO root fetch - processPackages [ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/ML-Algo-1.2.5.tar.gz]
+[2023-07-13 08:52:29] INFO root fetch - processPackages [ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/ML-Algo-1.2.6.tar.gz]
+[2023-07-13 08:52:29] INFO root fetch - main [MainThread]: End processing [ML-Algo]: success
+[2023-07-13 08:52:29] INFO root fetch - processPackages [timespan]: Remove: archive file [/home/abi/fetcher/tmp/timespan-0.1.tar.gz]
+[2023-07-13 08:52:29] INFO root fetch - processPackages [timespan]: Remove: archive file [/home/abi/fetcher/tmp/timespan-0.2.0-py3-none-any.whl.zip]
+[2023-07-13 08:52:29] INFO root fetch - main [MainThread]: End processing [timespan]: success
+[2023-07-13 08:52:29] INFO root fetch - processPackages [gpassw]: Remove: archive file [/home/abi/fetcher/tmp/gpassw-0.1.12.tar.gz]
+[2023-07-13 08:52:29] INFO root fetch - processPackages [gpassw]: Remove: archive file [/home/abi/fetcher/tmp/gpassw-0.1.3-py3-none-any.whl.zip]
+[2023-07-13 08:52:29] INFO root fetch - main [MainThread]: End processing [gpassw]: success
+[2023-07-13 08:52:29] INFO root fetch - processPackages [bframe]: Remove: archive file [/home/abi/fetcher/tmp/bframe-0.0.8-py3-none-any.whl.zip]
+[2023-07-13 08:52:29] INFO root fetch - processPackages [bframe]: Remove: archive file [/home/abi/fetcher/tmp/bframe-0.0.9-py3-none-any.whl.zip]
+[2023-07-13 08:52:29] INFO root fetch - main [MainThread]: End processing [bframe]: success
+[2023-07-13 08:52:30] INFO root fetch - processPackages [strawberry-django-auth-jwt]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_auth_jwt-0.2.5.dev1689110373.tar.gz]
+[2023-07-13 08:52:30] INFO root fetch - processPackages [strawberry-django-auth-jwt]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_auth_jwt-0.2.5.dev1689230891.tar.gz]
+[2023-07-13 08:52:30] INFO root fetch - main [MainThread]: End processing [strawberry-django-auth-jwt]: success
+[2023-07-13 08:52:30] INFO root fetch - processPackages [EmberFactory]: Remove: archive file [/home/abi/fetcher/tmp/EmberFactory-1.8.0-py3-none-any.whl.zip]
+[2023-07-13 08:52:30] INFO root fetch - processPackages [EmberFactory]: Remove: archive file [/home/abi/fetcher/tmp/EmberFactory-1.8.0b3-py3-none-any.whl.zip]
+[2023-07-13 08:52:30] INFO root fetch - main [MainThread]: End processing [EmberFactory]: success
+[2023-07-13 08:52:31] INFO root fetch - processPackages [surfify]: Remove: archive file [/home/abi/fetcher/tmp/surfify-0.1.0.tar.gz]
+[2023-07-13 08:52:31] INFO root fetch - processPackages [surfify]: Remove: archive file [/home/abi/fetcher/tmp/surfify-0.2.0.tar.gz]
+[2023-07-13 08:52:31] INFO root fetch - main [MainThread]: End processing [surfify]: success
+[2023-07-13 08:52:31] INFO root fetch - main [MainThread]: Store serial: [18871082]
