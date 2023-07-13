@@ -10387,3 +10387,195 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 07:05:48] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
 [2023-07-13 07:05:48] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
 [2023-07-13 07:05:48] INFO root fetch - main [MainThread]: Store serial: [18870120]
+[2023-07-13 07:10:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18870120]
+[2023-07-13 07:10:58] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-07-13 07:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih
+[2023-07-13 07:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s
+[2023-07-13 07:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: herta-villa-sdk
+[2023-07-13 07:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addons-oca-sale-workflow
+[2023-07-13 07:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapid-pe
+[2023-07-13 07:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-sale-cancel-reason
+[2023-07-13 07:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-07-13 07:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-sale-order-archive
+[2023-07-13 07:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-sale-order-line-menu
+[2023-07-13 07:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dask-cuda
+[2023-07-13 07:10:58] INFO root fetch - processPackages [herta-villa-sdk]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-13 07:10:58] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.4]
+[2023-07-13 07:10:58] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2023-07-13 07:10:58] INFO root fetch - processPackages [odoo14-addon-sale-order-archive]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-07-13 07:10:58] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-13 07:10:58] INFO root fetch - processPackages [odoo13-addons-oca-sale-workflow]: New version: [13.0.20230712.0] Old Version: [13.0.20230126.0]
+[2023-07-13 07:10:58] INFO root fetch - processPackages [pih]: New version: [1.46231] Old Version: [1.46001]
+[2023-07-13 07:10:58] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230713] Old Version: [0.1.1.dev20230712]
+[2023-07-13 07:10:58] INFO root fetch - processPackages [cdk8s]: New version: [2.7.99] Old Version: [2.7.98]
+[2023-07-13 07:10:58] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230713] Old Version: [23.8.0a230712]
+[2023-07-13 07:10:58] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: Downloading https://files.pythonhosted.org/packages/d3/15/c9e1f71bca810d4f7667f1c70de0f45ed01be845f19c47c129231a136fd7/odoo_addon_sale_order_line_menu-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-13 07:10:59] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: Downloading https://files.pythonhosted.org/packages/e6/10/3061548c5f4719481981ae0856196db6c9bc4496e4a9747f9c8a40cf1e83/odoo_addon_sale_cancel_reason-16.0.1.0.1-py3-none-any.whl
+[2023-07-13 07:10:59] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/5c/90/b58e5fbefdc46f29aa9f9b92f3ced0025cc05ca85e539e4dbbd6f0d5301c/rapid_pe-0.1.1.dev20230712.tar.gz
+[2023-07-13 07:10:59] INFO root fetch - processPackages [herta-villa-sdk]: Downloading https://files.pythonhosted.org/packages/7c/ba/580d5e6dfa32f61703b34f78d21f8f55802b21822356bf77b19ef22aadfa/herta_villa_sdk-0.4.0.tar.gz
+[2023-07-13 07:10:59] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/f0/69/c8926450cc7935134f7d8d61bfb07ac444036ea9e5aa6b5eff75fd29edf9/dask-cuda-23.8.0a230712.tar.gz
+[2023-07-13 07:10:59] INFO root fetch - processPackages [odoo14-addon-sale-order-archive]: Downloading https://files.pythonhosted.org/packages/07/06/90ff0a753883318aa570e84c9a0388b5d064f81af29eb700e1f9c2b5d95f/odoo14_addon_sale_order_archive-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-07-13 07:10:59] INFO root fetch - processPackages [odoo13-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/bb/40/994f0dc01c9240a888dc5736c32cc70708cd397ad58c7a73238c53b0d13b/odoo13_addons_oca_sale_workflow-13.0.20230126.0-py3-none-any.whl
+[2023-07-13 07:10:59] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/25/e6/1aa2ddf97a07d18d32ead0d7431e52246c939eee476c960fb91121ea1fc5/pih-1.46001.tar.gz
+[2023-07-13 07:10:59] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/d8/60/774b00a08e1e8a1155f225bfc65207f11ae692dd4bd4cc19fc599853994a/cdk8s-2.7.98.tar.gz
+[2023-07-13 07:10:59] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: Downloading https://files.pythonhosted.org/packages/31/b2/002a67af0947c21e4ecc549c7e43ce4f724dda179091374547970364b3f4/odoo_addon_sale_order_line_menu-16.0.1.1.0-py3-none-any.whl
+[2023-07-13 07:10:59] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-07-13 07:10:59] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/dc/89/c3d4128419d32ef20b0eb82b241beefc22e1f0bf0b82fb1d334b9b16cf37/rapid_pe-0.1.1.dev20230713.tar.gz
+[2023-07-13 07:10:59] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: Downloading https://files.pythonhosted.org/packages/1b/40/23c06206af8a58f8e70b959651e1776fef9a1033a2117638244001a9da5d/odoo_addon_sale_cancel_reason-16.0.1.0.1.1-py3-none-any.whl
+[2023-07-13 07:10:59] INFO root fetch - processPackages [herta-villa-sdk]: Downloading https://files.pythonhosted.org/packages/dd/12/d9ec85552c36612dfee7beb8457108c681af0b123d6dbe3953b1501bf38a/herta_villa_sdk-0.5.0.tar.gz
+[2023-07-13 07:10:59] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/8e/e1/83b530ec6b75bebb0f3873beb9bfd2255c6631cda4dbd7117e3d6b3c28b8/dask-cuda-23.8.0a230713.tar.gz
+[2023-07-13 07:10:59] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: executing diffoscope
+[2023-07-13 07:10:59] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_line_menu-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_sale_order_line_menu-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-sale-order-line-menu/16.0.1.0.0.4-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-07-13 07:10:59] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/8e/4a/0eb795c7e512c934750256f433d56f42f2add0b232315b99d5a5d88eb815/pih-1.46231.tar.gz
+[2023-07-13 07:10:59] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: executing diffoscope
+[2023-07-13 07:10:59] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_cancel_reason-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_cancel_reason-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-sale-cancel-reason/16.0.1.0.1-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-07-13 07:10:59] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-13 07:10:59] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230712.tar.gz tmp/rapid_pe-0.1.1.dev20230713.tar.gz --markdown 20230713/r/rapid-pe/0.1.1.dev20230712-0.1.1.dev20230713/diff.md --exclude *.pyd
+[2023-07-13 07:10:59] INFO root fetch - processPackages [herta-villa-sdk]: executing diffoscope
+[2023-07-13 07:10:59] INFO root fetch - processPackages [herta-villa-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/herta_villa_sdk-0.4.0.tar.gz tmp/herta_villa_sdk-0.5.0.tar.gz --markdown 20230713/h/herta-villa-sdk/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-13 07:10:59] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-07-13 07:10:59] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.46001.tar.gz tmp/pih-1.46231.tar.gz --markdown 20230713/p/pih/1.46001-1.46231/diff.md --exclude *.pyd
+[2023-07-13 07:10:59] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/23/d1/ee5cf44f421921d790a4e0d2cf87c118188da9c30cbece10e0e66cf115fe/cdk8s-2.7.99.tar.gz
+[2023-07-13 07:10:59] INFO root fetch - processPackages [odoo13-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/62/15/f740f6474f1a47e805559454527d0b25da7f9a1fed4dca1a6817ee7d3770/odoo13_addons_oca_sale_workflow-13.0.20230712.0-py3-none-any.whl
+[2023-07-13 07:10:59] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-13 07:10:59] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230712.tar.gz tmp/dask-cuda-23.8.0a230713.tar.gz --markdown 20230713/d/dask-cuda/23.8.0a230712-23.8.0a230713/diff.md --exclude *.pyd
+[2023-07-13 07:10:59] INFO root fetch - processPackages [odoo14-addon-sale-order-archive]: Downloading https://files.pythonhosted.org/packages/2a/c7/2815f9efe743693693b6798c1f6d253ec547f51640c3d05d20de46086703/odoo14_addon_sale_order_archive-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-07-13 07:11:00] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-07-13 07:11:00] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-13 07:11:00] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.98.tar.gz tmp/cdk8s-2.7.99.tar.gz --markdown 20230713/c/cdk8s/2.7.98-2.7.99/diff.md --exclude *.pyd
+[2023-07-13 07:11:00] INFO root fetch - processPackages [odoo13-addons-oca-sale-workflow]: executing diffoscope
+[2023-07-13 07:11:00] INFO root fetch - processPackages [odoo13-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_sale_workflow-13.0.20230126.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_sale_workflow-13.0.20230712.0-py3-none-any.whl.zip --markdown 20230713/o/odoo13-addons-oca-sale-workflow/13.0.20230126.0-13.0.20230712.0/diff.md --exclude *.pyd
+[2023-07-13 07:11:00] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-07-13 07:11:00] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230713/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-13 07:11:00] INFO root fetch - processPackages [odoo14-addon-sale-order-archive]: executing diffoscope
+[2023-07-13 07:11:00] INFO root fetch - processPackages [odoo14-addon-sale-order-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_order_archive-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_sale_order_archive-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-sale-order-archive/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-13 07:11:01] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_line_menu-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-13 07:11:01] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_line_menu-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-13 07:11:01] INFO root fetch - processPackages [odoo-addon-sale-order-line-menu]: Start processing: cdk8s-grafana
+[2023-07-13 07:11:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-line-menu]: success
+[2023-07-13 07:11:01] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-13 07:11:01] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-07-13 07:11:01] INFO root fetch - processPackages [herta-villa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/herta_villa_sdk-0.4.0.tar.gz]
+[2023-07-13 07:11:01] INFO root fetch - processPackages [herta-villa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/herta_villa_sdk-0.5.0.tar.gz]
+[2023-07-13 07:11:01] INFO root fetch - processPackages [herta-villa-sdk]: Start processing: certora-cli-alpha-oz-pinnedgambit
+[2023-07-13 07:11:01] INFO root fetch - main [MainThread]: End processing [herta-villa-sdk]: success
+[2023-07-13 07:11:01] INFO root fetch - processPackages [certora-cli-alpha-oz-pinnedgambit]: New version: [20230713.5.8.865147] Old Version: [20230712.9.14.462803]
+[2023-07-13 07:11:01] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230712.tar.gz]
+[2023-07-13 07:11:01] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230713.tar.gz]
+[2023-07-13 07:11:01] INFO root fetch - processPackages [rapid-pe]: Start processing: cjm-yolox-pytorch
+[2023-07-13 07:11:01] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-13 07:11:01] INFO root fetch - processPackages [odoo13-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_sale_workflow-13.0.20230126.0-py3-none-any.whl.zip]
+[2023-07-13 07:11:01] INFO root fetch - processPackages [odoo13-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_sale_workflow-13.0.20230712.0-py3-none-any.whl.zip]
+[2023-07-13 07:11:01] INFO root fetch - processPackages [odoo13-addons-oca-sale-workflow]: Start processing: odoo-addon-sale-payment-sheet
+[2023-07-13 07:11:01] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-sale-workflow]: success
+[2023-07-13 07:11:01] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 07:11:01] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.46001.tar.gz]
+[2023-07-13 07:11:01] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.46231.tar.gz]
+[2023-07-13 07:11:01] INFO root fetch - processPackages [pih]: Start processing: odoo14-addon-sale-manual-delivery
+[2023-07-13 07:11:01] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-07-13 07:11:01] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_cancel_reason-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-13 07:11:01] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_cancel_reason-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-07-13 07:11:01] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: Start processing: odoo-addons-oca-sale-workflow
+[2023-07-13 07:11:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-cancel-reason]: success
+[2023-07-13 07:11:01] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230712.tar.gz]
+[2023-07-13 07:11:01] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230713.tar.gz]
+[2023-07-13 07:11:01] INFO root fetch - processPackages [dask-cuda]: Start processing: odoo14-addon-sale-advance-payment
+[2023-07-13 07:11:01] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-13 07:11:01] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet]: New version: [15.0.1.2.0.1] Old Version: [15.0.1.2.0]
+[2023-07-13 07:11:01] INFO root fetch - processPackages [odoo14-addon-sale-order-archive]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_archive-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-07-13 07:11:01] INFO root fetch - processPackages [odoo14-addon-sale-order-archive]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_archive-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-07-13 07:11:01] INFO root fetch - processPackages [odoo14-addon-sale-order-archive]: Start processing: odoo14-addons-oca-sale-workflow
+[2023-07-13 07:11:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-archive]: success
+[2023-07-13 07:11:01] WARNING root fetch - processPackages [odoo14-addon-sale-manual-delivery]: Skipping, unable to determine old version
+[2023-07-13 07:11:01] INFO root fetch - processPackages [odoo14-addon-sale-manual-delivery]: Start processing: odoo-addon-sale-order-type
+[2023-07-13 07:11:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-manual-delivery] error
+[2023-07-13 07:11:01] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-07-13 07:11:01] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-13 07:11:02] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.98.tar.gz]
+[2023-07-13 07:11:02] INFO root fetch - processPackages [odoo-addon-sale-order-type]: New version: [16.0.1.0.4] Old Version: [16.0.1.0.3.1]
+[2023-07-13 07:11:02] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.99.tar.gz]
+[2023-07-13 07:11:02] INFO root fetch - processPackages [cdk8s]: Start processing: pepperize.cdk-organizations
+[2023-07-13 07:11:02] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-13 07:11:02] INFO root fetch - processPackages [certora-cli-alpha-oz-pinnedgambit]: Downloading https://files.pythonhosted.org/packages/3d/3c/a582a03851c36a22fb901e7b58db495a5bd23642f193a30bd96d472a5d43/certora-cli-alpha-oz-pinnedgambit-20230712.9.14.462803.tar.gz
+[2023-07-13 07:11:02] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet]: Downloading https://files.pythonhosted.org/packages/b5/81/0b851ef0bdb3e0429456585a5982214f31f6d8947140e453f4052810529d/odoo_addon_sale_payment_sheet-15.0.1.2.0-py3-none-any.whl
+[2023-07-13 07:11:02] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: New version: [16.0.20230712.0] Old Version: [16.0.20230628.1]
+[2023-07-13 07:11:02] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: New version: [14.0.20230712.1] Old Version: [14.0.20230630.0]
+[2023-07-13 07:11:02] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz]
+[2023-07-13 07:11:02] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz]
+[2023-07-13 07:11:02] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Start processing: letsbuilda-pypi
+[2023-07-13 07:11:02] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-07-13 07:11:02] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-07-13 07:11:02] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230713/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-13 07:11:02] INFO root fetch - processPackages [odoo-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/11/f4/82d33a15de2e72468f1c520aed4c54adfdec3bb4b52fb490813e5b47be0a/odoo_addon_sale_order_type-16.0.1.0.3.1-py3-none-any.whl
+[2023-07-13 07:11:02] WARNING root fetch - processPackages [certora-cli-alpha-oz-pinnedgambit]: Skipping package: exceeds size limit 37462589>=10485760
+[2023-07-13 07:11:02] INFO root fetch - processPackages [certora-cli-alpha-oz-pinnedgambit]: Start processing: odoo-addon-sale-manual-delivery
+[2023-07-13 07:11:02] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-pinnedgambit] error
+[2023-07-13 07:11:02] WARNING root fetch - processPackages [odoo-addon-sale-manual-delivery]: Skipping, unable to determine old version
+[2023-07-13 07:11:02] INFO root fetch - processPackages [odoo-addon-sale-manual-delivery]: Start processing: odoo-addons-oca-sale-workflow
+[2023-07-13 07:11:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-manual-delivery] error
+[2023-07-13 07:11:02] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: New version: [14.0.1.1.4.dev2] Old Version: [14.0.1.1.3.dev1]
+[2023-07-13 07:11:02] INFO root fetch - processPackages [letsbuilda-pypi]: New version: [5.0.0b1] Old Version: [4.0.0]
+[2023-07-13 07:11:02] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: New version: [16.0.20230712.0] Old Version: [16.0.20230628.1]
+[2023-07-13 07:11:02] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 07:11:02] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/c5/4f/79a39de9383523e666bc720deafe30cddb787693bf0cd0c9d72f419a8c8a/odoo14_addons_oca_sale_workflow-14.0.20230630.0-py3-none-any.whl
+[2023-07-13 07:11:02] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/76/2e/14010eebb38dc61046591d706fec340bdec7607febecc6526073174f78d0/odoo_addons_oca_sale_workflow-16.0.20230628.1-py3-none-any.whl
+[2023-07-13 07:11:02] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-13 07:11:02] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/76/2e/14010eebb38dc61046591d706fec340bdec7607febecc6526073174f78d0/odoo_addons_oca_sale_workflow-16.0.20230628.1-py3-none-any.whl
+[2023-07-13 07:11:02] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet]: Downloading https://files.pythonhosted.org/packages/af/77/3e97b49853e62f51963b05059a7f774df28a9482088710e067ef9b746994/odoo_addon_sale_payment_sheet-15.0.1.2.0.1-py3-none-any.whl
+[2023-07-13 07:11:02] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 07:11:02] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 07:11:02] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: Downloading https://files.pythonhosted.org/packages/01/c2/627568eef14d0cc72ea44224005331d42fcf3c8937a589589909439bcfc8/odoo14_addon_sale_advance_payment-14.0.1.1.3.dev1-py3-none-any.whl
+[2023-07-13 07:11:02] INFO root fetch - processPackages [odoo-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/0d/66/aee64bf1abb56fd3668a20c7bd316e66b7ad6571bc81ebbd6ad0d147082f/odoo_addon_sale_order_type-16.0.1.0.4-py3-none-any.whl
+[2023-07-13 07:11:02] INFO root fetch - processPackages [letsbuilda-pypi]: Downloading https://files.pythonhosted.org/packages/71/a0/d9b47f7a17efb1d296d189ae83c5381c80efa0e0984a96cb2f719136797e/letsbuilda-pypi-4.0.0.tar.gz
+[2023-07-13 07:11:02] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet]: executing diffoscope
+[2023-07-13 07:11:02] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_payment_sheet-15.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_sale_payment_sheet-15.0.1.2.0.1-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-sale-payment-sheet/15.0.1.2.0-15.0.1.2.0.1/diff.md --exclude *.pyd
+[2023-07-13 07:11:02] INFO root fetch - processPackages [odoo-addon-sale-order-type]: executing diffoscope
+[2023-07-13 07:11:02] INFO root fetch - processPackages [odoo-addon-sale-order-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_type-16.0.1.0.3.1-py3-none-any.whl.zip tmp/odoo_addon_sale_order_type-16.0.1.0.4-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-sale-order-type/16.0.1.0.3.1-16.0.1.0.4/diff.md --exclude *.pyd
+[2023-07-13 07:11:02] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-07-13 07:11:02] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/81/ab/7580987e180387566feb229c8b00d2851c414c7fbd9859a9243bd943a2cb/odoo14_addons_oca_sale_workflow-14.0.20230712.1-py3-none-any.whl
+[2023-07-13 07:11:02] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/0a/9f/6f301813857304bf696eb8142c0448b72655ece3df43ef45dcf026c0f5c3/odoo_addons_oca_sale_workflow-16.0.20230712.0-py3-none-any.whl
+[2023-07-13 07:11:02] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/0a/9f/6f301813857304bf696eb8142c0448b72655ece3df43ef45dcf026c0f5c3/odoo_addons_oca_sale_workflow-16.0.20230712.0-py3-none-any.whl
+[2023-07-13 07:11:02] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: Downloading https://files.pythonhosted.org/packages/32/cd/45142a0fd088939127ea202de711b93854ce43ff492a69a3623d18a81ce8/odoo14_addon_sale_advance_payment-14.0.1.1.4.dev2-py3-none-any.whl
+[2023-07-13 07:11:03] INFO root fetch - processPackages [letsbuilda-pypi]: Downloading https://files.pythonhosted.org/packages/b1/83/24480c240b0dfc1e33cd319d03895572e5b00c66d5beb3840cc5724b4dc1/letsbuilda-pypi-5.0.0b1.tar.gz
+[2023-07-13 07:11:03] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-07-13 07:11:03] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-07-13 07:11:03] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: executing diffoscope
+[2023-07-13 07:11:03] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_sale_workflow-14.0.20230630.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_sale_workflow-14.0.20230712.1-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addons-oca-sale-workflow/14.0.20230630.0-14.0.20230712.1/diff.md --exclude *.pyd
+[2023-07-13 07:11:03] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-07-13 07:11:03] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: executing diffoscope
+[2023-07-13 07:11:03] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_workflow-16.0.20230628.1-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_workflow-16.0.20230712.0-py3-none-any.whl.zip --markdown 20230713/o/odoo-addons-oca-sale-workflow/16.0.20230628.1-16.0.20230712.0/diff.md --exclude *.pyd
+[2023-07-13 07:11:03] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: executing diffoscope
+[2023-07-13 07:11:03] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_workflow-16.0.20230628.1-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_workflow-16.0.20230712.0-py3-none-any.whl.zip --markdown 20230713/o/odoo-addons-oca-sale-workflow/16.0.20230628.1-16.0.20230712.0/diff.md --exclude *.pyd
+[2023-07-13 07:11:03] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-07-13 07:11:03] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: executing diffoscope
+[2023-07-13 07:11:03] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_advance_payment-14.0.1.1.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_sale_advance_payment-14.0.1.1.4.dev2-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-sale-advance-payment/14.0.1.1.3.dev1-14.0.1.1.4.dev2/diff.md --exclude *.pyd
+[2023-07-13 07:11:03] INFO root fetch - processPackages [letsbuilda-pypi]: executing diffoscope
+[2023-07-13 07:11:03] INFO root fetch - processPackages [letsbuilda-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/letsbuilda-pypi-4.0.0.tar.gz tmp/letsbuilda-pypi-5.0.0b1.tar.gz --markdown 20230713/l/letsbuilda-pypi/4.0.0-5.0.0b1/diff.md --exclude *.pyd
+[2023-07-13 07:11:03] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-07-13 07:11:03] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230713/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-13 07:11:03] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-13 07:11:03] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 07:11:03] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 07:11:03] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_payment_sheet-15.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-13 07:11:03] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_payment_sheet-15.0.1.2.0.1-py3-none-any.whl.zip]
+[2023-07-13 07:11:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-payment-sheet]: success
+[2023-07-13 07:11:04] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20230628.1-py3-none-any.whl.zip]
+[2023-07-13 07:11:04] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20230712.0-py3-none-any.whl.zip]
+[2023-07-13 07:11:04] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
+[2023-07-13 07:11:04] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
+[2023-07-13 07:11:04] INFO root fetch - processPackages [odoo-addon-sale-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_type-16.0.1.0.3.1-py3-none-any.whl.zip]
+[2023-07-13 07:11:04] INFO root fetch - processPackages [odoo-addon-sale-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_type-16.0.1.0.4-py3-none-any.whl.zip]
+[2023-07-13 07:11:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-type]: success
+[2023-07-13 07:11:04] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_sale_workflow-14.0.20230630.0-py3-none-any.whl.zip]
+[2023-07-13 07:11:04] INFO root fetch - processPackages [odoo14-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_sale_workflow-14.0.20230712.1-py3-none-any.whl.zip]
+[2023-07-13 07:11:04] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-sale-workflow]: success
+[2023-07-13 07:11:04] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-07-13 07:11:04] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-07-13 07:11:04] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-07-13 07:11:04] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_advance_payment-14.0.1.1.3.dev1-py3-none-any.whl.zip]
+[2023-07-13 07:11:04] INFO root fetch - processPackages [odoo14-addon-sale-advance-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_advance_payment-14.0.1.1.4.dev2-py3-none-any.whl.zip]
+[2023-07-13 07:11:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-advance-payment]: success
+[2023-07-13 07:11:04] INFO root fetch - processPackages [letsbuilda-pypi]: Remove: archive file [/home/abi/fetcher/tmp/letsbuilda-pypi-4.0.0.tar.gz]
+[2023-07-13 07:11:04] INFO root fetch - processPackages [letsbuilda-pypi]: Remove: archive file [/home/abi/fetcher/tmp/letsbuilda-pypi-5.0.0b1.tar.gz]
+[2023-07-13 07:11:04] INFO root fetch - main [MainThread]: End processing [letsbuilda-pypi]: success
+[2023-07-13 07:11:04] INFO root fetch - main [MainThread]: Store serial: [18870181]
