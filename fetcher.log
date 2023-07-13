@@ -5377,3 +5377,113 @@
 [2023-07-13 02:42:51] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-07-13 02:42:51] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-07-13 02:42:51] INFO root fetch - main [MainThread]: Store serial: [18868354]
+[2023-07-13 02:47:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18868354]
+[2023-07-13 02:48:02] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-13 02:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: epson-connect
+[2023-07-13 02:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tsp-spanning
+[2023-07-13 02:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: state-machine-semaphore
+[2023-07-13 02:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shareddata
+[2023-07-13 02:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blint
+[2023-07-13 02:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfds-nightly
+[2023-07-13 02:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: monarch-py
+[2023-07-13 02:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vosk-autosrt
+[2023-07-13 02:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aicodebot
+[2023-07-13 02:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: BERTSimilar
+[2023-07-13 02:48:03] INFO root fetch - processPackages [epson-connect]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-13 02:48:03] INFO root fetch - processPackages [shareddata]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-13 02:48:03] INFO root fetch - processPackages [BERTSimilar]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-13 02:48:03] INFO root fetch - processPackages [blint]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 02:48:03] INFO root fetch - processPackages [vosk-autosrt]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-13 02:48:03] INFO root fetch - processPackages [tsp-spanning]: New version: [0.2] Old Version: [0.1]
+[2023-07-13 02:48:03] INFO root fetch - processPackages [monarch-py]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-13 02:48:03] INFO root fetch - processPackages [aicodebot]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-13 02:48:03] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-13 02:48:03] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202307120045] Old Version: [4.9.2.dev202307110044]
+[2023-07-13 02:48:03] INFO root fetch - processPackages [epson-connect]: Downloading https://files.pythonhosted.org/packages/56/72/c083d2a5c5b6af6a747d4a84da5091ed478c167d3e95d77bcbfc1abacd2a/epson_connect-0.2.1.tar.gz
+[2023-07-13 02:48:03] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/a3/89/36663418cc430f191945f4554d0919f8804487b2ffe208a4b81eb15419ff/shareddata-2.0.8.tar.gz
+[2023-07-13 02:48:03] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/de/93/5893654a616bad8ecf7cff940e452492ff5cadede0c121a0b836015603f8/aicodebot-0.9.5.tar.gz
+[2023-07-13 02:48:03] INFO root fetch - processPackages [BERTSimilar]: Downloading https://files.pythonhosted.org/packages/07/6c/84701e4eb4c3ffbb57248afbfd030f8c679a90e8981d50123c298ce6f031/BERTSimilar-0.1.0.tar.gz
+[2023-07-13 02:48:03] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/5a/48/477112041a9521b659b4bfd63536a664458535f0adcfbb2a48f818b21654/tfds-nightly-4.9.2.dev202307110044.tar.gz
+[2023-07-13 02:48:03] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-07-13 02:48:03] INFO root fetch - processPackages [blint]: Downloading https://files.pythonhosted.org/packages/e6/b0/d5ddf36678d6c1c40e060406a45bedd8d3eac80e1204239b6b3099f84d76/blint-1.0.8.tar.gz
+[2023-07-13 02:48:03] INFO root fetch - processPackages [tsp-spanning]: Downloading https://files.pythonhosted.org/packages/7c/ce/4decf4a842963665e501c64de11b4e7557a2b2a7eff07379a09418a56b09/tsp_spanning-0.1.tar.gz
+[2023-07-13 02:48:03] INFO root fetch - processPackages [vosk-autosrt]: Downloading https://files.pythonhosted.org/packages/13/0b/2e8dfe98e59cc796e025003aff6c05fb1ec53595d7983845bab00e3c037d/vosk_autosrt-0.1.2.tar.gz
+[2023-07-13 02:48:03] INFO root fetch - processPackages [monarch-py]: Downloading https://files.pythonhosted.org/packages/6d/48/f8584db7808c58dfe36efe458cdf928f83c7345eafb177d0517f07dac0c4/monarch_py-0.9.4.tar.gz
+[2023-07-13 02:48:03] WARNING root fetch - processPackages [vosk-autosrt]: Skipping package: exceeds size limit 21465998>=10485760
+[2023-07-13 02:48:03] INFO root fetch - processPackages [vosk-autosrt]: Start processing: fedml
+[2023-07-13 02:48:03] INFO root fetch - main [MainThread]: End processing [vosk-autosrt] error
+[2023-07-13 02:48:03] INFO root fetch - processPackages [epson-connect]: Downloading https://files.pythonhosted.org/packages/6d/ca/4d0b8991a4085086bddf892c5e4777c939f64aa1b0b19123aa2a521968be/epson_connect-0.2.2.tar.gz
+[2023-07-13 02:48:03] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/c9/f9/61fa61a22abefea2b892306bbb73a62ed0a1a79371960e7ef36dd8fd83b5/shareddata-2.0.9.tar.gz
+[2023-07-13 02:48:04] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/f0/54/b7976dc18a7bd9ee80ceff88ce124d243c375fa58db5ebe25e50df423f49/aicodebot-0.9.6.tar.gz
+[2023-07-13 02:48:04] INFO root fetch - processPackages [fedml]: New version: [0.8.6a2] Old Version: [0.8.6a1]
+[2023-07-13 02:48:04] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-07-13 02:48:04] INFO root fetch - processPackages [BERTSimilar]: Downloading https://files.pythonhosted.org/packages/40/17/c5ccf5dbf0b3ebd99baeac328cd5fe40f5eb6974e1e8fe119b5514d3f27b/BERTSimilar-0.1.1.tar.gz
+[2023-07-13 02:48:04] INFO root fetch - processPackages [epson-connect]: executing diffoscope
+[2023-07-13 02:48:04] INFO root fetch - processPackages [epson-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epson_connect-0.2.1.tar.gz tmp/epson_connect-0.2.2.tar.gz --markdown 20230713/e/epson-connect/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-13 02:48:04] INFO root fetch - processPackages [blint]: Downloading https://files.pythonhosted.org/packages/ef/1d/0d52caf776f421b2974c0acb7dc1b6c2eff608597c6d6f5bceff17b2df85/blint-1.0.9.tar.gz
+[2023-07-13 02:48:04] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2023-07-13 02:48:04] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-2.0.8.tar.gz tmp/shareddata-2.0.9.tar.gz --markdown 20230713/s/shareddata/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-13 02:48:04] INFO root fetch - processPackages [tsp-spanning]: Downloading https://files.pythonhosted.org/packages/aa/22/b185c51d3c709ff639381f5113b811735ae944c6364f700b8711a6a49e5b/tsp_spanning-0.2.tar.gz
+[2023-07-13 02:48:04] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-07-13 02:48:04] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.9.5.tar.gz tmp/aicodebot-0.9.6.tar.gz --markdown 20230713/a/aicodebot/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-13 02:48:04] INFO root fetch - processPackages [monarch-py]: Downloading https://files.pythonhosted.org/packages/f2/a8/60e40f29cd6213ebb7999bf65fcc3c1afdcb0e84887f0d2d7736866e4844/monarch_py-0.9.5.tar.gz
+[2023-07-13 02:48:04] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/32/34/71e397aa3d2268d84d318b0618fd32f0b78bb9f802b309d832e2f6f71ea4/tfds-nightly-4.9.2.dev202307120045.tar.gz
+[2023-07-13 02:48:04] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-07-13 02:48:04] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230713/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-13 02:48:04] INFO root fetch - processPackages [blint]: executing diffoscope
+[2023-07-13 02:48:04] INFO root fetch - processPackages [blint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blint-1.0.8.tar.gz tmp/blint-1.0.9.tar.gz --markdown 20230713/b/blint/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 02:48:04] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/ae/17/14d5fa9edbdd2b07a2c0d0fbbc7eb5bb1a8d843011bc6a0fcb2ed1624f33/fedml-0.8.6a1.tar.gz
+[2023-07-13 02:48:04] INFO root fetch - processPackages [BERTSimilar]: executing diffoscope
+[2023-07-13 02:48:04] INFO root fetch - processPackages [BERTSimilar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BERTSimilar-0.1.0.tar.gz tmp/BERTSimilar-0.1.1.tar.gz --markdown 20230713/B/BERTSimilar/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-13 02:48:04] INFO root fetch - processPackages [tsp-spanning]: executing diffoscope
+[2023-07-13 02:48:04] INFO root fetch - processPackages [tsp-spanning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsp_spanning-0.1.tar.gz tmp/tsp_spanning-0.2.tar.gz --markdown 20230713/t/tsp-spanning/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-13 02:48:04] INFO root fetch - processPackages [monarch-py]: executing diffoscope
+[2023-07-13 02:48:04] INFO root fetch - processPackages [monarch-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monarch_py-0.9.4.tar.gz tmp/monarch_py-0.9.5.tar.gz --markdown 20230713/m/monarch-py/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-13 02:48:04] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-07-13 02:48:04] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202307110044.tar.gz tmp/tfds-nightly-4.9.2.dev202307120045.tar.gz --markdown 20230713/t/tfds-nightly/4.9.2.dev202307110044-4.9.2.dev202307120045/diff.md --exclude *.pyd
+[2023-07-13 02:48:04] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/4f/82/324d0d276f769f49b0f3fcaff7c1329bf11943e94e96a91dc0d3a5ee8907/fedml-0.8.6a2.tar.gz
+[2023-07-13 02:48:05] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-07-13 02:48:05] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.6a1.tar.gz tmp/fedml-0.8.6a2.tar.gz --markdown 20230713/f/fedml/0.8.6a1-0.8.6a2/diff.md --exclude *.pyd
+[2023-07-13 02:48:05] INFO root fetch - processPackages [epson-connect]: Remove: archive file [/home/abi/fetcher/tmp/epson_connect-0.2.1.tar.gz]
+[2023-07-13 02:48:05] INFO root fetch - processPackages [epson-connect]: Remove: archive file [/home/abi/fetcher/tmp/epson_connect-0.2.2.tar.gz]
+[2023-07-13 02:48:05] INFO root fetch - processPackages [epson-connect]: Start processing: kubric-nightly
+[2023-07-13 02:48:05] INFO root fetch - main [MainThread]: End processing [epson-connect]: success
+[2023-07-13 02:48:05] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-13 02:48:05] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.5.tar.gz]
+[2023-07-13 02:48:05] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.6.tar.gz]
+[2023-07-13 02:48:05] INFO root fetch - processPackages [aicodebot]: Start processing: pyresponseio
+[2023-07-13 02:48:05] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-07-13 02:48:05] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.0.8.tar.gz]
+[2023-07-13 02:48:05] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.0.9.tar.gz]
+[2023-07-13 02:48:05] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2023-07-13 02:48:05] WARNING root fetch - processPackages [pyresponseio]: Skipping, unable to determine old version
+[2023-07-13 02:48:05] INFO root fetch - main [MainThread]: End processing [pyresponseio] error
+[2023-07-13 02:48:05] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/bf/45/efe5ab87889959326f80b81945414a41c438fa00b255ffe28308ecb3b52b/kubric-nightly-2023.7.8.tar.gz
+[2023-07-13 02:48:06] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-07-13 02:48:06] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-07-13 02:48:06] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-07-13 02:48:06] INFO root fetch - processPackages [BERTSimilar]: Remove: archive file [/home/abi/fetcher/tmp/BERTSimilar-0.1.0.tar.gz]
+[2023-07-13 02:48:06] INFO root fetch - processPackages [BERTSimilar]: Remove: archive file [/home/abi/fetcher/tmp/BERTSimilar-0.1.1.tar.gz]
+[2023-07-13 02:48:06] INFO root fetch - main [MainThread]: End processing [BERTSimilar]: success
+[2023-07-13 02:48:06] INFO root fetch - processPackages [tsp-spanning]: Remove: archive file [/home/abi/fetcher/tmp/tsp_spanning-0.1.tar.gz]
+[2023-07-13 02:48:06] INFO root fetch - processPackages [tsp-spanning]: Remove: archive file [/home/abi/fetcher/tmp/tsp_spanning-0.2.tar.gz]
+[2023-07-13 02:48:06] INFO root fetch - main [MainThread]: End processing [tsp-spanning]: success
+[2023-07-13 02:48:06] INFO root fetch - processPackages [blint]: Remove: archive file [/home/abi/fetcher/tmp/blint-1.0.8.tar.gz]
+[2023-07-13 02:48:06] INFO root fetch - processPackages [blint]: Remove: archive file [/home/abi/fetcher/tmp/blint-1.0.9.tar.gz]
+[2023-07-13 02:48:06] INFO root fetch - main [MainThread]: End processing [blint]: success
+[2023-07-13 02:48:06] INFO root fetch - processPackages [monarch-py]: Remove: archive file [/home/abi/fetcher/tmp/monarch_py-0.9.4.tar.gz]
+[2023-07-13 02:48:06] INFO root fetch - processPackages [monarch-py]: Remove: archive file [/home/abi/fetcher/tmp/monarch_py-0.9.5.tar.gz]
+[2023-07-13 02:48:06] INFO root fetch - main [MainThread]: End processing [monarch-py]: success
+[2023-07-13 02:48:06] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/bb/cd/24a7d0673a40d4a2ccf50e8e9298594da4b918433ca23a33d7273fcb6871/kubric-nightly-2023.7.9.tar.gz
+[2023-07-13 02:48:06] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-07-13 02:48:06] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.7.8.tar.gz tmp/kubric-nightly-2023.7.9.tar.gz --markdown 20230713/k/kubric-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-13 02:48:07] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.8.tar.gz]
+[2023-07-13 02:48:07] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.9.tar.gz]
+[2023-07-13 02:48:07] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-07-13 02:48:09] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.6a1.tar.gz]
+[2023-07-13 02:48:09] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.6a2.tar.gz]
+[2023-07-13 02:48:09] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-07-13 02:48:11] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307110044.tar.gz]
+[2023-07-13 02:48:11] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307120045.tar.gz]
+[2023-07-13 02:48:11] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-07-13 02:48:11] INFO root fetch - main [MainThread]: Store serial: [18868453]
