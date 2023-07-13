@@ -2518,3 +2518,313 @@
 [2023-07-13 02:10:22] INFO root fetch - processPackages [pytextrust]: Remove: archive file [/home/abi/fetcher/tmp/pytextrust-0.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-13 02:10:22] INFO root fetch - main [MainThread]: End processing [pytextrust]: success
 [2023-07-13 02:10:22] INFO root fetch - main [MainThread]: Store serial: [18867384]
+[2023-07-13 02:15:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18867384]
+[2023-07-13 02:15:34] INFO root fetch - main [MainThread]: Found 35 changed packages
+[2023-07-13 02:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sweepai
+[2023-07-13 02:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mct-quantizers-nightly
+[2023-07-13 02:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openbb-nightly
+[2023-07-13 02:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yiddish
+[2023-07-13 02:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdklabs.codepipeline-extensions
+[2023-07-13 02:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: git2doc
+[2023-07-13 02:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: speakeasy-client-sdk-python
+[2023-07-13 02:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python
+[2023-07-13 02:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-aa
+[2023-07-13 02:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unitclass
+[2023-07-13 02:15:34] INFO root fetch - processPackages [openbb-nightly]: New version: [3.1.0.dev20230712] Old Version: [3.1.0.dev20230711]
+[2023-07-13 02:15:34] INFO root fetch - processPackages [sweepai]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-13 02:15:34] INFO root fetch - processPackages [git2doc]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-13 02:15:34] INFO root fetch - processPackages [yiddish]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 02:15:34] INFO root fetch - processPackages [unitclass]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-13 02:15:34] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.1.0.20230712.post1240] Old Version: [1.1.0.20230711.post1212]
+[2023-07-13 02:15:34] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-13 02:15:34] INFO root fetch - processPackages [tencentcloud-sdk-python]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-07-13 02:15:34] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-13 02:15:34] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: New version: [3.0.934] Old Version: [3.0.933]
+[2023-07-13 02:15:34] INFO root fetch - processPackages [unitclass]: Downloading https://files.pythonhosted.org/packages/b0/7c/6d7ab3578fac9557882ba3e13fb73d42464e2d2aa03fb1a7375050d2a1e2/unitclass-1.0.0.tar.gz
+[2023-07-13 02:15:34] INFO root fetch - processPackages [yiddish]: Downloading https://files.pythonhosted.org/packages/e1/92/e5e79d279e6096a731b9e577c79fcec12f8cff32ca03405e78dc8341caf6/yiddish-0.0.8.tar.gz
+[2023-07-13 02:15:34] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-07-13 02:15:34] INFO root fetch - processPackages [tencentcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/f0/66/70bad4df9baa2cf443aefa77ba985f71fafcb3897adfe825ffc9dfa6caef/tencentcloud-sdk-python-3.0.98.tar.gz
+[2023-07-13 02:15:34] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/ab/f1/878da0a9feb81559af33c15c8fcd7e7f84f1f78b824e82bc2f18792e9825/mct-quantizers-nightly-1.1.0.20230711.post1212.tar.gz
+[2023-07-13 02:15:34] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/51/73/c74332634e8130c6b89c1c8307ea722240a132020fa5c51bd7f7854b0c05/speakeasy-client-sdk-python-1.9.0.tar.gz
+[2023-07-13 02:15:34] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Downloading https://files.pythonhosted.org/packages/88/20/258674d6d7784a9ed712b369f54b110537620de1bd8fe3bf65812a884e10/tencentcloud-sdk-python-aa-3.0.933.tar.gz
+[2023-07-13 02:15:34] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/f8/a0/688b8e5a96dc40ab3b221da47d5bdaaf9ab5f0d5c96060dc1239307f521c/sweepai-0.4.1.tar.gz
+[2023-07-13 02:15:34] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/8b/e9/b1d9f5172bb38bc19d175f93d4ff159d3374a6ab8787730403a78945138c/openbb_nightly-3.1.0.dev20230711.tar.gz
+[2023-07-13 02:15:34] INFO root fetch - processPackages [git2doc]: Downloading https://files.pythonhosted.org/packages/be/d9/815d50cc4f5e4518332438e926373529a45cbba01f8b1eef9a2a80719bcb/git2doc-0.2.3.tar.gz
+[2023-07-13 02:15:34] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-07-13 02:15:34] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Start processing: tencentcloud-sdk-python-aai
+[2023-07-13 02:15:34] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-07-13 02:15:35] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: New version: [3.0.934] Old Version: [3.0.933]
+[2023-07-13 02:15:35] INFO root fetch - processPackages [yiddish]: Downloading https://files.pythonhosted.org/packages/a7/df/8afd673ad88a4fb03ec9f3c03518cf6e246165f76be54944d0c981a9ff70/yiddish-0.0.9.tar.gz
+[2023-07-13 02:15:35] INFO root fetch - processPackages [tencentcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/b5/b3/1181ead927d9f39a37e213be45e2821a5c0cb99c327b50b4f1401b90cc33/tencentcloud-sdk-python-3.0.99.tar.gz
+[2023-07-13 02:15:35] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: Downloading https://files.pythonhosted.org/packages/0f/dc/2a9ac7c15a29e814f53d75e7e772f713ab31c509c9efa3948f87076b0229/tencentcloud-sdk-python-aai-3.0.933.tar.gz
+[2023-07-13 02:15:35] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/ec/17/af09933815cbb33c06f585554b6a5963756ed5573cefe2151dde0046ce62/speakeasy-client-sdk-python-1.9.1.tar.gz
+[2023-07-13 02:15:35] INFO root fetch - processPackages [unitclass]: Downloading https://files.pythonhosted.org/packages/9d/59/20438ae54e87973bfe8a7ef567b46b7a916db31f1d6756139ae2195113d2/unitclass-1.0.1.tar.gz
+[2023-07-13 02:15:35] INFO root fetch - processPackages [yiddish]: executing diffoscope
+[2023-07-13 02:15:35] INFO root fetch - processPackages [yiddish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yiddish-0.0.8.tar.gz tmp/yiddish-0.0.9.tar.gz --markdown 20230713/y/yiddish/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 02:15:35] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/64/30/c40455a0f7d02cd5396bb52c9c0e0aa843de69152fa642d5d7ea54775fb2/mct-quantizers-nightly-1.1.0.20230712.post1240.tar.gz
+[2023-07-13 02:15:35] WARNING root fetch - processPackages [openbb-nightly]: Skipping package: exceeds size limit 20841417>=10485760
+[2023-07-13 02:15:35] INFO root fetch - processPackages [openbb-nightly]: Start processing: tencentcloud-sdk-python-acp
+[2023-07-13 02:15:35] INFO root fetch - main [MainThread]: End processing [openbb-nightly] error
+[2023-07-13 02:15:35] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/98/60/05ead0098b093290acfda54c3d898db303f95681942efdabbc7b54d5aaa7/sweepai-0.4.2.tar.gz
+[2023-07-13 02:15:35] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Downloading https://files.pythonhosted.org/packages/9e/25/5e658a273d53a1a0c7d1be22bf4c5fe4a2a84cc5e922dbbdabb355ba2a7a/tencentcloud-sdk-python-aa-3.0.934.tar.gz
+[2023-07-13 02:15:35] INFO root fetch - processPackages [tencentcloud-sdk-python]: executing diffoscope
+[2023-07-13 02:15:35] INFO root fetch - processPackages [tencentcloud-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-3.0.98.tar.gz tmp/tencentcloud-sdk-python-3.0.99.tar.gz --markdown 20230713/t/tencentcloud-sdk-python/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-07-13 02:15:35] INFO root fetch - processPackages [unitclass]: executing diffoscope
+[2023-07-13 02:15:35] INFO root fetch - processPackages [unitclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitclass-1.0.0.tar.gz tmp/unitclass-1.0.1.tar.gz --markdown 20230713/u/unitclass/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-13 02:15:35] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: New version: [3.0.934] Old Version: [3.0.933]
+[2023-07-13 02:15:35] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2023-07-13 02:15:35] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-1.9.0.tar.gz tmp/speakeasy-client-sdk-python-1.9.1.tar.gz --markdown 20230713/s/speakeasy-client-sdk-python/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-13 02:15:35] INFO root fetch - processPackages [git2doc]: Downloading https://files.pythonhosted.org/packages/ac/a5/762ce241ea17a99a2ea243e919b103678c93cd64f7cbdbd443723b3d56ad/git2doc-0.2.4.tar.gz
+[2023-07-13 02:15:35] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: executing diffoscope
+[2023-07-13 02:15:35] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-aa-3.0.933.tar.gz tmp/tencentcloud-sdk-python-aa-3.0.934.tar.gz --markdown 20230713/t/tencentcloud-sdk-python-aa/3.0.933-3.0.934/diff.md --exclude *.pyd
+[2023-07-13 02:15:35] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2023-07-13 02:15:35] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.1.0.20230711.post1212.tar.gz tmp/mct-quantizers-nightly-1.1.0.20230712.post1240.tar.gz --markdown 20230713/m/mct-quantizers-nightly/1.1.0.20230711.post1212-1.1.0.20230712.post1240/diff.md --exclude *.pyd
+[2023-07-13 02:15:35] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: Downloading https://files.pythonhosted.org/packages/0f/e5/4c70fe34e3c1586eba8f382c86f0d24673f19e652c91d9e83691ee14bfb2/tencentcloud-sdk-python-acp-3.0.933.tar.gz
+[2023-07-13 02:15:35] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2023-07-13 02:15:35] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-0.4.1.tar.gz tmp/sweepai-0.4.2.tar.gz --markdown 20230713/s/sweepai/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-13 02:15:35] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: Downloading https://files.pythonhosted.org/packages/9d/5e/938c34e36d805918d98daf8215a24cf5d1eb454f7dfcd4b3fcb1e55ec63c/tencentcloud-sdk-python-aai-3.0.934.tar.gz
+[2023-07-13 02:15:35] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: executing diffoscope
+[2023-07-13 02:15:35] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-aai-3.0.933.tar.gz tmp/tencentcloud-sdk-python-aai-3.0.934.tar.gz --markdown 20230713/t/tencentcloud-sdk-python-aai/3.0.933-3.0.934/diff.md --exclude *.pyd
+[2023-07-13 02:15:35] INFO root fetch - processPackages [git2doc]: executing diffoscope
+[2023-07-13 02:15:35] INFO root fetch - processPackages [git2doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git2doc-0.2.3.tar.gz tmp/git2doc-0.2.4.tar.gz --markdown 20230713/g/git2doc/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-13 02:15:35] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: Downloading https://files.pythonhosted.org/packages/3c/de/4023d46b6985af8be19ffc4903017f449854a2021f1c77cb8b1c7ae1c7a8/tencentcloud-sdk-python-acp-3.0.934.tar.gz
+[2023-07-13 02:15:36] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: executing diffoscope
+[2023-07-13 02:15:36] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-acp-3.0.933.tar.gz tmp/tencentcloud-sdk-python-acp-3.0.934.tar.gz --markdown 20230713/t/tencentcloud-sdk-python-acp/3.0.933-3.0.934/diff.md --exclude *.pyd
+[2023-07-13 02:15:36] INFO root fetch - processPackages [yiddish]: Remove: archive file [/home/abi/fetcher/tmp/yiddish-0.0.8.tar.gz]
+[2023-07-13 02:15:36] INFO root fetch - processPackages [yiddish]: Remove: archive file [/home/abi/fetcher/tmp/yiddish-0.0.9.tar.gz]
+[2023-07-13 02:15:36] INFO root fetch - processPackages [yiddish]: Start processing: tencentcloud-sdk-python-advisor
+[2023-07-13 02:15:36] INFO root fetch - main [MainThread]: End processing [yiddish]: success
+[2023-07-13 02:15:36] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: New version: [3.0.934] Old Version: [3.0.933]
+[2023-07-13 02:15:36] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: Downloading https://files.pythonhosted.org/packages/e8/98/37b5ad96db7d0e93666aaca0f8ad1b61ef2fd97cd94ebfc6dd9a48d14238/tencentcloud-sdk-python-advisor-3.0.933.tar.gz
+[2023-07-13 02:15:36] INFO root fetch - processPackages [unitclass]: Remove: archive file [/home/abi/fetcher/tmp/unitclass-1.0.0.tar.gz]
+[2023-07-13 02:15:36] INFO root fetch - processPackages [unitclass]: Remove: archive file [/home/abi/fetcher/tmp/unitclass-1.0.1.tar.gz]
+[2023-07-13 02:15:36] INFO root fetch - processPackages [unitclass]: Start processing: tencentcloud-sdk-python-af
+[2023-07-13 02:15:36] INFO root fetch - main [MainThread]: End processing [unitclass]: success
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aa-3.0.933.tar.gz]
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aa-3.0.934.tar.gz]
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Start processing: tencentcloud-sdk-python-afc
+[2023-07-13 02:15:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-aa]: success
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: New version: [3.0.934] Old Version: [3.0.933]
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: Downloading https://files.pythonhosted.org/packages/44/64/fc8b77f7e0fc9241568f02aff230e784bc1598fb1f63f390d42602030828/tencentcloud-sdk-python-advisor-3.0.934.tar.gz
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-afc]: New version: [3.0.934] Old Version: [3.0.933]
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: Downloading https://files.pythonhosted.org/packages/5d/ef/1f8abaab60bcbdcff0589e01bf2edda78211e10ee5a5863dda6ec1df89bc/tencentcloud-sdk-python-af-3.0.933.tar.gz
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: executing diffoscope
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-advisor-3.0.933.tar.gz tmp/tencentcloud-sdk-python-advisor-3.0.934.tar.gz --markdown 20230713/t/tencentcloud-sdk-python-advisor/3.0.933-3.0.934/diff.md --exclude *.pyd
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-afc]: Downloading https://files.pythonhosted.org/packages/62/1f/8decd1b95c12d97395756a26865b076831efbe68cd3c2a160fab96f86363/tencentcloud-sdk-python-afc-3.0.933.tar.gz
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aai-3.0.933.tar.gz]
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aai-3.0.934.tar.gz]
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: Start processing: tencentcloud-sdk-python-aiart
+[2023-07-13 02:15:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-aai]: success
+[2023-07-13 02:15:37] INFO root fetch - processPackages [git2doc]: Remove: archive file [/home/abi/fetcher/tmp/git2doc-0.2.3.tar.gz]
+[2023-07-13 02:15:37] INFO root fetch - processPackages [git2doc]: Remove: archive file [/home/abi/fetcher/tmp/git2doc-0.2.4.tar.gz]
+[2023-07-13 02:15:37] INFO root fetch - processPackages [git2doc]: Start processing: tencentcloud-sdk-python-ame
+[2023-07-13 02:15:37] INFO root fetch - main [MainThread]: End processing [git2doc]: success
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-aiart]: New version: [3.0.934] Old Version: [3.0.933]
+[2023-07-13 02:15:37] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.1.0.20230711.post1212.tar.gz]
+[2023-07-13 02:15:37] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.1.0.20230712.post1240.tar.gz]
+[2023-07-13 02:15:37] INFO root fetch - processPackages [mct-quantizers-nightly]: Start processing: cdk-events-notify
+[2023-07-13 02:15:37] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: New version: [3.0.934] Old Version: [3.0.933]
+[2023-07-13 02:15:37] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-1.9.0.tar.gz]
+[2023-07-13 02:15:37] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-1.9.1.tar.gz]
+[2023-07-13 02:15:37] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Start processing: tencentcloud-sdk-python-ams
+[2023-07-13 02:15:37] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2023-07-13 02:15:37] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.4.1.tar.gz]
+[2023-07-13 02:15:37] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.4.2.tar.gz]
+[2023-07-13 02:15:37] INFO root fetch - processPackages [sweepai]: Start processing: tencentcloud-sdk-python-anicloud
+[2023-07-13 02:15:37] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2023-07-13 02:15:37] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-aiart]: Downloading https://files.pythonhosted.org/packages/14/66/b80068258c508ab398e9a2332f96d60c83b4c6bcf7efeacc75a25476f240/tencentcloud-sdk-python-aiart-3.0.933.tar.gz
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-acp-3.0.933.tar.gz]
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-acp-3.0.934.tar.gz]
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: Start processing: tencentcloud-sdk-python-antiddos
+[2023-07-13 02:15:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-acp]: success
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: New version: [3.0.934] Old Version: [3.0.933]
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-anicloud]: New version: [3.0.934] Old Version: [3.0.933]
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: Downloading https://files.pythonhosted.org/packages/c4/26/41e862374030c70c8b497c61a05b8fa7d13ad1a60a67347edae5e53022d7/tencentcloud-sdk-python-ame-3.0.933.tar.gz
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: Downloading https://files.pythonhosted.org/packages/4e/77/455cb6c07b3c195641eea7848500b385a30509573d0d0c697c7fd108f076/tencentcloud-sdk-python-af-3.0.934.tar.gz
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-afc]: Downloading https://files.pythonhosted.org/packages/cf/ab/5cab3c88ff8837659f58ff9a769fe50cea3433fbcf64bc62b760e95051fc/tencentcloud-sdk-python-afc-3.0.934.tar.gz
+[2023-07-13 02:15:37] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: New version: [3.0.934] Old Version: [3.0.933]
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: Downloading https://files.pythonhosted.org/packages/ed/08/70c4c223be1b0c2e0416f72348cfb8ab65e59320867422dc3f54a67e13dc/tencentcloud-sdk-python-ams-3.0.933.tar.gz
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-anicloud]: Downloading https://files.pythonhosted.org/packages/94/54/8f5964cca5641337f80819d5246a49bca416ba1ed0dfc6c0a4dda3c9fdef/tencentcloud-sdk-python-anicloud-3.0.933.tar.gz
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: executing diffoscope
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-af-3.0.933.tar.gz tmp/tencentcloud-sdk-python-af-3.0.934.tar.gz --markdown 20230713/t/tencentcloud-sdk-python-af/3.0.933-3.0.934/diff.md --exclude *.pyd
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: Downloading https://files.pythonhosted.org/packages/ef/b6/928bc1288843bf78e0d3695d619b7c2bb8e6bad1eae052102c4fdde3b9e2/tencentcloud-sdk-python-antiddos-3.0.933.tar.gz
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-afc]: executing diffoscope
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-afc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-afc-3.0.933.tar.gz tmp/tencentcloud-sdk-python-afc-3.0.934.tar.gz --markdown 20230713/t/tencentcloud-sdk-python-afc/3.0.933-3.0.934/diff.md --exclude *.pyd
+[2023-07-13 02:15:37] INFO root fetch - processPackages [tencentcloud-sdk-python-aiart]: Downloading https://files.pythonhosted.org/packages/82/ce/c1a8bf7ae30db7a11b166b00209a172ef03d96859daff2ae4e2a4ae8335a/tencentcloud-sdk-python-aiart-3.0.934.tar.gz
+[2023-07-13 02:15:38] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: Downloading https://files.pythonhosted.org/packages/4c/f0/ea6a0bdfdcd3b58285d4c42cc327dbb03881db361ab3c2587ec585b59597/tencentcloud-sdk-python-ame-3.0.934.tar.gz
+[2023-07-13 02:15:38] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-07-13 02:15:38] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-07-13 02:15:38] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230713/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-13 02:15:38] INFO root fetch - processPackages [tencentcloud-sdk-python-aiart]: executing diffoscope
+[2023-07-13 02:15:38] INFO root fetch - processPackages [tencentcloud-sdk-python-aiart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-aiart-3.0.933.tar.gz tmp/tencentcloud-sdk-python-aiart-3.0.934.tar.gz --markdown 20230713/t/tencentcloud-sdk-python-aiart/3.0.933-3.0.934/diff.md --exclude *.pyd
+[2023-07-13 02:15:38] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: Downloading https://files.pythonhosted.org/packages/dc/08/e4ecaf4a6e8c7abb2ceb642d032f4e9381625c8d5c332e3943e8eb768472/tencentcloud-sdk-python-ams-3.0.934.tar.gz
+[2023-07-13 02:15:38] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: executing diffoscope
+[2023-07-13 02:15:38] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ame-3.0.933.tar.gz tmp/tencentcloud-sdk-python-ame-3.0.934.tar.gz --markdown 20230713/t/tencentcloud-sdk-python-ame/3.0.933-3.0.934/diff.md --exclude *.pyd
+[2023-07-13 02:15:38] INFO root fetch - processPackages [tencentcloud-sdk-python-anicloud]: Downloading https://files.pythonhosted.org/packages/0d/af/26cc9929a89dafcc62d6715f74a13031688139248c60e1621cbb788928e8/tencentcloud-sdk-python-anicloud-3.0.934.tar.gz
+[2023-07-13 02:15:38] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: Downloading https://files.pythonhosted.org/packages/72/a2/5e35719edc79a6824920c1365b48bea8a626f35ba555b30062f1fd2f943f/tencentcloud-sdk-python-antiddos-3.0.934.tar.gz
+[2023-07-13 02:15:38] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-advisor-3.0.933.tar.gz]
+[2023-07-13 02:15:38] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-advisor-3.0.934.tar.gz]
+[2023-07-13 02:15:38] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: Start processing: tencentcloud-sdk-python-apcas
+[2023-07-13 02:15:38] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-advisor]: success
+[2023-07-13 02:15:38] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: executing diffoscope
+[2023-07-13 02:15:38] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ams-3.0.933.tar.gz tmp/tencentcloud-sdk-python-ams-3.0.934.tar.gz --markdown 20230713/t/tencentcloud-sdk-python-ams/3.0.933-3.0.934/diff.md --exclude *.pyd
+[2023-07-13 02:15:38] INFO root fetch - processPackages [tencentcloud-sdk-python-apcas]: New version: [3.0.934] Old Version: [3.0.933]
+[2023-07-13 02:15:38] INFO root fetch - processPackages [tencentcloud-sdk-python-anicloud]: executing diffoscope
+[2023-07-13 02:15:38] INFO root fetch - processPackages [tencentcloud-sdk-python-anicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-anicloud-3.0.933.tar.gz tmp/tencentcloud-sdk-python-anicloud-3.0.934.tar.gz --markdown 20230713/t/tencentcloud-sdk-python-anicloud/3.0.933-3.0.934/diff.md --exclude *.pyd
+[2023-07-13 02:15:38] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: executing diffoscope
+[2023-07-13 02:15:38] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-antiddos-3.0.933.tar.gz tmp/tencentcloud-sdk-python-antiddos-3.0.934.tar.gz --markdown 20230713/t/tencentcloud-sdk-python-antiddos/3.0.933-3.0.934/diff.md --exclude *.pyd
+[2023-07-13 02:15:38] INFO root fetch - processPackages [tencentcloud-sdk-python-apcas]: Downloading https://files.pythonhosted.org/packages/7f/d7/f81793f7d8350e8316b5e1ae360589281a3d5de13963556520dc77bbae28/tencentcloud-sdk-python-apcas-3.0.933.tar.gz
+[2023-07-13 02:15:38] INFO root fetch - processPackages [tencentcloud-sdk-python-apcas]: Downloading https://files.pythonhosted.org/packages/2f/c1/08113eda80671f29eb75cbb61b457ec2dc7f6ba1528faaae908c6cb6e772/tencentcloud-sdk-python-apcas-3.0.934.tar.gz
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-apcas]: executing diffoscope
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-apcas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-apcas-3.0.933.tar.gz tmp/tencentcloud-sdk-python-apcas-3.0.934.tar.gz --markdown 20230713/t/tencentcloud-sdk-python-apcas/3.0.933-3.0.934/diff.md --exclude *.pyd
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-af-3.0.933.tar.gz]
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-af-3.0.934.tar.gz]
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: Start processing: pymatgen-analysis-defects
+[2023-07-13 02:15:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-af]: success
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-afc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-afc-3.0.933.tar.gz]
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-afc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-afc-3.0.934.tar.gz]
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-afc]: Start processing: tencentcloud-sdk-python-ape
+[2023-07-13 02:15:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-afc]: success
+[2023-07-13 02:15:39] INFO root fetch - processPackages [pymatgen-analysis-defects]: New version: [2023.7.12] Old Version: [2023.6.1]
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-ape]: New version: [3.0.934] Old Version: [3.0.933]
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-ape]: Downloading https://files.pythonhosted.org/packages/e9/a2/d3069c0e67814caa84e2869d8d902969f41a70ee7e17dd531cd799c01c05/tencentcloud-sdk-python-ape-3.0.933.tar.gz
+[2023-07-13 02:15:39] INFO root fetch - processPackages [pymatgen-analysis-defects]: Downloading https://files.pythonhosted.org/packages/75/16/14d80a7d53777434d74fc39a17dce5a6f85b1b5c9d7607c85b575eb03558/pymatgen-analysis-defects-2023.6.1.tar.gz
+[2023-07-13 02:15:39] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.98.tar.gz]
+[2023-07-13 02:15:39] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.99.tar.gz]
+[2023-07-13 02:15:39] INFO root fetch - processPackages [cdk-events-notify]: Start processing: tencentcloud-sdk-python-api
+[2023-07-13 02:15:39] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-aiart]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aiart-3.0.933.tar.gz]
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-aiart]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aiart-3.0.934.tar.gz]
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-aiart]: Start processing: tencentcloud-sdk-python-apigateway
+[2023-07-13 02:15:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-aiart]: success
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-api]: New version: [3.0.933] Old Version: [3.0.932]
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-apigateway]: New version: [3.0.933] Old Version: [3.0.932]
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ams-3.0.933.tar.gz]
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ams-3.0.934.tar.gz]
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: Start processing: tencentcloud-sdk-python-apm
+[2023-07-13 02:15:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ams]: success
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-ape]: Downloading https://files.pythonhosted.org/packages/a7/47/3c98284bc5ea84f3bfa4aa8cf5f65a04b51e7665f9e5a00fb7d4a82ee253/tencentcloud-sdk-python-ape-3.0.934.tar.gz
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-api]: Downloading https://files.pythonhosted.org/packages/f9/60/be963bee5af150668b692c904a151c0335d769686fce716797655a77f29a/tencentcloud-sdk-python-api-3.0.932.tar.gz
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ame-3.0.933.tar.gz]
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ame-3.0.934.tar.gz]
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: Start processing: tencentcloud-sdk-python-asr
+[2023-07-13 02:15:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ame]: success
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-apigateway]: Downloading https://files.pythonhosted.org/packages/01/34/ddc6b14af4f2282ee6172fd125cac3b7ca50e7bce251f012621a5b08dc89/tencentcloud-sdk-python-apigateway-3.0.932.tar.gz
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-apm]: New version: [3.0.933] Old Version: [3.0.932]
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-asr]: New version: [3.0.933] Old Version: [3.0.932]
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-antiddos-3.0.933.tar.gz]
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-antiddos-3.0.934.tar.gz]
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: Start processing: predictionguard
+[2023-07-13 02:15:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-antiddos]: success
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-anicloud]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-anicloud-3.0.933.tar.gz]
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-anicloud]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-anicloud-3.0.934.tar.gz]
+[2023-07-13 02:15:39] INFO root fetch - processPackages [tencentcloud-sdk-python-anicloud]: Start processing: tencentcloud-sdk-python-asw
+[2023-07-13 02:15:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-anicloud]: success
+[2023-07-13 02:15:40] INFO root fetch - processPackages [predictionguard]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-apm]: Downloading https://files.pythonhosted.org/packages/06/0b/b50f6dccf8605ac18474002415bd045b1af4b521201e6856d7fad2016d3f/tencentcloud-sdk-python-apm-3.0.932.tar.gz
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-ape]: executing diffoscope
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-apigateway]: Downloading https://files.pythonhosted.org/packages/67/f2/cdbf06b2bef6510b1db577982f2d8f5bb4b91e77c052f46ee11a3682415a/tencentcloud-sdk-python-apigateway-3.0.933.tar.gz
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-ape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ape-3.0.933.tar.gz tmp/tencentcloud-sdk-python-ape-3.0.934.tar.gz --markdown 20230713/t/tencentcloud-sdk-python-ape/3.0.933-3.0.934/diff.md --exclude *.pyd
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: New version: [3.0.933] Old Version: [3.0.932]
+[2023-07-13 02:15:40] INFO root fetch - processPackages [pymatgen-analysis-defects]: Downloading https://files.pythonhosted.org/packages/88/56/b2c79010f6961109dc59af3db745518afec1b8eb3ec175ba1e5e980bf5a1/pymatgen-analysis-defects-2023.7.12.tar.gz
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-asr]: Downloading https://files.pythonhosted.org/packages/c8/c3/3b47ed9f5dbc0d26e59210ffc640089d285ce607ca683b08a9b529ae5fe4/tencentcloud-sdk-python-asr-3.0.932.tar.gz
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-api]: Downloading https://files.pythonhosted.org/packages/9c/72/756bbb207dc56d314f4313bbeaaf74ab1da6131aaeeec4e49cff72132841/tencentcloud-sdk-python-api-3.0.933.tar.gz
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: Downloading https://files.pythonhosted.org/packages/4b/9b/52fc47fbd9fb868b5ea9789360ae563f6faf4a52d1cbb01cecd09e4f2568/tencentcloud-sdk-python-asw-3.0.932.tar.gz
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-apigateway]: executing diffoscope
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-apigateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-apigateway-3.0.932.tar.gz tmp/tencentcloud-sdk-python-apigateway-3.0.933.tar.gz --markdown 20230713/t/tencentcloud-sdk-python-apigateway/3.0.932-3.0.933/diff.md --exclude *.pyd
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.98.tar.gz]
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.99.tar.gz]
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python]: Start processing: tencentcloud-sdk-python-autoscaling
+[2023-07-13 02:15:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python]: success
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-api]: executing diffoscope
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-api-3.0.932.tar.gz tmp/tencentcloud-sdk-python-api-3.0.933.tar.gz --markdown 20230713/t/tencentcloud-sdk-python-api/3.0.932-3.0.933/diff.md --exclude *.pyd
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-apm]: Downloading https://files.pythonhosted.org/packages/45/0c/a6b55827a71cc17ede8e3abe29ede1b7aa16b68e849c469ebe1cc8ead4c2/tencentcloud-sdk-python-apm-3.0.933.tar.gz
+[2023-07-13 02:15:40] INFO root fetch - processPackages [pymatgen-analysis-defects]: executing diffoscope
+[2023-07-13 02:15:40] INFO root fetch - processPackages [pymatgen-analysis-defects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymatgen-analysis-defects-2023.6.1.tar.gz tmp/pymatgen-analysis-defects-2023.7.12.tar.gz --markdown 20230713/p/pymatgen-analysis-defects/2023.6.1-2023.7.12/diff.md --exclude *.pyd
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-apcas]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-apcas-3.0.933.tar.gz]
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-apcas]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-apcas-3.0.934.tar.gz]
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-apcas]: Start processing: tencentcloud-sdk-python-ba
+[2023-07-13 02:15:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-apcas]: success
+[2023-07-13 02:15:40] INFO root fetch - processPackages [predictionguard]: Downloading https://files.pythonhosted.org/packages/80/c2/f1956dcecf8eeb19f4cdadaae15c351c5cca7659f1ce0ecc505a8a9f5cc3/predictionguard-1.2.0.tar.gz
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-autoscaling]: New version: [3.0.933] Old Version: [3.0.932]
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-ba]: New version: [3.0.933] Old Version: [3.0.932]
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-apm]: executing diffoscope
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-apm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-apm-3.0.932.tar.gz tmp/tencentcloud-sdk-python-apm-3.0.933.tar.gz --markdown 20230713/t/tencentcloud-sdk-python-apm/3.0.932-3.0.933/diff.md --exclude *.pyd
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-asr]: Downloading https://files.pythonhosted.org/packages/ee/94/19bea5440a146d217885b26707b466a0bf4e7b0dde83601ae3b803eedc19/tencentcloud-sdk-python-asr-3.0.933.tar.gz
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-autoscaling]: Downloading https://files.pythonhosted.org/packages/0e/f2/4124317a173317b7ef29b41b7830408a0f5c917726a9078787e09228d134/tencentcloud-sdk-python-autoscaling-3.0.932.tar.gz
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-ba]: Downloading https://files.pythonhosted.org/packages/2e/f7/4ef6dd70be6a9abc4e231071f3826680a1d6d46af9e93bbb472ef4ed8bdf/tencentcloud-sdk-python-ba-3.0.932.tar.gz
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: Downloading https://files.pythonhosted.org/packages/5d/07/47e8ef19f2fc7b83758c89ff55f944d3b3c26e1ba866056d5374dc63dfa2/tencentcloud-sdk-python-asw-3.0.933.tar.gz
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-asr]: executing diffoscope
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-asr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-asr-3.0.932.tar.gz tmp/tencentcloud-sdk-python-asr-3.0.933.tar.gz --markdown 20230713/t/tencentcloud-sdk-python-asr/3.0.932-3.0.933/diff.md --exclude *.pyd
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: executing diffoscope
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-asw-3.0.932.tar.gz tmp/tencentcloud-sdk-python-asw-3.0.933.tar.gz --markdown 20230713/t/tencentcloud-sdk-python-asw/3.0.932-3.0.933/diff.md --exclude *.pyd
+[2023-07-13 02:15:40] INFO root fetch - processPackages [predictionguard]: Downloading https://files.pythonhosted.org/packages/41/c0/b435dd2e30981915fab7072b7b1ac86bec70d5e5f66c273b49d1fa51109c/predictionguard-1.2.1.tar.gz
+[2023-07-13 02:15:40] INFO root fetch - processPackages [tencentcloud-sdk-python-autoscaling]: Downloading https://files.pythonhosted.org/packages/5d/9d/dfff3d8748ab15824602f395d86f7e60942bf37b5b4a6ddf7a817a589edd/tencentcloud-sdk-python-autoscaling-3.0.933.tar.gz
+[2023-07-13 02:15:41] INFO root fetch - processPackages [tencentcloud-sdk-python-ba]: Downloading https://files.pythonhosted.org/packages/d2/23/39c59c69462862a89ebcaff4c9d769b88f5f37004c28d75cdb6a0ba067b5/tencentcloud-sdk-python-ba-3.0.933.tar.gz
+[2023-07-13 02:15:41] INFO root fetch - processPackages [predictionguard]: executing diffoscope
+[2023-07-13 02:15:41] INFO root fetch - processPackages [predictionguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predictionguard-1.2.0.tar.gz tmp/predictionguard-1.2.1.tar.gz --markdown 20230713/p/predictionguard/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-13 02:15:41] INFO root fetch - processPackages [tencentcloud-sdk-python-autoscaling]: executing diffoscope
+[2023-07-13 02:15:41] INFO root fetch - processPackages [tencentcloud-sdk-python-autoscaling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-autoscaling-3.0.932.tar.gz tmp/tencentcloud-sdk-python-autoscaling-3.0.933.tar.gz --markdown 20230713/t/tencentcloud-sdk-python-autoscaling/3.0.932-3.0.933/diff.md --exclude *.pyd
+[2023-07-13 02:15:41] INFO root fetch - processPackages [tencentcloud-sdk-python-ba]: executing diffoscope
+[2023-07-13 02:15:41] INFO root fetch - processPackages [tencentcloud-sdk-python-ba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ba-3.0.932.tar.gz tmp/tencentcloud-sdk-python-ba-3.0.933.tar.gz --markdown 20230713/t/tencentcloud-sdk-python-ba/3.0.932-3.0.933/diff.md --exclude *.pyd
+[2023-07-13 02:15:41] INFO root fetch - processPackages [tencentcloud-sdk-python-ape]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ape-3.0.933.tar.gz]
+[2023-07-13 02:15:41] INFO root fetch - processPackages [tencentcloud-sdk-python-ape]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ape-3.0.934.tar.gz]
+[2023-07-13 02:15:41] INFO root fetch - processPackages [tencentcloud-sdk-python-ape]: Start processing: cdk-skylight
+[2023-07-13 02:15:41] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ape]: success
+[2023-07-13 02:15:41] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-13 02:15:41] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2023-07-13 02:15:41] INFO root fetch - processPackages [tencentcloud-sdk-python-api]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-api-3.0.932.tar.gz]
+[2023-07-13 02:15:41] INFO root fetch - processPackages [tencentcloud-sdk-python-api]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-api-3.0.933.tar.gz]
+[2023-07-13 02:15:41] INFO root fetch - processPackages [tencentcloud-sdk-python-api]: Start processing: tencentcloud-sdk-python-batch
+[2023-07-13 02:15:41] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-api]: success
+[2023-07-13 02:15:41] INFO root fetch - processPackages [tencentcloud-sdk-python-apigateway]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-apigateway-3.0.932.tar.gz]
+[2023-07-13 02:15:41] INFO root fetch - processPackages [tencentcloud-sdk-python-apigateway]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-apigateway-3.0.933.tar.gz]
+[2023-07-13 02:15:41] INFO root fetch - processPackages [tencentcloud-sdk-python-apigateway]: Start processing: tencentcloud-sdk-python-bda
+[2023-07-13 02:15:41] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-apigateway]: success
+[2023-07-13 02:15:41] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: New version: [3.0.933] Old Version: [3.0.932]
+[2023-07-13 02:15:41] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: New version: [3.0.933] Old Version: [3.0.932]
+[2023-07-13 02:15:41] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2023-07-13 02:15:41] INFO root fetch - processPackages [tencentcloud-sdk-python-apm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-apm-3.0.932.tar.gz]
+[2023-07-13 02:15:41] INFO root fetch - processPackages [tencentcloud-sdk-python-apm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-apm-3.0.933.tar.gz]
+[2023-07-13 02:15:41] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-apm]: success
+[2023-07-13 02:15:41] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: Downloading https://files.pythonhosted.org/packages/97/de/d5f1fade1fde91485b7b2dff70151e830c297feee61273cd9b9bc3017367/tencentcloud-sdk-python-batch-3.0.932.tar.gz
+[2023-07-13 02:15:41] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: Downloading https://files.pythonhosted.org/packages/8b/16/6951fa1b070d7fb2fa07f3b8fe812b22f8e3793fa58ac337fe2e6d795b74/tencentcloud-sdk-python-bda-3.0.932.tar.gz
+[2023-07-13 02:15:41] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2023-07-13 02:15:41] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20230713/c/cdk-skylight/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-13 02:15:42] INFO root fetch - processPackages [pymatgen-analysis-defects]: Remove: archive file [/home/abi/fetcher/tmp/pymatgen-analysis-defects-2023.6.1.tar.gz]
+[2023-07-13 02:15:42] INFO root fetch - processPackages [pymatgen-analysis-defects]: Remove: archive file [/home/abi/fetcher/tmp/pymatgen-analysis-defects-2023.7.12.tar.gz]
+[2023-07-13 02:15:42] INFO root fetch - main [MainThread]: End processing [pymatgen-analysis-defects]: success
+[2023-07-13 02:15:42] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-asw-3.0.932.tar.gz]
+[2023-07-13 02:15:42] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-asw-3.0.933.tar.gz]
+[2023-07-13 02:15:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-asw]: success
+[2023-07-13 02:15:42] INFO root fetch - processPackages [tencentcloud-sdk-python-asr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-asr-3.0.932.tar.gz]
+[2023-07-13 02:15:42] INFO root fetch - processPackages [tencentcloud-sdk-python-asr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-asr-3.0.933.tar.gz]
+[2023-07-13 02:15:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-asr]: success
+[2023-07-13 02:15:42] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: Downloading https://files.pythonhosted.org/packages/62/bc/562dd429c271bf3603080944ac581e48beb510f509095dd21a637ab39878/tencentcloud-sdk-python-batch-3.0.933.tar.gz
+[2023-07-13 02:15:42] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: Downloading https://files.pythonhosted.org/packages/fe/94/331c025108c2e6ebcccc0512b3e1bc6e79ed96fdf9df5bdb218b03b5e12a/tencentcloud-sdk-python-bda-3.0.933.tar.gz
+[2023-07-13 02:15:42] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: executing diffoscope
+[2023-07-13 02:15:42] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-batch-3.0.932.tar.gz tmp/tencentcloud-sdk-python-batch-3.0.933.tar.gz --markdown 20230713/t/tencentcloud-sdk-python-batch/3.0.932-3.0.933/diff.md --exclude *.pyd
+[2023-07-13 02:15:42] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: executing diffoscope
+[2023-07-13 02:15:42] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bda-3.0.932.tar.gz tmp/tencentcloud-sdk-python-bda-3.0.933.tar.gz --markdown 20230713/t/tencentcloud-sdk-python-bda/3.0.932-3.0.933/diff.md --exclude *.pyd
+[2023-07-13 02:15:42] INFO root fetch - processPackages [tencentcloud-sdk-python-ba]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ba-3.0.932.tar.gz]
+[2023-07-13 02:15:42] INFO root fetch - processPackages [tencentcloud-sdk-python-ba]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ba-3.0.933.tar.gz]
+[2023-07-13 02:15:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ba]: success
+[2023-07-13 02:15:42] INFO root fetch - processPackages [tencentcloud-sdk-python-autoscaling]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-autoscaling-3.0.932.tar.gz]
+[2023-07-13 02:15:42] INFO root fetch - processPackages [tencentcloud-sdk-python-autoscaling]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-autoscaling-3.0.933.tar.gz]
+[2023-07-13 02:15:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-autoscaling]: success
+[2023-07-13 02:15:42] INFO root fetch - processPackages [predictionguard]: Remove: archive file [/home/abi/fetcher/tmp/predictionguard-1.2.0.tar.gz]
+[2023-07-13 02:15:42] INFO root fetch - processPackages [predictionguard]: Remove: archive file [/home/abi/fetcher/tmp/predictionguard-1.2.1.tar.gz]
+[2023-07-13 02:15:42] INFO root fetch - main [MainThread]: End processing [predictionguard]: success
+[2023-07-13 02:15:42] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2023-07-13 02:15:42] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2023-07-13 02:15:42] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2023-07-13 02:15:43] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-batch-3.0.932.tar.gz]
+[2023-07-13 02:15:43] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-batch-3.0.933.tar.gz]
+[2023-07-13 02:15:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-batch]: success
+[2023-07-13 02:15:43] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bda-3.0.932.tar.gz]
+[2023-07-13 02:15:43] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bda-3.0.933.tar.gz]
+[2023-07-13 02:15:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bda]: success
+[2023-07-13 02:15:43] INFO root fetch - main [MainThread]: Store serial: [18867487]
