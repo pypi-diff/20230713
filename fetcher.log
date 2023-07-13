@@ -10686,3 +10686,186 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 07:16:40] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.362.0.tar.gz]
 [2023-07-13 07:16:40] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-13 07:16:40] INFO root fetch - main [MainThread]: Store serial: [18870228]
+[2023-07-13 07:21:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18870228]
+[2023-07-13 07:21:52] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-13 07:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragonfly-radiance
+[2023-07-13 07:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-24
+[2023-07-13 07:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapidpe-rift-pipe
+[2023-07-13 07:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-image
+[2023-07-13 07:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: predibase-api
+[2023-07-13 07:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dragonfly-uwg
+[2023-07-13 07:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: predibase
+[2023-07-13 07:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: icepool
+[2023-07-13 07:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cjm-yolox-pytorch
+[2023-07-13 07:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lbt-honeybee
+[2023-07-13 07:21:52] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-13 07:21:52] INFO root fetch - processPackages [predibase]: New version: [2023.7.7] Old Version: [2023.7.6]
+[2023-07-13 07:21:52] INFO root fetch - processPackages [predibase-api]: New version: [2023.7.7] Old Version: [2023.7.6]
+[2023-07-13 07:21:52] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 07:21:52] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-13 07:21:52] INFO root fetch - processPackages [icepool]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-13 07:21:52] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.86]
+[2023-07-13 07:21:52] INFO root fetch - processPackages [cdk8s-image]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-13 07:21:52] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-07-13 07:21:52] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.5.4.dev20230713] Old Version: [0.5.4.dev20230712]
+[2023-07-13 07:21:52] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-13 07:21:53] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-13 07:21:53] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/dd/6c/7d5ffb363ba985b326d3b266d8eaea74bc6cc890eb733cc9e0cc127ccc55/dragonfly-radiance-0.2.8.tar.gz
+[2023-07-13 07:21:53] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2023-07-13 07:21:53] INFO root fetch - processPackages [predibase]: Downloading https://files.pythonhosted.org/packages/8a/d7/d1bab8bf8bcb59baff07d67795f7ef8cec88922dbdc57c93e642d34d5262/predibase-2023.7.6.tar.gz
+[2023-07-13 07:21:53] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/a9/08/124d4b845e6f21bc8647caf5b96991b70447aabc332f2ee834d657bc6248/rapidpe_rift_pipe-0.5.4.dev20230712.tar.gz
+[2023-07-13 07:21:53] INFO root fetch - processPackages [predibase-api]: Downloading https://files.pythonhosted.org/packages/50/b3/e21976cd95f2ad208f9f0ed35d12efc904f445f160d49c3b7c8a52083466/predibase-api-2023.7.6.tar.gz
+[2023-07-13 07:21:53] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/95/fb/04b4d96af25273a0210c5029e3f8f193e9fc32c9d8d7108acf91834aee47/cdk8s-plus-24-2.8.86.tar.gz
+[2023-07-13 07:21:53] INFO root fetch - processPackages [icepool]: Downloading https://files.pythonhosted.org/packages/94/88/20b99789579285e85ed1bc1b2de8bbdca61acab6696cc2621582ca9cd72e/icepool-0.8.0.tar.gz
+[2023-07-13 07:21:53] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/08/4a/4983fe97d4073731fd1258ffef45d7770c72f1de7244a05cdfe1bb68d3b0/cdk8s-image-0.2.98.tar.gz
+[2023-07-13 07:21:53] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-13 07:21:53] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 07:21:53] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2023-07-13 07:21:53] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/e9/01/706de1a3d81bb520c7a73e10a084040d9e5f37ff57b7defd9715a2c4018e/dragonfly-radiance-0.2.9.tar.gz
+[2023-07-13 07:21:53] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-13 07:21:53] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230713/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-13 07:21:53] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/83/33/ec1ebc7864f071154ac03b922cc2799b9229b20f7bf136332258b6cea71b/rapidpe_rift_pipe-0.5.4.dev20230713.tar.gz
+[2023-07-13 07:21:53] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 07:21:53] INFO root fetch - processPackages [predibase]: Downloading https://files.pythonhosted.org/packages/76/ed/0c7f72629c19dce0e00d45986593b40476d432bee2ed907f39e3171ce5a1/predibase-2023.7.7.tar.gz
+[2023-07-13 07:21:53] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 07:21:53] INFO root fetch - processPackages [predibase-api]: Downloading https://files.pythonhosted.org/packages/90/24/f91338711d2e2299d6624107c83e4ecccb01450e8b873b56126c2e8c3b01/predibase-api-2023.7.7.tar.gz
+[2023-07-13 07:21:53] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2023-07-13 07:21:53] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20230713/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-07-13 07:21:53] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-07-13 07:21:53] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-07-13 07:21:53] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.8.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230713/d/dragonfly-radiance/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-13 07:21:53] INFO root fetch - processPackages [predibase-api]: executing diffoscope
+[2023-07-13 07:21:53] INFO root fetch - processPackages [predibase-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predibase-api-2023.7.6.tar.gz tmp/predibase-api-2023.7.7.tar.gz --markdown 20230713/p/predibase-api/2023.7.6-2023.7.7/diff.md --exclude *.pyd
+[2023-07-13 07:21:53] INFO root fetch - processPackages [predibase]: executing diffoscope
+[2023-07-13 07:21:53] INFO root fetch - processPackages [predibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predibase-2023.7.6.tar.gz tmp/predibase-2023.7.7.tar.gz --markdown 20230713/p/predibase/2023.7.6-2023.7.7/diff.md --exclude *.pyd
+[2023-07-13 07:21:53] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-07-13 07:21:53] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.5.4.dev20230712.tar.gz tmp/rapidpe_rift_pipe-0.5.4.dev20230713.tar.gz --markdown 20230713/r/rapidpe-rift-pipe/0.5.4.dev20230712-0.5.4.dev20230713/diff.md --exclude *.pyd
+[2023-07-13 07:21:53] INFO root fetch - processPackages [icepool]: Downloading https://files.pythonhosted.org/packages/89/19/d048a9d0f7be7d936293f865a84bdffde2fd5b06a3b5773d75e376762197/icepool-0.9.0.tar.gz
+[2023-07-13 07:21:53] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/fb/19/ce87f85995849eec0b27665fe8c6c59e225f2d99370b1c068893ad31c698/cdk8s-image-0.2.99.tar.gz
+[2023-07-13 07:21:53] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-07-13 07:21:53] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.86.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230713/c/cdk8s-plus-24/2.8.86-2.8.9/diff.md --exclude *.pyd
+[2023-07-13 07:21:54] INFO root fetch - processPackages [cdk8s-image]: executing diffoscope
+[2023-07-13 07:21:54] INFO root fetch - processPackages [cdk8s-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-image-0.2.98.tar.gz tmp/cdk8s-image-0.2.99.tar.gz --markdown 20230713/c/cdk8s-image/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-13 07:21:54] INFO root fetch - processPackages [icepool]: executing diffoscope
+[2023-07-13 07:21:54] INFO root fetch - processPackages [icepool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icepool-0.8.0.tar.gz tmp/icepool-0.9.0.tar.gz --markdown 20230713/i/icepool/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-13 07:21:55] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [lbt-honeybee]: Start processing: cdk8s
+[2023-07-13 07:21:55] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-13 07:21:55] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [cjm-yolox-pytorch]: Start processing: lbt-dragonfly
+[2023-07-13 07:21:55] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 07:21:55] INFO root fetch - processPackages [predibase-api]: Remove: archive file [/home/abi/fetcher/tmp/predibase-api-2023.7.6.tar.gz]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [predibase-api]: Remove: archive file [/home/abi/fetcher/tmp/predibase-api-2023.7.7.tar.gz]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [predibase-api]: Start processing: entail
+[2023-07-13 07:21:55] INFO root fetch - main [MainThread]: End processing [predibase-api]: success
+[2023-07-13 07:21:55] INFO root fetch - processPackages [cdk8s]: New version: [2.7.99] Old Version: [2.7.98]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [entail]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/d8/60/774b00a08e1e8a1155f225bfc65207f11ae692dd4bd4cc19fc599853994a/cdk8s-2.7.98.tar.gz
+[2023-07-13 07:21:55] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-13 07:21:55] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.8.tar.gz]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.9.tar.gz]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [dragonfly-radiance]: Start processing: tcod-ecs
+[2023-07-13 07:21:55] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-07-13 07:21:55] INFO root fetch - processPackages [predibase]: Remove: archive file [/home/abi/fetcher/tmp/predibase-2023.7.6.tar.gz]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [predibase]: Remove: archive file [/home/abi/fetcher/tmp/predibase-2023.7.7.tar.gz]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [predibase]: Start processing: odoo14-addons-oca-server-tools
+[2023-07-13 07:21:55] INFO root fetch - main [MainThread]: End processing [predibase]: success
+[2023-07-13 07:21:55] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.98.tar.gz]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.99.tar.gz]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [cdk8s-image]: Start processing: dragonfly-energy
+[2023-07-13 07:21:55] INFO root fetch - main [MainThread]: End processing [cdk8s-image]: success
+[2023-07-13 07:21:55] INFO root fetch - processPackages [tcod-ecs]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [dragonfly-uwg]: Start processing: cjm-yolox-pytorch
+[2023-07-13 07:21:55] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2023-07-13 07:21:55] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: New version: [14.0.20230712.0] Old Version: [14.0.20230702.0]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [entail]: Downloading https://files.pythonhosted.org/packages/a0/a3/086dbbc3ea6931a2fd77d9ea3564f8b6d29ecb3d1c10d3da9bf58f107759/entail-0.0.2.tar.gz
+[2023-07-13 07:21:55] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.86.tar.gz]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [cdk8s-plus-24]: Start processing: monai-deploy-app-sdk
+[2023-07-13 07:21:55] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-07-13 07:21:55] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230712.tar.gz]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230713.tar.gz]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [rapidpe-rift-pipe]: Start processing: lbt-honeybee
+[2023-07-13 07:21:55] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-07-13 07:21:55] INFO root fetch - processPackages [monai-deploy-app-sdk]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-13 07:21:55] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2023-07-13 07:21:55] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-13 07:21:55] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/23/d1/ee5cf44f421921d790a4e0d2cf87c118188da9c30cbece10e0e66cf115fe/cdk8s-2.7.99.tar.gz
+[2023-07-13 07:21:55] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-13 07:21:56] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-13 07:21:56] INFO root fetch - processPackages [tcod-ecs]: Downloading https://files.pythonhosted.org/packages/17/e9/51db6e7edbb01f3ec073a6f32a8ea8489241bb24947bdd142d666ed895b7/tcod_ecs-3.2.0.tar.gz
+[2023-07-13 07:21:56] INFO root fetch - processPackages [icepool]: Remove: archive file [/home/abi/fetcher/tmp/icepool-0.8.0.tar.gz]
+[2023-07-13 07:21:56] INFO root fetch - processPackages [icepool]: Remove: archive file [/home/abi/fetcher/tmp/icepool-0.9.0.tar.gz]
+[2023-07-13 07:21:56] INFO root fetch - processPackages [icepool]: Start processing: cdk8s-redis
+[2023-07-13 07:21:56] INFO root fetch - main [MainThread]: End processing [icepool]: success
+[2023-07-13 07:21:56] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/ea/93/0ada96b143cbd8b27ed1195c67aafd1f2c3583f3e9525e938944494c0b8b/odoo14_addons_oca_server_tools-14.0.20230702.0-py3-none-any.whl
+[2023-07-13 07:21:56] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-13 07:21:56] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-13 07:21:56] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230713/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-13 07:21:56] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-13 07:21:56] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.98.tar.gz tmp/cdk8s-2.7.99.tar.gz --markdown 20230713/c/cdk8s/2.7.98-2.7.99/diff.md --exclude *.pyd
+[2023-07-13 07:21:56] INFO root fetch - processPackages [monai-deploy-app-sdk]: Downloading https://files.pythonhosted.org/packages/eb/0b/6115f6caed42ae6185182fc684c52a0c898bf35d568457f0ce269ab596c9/monai_deploy_app_sdk-0.5.0-py3-none-any.whl
+[2023-07-13 07:21:56] INFO root fetch - processPackages [entail]: Downloading https://files.pythonhosted.org/packages/ef/93/3b5a990260ba8a23ea08ccf746e0bc78f157306b102c130244dc269a3139/entail-0.1.0.tar.gz
+[2023-07-13 07:21:56] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 07:21:56] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-13 07:21:56] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2023-07-13 07:21:56] INFO root fetch - processPackages [entail]: executing diffoscope
+[2023-07-13 07:21:56] INFO root fetch - processPackages [entail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entail-0.0.2.tar.gz tmp/entail-0.1.0.tar.gz --markdown 20230713/e/entail/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-13 07:21:56] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 07:21:56] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 07:21:56] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-07-13 07:21:56] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230713/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-13 07:21:56] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-13 07:21:56] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/02/f4/5552766699e1d8c76030c05e1263b3831d954ce9e8a9335747cbbf44cae5/odoo14_addons_oca_server_tools-14.0.20230712.0-py3-none-any.whl
+[2023-07-13 07:21:56] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/5a/8c/825ae4195bc273e13b4fb93e9ef112419d75fcd2c5194121692b5cd9fd19/cdk8s-redis-0.1.98.tar.gz
+[2023-07-13 07:21:56] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-13 07:21:56] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230713/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-13 07:21:56] INFO root fetch - processPackages [monai-deploy-app-sdk]: Downloading https://files.pythonhosted.org/packages/37/fe/6c595ac0b7c7b0ff7889e47d24c90bcd454349b7d7029f14e381dcb2f067/monai_deploy_app_sdk-0.5.1-py3-none-any.whl
+[2023-07-13 07:21:56] INFO root fetch - processPackages [tcod-ecs]: Downloading https://files.pythonhosted.org/packages/4c/ab/0b751b10821167eee369eb54fd8336ae9a03534a178147875609586fb568/tcod_ecs-3.3.0.tar.gz
+[2023-07-13 07:21:56] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: executing diffoscope
+[2023-07-13 07:21:56] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_server_tools-14.0.20230702.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_server_tools-14.0.20230712.0-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addons-oca-server-tools/14.0.20230702.0-14.0.20230712.0/diff.md --exclude *.pyd
+[2023-07-13 07:21:56] INFO root fetch - processPackages [tcod-ecs]: executing diffoscope
+[2023-07-13 07:21:56] INFO root fetch - processPackages [tcod-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcod_ecs-3.2.0.tar.gz tmp/tcod_ecs-3.3.0.tar.gz --markdown 20230713/t/tcod-ecs/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-07-13 07:21:56] INFO root fetch - processPackages [monai-deploy-app-sdk]: executing diffoscope
+[2023-07-13 07:21:56] INFO root fetch - processPackages [monai-deploy-app-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monai_deploy_app_sdk-0.5.0-py3-none-any.whl.zip tmp/monai_deploy_app_sdk-0.5.1-py3-none-any.whl.zip --markdown 20230713/m/monai-deploy-app-sdk/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-13 07:21:57] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/f2/71/df3da901bc2e5bd800b595302ae54fadb2f66a5789cfb0dd7e7d34eb2d91/cdk8s-redis-0.1.99.tar.gz
+[2023-07-13 07:21:57] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-07-13 07:21:57] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230713/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-13 07:21:57] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-13 07:21:57] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-13 07:21:57] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-13 07:21:57] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.98.tar.gz]
+[2023-07-13 07:21:57] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.99.tar.gz]
+[2023-07-13 07:21:57] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-13 07:21:57] INFO root fetch - processPackages [entail]: Remove: archive file [/home/abi/fetcher/tmp/entail-0.0.2.tar.gz]
+[2023-07-13 07:21:57] INFO root fetch - processPackages [entail]: Remove: archive file [/home/abi/fetcher/tmp/entail-0.1.0.tar.gz]
+[2023-07-13 07:21:57] INFO root fetch - main [MainThread]: End processing [entail]: success
+[2023-07-13 07:21:57] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-13 07:21:57] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 07:21:57] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 07:21:58] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-13 07:21:58] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-13 07:21:58] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-13 07:21:58] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_server_tools-14.0.20230702.0-py3-none-any.whl.zip]
+[2023-07-13 07:21:58] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_server_tools-14.0.20230712.0-py3-none-any.whl.zip]
+[2023-07-13 07:21:58] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-server-tools]: success
+[2023-07-13 07:21:58] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2023-07-13 07:21:58] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2023-07-13 07:21:58] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-07-13 07:21:58] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.98.tar.gz]
+[2023-07-13 07:21:58] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.99.tar.gz]
+[2023-07-13 07:21:58] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-07-13 07:21:58] INFO root fetch - processPackages [tcod-ecs]: Remove: archive file [/home/abi/fetcher/tmp/tcod_ecs-3.2.0.tar.gz]
+[2023-07-13 07:21:58] INFO root fetch - processPackages [tcod-ecs]: Remove: archive file [/home/abi/fetcher/tmp/tcod_ecs-3.3.0.tar.gz]
+[2023-07-13 07:21:58] INFO root fetch - main [MainThread]: End processing [tcod-ecs]: success
+[2023-07-13 07:21:58] INFO root fetch - processPackages [monai-deploy-app-sdk]: Remove: archive file [/home/abi/fetcher/tmp/monai_deploy_app_sdk-0.5.0-py3-none-any.whl.zip]
+[2023-07-13 07:21:58] INFO root fetch - processPackages [monai-deploy-app-sdk]: Remove: archive file [/home/abi/fetcher/tmp/monai_deploy_app_sdk-0.5.1-py3-none-any.whl.zip]
+[2023-07-13 07:21:58] INFO root fetch - main [MainThread]: End processing [monai-deploy-app-sdk]: success
+[2023-07-13 07:21:58] INFO root fetch - main [MainThread]: Store serial: [18870284]
