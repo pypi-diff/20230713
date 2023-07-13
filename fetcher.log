@@ -22681,3 +22681,294 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 14:56:45] INFO root fetch - processPackages [lightly]: Remove: archive file [/home/abi/fetcher/tmp/lightly-1.4.8.tar.gz]
 [2023-07-13 14:56:45] INFO root fetch - main [MainThread]: End processing [lightly]: success
 [2023-07-13 14:56:45] INFO root fetch - main [MainThread]: Store serial: [18874942]
+[2023-07-13 15:01:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18874942]
+[2023-07-13 15:01:54] INFO root fetch - main [MainThread]: Found 34 changed packages
+[2023-07-13 15:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odd-dbt
+[2023-07-13 15:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psychopy-whisper
+[2023-07-13 15:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unitxt
+[2023-07-13 15:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mixprops
+[2023-07-13 15:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coiled
+[2023-07-13 15:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: few-shot-priming
+[2023-07-13 15:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: baumanecbank-common
+[2023-07-13 15:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: osim-utils
+[2023-07-13 15:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: castor-extractor
+[2023-07-13 15:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Alchem-Event
+[2023-07-13 15:01:54] INFO root fetch - processPackages [odd-dbt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-13 15:01:54] INFO root fetch - processPackages [osim-utils]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-13 15:01:54] INFO root fetch - processPackages [coiled]: New version: [0.8.8.dev9] Old Version: [0.8.8.dev8]
+[2023-07-13 15:01:55] INFO root fetch - processPackages [mixprops]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-07-13 15:01:55] INFO root fetch - processPackages [unitxt]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-13 15:01:55] WARNING root fetch - processPackages [psychopy-whisper]: Skipping, unable to determine old version
+[2023-07-13 15:01:55] INFO root fetch - processPackages [psychopy-whisper]: Start processing: reflekt
+[2023-07-13 15:01:55] INFO root fetch - main [MainThread]: End processing [psychopy-whisper] error
+[2023-07-13 15:01:55] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-13 15:01:55] INFO root fetch - processPackages [castor-extractor]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-13 15:01:55] INFO root fetch - processPackages [baumanecbank-common]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-13 15:01:55] WARNING root fetch - processPackages [Alchem-Event]: Skipping, unable to determine old version
+[2023-07-13 15:01:55] INFO root fetch - processPackages [Alchem-Event]: Start processing: dlprog
+[2023-07-13 15:01:55] INFO root fetch - main [MainThread]: End processing [Alchem-Event] error
+[2023-07-13 15:01:55] INFO root fetch - processPackages [odd-dbt]: Downloading https://files.pythonhosted.org/packages/b7/77/67690ce5b1e290b99a44b98cc3db13869c03435faaa81822b620ed66a2cd/odd_dbt-0.1.8.tar.gz
+[2023-07-13 15:01:55] INFO root fetch - processPackages [mixprops]: Downloading https://files.pythonhosted.org/packages/73/a8/a7a0b36e89fb1a9902026217195af55ff2f25194f363bbc1c21eec7879c7/mixprops-0.1.3.tar.gz
+[2023-07-13 15:01:55] INFO root fetch - processPackages [osim-utils]: Downloading https://files.pythonhosted.org/packages/d7/e7/5a3107896734ee68413df65917456c946464cf4e23f0cafa6e68146d29b6/osim_utils-0.5.0.tar.gz
+[2023-07-13 15:01:55] WARNING root fetch - processPackages [dlprog]: Skipping, unable to determine old version
+[2023-07-13 15:01:55] INFO root fetch - processPackages [dlprog]: Start processing: libmata
+[2023-07-13 15:01:55] INFO root fetch - main [MainThread]: End processing [dlprog] error
+[2023-07-13 15:01:55] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/72/0e/aa05a5141b5d80287919caffa6a9a6e611a363a221e0221298149c3579af/coiled-0.8.8.dev8.tar.gz
+[2023-07-13 15:01:55] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-13 15:01:55] INFO root fetch - processPackages [libmata]: New version: [0.77.0] Old Version: [0.76.0]
+[2023-07-13 15:01:55] INFO root fetch - processPackages [reflekt]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-13 15:01:55] INFO root fetch - processPackages [baumanecbank-common]: Downloading https://files.pythonhosted.org/packages/f5/d3/09b6a26c8ca21d4ac89875f4567d1391260a275d77d0f4a2930f84097d00/baumanecbank_common-1.2.0.tar.gz
+[2023-07-13 15:01:55] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/3c/cc/f7fdd45973958bfdfaf685714a5d1b64b40aefa2c43fce9614af53c9aabc/unitxt-1.0.2.tar.gz
+[2023-07-13 15:01:55] INFO root fetch - processPackages [castor-extractor]: Downloading https://files.pythonhosted.org/packages/b9/1d/ca69c2bc8f359ca190b8292706ed61fa54f77a106d276267aaf9c67f4012/castor_extractor-0.5.1.tar.gz
+[2023-07-13 15:01:55] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/57/4f/8076c56b0b85985fe759504db95af926d1e82b3887c563f382117b23d3cd/libmata-0.76.0.tar.gz
+[2023-07-13 15:01:55] INFO root fetch - processPackages [odd-dbt]: Downloading https://files.pythonhosted.org/packages/76/80/81cebf15f3ce39f89419c1c84befe62cab623b6f95a7b4808ef81c967e1b/odd_dbt-0.1.9.tar.gz
+[2023-07-13 15:01:55] INFO root fetch - processPackages [osim-utils]: Downloading https://files.pythonhosted.org/packages/e2/19/6cd39ccb35f48cb86bf03a34b114611aa3b620811bc7de2531c5e8376a14/osim_utils-0.6.0.tar.gz
+[2023-07-13 15:01:55] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/ba/43/ce3d3d4711a89756d25a0339f94da013117829985a8b9ecf405eb55248c5/coiled-0.8.8.dev9.tar.gz
+[2023-07-13 15:01:55] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-13 15:01:55] INFO root fetch - processPackages [reflekt]: Downloading https://files.pythonhosted.org/packages/8d/bd/30f6bbc93d69f5f2f78440c47b713aa65c9d50af7b3b8fa51fb73400458e/reflekt-0.3.8.tar.gz
+[2023-07-13 15:01:55] INFO root fetch - processPackages [mixprops]: Downloading https://files.pythonhosted.org/packages/ac/e2/dcfb50b2dc3c665480fe7fe3b8f5b94c468301c5c38918c4aea276fe6de4/mixprops-0.2.0.tar.gz
+[2023-07-13 15:01:55] INFO root fetch - processPackages [odd-dbt]: executing diffoscope
+[2023-07-13 15:01:55] INFO root fetch - processPackages [odd-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd_dbt-0.1.8.tar.gz tmp/odd_dbt-0.1.9.tar.gz --markdown 20230713/o/odd-dbt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-13 15:01:55] INFO root fetch - processPackages [osim-utils]: executing diffoscope
+[2023-07-13 15:01:55] INFO root fetch - processPackages [osim-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osim_utils-0.5.0.tar.gz tmp/osim_utils-0.6.0.tar.gz --markdown 20230713/o/osim-utils/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-13 15:01:56] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-13 15:01:56] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.8.dev8.tar.gz tmp/coiled-0.8.8.dev9.tar.gz --markdown 20230713/c/coiled/0.8.8.dev8-0.8.8.dev9/diff.md --exclude *.pyd
+[2023-07-13 15:01:56] INFO root fetch - processPackages [baumanecbank-common]: Downloading https://files.pythonhosted.org/packages/a6/51/ba66d2ab2c73a67af48ee1643f81356c5b1b17cfe1474b1bf340c8b2f38a/baumanecbank_common-1.2.1.tar.gz
+[2023-07-13 15:01:56] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/4f/ff/c37d78e0e45fb81dd94704314c9523413bdd6b65e9ed2f2ac77d869ea9ec/unitxt-1.0.3.tar.gz
+[2023-07-13 15:01:56] INFO root fetch - processPackages [mixprops]: executing diffoscope
+[2023-07-13 15:01:56] INFO root fetch - processPackages [mixprops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixprops-0.1.3.tar.gz tmp/mixprops-0.2.0.tar.gz --markdown 20230713/m/mixprops/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-07-13 15:01:56] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-13 15:01:56] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230713/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-13 15:01:56] INFO root fetch - processPackages [castor-extractor]: Downloading https://files.pythonhosted.org/packages/68/3e/ec25c43c30692edfbb34c3ae142aee2e0e62584ff34adc8c0d91776b83b2/castor_extractor-0.5.2.tar.gz
+[2023-07-13 15:01:56] INFO root fetch - processPackages [baumanecbank-common]: executing diffoscope
+[2023-07-13 15:01:56] INFO root fetch - processPackages [baumanecbank-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baumanecbank_common-1.2.0.tar.gz tmp/baumanecbank_common-1.2.1.tar.gz --markdown 20230713/b/baumanecbank-common/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-13 15:01:56] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/12/d7/3bdc73064237abcd63926f1d4e40fb1c56bc705c2f0699558fe791c534a2/libmata-0.77.0.tar.gz
+[2023-07-13 15:01:56] INFO root fetch - processPackages [unitxt]: executing diffoscope
+[2023-07-13 15:01:56] INFO root fetch - processPackages [unitxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitxt-1.0.2.tar.gz tmp/unitxt-1.0.3.tar.gz --markdown 20230713/u/unitxt/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-13 15:01:56] INFO root fetch - processPackages [castor-extractor]: executing diffoscope
+[2023-07-13 15:01:56] INFO root fetch - processPackages [castor-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/castor_extractor-0.5.1.tar.gz tmp/castor_extractor-0.5.2.tar.gz --markdown 20230713/c/castor-extractor/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-13 15:01:56] INFO root fetch - processPackages [reflekt]: Downloading https://files.pythonhosted.org/packages/b2/b5/eb6640c0d03cf9605ed0c60c9f08b8835429b2b1081d64788659536e312f/reflekt-0.3.9.tar.gz
+[2023-07-13 15:01:56] INFO root fetch - processPackages [libmata]: executing diffoscope
+[2023-07-13 15:01:56] INFO root fetch - processPackages [libmata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmata-0.76.0.tar.gz tmp/libmata-0.77.0.tar.gz --markdown 20230713/l/libmata/0.76.0-0.77.0/diff.md --exclude *.pyd
+[2023-07-13 15:01:56] INFO root fetch - processPackages [reflekt]: executing diffoscope
+[2023-07-13 15:01:56] INFO root fetch - processPackages [reflekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflekt-0.3.8.tar.gz tmp/reflekt-0.3.9.tar.gz --markdown 20230713/r/reflekt/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-13 15:01:57] INFO root fetch - processPackages [odd-dbt]: Remove: archive file [/home/abi/fetcher/tmp/odd_dbt-0.1.8.tar.gz]
+[2023-07-13 15:01:57] INFO root fetch - processPackages [odd-dbt]: Remove: archive file [/home/abi/fetcher/tmp/odd_dbt-0.1.9.tar.gz]
+[2023-07-13 15:01:57] INFO root fetch - processPackages [odd-dbt]: Start processing: ramodels
+[2023-07-13 15:01:57] INFO root fetch - main [MainThread]: End processing [odd-dbt]: success
+[2023-07-13 15:01:58] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-13 15:01:58] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-13 15:01:58] INFO root fetch - processPackages [osim-utils]: Remove: archive file [/home/abi/fetcher/tmp/osim_utils-0.5.0.tar.gz]
+[2023-07-13 15:01:58] INFO root fetch - processPackages [osim-utils]: Remove: archive file [/home/abi/fetcher/tmp/osim_utils-0.6.0.tar.gz]
+[2023-07-13 15:01:58] INFO root fetch - processPackages [osim-utils]: Start processing: pyvroom
+[2023-07-13 15:01:58] INFO root fetch - main [MainThread]: End processing [osim-utils]: success
+[2023-07-13 15:01:58] INFO root fetch - processPackages [mixprops]: Remove: archive file [/home/abi/fetcher/tmp/mixprops-0.1.3.tar.gz]
+[2023-07-13 15:01:58] INFO root fetch - processPackages [mixprops]: Remove: archive file [/home/abi/fetcher/tmp/mixprops-0.2.0.tar.gz]
+[2023-07-13 15:01:58] INFO root fetch - processPackages [mixprops]: Start processing: stix-shifter
+[2023-07-13 15:01:58] INFO root fetch - main [MainThread]: End processing [mixprops]: success
+[2023-07-13 15:01:58] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-13 15:01:58] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-13 15:01:58] INFO root fetch - processPackages [few-shot-priming]: Start processing: stix-shifter-modules-alertflex
+[2023-07-13 15:01:58] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-13 15:01:58] INFO root fetch - processPackages [pyvroom]: New version: [1.13.3.dev4] Old Version: [1.13.2]
+[2023-07-13 15:01:58] INFO root fetch - processPackages [stix-shifter]: New version: [5.3.1] Old Version: [5.3.0.dev827]
+[2023-07-13 15:01:58] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-13 15:01:58] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.2.tar.gz]
+[2023-07-13 15:01:58] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.3.tar.gz]
+[2023-07-13 15:01:58] INFO root fetch - processPackages [unitxt]: Start processing: stix-shifter-modules-arcsight
+[2023-07-13 15:01:58] INFO root fetch - main [MainThread]: End processing [unitxt]: success
+[2023-07-13 15:01:58] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.8.dev8.tar.gz]
+[2023-07-13 15:01:58] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.8.dev9.tar.gz]
+[2023-07-13 15:01:58] INFO root fetch - processPackages [coiled]: Start processing: stix-shifter-modules-async-template
+[2023-07-13 15:01:58] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-13 15:01:58] INFO root fetch - processPackages [stix-shifter-modules-alertflex]: New version: [5.3.1] Old Version: [5.3.0.dev827]
+[2023-07-13 15:01:58] INFO root fetch - processPackages [baumanecbank-common]: Remove: archive file [/home/abi/fetcher/tmp/baumanecbank_common-1.2.0.tar.gz]
+[2023-07-13 15:01:58] INFO root fetch - processPackages [baumanecbank-common]: Remove: archive file [/home/abi/fetcher/tmp/baumanecbank_common-1.2.1.tar.gz]
+[2023-07-13 15:01:58] INFO root fetch - processPackages [baumanecbank-common]: Start processing: stix-shifter-modules-aws-athena
+[2023-07-13 15:01:58] INFO root fetch - main [MainThread]: End processing [baumanecbank-common]: success
+[2023-07-13 15:01:58] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-13 15:01:58] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230713/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-13 15:01:58] INFO root fetch - processPackages [stix-shifter-modules-arcsight]: New version: [5.3.1] Old Version: [5.3.0.dev827]
+[2023-07-13 15:01:58] INFO root fetch - processPackages [stix-shifter-modules-async-template]: New version: [5.3.1] Old Version: [5.3.0.dev827]
+[2023-07-13 15:01:58] INFO root fetch - processPackages [pyvroom]: Downloading https://files.pythonhosted.org/packages/5a/e1/7c3efaf35603a5ddf97fe6194324f1be60794b94aec4819c69292a28ecbb/pyvroom-1.13.2.tar.gz
+[2023-07-13 15:01:58] INFO root fetch - processPackages [stix-shifter-modules-aws-athena]: New version: [5.3.1] Old Version: [5.3.0.dev827]
+[2023-07-13 15:01:58] INFO root fetch - processPackages [stix-shifter]: Downloading https://files.pythonhosted.org/packages/2b/2b/db95a6eba1e5c272f8622187ce7eb37a5f8218ef14df70ac7189a5b2b77e/stix_shifter-5.3.0.dev827-py2.py3-none-any.whl
+[2023-07-13 15:01:58] INFO root fetch - processPackages [stix-shifter-modules-alertflex]: Downloading https://files.pythonhosted.org/packages/c1/20/2d336a760c8c0d7b895ceab5acc8b164b0d1dcb6a8bd22cf3e40ae3ed44b/stix_shifter_modules_alertflex-5.3.0.dev827-py2.py3-none-any.whl
+[2023-07-13 15:01:58] INFO root fetch - processPackages [reflekt]: Remove: archive file [/home/abi/fetcher/tmp/reflekt-0.3.8.tar.gz]
+[2023-07-13 15:01:58] INFO root fetch - processPackages [reflekt]: Remove: archive file [/home/abi/fetcher/tmp/reflekt-0.3.9.tar.gz]
+[2023-07-13 15:01:58] INFO root fetch - processPackages [reflekt]: Start processing: stix-shifter-modules-aws-cloud-watch-logs
+[2023-07-13 15:01:58] INFO root fetch - main [MainThread]: End processing [reflekt]: success
+[2023-07-13 15:01:58] INFO root fetch - processPackages [stix-shifter-modules-arcsight]: Downloading https://files.pythonhosted.org/packages/1f/62/1a3dbe2b6cf203484a296ee74a16e30a6a7832c0c0316069172f19018aef/stix_shifter_modules_arcsight-5.3.0.dev827-py2.py3-none-any.whl
+[2023-07-13 15:01:58] INFO root fetch - processPackages [stix-shifter-modules-async-template]: Downloading https://files.pythonhosted.org/packages/6b/7a/5b5e16c9a35dbcd029b572968dcbf6bf66f7d765db4afe5af1e8b0524c45/stix_shifter_modules_async_template-5.3.0.dev827-py2.py3-none-any.whl
+[2023-07-13 15:01:58] INFO root fetch - processPackages [stix-shifter-modules-aws-athena]: Downloading https://files.pythonhosted.org/packages/62/bd/af7a98a1a020ce57d2682f70285093f184a2c84bf582e99524b85af433b9/stix_shifter_modules_aws_athena-5.3.0.dev827-py2.py3-none-any.whl
+[2023-07-13 15:01:59] INFO root fetch - processPackages [stix-shifter-modules-aws-cloud-watch-logs]: New version: [5.3.1] Old Version: [5.3.0.dev827]
+[2023-07-13 15:01:59] INFO root fetch - processPackages [pyvroom]: Downloading https://files.pythonhosted.org/packages/39/e0/61fdf55cae72d50ac4a1678033f3dc33525d78365a834f5c51835bea1e0f/pyvroom-1.13.3.dev4.tar.gz
+[2023-07-13 15:01:59] INFO root fetch - processPackages [stix-shifter]: Downloading https://files.pythonhosted.org/packages/a8/06/971562b2a3e71ddaf7eb88b6af1d5a40aefc30a42f323ef9889e37b442a1/stix_shifter-5.3.1-py2.py3-none-any.whl
+[2023-07-13 15:01:59] INFO root fetch - processPackages [stix-shifter-modules-alertflex]: Downloading https://files.pythonhosted.org/packages/e9/4f/82a5d3cfd3afb06e10208e95572557130f1b7deadb505c5bbf81c614e30f/stix_shifter_modules_alertflex-5.3.1-py2.py3-none-any.whl
+[2023-07-13 15:01:59] INFO root fetch - processPackages [stix-shifter]: executing diffoscope
+[2023-07-13 15:01:59] INFO root fetch - processPackages [stix-shifter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter-5.3.0.dev827-py2.py3-none-any.whl.zip tmp/stix_shifter-5.3.1-py2.py3-none-any.whl.zip --markdown 20230713/s/stix-shifter/5.3.0.dev827-5.3.1/diff.md --exclude *.pyd
+[2023-07-13 15:01:59] INFO root fetch - processPackages [pyvroom]: executing diffoscope
+[2023-07-13 15:01:59] INFO root fetch - processPackages [pyvroom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvroom-1.13.2.tar.gz tmp/pyvroom-1.13.3.dev4.tar.gz --markdown 20230713/p/pyvroom/1.13.2-1.13.3.dev4/diff.md --exclude *.pyd
+[2023-07-13 15:01:59] INFO root fetch - processPackages [stix-shifter-modules-aws-cloud-watch-logs]: Downloading https://files.pythonhosted.org/packages/be/d4/3a29bfadf83b4f91b8d71f7b868ae26fe6041aebabeef94af2969d515ab6/stix_shifter_modules_aws_cloud_watch_logs-5.3.0.dev827-py2.py3-none-any.whl
+[2023-07-13 15:01:59] INFO root fetch - processPackages [stix-shifter-modules-aws-athena]: Downloading https://files.pythonhosted.org/packages/04/23/cb559259b22f06cac8b9c577c71a5e2dde8619ff8a65251f5ea9297bd7fb/stix_shifter_modules_aws_athena-5.3.1-py2.py3-none-any.whl
+[2023-07-13 15:01:59] INFO root fetch - processPackages [stix-shifter-modules-arcsight]: Downloading https://files.pythonhosted.org/packages/71/a9/8522ff6c3524be29cd7ed9cc586813bd5786ddeada748a34d61a27bc5cbb/stix_shifter_modules_arcsight-5.3.1-py2.py3-none-any.whl
+[2023-07-13 15:01:59] INFO root fetch - processPackages [stix-shifter-modules-alertflex]: executing diffoscope
+[2023-07-13 15:01:59] INFO root fetch - processPackages [stix-shifter-modules-alertflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_alertflex-5.3.0.dev827-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_alertflex-5.3.1-py2.py3-none-any.whl.zip --markdown 20230713/s/stix-shifter-modules-alertflex/5.3.0.dev827-5.3.1/diff.md --exclude *.pyd
+[2023-07-13 15:01:59] INFO root fetch - processPackages [stix-shifter-modules-async-template]: Downloading https://files.pythonhosted.org/packages/a1/a4/615494fe384e1930b511f8dc32360ae43b751951370459711028b891af8f/stix_shifter_modules_async_template-5.3.1-py2.py3-none-any.whl
+[2023-07-13 15:01:59] INFO root fetch - processPackages [stix-shifter-modules-aws-athena]: executing diffoscope
+[2023-07-13 15:01:59] INFO root fetch - processPackages [stix-shifter-modules-aws-athena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_aws_athena-5.3.0.dev827-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_aws_athena-5.3.1-py2.py3-none-any.whl.zip --markdown 20230713/s/stix-shifter-modules-aws-athena/5.3.0.dev827-5.3.1/diff.md --exclude *.pyd
+[2023-07-13 15:01:59] INFO root fetch - processPackages [stix-shifter-modules-arcsight]: executing diffoscope
+[2023-07-13 15:01:59] INFO root fetch - processPackages [stix-shifter-modules-arcsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_arcsight-5.3.0.dev827-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_arcsight-5.3.1-py2.py3-none-any.whl.zip --markdown 20230713/s/stix-shifter-modules-arcsight/5.3.0.dev827-5.3.1/diff.md --exclude *.pyd
+[2023-07-13 15:01:59] INFO root fetch - processPackages [castor-extractor]: Remove: archive file [/home/abi/fetcher/tmp/castor_extractor-0.5.1.tar.gz]
+[2023-07-13 15:01:59] INFO root fetch - processPackages [castor-extractor]: Remove: archive file [/home/abi/fetcher/tmp/castor_extractor-0.5.2.tar.gz]
+[2023-07-13 15:01:59] INFO root fetch - processPackages [castor-extractor]: Start processing: stix-shifter-modules-azure-log-analytics
+[2023-07-13 15:01:59] INFO root fetch - main [MainThread]: End processing [castor-extractor]: success
+[2023-07-13 15:01:59] INFO root fetch - processPackages [stix-shifter-modules-async-template]: executing diffoscope
+[2023-07-13 15:01:59] INFO root fetch - processPackages [stix-shifter-modules-async-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_async_template-5.3.0.dev827-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_async_template-5.3.1-py2.py3-none-any.whl.zip --markdown 20230713/s/stix-shifter-modules-async-template/5.3.0.dev827-5.3.1/diff.md --exclude *.pyd
+[2023-07-13 15:01:59] INFO root fetch - processPackages [stix-shifter-modules-azure-log-analytics]: New version: [5.3.1] Old Version: [5.3.0.dev827]
+[2023-07-13 15:01:59] INFO root fetch - processPackages [stix-shifter-modules-aws-cloud-watch-logs]: Downloading https://files.pythonhosted.org/packages/e2/5f/3cecb212e7e9be63ad05a66006c76f783cf6777df255a1034f7e4c7b4563/stix_shifter_modules_aws_cloud_watch_logs-5.3.1-py2.py3-none-any.whl
+[2023-07-13 15:02:00] INFO root fetch - processPackages [stix-shifter-modules-aws-cloud-watch-logs]: executing diffoscope
+[2023-07-13 15:02:00] INFO root fetch - processPackages [stix-shifter-modules-aws-cloud-watch-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_aws_cloud_watch_logs-5.3.0.dev827-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_aws_cloud_watch_logs-5.3.1-py2.py3-none-any.whl.zip --markdown 20230713/s/stix-shifter-modules-aws-cloud-watch-logs/5.3.0.dev827-5.3.1/diff.md --exclude *.pyd
+[2023-07-13 15:02:00] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-13 15:02:00] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-13 15:02:00] INFO root fetch - processPackages [ramodels]: Start processing: powerbot-backtesting
+[2023-07-13 15:02:00] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-13 15:02:00] INFO root fetch - processPackages [stix-shifter-modules-azure-log-analytics]: Downloading https://files.pythonhosted.org/packages/a1/b9/1dcb0cfcff0adddc4056bce2b6cb163894b61b975f8e9e97583caf787f73/stix_shifter_modules_azure_log_analytics-5.3.0.dev827-py2.py3-none-any.whl
+[2023-07-13 15:02:00] INFO root fetch - processPackages [powerbot-backtesting]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-13 15:02:00] INFO root fetch - processPackages [powerbot-backtesting]: Downloading https://files.pythonhosted.org/packages/22/6d/1b9f7c2cbb0fa1ba15fba7ef7e4552298f2a589a3e2081be34f5c58bff7f/powerbot-backtesting-2.0.8.tar.gz
+[2023-07-13 15:02:00] INFO root fetch - processPackages [stix-shifter-modules-azure-log-analytics]: Downloading https://files.pythonhosted.org/packages/8d/2d/78ff7f7991e965bea244a5403c370c9a7a15a16deeb554c3c6020bd500de/stix_shifter_modules_azure_log_analytics-5.3.1-py2.py3-none-any.whl
+[2023-07-13 15:02:00] INFO root fetch - processPackages [stix-shifter-modules-azure-log-analytics]: executing diffoscope
+[2023-07-13 15:02:00] INFO root fetch - processPackages [stix-shifter-modules-azure-log-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_azure_log_analytics-5.3.0.dev827-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_azure_log_analytics-5.3.1-py2.py3-none-any.whl.zip --markdown 20230713/s/stix-shifter-modules-azure-log-analytics/5.3.0.dev827-5.3.1/diff.md --exclude *.pyd
+[2023-07-13 15:02:00] INFO root fetch - processPackages [stix-shifter]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter-5.3.0.dev827-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:00] INFO root fetch - processPackages [stix-shifter]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter-5.3.1-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:00] INFO root fetch - processPackages [stix-shifter]: Start processing: stix-shifter-modules-azure-sentinel
+[2023-07-13 15:02:00] INFO root fetch - main [MainThread]: End processing [stix-shifter]: success
+[2023-07-13 15:02:00] INFO root fetch - processPackages [stix-shifter-modules-azure-sentinel]: New version: [5.3.1] Old Version: [5.3.0.dev827]
+[2023-07-13 15:02:01] INFO root fetch - processPackages [powerbot-backtesting]: Downloading https://files.pythonhosted.org/packages/37/31/e5656bc0fab32531a06b68daa37d7a38d04851a0fdcd9cc189b9a354ddff/powerbot-backtesting-2.0.9.tar.gz
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-alertflex]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_alertflex-5.3.0.dev827-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-alertflex]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_alertflex-5.3.1-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-alertflex]: Start processing: stix-shifter-modules-bigfix
+[2023-07-13 15:02:01] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-alertflex]: success
+[2023-07-13 15:02:01] INFO root fetch - processPackages [powerbot-backtesting]: executing diffoscope
+[2023-07-13 15:02:01] INFO root fetch - processPackages [powerbot-backtesting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerbot-backtesting-2.0.8.tar.gz tmp/powerbot-backtesting-2.0.9.tar.gz --markdown 20230713/p/powerbot-backtesting/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-13 15:02:01] INFO root fetch - processPackages [pyvroom]: Remove: archive file [/home/abi/fetcher/tmp/pyvroom-1.13.2.tar.gz]
+[2023-07-13 15:02:01] INFO root fetch - processPackages [pyvroom]: Remove: archive file [/home/abi/fetcher/tmp/pyvroom-1.13.3.dev4.tar.gz]
+[2023-07-13 15:02:01] INFO root fetch - processPackages [pyvroom]: Start processing: stix-shifter-modules-carbonblack
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-arcsight]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_arcsight-5.3.0.dev827-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:01] INFO root fetch - main [MainThread]: End processing [pyvroom]: success
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-arcsight]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_arcsight-5.3.1-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-arcsight]: Start processing: stix-shifter-modules-cbcloud
+[2023-07-13 15:02:01] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-arcsight]: success
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-azure-sentinel]: Downloading https://files.pythonhosted.org/packages/80/24/36b09d55928ec71fb74e81014a739e50c8805feec095e35ea317cf5df14b/stix_shifter_modules_azure_sentinel-5.3.0.dev827-py2.py3-none-any.whl
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-bigfix]: New version: [5.3.1] Old Version: [5.3.0.dev827]
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-aws-athena]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_aws_athena-5.3.0.dev827-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-aws-athena]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_aws_athena-5.3.1-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-aws-athena]: Start processing: stix-shifter-modules-crowdstrike
+[2023-07-13 15:02:01] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-aws-athena]: success
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-carbonblack]: New version: [5.3.1] Old Version: [5.3.0.dev827]
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-async-template]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_async_template-5.3.0.dev827-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-async-template]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_async_template-5.3.1-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-async-template]: Start processing: stix-shifter-modules-cybereason
+[2023-07-13 15:02:01] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-async-template]: success
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-aws-cloud-watch-logs]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_aws_cloud_watch_logs-5.3.0.dev827-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-aws-cloud-watch-logs]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_aws_cloud_watch_logs-5.3.1-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-aws-cloud-watch-logs]: Start processing: stix-shifter-modules-darktrace
+[2023-07-13 15:02:01] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-aws-cloud-watch-logs]: success
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-cbcloud]: New version: [5.3.1] Old Version: [5.3.0.dev827]
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-crowdstrike]: New version: [5.3.1] Old Version: [5.3.0.dev827]
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-bigfix]: Downloading https://files.pythonhosted.org/packages/7f/7c/50cac4adfb0d0942142929a60787b0f778fd471671c97ed783902343e1b2/stix_shifter_modules_bigfix-5.3.0.dev827-py2.py3-none-any.whl
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-carbonblack]: Downloading https://files.pythonhosted.org/packages/7c/3e/74133c7ccd80b60ff5a3c61a167ceb03256d25e13532d466c067630f5bb8/stix_shifter_modules_carbonblack-5.3.0.dev827-py2.py3-none-any.whl
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-azure-sentinel]: Downloading https://files.pythonhosted.org/packages/a7/f2/801f3e224ecf4e349dcbae20033c79374aafc5bb471d0ec93a1b67d0e2cc/stix_shifter_modules_azure_sentinel-5.3.1-py2.py3-none-any.whl
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-cybereason]: New version: [5.3.1] Old Version: [5.3.0.dev827]
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-darktrace]: New version: [5.3.1] Old Version: [5.3.0.dev827]
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-cbcloud]: Downloading https://files.pythonhosted.org/packages/1f/28/d15ecff9a6e42da66f52329287dc724cac2b28cceb1ee7a89e6e7605a7e4/stix_shifter_modules_cbcloud-5.3.0.dev827-py2.py3-none-any.whl
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-azure-log-analytics]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_azure_log_analytics-5.3.0.dev827-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-crowdstrike]: Downloading https://files.pythonhosted.org/packages/6a/b2/76fe9c121b38fc2ed70420fa6cfe9896abf1aebaf5fcfca3621c04b0aeca/stix_shifter_modules_crowdstrike-5.3.0.dev827-py2.py3-none-any.whl
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-azure-log-analytics]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_azure_log_analytics-5.3.1-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-azure-sentinel]: executing diffoscope
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-azure-sentinel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_azure_sentinel-5.3.0.dev827-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_azure_sentinel-5.3.1-py2.py3-none-any.whl.zip --markdown 20230713/s/stix-shifter-modules-azure-sentinel/5.3.0.dev827-5.3.1/diff.md --exclude *.pyd
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-azure-log-analytics]: Start processing: stix-shifter-modules-datadog
+[2023-07-13 15:02:01] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-azure-log-analytics]: success
+[2023-07-13 15:02:01] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.76.0.tar.gz]
+[2023-07-13 15:02:01] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.77.0.tar.gz]
+[2023-07-13 15:02:01] INFO root fetch - processPackages [libmata]: Start processing: stix-shifter-modules-demo-template
+[2023-07-13 15:02:01] INFO root fetch - main [MainThread]: End processing [libmata]: success
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-cybereason]: Downloading https://files.pythonhosted.org/packages/77/27/1c62cd7eaa5bb43befec0ef0694dcd024f89752c35adfc1844bc7eaa98df/stix_shifter_modules_cybereason-5.3.0.dev827-py2.py3-none-any.whl
+[2023-07-13 15:02:01] INFO root fetch - processPackages [stix-shifter-modules-darktrace]: Downloading https://files.pythonhosted.org/packages/a4/a2/8ff988130bfe388a52726030a14f2be6b7fbd3c95a4efc3514b07a7b81e3/stix_shifter_modules_darktrace-5.3.0.dev827-py2.py3-none-any.whl
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-bigfix]: Downloading https://files.pythonhosted.org/packages/4d/65/2ff17ab683ef9bfd37f7c0fd7dcb2c49d77aff4a1484aa38c234c2df042f/stix_shifter_modules_bigfix-5.3.1-py2.py3-none-any.whl
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-carbonblack]: Downloading https://files.pythonhosted.org/packages/a3/57/0be29450f728019e55c2bf843706552801cd60ff118dae9792e377814f42/stix_shifter_modules_carbonblack-5.3.1-py2.py3-none-any.whl
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-datadog]: New version: [5.3.1] Old Version: [5.3.0.dev827]
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-demo-template]: New version: [5.3.1] Old Version: [5.3.0.dev827]
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-bigfix]: executing diffoscope
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-bigfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_bigfix-5.3.0.dev827-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_bigfix-5.3.1-py2.py3-none-any.whl.zip --markdown 20230713/s/stix-shifter-modules-bigfix/5.3.0.dev827-5.3.1/diff.md --exclude *.pyd
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-carbonblack]: executing diffoscope
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-carbonblack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_carbonblack-5.3.0.dev827-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_carbonblack-5.3.1-py2.py3-none-any.whl.zip --markdown 20230713/s/stix-shifter-modules-carbonblack/5.3.0.dev827-5.3.1/diff.md --exclude *.pyd
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-cbcloud]: Downloading https://files.pythonhosted.org/packages/eb/54/7087f57c705659e35359692aa37b613568309c18cf91fbc1edca071aace7/stix_shifter_modules_cbcloud-5.3.1-py2.py3-none-any.whl
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-datadog]: Downloading https://files.pythonhosted.org/packages/d6/9c/1312e590fe94dc9c6e8d2c11f06d507e66bdb46e8e013754b5a918ebeac8/stix_shifter_modules_datadog-5.3.0.dev827-py2.py3-none-any.whl
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-crowdstrike]: Downloading https://files.pythonhosted.org/packages/13/60/299dabdd3c402bbf1b9eeb07494e55daf57f160f9741a5e43207bebea30d/stix_shifter_modules_crowdstrike-5.3.1-py2.py3-none-any.whl
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-cybereason]: Downloading https://files.pythonhosted.org/packages/97/6d/090638e025d49f6e8f52c715be4b9b8d2c1379c39de110fbcef643f9ccb8/stix_shifter_modules_cybereason-5.3.1-py2.py3-none-any.whl
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-demo-template]: Downloading https://files.pythonhosted.org/packages/d3/7d/d4419dcc874391f1bed7a9b5ad4d2e9021a22241deab3dc136bea1d33166/stix_shifter_modules_demo_template-5.3.0.dev827-py2.py3-none-any.whl
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-cbcloud]: executing diffoscope
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-cbcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_cbcloud-5.3.0.dev827-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_cbcloud-5.3.1-py2.py3-none-any.whl.zip --markdown 20230713/s/stix-shifter-modules-cbcloud/5.3.0.dev827-5.3.1/diff.md --exclude *.pyd
+[2023-07-13 15:02:02] INFO root fetch - processPackages [powerbot-backtesting]: Remove: archive file [/home/abi/fetcher/tmp/powerbot-backtesting-2.0.8.tar.gz]
+[2023-07-13 15:02:02] INFO root fetch - processPackages [powerbot-backtesting]: Remove: archive file [/home/abi/fetcher/tmp/powerbot-backtesting-2.0.9.tar.gz]
+[2023-07-13 15:02:02] INFO root fetch - processPackages [powerbot-backtesting]: Start processing: viaconstructor
+[2023-07-13 15:02:02] INFO root fetch - main [MainThread]: End processing [powerbot-backtesting]: success
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-crowdstrike]: executing diffoscope
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-crowdstrike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_crowdstrike-5.3.0.dev827-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_crowdstrike-5.3.1-py2.py3-none-any.whl.zip --markdown 20230713/s/stix-shifter-modules-crowdstrike/5.3.0.dev827-5.3.1/diff.md --exclude *.pyd
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-darktrace]: Downloading https://files.pythonhosted.org/packages/73/5b/1fa9c36a788ad1b6d9bb49ab03a6363d226b2965480ce65b8c66bfd4f268/stix_shifter_modules_darktrace-5.3.1-py2.py3-none-any.whl
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-cybereason]: executing diffoscope
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-cybereason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_cybereason-5.3.0.dev827-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_cybereason-5.3.1-py2.py3-none-any.whl.zip --markdown 20230713/s/stix-shifter-modules-cybereason/5.3.0.dev827-5.3.1/diff.md --exclude *.pyd
+[2023-07-13 15:02:02] INFO root fetch - processPackages [viaconstructor]: New version: [0.6.3] Old Version: [0.6.1]
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-datadog]: Downloading https://files.pythonhosted.org/packages/16/9e/0c33924bc505937c9d6fc85c9a18f571b1e031530821086202654762d708/stix_shifter_modules_datadog-5.3.1-py2.py3-none-any.whl
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-darktrace]: executing diffoscope
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-darktrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_darktrace-5.3.0.dev827-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_darktrace-5.3.1-py2.py3-none-any.whl.zip --markdown 20230713/s/stix-shifter-modules-darktrace/5.3.0.dev827-5.3.1/diff.md --exclude *.pyd
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-demo-template]: Downloading https://files.pythonhosted.org/packages/ee/06/a59663197641919b54ccb9dc9915ec7e68b1f429734193c4a629b5b4452e/stix_shifter_modules_demo_template-5.3.1-py2.py3-none-any.whl
+[2023-07-13 15:02:02] INFO root fetch - processPackages [viaconstructor]: Downloading https://files.pythonhosted.org/packages/51/42/e8cc5316760dbe6eee2a18f849e4ef942ebad1ba78e17412adf592e3a7bb/viaconstructor-0.6.1.tar.gz
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-datadog]: executing diffoscope
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_datadog-5.3.0.dev827-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_datadog-5.3.1-py2.py3-none-any.whl.zip --markdown 20230713/s/stix-shifter-modules-datadog/5.3.0.dev827-5.3.1/diff.md --exclude *.pyd
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-azure-sentinel]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_azure_sentinel-5.3.0.dev827-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-azure-sentinel]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_azure_sentinel-5.3.1-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:02] INFO root fetch - processPackages [stix-shifter-modules-azure-sentinel]: Start processing: stix-shifter-modules-elastic-ecs
+[2023-07-13 15:02:02] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-azure-sentinel]: success
+[2023-07-13 15:02:03] INFO root fetch - processPackages [stix-shifter-modules-demo-template]: executing diffoscope
+[2023-07-13 15:02:03] INFO root fetch - processPackages [stix-shifter-modules-demo-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_demo_template-5.3.0.dev827-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_demo_template-5.3.1-py2.py3-none-any.whl.zip --markdown 20230713/s/stix-shifter-modules-demo-template/5.3.0.dev827-5.3.1/diff.md --exclude *.pyd
+[2023-07-13 15:02:03] INFO root fetch - processPackages [stix-shifter-modules-elastic-ecs]: New version: [5.3.1] Old Version: [5.3.0.dev827]
+[2023-07-13 15:02:03] INFO root fetch - processPackages [viaconstructor]: Downloading https://files.pythonhosted.org/packages/d7/e3/e6ccc24ae030d55cdadd0b65fbae90e3b218b030e051b51fb12f3d40632c/viaconstructor-0.6.3.tar.gz
+[2023-07-13 15:02:03] INFO root fetch - processPackages [stix-shifter-modules-elastic-ecs]: Downloading https://files.pythonhosted.org/packages/7a/ab/1b4d6874ed39f749e86e90cf70df76e9fd1f9f0e44e86eec2103fd93217e/stix_shifter_modules_elastic_ecs-5.3.0.dev827-py2.py3-none-any.whl
+[2023-07-13 15:02:03] INFO root fetch - processPackages [stix-shifter-modules-carbonblack]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_carbonblack-5.3.0.dev827-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:03] INFO root fetch - processPackages [stix-shifter-modules-carbonblack]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_carbonblack-5.3.1-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:03] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-carbonblack]: success
+[2023-07-13 15:02:03] INFO root fetch - processPackages [stix-shifter-modules-bigfix]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_bigfix-5.3.0.dev827-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:03] INFO root fetch - processPackages [stix-shifter-modules-bigfix]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_bigfix-5.3.1-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:03] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-bigfix]: success
+[2023-07-13 15:02:03] INFO root fetch - processPackages [viaconstructor]: executing diffoscope
+[2023-07-13 15:02:03] INFO root fetch - processPackages [viaconstructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viaconstructor-0.6.1.tar.gz tmp/viaconstructor-0.6.3.tar.gz --markdown 20230713/v/viaconstructor/0.6.1-0.6.3/diff.md --exclude *.pyd
+[2023-07-13 15:02:03] INFO root fetch - processPackages [stix-shifter-modules-cbcloud]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_cbcloud-5.3.0.dev827-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:03] INFO root fetch - processPackages [stix-shifter-modules-cbcloud]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_cbcloud-5.3.1-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:03] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-cbcloud]: success
+[2023-07-13 15:02:03] INFO root fetch - processPackages [stix-shifter-modules-crowdstrike]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_crowdstrike-5.3.0.dev827-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:03] INFO root fetch - processPackages [stix-shifter-modules-crowdstrike]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_crowdstrike-5.3.1-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:03] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-crowdstrike]: success
+[2023-07-13 15:02:03] INFO root fetch - processPackages [stix-shifter-modules-elastic-ecs]: Downloading https://files.pythonhosted.org/packages/ce/da/9aa9728fc4104b6dd52d7b26e777a8630391aa06845ac0236908f185734d/stix_shifter_modules_elastic_ecs-5.3.1-py2.py3-none-any.whl
+[2023-07-13 15:02:04] INFO root fetch - processPackages [stix-shifter-modules-cybereason]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_cybereason-5.3.0.dev827-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:04] INFO root fetch - processPackages [stix-shifter-modules-cybereason]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_cybereason-5.3.1-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:04] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-cybereason]: success
+[2023-07-13 15:02:04] INFO root fetch - processPackages [stix-shifter-modules-elastic-ecs]: executing diffoscope
+[2023-07-13 15:02:04] INFO root fetch - processPackages [stix-shifter-modules-elastic-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stix_shifter_modules_elastic_ecs-5.3.0.dev827-py2.py3-none-any.whl.zip tmp/stix_shifter_modules_elastic_ecs-5.3.1-py2.py3-none-any.whl.zip --markdown 20230713/s/stix-shifter-modules-elastic-ecs/5.3.0.dev827-5.3.1/diff.md --exclude *.pyd
+[2023-07-13 15:02:04] INFO root fetch - processPackages [stix-shifter-modules-darktrace]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_darktrace-5.3.0.dev827-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:04] INFO root fetch - processPackages [stix-shifter-modules-darktrace]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_darktrace-5.3.1-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:04] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-darktrace]: success
+[2023-07-13 15:02:04] INFO root fetch - processPackages [stix-shifter-modules-datadog]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_datadog-5.3.0.dev827-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:04] INFO root fetch - processPackages [stix-shifter-modules-datadog]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_datadog-5.3.1-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:04] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-datadog]: success
+[2023-07-13 15:02:04] INFO root fetch - processPackages [stix-shifter-modules-demo-template]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_demo_template-5.3.0.dev827-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:04] INFO root fetch - processPackages [stix-shifter-modules-demo-template]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_demo_template-5.3.1-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:04] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-demo-template]: success
+[2023-07-13 15:02:05] INFO root fetch - processPackages [stix-shifter-modules-elastic-ecs]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_elastic_ecs-5.3.0.dev827-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:05] INFO root fetch - processPackages [stix-shifter-modules-elastic-ecs]: Remove: archive file [/home/abi/fetcher/tmp/stix_shifter_modules_elastic_ecs-5.3.1-py2.py3-none-any.whl.zip]
+[2023-07-13 15:02:05] INFO root fetch - main [MainThread]: End processing [stix-shifter-modules-elastic-ecs]: success
+[2023-07-13 15:02:05] INFO root fetch - processPackages [viaconstructor]: Remove: archive file [/home/abi/fetcher/tmp/viaconstructor-0.6.1.tar.gz]
+[2023-07-13 15:02:05] INFO root fetch - processPackages [viaconstructor]: Remove: archive file [/home/abi/fetcher/tmp/viaconstructor-0.6.3.tar.gz]
+[2023-07-13 15:02:05] INFO root fetch - main [MainThread]: End processing [viaconstructor]: success
+[2023-07-13 15:02:05] INFO root fetch - main [MainThread]: Store serial: [18875043]
