@@ -13900,3 +13900,104 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 09:56:29] INFO root fetch - processPackages [dashvector]: Remove: archive file [/home/abi/fetcher/tmp/dashvector-0.0.13-py3-none-any.whl.zip]
 [2023-07-13 09:56:29] INFO root fetch - main [MainThread]: End processing [dashvector]: success
 [2023-07-13 09:56:29] INFO root fetch - main [MainThread]: Store serial: [18871606]
+[2023-07-13 10:01:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18871606]
+[2023-07-13 10:01:38] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-13 10:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tracebloc-package-dev
+[2023-07-13 10:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cognite-power-ops
+[2023-07-13 10:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: miniagent
+[2023-07-13 10:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: explainable-exceptions
+[2023-07-13 10:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bluecellulab
+[2023-07-13 10:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: protovalidate
+[2023-07-13 10:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gitlabform
+[2023-07-13 10:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flavius-api
+[2023-07-13 10:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk8s
+[2023-07-13 10:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: modelw-docker
+[2023-07-13 10:01:38] INFO root fetch - processPackages [gitlabform]: New version: [3.6.1] Old Version: [3.6.0]
+[2023-07-13 10:01:38] INFO root fetch - processPackages [flavius-api]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-13 10:01:38] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-13 10:01:38] INFO root fetch - processPackages [bluecellulab]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-13 10:01:38] WARNING root fetch - processPackages [protovalidate]: Skipping, unable to determine old version
+[2023-07-13 10:01:38] INFO root fetch - processPackages [miniagent]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 10:01:38] INFO root fetch - processPackages [protovalidate]: Start processing: xj-common
+[2023-07-13 10:01:38] INFO root fetch - main [MainThread]: End processing [protovalidate] error
+[2023-07-13 10:01:38] INFO root fetch - processPackages [explainable-exceptions]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-13 10:01:38] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-13 10:01:38] INFO root fetch - processPackages [modelw-docker]: New version: [2023.7.1] Old Version: [2023.7.0]
+[2023-07-13 10:01:38] INFO root fetch - processPackages [cdk8s]: New version: [2.7.99] Old Version: [2.7.98]
+[2023-07-13 10:01:38] INFO root fetch - processPackages [xj-common]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 10:01:38] INFO root fetch - processPackages [explainable-exceptions]: Downloading https://files.pythonhosted.org/packages/64/6f/00b4e1c2825d0a9a9bca53465367e5241d3756c69e3fd781ef3c2b922381/explainable-exceptions-1.0.1.tar.gz
+[2023-07-13 10:01:38] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/d8/60/774b00a08e1e8a1155f225bfc65207f11ae692dd4bd4cc19fc599853994a/cdk8s-2.7.98.tar.gz
+[2023-07-13 10:01:38] INFO root fetch - processPackages [gitlabform]: Downloading https://files.pythonhosted.org/packages/a3/f3/63a4839188c71df687200fc9fa942e83a1ba8b679b5246011af2ec5f1307/gitlabform-3.6.0.tar.gz
+[2023-07-13 10:01:38] INFO root fetch - processPackages [xj-common]: Downloading https://files.pythonhosted.org/packages/b3/52/f57e547bfff3498ef241412dab5c76a22d267cd4d6fd77052d8fd2905d8a/xj_common-1.0.8.tar.gz
+[2023-07-13 10:01:38] INFO root fetch - processPackages [flavius-api]: Downloading https://files.pythonhosted.org/packages/6f/4e/95dd01683536c29c831435aa6c7b8a1068c93815278f7805ee2355475bb4/flavius-api-1.9.3.tar.gz
+[2023-07-13 10:01:38] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/ea/e2/6b153e7183361412ea27550e0048ea6ee1b6601d8412bc11375dad832ce6/tracebloc_package-dev-0.5.2.tar.gz
+[2023-07-13 10:01:39] INFO root fetch - processPackages [miniagent]: Downloading https://files.pythonhosted.org/packages/61/fe/ddee9f7a8915f85ae86d21e121b9930e76846662b7905185edc01f253eaa/miniagent-0.0.8-py3-none-any.whl
+[2023-07-13 10:01:39] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-07-13 10:01:39] INFO root fetch - processPackages [modelw-docker]: Downloading https://files.pythonhosted.org/packages/ea/7c/d9b4e9ec25601a5bb03baf47d67bdf2b750a2da468beeafbe177850e5477/modelw_docker-2023.7.0.tar.gz
+[2023-07-13 10:01:39] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/6a/3b/419ce2949ec7fabc817516250bda8f8b6228a621641d74a0513dbefac67e/bluecellulab-1.2.2.tar.gz
+[2023-07-13 10:01:39] WARNING root fetch - processPackages [bluecellulab]: Skipping package: exceeds size limit 13628359>=10485760
+[2023-07-13 10:01:39] INFO root fetch - processPackages [bluecellulab]: Start processing: djangoldp-tzcld
+[2023-07-13 10:01:39] INFO root fetch - main [MainThread]: End processing [bluecellulab] error
+[2023-07-13 10:01:39] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/23/d1/ee5cf44f421921d790a4e0d2cf87c118188da9c30cbece10e0e66cf115fe/cdk8s-2.7.99.tar.gz
+[2023-07-13 10:01:39] INFO root fetch - processPackages [djangoldp-tzcld]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 10:01:39] INFO root fetch - processPackages [xj-common]: Downloading https://files.pythonhosted.org/packages/e7/02/3b3bbfc48d247cf8d477729491ec2d1f4c2947a9f2c01c948da7088586f5/xj_common-1.0.9.tar.gz
+[2023-07-13 10:01:39] INFO root fetch - processPackages [explainable-exceptions]: Downloading https://files.pythonhosted.org/packages/21/59/bc1d79409eb0060d55f169a9b00ee54856353b64bec4e2e7807545e188d3/explainable-exceptions-1.0.2.tar.gz
+[2023-07-13 10:01:39] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-13 10:01:39] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.98.tar.gz tmp/cdk8s-2.7.99.tar.gz --markdown 20230713/c/cdk8s/2.7.98-2.7.99/diff.md --exclude *.pyd
+[2023-07-13 10:01:39] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/5e/9c/d8e1653fbd4a8b72e10e21bb46c46fef24c1bc9bec71ecfc7fcfb9629da7/tracebloc_package-dev-0.5.3.tar.gz
+[2023-07-13 10:01:39] INFO root fetch - processPackages [djangoldp-tzcld]: Downloading https://files.pythonhosted.org/packages/5e/bf/765d4a1d3b4755ec985902cfd73fb982d6e0e548553f9b59d81204a43f5e/djangoldp_tzcld-1.0.8.tar.gz
+[2023-07-13 10:01:39] INFO root fetch - processPackages [xj-common]: executing diffoscope
+[2023-07-13 10:01:39] INFO root fetch - processPackages [xj-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_common-1.0.8.tar.gz tmp/xj_common-1.0.9.tar.gz --markdown 20230713/x/xj-common/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 10:01:39] INFO root fetch - processPackages [gitlabform]: Downloading https://files.pythonhosted.org/packages/e9/76/a351fb767b4c601252febe02f1bb9dd68f96fbe6da7a3fe1abff08be94ff/gitlabform-3.6.1.tar.gz
+[2023-07-13 10:01:39] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-07-13 10:01:39] INFO root fetch - processPackages [explainable-exceptions]: executing diffoscope
+[2023-07-13 10:01:39] INFO root fetch - processPackages [explainable-exceptions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/explainable-exceptions-1.0.1.tar.gz tmp/explainable-exceptions-1.0.2.tar.gz --markdown 20230713/e/explainable-exceptions/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-13 10:01:39] INFO root fetch - processPackages [miniagent]: Downloading https://files.pythonhosted.org/packages/92/e5/684583b07fce6c155c48f3ef92f5aade89cf5a39088f833b45de3c073fdf/miniagent-0.0.9-py3-none-any.whl
+[2023-07-13 10:01:39] INFO root fetch - processPackages [modelw-docker]: Downloading https://files.pythonhosted.org/packages/37/b8/d6b8f2227519c80fccfc1dbae56162ba7bf0a76cbf07b2834a49bbe998a4/modelw_docker-2023.7.1.tar.gz
+[2023-07-13 10:01:39] INFO root fetch - processPackages [flavius-api]: Downloading https://files.pythonhosted.org/packages/a7/4e/86a58a754af885057f27412b1a2ddc99272feb69364da3a57865fa7e38e5/flavius-api-1.9.4.tar.gz
+[2023-07-13 10:01:39] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2023-07-13 10:01:39] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.5.2.tar.gz tmp/tracebloc_package-dev-0.5.3.tar.gz --markdown 20230713/t/tracebloc-package-dev/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-13 10:01:39] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-07-13 10:01:39] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230713/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-13 10:01:39] INFO root fetch - processPackages [miniagent]: executing diffoscope
+[2023-07-13 10:01:39] INFO root fetch - processPackages [miniagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniagent-0.0.8-py3-none-any.whl.zip tmp/miniagent-0.0.9-py3-none-any.whl.zip --markdown 20230713/m/miniagent/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 10:01:39] INFO root fetch - processPackages [djangoldp-tzcld]: Downloading https://files.pythonhosted.org/packages/35/0e/7d8fa4182c6d83549f2dc756fd3a514d60a7016c6fed5ab86ca2db488d14/djangoldp_tzcld-1.0.9.tar.gz
+[2023-07-13 10:01:39] INFO root fetch - processPackages [gitlabform]: executing diffoscope
+[2023-07-13 10:01:39] INFO root fetch - processPackages [gitlabform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlabform-3.6.0.tar.gz tmp/gitlabform-3.6.1.tar.gz --markdown 20230713/g/gitlabform/3.6.0-3.6.1/diff.md --exclude *.pyd
+[2023-07-13 10:01:39] INFO root fetch - processPackages [modelw-docker]: executing diffoscope
+[2023-07-13 10:01:39] INFO root fetch - processPackages [modelw-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelw_docker-2023.7.0.tar.gz tmp/modelw_docker-2023.7.1.tar.gz --markdown 20230713/m/modelw-docker/2023.7.0-2023.7.1/diff.md --exclude *.pyd
+[2023-07-13 10:01:39] INFO root fetch - processPackages [flavius-api]: executing diffoscope
+[2023-07-13 10:01:39] INFO root fetch - processPackages [flavius-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flavius-api-1.9.3.tar.gz tmp/flavius-api-1.9.4.tar.gz --markdown 20230713/f/flavius-api/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-13 10:01:39] INFO root fetch - processPackages [djangoldp-tzcld]: executing diffoscope
+[2023-07-13 10:01:39] INFO root fetch - processPackages [djangoldp-tzcld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_tzcld-1.0.8.tar.gz tmp/djangoldp_tzcld-1.0.9.tar.gz --markdown 20230713/d/djangoldp-tzcld/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 10:01:42] INFO root fetch - processPackages [explainable-exceptions]: Remove: archive file [/home/abi/fetcher/tmp/explainable-exceptions-1.0.1.tar.gz]
+[2023-07-13 10:01:42] INFO root fetch - processPackages [explainable-exceptions]: Remove: archive file [/home/abi/fetcher/tmp/explainable-exceptions-1.0.2.tar.gz]
+[2023-07-13 10:01:42] INFO root fetch - main [MainThread]: End processing [explainable-exceptions]: success
+[2023-07-13 10:01:42] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-07-13 10:01:42] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-07-13 10:01:42] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-07-13 10:01:42] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.2.tar.gz]
+[2023-07-13 10:01:42] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.3.tar.gz]
+[2023-07-13 10:01:42] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2023-07-13 10:01:42] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.98.tar.gz]
+[2023-07-13 10:01:42] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.99.tar.gz]
+[2023-07-13 10:01:42] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-13 10:01:42] INFO root fetch - processPackages [flavius-api]: Remove: archive file [/home/abi/fetcher/tmp/flavius-api-1.9.3.tar.gz]
+[2023-07-13 10:01:42] INFO root fetch - processPackages [flavius-api]: Remove: archive file [/home/abi/fetcher/tmp/flavius-api-1.9.4.tar.gz]
+[2023-07-13 10:01:42] INFO root fetch - main [MainThread]: End processing [flavius-api]: success
+[2023-07-13 10:01:42] INFO root fetch - processPackages [djangoldp-tzcld]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_tzcld-1.0.8.tar.gz]
+[2023-07-13 10:01:42] INFO root fetch - processPackages [djangoldp-tzcld]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_tzcld-1.0.9.tar.gz]
+[2023-07-13 10:01:42] INFO root fetch - main [MainThread]: End processing [djangoldp-tzcld]: success
+[2023-07-13 10:01:42] INFO root fetch - processPackages [xj-common]: Remove: archive file [/home/abi/fetcher/tmp/xj_common-1.0.8.tar.gz]
+[2023-07-13 10:01:42] INFO root fetch - processPackages [xj-common]: Remove: archive file [/home/abi/fetcher/tmp/xj_common-1.0.9.tar.gz]
+[2023-07-13 10:01:42] INFO root fetch - main [MainThread]: End processing [xj-common]: success
+[2023-07-13 10:01:42] INFO root fetch - processPackages [modelw-docker]: Remove: archive file [/home/abi/fetcher/tmp/modelw_docker-2023.7.0.tar.gz]
+[2023-07-13 10:01:42] INFO root fetch - processPackages [modelw-docker]: Remove: archive file [/home/abi/fetcher/tmp/modelw_docker-2023.7.1.tar.gz]
+[2023-07-13 10:01:42] INFO root fetch - main [MainThread]: End processing [modelw-docker]: success
+[2023-07-13 10:01:42] INFO root fetch - processPackages [gitlabform]: Remove: archive file [/home/abi/fetcher/tmp/gitlabform-3.6.0.tar.gz]
+[2023-07-13 10:01:42] INFO root fetch - processPackages [gitlabform]: Remove: archive file [/home/abi/fetcher/tmp/gitlabform-3.6.1.tar.gz]
+[2023-07-13 10:01:42] INFO root fetch - main [MainThread]: End processing [gitlabform]: success
+[2023-07-13 10:01:42] INFO root fetch - processPackages [miniagent]: Remove: archive file [/home/abi/fetcher/tmp/miniagent-0.0.8-py3-none-any.whl.zip]
+[2023-07-13 10:01:42] INFO root fetch - processPackages [miniagent]: Remove: archive file [/home/abi/fetcher/tmp/miniagent-0.0.9-py3-none-any.whl.zip]
+[2023-07-13 10:01:42] INFO root fetch - main [MainThread]: End processing [miniagent]: success
+[2023-07-13 10:01:42] INFO root fetch - main [MainThread]: Store serial: [18871640]
