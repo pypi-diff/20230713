@@ -12384,3 +12384,114 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 08:25:36] INFO root fetch - processPackages [pytextrust]: Remove: archive file [/home/abi/fetcher/tmp/pytextrust-0.5.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-13 08:25:36] INFO root fetch - main [MainThread]: End processing [pytextrust]: success
 [2023-07-13 08:25:36] INFO root fetch - main [MainThread]: Store serial: [18870777]
+[2023-07-13 08:30:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18870777]
+[2023-07-13 08:30:48] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-13 08:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-serve
+[2023-07-13 08:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fake-bpy-module-latest
+[2023-07-13 08:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nmd
+[2023-07-13 08:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EmberFactory
+[2023-07-13 08:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bluetooth-data-tools
+[2023-07-13 08:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ultima-scraper-collection
+[2023-07-13 08:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cjm-yolox-pytorch
+[2023-07-13 08:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-account-tax-balance
+[2023-07-13 08:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: google-ads-api-report-fetcher
+[2023-07-13 08:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Alphakit
+[2023-07-13 08:30:48] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-13 08:30:48] INFO root fetch - processPackages [google-ads-api-report-fetcher]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-07-13 08:30:48] INFO root fetch - processPackages [ultima-scraper-collection]: New version: [2.0.0] Old Version: [1.1.3]
+[2023-07-13 08:30:48] INFO root fetch - processPackages [Alphakit]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-13 08:30:48] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 08:30:48] INFO root fetch - processPackages [odoo-addon-account-tax-balance]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.6]
+[2023-07-13 08:30:48] INFO root fetch - processPackages [nmd]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-13 08:30:48] INFO root fetch - processPackages [EmberFactory]: New version: [1.8.0b3] Old Version: [1.7.1]
+[2023-07-13 08:30:48] INFO root fetch - processPackages [bluetooth-data-tools]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-13 08:30:48] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230713] Old Version: [20230712]
+[2023-07-13 08:30:48] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-13 08:30:48] INFO root fetch - processPackages [nmd]: Downloading https://files.pythonhosted.org/packages/98/2b/1620e1b91add22d8007fc3baad449f7ff29f2a5bd3019ff7e3451e90fe6f/nmd-0.0.5.tar.gz
+[2023-07-13 08:30:48] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/0d/5c/342759c036e86be942679631f5f86c8c9e6449d136b7846072fcd74be023/fastapi-serve-0.0.2.dev8.tar.gz
+[2023-07-13 08:30:48] INFO root fetch - processPackages [bluetooth-data-tools]: Downloading https://files.pythonhosted.org/packages/9e/89/309522c7188ee1c32eab2001257f3fed18ff760284a434bddc8c09900931/bluetooth_data_tools-1.4.0.tar.gz
+[2023-07-13 08:30:48] INFO root fetch - processPackages [Alphakit]: Downloading https://files.pythonhosted.org/packages/4f/d7/4e8756c8574e541bb1fc0ae24363eb9ee50cb9ac64322c6164bcdf5a7dd0/Alphakit-1.2.0.tar.gz
+[2023-07-13 08:30:48] INFO root fetch - processPackages [ultima-scraper-collection]: Downloading https://files.pythonhosted.org/packages/bc/57/33117fa0484d3bd976b43d5aa80e6700ec20990e17357226c95e03e9c9da/ultima_scraper_collection-1.1.3.tar.gz
+[2023-07-13 08:30:48] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/14/93/b29547d5b3c835e7a1fa27ce9e55ad1dec931449f30b8a53b1dcd6c97d58/google-ads-api-report-fetcher-1.6.0.tar.gz
+[2023-07-13 08:30:48] INFO root fetch - processPackages [EmberFactory]: Downloading https://files.pythonhosted.org/packages/a6/8f/0f158c1ad910f6cdbed9ecdb0a457308d2f7f146ac690edfd1271fb41529/EmberFactory-1.7.1-py3-none-any.whl
+[2023-07-13 08:30:48] INFO root fetch - processPackages [odoo-addon-account-tax-balance]: Downloading https://files.pythonhosted.org/packages/8d/2f/616dd43b7697d31d824ae390e640ab8f4faf1bbcf11810b5863757d7b461/odoo_addon_account_tax_balance-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-13 08:30:48] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/a9/08/70450c1965c3a1fa352c6223a193d95aade1d5e408c5203694504bc2347e/fake-bpy-module-latest-20230712.tar.gz
+[2023-07-13 08:30:49] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 08:30:49] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 08:30:49] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 08:30:49] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/44/43/0c3667ca8abfbfc54c8ce5f7d2b54ac1af100ec90f9ad59e15dc59a59d49/fastapi-serve-0.0.2.dev9.tar.gz
+[2023-07-13 08:30:49] INFO root fetch - processPackages [bluetooth-data-tools]: Downloading https://files.pythonhosted.org/packages/ed/05/002620ce7217a16dabfb16f56f86a5215754a37763e73d0276d9f4430425/bluetooth_data_tools-1.5.0.tar.gz
+[2023-07-13 08:30:49] INFO root fetch - processPackages [EmberFactory]: Downloading https://files.pythonhosted.org/packages/f2/9f/cba824fdadea9e9a0b0af2f7428aa1598e5629590d780d67ebca6e3cbb38/EmberFactory-1.8.0b3-py3-none-any.whl
+[2023-07-13 08:30:49] INFO root fetch - processPackages [Alphakit]: Downloading https://files.pythonhosted.org/packages/15/97/dc2fee004aa1bf0b0b4c9e489e7f8d33ebc2dcdb20aaecd0692f1323a216/Alphakit-1.2.1.tar.gz
+[2023-07-13 08:30:49] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/47/0d/c236dc1921007409cae113f63c58ad5d767915946bb4d762cb3dee0f97c6/fake-bpy-module-latest-20230713.tar.gz
+[2023-07-13 08:30:49] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/98/37/2bed0a5359395f560cdfc9711aeb311306a46d41e4eb8f0840750a87a167/google-ads-api-report-fetcher-1.7.0.tar.gz
+[2023-07-13 08:30:49] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-13 08:30:49] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.2.dev8.tar.gz tmp/fastapi-serve-0.0.2.dev9.tar.gz --markdown 20230713/f/fastapi-serve/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-13 08:30:49] INFO root fetch - processPackages [ultima-scraper-collection]: Downloading https://files.pythonhosted.org/packages/ea/6d/f0fc7f83feb26f877a33e0532ec61aa58019e06fdf7fd37900d72857f595/ultima_scraper_collection-2.0.0.tar.gz
+[2023-07-13 08:30:49] INFO root fetch - processPackages [odoo-addon-account-tax-balance]: Downloading https://files.pythonhosted.org/packages/c5/46/67ac139f8e1afdd9bbd3a39452c9d9e84dd79935f2df10fc421fa7468eaf/odoo_addon_account_tax_balance-16.0.1.1.0-py3-none-any.whl
+[2023-07-13 08:30:49] INFO root fetch - processPackages [bluetooth-data-tools]: executing diffoscope
+[2023-07-13 08:30:49] INFO root fetch - processPackages [bluetooth-data-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluetooth_data_tools-1.4.0.tar.gz tmp/bluetooth_data_tools-1.5.0.tar.gz --markdown 20230713/b/bluetooth-data-tools/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-13 08:30:49] INFO root fetch - processPackages [nmd]: Downloading https://files.pythonhosted.org/packages/86/a3/46f89dbea127a46d6bf13e9d813dd37264ffeae1d36fd5b1bd4a1a49abe6/nmd-0.0.6.tar.gz
+[2023-07-13 08:30:49] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-07-13 08:30:49] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230712.tar.gz tmp/fake-bpy-module-latest-20230713.tar.gz --markdown 20230713/f/fake-bpy-module-latest/20230712-20230713/diff.md --exclude *.pyd
+[2023-07-13 08:30:49] INFO root fetch - processPackages [ultima-scraper-collection]: executing diffoscope
+[2023-07-13 08:30:49] INFO root fetch - processPackages [ultima-scraper-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultima_scraper_collection-1.1.3.tar.gz tmp/ultima_scraper_collection-2.0.0.tar.gz --markdown 20230713/u/ultima-scraper-collection/1.1.3-2.0.0/diff.md --exclude *.pyd
+[2023-07-13 08:30:49] INFO root fetch - processPackages [Alphakit]: executing diffoscope
+[2023-07-13 08:30:49] INFO root fetch - processPackages [Alphakit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alphakit-1.2.0.tar.gz tmp/Alphakit-1.2.1.tar.gz --markdown 20230713/A/Alphakit/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-13 08:30:49] INFO root fetch - processPackages [google-ads-api-report-fetcher]: executing diffoscope
+[2023-07-13 08:30:49] INFO root fetch - processPackages [google-ads-api-report-fetcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-ads-api-report-fetcher-1.6.0.tar.gz tmp/google-ads-api-report-fetcher-1.7.0.tar.gz --markdown 20230713/g/google-ads-api-report-fetcher/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-07-13 08:30:49] INFO root fetch - processPackages [odoo-addon-account-tax-balance]: executing diffoscope
+[2023-07-13 08:30:49] INFO root fetch - processPackages [odoo-addon-account-tax-balance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_tax_balance-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_account_tax_balance-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-account-tax-balance/16.0.1.0.0.6-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-07-13 08:30:49] INFO root fetch - processPackages [nmd]: executing diffoscope
+[2023-07-13 08:30:49] INFO root fetch - processPackages [nmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmd-0.0.5.tar.gz tmp/nmd-0.0.6.tar.gz --markdown 20230713/n/nmd/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-13 08:30:50] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-13 08:30:50] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 08:30:50] INFO root fetch - processPackages [cjm-yolox-pytorch]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-07-13 08:30:50] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 08:30:50] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-13 08:30:50] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-07-13 08:30:50] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-07-13 08:30:50] INFO root fetch - processPackages [bluetooth-data-tools]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth_data_tools-1.4.0.tar.gz]
+[2023-07-13 08:30:50] INFO root fetch - processPackages [bluetooth-data-tools]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth_data_tools-1.5.0.tar.gz]
+[2023-07-13 08:30:51] INFO root fetch - processPackages [bluetooth-data-tools]: Start processing: google-ads-api-report-fetcher
+[2023-07-13 08:30:51] INFO root fetch - main [MainThread]: End processing [bluetooth-data-tools]: success
+[2023-07-13 08:30:51] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev8.tar.gz]
+[2023-07-13 08:30:51] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev9.tar.gz]
+[2023-07-13 08:30:51] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-13 08:30:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-07-13 08:30:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230713/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-13 08:30:51] INFO root fetch - processPackages [google-ads-api-report-fetcher]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-07-13 08:30:51] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/ce/11/b29d095af06b2bfc1cde6fa4989fad36da533b43177d165dfbd90bf0b748/google-ads-api-report-fetcher-1.8.0.tar.gz
+[2023-07-13 08:30:51] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.6.0.tar.gz]
+[2023-07-13 08:30:51] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.7.0.tar.gz]
+[2023-07-13 08:30:51] INFO root fetch - main [MainThread]: End processing [google-ads-api-report-fetcher]: success
+[2023-07-13 08:30:51] INFO root fetch - processPackages [odoo-addon-account-tax-balance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_tax_balance-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-13 08:30:51] INFO root fetch - processPackages [odoo-addon-account-tax-balance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_tax_balance-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-13 08:30:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-tax-balance]: success
+[2023-07-13 08:30:51] INFO root fetch - processPackages [google-ads-api-report-fetcher]: executing diffoscope
+[2023-07-13 08:30:51] INFO root fetch - processPackages [google-ads-api-report-fetcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-ads-api-report-fetcher-1.7.0.tar.gz tmp/google-ads-api-report-fetcher-1.8.0.tar.gz --markdown 20230713/g/google-ads-api-report-fetcher/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-07-13 08:30:51] INFO root fetch - processPackages [Alphakit]: Remove: archive file [/home/abi/fetcher/tmp/Alphakit-1.2.0.tar.gz]
+[2023-07-13 08:30:51] INFO root fetch - processPackages [Alphakit]: Remove: archive file [/home/abi/fetcher/tmp/Alphakit-1.2.1.tar.gz]
+[2023-07-13 08:30:51] INFO root fetch - main [MainThread]: End processing [Alphakit]: success
+[2023-07-13 08:30:51] INFO root fetch - processPackages [ultima-scraper-collection]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_collection-1.1.3.tar.gz]
+[2023-07-13 08:30:51] INFO root fetch - processPackages [ultima-scraper-collection]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_collection-2.0.0.tar.gz]
+[2023-07-13 08:30:51] INFO root fetch - main [MainThread]: End processing [ultima-scraper-collection]: success
+[2023-07-13 08:30:51] INFO root fetch - processPackages [nmd]: Remove: archive file [/home/abi/fetcher/tmp/nmd-0.0.5.tar.gz]
+[2023-07-13 08:30:51] INFO root fetch - processPackages [nmd]: Remove: archive file [/home/abi/fetcher/tmp/nmd-0.0.6.tar.gz]
+[2023-07-13 08:30:51] INFO root fetch - main [MainThread]: End processing [nmd]: success
+[2023-07-13 08:30:52] ERROR root fetch - processPackages [google-ads-api-report-fetcher]: Diffoscope failed: time="2023-07-13T08:30:51+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/google-ads-api-report-fetcher-1.7.0.tar.gz: No such file or directory
+
+[2023-07-13 08:30:52] INFO root fetch - main [MainThread]: End processing [google-ads-api-report-fetcher] error
+[2023-07-13 08:30:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-07-13 08:30:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-07-13 08:30:52] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-07-13 08:30:54] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230712.tar.gz]
+[2023-07-13 08:30:54] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230713.tar.gz]
+[2023-07-13 08:30:54] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-07-13 08:31:01] INFO root fetch - processPackages [EmberFactory]: executing diffoscope
+[2023-07-13 08:31:01] INFO root fetch - processPackages [EmberFactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EmberFactory-1.7.1-py3-none-any.whl.zip tmp/EmberFactory-1.8.0b3-py3-none-any.whl.zip --markdown 20230713/E/EmberFactory/1.7.1-1.8.0b3/diff.md --exclude *.pyd
+[2023-07-13 08:31:02] INFO root fetch - processPackages [EmberFactory]: Remove: archive file [/home/abi/fetcher/tmp/EmberFactory-1.7.1-py3-none-any.whl.zip]
+[2023-07-13 08:31:02] INFO root fetch - processPackages [EmberFactory]: Remove: archive file [/home/abi/fetcher/tmp/EmberFactory-1.8.0b3-py3-none-any.whl.zip]
+[2023-07-13 08:31:02] INFO root fetch - main [MainThread]: End processing [EmberFactory]: success
+[2023-07-13 08:31:02] INFO root fetch - main [MainThread]: Store serial: [18870809]
