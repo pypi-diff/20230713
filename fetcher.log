@@ -8805,3 +8805,77 @@
 [2023-07-13 05:52:32] INFO root fetch - processPackages [prog-models]: Remove: archive file [/home/abi/fetcher/tmp/prog_models-1.5.1.tar.gz]
 [2023-07-13 05:52:32] INFO root fetch - main [MainThread]: End processing [prog-models]: success
 [2023-07-13 05:52:32] INFO root fetch - main [MainThread]: Store serial: [18869626]
+[2023-07-13 05:57:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18869626]
+[2023-07-13 05:57:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-13 05:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neonelly.core
+[2023-07-13 05:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-l10n-it-withholding-tax
+[2023-07-13 05:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-l10n-it-intrastat
+[2023-07-13 05:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-it-intrastat
+[2023-07-13 05:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: impsparc
+[2023-07-13 05:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-url-tokenizer
+[2023-07-13 05:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-l10n-it-withholding-tax
+[2023-07-13 05:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zfl-ai
+[2023-07-13 05:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: uniem
+[2023-07-13 05:57:41] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-13 05:57:41] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: New version: [14.0.1.3.1.dev8] Old Version: [14.0.1.3.1.dev7]
+[2023-07-13 05:57:41] WARNING root fetch - processPackages [neonelly.core]: Skipping, unable to determine old version
+[2023-07-13 05:57:41] INFO root fetch - main [MainThread]: End processing [neonelly.core] error
+[2023-07-13 05:57:41] INFO root fetch - processPackages [odoo12-addon-l10n-it-withholding-tax]: New version: [12.0.2.1.6.99.dev2] Old Version: [12.0.2.1.6.99.dev1]
+[2023-07-13 05:57:41] INFO root fetch - processPackages [odoo12-addon-l10n-it-intrastat]: New version: [12.0.1.3.0.99.dev6] Old Version: [12.0.1.3.0.99.dev5]
+[2023-07-13 05:57:41] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: New version: [16.0.1.1.1.4] Old Version: [16.0.1.1.1.3]
+[2023-07-13 05:57:41] INFO root fetch - processPackages [impsparc]: New version: [3.0.1] Old Version: [2.0.2]
+[2023-07-13 05:57:41] INFO root fetch - processPackages [zfl-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 05:57:41] INFO root fetch - processPackages [uniem]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-13 05:57:41] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/40/a1/1a82fd9b6fef09c04fb151259d49e05071cb94a4aa2e25bf0838874587d1/django-url-tokenizer-0.0.4.tar.gz
+[2023-07-13 05:57:41] INFO root fetch - processPackages [odoo12-addon-l10n-it-intrastat]: Downloading https://files.pythonhosted.org/packages/8b/45/849b1022e7ce12687d2affc651fc2e9e16bb4a13c18fd258ab88a51dc9e4/odoo12_addon_l10n_it_intrastat-12.0.1.3.0.99.dev5-py3-none-any.whl
+[2023-07-13 05:57:41] INFO root fetch - processPackages [zfl-ai]: Downloading https://files.pythonhosted.org/packages/03/91/551384ced74a08245e2e33bc6408b3877abd30b2262ffd9a661984a15009/zfl_ai-0.0.8.tar.gz
+[2023-07-13 05:57:41] INFO root fetch - processPackages [impsparc]: Downloading https://files.pythonhosted.org/packages/29/db/c9917ff9594ceb5b86e36abb7529bfd6f8aee0b28b6156177ab66c2bcfb5/impsparc-2.0.2.tar.gz
+[2023-07-13 05:57:41] WARNING root fetch - processPackages [zfl-ai]: Skipping package: exceeds size limit 30240283>=10485760
+[2023-07-13 05:57:41] INFO root fetch - main [MainThread]: End processing [zfl-ai] error
+[2023-07-13 05:57:41] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: Downloading https://files.pythonhosted.org/packages/96/5a/d1341caf920f85b8dc06c0c365abc7d3b566bf5bac6c7710a5691f374831/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev7-py3-none-any.whl
+[2023-07-13 05:57:41] INFO root fetch - processPackages [odoo12-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/d4/96/f5536683f0b467c593a736b1e62f007f499f73314679058a1c84f2068ae3/odoo12_addon_l10n_it_withholding_tax-12.0.2.1.6.99.dev1-py3-none-any.whl
+[2023-07-13 05:57:42] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/8c/f5/fb4b331cb30e66f65e02835086d51700988b2333ccfe71e3a5c318371fce/odoo_addon_l10n_it_withholding_tax-16.0.1.1.1.3-py3-none-any.whl
+[2023-07-13 05:57:42] INFO root fetch - processPackages [uniem]: Downloading https://files.pythonhosted.org/packages/47/4e/03361455a0dee3e9f772cb73cf1ce10237d333a5f08acc0c0a1ed7214ffb/uniem-0.3.0.tar.gz
+[2023-07-13 05:57:42] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/66/5c/8c8289e4b56ced26f0ef05c03fbe3e3f77d0051a8842975e0a0484f4c34d/django-url-tokenizer-0.0.5.tar.gz
+[2023-07-13 05:57:42] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-13 05:57:42] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.4.tar.gz tmp/django-url-tokenizer-0.0.5.tar.gz --markdown 20230713/d/django-url-tokenizer/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-13 05:57:42] INFO root fetch - processPackages [uniem]: Downloading https://files.pythonhosted.org/packages/bb/b0/d43c668a03c685cc67f71f72680fb99029e6ac8c2afe3ad0db49565e1aba/uniem-0.3.1.tar.gz
+[2023-07-13 05:57:42] INFO root fetch - processPackages [uniem]: executing diffoscope
+[2023-07-13 05:57:42] INFO root fetch - processPackages [uniem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniem-0.3.0.tar.gz tmp/uniem-0.3.1.tar.gz --markdown 20230713/u/uniem/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-13 05:57:42] INFO root fetch - processPackages [odoo12-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/c7/91/43364d0f0ad1193275c52e1e7b3164142d153aa85110d948ab1089cdcafb/odoo12_addon_l10n_it_withholding_tax-12.0.2.1.6.99.dev2-py3-none-any.whl
+[2023-07-13 05:57:42] INFO root fetch - processPackages [odoo12-addon-l10n-it-intrastat]: Downloading https://files.pythonhosted.org/packages/bf/8d/a9cbbe26f27fdb2bca5c40028b39bbba7810c5974558d8ad104df67480c3/odoo12_addon_l10n_it_intrastat-12.0.1.3.0.99.dev6-py3-none-any.whl
+[2023-07-13 05:57:42] INFO root fetch - processPackages [impsparc]: Downloading https://files.pythonhosted.org/packages/9d/c7/499600c28189a69b7d42615e139aebad04b009ff9e07754211d548299aef/impsparc-3.0.1.tar.gz
+[2023-07-13 05:57:42] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: Downloading https://files.pythonhosted.org/packages/e6/8f/66ca62e55b9f67634a5d735cb3eeebbceccf76e2965a378c3b3c4dc0538c/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev8-py3-none-any.whl
+[2023-07-13 05:57:42] INFO root fetch - processPackages [impsparc]: executing diffoscope
+[2023-07-13 05:57:42] INFO root fetch - processPackages [impsparc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impsparc-2.0.2.tar.gz tmp/impsparc-3.0.1.tar.gz --markdown 20230713/i/impsparc/2.0.2-3.0.1/diff.md --exclude *.pyd
+[2023-07-13 05:57:42] INFO root fetch - processPackages [odoo12-addon-l10n-it-withholding-tax]: executing diffoscope
+[2023-07-13 05:57:42] INFO root fetch - processPackages [odoo12-addon-l10n-it-withholding-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_withholding_tax-12.0.2.1.6.99.dev1-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_withholding_tax-12.0.2.1.6.99.dev2-py3-none-any.whl.zip --markdown 20230713/o/odoo12-addon-l10n-it-withholding-tax/12.0.2.1.6.99.dev1-12.0.2.1.6.99.dev2/diff.md --exclude *.pyd
+[2023-07-13 05:57:42] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/6b/c3/3d2fa4d7a50f83d412cef9fa21eb6f4ccdd948f9f3279203578094552080/odoo_addon_l10n_it_withholding_tax-16.0.1.1.1.4-py3-none-any.whl
+[2023-07-13 05:57:42] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: executing diffoscope
+[2023-07-13 05:57:42] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_withholding_tax-16.0.1.1.1.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_withholding_tax-16.0.1.1.1.4-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-l10n-it-withholding-tax/16.0.1.1.1.3-16.0.1.1.1.4/diff.md --exclude *.pyd
+[2023-07-13 05:57:42] INFO root fetch - processPackages [odoo12-addon-l10n-it-intrastat]: executing diffoscope
+[2023-07-13 05:57:42] INFO root fetch - processPackages [odoo12-addon-l10n-it-intrastat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_intrastat-12.0.1.3.0.99.dev5-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_intrastat-12.0.1.3.0.99.dev6-py3-none-any.whl.zip --markdown 20230713/o/odoo12-addon-l10n-it-intrastat/12.0.1.3.0.99.dev5-12.0.1.3.0.99.dev6/diff.md --exclude *.pyd
+[2023-07-13 05:57:43] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: executing diffoscope
+[2023-07-13 05:57:43] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev8-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-l10n-it-intrastat/14.0.1.3.1.dev7-14.0.1.3.1.dev8/diff.md --exclude *.pyd
+[2023-07-13 05:57:43] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.4.tar.gz]
+[2023-07-13 05:57:43] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.5.tar.gz]
+[2023-07-13 05:57:43] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-13 05:57:43] INFO root fetch - processPackages [uniem]: Remove: archive file [/home/abi/fetcher/tmp/uniem-0.3.0.tar.gz]
+[2023-07-13 05:57:43] INFO root fetch - processPackages [uniem]: Remove: archive file [/home/abi/fetcher/tmp/uniem-0.3.1.tar.gz]
+[2023-07-13 05:57:43] INFO root fetch - main [MainThread]: End processing [uniem]: success
+[2023-07-13 05:57:43] INFO root fetch - processPackages [odoo12-addon-l10n-it-withholding-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_withholding_tax-12.0.2.1.6.99.dev1-py3-none-any.whl.zip]
+[2023-07-13 05:57:43] INFO root fetch - processPackages [odoo12-addon-l10n-it-withholding-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_withholding_tax-12.0.2.1.6.99.dev2-py3-none-any.whl.zip]
+[2023-07-13 05:57:43] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-withholding-tax]: success
+[2023-07-13 05:57:44] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_withholding_tax-16.0.1.1.1.3-py3-none-any.whl.zip]
+[2023-07-13 05:57:44] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_withholding_tax-16.0.1.1.1.4-py3-none-any.whl.zip]
+[2023-07-13 05:57:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-withholding-tax]: success
+[2023-07-13 05:57:44] INFO root fetch - processPackages [impsparc]: Remove: archive file [/home/abi/fetcher/tmp/impsparc-2.0.2.tar.gz]
+[2023-07-13 05:57:44] INFO root fetch - processPackages [impsparc]: Remove: archive file [/home/abi/fetcher/tmp/impsparc-3.0.1.tar.gz]
+[2023-07-13 05:57:44] INFO root fetch - main [MainThread]: End processing [impsparc]: success
+[2023-07-13 05:57:44] INFO root fetch - processPackages [odoo12-addon-l10n-it-intrastat]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_intrastat-12.0.1.3.0.99.dev5-py3-none-any.whl.zip]
+[2023-07-13 05:57:44] INFO root fetch - processPackages [odoo12-addon-l10n-it-intrastat]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_intrastat-12.0.1.3.0.99.dev6-py3-none-any.whl.zip]
+[2023-07-13 05:57:44] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-intrastat]: success
+[2023-07-13 05:57:44] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev7-py3-none-any.whl.zip]
+[2023-07-13 05:57:44] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev8-py3-none-any.whl.zip]
+[2023-07-13 05:57:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-intrastat]: success
+[2023-07-13 05:57:44] INFO root fetch - main [MainThread]: Store serial: [18869658]
