@@ -6741,3 +6741,69 @@
 [2023-07-13 04:24:36] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
 [2023-07-13 04:24:37] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
 [2023-07-13 04:24:37] INFO root fetch - main [MainThread]: Store serial: [18868983]
+[2023-07-13 04:29:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18868983]
+[2023-07-13 04:29:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-13 04:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterlab-theme-solarized-dark
+[2023-07-13 04:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fgo-api-types
+[2023-07-13 04:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slice-db
+[2023-07-13 04:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moore-itertools
+[2023-07-13 04:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agentmemory
+[2023-07-13 04:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-url-tokenizer
+[2023-07-13 04:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-amplitude
+[2023-07-13 04:29:47] INFO root fetch - processPackages [agentmemory]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-13 04:29:47] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-13 04:29:47] INFO root fetch - processPackages [slice-db]: New version: [5.1.9] Old Version: [5.1.8]
+[2023-07-13 04:29:47] INFO root fetch - processPackages [jupyterlab-theme-solarized-dark]: New version: [3.0.0] Old Version: [2.1.0]
+[2023-07-13 04:29:47] INFO root fetch - processPackages [moore-itertools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-13 04:29:47] INFO root fetch - processPackages [fgo-api-types]: New version: [2023.7.9.5.5.49] Old Version: [2023.7.7.16.36.40]
+[2023-07-13 04:29:47] INFO root fetch - processPackages [django-amplitude]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-07-13 04:29:47] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/76/a4/1837fde9bba8944d0330410a2f0a420a27ec83c684b965be0b0e40ac9a30/django-url-tokenizer-0.0.2.tar.gz
+[2023-07-13 04:29:47] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/6e/ac/33ae73e442d8025c848fe583687d588ca05bd695b69b0ff158ef2310696c/agentmemory-0.1.9.tar.gz
+[2023-07-13 04:29:47] INFO root fetch - processPackages [slice-db]: Downloading https://files.pythonhosted.org/packages/35/53/b49ff3ac7b56e7037342773709747ec6d2ead1fe182aa9250a1ce14c1d37/slice-db-5.1.8.tar.gz
+[2023-07-13 04:29:47] INFO root fetch - processPackages [jupyterlab-theme-solarized-dark]: Downloading https://files.pythonhosted.org/packages/f9/16/06fa1f34bb7bc3c29677e069a7b4d6c7a186a60d8bc91b48fa5f28381cc0/jupyterlab_theme_solarized_dark-2.1.0.tar.gz
+[2023-07-13 04:29:47] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/6f/90/fd22e069ca7b8453cb4912298233613f643e6a9f92b369b038a0a08f88d4/fgo_api_types-2023.7.7.16.36.40.tar.gz
+[2023-07-13 04:29:47] INFO root fetch - processPackages [moore-itertools]: Downloading https://files.pythonhosted.org/packages/d6/e4/2a4354d3ecc6c4506c8907a03acf8b36bf0a4c48327eaaabd1465cf6b519/moore-itertools-0.0.2.tar.gz
+[2023-07-13 04:29:47] INFO root fetch - processPackages [django-amplitude]: Downloading https://files.pythonhosted.org/packages/ce/bd/9755aaff2a45eaf5f283f6ef3cbef3342c14c03f8840dad2b01b445ccf35/django-amplitude-0.7.1.tar.gz
+[2023-07-13 04:29:48] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/6e/de/59822a4feeb5ae2ce7f9f95ba28854604d48a834f21876815aedde6fe14d/agentmemory-0.2.0.tar.gz
+[2023-07-13 04:29:48] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/0f/c2/3d6c721e7d93bd959eb4d3e34e684b67d7d1920879c65a930db74db304f5/django-url-tokenizer-0.0.3.tar.gz
+[2023-07-13 04:29:48] INFO root fetch - processPackages [slice-db]: Downloading https://files.pythonhosted.org/packages/06/15/5d198dcf4ee95990438f7d3496753d8a1105e93a088698a4d3dd3a650521/slice-db-5.1.9.tar.gz
+[2023-07-13 04:29:48] INFO root fetch - processPackages [jupyterlab-theme-solarized-dark]: Downloading https://files.pythonhosted.org/packages/1f/14/6a64615e00f5fa53a894d94154c182b5df1e793101100c450057a55ece30/jupyterlab_theme_solarized_dark-3.0.0.tar.gz
+[2023-07-13 04:29:48] INFO root fetch - processPackages [moore-itertools]: Downloading https://files.pythonhosted.org/packages/41/2b/5a89041314002d1a8a4d1bb920aa4d8e02bbd317035ac85e9d95b99d75d1/moore-itertools-0.0.3.tar.gz
+[2023-07-13 04:29:48] INFO root fetch - processPackages [slice-db]: executing diffoscope
+[2023-07-13 04:29:48] INFO root fetch - processPackages [slice-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slice-db-5.1.8.tar.gz tmp/slice-db-5.1.9.tar.gz --markdown 20230713/s/slice-db/5.1.8-5.1.9/diff.md --exclude *.pyd
+[2023-07-13 04:29:48] INFO root fetch - processPackages [jupyterlab-theme-solarized-dark]: executing diffoscope
+[2023-07-13 04:29:48] INFO root fetch - processPackages [jupyterlab-theme-solarized-dark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_theme_solarized_dark-2.1.0.tar.gz tmp/jupyterlab_theme_solarized_dark-3.0.0.tar.gz --markdown 20230713/j/jupyterlab-theme-solarized-dark/2.1.0-3.0.0/diff.md --exclude *.pyd
+[2023-07-13 04:29:48] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/4d/93/78d98c0a688a8f0ac29191feea8aa59cc6f63e883d4dd1d8a84f3fe997b8/fgo_api_types-2023.7.9.5.5.49.tar.gz
+[2023-07-13 04:29:48] INFO root fetch - processPackages [agentmemory]: executing diffoscope
+[2023-07-13 04:29:48] INFO root fetch - processPackages [agentmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentmemory-0.1.9.tar.gz tmp/agentmemory-0.2.0.tar.gz --markdown 20230713/a/agentmemory/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-13 04:29:48] INFO root fetch - processPackages [django-amplitude]: Downloading https://files.pythonhosted.org/packages/02/8e/7fdedbe6f6e102ae46cfe02d64cbc94a2e41b9f432daa8d51f16d8117aa5/django_amplitude-0.8.0.tar.gz
+[2023-07-13 04:29:48] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-13 04:29:48] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.2.tar.gz tmp/django-url-tokenizer-0.0.3.tar.gz --markdown 20230713/d/django-url-tokenizer/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-13 04:29:48] INFO root fetch - processPackages [moore-itertools]: executing diffoscope
+[2023-07-13 04:29:48] INFO root fetch - processPackages [moore-itertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moore-itertools-0.0.2.tar.gz tmp/moore-itertools-0.0.3.tar.gz --markdown 20230713/m/moore-itertools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-13 04:29:48] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2023-07-13 04:29:48] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2023.7.7.16.36.40.tar.gz tmp/fgo_api_types-2023.7.9.5.5.49.tar.gz --markdown 20230713/f/fgo-api-types/2023.7.7.16.36.40-2023.7.9.5.5.49/diff.md --exclude *.pyd
+[2023-07-13 04:29:48] INFO root fetch - processPackages [django-amplitude]: executing diffoscope
+[2023-07-13 04:29:48] INFO root fetch - processPackages [django-amplitude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-amplitude-0.7.1.tar.gz tmp/django_amplitude-0.8.0.tar.gz --markdown 20230713/d/django-amplitude/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-07-13 04:29:49] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.1.9.tar.gz]
+[2023-07-13 04:29:49] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.2.0.tar.gz]
+[2023-07-13 04:29:49] INFO root fetch - main [MainThread]: End processing [agentmemory]: success
+[2023-07-13 04:29:49] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.2.tar.gz]
+[2023-07-13 04:29:49] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.3.tar.gz]
+[2023-07-13 04:29:49] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-13 04:29:49] INFO root fetch - processPackages [moore-itertools]: Remove: archive file [/home/abi/fetcher/tmp/moore-itertools-0.0.2.tar.gz]
+[2023-07-13 04:29:49] INFO root fetch - processPackages [moore-itertools]: Remove: archive file [/home/abi/fetcher/tmp/moore-itertools-0.0.3.tar.gz]
+[2023-07-13 04:29:49] INFO root fetch - main [MainThread]: End processing [moore-itertools]: success
+[2023-07-13 04:29:49] INFO root fetch - processPackages [jupyterlab-theme-solarized-dark]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_theme_solarized_dark-2.1.0.tar.gz]
+[2023-07-13 04:29:49] INFO root fetch - processPackages [jupyterlab-theme-solarized-dark]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_theme_solarized_dark-3.0.0.tar.gz]
+[2023-07-13 04:29:49] INFO root fetch - main [MainThread]: End processing [jupyterlab-theme-solarized-dark]: success
+[2023-07-13 04:29:49] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.7.7.16.36.40.tar.gz]
+[2023-07-13 04:29:49] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.7.9.5.5.49.tar.gz]
+[2023-07-13 04:29:49] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2023-07-13 04:29:49] INFO root fetch - processPackages [django-amplitude]: Remove: archive file [/home/abi/fetcher/tmp/django-amplitude-0.7.1.tar.gz]
+[2023-07-13 04:29:49] INFO root fetch - processPackages [django-amplitude]: Remove: archive file [/home/abi/fetcher/tmp/django_amplitude-0.8.0.tar.gz]
+[2023-07-13 04:29:49] INFO root fetch - main [MainThread]: End processing [django-amplitude]: success
+[2023-07-13 04:29:49] INFO root fetch - processPackages [slice-db]: Remove: archive file [/home/abi/fetcher/tmp/slice-db-5.1.8.tar.gz]
+[2023-07-13 04:29:49] INFO root fetch - processPackages [slice-db]: Remove: archive file [/home/abi/fetcher/tmp/slice-db-5.1.9.tar.gz]
+[2023-07-13 04:29:49] INFO root fetch - main [MainThread]: End processing [slice-db]: success
+[2023-07-13 04:29:49] INFO root fetch - main [MainThread]: Store serial: [18869002]
