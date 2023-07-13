@@ -13254,3 +13254,150 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 09:14:11] INFO root fetch - processPackages [pydevd-pycharm]: Remove: archive file [/home/abi/fetcher/tmp/pydevd-pycharm-232.8660.49.tar.gz]
 [2023-07-13 09:14:11] INFO root fetch - main [MainThread]: End processing [pydevd-pycharm]: success
 [2023-07-13 09:14:11] INFO root fetch - main [MainThread]: Store serial: [18871308]
+[2023-07-13 09:19:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18871308]
+[2023-07-13 09:19:22] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-13 09:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cjm-yolox-pytorch
+[2023-07-13 09:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tiskitpy
+[2023-07-13 09:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qufit
+[2023-07-13 09:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openeo-processes-dask
+[2023-07-13 09:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvidia-smi2
+[2023-07-13 09:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-master
+[2023-07-13 09:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qufit
+[2023-07-13 09:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fief-client
+[2023-07-13 09:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: multiremote-fm
+[2023-07-13 09:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: azure-cli-diff-tool
+[2023-07-13 09:19:22] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.82]
+[2023-07-13 09:19:22] INFO root fetch - processPackages [nvidia-smi2]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-13 09:19:22] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230712.15.52.577227] Old Version: [20230711.20.19.799247]
+[2023-07-13 09:19:22] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/6c/c6/b9afa0f1de3d542ddb05c7e71fe392bf8cc5f3a8b287de2492a9644deb0d/cjm-yolox-pytorch-0.0.82.tar.gz
+[2023-07-13 09:19:22] INFO root fetch - processPackages [openeo-processes-dask]: New version: [2023.7.0] Old Version: [2023.5.1]
+[2023-07-13 09:19:22] INFO root fetch - processPackages [fief-client]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-13 09:19:22] INFO root fetch - processPackages [azure-cli-diff-tool]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 09:19:22] WARNING root fetch - processPackages [multiremote-fm]: Skipping, unable to determine old version
+[2023-07-13 09:19:22] INFO root fetch - processPackages [multiremote-fm]: Start processing: spark-rapids-ml
+[2023-07-13 09:19:22] INFO root fetch - main [MainThread]: End processing [multiremote-fm] error
+[2023-07-13 09:19:22] WARNING root fetch - processPackages [tiskitpy]: Skipping, unable to determine old version
+[2023-07-13 09:19:22] INFO root fetch - processPackages [tiskitpy]: Start processing: alibabacloud-iot20180120
+[2023-07-13 09:19:22] INFO root fetch - main [MainThread]: End processing [tiskitpy] error
+[2023-07-13 09:19:22] INFO root fetch - processPackages [qufit]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-13 09:19:22] INFO root fetch - processPackages [qufit]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-13 09:19:22] INFO root fetch - processPackages [nvidia-smi2]: Downloading https://files.pythonhosted.org/packages/81/c0/5e1b8e1cd44c5cf7b8abf887fdc7c638984855aa288e143f1df09e1dd86b/nvidia-smi2-0.0.4.tar.gz
+[2023-07-13 09:19:22] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/32/61/7a1243af725e2a8b37a77b1e549e90ff67dca13c0b8a575f22e388c8bc2a/certora-cli-alpha-master-20230711.20.19.799247.tar.gz
+[2023-07-13 09:19:23] INFO root fetch - processPackages [spark-rapids-ml]: New version: [23.6.0] Old Version: [23.4.0]
+[2023-07-13 09:19:23] INFO root fetch - processPackages [alibabacloud-iot20180120]: New version: [3.1.4] Old Version: [3.1.3]
+[2023-07-13 09:19:23] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37462172>=10485760
+[2023-07-13 09:19:23] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: commonX
+[2023-07-13 09:19:23] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-13 09:19:23] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 09:19:23] INFO root fetch - processPackages [fief-client]: Downloading https://files.pythonhosted.org/packages/f4/7f/78ab7068365e69b783c7a3b4e11a73e4b834b2ff66b1df7c2a0d95cc3a39/fief-client-0.8.0.tar.gz
+[2023-07-13 09:19:23] INFO root fetch - processPackages [azure-cli-diff-tool]: Downloading https://files.pythonhosted.org/packages/7e/d1/aae31ba6b26960d14454421a52eebb6e76a6490a87ae9d6639ac7d47fb89/azure-cli-diff-tool-0.0.1.tar.gz
+[2023-07-13 09:19:23] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/48/26/3346b635a896f4a794f8bf96c76e7c1ba52eddfdbf89069c6b89f423f730/qufit-1.1.8.tar.gz
+[2023-07-13 09:19:23] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/48/26/3346b635a896f4a794f8bf96c76e7c1ba52eddfdbf89069c6b89f423f730/qufit-1.1.8.tar.gz
+[2023-07-13 09:19:23] INFO root fetch - processPackages [openeo-processes-dask]: Downloading https://files.pythonhosted.org/packages/6d/42/409084405f840f0e41ba17f301af38fd93d82ca5344f2bb77a4a7aa00909/openeo_processes_dask-2023.5.1.tar.gz
+[2023-07-13 09:19:23] INFO root fetch - processPackages [nvidia-smi2]: Downloading https://files.pythonhosted.org/packages/0d/3f/11b1918a452bcc6c392a86ecd24f233c3a373e45747d465cb8bb59b26435/nvidia-smi2-0.0.5.tar.gz
+[2023-07-13 09:19:23] INFO root fetch - processPackages [commonX]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-07-13 09:19:23] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 09:19:23] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.82.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.82-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 09:19:23] INFO root fetch - processPackages [spark-rapids-ml]: Downloading https://files.pythonhosted.org/packages/33/8f/ba32514d75cba3474dbebfccf3c6d0dec0f01492a193427cde1246678db1/spark_rapids_ml-23.4.0-38_b251734-py3-none-any.whl
+[2023-07-13 09:19:23] INFO root fetch - processPackages [alibabacloud-iot20180120]: Downloading https://files.pythonhosted.org/packages/c9/5e/3fca1063ff705f42bc9082da62ebcb18078b9488e32ac759a997e9ad7155/alibabacloud_iot20180120-3.1.3.tar.gz
+[2023-07-13 09:19:23] INFO root fetch - processPackages [nvidia-smi2]: executing diffoscope
+[2023-07-13 09:19:23] INFO root fetch - processPackages [nvidia-smi2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-smi2-0.0.4.tar.gz tmp/nvidia-smi2-0.0.5.tar.gz --markdown 20230713/n/nvidia-smi2/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-13 09:19:23] INFO root fetch - processPackages [azure-cli-diff-tool]: Downloading https://files.pythonhosted.org/packages/ee/87/30aca4a3745fd0a754318fbe1174528d6e7245933367ec6f55d776b7cc97/azure-cli-diff-tool-0.0.2.tar.gz
+[2023-07-13 09:19:23] INFO root fetch - processPackages [commonX]: Downloading https://files.pythonhosted.org/packages/75/96/8d4d8565fd0cadb9dcc08897d35660f1863ee7c42a5413cd96ed763415c6/commonX-0.4.9.tar.gz
+[2023-07-13 09:19:23] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/87/39/3d967f4675c26fd1a70df93f23c6afec385d0e325a5ecb715849a65e084f/qufit-1.1.9.tar.gz
+[2023-07-13 09:19:23] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/87/39/3d967f4675c26fd1a70df93f23c6afec385d0e325a5ecb715849a65e084f/qufit-1.1.9.tar.gz
+[2023-07-13 09:19:23] INFO root fetch - processPackages [fief-client]: Downloading https://files.pythonhosted.org/packages/7c/af/e11f2887f51559e6a60ea20794095e44d3457b74d7c463751dbf60806217/fief-client-0.9.0.tar.gz
+[2023-07-13 09:19:23] INFO root fetch - processPackages [openeo-processes-dask]: Downloading https://files.pythonhosted.org/packages/72/11/e2ed1896f9d1afe0986ff742fccea0208b5354877405ea1538aa503825b2/openeo_processes_dask-2023.7.0.tar.gz
+[2023-07-13 09:19:23] INFO root fetch - processPackages [spark-rapids-ml]: Downloading https://files.pythonhosted.org/packages/eb/41/41c529151744eac4cd2a0edc1dfc0d5664c1b8640a753434e5e2c86f8620/spark_rapids_ml-23.6.0-100_04dffdf-py3-none-any.whl
+[2023-07-13 09:19:23] INFO root fetch - processPackages [qufit]: executing diffoscope
+[2023-07-13 09:19:23] INFO root fetch - processPackages [qufit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qufit-1.1.8.tar.gz tmp/qufit-1.1.9.tar.gz --markdown 20230713/q/qufit/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-13 09:19:23] INFO root fetch - processPackages [azure-cli-diff-tool]: executing diffoscope
+[2023-07-13 09:19:23] INFO root fetch - processPackages [azure-cli-diff-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-cli-diff-tool-0.0.1.tar.gz tmp/azure-cli-diff-tool-0.0.2.tar.gz --markdown 20230713/a/azure-cli-diff-tool/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 09:19:23] INFO root fetch - processPackages [alibabacloud-iot20180120]: Downloading https://files.pythonhosted.org/packages/05/66/814877691a06d5b7f5657bfb5f0c8e47483c225ce3ace705ab7ed0d37214/alibabacloud_iot20180120-3.1.4.tar.gz
+[2023-07-13 09:19:23] INFO root fetch - processPackages [qufit]: executing diffoscope
+[2023-07-13 09:19:23] INFO root fetch - processPackages [qufit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qufit-1.1.8.tar.gz tmp/qufit-1.1.9.tar.gz --markdown 20230713/q/qufit/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-13 09:19:24] INFO root fetch - processPackages [fief-client]: executing diffoscope
+[2023-07-13 09:19:24] INFO root fetch - processPackages [fief-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fief-client-0.8.0.tar.gz tmp/fief-client-0.9.0.tar.gz --markdown 20230713/f/fief-client/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-13 09:19:24] INFO root fetch - processPackages [openeo-processes-dask]: executing diffoscope
+[2023-07-13 09:19:24] INFO root fetch - processPackages [openeo-processes-dask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openeo_processes_dask-2023.5.1.tar.gz tmp/openeo_processes_dask-2023.7.0.tar.gz --markdown 20230713/o/openeo-processes-dask/2023.5.1-2023.7.0/diff.md --exclude *.pyd
+[2023-07-13 09:19:24] INFO root fetch - processPackages [spark-rapids-ml]: executing diffoscope
+[2023-07-13 09:19:24] INFO root fetch - processPackages [spark-rapids-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_rapids_ml-23.4.0-38_b251734-py3-none-any.whl.zip tmp/spark_rapids_ml-23.6.0-100_04dffdf-py3-none-any.whl.zip --markdown 20230713/s/spark-rapids-ml/23.4.0-23.6.0/diff.md --exclude *.pyd
+[2023-07-13 09:19:24] INFO root fetch - processPackages [commonX]: Downloading https://files.pythonhosted.org/packages/f0/e4/23ea99004088b040941334b6445f58d201f38c56f393bb370ab98a1be13f/commonX-0.5.0.tar.gz
+[2023-07-13 09:19:24] INFO root fetch - processPackages [alibabacloud-iot20180120]: executing diffoscope
+[2023-07-13 09:19:24] INFO root fetch - processPackages [alibabacloud-iot20180120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_iot20180120-3.1.3.tar.gz tmp/alibabacloud_iot20180120-3.1.4.tar.gz --markdown 20230713/a/alibabacloud-iot20180120/3.1.3-3.1.4/diff.md --exclude *.pyd
+[2023-07-13 09:19:24] INFO root fetch - processPackages [commonX]: executing diffoscope
+[2023-07-13 09:19:24] INFO root fetch - processPackages [commonX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonX-0.4.9.tar.gz tmp/commonX-0.5.0.tar.gz --markdown 20230713/c/commonX/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-07-13 09:19:24] INFO root fetch - processPackages [nvidia-smi2]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-smi2-0.0.4.tar.gz]
+[2023-07-13 09:19:24] INFO root fetch - processPackages [nvidia-smi2]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-smi2-0.0.5.tar.gz]
+[2023-07-13 09:19:24] INFO root fetch - processPackages [nvidia-smi2]: Start processing: PieRakNet
+[2023-07-13 09:19:24] INFO root fetch - main [MainThread]: End processing [nvidia-smi2]: success
+[2023-07-13 09:19:24] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.82.tar.gz]
+[2023-07-13 09:19:24] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 09:19:24] INFO root fetch - processPackages [cjm-yolox-pytorch]: Start processing: oxalis
+[2023-07-13 09:19:24] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 09:19:24] INFO root fetch - processPackages [PieRakNet]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-13 09:19:24] INFO root fetch - processPackages [oxalis]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-07-13 09:19:25] INFO root fetch - processPackages [PieRakNet]: Downloading https://files.pythonhosted.org/packages/fa/ad/b8885e864ca6ec980b65e3d61b8d6606d1f80e7ac2a6a20da19b29612db1/PieRakNet-1.0.3.tar.gz
+[2023-07-13 09:19:25] INFO root fetch - processPackages [oxalis]: Downloading https://files.pythonhosted.org/packages/80/9a/7483837acfb766a60be04fee50be0ecdef4a0caf5a4734007eecb74ecc10/oxalis-0.6.4.tar.gz
+[2023-07-13 09:19:25] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.8.tar.gz]
+[2023-07-13 09:19:25] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.9.tar.gz]
+[2023-07-13 09:19:25] INFO root fetch - processPackages [qufit]: Start processing: actfw-core
+[2023-07-13 09:19:25] INFO root fetch - main [MainThread]: End processing [qufit]: success
+[2023-07-13 09:19:25] INFO root fetch - processPackages [azure-cli-diff-tool]: Remove: archive file [/home/abi/fetcher/tmp/azure-cli-diff-tool-0.0.1.tar.gz]
+[2023-07-13 09:19:25] INFO root fetch - processPackages [azure-cli-diff-tool]: Remove: archive file [/home/abi/fetcher/tmp/azure-cli-diff-tool-0.0.2.tar.gz]
+[2023-07-13 09:19:25] INFO root fetch - processPackages [azure-cli-diff-tool]: Start processing: explainable-exceptions
+[2023-07-13 09:19:25] INFO root fetch - main [MainThread]: End processing [azure-cli-diff-tool]: success
+[2023-07-13 09:19:25] INFO root fetch - processPackages [qufit]: Start processing: pinterest-crawler
+[2023-07-13 09:19:25] INFO root fetch - main [MainThread]: End processing [qufit]: success
+[2023-07-13 09:19:25] INFO root fetch - processPackages [PieRakNet]: Downloading https://files.pythonhosted.org/packages/02/a7/01241d71e4a544df9ba966db93d432e75f1721805af69feb7050f1b39fbb/PieRakNet-1.0.4.tar.gz
+[2023-07-13 09:19:25] INFO root fetch - processPackages [explainable-exceptions]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-13 09:19:25] INFO root fetch - processPackages [fief-client]: Remove: archive file [/home/abi/fetcher/tmp/fief-client-0.8.0.tar.gz]
+[2023-07-13 09:19:25] INFO root fetch - processPackages [fief-client]: Remove: archive file [/home/abi/fetcher/tmp/fief-client-0.9.0.tar.gz]
+[2023-07-13 09:19:25] INFO root fetch - main [MainThread]: End processing [fief-client]: success
+[2023-07-13 09:19:25] INFO root fetch - processPackages [pinterest-crawler]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-13 09:19:25] INFO root fetch - processPackages [oxalis]: Downloading https://files.pythonhosted.org/packages/4a/cd/79582018f50a0718b95bf3cb81d3079a7898eb4141b27e70123ec968ed3e/oxalis-0.6.5.tar.gz
+[2023-07-13 09:19:25] INFO root fetch - processPackages [actfw-core]: New version: [2.2.1] Old Version: [2.2.0a1]
+[2023-07-13 09:19:25] INFO root fetch - processPackages [explainable-exceptions]: Downloading https://files.pythonhosted.org/packages/30/62/0eedfcda4053dd347a72b4888e8edb8fe54e2cf7681db43105190ccaae84/explainable-exceptions-0.0.2.tar.gz
+[2023-07-13 09:19:25] INFO root fetch - processPackages [spark-rapids-ml]: Remove: archive file [/home/abi/fetcher/tmp/spark_rapids_ml-23.4.0-38_b251734-py3-none-any.whl.zip]
+[2023-07-13 09:19:25] INFO root fetch - processPackages [spark-rapids-ml]: Remove: archive file [/home/abi/fetcher/tmp/spark_rapids_ml-23.6.0-100_04dffdf-py3-none-any.whl.zip]
+[2023-07-13 09:19:25] INFO root fetch - main [MainThread]: End processing [spark-rapids-ml]: success
+[2023-07-13 09:19:25] INFO root fetch - processPackages [pinterest-crawler]: Downloading https://files.pythonhosted.org/packages/eb/d2/76ffe90eea7334794a7e76fd2febaa200f900ad8da247c8eee98bbb7bab0/pinterest-crawler-0.1.1.tar.gz
+[2023-07-13 09:19:25] INFO root fetch - processPackages [PieRakNet]: executing diffoscope
+[2023-07-13 09:19:25] INFO root fetch - processPackages [PieRakNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PieRakNet-1.0.3.tar.gz tmp/PieRakNet-1.0.4.tar.gz --markdown 20230713/P/PieRakNet/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-13 09:19:25] INFO root fetch - processPackages [commonX]: Remove: archive file [/home/abi/fetcher/tmp/commonX-0.4.9.tar.gz]
+[2023-07-13 09:19:25] INFO root fetch - processPackages [commonX]: Remove: archive file [/home/abi/fetcher/tmp/commonX-0.5.0.tar.gz]
+[2023-07-13 09:19:25] INFO root fetch - main [MainThread]: End processing [commonX]: success
+[2023-07-13 09:19:25] INFO root fetch - processPackages [oxalis]: executing diffoscope
+[2023-07-13 09:19:25] INFO root fetch - processPackages [oxalis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxalis-0.6.4.tar.gz tmp/oxalis-0.6.5.tar.gz --markdown 20230713/o/oxalis/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-07-13 09:19:25] INFO root fetch - processPackages [actfw-core]: Downloading https://files.pythonhosted.org/packages/36/4c/2edc099d2223381b251a055f41189a220073a45d513aaf8208fb9a324f0c/actfw-core-2.2.0a1.tar.gz
+[2023-07-13 09:19:25] INFO root fetch - processPackages [explainable-exceptions]: Downloading https://files.pythonhosted.org/packages/6e/78/5a1c0c2256d5963e5432e199b5e820a70acd1d5568d7333308c51668c9d7/explainable-exceptions-0.0.3.tar.gz
+[2023-07-13 09:19:25] INFO root fetch - processPackages [pinterest-crawler]: Downloading https://files.pythonhosted.org/packages/f8/ef/48e3b9d65665b548b593a4d263ad961ee386d19aa7d547159c0c6f4536b2/pinterest-crawler-0.1.2.tar.gz
+[2023-07-13 09:19:26] INFO root fetch - processPackages [explainable-exceptions]: executing diffoscope
+[2023-07-13 09:19:26] INFO root fetch - processPackages [explainable-exceptions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/explainable-exceptions-0.0.2.tar.gz tmp/explainable-exceptions-0.0.3.tar.gz --markdown 20230713/e/explainable-exceptions/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-13 09:19:26] INFO root fetch - processPackages [pinterest-crawler]: executing diffoscope
+[2023-07-13 09:19:26] INFO root fetch - processPackages [pinterest-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinterest-crawler-0.1.1.tar.gz tmp/pinterest-crawler-0.1.2.tar.gz --markdown 20230713/p/pinterest-crawler/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-13 09:19:26] INFO root fetch - processPackages [actfw-core]: Downloading https://files.pythonhosted.org/packages/fd/1e/792e8114e2c870cdac1d117c998e5cf684527724af6371f702cfb3f5bd17/actfw_core-2.2.1.tar.gz
+[2023-07-13 09:19:26] INFO root fetch - processPackages [openeo-processes-dask]: Remove: archive file [/home/abi/fetcher/tmp/openeo_processes_dask-2023.5.1.tar.gz]
+[2023-07-13 09:19:26] INFO root fetch - processPackages [openeo-processes-dask]: Remove: archive file [/home/abi/fetcher/tmp/openeo_processes_dask-2023.7.0.tar.gz]
+[2023-07-13 09:19:26] INFO root fetch - main [MainThread]: End processing [openeo-processes-dask]: success
+[2023-07-13 09:19:26] INFO root fetch - processPackages [actfw-core]: executing diffoscope
+[2023-07-13 09:19:26] INFO root fetch - processPackages [actfw-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actfw-core-2.2.0a1.tar.gz tmp/actfw_core-2.2.1.tar.gz --markdown 20230713/a/actfw-core/2.2.0a1-2.2.1/diff.md --exclude *.pyd
+[2023-07-13 09:19:26] INFO root fetch - processPackages [PieRakNet]: Remove: archive file [/home/abi/fetcher/tmp/PieRakNet-1.0.3.tar.gz]
+[2023-07-13 09:19:26] INFO root fetch - processPackages [PieRakNet]: Remove: archive file [/home/abi/fetcher/tmp/PieRakNet-1.0.4.tar.gz]
+[2023-07-13 09:19:26] INFO root fetch - main [MainThread]: End processing [PieRakNet]: success
+[2023-07-13 09:19:26] INFO root fetch - processPackages [oxalis]: Remove: archive file [/home/abi/fetcher/tmp/oxalis-0.6.4.tar.gz]
+[2023-07-13 09:19:26] INFO root fetch - processPackages [oxalis]: Remove: archive file [/home/abi/fetcher/tmp/oxalis-0.6.5.tar.gz]
+[2023-07-13 09:19:26] INFO root fetch - main [MainThread]: End processing [oxalis]: success
+[2023-07-13 09:19:27] INFO root fetch - processPackages [explainable-exceptions]: Remove: archive file [/home/abi/fetcher/tmp/explainable-exceptions-0.0.2.tar.gz]
+[2023-07-13 09:19:27] INFO root fetch - processPackages [explainable-exceptions]: Remove: archive file [/home/abi/fetcher/tmp/explainable-exceptions-0.0.3.tar.gz]
+[2023-07-13 09:19:27] INFO root fetch - main [MainThread]: End processing [explainable-exceptions]: success
+[2023-07-13 09:19:27] INFO root fetch - processPackages [pinterest-crawler]: Remove: archive file [/home/abi/fetcher/tmp/pinterest-crawler-0.1.1.tar.gz]
+[2023-07-13 09:19:27] INFO root fetch - processPackages [pinterest-crawler]: Remove: archive file [/home/abi/fetcher/tmp/pinterest-crawler-0.1.2.tar.gz]
+[2023-07-13 09:19:27] INFO root fetch - main [MainThread]: End processing [pinterest-crawler]: success
+[2023-07-13 09:19:27] INFO root fetch - processPackages [actfw-core]: Remove: archive file [/home/abi/fetcher/tmp/actfw-core-2.2.0a1.tar.gz]
+[2023-07-13 09:19:27] INFO root fetch - processPackages [actfw-core]: Remove: archive file [/home/abi/fetcher/tmp/actfw_core-2.2.1.tar.gz]
+[2023-07-13 09:19:27] INFO root fetch - main [MainThread]: End processing [actfw-core]: success
+[2023-07-13 09:19:27] INFO root fetch - processPackages [alibabacloud-iot20180120]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_iot20180120-3.1.3.tar.gz]
+[2023-07-13 09:19:27] INFO root fetch - processPackages [alibabacloud-iot20180120]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_iot20180120-3.1.4.tar.gz]
+[2023-07-13 09:19:27] INFO root fetch - main [MainThread]: End processing [alibabacloud-iot20180120]: success
+[2023-07-13 09:19:27] INFO root fetch - main [MainThread]: Store serial: [18871372]
