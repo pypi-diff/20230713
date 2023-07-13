@@ -6069,3 +6069,63 @@
 [2023-07-13 03:35:32] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
 [2023-07-13 03:35:32] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-07-13 03:35:32] INFO root fetch - main [MainThread]: Store serial: [18868719]
+[2023-07-13 03:40:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18868719]
+[2023-07-13 03:40:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-13 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipycalc
+[2023-07-13 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-stdlib
+[2023-07-13 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-numpy
+[2023-07-13 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-pandas
+[2023-07-13 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roboto-sdk
+[2023-07-13 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: limberer
+[2023-07-13 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mwispy
+[2023-07-13 03:40:41] INFO root fetch - processPackages [ipycalc]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-13 03:40:41] WARNING root fetch - processPackages [mwispy]: Skipping, unable to determine old version
+[2023-07-13 03:40:41] INFO root fetch - main [MainThread]: End processing [mwispy] error
+[2023-07-13 03:40:41] INFO root fetch - processPackages [limberer]: New version: [0.4] Old Version: [0.3.4]
+[2023-07-13 03:40:41] INFO root fetch - processPackages [roboto-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-13 03:40:41] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-13 03:40:41] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-13 03:40:41] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-13 03:40:41] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-13 03:40:41] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-13 03:40:41] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-13 03:40:41] INFO root fetch - processPackages [ipycalc]: Downloading https://files.pythonhosted.org/packages/d5/33/d8f4b93f1537f75916df2b9f5c830a5adc3c1baafdf1d1d97a4fe197f145/ipycalc-0.0.7.tar.gz
+[2023-07-13 03:40:42] INFO root fetch - processPackages [roboto-sdk]: Downloading https://files.pythonhosted.org/packages/9d/af/a41be8b4bc254e0ebfbcd96a14c4801241b00b3754a90e56d889ff864e3a/roboto_sdk-0.1.8.tar.gz
+[2023-07-13 03:40:42] INFO root fetch - processPackages [limberer]: Downloading https://files.pythonhosted.org/packages/ec/17/80641567a80046c994b98862b09e79caaae62bc86c5d9e1a6178dc55461a/limberer-0.3.4.tar.gz
+[2023-07-13 03:40:42] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-13 03:40:42] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-13 03:40:42] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-13 03:40:42] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-13 03:40:42] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230713/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-13 03:40:42] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-13 03:40:42] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230713/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-13 03:40:42] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-13 03:40:42] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230713/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-13 03:40:42] INFO root fetch - processPackages [ipycalc]: Downloading https://files.pythonhosted.org/packages/85/9a/29f54fdf1b089191c928ccd1d39fcd285666d82deffa4e00ee9266672cd2/ipycalc-0.0.8.tar.gz
+[2023-07-13 03:40:42] INFO root fetch - processPackages [roboto-sdk]: Downloading https://files.pythonhosted.org/packages/3a/5c/bebb4df29282a91a6a7ad9eea90b871c71bc558db2cc6e31cc3d59d44154/roboto_sdk-0.1.9.tar.gz
+[2023-07-13 03:40:42] INFO root fetch - processPackages [limberer]: Downloading https://files.pythonhosted.org/packages/03/1d/0af34e84cbeb7550105b19057aaebb3ef8d85081dce368a026baf23febe4/limberer-0.4.tar.gz
+[2023-07-13 03:40:42] INFO root fetch - processPackages [ipycalc]: executing diffoscope
+[2023-07-13 03:40:42] INFO root fetch - processPackages [ipycalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipycalc-0.0.7.tar.gz tmp/ipycalc-0.0.8.tar.gz --markdown 20230713/i/ipycalc/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-13 03:40:42] INFO root fetch - processPackages [roboto-sdk]: executing diffoscope
+[2023-07-13 03:40:42] INFO root fetch - processPackages [roboto-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboto_sdk-0.1.8.tar.gz tmp/roboto_sdk-0.1.9.tar.gz --markdown 20230713/r/roboto-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-13 03:40:42] INFO root fetch - processPackages [limberer]: executing diffoscope
+[2023-07-13 03:40:42] INFO root fetch - processPackages [limberer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limberer-0.3.4.tar.gz tmp/limberer-0.4.tar.gz --markdown 20230713/l/limberer/0.3.4-0.4/diff.md --exclude *.pyd
+[2023-07-13 03:40:43] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-13 03:40:43] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-13 03:40:43] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-13 03:40:43] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-13 03:40:43] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-13 03:40:43] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-13 03:40:43] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-13 03:40:43] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-13 03:40:43] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-13 03:40:43] INFO root fetch - processPackages [ipycalc]: Remove: archive file [/home/abi/fetcher/tmp/ipycalc-0.0.7.tar.gz]
+[2023-07-13 03:40:43] INFO root fetch - processPackages [ipycalc]: Remove: archive file [/home/abi/fetcher/tmp/ipycalc-0.0.8.tar.gz]
+[2023-07-13 03:40:43] INFO root fetch - main [MainThread]: End processing [ipycalc]: success
+[2023-07-13 03:40:43] INFO root fetch - processPackages [limberer]: Remove: archive file [/home/abi/fetcher/tmp/limberer-0.3.4.tar.gz]
+[2023-07-13 03:40:43] INFO root fetch - processPackages [limberer]: Remove: archive file [/home/abi/fetcher/tmp/limberer-0.4.tar.gz]
+[2023-07-13 03:40:43] INFO root fetch - main [MainThread]: End processing [limberer]: success
+[2023-07-13 03:40:44] INFO root fetch - processPackages [roboto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/roboto_sdk-0.1.8.tar.gz]
+[2023-07-13 03:40:44] INFO root fetch - processPackages [roboto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/roboto_sdk-0.1.9.tar.gz]
+[2023-07-13 03:40:44] INFO root fetch - main [MainThread]: End processing [roboto-sdk]: success
+[2023-07-13 03:40:44] INFO root fetch - main [MainThread]: Store serial: [18868743]
