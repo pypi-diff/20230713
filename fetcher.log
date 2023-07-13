@@ -9616,3 +9616,124 @@
 [2023-07-13 06:44:35] INFO root fetch - processPackages [odoo8-addon-service-desk]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_service_desk-8.0.1.1.0.99.dev9-py2-none-any.whl.zip]
 [2023-07-13 06:44:35] INFO root fetch - main [MainThread]: End processing [odoo8-addon-service-desk]: success
 [2023-07-13 06:44:35] INFO root fetch - main [MainThread]: Store serial: [18869914]
+[2023-07-13 06:49:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18869914]
+[2023-07-13 06:49:44] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-13 06:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eyeball-pp
+[2023-07-13 06:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo8-addon-service-desk-issue
+[2023-07-13 06:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cjm-yolox-pytorch
+[2023-07-13 06:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dummy-url-wrapper
+[2023-07-13 06:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-project-stock
+[2023-07-13 06:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-project-stock
+[2023-07-13 06:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: metaphor-python
+[2023-07-13 06:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-project-stock
+[2023-07-13 06:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pptx-tools
+[2023-07-13 06:49:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lectric-sdk
+[2023-07-13 06:49:44] INFO root fetch - processPackages [odoo8-addon-service-desk-issue]: New version: [8.0.1.1.0.99.dev9] Old Version: [8.0.1.1.0.99.dev8]
+[2023-07-13 06:49:44] INFO root fetch - processPackages [odoo-addon-project-stock]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.7]
+[2023-07-13 06:49:44] INFO root fetch - processPackages [lectric-sdk]: New version: [0.0.9] Old Version: [0.0.6a0]
+[2023-07-13 06:49:44] INFO root fetch - processPackages [eyeball-pp]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 06:49:44] INFO root fetch - processPackages [odoo-addon-project-stock]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.7]
+[2023-07-13 06:49:44] INFO root fetch - processPackages [dummy-url-wrapper]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-13 06:49:44] INFO root fetch - processPackages [odoo14-addon-project-stock]: New version: [14.0.1.1.5.dev4] Old Version: [14.0.1.1.5.dev3]
+[2023-07-13 06:49:44] INFO root fetch - processPackages [pptx-tools]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-13 06:49:44] INFO root fetch - processPackages [metaphor-python]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-13 06:49:44] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 06:49:44] INFO root fetch - processPackages [dummy-url-wrapper]: Downloading https://files.pythonhosted.org/packages/3a/b2/e61200b5b927789d13136a7e5e0f5568c18dc9bece52ba3b98a0f3229f4a/dummy_url_wrapper-0.0.5.tar.gz
+[2023-07-13 06:49:44] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-13 06:49:44] INFO root fetch - processPackages [pptx-tools]: Downloading https://files.pythonhosted.org/packages/78/35/c83888fda7741ea975ce5c356033e7f039814003006d1bca96b4757b9a51/pptx-tools-0.1.4.tar.gz
+[2023-07-13 06:49:44] INFO root fetch - processPackages [odoo8-addon-service-desk-issue]: Downloading https://files.pythonhosted.org/packages/19/a1/4e21819ed69bef62009e2cb6ff1957f584d139354101c97e4cbb7da33977/odoo8_addon_service_desk_issue-8.0.1.1.0.99.dev8-py2-none-any.whl
+[2023-07-13 06:49:44] INFO root fetch - processPackages [odoo-addon-project-stock]: Downloading https://files.pythonhosted.org/packages/32/65/b53de68bd901694d43d131ff6c562f94d76adc078c7ab7e83b218ef52b19/odoo_addon_project_stock-16.0.1.0.0.7-py3-none-any.whl
+[2023-07-13 06:49:44] INFO root fetch - processPackages [odoo-addon-project-stock]: Downloading https://files.pythonhosted.org/packages/32/65/b53de68bd901694d43d131ff6c562f94d76adc078c7ab7e83b218ef52b19/odoo_addon_project_stock-16.0.1.0.0.7-py3-none-any.whl
+[2023-07-13 06:49:44] INFO root fetch - processPackages [lectric-sdk]: Downloading https://files.pythonhosted.org/packages/43/64/6272ab8629bdcb6480b2746e6e3bb7146ea176e827b6de3de5867b0b94d6/lectric-sdk-0.0.6a0.tar.gz
+[2023-07-13 06:49:44] INFO root fetch - processPackages [eyeball-pp]: Downloading https://files.pythonhosted.org/packages/5f/6e/58b02de065e2eddff1265abb50ec46d8d6dfd883ffa6c91e08d5813961c4/eyeball_pp-0.0.1.tar.gz
+[2023-07-13 06:49:44] INFO root fetch - processPackages [odoo14-addon-project-stock]: Downloading https://files.pythonhosted.org/packages/2a/e8/1b2ed2ae1648cd8687c7d552ee41e8eb28ed46efabdabbbcc9b617ecc570/odoo14_addon_project_stock-14.0.1.1.5.dev3-py3-none-any.whl
+[2023-07-13 06:49:45] INFO root fetch - processPackages [metaphor-python]: Downloading https://files.pythonhosted.org/packages/8f/e7/795e76369c68e5ba6ba1a5ae901ddc4a0e1f4cefad07d756f59bc4e922b8/metaphor_python-0.1.3-py3-none-any.whl
+[2023-07-13 06:49:45] INFO root fetch - processPackages [dummy-url-wrapper]: Downloading https://files.pythonhosted.org/packages/89/c6/f00ef4b320dc34339b9592a606c6a620b5a99754302bd9ab05dbfeb4bdd6/dummy_url_wrapper-0.0.6.tar.gz
+[2023-07-13 06:49:45] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 06:49:45] INFO root fetch - processPackages [pptx-tools]: Downloading https://files.pythonhosted.org/packages/a7/52/5cb961b21bef55bf9ea68239eaa74ed3f78b1e8f2cb1b23a6df6505ee068/pptx-tools-0.1.5.tar.gz
+[2023-07-13 06:49:45] INFO root fetch - processPackages [dummy-url-wrapper]: executing diffoscope
+[2023-07-13 06:49:45] INFO root fetch - processPackages [dummy-url-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dummy_url_wrapper-0.0.5.tar.gz tmp/dummy_url_wrapper-0.0.6.tar.gz --markdown 20230713/d/dummy-url-wrapper/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-13 06:49:45] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 06:49:45] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 06:49:45] INFO root fetch - processPackages [eyeball-pp]: Downloading https://files.pythonhosted.org/packages/25/94/4026b843a0ef67de29275b8f031a8715ebe8e97bc33873d02325a38aff38/eyeball_pp-0.0.2.tar.gz
+[2023-07-13 06:49:45] INFO root fetch - processPackages [odoo14-addon-project-stock]: Downloading https://files.pythonhosted.org/packages/83/ee/f57d33962c9f205f8d2198b2d53a6a386de395322bd4fb3925a13ed10dc3/odoo14_addon_project_stock-14.0.1.1.5.dev4-py3-none-any.whl
+[2023-07-13 06:49:45] INFO root fetch - processPackages [lectric-sdk]: Downloading https://files.pythonhosted.org/packages/7d/f5/c957a796a1873e1f7870cd3cdfbba66a8159c62adb8e5785cb5d9b2dfef0/lectric-sdk-0.0.9.tar.gz
+[2023-07-13 06:49:45] INFO root fetch - processPackages [metaphor-python]: Downloading https://files.pythonhosted.org/packages/9e/91/9cc1c4031ad4775453e6fc7f4e8949158a5f220eba2f36b49536be93d250/metaphor-python-0.1.4.tar.gz
+[2023-07-13 06:49:45] INFO root fetch - processPackages [odoo-addon-project-stock]: Downloading https://files.pythonhosted.org/packages/4c/10/88ec244822f452bd89812c5e54804f2d631a7e6a6f0710e4451c8828413c/odoo_addon_project_stock-16.0.1.0.0.9-py3-none-any.whl
+[2023-07-13 06:49:45] INFO root fetch - processPackages [odoo8-addon-service-desk-issue]: Downloading https://files.pythonhosted.org/packages/37/49/b082e0f1b3541d5f0f8c20821a284835a9474556c18b77cfb7e7e78b807a/odoo8_addon_service_desk_issue-8.0.1.1.0.99.dev9-py2-none-any.whl
+[2023-07-13 06:49:45] INFO root fetch - processPackages [odoo-addon-project-stock]: Downloading https://files.pythonhosted.org/packages/4c/10/88ec244822f452bd89812c5e54804f2d631a7e6a6f0710e4451c8828413c/odoo_addon_project_stock-16.0.1.0.0.9-py3-none-any.whl
+[2023-07-13 06:49:45] INFO root fetch - processPackages [pptx-tools]: executing diffoscope
+[2023-07-13 06:49:45] INFO root fetch - processPackages [pptx-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pptx-tools-0.1.4.tar.gz tmp/pptx-tools-0.1.5.tar.gz --markdown 20230713/p/pptx-tools/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-13 06:49:45] INFO root fetch - processPackages [eyeball-pp]: executing diffoscope
+[2023-07-13 06:49:45] INFO root fetch - processPackages [eyeball-pp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyeball_pp-0.0.1.tar.gz tmp/eyeball_pp-0.0.2.tar.gz --markdown 20230713/e/eyeball-pp/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 06:49:45] INFO root fetch - processPackages [odoo14-addon-project-stock]: executing diffoscope
+[2023-07-13 06:49:45] INFO root fetch - processPackages [odoo14-addon-project-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_project_stock-14.0.1.1.5.dev3-py3-none-any.whl.zip tmp/odoo14_addon_project_stock-14.0.1.1.5.dev4-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-project-stock/14.0.1.1.5.dev3-14.0.1.1.5.dev4/diff.md --exclude *.pyd
+[2023-07-13 06:49:45] INFO root fetch - processPackages [metaphor-python]: executing diffoscope
+[2023-07-13 06:49:45] INFO root fetch - processPackages [metaphor-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor_python-0.1.3-py3-none-any.whl.zip tmp/metaphor-python-0.1.4.tar.gz --markdown 20230713/m/metaphor-python/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-13 06:49:45] INFO root fetch - processPackages [lectric-sdk]: executing diffoscope
+[2023-07-13 06:49:45] INFO root fetch - processPackages [lectric-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lectric-sdk-0.0.6a0.tar.gz tmp/lectric-sdk-0.0.9.tar.gz --markdown 20230713/l/lectric-sdk/0.0.6a0-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 06:49:45] INFO root fetch - processPackages [odoo8-addon-service-desk-issue]: executing diffoscope
+[2023-07-13 06:49:45] INFO root fetch - processPackages [odoo8-addon-service-desk-issue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_service_desk_issue-8.0.1.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_service_desk_issue-8.0.1.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230713/o/odoo8-addon-service-desk-issue/8.0.1.1.0.99.dev8-8.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-13 06:49:45] INFO root fetch - processPackages [odoo-addon-project-stock]: executing diffoscope
+[2023-07-13 06:49:45] INFO root fetch - processPackages [odoo-addon-project-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_stock-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_project_stock-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-project-stock/16.0.1.0.0.7-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-07-13 06:49:45] INFO root fetch - processPackages [odoo-addon-project-stock]: executing diffoscope
+[2023-07-13 06:49:45] INFO root fetch - processPackages [odoo-addon-project-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_stock-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_project_stock-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-project-stock/16.0.1.0.0.7-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-07-13 06:49:46] INFO root fetch - processPackages [dummy-url-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/dummy_url_wrapper-0.0.5.tar.gz]
+[2023-07-13 06:49:46] INFO root fetch - processPackages [dummy-url-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/dummy_url_wrapper-0.0.6.tar.gz]
+[2023-07-13 06:49:46] INFO root fetch - processPackages [dummy-url-wrapper]: Start processing: django-url-tokenizer
+[2023-07-13 06:49:46] INFO root fetch - main [MainThread]: End processing [dummy-url-wrapper]: success
+[2023-07-13 06:49:46] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-13 06:49:46] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-13 06:49:46] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 06:49:46] INFO root fetch - processPackages [cjm-yolox-pytorch]: Start processing: quantplay
+[2023-07-13 06:49:46] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 06:49:46] INFO root fetch - processPackages [quantplay]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-13 06:49:46] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/66/5c/8c8289e4b56ced26f0ef05c03fbe3e3f77d0051a8842975e0a0484f4c34d/django-url-tokenizer-0.0.5.tar.gz
+[2023-07-13 06:49:47] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/45/df/9dafdbe1d951b59dcb7dc8f02188b232f56f79298a06892f0e603becc389/quantplay-1.3.8.tar.gz
+[2023-07-13 06:49:47] INFO root fetch - processPackages [pptx-tools]: Remove: archive file [/home/abi/fetcher/tmp/pptx-tools-0.1.4.tar.gz]
+[2023-07-13 06:49:47] INFO root fetch - processPackages [pptx-tools]: Remove: archive file [/home/abi/fetcher/tmp/pptx-tools-0.1.5.tar.gz]
+[2023-07-13 06:49:47] INFO root fetch - processPackages [pptx-tools]: Start processing: piperider
+[2023-07-13 06:49:47] INFO root fetch - main [MainThread]: End processing [pptx-tools]: success
+[2023-07-13 06:49:47] INFO root fetch - processPackages [eyeball-pp]: Remove: archive file [/home/abi/fetcher/tmp/eyeball_pp-0.0.1.tar.gz]
+[2023-07-13 06:49:47] INFO root fetch - processPackages [eyeball-pp]: Remove: archive file [/home/abi/fetcher/tmp/eyeball_pp-0.0.2.tar.gz]
+[2023-07-13 06:49:47] INFO root fetch - processPackages [eyeball-pp]: Start processing: LangChainAgentFactory
+[2023-07-13 06:49:47] INFO root fetch - main [MainThread]: End processing [eyeball-pp]: success
+[2023-07-13 06:49:47] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/ee/a5/18caaa36bc077cbd964b78406eed5d1840456172da7cdd1b6c18be824d06/quantplay-1.3.9.tar.gz
+[2023-07-13 06:49:47] INFO root fetch - processPackages [odoo14-addon-project-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_stock-14.0.1.1.5.dev3-py3-none-any.whl.zip]
+[2023-07-13 06:49:47] INFO root fetch - processPackages [odoo14-addon-project-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_stock-14.0.1.1.5.dev4-py3-none-any.whl.zip]
+[2023-07-13 06:49:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-stock]: success
+[2023-07-13 06:49:47] INFO root fetch - processPackages [metaphor-python]: Remove: archive file [/home/abi/fetcher/tmp/metaphor_python-0.1.3-py3-none-any.whl.zip]
+[2023-07-13 06:49:47] INFO root fetch - processPackages [metaphor-python]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-python-0.1.4.tar.gz]
+[2023-07-13 06:49:47] INFO root fetch - main [MainThread]: End processing [metaphor-python]: success
+[2023-07-13 06:49:47] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/95/a6/31c4eb78bf12a7e219651861eebc0d9dd8a17803f8f83da618f9e0e41913/django-url-tokenizer-0.0.6.tar.gz
+[2023-07-13 06:49:47] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-07-13 06:49:47] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-07-13 06:49:47] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.3.8.tar.gz tmp/quantplay-1.3.9.tar.gz --markdown 20230713/q/quantplay/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-13 06:49:47] WARNING root fetch - processPackages [LangChainAgentFactory]: Skipping, unable to determine old version
+[2023-07-13 06:49:47] INFO root fetch - main [MainThread]: End processing [LangChainAgentFactory] error
+[2023-07-13 06:49:47] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-13 06:49:47] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.5.tar.gz tmp/django-url-tokenizer-0.0.6.tar.gz --markdown 20230713/d/django-url-tokenizer/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-13 06:49:47] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/a4/50/e24b00f8c9eee6add2d234812268358dd31efb1c7692b89e4f2abcf53b3a/piperider-0.9.0.tar.gz
+[2023-07-13 06:49:47] INFO root fetch - processPackages [lectric-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lectric-sdk-0.0.6a0.tar.gz]
+[2023-07-13 06:49:47] INFO root fetch - processPackages [lectric-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lectric-sdk-0.0.9.tar.gz]
+[2023-07-13 06:49:47] INFO root fetch - main [MainThread]: End processing [lectric-sdk]: success
+[2023-07-13 06:49:47] INFO root fetch - processPackages [odoo8-addon-service-desk-issue]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_service_desk_issue-8.0.1.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-13 06:49:47] INFO root fetch - processPackages [odoo8-addon-service-desk-issue]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_service_desk_issue-8.0.1.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-07-13 06:49:47] INFO root fetch - main [MainThread]: End processing [odoo8-addon-service-desk-issue]: success
+[2023-07-13 06:49:47] INFO root fetch - processPackages [odoo-addon-project-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_stock-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-07-13 06:49:47] INFO root fetch - processPackages [odoo-addon-project-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_stock-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-13 06:49:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-stock]: success
+[2023-07-13 06:49:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-stock]: success
+[2023-07-13 06:49:48] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.5.tar.gz]
+[2023-07-13 06:49:48] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.6.tar.gz]
+[2023-07-13 06:49:48] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-13 06:49:48] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.8.tar.gz]
+[2023-07-13 06:49:48] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.9.tar.gz]
+[2023-07-13 06:49:48] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-07-13 06:49:53] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/7a/f9/9cc8461c7b00069da016c58db04f6c975e2adf28d9cbd443a882dd7396de/piperider-0.9.0rc1.tar.gz
+[2023-07-13 06:49:54] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-07-13 06:49:54] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230713/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-07-13 06:49:56] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0.tar.gz]
+[2023-07-13 06:49:56] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0rc1.tar.gz]
+[2023-07-13 06:49:56] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-07-13 06:49:56] INFO root fetch - main [MainThread]: Store serial: [18869956]
