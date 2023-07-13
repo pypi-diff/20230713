@@ -19796,3 +19796,82 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 12:52:19] INFO root fetch - processPackages [chainfury-server]: Remove: archive file [/home/abi/fetcher/tmp/chainfury_server-1.0.0.tar.gz]
 [2023-07-13 12:52:19] INFO root fetch - main [MainThread]: End processing [chainfury-server]: success
 [2023-07-13 12:52:19] INFO root fetch - main [MainThread]: Store serial: [18873800]
+[2023-07-13 12:57:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18873800]
+[2023-07-13 12:57:35] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-13 12:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ramodels
+[2023-07-13 12:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imerit-ango
+[2023-07-13 12:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imerit-ango
+[2023-07-13 12:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphinx-code-tabs
+[2023-07-13 12:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: helios-rl
+[2023-07-13 12:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fablablib-python
+[2023-07-13 12:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: limberer
+[2023-07-13 12:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opsgeniecli
+[2023-07-13 12:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sts-ml-card-component
+[2023-07-13 12:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kiara-plugin.service
+[2023-07-13 12:57:35] INFO root fetch - processPackages [imerit-ango]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-13 12:57:35] ERROR root fetch - processPackages [fablablib-python]: Unable to get metadata: No such project 'fablablib-python'
+[2023-07-13 12:57:35] INFO root fetch - main [MainThread]: End processing [fablablib-python] error
+[2023-07-13 12:57:35] INFO root fetch - processPackages [helios-rl]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 12:57:35] WARNING root fetch - processPackages [sts-ml-card-component]: Skipping, unable to determine old version
+[2023-07-13 12:57:35] INFO root fetch - main [MainThread]: End processing [sts-ml-card-component] error
+[2023-07-13 12:57:35] INFO root fetch - processPackages [imerit-ango]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-13 12:57:35] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-13 12:57:35] INFO root fetch - processPackages [limberer]: New version: [0.5] Old Version: [0.4.2]
+[2023-07-13 12:57:35] INFO root fetch - processPackages [sphinx-code-tabs]: New version: [0.5.5] Old Version: [0.5.3]
+[2023-07-13 12:57:35] INFO root fetch - processPackages [opsgeniecli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-13 12:57:35] INFO root fetch - processPackages [kiara-plugin.service]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-13 12:57:35] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/83/fa/da9386a90a923f728929d0cc04f49bb1560a30a7a26f5bc39ee25c056503/imerit_ango-1.1.9-py3-none-any.whl
+[2023-07-13 12:57:35] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/78/71/112109ad2b1aa685617dd84a150048372fbd6a5546c749679f55b88e8825/helios-rl-1.0.8.tar.gz
+[2023-07-13 12:57:35] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/83/fa/da9386a90a923f728929d0cc04f49bb1560a30a7a26f5bc39ee25c056503/imerit_ango-1.1.9-py3-none-any.whl
+[2023-07-13 12:57:35] INFO root fetch - processPackages [opsgeniecli]: Downloading https://files.pythonhosted.org/packages/3a/81/6dd1d6fbfbebf84b85c15d3329e22db0bb2d8c6396676b0fac0572d40843/opsgeniecli-0.1.8.tar.gz
+[2023-07-13 12:57:35] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-13 12:57:35] INFO root fetch - processPackages [limberer]: Downloading https://files.pythonhosted.org/packages/01/63/05ed195e3766a640c6e1d473d6c75c18bbc69651a6b6b3b44a605fbe019c/limberer-0.4.2.tar.gz
+[2023-07-13 12:57:35] INFO root fetch - processPackages [sphinx-code-tabs]: Downloading https://files.pythonhosted.org/packages/e8/43/40000a9332991f3796acae46cc7d3c2479d2e446cdd90c4708fe46e36091/sphinx_code_tabs-0.5.3.tar.gz
+[2023-07-13 12:57:36] INFO root fetch - processPackages [kiara-plugin.service]: Downloading https://files.pythonhosted.org/packages/95/92/ab94ca84c424d52825dd9fc326cec483fcc3f48dcf0306f418cd8da062de/kiara_plugin.service-0.4.3.tar.gz
+[2023-07-13 12:57:36] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/38/b0/396024a90d94cd1b942fb7b480a67ba92baba52b21d550f8b04102a9c2ef/helios-rl-1.0.9.tar.gz
+[2023-07-13 12:57:36] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/34/69/b57222c1b0ad22b48134ccdf5b5b76d7668bc447a4b078dc07bf85f56500/imerit_ango-1.2.0-py3-none-any.whl
+[2023-07-13 12:57:36] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/34/69/b57222c1b0ad22b48134ccdf5b5b76d7668bc447a4b078dc07bf85f56500/imerit_ango-1.2.0-py3-none-any.whl
+[2023-07-13 12:57:36] INFO root fetch - processPackages [opsgeniecli]: Downloading https://files.pythonhosted.org/packages/41/25/4ba0d090cfb39abc8d4111169871b1b94e501e255185505d68f8e54a4f5e/opsgeniecli-0.1.9.tar.gz
+[2023-07-13 12:57:36] INFO root fetch - processPackages [helios-rl]: executing diffoscope
+[2023-07-13 12:57:36] INFO root fetch - processPackages [helios-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-rl-1.0.8.tar.gz tmp/helios-rl-1.0.9.tar.gz --markdown 20230713/h/helios-rl/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 12:57:36] INFO root fetch - processPackages [limberer]: Downloading https://files.pythonhosted.org/packages/5c/39/4feb757837415f8ccc4f46f92e0d1ff40d2c101b6ed23c30ddd9ba23ae21/limberer-0.5.tar.gz
+[2023-07-13 12:57:36] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-13 12:57:36] INFO root fetch - processPackages [imerit-ango]: executing diffoscope
+[2023-07-13 12:57:36] INFO root fetch - processPackages [imerit-ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imerit_ango-1.1.9-py3-none-any.whl.zip tmp/imerit_ango-1.2.0-py3-none-any.whl.zip --markdown 20230713/i/imerit-ango/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-13 12:57:36] INFO root fetch - processPackages [imerit-ango]: executing diffoscope
+[2023-07-13 12:57:36] INFO root fetch - processPackages [imerit-ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imerit_ango-1.1.9-py3-none-any.whl.zip tmp/imerit_ango-1.2.0-py3-none-any.whl.zip --markdown 20230713/i/imerit-ango/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-13 12:57:36] INFO root fetch - processPackages [sphinx-code-tabs]: Downloading https://files.pythonhosted.org/packages/46/b0/c70a7de8d27d8bfd4cc5ca799f84e46c963fde48269572bd681a9980c348/sphinx_code_tabs-0.5.5.tar.gz
+[2023-07-13 12:57:36] INFO root fetch - processPackages [kiara-plugin.service]: Downloading https://files.pythonhosted.org/packages/06/3a/52ad453d65942d5aedfd6de933666d765b6f6b379a08d1c6d8020a158d6b/kiara_plugin.service-0.4.4.tar.gz
+[2023-07-13 12:57:36] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-13 12:57:36] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230713/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-13 12:57:36] INFO root fetch - processPackages [opsgeniecli]: executing diffoscope
+[2023-07-13 12:57:36] INFO root fetch - processPackages [opsgeniecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opsgeniecli-0.1.8.tar.gz tmp/opsgeniecli-0.1.9.tar.gz --markdown 20230713/o/opsgeniecli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-13 12:57:36] INFO root fetch - processPackages [limberer]: executing diffoscope
+[2023-07-13 12:57:36] INFO root fetch - processPackages [limberer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limberer-0.4.2.tar.gz tmp/limberer-0.5.tar.gz --markdown 20230713/l/limberer/0.4.2-0.5/diff.md --exclude *.pyd
+[2023-07-13 12:57:36] INFO root fetch - processPackages [sphinx-code-tabs]: executing diffoscope
+[2023-07-13 12:57:36] INFO root fetch - processPackages [sphinx-code-tabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_code_tabs-0.5.3.tar.gz tmp/sphinx_code_tabs-0.5.5.tar.gz --markdown 20230713/s/sphinx-code-tabs/0.5.3-0.5.5/diff.md --exclude *.pyd
+[2023-07-13 12:57:36] INFO root fetch - processPackages [kiara-plugin.service]: executing diffoscope
+[2023-07-13 12:57:36] INFO root fetch - processPackages [kiara-plugin.service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin.service-0.4.3.tar.gz tmp/kiara_plugin.service-0.4.4.tar.gz --markdown 20230713/k/kiara-plugin.service/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-13 12:57:37] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit_ango-1.1.9-py3-none-any.whl.zip]
+[2023-07-13 12:57:37] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit_ango-1.2.0-py3-none-any.whl.zip]
+[2023-07-13 12:57:37] INFO root fetch - main [MainThread]: End processing [imerit-ango]: success
+[2023-07-13 12:57:37] INFO root fetch - main [MainThread]: End processing [imerit-ango]: success
+[2023-07-13 12:57:37] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-13 12:57:37] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-13 12:57:37] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-13 12:57:38] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.8.tar.gz]
+[2023-07-13 12:57:38] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.9.tar.gz]
+[2023-07-13 12:57:38] INFO root fetch - main [MainThread]: End processing [helios-rl]: success
+[2023-07-13 12:57:38] INFO root fetch - processPackages [sphinx-code-tabs]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_code_tabs-0.5.3.tar.gz]
+[2023-07-13 12:57:38] INFO root fetch - processPackages [sphinx-code-tabs]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_code_tabs-0.5.5.tar.gz]
+[2023-07-13 12:57:38] INFO root fetch - main [MainThread]: End processing [sphinx-code-tabs]: success
+[2023-07-13 12:57:38] INFO root fetch - processPackages [limberer]: Remove: archive file [/home/abi/fetcher/tmp/limberer-0.4.2.tar.gz]
+[2023-07-13 12:57:38] INFO root fetch - processPackages [limberer]: Remove: archive file [/home/abi/fetcher/tmp/limberer-0.5.tar.gz]
+[2023-07-13 12:57:38] INFO root fetch - main [MainThread]: End processing [limberer]: success
+[2023-07-13 12:57:38] INFO root fetch - processPackages [opsgeniecli]: Remove: archive file [/home/abi/fetcher/tmp/opsgeniecli-0.1.8.tar.gz]
+[2023-07-13 12:57:38] INFO root fetch - processPackages [opsgeniecli]: Remove: archive file [/home/abi/fetcher/tmp/opsgeniecli-0.1.9.tar.gz]
+[2023-07-13 12:57:38] INFO root fetch - main [MainThread]: End processing [opsgeniecli]: success
+[2023-07-13 12:57:38] INFO root fetch - processPackages [kiara-plugin.service]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.service-0.4.3.tar.gz]
+[2023-07-13 12:57:38] INFO root fetch - processPackages [kiara-plugin.service]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.service-0.4.4.tar.gz]
+[2023-07-13 12:57:38] INFO root fetch - main [MainThread]: End processing [kiara-plugin.service]: success
+[2023-07-13 12:57:38] INFO root fetch - main [MainThread]: Store serial: [18873834]
