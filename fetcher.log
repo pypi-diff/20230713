@@ -7165,3 +7165,109 @@
 [2023-07-13 04:50:42] INFO root fetch - processPackages [lyrebird-bugit]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-bugit-1.9.1.tar.gz]
 [2023-07-13 04:50:42] INFO root fetch - main [MainThread]: End processing [lyrebird-bugit]: success
 [2023-07-13 04:50:42] INFO root fetch - main [MainThread]: Store serial: [18869110]
+[2023-07-13 04:55:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18869110]
+[2023-07-13 04:55:56] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-13 04:55:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OptiStradex
+[2023-07-13 04:55:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-payment-mode
+[2023-07-13 04:55:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-account-payment-mode
+[2023-07-13 04:55:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-payment-mode
+[2023-07-13 04:55:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvosscript
+[2023-07-13 04:55:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Ibad-Project
+[2023-07-13 04:55:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PythonODFTemplator
+[2023-07-13 04:55:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-sql-explorer
+[2023-07-13 04:55:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tellosync
+[2023-07-13 04:55:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zood
+[2023-07-13 04:55:56] INFO root fetch - processPackages [odoo14-addon-account-payment-mode]: New version: [14.0.1.1.1.dev6] Old Version: [14.0.1.1.1.dev5]
+[2023-07-13 04:55:56] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: New version: [16.0.1.2.0.2] Old Version: [16.0.1.2.0.1]
+[2023-07-13 04:55:56] INFO root fetch - processPackages [PythonODFTemplator]: New version: [1.1.1] Old Version: [1.1]
+[2023-07-13 04:55:56] WARNING root fetch - processPackages [Ibad-Project]: Skipping, unable to determine old version
+[2023-07-13 04:55:56] INFO root fetch - processPackages [Ibad-Project]: Start processing: sensenova
+[2023-07-13 04:55:56] INFO root fetch - main [MainThread]: End processing [Ibad-Project] error
+[2023-07-13 04:55:56] INFO root fetch - processPackages [tellosync]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-07-13 04:55:56] INFO root fetch - processPackages [nvosscript]: New version: [1.3.7.2] Old Version: [1.3.7]
+[2023-07-13 04:55:56] WARNING root fetch - processPackages [OptiStradex]: Skipping, unable to determine old version
+[2023-07-13 04:55:56] INFO root fetch - processPackages [OptiStradex]: Start processing: TreeSAK
+[2023-07-13 04:55:56] INFO root fetch - main [MainThread]: End processing [OptiStradex] error
+[2023-07-13 04:55:56] INFO root fetch - processPackages [django-sql-explorer]: New version: [3.2.1] Old Version: [3.2]
+[2023-07-13 04:55:56] INFO root fetch - processPackages [zood]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-07-13 04:55:56] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: New version: [16.0.1.2.0.2] Old Version: [16.0.1.2.0.1]
+[2023-07-13 04:55:57] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-13 04:55:57] INFO root fetch - processPackages [sensenova]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-13 04:55:57] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/5c/a7/cfb42c9f6699466a97f37f4d457ac6a7794ac7d557203d20153f1d7ce262/zood-0.7.5.tar.gz
+[2023-07-13 04:55:57] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2023-07-13 04:55:57] INFO root fetch - processPackages [PythonODFTemplator]: Downloading https://files.pythonhosted.org/packages/d4/14/c45664d3c1cfb624bb712f759f4e2b7a6a13ef01e87f91e145fecee5a9ff/PythonODFTemplator-1.1.tar.gz
+[2023-07-13 04:55:57] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Downloading https://files.pythonhosted.org/packages/25/71/effa88c1aae6fa58705bd0f03f6971f6c13a6584139488a8f389c31087bb/odoo_addon_account_payment_mode-16.0.1.2.0.1-py3-none-any.whl
+[2023-07-13 04:55:57] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Downloading https://files.pythonhosted.org/packages/25/71/effa88c1aae6fa58705bd0f03f6971f6c13a6584139488a8f389c31087bb/odoo_addon_account_payment_mode-16.0.1.2.0.1-py3-none-any.whl
+[2023-07-13 04:55:57] INFO root fetch - processPackages [odoo14-addon-account-payment-mode]: Downloading https://files.pythonhosted.org/packages/fa/6a/c46bda80e2655ceb76dc34fd61fcb4b74b6aad3efad4be802da68788a665/odoo14_addon_account_payment_mode-14.0.1.1.1.dev5-py3-none-any.whl
+[2023-07-13 04:55:57] INFO root fetch - processPackages [tellosync]: Downloading https://files.pythonhosted.org/packages/fa/22/5701ee38f8c4ac062f2b126e357953c988da604c90125374293743eee6ba/tellosync-0.0.8.tar.gz
+[2023-07-13 04:55:57] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/6b/98/04746bdfc926b5a6ee0c432529c11d2e36f36496a29d94bfc9517a2e6827/nvosscript-1.3.7.tar.gz
+[2023-07-13 04:55:57] INFO root fetch - processPackages [django-sql-explorer]: Downloading https://files.pythonhosted.org/packages/dd/56/4fa02f34c10057fa36a98f52c7018b3e008dee762cb67b02f2c98359bc49/django-sql-explorer-3.2.tar.gz
+[2023-07-13 04:55:57] INFO root fetch - processPackages [sensenova]: Downloading https://files.pythonhosted.org/packages/c6/11/71a55725b79cb7f0a3384e9fec6958ae3151393da69475cac37f685b4e84/sensenova-1.0.1.tar.gz
+[2023-07-13 04:55:57] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/0c/04/d1291d54e709f4aaaf28720d8f053823070e815d298927c3ee8e724f6d1d/zood-0.7.6.tar.gz
+[2023-07-13 04:55:57] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2023-07-13 04:55:57] INFO root fetch - processPackages [tellosync]: Downloading https://files.pythonhosted.org/packages/87/a1/53e66d5fffbcd2b6a407723ca3c2be140de1b1d1a9b5b29b365e41af1bcd/tellosync-0.1.0.tar.gz
+[2023-07-13 04:55:57] INFO root fetch - processPackages [sensenova]: Downloading https://files.pythonhosted.org/packages/76/75/2905ec3ea13dd689e349a842d408b61df64b4dfdb49e11a7667eb7f745a1/sensenova-1.0.2.tar.gz
+[2023-07-13 04:55:57] INFO root fetch - processPackages [PythonODFTemplator]: Downloading https://files.pythonhosted.org/packages/4b/75/cc6d340a2a15e28bb09919ce7016c0ec1536424847a7da1f2f240dfc855f/PythonODFTemplator-1.1.1.tar.gz
+[2023-07-13 04:55:57] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2023-07-13 04:55:57] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20230713/T/TreeSAK/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-13 04:55:57] INFO root fetch - processPackages [odoo14-addon-account-payment-mode]: Downloading https://files.pythonhosted.org/packages/cc/74/b6701202f5b600bbcf503b89f079092cff6d5802ef0a99582b43f1c9ea4f/odoo14_addon_account_payment_mode-14.0.1.1.1.dev6-py3-none-any.whl
+[2023-07-13 04:55:57] INFO root fetch - processPackages [zood]: executing diffoscope
+[2023-07-13 04:55:57] INFO root fetch - processPackages [zood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zood-0.7.5.tar.gz tmp/zood-0.7.6.tar.gz --markdown 20230713/z/zood/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-07-13 04:55:57] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/95/fa/a75c44d0ae0de82c935963891df2a9f2551a7148a4a5e24e29a6ba62bb65/nvosscript-1.3.7.2.tar.gz
+[2023-07-13 04:55:57] INFO root fetch - processPackages [django-sql-explorer]: Downloading https://files.pythonhosted.org/packages/ce/8b/fa2ad05a3ba9b45749ff534fe7f4c95577451ee53165b5eccea5285a39b2/django-sql-explorer-3.2.1.tar.gz
+[2023-07-13 04:55:57] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Downloading https://files.pythonhosted.org/packages/40/6f/f0ac249cc990ab02b6165000b6651f77d56beb633c2b02a74671a80e5e64/odoo_addon_account_payment_mode-16.0.1.2.0.2-py3-none-any.whl
+[2023-07-13 04:55:57] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Downloading https://files.pythonhosted.org/packages/40/6f/f0ac249cc990ab02b6165000b6651f77d56beb633c2b02a74671a80e5e64/odoo_addon_account_payment_mode-16.0.1.2.0.2-py3-none-any.whl
+[2023-07-13 04:55:58] INFO root fetch - processPackages [tellosync]: executing diffoscope
+[2023-07-13 04:55:58] INFO root fetch - processPackages [tellosync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tellosync-0.0.8.tar.gz tmp/tellosync-0.1.0.tar.gz --markdown 20230713/t/tellosync/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2023-07-13 04:55:58] INFO root fetch - processPackages [nvosscript]: executing diffoscope
+[2023-07-13 04:55:58] INFO root fetch - processPackages [nvosscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvosscript-1.3.7.tar.gz tmp/nvosscript-1.3.7.2.tar.gz --markdown 20230713/n/nvosscript/1.3.7-1.3.7.2/diff.md --exclude *.pyd
+[2023-07-13 04:55:58] INFO root fetch - processPackages [PythonODFTemplator]: executing diffoscope
+[2023-07-13 04:55:58] INFO root fetch - processPackages [PythonODFTemplator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonODFTemplator-1.1.tar.gz tmp/PythonODFTemplator-1.1.1.tar.gz --markdown 20230713/P/PythonODFTemplator/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-07-13 04:55:58] INFO root fetch - processPackages [sensenova]: executing diffoscope
+[2023-07-13 04:55:58] INFO root fetch - processPackages [sensenova]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sensenova-1.0.1.tar.gz tmp/sensenova-1.0.2.tar.gz --markdown 20230713/s/sensenova/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-13 04:55:58] INFO root fetch - processPackages [odoo14-addon-account-payment-mode]: executing diffoscope
+[2023-07-13 04:55:58] INFO root fetch - processPackages [odoo14-addon-account-payment-mode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_payment_mode-14.0.1.1.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_account_payment_mode-14.0.1.1.1.dev6-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-account-payment-mode/14.0.1.1.1.dev5-14.0.1.1.1.dev6/diff.md --exclude *.pyd
+[2023-07-13 04:55:58] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: executing diffoscope
+[2023-07-13 04:55:58] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_mode-16.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_payment_mode-16.0.1.2.0.2-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-account-payment-mode/16.0.1.2.0.1-16.0.1.2.0.2/diff.md --exclude *.pyd
+[2023-07-13 04:55:58] INFO root fetch - processPackages [django-sql-explorer]: executing diffoscope
+[2023-07-13 04:55:58] INFO root fetch - processPackages [django-sql-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sql-explorer-3.2.tar.gz tmp/django-sql-explorer-3.2.1.tar.gz --markdown 20230713/d/django-sql-explorer/3.2-3.2.1/diff.md --exclude *.pyd
+[2023-07-13 04:55:58] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: executing diffoscope
+[2023-07-13 04:55:58] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_mode-16.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_payment_mode-16.0.1.2.0.2-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-account-payment-mode/16.0.1.2.0.1-16.0.1.2.0.2/diff.md --exclude *.pyd
+[2023-07-13 04:55:59] INFO root fetch - processPackages [tellosync]: Remove: archive file [/home/abi/fetcher/tmp/tellosync-0.0.8.tar.gz]
+[2023-07-13 04:55:59] INFO root fetch - processPackages [tellosync]: Remove: archive file [/home/abi/fetcher/tmp/tellosync-0.1.0.tar.gz]
+[2023-07-13 04:55:59] INFO root fetch - processPackages [tellosync]: Start processing: alanapy
+[2023-07-13 04:55:59] INFO root fetch - main [MainThread]: End processing [tellosync]: success
+[2023-07-13 04:55:59] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.7.5.tar.gz]
+[2023-07-13 04:55:59] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.7.6.tar.gz]
+[2023-07-13 04:55:59] INFO root fetch - main [MainThread]: End processing [zood]: success
+[2023-07-13 04:55:59] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2023-07-13 04:55:59] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2023-07-13 04:55:59] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2023-07-13 04:55:59] INFO root fetch - processPackages [nvosscript]: Remove: archive file [/home/abi/fetcher/tmp/nvosscript-1.3.7.tar.gz]
+[2023-07-13 04:55:59] INFO root fetch - processPackages [nvosscript]: Remove: archive file [/home/abi/fetcher/tmp/nvosscript-1.3.7.2.tar.gz]
+[2023-07-13 04:55:59] INFO root fetch - main [MainThread]: End processing [nvosscript]: success
+[2023-07-13 04:55:59] INFO root fetch - processPackages [alanapy]: New version: [0.9] Old Version: [0.12]
+[2023-07-13 04:55:59] INFO root fetch - processPackages [sensenova]: Remove: archive file [/home/abi/fetcher/tmp/sensenova-1.0.1.tar.gz]
+[2023-07-13 04:55:59] INFO root fetch - processPackages [sensenova]: Remove: archive file [/home/abi/fetcher/tmp/sensenova-1.0.2.tar.gz]
+[2023-07-13 04:55:59] INFO root fetch - main [MainThread]: End processing [sensenova]: success
+[2023-07-13 04:55:59] INFO root fetch - processPackages [PythonODFTemplator]: Remove: archive file [/home/abi/fetcher/tmp/PythonODFTemplator-1.1.tar.gz]
+[2023-07-13 04:55:59] INFO root fetch - processPackages [PythonODFTemplator]: Remove: archive file [/home/abi/fetcher/tmp/PythonODFTemplator-1.1.1.tar.gz]
+[2023-07-13 04:55:59] INFO root fetch - main [MainThread]: End processing [PythonODFTemplator]: success
+[2023-07-13 04:55:59] INFO root fetch - processPackages [odoo14-addon-account-payment-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_payment_mode-14.0.1.1.1.dev5-py3-none-any.whl.zip]
+[2023-07-13 04:55:59] INFO root fetch - processPackages [odoo14-addon-account-payment-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_payment_mode-14.0.1.1.1.dev6-py3-none-any.whl.zip]
+[2023-07-13 04:55:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-payment-mode]: success
+[2023-07-13 04:55:59] INFO root fetch - processPackages [alanapy]: Downloading https://files.pythonhosted.org/packages/02/a8/2392cec510b9a39207292b2a72a6d8526e22adeedb987801893437e61b2f/alanapy-0.12.tar.gz
+[2023-07-13 04:56:00] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_mode-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2023-07-13 04:56:00] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_mode-16.0.1.2.0.2-py3-none-any.whl.zip]
+[2023-07-13 04:56:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-mode]: success
+[2023-07-13 04:56:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-mode]: success
+[2023-07-13 04:56:00] INFO root fetch - processPackages [django-sql-explorer]: Remove: archive file [/home/abi/fetcher/tmp/django-sql-explorer-3.2.tar.gz]
+[2023-07-13 04:56:00] INFO root fetch - processPackages [django-sql-explorer]: Remove: archive file [/home/abi/fetcher/tmp/django-sql-explorer-3.2.1.tar.gz]
+[2023-07-13 04:56:00] INFO root fetch - main [MainThread]: End processing [django-sql-explorer]: success
+[2023-07-13 04:56:00] INFO root fetch - processPackages [alanapy]: Downloading https://files.pythonhosted.org/packages/2c/33/fa7118279782bd920d77fd7b293dbfdab5a7c1650c71e2360020b096068a/alanapy-0.9.tar.gz
+[2023-07-13 04:56:00] INFO root fetch - processPackages [alanapy]: executing diffoscope
+[2023-07-13 04:56:00] INFO root fetch - processPackages [alanapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alanapy-0.12.tar.gz tmp/alanapy-0.9.tar.gz --markdown 20230713/a/alanapy/0.12-0.9/diff.md --exclude *.pyd
+[2023-07-13 04:56:01] INFO root fetch - processPackages [alanapy]: Remove: archive file [/home/abi/fetcher/tmp/alanapy-0.12.tar.gz]
+[2023-07-13 04:56:01] INFO root fetch - processPackages [alanapy]: Remove: archive file [/home/abi/fetcher/tmp/alanapy-0.9.tar.gz]
+[2023-07-13 04:56:01] INFO root fetch - main [MainThread]: End processing [alanapy]: success
+[2023-07-13 04:56:01] INFO root fetch - main [MainThread]: Store serial: [18869147]
