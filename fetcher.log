@@ -9478,3 +9478,54 @@
 [2023-07-13 06:29:02] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip]
 [2023-07-13 06:29:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
 [2023-07-13 06:29:02] INFO root fetch - main [MainThread]: Store serial: [18869845]
+[2023-07-13 06:34:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18869845]
+[2023-07-13 06:34:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-13 06:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo8-addon-base-location
+[2023-07-13 06:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo9-addon-base-location
+[2023-07-13 06:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LangChainAgentFactory
+[2023-07-13 06:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo10-addon-base-location
+[2023-07-13 06:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snowflake-connector-python-nightly
+[2023-07-13 06:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gtki-module-exex
+[2023-07-13 06:34:11] WARNING root fetch - processPackages [LangChainAgentFactory]: Skipping, unable to determine old version
+[2023-07-13 06:34:11] INFO root fetch - main [MainThread]: End processing [LangChainAgentFactory] error
+[2023-07-13 06:34:11] INFO root fetch - processPackages [odoo10-addon-base-location]: New version: [10.0.1.1.0.99.dev2] Old Version: [10.0.1.1.0.99.dev1]
+[2023-07-13 06:34:11] INFO root fetch - processPackages [odoo9-addon-base-location]: New version: [9.0.1.1.0.99.dev9] Old Version: [9.0.1.1.0.99.dev8]
+[2023-07-13 06:34:11] INFO root fetch - processPackages [odoo8-addon-base-location]: New version: [8.0.1.0.0.99.dev9] Old Version: [8.0.1.0.0.99.dev8]
+[2023-07-13 06:34:11] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2023.7.8] Old Version: [2023.7.6]
+[2023-07-13 06:34:11] INFO root fetch - processPackages [gtki-module-exex]: New version: [0.0.64] Old Version: [0.0.63]
+[2023-07-13 06:34:11] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/c9/81/c4d9965bfca21c8ac1ee47fa96c6efeeb51fa6f29adea9b6c656c1e1186f/snowflake-connector-python-nightly-2023.7.6.tar.gz
+[2023-07-13 06:34:11] INFO root fetch - processPackages [odoo9-addon-base-location]: Downloading https://files.pythonhosted.org/packages/79/7e/f528033e81da396bd428dc8919d0a374fb7e7faf31fb0ed62e02626df2c3/odoo9_addon_base_location-9.0.1.1.0.99.dev8-py2-none-any.whl
+[2023-07-13 06:34:11] INFO root fetch - processPackages [odoo10-addon-base-location]: Downloading https://files.pythonhosted.org/packages/b7/1b/e68fb47921feb4084e1ad27bfebb542a792970c79a3e1d6d64c917c5bc4c/odoo10_addon_base_location-10.0.1.1.0.99.dev1-py2-none-any.whl
+[2023-07-13 06:34:11] INFO root fetch - processPackages [odoo8-addon-base-location]: Downloading https://files.pythonhosted.org/packages/10/6e/b08eedce80e63d09a339155f82a1729e3d8903eac88f0cfc6ed0f0af2c98/odoo8_addon_base_location-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-07-13 06:34:11] INFO root fetch - processPackages [gtki-module-exex]: Downloading https://files.pythonhosted.org/packages/a3/6e/45acd17a9a414861c4b7d5a04ec840f867c1f22d721f043c915a47fdc1a7/gtki_module_exex-0.0.63-py3-none-any.whl
+[2023-07-13 06:34:11] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/40/16/80ea6fef1c1c6972dd25b43e5e7b1a2c889d92d33fd7e8988c16dd4d98be/snowflake-connector-python-nightly-2023.7.8.tar.gz
+[2023-07-13 06:34:11] INFO root fetch - processPackages [odoo10-addon-base-location]: Downloading https://files.pythonhosted.org/packages/50/46/00b801f02c51236240a23fdbfd4c61b4008115812d9cc6e5c0e7f67b9ae7/odoo10_addon_base_location-10.0.1.1.0.99.dev2-py2-none-any.whl
+[2023-07-13 06:34:11] INFO root fetch - processPackages [odoo8-addon-base-location]: Downloading https://files.pythonhosted.org/packages/73/df/3f3cb689b6450e60679ede45529dbb4753a859f1ef9ac7a0c53612a45432/odoo8_addon_base_location-8.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-07-13 06:34:11] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2023-07-13 06:34:11] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2023.7.6.tar.gz tmp/snowflake-connector-python-nightly-2023.7.8.tar.gz --markdown 20230713/s/snowflake-connector-python-nightly/2023.7.6-2023.7.8/diff.md --exclude *.pyd
+[2023-07-13 06:34:12] INFO root fetch - processPackages [odoo9-addon-base-location]: Downloading https://files.pythonhosted.org/packages/b4/e9/75e12214a3cc35cfa709b093362fc2978c9e4a0af21e5635ef11b79841b2/odoo9_addon_base_location-9.0.1.1.0.99.dev9-py2-none-any.whl
+[2023-07-13 06:34:12] INFO root fetch - processPackages [gtki-module-exex]: Downloading https://files.pythonhosted.org/packages/71/34/d747a0be56a15f6437bea15f5cb4cd9d8d641f440dd97579ca182ffef240/gtki_module_exex-0.0.64-py3-none-any.whl
+[2023-07-13 06:34:12] INFO root fetch - processPackages [odoo8-addon-base-location]: executing diffoscope
+[2023-07-13 06:34:12] INFO root fetch - processPackages [odoo8-addon-base-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_base_location-8.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_base_location-8.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230713/o/odoo8-addon-base-location/8.0.1.0.0.99.dev8-8.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-13 06:34:12] INFO root fetch - processPackages [odoo9-addon-base-location]: executing diffoscope
+[2023-07-13 06:34:12] INFO root fetch - processPackages [odoo9-addon-base-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_base_location-9.0.1.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_base_location-9.0.1.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230713/o/odoo9-addon-base-location/9.0.1.1.0.99.dev8-9.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-13 06:34:12] INFO root fetch - processPackages [gtki-module-exex]: executing diffoscope
+[2023-07-13 06:34:12] INFO root fetch - processPackages [gtki-module-exex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtki_module_exex-0.0.63-py3-none-any.whl.zip tmp/gtki_module_exex-0.0.64-py3-none-any.whl.zip --markdown 20230713/g/gtki-module-exex/0.0.63-0.0.64/diff.md --exclude *.pyd
+[2023-07-13 06:34:12] INFO root fetch - processPackages [odoo10-addon-base-location]: executing diffoscope
+[2023-07-13 06:34:12] INFO root fetch - processPackages [odoo10-addon-base-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_base_location-10.0.1.1.0.99.dev1-py2-none-any.whl.zip tmp/odoo10_addon_base_location-10.0.1.1.0.99.dev2-py2-none-any.whl.zip --markdown 20230713/o/odoo10-addon-base-location/10.0.1.1.0.99.dev1-10.0.1.1.0.99.dev2/diff.md --exclude *.pyd
+[2023-07-13 06:34:13] INFO root fetch - processPackages [gtki-module-exex]: Remove: archive file [/home/abi/fetcher/tmp/gtki_module_exex-0.0.63-py3-none-any.whl.zip]
+[2023-07-13 06:34:13] INFO root fetch - processPackages [gtki-module-exex]: Remove: archive file [/home/abi/fetcher/tmp/gtki_module_exex-0.0.64-py3-none-any.whl.zip]
+[2023-07-13 06:34:13] INFO root fetch - main [MainThread]: End processing [gtki-module-exex]: success
+[2023-07-13 06:34:13] INFO root fetch - processPackages [odoo8-addon-base-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_base_location-8.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-13 06:34:13] INFO root fetch - processPackages [odoo8-addon-base-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_base_location-8.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-07-13 06:34:13] INFO root fetch - main [MainThread]: End processing [odoo8-addon-base-location]: success
+[2023-07-13 06:34:13] INFO root fetch - processPackages [odoo9-addon-base-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_base_location-9.0.1.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-13 06:34:13] INFO root fetch - processPackages [odoo9-addon-base-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_base_location-9.0.1.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-07-13 06:34:13] INFO root fetch - main [MainThread]: End processing [odoo9-addon-base-location]: success
+[2023-07-13 06:34:13] INFO root fetch - processPackages [odoo10-addon-base-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_base_location-10.0.1.1.0.99.dev1-py2-none-any.whl.zip]
+[2023-07-13 06:34:13] INFO root fetch - processPackages [odoo10-addon-base-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_base_location-10.0.1.1.0.99.dev2-py2-none-any.whl.zip]
+[2023-07-13 06:34:13] INFO root fetch - main [MainThread]: End processing [odoo10-addon-base-location]: success
+[2023-07-13 06:34:13] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.7.6.tar.gz]
+[2023-07-13 06:34:13] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.7.8.tar.gz]
+[2023-07-13 06:34:13] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2023-07-13 06:34:13] INFO root fetch - main [MainThread]: Store serial: [18869870]
