@@ -18548,3 +18548,147 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 12:04:28] INFO root fetch - processPackages [nrsdk]: Remove: archive file [/home/abi/fetcher/tmp/nrsdk-1.1.3.2.tar.gz]
 [2023-07-13 12:04:28] INFO root fetch - main [MainThread]: End processing [nrsdk]: success
 [2023-07-13 12:04:28] INFO root fetch - main [MainThread]: Store serial: [18873279]
+[2023-07-13 12:09:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18873279]
+[2023-07-13 12:09:39] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-13 12:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyPLNmodels
+[2023-07-13 12:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flams
+[2023-07-13 12:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sfctools
+[2023-07-13 12:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asociita
+[2023-07-13 12:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ul-data-aggregator-sdk
+[2023-07-13 12:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swh.lister
+[2023-07-13 12:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ir-digit
+[2023-07-13 12:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: XoxoDay
+[2023-07-13 12:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: helios-rl
+[2023-07-13 12:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: graj-blendedUx
+[2023-07-13 12:09:39] INFO root fetch - processPackages [asociita]: New version: [0.3] Old Version: [0.2.1]
+[2023-07-13 12:09:39] INFO root fetch - processPackages [sfctools]: New version: [1.1.0.3] Old Version: [1.1.0.2]
+[2023-07-13 12:09:39] INFO root fetch - processPackages [flams]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-13 12:09:39] INFO root fetch - processPackages [pyPLNmodels]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 12:09:39] INFO root fetch - processPackages [XoxoDay]: New version: [0.0.27] Old Version: [0.0.26]
+[2023-07-13 12:09:39] INFO root fetch - processPackages [ir-digit]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-07-13 12:09:39] INFO root fetch - processPackages [helios-rl]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 12:09:39] WARNING root fetch - processPackages [graj-blendedUx]: Skipping, unable to determine old version
+[2023-07-13 12:09:39] INFO root fetch - processPackages [graj-blendedUx]: Start processing: goldretriever
+[2023-07-13 12:09:39] INFO root fetch - main [MainThread]: End processing [graj-blendedUx] error
+[2023-07-13 12:09:39] INFO root fetch - processPackages [ul-data-aggregator-sdk]: New version: [8.9.5] Old Version: [8.12.0]
+[2023-07-13 12:09:39] INFO root fetch - processPackages [swh.lister]: New version: [5.9.0] Old Version: [5.8.0]
+[2023-07-13 12:09:39] INFO root fetch - processPackages [asociita]: Downloading https://files.pythonhosted.org/packages/55/81/3743d90ab173df09e28dfab921b053873b47f23f1425e04d222cac36b883/asociita-0.2.1.tar.gz
+[2023-07-13 12:09:39] INFO root fetch - processPackages [XoxoDay]: Downloading https://files.pythonhosted.org/packages/bb/b4/70b4aaa58632fb4fa0f9f452ff980310818ee9450ac754038c948d6aba43/XoxoDay-0.0.26.tar.gz
+[2023-07-13 12:09:39] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/78/71/112109ad2b1aa685617dd84a150048372fbd6a5546c749679f55b88e8825/helios-rl-1.0.8.tar.gz
+[2023-07-13 12:09:39] INFO root fetch - processPackages [sfctools]: Downloading https://files.pythonhosted.org/packages/f2/c3/88fb1901509114b319a08bfceecb3fdcb9c0d8eedc9bef7528bda73aab75/sfctools-1.1.0.2.tar.gz
+[2023-07-13 12:09:39] INFO root fetch - processPackages [goldretriever]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-13 12:09:40] INFO root fetch - processPackages [flams]: Downloading https://files.pythonhosted.org/packages/62/bf/ac35c88c812083da560689c7712c27c23aaa7d83af6230b68289f469c4a7/flams-0.0.6.tar.gz
+[2023-07-13 12:09:40] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/c0/e1/8cdd06668f7ad179caab43915da3e6ca91882c998be4777dc2b190a0b1fd/ir_digit-0.0.9.tar.gz
+[2023-07-13 12:09:40] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/4b/f9/1d28ec64b2f5ece4af44dc5b43e52cd69f7a3b6852045e617de19569e52f/ul-data-aggregator-sdk-8.12.0.tar.gz
+[2023-07-13 12:09:40] INFO root fetch - processPackages [pyPLNmodels]: Downloading https://files.pythonhosted.org/packages/51/b0/7d9557b8945170adab935eafed81fb717ab0a6849909f142dfcf9ab78264/pyPLNmodels-0.0.8.tar.gz
+[2023-07-13 12:09:40] INFO root fetch - processPackages [swh.lister]: Downloading https://files.pythonhosted.org/packages/a4/da/c9759339b836bbcfdc84806fa91b99166dd855a8996b45e72f30da847e50/swh.lister-5.8.0.tar.gz
+[2023-07-13 12:09:40] INFO root fetch - processPackages [asociita]: Downloading https://files.pythonhosted.org/packages/72/f2/ee4096d5740322a86053b74992221ebeea3e5f5d0b94875093bfbb04f76a/asociita-0.3.tar.gz
+[2023-07-13 12:09:40] INFO root fetch - processPackages [XoxoDay]: Downloading https://files.pythonhosted.org/packages/c7/d9/ab88976d5b0426cf386bbe6c5403ee860b2d71a19a6b4e2f2082992048bb/XoxoDay-0.0.27.tar.gz
+[2023-07-13 12:09:40] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/38/b0/396024a90d94cd1b942fb7b480a67ba92baba52b21d550f8b04102a9c2ef/helios-rl-1.0.9.tar.gz
+[2023-07-13 12:09:40] INFO root fetch - processPackages [goldretriever]: Downloading https://files.pythonhosted.org/packages/a0/1c/9b57a1178d0e179c3c959d6e2c2beac8aa19e60964409e334432dd352326/goldretriever-0.1.2.tar.gz
+[2023-07-13 12:09:40] INFO root fetch - processPackages [XoxoDay]: executing diffoscope
+[2023-07-13 12:09:40] INFO root fetch - processPackages [XoxoDay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XoxoDay-0.0.26.tar.gz tmp/XoxoDay-0.0.27.tar.gz --markdown 20230713/X/XoxoDay/0.0.26-0.0.27/diff.md --exclude *.pyd
+[2023-07-13 12:09:40] INFO root fetch - processPackages [asociita]: executing diffoscope
+[2023-07-13 12:09:40] INFO root fetch - processPackages [asociita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asociita-0.2.1.tar.gz tmp/asociita-0.3.tar.gz --markdown 20230713/a/asociita/0.2.1-0.3/diff.md --exclude *.pyd
+[2023-07-13 12:09:40] INFO root fetch - processPackages [helios-rl]: executing diffoscope
+[2023-07-13 12:09:40] INFO root fetch - processPackages [helios-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-rl-1.0.8.tar.gz tmp/helios-rl-1.0.9.tar.gz --markdown 20230713/h/helios-rl/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 12:09:40] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/e5/85/8c846630d2a8974fcd18efadc9511f521f552466e415db95367d5a8c586a/ir_digit-1.0.0.tar.gz
+[2023-07-13 12:09:40] INFO root fetch - processPackages [sfctools]: Downloading https://files.pythonhosted.org/packages/33/3f/f1c17d4f92ac4ee91ba41e5f950f582f56914c0c98325ff7b1b3253bc675/sfctools-1.1.0.3.tar.gz
+[2023-07-13 12:09:40] INFO root fetch - processPackages [pyPLNmodels]: Downloading https://files.pythonhosted.org/packages/d9/ee/b1ce119365c9ee2f1e8f012450c38c4ebaa0ba7795d2a008d8fcde4dfd07/pyPLNmodels-0.0.9.tar.gz
+[2023-07-13 12:09:40] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/ae/cf/20ade1e77c7db14608e4ad73e7b31dd0bd4ee46d7222add34aa0ee1abaca/ul-data-aggregator-sdk-8.9.5.tar.gz
+[2023-07-13 12:09:40] INFO root fetch - processPackages [sfctools]: executing diffoscope
+[2023-07-13 12:09:40] INFO root fetch - processPackages [sfctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfctools-1.1.0.2.tar.gz tmp/sfctools-1.1.0.3.tar.gz --markdown 20230713/s/sfctools/1.1.0.2-1.1.0.3/diff.md --exclude *.pyd
+[2023-07-13 12:09:40] INFO root fetch - processPackages [flams]: Downloading https://files.pythonhosted.org/packages/02/9a/5450c30d82444b70fbd5ea2a1ae196243ddd49f991611337a52d90700d09/flams-0.0.7.tar.gz
+[2023-07-13 12:09:40] INFO root fetch - processPackages [goldretriever]: Downloading https://files.pythonhosted.org/packages/ad/0b/d80ba052315d691ed6c0bbf07d8b635c255eead0607ecb743c50e3dbb88c/goldretriever-0.1.3.tar.gz
+[2023-07-13 12:09:40] INFO root fetch - processPackages [ir-digit]: executing diffoscope
+[2023-07-13 12:09:40] INFO root fetch - processPackages [ir-digit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ir_digit-0.0.9.tar.gz tmp/ir_digit-1.0.0.tar.gz --markdown 20230713/i/ir-digit/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-07-13 12:09:40] INFO root fetch - processPackages [swh.lister]: Downloading https://files.pythonhosted.org/packages/fb/08/c4d3d566c21d65c44c3e30fad234862f82d98bdf3796561e2dc8e5e2d681/swh.lister-5.9.0.tar.gz
+[2023-07-13 12:09:40] INFO root fetch - processPackages [ul-data-aggregator-sdk]: executing diffoscope
+[2023-07-13 12:09:40] INFO root fetch - processPackages [ul-data-aggregator-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-data-aggregator-sdk-8.12.0.tar.gz tmp/ul-data-aggregator-sdk-8.9.5.tar.gz --markdown 20230713/u/ul-data-aggregator-sdk/8.12.0-8.9.5/diff.md --exclude *.pyd
+[2023-07-13 12:09:41] INFO root fetch - processPackages [pyPLNmodels]: executing diffoscope
+[2023-07-13 12:09:41] INFO root fetch - processPackages [pyPLNmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPLNmodels-0.0.8.tar.gz tmp/pyPLNmodels-0.0.9.tar.gz --markdown 20230713/p/pyPLNmodels/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 12:09:41] INFO root fetch - processPackages [flams]: executing diffoscope
+[2023-07-13 12:09:41] INFO root fetch - processPackages [flams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flams-0.0.6.tar.gz tmp/flams-0.0.7.tar.gz --markdown 20230713/f/flams/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-13 12:09:41] INFO root fetch - processPackages [goldretriever]: executing diffoscope
+[2023-07-13 12:09:41] INFO root fetch - processPackages [goldretriever]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goldretriever-0.1.2.tar.gz tmp/goldretriever-0.1.3.tar.gz --markdown 20230713/g/goldretriever/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-13 12:09:41] INFO root fetch - processPackages [swh.lister]: executing diffoscope
+[2023-07-13 12:09:41] INFO root fetch - processPackages [swh.lister]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.lister-5.8.0.tar.gz tmp/swh.lister-5.9.0.tar.gz --markdown 20230713/s/swh.lister/5.8.0-5.9.0/diff.md --exclude *.pyd
+[2023-07-13 12:09:42] INFO root fetch - processPackages [XoxoDay]: Remove: archive file [/home/abi/fetcher/tmp/XoxoDay-0.0.26.tar.gz]
+[2023-07-13 12:09:42] INFO root fetch - processPackages [XoxoDay]: Remove: archive file [/home/abi/fetcher/tmp/XoxoDay-0.0.27.tar.gz]
+[2023-07-13 12:09:42] INFO root fetch - processPackages [XoxoDay]: Start processing: streamlit-card-componenti
+[2023-07-13 12:09:42] INFO root fetch - main [MainThread]: End processing [XoxoDay]: success
+[2023-07-13 12:09:42] WARNING root fetch - processPackages [streamlit-card-componenti]: Skipping, unable to determine old version
+[2023-07-13 12:09:42] INFO root fetch - processPackages [streamlit-card-componenti]: Start processing: gender-detection-local
+[2023-07-13 12:09:42] INFO root fetch - main [MainThread]: End processing [streamlit-card-componenti] error
+[2023-07-13 12:09:42] INFO root fetch - processPackages [gender-detection-local]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-13 12:09:42] INFO root fetch - processPackages [gender-detection-local]: Downloading https://files.pythonhosted.org/packages/31/d1/cb2a782b23ac1c8edc6e556de18bb2e55030a7e11301cebe1994a1d07374/gender-detection-local-0.0.7.tar.gz
+[2023-07-13 12:09:42] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.8.tar.gz]
+[2023-07-13 12:09:42] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.9.tar.gz]
+[2023-07-13 12:09:42] INFO root fetch - processPackages [helios-rl]: Start processing: FlaskSimpleAuth
+[2023-07-13 12:09:42] INFO root fetch - main [MainThread]: End processing [helios-rl]: success
+[2023-07-13 12:09:42] INFO root fetch - processPackages [FlaskSimpleAuth]: New version: [9.0] Old Version: [8.0]
+[2023-07-13 12:09:42] INFO root fetch - processPackages [ir-digit]: Remove: archive file [/home/abi/fetcher/tmp/ir_digit-0.0.9.tar.gz]
+[2023-07-13 12:09:42] INFO root fetch - processPackages [ir-digit]: Remove: archive file [/home/abi/fetcher/tmp/ir_digit-1.0.0.tar.gz]
+[2023-07-13 12:09:42] INFO root fetch - processPackages [ir-digit]: Start processing: content-security-policy
+[2023-07-13 12:09:42] INFO root fetch - main [MainThread]: End processing [ir-digit]: success
+[2023-07-13 12:09:42] INFO root fetch - processPackages [asociita]: Remove: archive file [/home/abi/fetcher/tmp/asociita-0.2.1.tar.gz]
+[2023-07-13 12:09:42] INFO root fetch - processPackages [asociita]: Remove: archive file [/home/abi/fetcher/tmp/asociita-0.3.tar.gz]
+[2023-07-13 12:09:42] INFO root fetch - processPackages [asociita]: Start processing: adi-study-watch
+[2023-07-13 12:09:42] INFO root fetch - main [MainThread]: End processing [asociita]: success
+[2023-07-13 12:09:43] INFO root fetch - processPackages [content-security-policy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-13 12:09:43] INFO root fetch - processPackages [adi-study-watch]: New version: [5.21.0] Old Version: [5.20.0]
+[2023-07-13 12:09:43] INFO root fetch - processPackages [flams]: Remove: archive file [/home/abi/fetcher/tmp/flams-0.0.6.tar.gz]
+[2023-07-13 12:09:43] INFO root fetch - processPackages [flams]: Remove: archive file [/home/abi/fetcher/tmp/flams-0.0.7.tar.gz]
+[2023-07-13 12:09:43] INFO root fetch - processPackages [flams]: Start processing: zest.releaser
+[2023-07-13 12:09:43] INFO root fetch - main [MainThread]: End processing [flams]: success
+[2023-07-13 12:09:43] INFO root fetch - processPackages [FlaskSimpleAuth]: Downloading https://files.pythonhosted.org/packages/5e/71/36ac24a6684ef48f4b4d2b0a4cae846f2a26973c0ed5cbc3df7c076eca36/FlaskSimpleAuth-8.0.tar.gz
+[2023-07-13 12:09:43] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.12.0.tar.gz]
+[2023-07-13 12:09:43] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.9.5.tar.gz]
+[2023-07-13 12:09:43] INFO root fetch - main [MainThread]: End processing [ul-data-aggregator-sdk]: success
+[2023-07-13 12:09:43] INFO root fetch - processPackages [gender-detection-local]: Downloading https://files.pythonhosted.org/packages/2a/a3/54fa5f7f92a097b1314642b204f03d05dccc23b316dbe6011f9d17c18a59/gender-detection-local-0.0.8.tar.gz
+[2023-07-13 12:09:43] INFO root fetch - processPackages [goldretriever]: Remove: archive file [/home/abi/fetcher/tmp/goldretriever-0.1.2.tar.gz]
+[2023-07-13 12:09:43] INFO root fetch - processPackages [goldretriever]: Remove: archive file [/home/abi/fetcher/tmp/goldretriever-0.1.3.tar.gz]
+[2023-07-13 12:09:43] INFO root fetch - main [MainThread]: End processing [goldretriever]: success
+[2023-07-13 12:09:43] INFO root fetch - processPackages [pyPLNmodels]: Remove: archive file [/home/abi/fetcher/tmp/pyPLNmodels-0.0.8.tar.gz]
+[2023-07-13 12:09:43] INFO root fetch - processPackages [pyPLNmodels]: Remove: archive file [/home/abi/fetcher/tmp/pyPLNmodels-0.0.9.tar.gz]
+[2023-07-13 12:09:43] INFO root fetch - main [MainThread]: End processing [pyPLNmodels]: success
+[2023-07-13 12:09:43] INFO root fetch - processPackages [content-security-policy]: Downloading https://files.pythonhosted.org/packages/99/68/9aec0a4f4dd7435dcca76e8a5571eab92e92a639fca0a67325ab1b5ada70/content_security_policy-0.1.0.tar.gz
+[2023-07-13 12:09:43] INFO root fetch - processPackages [adi-study-watch]: Downloading https://files.pythonhosted.org/packages/e3/94/ae404d0c75d12c915f09b810681f516828210699b566ebc24d1efec85497/adi_study_watch-5.20.0.tar.gz
+[2023-07-13 12:09:43] INFO root fetch - processPackages [zest.releaser]: New version: [9.0.0a1] Old Version: [8.0.0a2]
+[2023-07-13 12:09:43] INFO root fetch - processPackages [FlaskSimpleAuth]: Downloading https://files.pythonhosted.org/packages/cc/e7/22c81b3903a0ec999ac9644c1a3e92fed6bdafa388b1e4fe3bb75dc09485/FlaskSimpleAuth-9.0.tar.gz
+[2023-07-13 12:09:43] INFO root fetch - processPackages [sfctools]: Remove: archive file [/home/abi/fetcher/tmp/sfctools-1.1.0.2.tar.gz]
+[2023-07-13 12:09:43] INFO root fetch - processPackages [sfctools]: Remove: archive file [/home/abi/fetcher/tmp/sfctools-1.1.0.3.tar.gz]
+[2023-07-13 12:09:43] INFO root fetch - main [MainThread]: End processing [sfctools]: success
+[2023-07-13 12:09:43] INFO root fetch - processPackages [content-security-policy]: Downloading https://files.pythonhosted.org/packages/9b/a1/5cadeb3d47fca30f501784230d3547bec4b869456bb0ae1217aa49079aac/content_security_policy-0.1.1.tar.gz
+[2023-07-13 12:09:43] INFO root fetch - processPackages [gender-detection-local]: executing diffoscope
+[2023-07-13 12:09:43] INFO root fetch - processPackages [gender-detection-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gender-detection-local-0.0.7.tar.gz tmp/gender-detection-local-0.0.8.tar.gz --markdown 20230713/g/gender-detection-local/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-13 12:09:43] INFO root fetch - processPackages [zest.releaser]: Downloading https://files.pythonhosted.org/packages/dc/b4/a0b990b8a35e33661f5b2e51e9b7f8ab4d383454427b8f395243c375fed0/zest.releaser-8.0.0a2.tar.gz
+[2023-07-13 12:09:43] INFO root fetch - processPackages [FlaskSimpleAuth]: executing diffoscope
+[2023-07-13 12:09:43] INFO root fetch - processPackages [FlaskSimpleAuth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlaskSimpleAuth-8.0.tar.gz tmp/FlaskSimpleAuth-9.0.tar.gz --markdown 20230713/F/FlaskSimpleAuth/8.0-9.0/diff.md --exclude *.pyd
+[2023-07-13 12:09:43] INFO root fetch - processPackages [adi-study-watch]: Downloading https://files.pythonhosted.org/packages/a4/64/1d360b46fbfb8c3849adb802e53378d26601c55e0dcb1c923bcecb418834/adi_study_watch-5.21.0.tar.gz
+[2023-07-13 12:09:43] INFO root fetch - processPackages [content-security-policy]: executing diffoscope
+[2023-07-13 12:09:43] INFO root fetch - processPackages [content-security-policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/content_security_policy-0.1.0.tar.gz tmp/content_security_policy-0.1.1.tar.gz --markdown 20230713/c/content-security-policy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-13 12:09:44] INFO root fetch - processPackages [adi-study-watch]: executing diffoscope
+[2023-07-13 12:09:44] INFO root fetch - processPackages [adi-study-watch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adi_study_watch-5.20.0.tar.gz tmp/adi_study_watch-5.21.0.tar.gz --markdown 20230713/a/adi-study-watch/5.20.0-5.21.0/diff.md --exclude *.pyd
+[2023-07-13 12:09:44] INFO root fetch - processPackages [zest.releaser]: Downloading https://files.pythonhosted.org/packages/7e/0e/6ed128176f6de2f9c89ccb96ddd51bf4e9b219e9209fae6ee3a9c65c355f/zest.releaser-9.0.0a1.tar.gz
+[2023-07-13 12:09:44] INFO root fetch - processPackages [zest.releaser]: executing diffoscope
+[2023-07-13 12:09:44] INFO root fetch - processPackages [zest.releaser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zest.releaser-8.0.0a2.tar.gz tmp/zest.releaser-9.0.0a1.tar.gz --markdown 20230713/z/zest.releaser/8.0.0a2-9.0.0a1/diff.md --exclude *.pyd
+[2023-07-13 12:09:44] INFO root fetch - processPackages [content-security-policy]: Remove: archive file [/home/abi/fetcher/tmp/content_security_policy-0.1.0.tar.gz]
+[2023-07-13 12:09:44] INFO root fetch - processPackages [content-security-policy]: Remove: archive file [/home/abi/fetcher/tmp/content_security_policy-0.1.1.tar.gz]
+[2023-07-13 12:09:44] INFO root fetch - main [MainThread]: End processing [content-security-policy]: success
+[2023-07-13 12:09:45] INFO root fetch - processPackages [FlaskSimpleAuth]: Remove: archive file [/home/abi/fetcher/tmp/FlaskSimpleAuth-8.0.tar.gz]
+[2023-07-13 12:09:45] INFO root fetch - processPackages [FlaskSimpleAuth]: Remove: archive file [/home/abi/fetcher/tmp/FlaskSimpleAuth-9.0.tar.gz]
+[2023-07-13 12:09:45] INFO root fetch - main [MainThread]: End processing [FlaskSimpleAuth]: success
+[2023-07-13 12:09:45] INFO root fetch - processPackages [gender-detection-local]: Remove: archive file [/home/abi/fetcher/tmp/gender-detection-local-0.0.7.tar.gz]
+[2023-07-13 12:09:45] INFO root fetch - processPackages [gender-detection-local]: Remove: archive file [/home/abi/fetcher/tmp/gender-detection-local-0.0.8.tar.gz]
+[2023-07-13 12:09:45] INFO root fetch - main [MainThread]: End processing [gender-detection-local]: success
+[2023-07-13 12:09:45] INFO root fetch - processPackages [adi-study-watch]: Remove: archive file [/home/abi/fetcher/tmp/adi_study_watch-5.20.0.tar.gz]
+[2023-07-13 12:09:45] INFO root fetch - processPackages [adi-study-watch]: Remove: archive file [/home/abi/fetcher/tmp/adi_study_watch-5.21.0.tar.gz]
+[2023-07-13 12:09:45] INFO root fetch - main [MainThread]: End processing [adi-study-watch]: success
+[2023-07-13 12:09:45] INFO root fetch - processPackages [swh.lister]: Remove: archive file [/home/abi/fetcher/tmp/swh.lister-5.8.0.tar.gz]
+[2023-07-13 12:09:45] INFO root fetch - processPackages [swh.lister]: Remove: archive file [/home/abi/fetcher/tmp/swh.lister-5.9.0.tar.gz]
+[2023-07-13 12:09:45] INFO root fetch - main [MainThread]: End processing [swh.lister]: success
+[2023-07-13 12:09:46] INFO root fetch - processPackages [zest.releaser]: Remove: archive file [/home/abi/fetcher/tmp/zest.releaser-8.0.0a2.tar.gz]
+[2023-07-13 12:09:46] INFO root fetch - processPackages [zest.releaser]: Remove: archive file [/home/abi/fetcher/tmp/zest.releaser-9.0.0a1.tar.gz]
+[2023-07-13 12:09:46] INFO root fetch - main [MainThread]: End processing [zest.releaser]: success
+[2023-07-13 12:09:46] INFO root fetch - main [MainThread]: Store serial: [18873347]
