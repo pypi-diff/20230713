@@ -12568,3 +12568,120 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 08:36:32] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307121017-py3-none-any.whl.zip]
 [2023-07-13 08:36:32] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-13 08:36:32] INFO root fetch - main [MainThread]: Store serial: [18870901]
+[2023-07-13 08:41:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18870901]
+[2023-07-13 08:41:41] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-13 08:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bluetooth-data-tools
+[2023-07-13 08:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-cbn20170912-py2
+[2023-07-13 08:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg
+[2023-07-13 08:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-cbn20170912
+[2023-07-13 08:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfish
+[2023-07-13 08:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cjm-yolox-pytorch
+[2023-07-13 08:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: st-card-component-sssua
+[2023-07-13 08:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aihero
+[2023-07-13 08:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: imesh
+[2023-07-13 08:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: paddle2onnx
+[2023-07-13 08:41:41] WARNING root fetch - processPackages [st-card-component-sssua]: Skipping, unable to determine old version
+[2023-07-13 08:41:41] INFO root fetch - processPackages [st-card-component-sssua]: Start processing: awsso
+[2023-07-13 08:41:41] INFO root fetch - main [MainThread]: End processing [st-card-component-sssua] error
+[2023-07-13 08:41:41] INFO root fetch - processPackages [alibabacloud-cbn20170912]: New version: [1.0.30] Old Version: [1.0.29]
+[2023-07-13 08:41:41] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 08:41:41] INFO root fetch - processPackages [imesh]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 08:41:41] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 08:41:41] INFO root fetch - processPackages [bluetooth-data-tools]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-07-13 08:41:41] INFO root fetch - processPackages [awsso]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-13 08:41:41] INFO root fetch - processPackages [aihero]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-13 08:41:41] INFO root fetch - processPackages [kfish]: New version: [99.0.202307130637] Old Version: [99.0.202307121019]
+[2023-07-13 08:41:41] INFO root fetch - processPackages [paddle2onnx]: New version: [1.0.8rc0] Old Version: [1.0.6]
+[2023-07-13 08:41:41] INFO root fetch - processPackages [cg]: New version: [38.2.7] Old Version: [38.2.6]
+[2023-07-13 08:41:41] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/f8/11/fbb815700a24d95cfbe7365213d0aee80141c751106cf6f5ca79461d9263/imesh-0.0.8.tar.gz
+[2023-07-13 08:41:41] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-13 08:41:41] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/2b/ed/f395cfee323e6c1898dbc7a25064902636aff8e99a09d8d1c2a891741a56/kfish-99.0.202307121019-py3-none-any.whl
+[2023-07-13 08:41:41] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: Downloading https://files.pythonhosted.org/packages/4b/89/8c28c4bbaa9e9b7e8211e98f9a6b6a8e055a25c2e008adca13a1d1ce7f37/alibabacloud_cbn20170912_py2-1.0.8.tar.gz
+[2023-07-13 08:41:41] INFO root fetch - processPackages [alibabacloud-cbn20170912]: Downloading https://files.pythonhosted.org/packages/46/87/73b40d1bbb0ae14ca1dc96f2d26da99e153b780ea4695f428ecb76ce4e85/alibabacloud_cbn20170912-1.0.29.tar.gz
+[2023-07-13 08:41:41] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/e8/15/a27adc494b4f58d0d909234e40432a7ff9be3e9fa1067346ea1793997c57/cg-38.2.6.tar.gz
+[2023-07-13 08:41:41] INFO root fetch - processPackages [awsso]: Downloading https://files.pythonhosted.org/packages/c1/57/8645dbdd996e1dfa5b60326260e2505515802903cd881ddb33e6b85ca535/awsso-0.3.7.tar.gz
+[2023-07-13 08:41:41] INFO root fetch - processPackages [bluetooth-data-tools]: Downloading https://files.pythonhosted.org/packages/ed/05/002620ce7217a16dabfb16f56f86a5215754a37763e73d0276d9f4430425/bluetooth_data_tools-1.5.0.tar.gz
+[2023-07-13 08:41:41] INFO root fetch - processPackages [aihero]: Downloading https://files.pythonhosted.org/packages/dc/9f/887a8f6947c89760f6794d2e0e2163d3e0f1f06e0fe24f3b1bd5591c214f/aihero-0.1.9.tar.gz
+[2023-07-13 08:41:41] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/9b/8d/a9d2b6ef3ee8c478fed84a6db20ce40bbc8121280b7ede35f9e98d939a5d/imesh-0.0.9.tar.gz
+[2023-07-13 08:41:41] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 08:41:42] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/d1/78/d8462fcc28f4a075172becef3f0146a23d5f4b3c12e5a3235896ddecd203/kfish-99.0.202307130637-py3-none-any.whl
+[2023-07-13 08:41:42] INFO root fetch - processPackages [paddle2onnx]: Downloading https://files.pythonhosted.org/packages/85/88/2ad6dc4f5943f3a301e1d825c8e3647521b14a571a12ca1fb0f3cdc7a5ff/paddle2onnx-1.0.6-cp39-cp39-win_amd64.whl
+[2023-07-13 08:41:42] INFO root fetch - processPackages [alibabacloud-cbn20170912]: Downloading https://files.pythonhosted.org/packages/81/bd/95871e371e318634733544c4545cd8f35cbdba7f03ed4a91e9ef23388643/alibabacloud_cbn20170912-1.0.30.tar.gz
+[2023-07-13 08:41:42] INFO root fetch - processPackages [imesh]: executing diffoscope
+[2023-07-13 08:41:42] INFO root fetch - processPackages [imesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imesh-0.0.8.tar.gz tmp/imesh-0.0.9.tar.gz --markdown 20230713/i/imesh/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 08:41:42] INFO root fetch - processPackages [awsso]: Downloading https://files.pythonhosted.org/packages/66/c3/6fc1b622df8825c504aa8ea54396e51591b1d7047c1cb43ca662675eb629/awsso-0.3.8.tar.gz
+[2023-07-13 08:41:42] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: Downloading https://files.pythonhosted.org/packages/23/da/84a5845bd53d463e1b14af3bca2ac9eb7f901404251d6893cff34c8cbc51/alibabacloud_cbn20170912_py2-1.0.9.tar.gz
+[2023-07-13 08:41:42] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 08:41:42] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 08:41:42] INFO root fetch - processPackages [aihero]: Downloading https://files.pythonhosted.org/packages/44/1c/98acc767c28fe502ecb86e6d683fa58ed9f27c9a4127d0b643f6129ba139/aihero-0.2.0.tar.gz
+[2023-07-13 08:41:42] INFO root fetch - processPackages [bluetooth-data-tools]: Downloading https://files.pythonhosted.org/packages/3e/94/a48e5a6a08ec8eb1d7066174ad3ff9a02f433981b1a838fbca9710bc207f/bluetooth_data_tools-1.6.0.tar.gz
+[2023-07-13 08:41:42] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-13 08:41:42] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307121019-py3-none-any.whl.zip tmp/kfish-99.0.202307130637-py3-none-any.whl.zip --markdown 20230713/k/kfish/99.0.202307121019-99.0.202307130637/diff.md --exclude *.pyd
+[2023-07-13 08:41:42] INFO root fetch - processPackages [awsso]: executing diffoscope
+[2023-07-13 08:41:42] INFO root fetch - processPackages [awsso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsso-0.3.7.tar.gz tmp/awsso-0.3.8.tar.gz --markdown 20230713/a/awsso/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-13 08:41:42] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/f8/b1/112b862ae6d75d1ed53ae118a8156b33e3aac20436ef2ed085c34b52c905/cg-38.2.7.tar.gz
+[2023-07-13 08:41:42] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: executing diffoscope
+[2023-07-13 08:41:42] INFO root fetch - processPackages [alibabacloud-cbn20170912]: executing diffoscope
+[2023-07-13 08:41:42] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cbn20170912_py2-1.0.8.tar.gz tmp/alibabacloud_cbn20170912_py2-1.0.9.tar.gz --markdown 20230713/a/alibabacloud-cbn20170912-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 08:41:42] INFO root fetch - processPackages [alibabacloud-cbn20170912]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cbn20170912-1.0.29.tar.gz tmp/alibabacloud_cbn20170912-1.0.30.tar.gz --markdown 20230713/a/alibabacloud-cbn20170912/1.0.29-1.0.30/diff.md --exclude *.pyd
+[2023-07-13 08:41:42] INFO root fetch - processPackages [aihero]: executing diffoscope
+[2023-07-13 08:41:42] INFO root fetch - processPackages [aihero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihero-0.1.9.tar.gz tmp/aihero-0.2.0.tar.gz --markdown 20230713/a/aihero/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-13 08:41:42] INFO root fetch - processPackages [bluetooth-data-tools]: executing diffoscope
+[2023-07-13 08:41:42] INFO root fetch - processPackages [bluetooth-data-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluetooth_data_tools-1.5.0.tar.gz tmp/bluetooth_data_tools-1.6.0.tar.gz --markdown 20230713/b/bluetooth-data-tools/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-07-13 08:41:42] INFO root fetch - processPackages [paddle2onnx]: Downloading https://files.pythonhosted.org/packages/2e/93/dc45f7290750fbb409366efabcf54c6ce950680e329f486995e03a31ff11/paddle2onnx-1.0.8rc0-cp310-cp310-macosx_11_0_arm64.whl
+[2023-07-13 08:41:43] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-13 08:41:43] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-38.2.6.tar.gz tmp/cg-38.2.7.tar.gz --markdown 20230713/c/cg/38.2.6-38.2.7/diff.md --exclude *.pyd
+[2023-07-13 08:41:43] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307121019-py3-none-any.whl.zip]
+[2023-07-13 08:41:43] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307130637-py3-none-any.whl.zip]
+[2023-07-13 08:41:43] INFO root fetch - processPackages [kfish]: Start processing: tootbot
+[2023-07-13 08:41:43] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-13 08:41:44] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-13 08:41:44] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 08:41:44] INFO root fetch - processPackages [cjm-yolox-pytorch]: Start processing: cjm-yolox-pytorch
+[2023-07-13 08:41:44] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 08:41:44] INFO root fetch - processPackages [tootbot]: New version: [7.3.0] Old Version: [7.2.0]
+[2023-07-13 08:41:44] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 08:41:44] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-13 08:41:44] INFO root fetch - processPackages [awsso]: Remove: archive file [/home/abi/fetcher/tmp/awsso-0.3.7.tar.gz]
+[2023-07-13 08:41:44] INFO root fetch - processPackages [awsso]: Remove: archive file [/home/abi/fetcher/tmp/awsso-0.3.8.tar.gz]
+[2023-07-13 08:41:44] INFO root fetch - processPackages [awsso]: Start processing: dcg-service
+[2023-07-13 08:41:44] INFO root fetch - main [MainThread]: End processing [awsso]: success
+[2023-07-13 08:41:44] INFO root fetch - processPackages [aihero]: Remove: archive file [/home/abi/fetcher/tmp/aihero-0.1.9.tar.gz]
+[2023-07-13 08:41:44] INFO root fetch - processPackages [aihero]: Remove: archive file [/home/abi/fetcher/tmp/aihero-0.2.0.tar.gz]
+[2023-07-13 08:41:44] INFO root fetch - main [MainThread]: End processing [aihero]: success
+[2023-07-13 08:41:44] INFO root fetch - processPackages [tootbot]: Downloading https://files.pythonhosted.org/packages/41/62/036f59073c8d7437aa971a6bfb5d71b472d09fe501676e04b95f984a1a79/tootbot-7.2.0.tar.gz
+[2023-07-13 08:41:44] WARNING root fetch - processPackages [dcg-service]: Skipping, unable to determine old version
+[2023-07-13 08:41:44] INFO root fetch - main [MainThread]: End processing [dcg-service] error
+[2023-07-13 08:41:44] INFO root fetch - processPackages [paddle2onnx]: executing diffoscope
+[2023-07-13 08:41:44] INFO root fetch - processPackages [paddle2onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddle2onnx-1.0.6-cp39-cp39-win_amd64.whl.zip tmp/paddle2onnx-1.0.8rc0-cp310-cp310-macosx_11_0_arm64.whl.zip --markdown 20230713/p/paddle2onnx/1.0.6-1.0.8rc0/diff.md --exclude *.pyd
+[2023-07-13 08:41:44] INFO root fetch - processPackages [bluetooth-data-tools]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth_data_tools-1.5.0.tar.gz]
+[2023-07-13 08:41:44] INFO root fetch - processPackages [bluetooth-data-tools]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth_data_tools-1.6.0.tar.gz]
+[2023-07-13 08:41:44] INFO root fetch - main [MainThread]: End processing [bluetooth-data-tools]: success
+[2023-07-13 08:41:44] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 08:41:44] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 08:41:44] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 08:41:44] INFO root fetch - processPackages [tootbot]: Downloading https://files.pythonhosted.org/packages/0a/6f/a7a7e493ce897b5c2ae67655d2b6d9785d2b8674b359045557b1c6adf92a/tootbot-7.3.0.tar.gz
+[2023-07-13 08:41:44] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cbn20170912_py2-1.0.8.tar.gz]
+[2023-07-13 08:41:44] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cbn20170912_py2-1.0.9.tar.gz]
+[2023-07-13 08:41:44] INFO root fetch - main [MainThread]: End processing [alibabacloud-cbn20170912-py2]: success
+[2023-07-13 08:41:44] INFO root fetch - processPackages [tootbot]: executing diffoscope
+[2023-07-13 08:41:44] INFO root fetch - processPackages [tootbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tootbot-7.2.0.tar.gz tmp/tootbot-7.3.0.tar.gz --markdown 20230713/t/tootbot/7.2.0-7.3.0/diff.md --exclude *.pyd
+[2023-07-13 08:41:45] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.8.tar.gz]
+[2023-07-13 08:41:45] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.9.tar.gz]
+[2023-07-13 08:41:45] INFO root fetch - main [MainThread]: End processing [imesh]: success
+[2023-07-13 08:41:45] INFO root fetch - processPackages [alibabacloud-cbn20170912]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cbn20170912-1.0.29.tar.gz]
+[2023-07-13 08:41:45] INFO root fetch - processPackages [alibabacloud-cbn20170912]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cbn20170912-1.0.30.tar.gz]
+[2023-07-13 08:41:45] INFO root fetch - main [MainThread]: End processing [alibabacloud-cbn20170912]: success
+[2023-07-13 08:41:45] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-13 08:41:45] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 08:41:45] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 08:41:46] INFO root fetch - processPackages [tootbot]: Remove: archive file [/home/abi/fetcher/tmp/tootbot-7.2.0.tar.gz]
+[2023-07-13 08:41:46] INFO root fetch - processPackages [tootbot]: Remove: archive file [/home/abi/fetcher/tmp/tootbot-7.3.0.tar.gz]
+[2023-07-13 08:41:46] INFO root fetch - main [MainThread]: End processing [tootbot]: success
+[2023-07-13 08:41:46] INFO root fetch - processPackages [paddle2onnx]: Remove: archive file [/home/abi/fetcher/tmp/paddle2onnx-1.0.6-cp39-cp39-win_amd64.whl.zip]
+[2023-07-13 08:41:46] INFO root fetch - processPackages [paddle2onnx]: Remove: archive file [/home/abi/fetcher/tmp/paddle2onnx-1.0.8rc0-cp310-cp310-macosx_11_0_arm64.whl.zip]
+[2023-07-13 08:41:46] INFO root fetch - main [MainThread]: End processing [paddle2onnx]: success
+[2023-07-13 08:41:50] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.2.6.tar.gz]
+[2023-07-13 08:41:50] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.2.7.tar.gz]
+[2023-07-13 08:41:50] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-13 08:41:50] INFO root fetch - main [MainThread]: Store serial: [18870970]
