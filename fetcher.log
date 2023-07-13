@@ -10241,3 +10241,149 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 07:00:32] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
 [2023-07-13 07:00:32] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-07-13 07:00:32] INFO root fetch - main [MainThread]: Store serial: [18870073]
+[2023-07-13 07:05:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18870073]
+[2023-07-13 07:05:42] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-13 07:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-seleniumbase
+[2023-07-13 07:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selenium-base
+[2023-07-13 07:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sbase
+[2023-07-13 07:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-sbase
+[2023-07-13 07:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abi3info
+[2023-07-13 07:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: podcast-summarizer
+[2023-07-13 07:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imjoy-rpc
+[2023-07-13 07:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cjm-yolox-pytorch
+[2023-07-13 07:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mqtts-lightning
+[2023-07-13 07:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: honeybee-radiance
+[2023-07-13 07:05:43] INFO root fetch - processPackages [pytest-seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-13 07:05:43] INFO root fetch - processPackages [mqtts-lightning]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-13 07:05:43] INFO root fetch - processPackages [podcast-summarizer]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-13 07:05:43] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 07:05:43] INFO root fetch - processPackages [abi3info]: New version: [2023.7.13] Old Version: [2023.7.11]
+[2023-07-13 07:05:43] INFO root fetch - processPackages [honeybee-radiance]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-13 07:05:43] INFO root fetch - processPackages [imjoy-rpc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-13 07:05:43] INFO root fetch - processPackages [sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-13 07:05:43] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-13 07:05:43] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-13 07:05:43] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/40/bb/757cad3c5535e64c18cee852b145a86e4d539878bd9dce7c2934bcfb972d/pytest-seleniumbase-4.9.8.tar.gz
+[2023-07-13 07:05:43] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-13 07:05:43] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/48/ae/cca3e8aac6a72593fde7860cbf91882050c1a465c316efc2e0472bfa36e1/honeybee-radiance-1.9.1.tar.gz
+[2023-07-13 07:05:43] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/10/f9/904caa9ffcdc6c4e7625f527d7ff03e2ccbecc9c360a7557b298321e506d/sbase-4.9.8.tar.gz
+[2023-07-13 07:05:43] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/62/bf/e0cd8c6c4bfbc73547dd7a58b65fe8314743f962e1771888a1e6a088b01d/imjoy-rpc-0.5.8.tar.gz
+[2023-07-13 07:05:43] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/49/eb/ad6c55d2af108681e38505aff036aef13544a2d1c09817221f499826a6f9/selenium-base-4.9.8.tar.gz
+[2023-07-13 07:05:43] INFO root fetch - processPackages [mqtts-lightning]: Downloading https://files.pythonhosted.org/packages/f0/f6/25ddfd850e5d16e1c36d08e41b81b25bd52aad11ce21929b6cfaf3131cf9/mqtts_lightning-0.1.0.tar.gz
+[2023-07-13 07:05:43] INFO root fetch - processPackages [abi3info]: Downloading https://files.pythonhosted.org/packages/2d/28/793ca20d6a2e47370e5b3919c6997154c5bf016c8ed005c5ad65a9af8001/abi3info-2023.7.11.tar.gz
+[2023-07-13 07:05:43] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/91/87/a1223948d4bac31ab82915c4e7a930c22af874859aa805d6c3abd6b5bb3e/pytest-sbase-4.9.8.tar.gz
+[2023-07-13 07:05:43] INFO root fetch - processPackages [podcast-summarizer]: Downloading https://files.pythonhosted.org/packages/51/12/a90775305e4284ffd01284e02397040db90d2ffe84afc1efc700353431df/podcast_summarizer-0.2.2.tar.gz
+[2023-07-13 07:05:43] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 07:05:43] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/34/03/c67c6c24b8d7c3e49595b97d914034cf101d3d1d029f9e9453f497e0937a/pytest-seleniumbase-4.9.9.tar.gz
+[2023-07-13 07:05:43] INFO root fetch - processPackages [podcast-summarizer]: executing diffoscope
+[2023-07-13 07:05:43] INFO root fetch - processPackages [podcast-summarizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podcast_summarizer-0.2.1.tar.gz tmp/podcast_summarizer-0.2.2.tar.gz --markdown 20230713/p/podcast-summarizer/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-13 07:05:44] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/32/2c/24a2fd77d69514d794a4e4c8db3307e0ef3e19e0338c3edb6bf7bdd4d021/imjoy-rpc-0.5.9.tar.gz
+[2023-07-13 07:05:44] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/50/24/71a3a4863bb39caef68dcd79f1b380133b1f1968426af26bc9c4812376d1/honeybee-radiance-1.9.2.tar.gz
+[2023-07-13 07:05:44] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/d2/57/c23bf788f4a8fba6ef62c68be73c8fb443dc5aa71c69b03726c1254377f7/sbase-4.9.9.tar.gz
+[2023-07-13 07:05:44] INFO root fetch - processPackages [mqtts-lightning]: Downloading https://files.pythonhosted.org/packages/ba/19/a996ac358fc0af43b9f40c3fad10c306f070f56030d8d3e82e7e795e6a47/mqtts_lightning-0.1.1-py3-none-any.whl
+[2023-07-13 07:05:44] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/0a/3b/8bdd54f85b1550af5050c8683212c3f88b854c0ef99e22fa6fe216094900/selenium-base-4.9.9.tar.gz
+[2023-07-13 07:05:44] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 07:05:44] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 07:05:44] INFO root fetch - processPackages [abi3info]: Downloading https://files.pythonhosted.org/packages/cc/f6/53ee1ad6396a21ddd92e7a386ed59c926a4583b904fa9224b603496d5839/abi3info-2023.7.13.tar.gz
+[2023-07-13 07:05:44] INFO root fetch - processPackages [imjoy-rpc]: executing diffoscope
+[2023-07-13 07:05:44] INFO root fetch - processPackages [imjoy-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imjoy-rpc-0.5.8.tar.gz tmp/imjoy-rpc-0.5.9.tar.gz --markdown 20230713/i/imjoy-rpc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-13 07:05:44] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/ea/6c/61da56c0f8d30ee6ecfbf486bd770ce073eba9a09e63981ae35863a37cb0/pytest-sbase-4.9.9.tar.gz
+[2023-07-13 07:05:44] INFO root fetch - processPackages [mqtts-lightning]: executing diffoscope
+[2023-07-13 07:05:44] INFO root fetch - processPackages [mqtts-lightning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqtts_lightning-0.1.0.tar.gz tmp/mqtts_lightning-0.1.1-py3-none-any.whl.zip --markdown 20230713/m/mqtts-lightning/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-13 07:05:44] INFO root fetch - processPackages [honeybee-radiance]: executing diffoscope
+[2023-07-13 07:05:44] INFO root fetch - processPackages [honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-1.9.1.tar.gz tmp/honeybee-radiance-1.9.2.tar.gz --markdown 20230713/h/honeybee-radiance/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-13 07:05:44] INFO root fetch - processPackages [abi3info]: executing diffoscope
+[2023-07-13 07:05:44] INFO root fetch - processPackages [abi3info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abi3info-2023.7.11.tar.gz tmp/abi3info-2023.7.13.tar.gz --markdown 20230713/a/abi3info/2023.7.11-2023.7.13/diff.md --exclude *.pyd
+[2023-07-13 07:05:44] INFO root fetch - processPackages [sbase]: executing diffoscope
+[2023-07-13 07:05:44] INFO root fetch - processPackages [sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbase-4.9.8.tar.gz tmp/sbase-4.9.9.tar.gz --markdown 20230713/s/sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-13 07:05:44] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2023-07-13 07:05:44] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20230713/s/selenium-base/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-13 07:05:44] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2023-07-13 07:05:44] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20230713/p/pytest-sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-13 07:05:44] INFO root fetch - processPackages [pytest-seleniumbase]: executing diffoscope
+[2023-07-13 07:05:44] INFO root fetch - processPackages [pytest-seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-seleniumbase-4.9.8.tar.gz tmp/pytest-seleniumbase-4.9.9.tar.gz --markdown 20230713/p/pytest-seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-13 07:05:45] INFO root fetch - processPackages [podcast-summarizer]: Remove: archive file [/home/abi/fetcher/tmp/podcast_summarizer-0.2.1.tar.gz]
+[2023-07-13 07:05:45] INFO root fetch - processPackages [podcast-summarizer]: Remove: archive file [/home/abi/fetcher/tmp/podcast_summarizer-0.2.2.tar.gz]
+[2023-07-13 07:05:45] INFO root fetch - processPackages [podcast-summarizer]: Start processing: dragonfly-core
+[2023-07-13 07:05:45] INFO root fetch - main [MainThread]: End processing [podcast-summarizer]: success
+[2023-07-13 07:05:45] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-13 07:05:45] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/93/fd/7cad9d4c9406e421f7ce31b725936bb32ec8a421f9b143e829c33cae55dd/dragonfly-core-1.8.1.tar.gz
+[2023-07-13 07:05:45] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/75/cb/4a1ce4726a070a188305b8d5343b4300bf24190845d85c8718cc31aa3e53/dragonfly-core-1.9.0.tar.gz
+[2023-07-13 07:05:45] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-13 07:05:45] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 07:05:45] INFO root fetch - processPackages [cjm-yolox-pytorch]: Start processing: honeybee-energy
+[2023-07-13 07:05:45] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 07:05:45] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.8.tar.gz]
+[2023-07-13 07:05:45] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.9.tar.gz]
+[2023-07-13 07:05:45] INFO root fetch - processPackages [mqtts-lightning]: Remove: archive file [/home/abi/fetcher/tmp/mqtts_lightning-0.1.0.tar.gz]
+[2023-07-13 07:05:45] INFO root fetch - processPackages [imjoy-rpc]: Start processing: vernum
+[2023-07-13 07:05:45] INFO root fetch - main [MainThread]: End processing [imjoy-rpc]: success
+[2023-07-13 07:05:45] INFO root fetch - processPackages [mqtts-lightning]: Remove: archive file [/home/abi/fetcher/tmp/mqtts_lightning-0.1.1-py3-none-any.whl.zip]
+[2023-07-13 07:05:45] INFO root fetch - processPackages [mqtts-lightning]: Start processing: jsonschema-default
+[2023-07-13 07:05:45] INFO root fetch - main [MainThread]: End processing [mqtts-lightning]: success
+[2023-07-13 07:05:45] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2023-07-13 07:05:45] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20230713/d/dragonfly-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-13 07:05:45] INFO root fetch - processPackages [honeybee-energy]: New version: [1.99.9] Old Version: [1.99.8]
+[2023-07-13 07:05:45] INFO root fetch - processPackages [vernum]: New version: [3.2.0] Old Version: [3.1.5]
+[2023-07-13 07:05:46] INFO root fetch - processPackages [jsonschema-default]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-07-13 07:05:46] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/b1/ab/c8fb70e349d71cce95bac52782f7ea0659a6987ed84dd41c7fe2ef40806c/honeybee-energy-1.99.8.tar.gz
+[2023-07-13 07:05:46] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.8.tar.gz]
+[2023-07-13 07:05:46] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.9.tar.gz]
+[2023-07-13 07:05:46] INFO root fetch - processPackages [sbase]: Start processing: cdk8s-jenkins
+[2023-07-13 07:05:46] INFO root fetch - main [MainThread]: End processing [sbase]: success
+[2023-07-13 07:05:46] INFO root fetch - processPackages [abi3info]: Remove: archive file [/home/abi/fetcher/tmp/abi3info-2023.7.11.tar.gz]
+[2023-07-13 07:05:46] INFO root fetch - processPackages [vernum]: Downloading https://files.pythonhosted.org/packages/84/e6/930e73fcc07e029492368518482e43bd77cc2e3533d36c914acbb7d829bc/vernum-3.1.5.tar.gz
+[2023-07-13 07:05:46] INFO root fetch - processPackages [abi3info]: Remove: archive file [/home/abi/fetcher/tmp/abi3info-2023.7.13.tar.gz]
+[2023-07-13 07:05:46] INFO root fetch - processPackages [abi3info]: Start processing: cjm-yolox-pytorch
+[2023-07-13 07:05:46] INFO root fetch - main [MainThread]: End processing [abi3info]: success
+[2023-07-13 07:05:46] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.8.tar.gz]
+[2023-07-13 07:05:46] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.9.tar.gz]
+[2023-07-13 07:05:46] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2023-07-13 07:05:46] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.8.tar.gz]
+[2023-07-13 07:05:46] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.9.tar.gz]
+[2023-07-13 07:05:46] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2023-07-13 07:05:46] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 07:05:46] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.8.tar.gz]
+[2023-07-13 07:05:46] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.9.tar.gz]
+[2023-07-13 07:05:46] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
+[2023-07-13 07:05:46] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-13 07:05:46] INFO root fetch - processPackages [cdk8s-jenkins]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-13 07:05:46] INFO root fetch - processPackages [jsonschema-default]: Downloading https://files.pythonhosted.org/packages/15/1b/3bd984ee0b694c61c46c94e43d6effdb153138e5b894b6f6d6a9d6ee6be9/jsonschema-default-1.5.0.tar.gz
+[2023-07-13 07:05:46] INFO root fetch - processPackages [vernum]: Downloading https://files.pythonhosted.org/packages/7d/d7/f4dedf20fb7c07dd8b74a86cc86acb8061764150c9ec5763d1d8b9563f1e/vernum-3.2.0.tar.gz
+[2023-07-13 07:05:46] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 07:05:46] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/90/ba/1d34a887bfae9752a98646fbb4ba086b72cc56f857a5b9642929b03e46f2/cdk8s-jenkins-0.0.98.tar.gz
+[2023-07-13 07:05:46] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 07:05:46] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 07:05:46] INFO root fetch - processPackages [vernum]: executing diffoscope
+[2023-07-13 07:05:46] INFO root fetch - processPackages [vernum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vernum-3.1.5.tar.gz tmp/vernum-3.2.0.tar.gz --markdown 20230713/v/vernum/3.1.5-3.2.0/diff.md --exclude *.pyd
+[2023-07-13 07:05:46] INFO root fetch - processPackages [jsonschema-default]: Downloading https://files.pythonhosted.org/packages/a0/ac/c316b0fb90f9b0cc117a0e8ec6838725058ef1cdc330fb9fb60fdea74bfb/jsonschema_default-1.6.0.tar.gz
+[2023-07-13 07:05:46] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/8d/5e/1bc90eeaf45799cc7d5cda125017c1e4e2cf0ef068cd3db60d971b9596ba/honeybee-energy-1.99.9.tar.gz
+[2023-07-13 07:05:46] INFO root fetch - processPackages [jsonschema-default]: executing diffoscope
+[2023-07-13 07:05:46] INFO root fetch - processPackages [jsonschema-default]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonschema-default-1.5.0.tar.gz tmp/jsonschema_default-1.6.0.tar.gz --markdown 20230713/j/jsonschema-default/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-07-13 07:05:46] INFO root fetch - processPackages [honeybee-energy]: executing diffoscope
+[2023-07-13 07:05:46] INFO root fetch - processPackages [honeybee-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-energy-1.99.8.tar.gz tmp/honeybee-energy-1.99.9.tar.gz --markdown 20230713/h/honeybee-energy/1.99.8-1.99.9/diff.md --exclude *.pyd
+[2023-07-13 07:05:47] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/1d/dc/2404b70a9e64251aafef4957d08604e1863c0d6026d1bd4faf3e70e3e690/cdk8s-jenkins-0.0.99.tar.gz
+[2023-07-13 07:05:47] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.1.tar.gz]
+[2023-07-13 07:05:47] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.2.tar.gz]
+[2023-07-13 07:05:47] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
+[2023-07-13 07:05:47] INFO root fetch - processPackages [cdk8s-jenkins]: executing diffoscope
+[2023-07-13 07:05:47] INFO root fetch - processPackages [cdk8s-jenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-jenkins-0.0.98.tar.gz tmp/cdk8s-jenkins-0.0.99.tar.gz --markdown 20230713/c/cdk8s-jenkins/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-13 07:05:47] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.8.1.tar.gz]
+[2023-07-13 07:05:47] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.9.0.tar.gz]
+[2023-07-13 07:05:47] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2023-07-13 07:05:47] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-13 07:05:47] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 07:05:47] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 07:05:47] INFO root fetch - processPackages [vernum]: Remove: archive file [/home/abi/fetcher/tmp/vernum-3.1.5.tar.gz]
+[2023-07-13 07:05:47] INFO root fetch - processPackages [vernum]: Remove: archive file [/home/abi/fetcher/tmp/vernum-3.2.0.tar.gz]
+[2023-07-13 07:05:47] INFO root fetch - main [MainThread]: End processing [vernum]: success
+[2023-07-13 07:05:47] INFO root fetch - processPackages [jsonschema-default]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema-default-1.5.0.tar.gz]
+[2023-07-13 07:05:47] INFO root fetch - processPackages [jsonschema-default]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema_default-1.6.0.tar.gz]
+[2023-07-13 07:05:47] INFO root fetch - main [MainThread]: End processing [jsonschema-default]: success
+[2023-07-13 07:05:48] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.98.tar.gz]
+[2023-07-13 07:05:48] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.99.tar.gz]
+[2023-07-13 07:05:48] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
+[2023-07-13 07:05:48] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.8.tar.gz]
+[2023-07-13 07:05:48] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
+[2023-07-13 07:05:48] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
+[2023-07-13 07:05:48] INFO root fetch - main [MainThread]: Store serial: [18870120]
