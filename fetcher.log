@@ -11708,3 +11708,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 07:38:08] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
 [2023-07-13 07:38:08] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
 [2023-07-13 07:38:08] INFO root fetch - main [MainThread]: Store serial: [18870511]
+[2023-07-13 07:43:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18870511]
+[2023-07-13 07:43:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-13 07:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nsqdriver
+[2023-07-13 07:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-stock-lock-lot
+[2023-07-13 07:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvidia-smi2
+[2023-07-13 07:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imjoy-rpc
+[2023-07-13 07:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metagpt
+[2023-07-13 07:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mcworldlib
+[2023-07-13 07:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pwed-cdk
+[2023-07-13 07:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rizallogger
+[2023-07-13 07:43:19] WARNING root fetch - processPackages [metagpt]: Skipping, unable to determine old version
+[2023-07-13 07:43:19] INFO root fetch - main [MainThread]: End processing [metagpt] error
+[2023-07-13 07:43:19] INFO root fetch - processPackages [mcworldlib]: New version: [2023.7.13] Old Version: [2023.7]
+[2023-07-13 07:43:19] WARNING root fetch - processPackages [rizallogger]: Skipping, unable to determine old version
+[2023-07-13 07:43:19] INFO root fetch - main [MainThread]: End processing [rizallogger] error
+[2023-07-13 07:43:19] INFO root fetch - processPackages [nvidia-smi2]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 07:43:19] INFO root fetch - processPackages [odoo14-addon-stock-lock-lot]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev4]
+[2023-07-13 07:43:19] INFO root fetch - processPackages [pwed-cdk]: New version: [0.0.67] Old Version: [0.0.66]
+[2023-07-13 07:43:19] INFO root fetch - processPackages [nsqdriver]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-13 07:43:19] INFO root fetch - processPackages [imjoy-rpc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-13 07:43:19] INFO root fetch - processPackages [mcworldlib]: Downloading https://files.pythonhosted.org/packages/8e/3e/e860e212d6197878f93f3430b8f7375cdccaf56246bac9c31d7b56b980af/mcworldlib-2023.7.tar.gz
+[2023-07-13 07:43:19] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/62/bf/e0cd8c6c4bfbc73547dd7a58b65fe8314743f962e1771888a1e6a088b01d/imjoy-rpc-0.5.8.tar.gz
+[2023-07-13 07:43:19] INFO root fetch - processPackages [nvidia-smi2]: Downloading https://files.pythonhosted.org/packages/fa/1a/4872b96ee6910de092a1b2c593f5ec39d956b7726a2a7f4e002d8d973c0a/nvidia-smi2-0.0.1.tar.gz
+[2023-07-13 07:43:19] INFO root fetch - processPackages [odoo14-addon-stock-lock-lot]: Downloading https://files.pythonhosted.org/packages/52/3e/b9e373179f84156287db9e183f38a992df8bf80212f109e14fe72289fae5/odoo14_addon_stock_lock_lot-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-07-13 07:43:19] INFO root fetch - processPackages [nsqdriver]: Downloading https://files.pythonhosted.org/packages/d0/d9/7bb014e32663898c95376f160b88077cbd9e5240ea670815d96cd092eb40/nsqdriver-0.4.1-cp39-cp39-win_amd64.whl
+[2023-07-13 07:43:19] INFO root fetch - processPackages [pwed-cdk]: Downloading https://files.pythonhosted.org/packages/06/2d/d77809d80c50f4485829642ea8845f023b7368e26394ddb969c81c212188/pwed-cdk-0.0.66.tar.gz
+[2023-07-13 07:43:19] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/32/2c/24a2fd77d69514d794a4e4c8db3307e0ef3e19e0338c3edb6bf7bdd4d021/imjoy-rpc-0.5.9.tar.gz
+[2023-07-13 07:43:19] INFO root fetch - processPackages [mcworldlib]: Downloading https://files.pythonhosted.org/packages/a6/8d/af7c81d7ee72bc49172bd4cd12a75f0a450d2db3e884c3fc8a4506d95614/mcworldlib-2023.7.13.tar.gz
+[2023-07-13 07:43:19] INFO root fetch - processPackages [imjoy-rpc]: executing diffoscope
+[2023-07-13 07:43:19] INFO root fetch - processPackages [imjoy-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imjoy-rpc-0.5.8.tar.gz tmp/imjoy-rpc-0.5.9.tar.gz --markdown 20230713/i/imjoy-rpc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-13 07:43:19] INFO root fetch - processPackages [nvidia-smi2]: Downloading https://files.pythonhosted.org/packages/82/1b/8d7f9b28a8b40fc1fb7dd51f9ca4e72e0bc126f5db721be062d0c4ffc4fc/nvidia-smi2-0.0.2.tar.gz
+[2023-07-13 07:43:19] INFO root fetch - processPackages [mcworldlib]: executing diffoscope
+[2023-07-13 07:43:19] INFO root fetch - processPackages [mcworldlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcworldlib-2023.7.tar.gz tmp/mcworldlib-2023.7.13.tar.gz --markdown 20230713/m/mcworldlib/2023.7-2023.7.13/diff.md --exclude *.pyd
+[2023-07-13 07:43:19] INFO root fetch - processPackages [nsqdriver]: Downloading https://files.pythonhosted.org/packages/80/1b/8ba53fac05578853804f71c77188ca8fc898125e4d9b7be58957f744b904/nsqdriver-0.4.2-cp39-cp39-win_amd64.whl
+[2023-07-13 07:43:19] INFO root fetch - processPackages [nvidia-smi2]: executing diffoscope
+[2023-07-13 07:43:19] INFO root fetch - processPackages [nvidia-smi2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-smi2-0.0.1.tar.gz tmp/nvidia-smi2-0.0.2.tar.gz --markdown 20230713/n/nvidia-smi2/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 07:43:19] INFO root fetch - processPackages [nsqdriver]: executing diffoscope
+[2023-07-13 07:43:19] INFO root fetch - processPackages [nsqdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsqdriver-0.4.1-cp39-cp39-win_amd64.whl.zip tmp/nsqdriver-0.4.2-cp39-cp39-win_amd64.whl.zip --markdown 20230713/n/nsqdriver/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-13 07:43:19] INFO root fetch - processPackages [odoo14-addon-stock-lock-lot]: Downloading https://files.pythonhosted.org/packages/3b/b1/287e3b0389963e25ac25f6b39133117a0c9f804e689fdfdde6951df90980/odoo14_addon_stock_lock_lot-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-07-13 07:43:20] INFO root fetch - processPackages [odoo14-addon-stock-lock-lot]: executing diffoscope
+[2023-07-13 07:43:20] INFO root fetch - processPackages [odoo14-addon-stock-lock-lot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_lock_lot-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_stock_lock_lot-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-stock-lock-lot/14.0.1.0.1.dev4-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-07-13 07:43:20] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.8.tar.gz]
+[2023-07-13 07:43:20] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.9.tar.gz]
+[2023-07-13 07:43:20] INFO root fetch - main [MainThread]: End processing [imjoy-rpc]: success
+[2023-07-13 07:43:20] INFO root fetch - processPackages [mcworldlib]: Remove: archive file [/home/abi/fetcher/tmp/mcworldlib-2023.7.tar.gz]
+[2023-07-13 07:43:20] INFO root fetch - processPackages [mcworldlib]: Remove: archive file [/home/abi/fetcher/tmp/mcworldlib-2023.7.13.tar.gz]
+[2023-07-13 07:43:20] INFO root fetch - main [MainThread]: End processing [mcworldlib]: success
+[2023-07-13 07:43:20] INFO root fetch - processPackages [nsqdriver]: Remove: archive file [/home/abi/fetcher/tmp/nsqdriver-0.4.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-13 07:43:20] INFO root fetch - processPackages [nsqdriver]: Remove: archive file [/home/abi/fetcher/tmp/nsqdriver-0.4.2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-13 07:43:20] INFO root fetch - main [MainThread]: End processing [nsqdriver]: success
+[2023-07-13 07:43:20] INFO root fetch - processPackages [nvidia-smi2]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-smi2-0.0.1.tar.gz]
+[2023-07-13 07:43:20] INFO root fetch - processPackages [nvidia-smi2]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-smi2-0.0.2.tar.gz]
+[2023-07-13 07:43:20] INFO root fetch - main [MainThread]: End processing [nvidia-smi2]: success
+[2023-07-13 07:43:21] INFO root fetch - processPackages [odoo14-addon-stock-lock-lot]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_lock_lot-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-07-13 07:43:21] INFO root fetch - processPackages [odoo14-addon-stock-lock-lot]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_lock_lot-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-07-13 07:43:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-lock-lot]: success
+[2023-07-13 07:43:24] INFO root fetch - processPackages [pwed-cdk]: Downloading https://files.pythonhosted.org/packages/ee/69/d7ead62648c2591b4aa57a2087c8b85930a40ed7cc5f88b3a95b0ba2b3e6/pwed-cdk-0.0.67.tar.gz
+[2023-07-13 07:43:24] INFO root fetch - processPackages [pwed-cdk]: executing diffoscope
+[2023-07-13 07:43:24] INFO root fetch - processPackages [pwed-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwed-cdk-0.0.66.tar.gz tmp/pwed-cdk-0.0.67.tar.gz --markdown 20230713/p/pwed-cdk/0.0.66-0.0.67/diff.md --exclude *.pyd
+[2023-07-13 07:43:25] INFO root fetch - processPackages [pwed-cdk]: Remove: archive file [/home/abi/fetcher/tmp/pwed-cdk-0.0.66.tar.gz]
+[2023-07-13 07:43:25] INFO root fetch - processPackages [pwed-cdk]: Remove: archive file [/home/abi/fetcher/tmp/pwed-cdk-0.0.67.tar.gz]
+[2023-07-13 07:43:25] INFO root fetch - main [MainThread]: End processing [pwed-cdk]: success
+[2023-07-13 07:43:25] INFO root fetch - main [MainThread]: Store serial: [18870550]
