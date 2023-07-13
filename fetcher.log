@@ -9990,3 +9990,254 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 06:55:12] INFO root fetch - processPackages [odoo8-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_base_report_to_printer-8.0.0.2.0.99.dev9-py2-none-any.whl.zip]
 [2023-07-13 06:55:12] INFO root fetch - main [MainThread]: End processing [odoo8-addon-base-report-to-printer]: success
 [2023-07-13 06:55:12] INFO root fetch - main [MainThread]: Store serial: [18870007]
+[2023-07-13 07:00:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18870007]
+[2023-07-13 07:00:21] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-07-13 07:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdocsync
+[2023-07-13 07:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-base-report-to-printer
+[2023-07-13 07:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-base-report-to-printer
+[2023-07-13 07:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-base-report-to-printer
+[2023-07-13 07:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yalexs-ble
+[2023-07-13 07:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: niche-cv
+[2023-07-13 07:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cjm-yolox-pytorch
+[2023-07-13 07:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-base-comment-template
+[2023-07-13 07:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-base-comment-template
+[2023-07-13 07:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-base-comment-template
+[2023-07-13 07:00:21] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: New version: [14.0.2.0.2.dev9] Old Version: [14.0.2.0.2.dev8]
+[2023-07-13 07:00:21] INFO root fetch - processPackages [odoo14-addon-base-comment-template]: New version: [14.0.4.0.2.dev2] Old Version: [14.0.4.0.2.dev1]
+[2023-07-13 07:00:21] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: New version: [16.0.1.1.2.2] Old Version: [16.0.1.1.2.1]
+[2023-07-13 07:00:21] INFO root fetch - processPackages [odoo-addon-base-comment-template]: New version: [16.0.2.0.0.6] Old Version: [16.0.2.0.0.5]
+[2023-07-13 07:00:21] INFO root fetch - processPackages [gdocsync]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-13 07:00:21] INFO root fetch - processPackages [odoo-addon-base-comment-template]: New version: [16.0.2.0.0.6] Old Version: [16.0.2.0.0.5]
+[2023-07-13 07:00:21] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: New version: [16.0.1.1.2.2] Old Version: [16.0.1.1.2.1]
+[2023-07-13 07:00:21] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 07:00:21] INFO root fetch - processPackages [niche-cv]: New version: [0.0.2] Old Version: [0.0.10]
+[2023-07-13 07:00:21] INFO root fetch - processPackages [yalexs-ble]: New version: [2.2.0] Old Version: [2.1.9]
+[2023-07-13 07:00:21] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/cc/62/5b9e5c732e334f8654be03c08f637c2303249be4371506c01fa33a51e1c8/odoo_addon_base_report_to_printer-16.0.1.1.2.1-py3-none-any.whl
+[2023-07-13 07:00:21] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-13 07:00:22] INFO root fetch - processPackages [gdocsync]: Downloading https://files.pythonhosted.org/packages/9d/89/dc4b86920fc70c21e55994fdd0af3226d9452cb391046e165978cba8f84b/gdocsync-0.0.5.tar.gz
+[2023-07-13 07:00:22] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/cc/62/5b9e5c732e334f8654be03c08f637c2303249be4371506c01fa33a51e1c8/odoo_addon_base_report_to_printer-16.0.1.1.2.1-py3-none-any.whl
+[2023-07-13 07:00:22] INFO root fetch - processPackages [niche-cv]: Downloading https://files.pythonhosted.org/packages/44/91/7bd0e6a200f47e7236a9d35eaa0a081c4ab7ce9e20242f5ace606522b446/niche_cv-0.0.10.tar.gz
+[2023-07-13 07:00:22] INFO root fetch - processPackages [odoo14-addon-base-comment-template]: Downloading https://files.pythonhosted.org/packages/c1/0f/970b639bab035eb43953422530d411683086c7b39085c2cb79881cb1c7e0/odoo14_addon_base_comment_template-14.0.4.0.2.dev1-py3-none-any.whl
+[2023-07-13 07:00:22] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/90/2d/e2b26f37fc053c7372a39968b5a538c215813465260b02bcf24cc7d4e864/odoo14_addon_base_report_to_printer-14.0.2.0.2.dev8-py3-none-any.whl
+[2023-07-13 07:00:22] INFO root fetch - processPackages [yalexs-ble]: Downloading https://files.pythonhosted.org/packages/d3/c0/1359ed4958f4289a61ea70d0a5f5b97ff6c2976c3f26d846f403c12cd4f2/yalexs_ble-2.1.9.tar.gz
+[2023-07-13 07:00:22] INFO root fetch - processPackages [odoo-addon-base-comment-template]: Downloading https://files.pythonhosted.org/packages/88/33/7412802750dcfab0e96a4cf768f7f5ff6de9a5e5f76526ba5bb8e8d7eb84/odoo_addon_base_comment_template-16.0.2.0.0.5-py3-none-any.whl
+[2023-07-13 07:00:22] INFO root fetch - processPackages [odoo-addon-base-comment-template]: Downloading https://files.pythonhosted.org/packages/88/33/7412802750dcfab0e96a4cf768f7f5ff6de9a5e5f76526ba5bb8e8d7eb84/odoo_addon_base_comment_template-16.0.2.0.0.5-py3-none-any.whl
+[2023-07-13 07:00:22] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 07:00:22] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/85/96/8b8fa91c230ce1cb82b1fb94c675b2d2dff8e4a0456fac57ccc25791261e/odoo_addon_base_report_to_printer-16.0.1.1.2.2-py3-none-any.whl
+[2023-07-13 07:00:22] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/85/96/8b8fa91c230ce1cb82b1fb94c675b2d2dff8e4a0456fac57ccc25791261e/odoo_addon_base_report_to_printer-16.0.1.1.2.2-py3-none-any.whl
+[2023-07-13 07:00:22] INFO root fetch - processPackages [niche-cv]: Downloading https://files.pythonhosted.org/packages/7b/56/f95d0aaef4e8ddc19caa107f0a76d617034b538b56bea473fa79a9628e96/niche_cv-0.0.2.tar.gz
+[2023-07-13 07:00:22] INFO root fetch - processPackages [gdocsync]: Downloading https://files.pythonhosted.org/packages/24/bc/53f6d01e6df1e56341e14e4f23092fd8ec90f03412ed070991301dbeec5a/gdocsync-0.0.6.tar.gz
+[2023-07-13 07:00:22] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 07:00:22] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 07:00:22] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: executing diffoscope
+[2023-07-13 07:00:22] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_report_to_printer-16.0.1.1.2.1-py3-none-any.whl.zip tmp/odoo_addon_base_report_to_printer-16.0.1.1.2.2-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-base-report-to-printer/16.0.1.1.2.1-16.0.1.1.2.2/diff.md --exclude *.pyd
+[2023-07-13 07:00:22] INFO root fetch - processPackages [yalexs-ble]: Downloading https://files.pythonhosted.org/packages/d2/57/8d3ead981ebbca4c40cadbd6871e45443d707ccec95012e322769d670b09/yalexs_ble-2.2.0.tar.gz
+[2023-07-13 07:00:22] INFO root fetch - processPackages [odoo14-addon-base-comment-template]: Downloading https://files.pythonhosted.org/packages/ae/f6/508baf2745cc6574ff6df88d84ce2ce140fb2a86a128ea0c5822c7c8fce8/odoo14_addon_base_comment_template-14.0.4.0.2.dev2-py3-none-any.whl
+[2023-07-13 07:00:22] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: executing diffoscope
+[2023-07-13 07:00:22] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_report_to_printer-16.0.1.1.2.1-py3-none-any.whl.zip tmp/odoo_addon_base_report_to_printer-16.0.1.1.2.2-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-base-report-to-printer/16.0.1.1.2.1-16.0.1.1.2.2/diff.md --exclude *.pyd
+[2023-07-13 07:00:22] INFO root fetch - processPackages [niche-cv]: executing diffoscope
+[2023-07-13 07:00:22] INFO root fetch - processPackages [niche-cv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niche_cv-0.0.10.tar.gz tmp/niche_cv-0.0.2.tar.gz --markdown 20230713/n/niche-cv/0.0.10-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 07:00:22] INFO root fetch - processPackages [gdocsync]: executing diffoscope
+[2023-07-13 07:00:22] INFO root fetch - processPackages [gdocsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdocsync-0.0.5.tar.gz tmp/gdocsync-0.0.6.tar.gz --markdown 20230713/g/gdocsync/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-13 07:00:22] INFO root fetch - processPackages [odoo-addon-base-comment-template]: Downloading https://files.pythonhosted.org/packages/c5/99/9ecebb2a5ffd85d222f4642bad635a7379f369c1be5737a3e83ecc83ac2b/odoo_addon_base_comment_template-16.0.2.0.0.6-py3-none-any.whl
+[2023-07-13 07:00:22] INFO root fetch - processPackages [odoo-addon-base-comment-template]: Downloading https://files.pythonhosted.org/packages/c5/99/9ecebb2a5ffd85d222f4642bad635a7379f369c1be5737a3e83ecc83ac2b/odoo_addon_base_comment_template-16.0.2.0.0.6-py3-none-any.whl
+[2023-07-13 07:00:22] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/10/9b/5ae75d8e6ddb94ade0eb92e74940c2ae5fbffa1ba761875e1f47a59b58f4/odoo14_addon_base_report_to_printer-14.0.2.0.2.dev9-py3-none-any.whl
+[2023-07-13 07:00:23] INFO root fetch - processPackages [odoo14-addon-base-comment-template]: executing diffoscope
+[2023-07-13 07:00:23] INFO root fetch - processPackages [odoo14-addon-base-comment-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_comment_template-14.0.4.0.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_base_comment_template-14.0.4.0.2.dev2-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-base-comment-template/14.0.4.0.2.dev1-14.0.4.0.2.dev2/diff.md --exclude *.pyd
+[2023-07-13 07:00:23] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: executing diffoscope
+[2023-07-13 07:00:23] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_report_to_printer-14.0.2.0.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_base_report_to_printer-14.0.2.0.2.dev9-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-base-report-to-printer/14.0.2.0.2.dev8-14.0.2.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-13 07:00:23] INFO root fetch - processPackages [yalexs-ble]: executing diffoscope
+[2023-07-13 07:00:23] INFO root fetch - processPackages [yalexs-ble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yalexs_ble-2.1.9.tar.gz tmp/yalexs_ble-2.2.0.tar.gz --markdown 20230713/y/yalexs-ble/2.1.9-2.2.0/diff.md --exclude *.pyd
+[2023-07-13 07:00:23] INFO root fetch - processPackages [odoo-addon-base-comment-template]: executing diffoscope
+[2023-07-13 07:00:23] INFO root fetch - processPackages [odoo-addon-base-comment-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_comment_template-16.0.2.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_base_comment_template-16.0.2.0.0.6-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-base-comment-template/16.0.2.0.0.5-16.0.2.0.0.6/diff.md --exclude *.pyd
+[2023-07-13 07:00:23] INFO root fetch - processPackages [odoo-addon-base-comment-template]: executing diffoscope
+[2023-07-13 07:00:23] INFO root fetch - processPackages [odoo-addon-base-comment-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_comment_template-16.0.2.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_base_comment_template-16.0.2.0.0.6-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-base-comment-template/16.0.2.0.0.5-16.0.2.0.0.6/diff.md --exclude *.pyd
+[2023-07-13 07:00:24] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-13 07:00:24] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 07:00:24] INFO root fetch - processPackages [cjm-yolox-pytorch]: Start processing: chalkpy
+[2023-07-13 07:00:24] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 07:00:24] INFO root fetch - processPackages [niche-cv]: Remove: archive file [/home/abi/fetcher/tmp/niche_cv-0.0.10.tar.gz]
+[2023-07-13 07:00:24] INFO root fetch - processPackages [niche-cv]: Remove: archive file [/home/abi/fetcher/tmp/niche_cv-0.0.2.tar.gz]
+[2023-07-13 07:00:24] INFO root fetch - processPackages [niche-cv]: Start processing: podcast-summarizer
+[2023-07-13 07:00:24] INFO root fetch - main [MainThread]: End processing [niche-cv]: success
+[2023-07-13 07:00:24] INFO root fetch - processPackages [podcast-summarizer]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-13 07:00:24] INFO root fetch - processPackages [gdocsync]: Remove: archive file [/home/abi/fetcher/tmp/gdocsync-0.0.5.tar.gz]
+[2023-07-13 07:00:24] INFO root fetch - processPackages [gdocsync]: Remove: archive file [/home/abi/fetcher/tmp/gdocsync-0.0.6.tar.gz]
+[2023-07-13 07:00:24] INFO root fetch - processPackages [gdocsync]: Start processing: ccxt
+[2023-07-13 07:00:24] INFO root fetch - main [MainThread]: End processing [gdocsync]: success
+[2023-07-13 07:00:24] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-07-13 07:00:24] INFO root fetch - processPackages [ccxt]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-13 07:00:24] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2023-07-13 07:00:24] INFO root fetch - processPackages [podcast-summarizer]: Downloading https://files.pythonhosted.org/packages/86/1b/6ca558e0754f3c0a72bca6f58d62a46769265e9baccad00fe40f8d2d02c7/podcast_summarizer-0.1.0.tar.gz
+[2023-07-13 07:00:24] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2023-07-13 07:00:24] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/7d/8330d03fabbc3e43fd950e4c4fc50051c4c1ed03e1de206a341ccc8c1663/ccxt-4.0.8.tar.gz
+[2023-07-13 07:00:24] INFO root fetch - processPackages [yalexs-ble]: Remove: archive file [/home/abi/fetcher/tmp/yalexs_ble-2.1.9.tar.gz]
+[2023-07-13 07:00:24] INFO root fetch - processPackages [yalexs-ble]: Remove: archive file [/home/abi/fetcher/tmp/yalexs_ble-2.2.0.tar.gz]
+[2023-07-13 07:00:24] INFO root fetch - processPackages [yalexs-ble]: Start processing: assemblyline-service-client
+[2023-07-13 07:00:24] INFO root fetch - main [MainThread]: End processing [yalexs-ble]: success
+[2023-07-13 07:00:24] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_report_to_printer-16.0.1.1.2.1-py3-none-any.whl.zip]
+[2023-07-13 07:00:24] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_report_to_printer-16.0.1.1.2.2-py3-none-any.whl.zip]
+[2023-07-13 07:00:24] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Start processing: assemblyline-service-server
+[2023-07-13 07:00:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-report-to-printer]: success
+[2023-07-13 07:00:24] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-07-13 07:00:24] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20230713/c/chalkpy/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-07-13 07:00:24] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Start processing: assemblyline-ui
+[2023-07-13 07:00:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-report-to-printer]: success
+[2023-07-13 07:00:24] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-13 07:00:24] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-13 07:00:25] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-13 07:00:25] INFO root fetch - processPackages [podcast-summarizer]: Downloading https://files.pythonhosted.org/packages/ed/9d/03f62e0713d3db840df1a8d6a12ac3b7a65d445898ca16675207b5be3f57/podcast_summarizer-0.2.0.tar.gz
+[2023-07-13 07:00:25] INFO root fetch - processPackages [odoo14-addon-base-comment-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_comment_template-14.0.4.0.2.dev1-py3-none-any.whl.zip]
+[2023-07-13 07:00:25] INFO root fetch - processPackages [odoo14-addon-base-comment-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_comment_template-14.0.4.0.2.dev2-py3-none-any.whl.zip]
+[2023-07-13 07:00:25] INFO root fetch - processPackages [odoo14-addon-base-comment-template]: Start processing: assemblyline-v4-service
+[2023-07-13 07:00:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-comment-template]: success
+[2023-07-13 07:00:25] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/d0/9d/73a653591c81e927ff88321d05e4273374e7a6b83130aa29fe2ca8a8f3c8/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl
+[2023-07-13 07:00:25] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/a4/73/2640c3bfcb2613b0f095aa242df946dd9c81ed47f2dd21c43c0eca553226/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl
+[2023-07-13 07:00:25] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-13 07:00:25] INFO root fetch - processPackages [podcast-summarizer]: executing diffoscope
+[2023-07-13 07:00:25] INFO root fetch - processPackages [podcast-summarizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podcast_summarizer-0.1.0.tar.gz tmp/podcast_summarizer-0.2.0.tar.gz --markdown 20230713/p/podcast-summarizer/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-13 07:00:25] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/88/f0/1e1ea5a38c6644090daf7b8e756373614f960038fc4187021d034bab3f59/assemblyline_ui-4.4.1.dev98-py3-none-any.whl
+[2023-07-13 07:00:25] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/2c/65/290b479a07ea2714c26e302d7ee822da3dcfd3a50ecbfcf4091efd378829/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl
+[2023-07-13 07:00:25] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/bd/c6/6e355350483536185a855a768a59edd86f3a9b152d83c0e328adfb3c5158/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl
+[2023-07-13 07:00:25] INFO root fetch - processPackages [odoo-addon-base-comment-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_comment_template-16.0.2.0.0.5-py3-none-any.whl.zip]
+[2023-07-13 07:00:25] INFO root fetch - processPackages [odoo-addon-base-comment-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_comment_template-16.0.2.0.0.6-py3-none-any.whl.zip]
+[2023-07-13 07:00:25] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/0d/18/25fd38ec83bbb1da504d3063623af0139b964cc4957ee52dab43c8a48eec/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl
+[2023-07-13 07:00:25] INFO root fetch - processPackages [odoo-addon-base-comment-template]: Start processing: assemblyline
+[2023-07-13 07:00:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-comment-template]: success
+[2023-07-13 07:00:25] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/32/a5/e913d1abd897de7e300e2702f68a742f7dba4a8d682a377a41f7423bd968/ccxt-4.0.9.tar.gz
+[2023-07-13 07:00:25] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_report_to_printer-14.0.2.0.2.dev8-py3-none-any.whl.zip]
+[2023-07-13 07:00:25] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_report_to_printer-14.0.2.0.2.dev9-py3-none-any.whl.zip]
+[2023-07-13 07:00:25] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: Start processing: assemblyline-core
+[2023-07-13 07:00:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-report-to-printer]: success
+[2023-07-13 07:00:25] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-13 07:00:25] INFO root fetch - processPackages [odoo-addon-base-comment-template]: Start processing: podcast-summarizer
+[2023-07-13 07:00:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-comment-template]: success
+[2023-07-13 07:00:25] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-07-13 07:00:25] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230713/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-13 07:00:25] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-07-13 07:00:25] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230713/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-13 07:00:25] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-13 07:00:25] INFO root fetch - processPackages [podcast-summarizer]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-13 07:00:25] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-07-13 07:00:25] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.8.tar.gz tmp/ccxt-4.0.9.tar.gz --markdown 20230713/c/ccxt/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-13 07:00:25] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/e3/c6/dfade12e5e90540956305d36f873c5aed23370282783a34e66dc3b21a383/assemblyline_ui-4.4.1.dev99-py3-none-any.whl
+[2023-07-13 07:00:25] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/fb/ca/10ec337efc2ea70b32ead6e4b7d46e1e23f2d1a7638e8bfd6b51a182d2af/assemblyline-4.4.1.dev98.tar.gz
+[2023-07-13 07:00:25] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/c6/b0/1bb0cc8f270604c12a6c573e663a56b4479a805585b2f0dec5745c366b75/assemblyline-core-4.4.1.dev98.tar.gz
+[2023-07-13 07:00:25] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/47/8f/28c4f84deeaf6ecece9518c5613a84646d9a0b9e24b8c8791e4612f1738c/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl
+[2023-07-13 07:00:25] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-07-13 07:00:25] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230713/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-13 07:00:25] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-07-13 07:00:25] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230713/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-13 07:00:26] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/63/40/1e762930effd688f4bca07aca72276ca6ebee782934f06a6006ea66b2f16/assemblyline-core-4.4.1.dev99.tar.gz
+[2023-07-13 07:00:26] INFO root fetch - processPackages [podcast-summarizer]: Downloading https://files.pythonhosted.org/packages/06/a5/1b5c62bb433eb99d62866d0e04a3274323292fd73327762e1771f8b407ad/podcast_summarizer-0.2.1.tar.gz
+[2023-07-13 07:00:26] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/bd/bc/8573bd972e279862ab5c57e5a99e53f5087cd49a2741a054d2753ef654a7/assemblyline-4.4.1.dev99.tar.gz
+[2023-07-13 07:00:26] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-07-13 07:00:26] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230713/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-13 07:00:26] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-07-13 07:00:26] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230713/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-13 07:00:26] INFO root fetch - processPackages [podcast-summarizer]: executing diffoscope
+[2023-07-13 07:00:26] INFO root fetch - processPackages [podcast-summarizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podcast_summarizer-0.2.0.tar.gz tmp/podcast_summarizer-0.2.1.tar.gz --markdown 20230713/p/podcast-summarizer/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-13 07:00:26] INFO root fetch - processPackages [podcast-summarizer]: Remove: archive file [/home/abi/fetcher/tmp/podcast_summarizer-0.1.0.tar.gz]
+[2023-07-13 07:00:26] INFO root fetch - processPackages [podcast-summarizer]: Remove: archive file [/home/abi/fetcher/tmp/podcast_summarizer-0.2.0.tar.gz]
+[2023-07-13 07:00:26] INFO root fetch - processPackages [podcast-summarizer]: Start processing: cjm-yolox-pytorch
+[2023-07-13 07:00:26] INFO root fetch - main [MainThread]: End processing [podcast-summarizer]: success
+[2023-07-13 07:00:26] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 07:00:26] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-13 07:00:26] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-13 07:00:26] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-13 07:00:26] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: odoo-addon-product-warranty
+[2023-07-13 07:00:26] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-07-13 07:00:26] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-13 07:00:26] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-13 07:00:26] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: odoo14-addon-product-warranty
+[2023-07-13 07:00:26] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-07-13 07:00:27] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 07:00:27] ERROR root fetch - processPackages [podcast-summarizer]: Diffoscope failed: time="2023-07-13T07:00:26+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/podcast_summarizer-0.2.0.tar.gz: No such file or directory
+
+[2023-07-13 07:00:27] INFO root fetch - processPackages [podcast-summarizer]: Start processing: fabrique-nodes-core
+[2023-07-13 07:00:27] INFO root fetch - main [MainThread]: End processing [podcast-summarizer] error
+[2023-07-13 07:00:27] INFO root fetch - processPackages [odoo-addon-product-warranty]: New version: [15.0.1.0.1.1] Old Version: [15.0.1.0.1]
+[2023-07-13 07:00:27] INFO root fetch - processPackages [fabrique-nodes-core]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-07-13 07:00:27] INFO root fetch - processPackages [odoo14-addon-product-warranty]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev5]
+[2023-07-13 07:00:27] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 07:00:27] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 07:00:27] INFO root fetch - processPackages [fabrique-nodes-core]: Downloading https://files.pythonhosted.org/packages/59/21/5347bdae23e1f4486334f037f76d34b2023effebb750f85fb4e5d087fdc9/fabrique_nodes_core-0.9.7-py3-none-any.whl
+[2023-07-13 07:00:27] INFO root fetch - processPackages [odoo14-addon-product-warranty]: Downloading https://files.pythonhosted.org/packages/a3/fe/1717ef4f6273ece99c96edb1ce87d60f0a04fc24ebc32b60e1a17cac6c63/odoo14_addon_product_warranty-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-07-13 07:00:27] INFO root fetch - processPackages [odoo-addon-product-warranty]: Downloading https://files.pythonhosted.org/packages/82/b0/e8a1d8e39155cca118f70823984de6dcf285c5c393076f55a5ed139232f1/odoo_addon_product_warranty-15.0.1.0.1-py3-none-any.whl
+[2023-07-13 07:00:27] INFO root fetch - processPackages [fabrique-nodes-core]: Downloading https://files.pythonhosted.org/packages/82/20/2f588d230e810ce50e4b1f27f47a5ff3114cba10e64659f1208874ac1396/fabrique_nodes_core-0.9.8-py3-none-any.whl
+[2023-07-13 07:00:27] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-13 07:00:27] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-13 07:00:27] INFO root fetch - processPackages [assemblyline-ui]: Start processing: odoo-addon-rma
+[2023-07-13 07:00:27] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-07-13 07:00:27] INFO root fetch - processPackages [odoo14-addon-product-warranty]: Downloading https://files.pythonhosted.org/packages/01/97/59dc58f37e7760b13b43099fd9da1e6735887cec61e26874f0a00febc17a/odoo14_addon_product_warranty-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-07-13 07:00:27] INFO root fetch - processPackages [odoo-addon-product-warranty]: Downloading https://files.pythonhosted.org/packages/ba/b8/b4b3a2081276c3e97f208aa4ae2cf1295b27201856cf460752cb1b5d63f4/odoo_addon_product_warranty-15.0.1.0.1.1-py3-none-any.whl
+[2023-07-13 07:00:27] INFO root fetch - processPackages [fabrique-nodes-core]: executing diffoscope
+[2023-07-13 07:00:27] INFO root fetch - processPackages [fabrique-nodes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrique_nodes_core-0.9.7-py3-none-any.whl.zip tmp/fabrique_nodes_core-0.9.8-py3-none-any.whl.zip --markdown 20230713/f/fabrique-nodes-core/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-07-13 07:00:27] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev98.tar.gz]
+[2023-07-13 07:00:27] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev99.tar.gz]
+[2023-07-13 07:00:27] INFO root fetch - processPackages [assemblyline-core]: Start processing: odoo14-addon-rma
+[2023-07-13 07:00:27] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-07-13 07:00:27] INFO root fetch - processPackages [odoo-addon-rma]: New version: [15.0.1.1.3.9] Old Version: [15.0.1.1.3.7]
+[2023-07-13 07:00:28] INFO root fetch - processPackages [odoo-addon-product-warranty]: executing diffoscope
+[2023-07-13 07:00:28] INFO root fetch - processPackages [odoo-addon-product-warranty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_warranty-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_product_warranty-15.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-product-warranty/15.0.1.0.1-15.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-07-13 07:00:28] INFO root fetch - processPackages [odoo14-addon-product-warranty]: executing diffoscope
+[2023-07-13 07:00:28] INFO root fetch - processPackages [odoo14-addon-product-warranty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_warranty-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_product_warranty-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-product-warranty/14.0.1.0.1.dev5-14.0.1.0.1.dev6/diff.md --exclude *.pyd
+[2023-07-13 07:00:28] INFO root fetch - processPackages [odoo14-addon-rma]: New version: [14.0.3.2.7.dev9] Old Version: [14.0.3.2.7.dev7]
+[2023-07-13 07:00:28] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/bf/93/43f39bc9947f7439732d180bbdb189acbb6f86440a4e0e399513aee499f3/odoo_addon_rma-15.0.1.1.3.7-py3-none-any.whl
+[2023-07-13 07:00:28] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-13 07:00:28] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 07:00:28] INFO root fetch - processPackages [cjm-yolox-pytorch]: Start processing: seleniumbase
+[2023-07-13 07:00:28] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 07:00:28] INFO root fetch - processPackages [odoo14-addon-rma]: Downloading https://files.pythonhosted.org/packages/6c/b5/14e63f1b8ce754fe88450f5223d79fd3baf3a8c50f57456f0dd1280f27f7/odoo14_addon_rma-14.0.3.2.7.dev7-py3-none-any.whl
+[2023-07-13 07:00:28] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-13 07:00:28] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/d5/06/b4c4aa69540cf3a9c497a53072da777eefd704403fc8f952a88c69208ad1/seleniumbase-4.9.8.tar.gz
+[2023-07-13 07:00:28] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev98.tar.gz]
+[2023-07-13 07:00:28] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev99.tar.gz]
+[2023-07-13 07:00:28] INFO root fetch - processPackages [assemblyline]: Start processing: linovelib2epub
+[2023-07-13 07:00:28] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-07-13 07:00:28] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/c2/07/339470c5901da506b8003ae1c4ce2977880011325e58d90a15ccd12f4f57/odoo_addon_rma-15.0.1.1.3.9-py3-none-any.whl
+[2023-07-13 07:00:28] INFO root fetch - processPackages [odoo14-addon-rma]: Downloading https://files.pythonhosted.org/packages/f9/9b/23ecb9fbb7a6da74409255c802ad2e3e9bab955954232cffbb4181794938/odoo14_addon_rma-14.0.3.2.7.dev9-py3-none-any.whl
+[2023-07-13 07:00:28] INFO root fetch - processPackages [odoo-addon-rma]: executing diffoscope
+[2023-07-13 07:00:28] INFO root fetch - processPackages [odoo-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_rma-15.0.1.1.3.7-py3-none-any.whl.zip tmp/odoo_addon_rma-15.0.1.1.3.9-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-rma/15.0.1.1.3.7-15.0.1.1.3.9/diff.md --exclude *.pyd
+[2023-07-13 07:00:28] INFO root fetch - processPackages [linovelib2epub]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-13 07:00:28] INFO root fetch - processPackages [odoo14-addon-rma]: executing diffoscope
+[2023-07-13 07:00:28] INFO root fetch - processPackages [odoo14-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_rma-14.0.3.2.7.dev7-py3-none-any.whl.zip tmp/odoo14_addon_rma-14.0.3.2.7.dev9-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-rma/14.0.3.2.7.dev7-14.0.3.2.7.dev9/diff.md --exclude *.pyd
+[2023-07-13 07:00:28] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/9d/0f/462449b9921267bb9f0f0db257c72435e50ec2fcd4219764bb131be70686/seleniumbase-4.9.9.tar.gz
+[2023-07-13 07:00:29] INFO root fetch - processPackages [linovelib2epub]: Downloading https://files.pythonhosted.org/packages/68/34/443a1584e9aba7f899a94379659e95a809e83c166fe56a5ff9f06e76d555/linovelib2epub-0.1.1-py3-none-any.whl
+[2023-07-13 07:00:29] INFO root fetch - processPackages [fabrique-nodes-core]: Remove: archive file [/home/abi/fetcher/tmp/fabrique_nodes_core-0.9.7-py3-none-any.whl.zip]
+[2023-07-13 07:00:29] INFO root fetch - processPackages [fabrique-nodes-core]: Remove: archive file [/home/abi/fetcher/tmp/fabrique_nodes_core-0.9.8-py3-none-any.whl.zip]
+[2023-07-13 07:00:29] INFO root fetch - main [MainThread]: End processing [fabrique-nodes-core]: success
+[2023-07-13 07:00:29] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2023-07-13 07:00:29] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20230713/s/seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-13 07:00:29] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-13 07:00:29] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-13 07:00:29] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-07-13 07:00:29] INFO root fetch - processPackages [linovelib2epub]: Downloading https://files.pythonhosted.org/packages/0f/a6/8e2699dcd347479ddde4da9291abe2d1b6200dfb87844e3f0181c738a8d4/linovelib2epub-0.1.2-py3-none-any.whl
+[2023-07-13 07:00:29] INFO root fetch - processPackages [odoo-addon-product-warranty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_warranty-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-13 07:00:29] INFO root fetch - processPackages [odoo-addon-product-warranty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_warranty-15.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-07-13 07:00:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-warranty]: success
+[2023-07-13 07:00:29] INFO root fetch - processPackages [odoo14-addon-product-warranty]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_warranty-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-07-13 07:00:29] INFO root fetch - processPackages [odoo14-addon-product-warranty]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_warranty-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2023-07-13 07:00:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-warranty]: success
+[2023-07-13 07:00:29] INFO root fetch - processPackages [linovelib2epub]: executing diffoscope
+[2023-07-13 07:00:29] INFO root fetch - processPackages [linovelib2epub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linovelib2epub-0.1.1-py3-none-any.whl.zip tmp/linovelib2epub-0.1.2-py3-none-any.whl.zip --markdown 20230713/l/linovelib2epub/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-13 07:00:29] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2023-07-13 07:00:29] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2023-07-13 07:00:29] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-07-13 07:00:30] INFO root fetch - processPackages [odoo-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma-15.0.1.1.3.7-py3-none-any.whl.zip]
+[2023-07-13 07:00:30] INFO root fetch - processPackages [odoo-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma-15.0.1.1.3.9-py3-none-any.whl.zip]
+[2023-07-13 07:00:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-rma]: success
+[2023-07-13 07:00:30] INFO root fetch - processPackages [odoo14-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma-14.0.3.2.7.dev7-py3-none-any.whl.zip]
+[2023-07-13 07:00:30] INFO root fetch - processPackages [odoo14-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma-14.0.3.2.7.dev9-py3-none-any.whl.zip]
+[2023-07-13 07:00:30] INFO root fetch - main [MainThread]: End processing [odoo14-addon-rma]: success
+[2023-07-13 07:00:30] INFO root fetch - processPackages [linovelib2epub]: Remove: archive file [/home/abi/fetcher/tmp/linovelib2epub-0.1.1-py3-none-any.whl.zip]
+[2023-07-13 07:00:30] INFO root fetch - processPackages [linovelib2epub]: Remove: archive file [/home/abi/fetcher/tmp/linovelib2epub-0.1.2-py3-none-any.whl.zip]
+[2023-07-13 07:00:30] INFO root fetch - main [MainThread]: End processing [linovelib2epub]: success
+[2023-07-13 07:00:31] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.8.tar.gz]
+[2023-07-13 07:00:31] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
+[2023-07-13 07:00:31] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2023-07-13 07:00:32] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.8.tar.gz]
+[2023-07-13 07:00:32] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
+[2023-07-13 07:00:32] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-07-13 07:00:32] INFO root fetch - main [MainThread]: Store serial: [18870073]
