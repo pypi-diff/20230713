@@ -19725,3 +19725,74 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 12:47:06] INFO root fetch - processPackages [pureml]: Remove: archive file [/home/abi/fetcher/tmp/pureml-0.4.1.tar.gz]
 [2023-07-13 12:47:06] INFO root fetch - main [MainThread]: End processing [pureml]: success
 [2023-07-13 12:47:06] INFO root fetch - main [MainThread]: Store serial: [18873723]
+[2023-07-13 12:52:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18873723]
+[2023-07-13 12:52:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-13 12:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ibmcloudant
+[2023-07-13 12:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chainfury-server
+[2023-07-13 12:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyterlab
+[2023-07-13 12:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymeos-cffi
+[2023-07-13 12:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-cms20190101
+[2023-07-13 12:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hacktools
+[2023-07-13 12:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mathbib
+[2023-07-13 12:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openlane
+[2023-07-13 12:52:16] INFO root fetch - processPackages [ibmcloudant]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-13 12:52:16] INFO root fetch - processPackages [pymeos-cffi]: New version: [1.1.0a2] Old Version: [1.1.0a1]
+[2023-07-13 12:52:16] INFO root fetch - processPackages [chainfury-server]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-07-13 12:52:16] INFO root fetch - processPackages [openlane]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-07-13 12:52:16] INFO root fetch - processPackages [mathbib]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-07-13 12:52:16] INFO root fetch - processPackages [jupyterlab]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-07-13 12:52:16] INFO root fetch - processPackages [hacktools]: New version: [0.9.0] Old Version: [0.8.7]
+[2023-07-13 12:52:16] INFO root fetch - processPackages [alibabacloud-cms20190101]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-07-13 12:52:16] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/f9/e1/2bc6d40f7a838d2e5cfcd0d8b4d3b5f2a822440b2a94b0ce02148cab52bc/openlane-2.0.0a8.tar.gz
+[2023-07-13 12:52:16] INFO root fetch - processPackages [jupyterlab]: Downloading https://files.pythonhosted.org/packages/ed/30/72352660bbb4f4f46da15ead0fcb02bbd2e45bacbaba86b5c0fddaa9ea0d/jupyterlab-4.0.2.tar.gz
+[2023-07-13 12:52:16] INFO root fetch - processPackages [ibmcloudant]: Downloading https://files.pythonhosted.org/packages/c8/6c/661be326112207c90221feafe0a1144e2f8e8452e64278ada730310f578c/ibmcloudant-0.4.3.tar.gz
+[2023-07-13 12:52:16] INFO root fetch - processPackages [pymeos-cffi]: Downloading https://files.pythonhosted.org/packages/9b/d2/adba37f5ea3fda3b40c6aecf472b881bd46657c1b43b53efcb32f1e17ef3/pymeos_cffi-1.1.0a1.tar.gz
+[2023-07-13 12:52:16] INFO root fetch - processPackages [mathbib]: Downloading https://files.pythonhosted.org/packages/90/e3/a0eb8ba24f9534a460138fcd5e71a0231248a3fa30ef31447237ec607f94/mathbib-0.7.3.tar.gz
+[2023-07-13 12:52:16] INFO root fetch - processPackages [chainfury-server]: Downloading https://files.pythonhosted.org/packages/63/80/4fe1c0f827c8517db41256afb737e99635941a3fe7463facf738db8171c4/chainfury_server-0.1.0-py3-none-any.whl
+[2023-07-13 12:52:16] WARNING root fetch - processPackages [jupyterlab]: Skipping package: exceeds size limit 18225766>=10485760
+[2023-07-13 12:52:16] INFO root fetch - main [MainThread]: End processing [jupyterlab] error
+[2023-07-13 12:52:16] INFO root fetch - processPackages [hacktools]: Downloading https://files.pythonhosted.org/packages/e4/c3/3c280c8e98e8d2851ec6e26962dd71a2e982b607a801367380dffe1b9104/hacktools-0.8.7.tar.gz
+[2023-07-13 12:52:16] INFO root fetch - processPackages [alibabacloud-cms20190101]: Downloading https://files.pythonhosted.org/packages/d3/88/f8fc644f7f07e438f81ebdd424c54e1184c945ddc57028b891761d421aae/alibabacloud_cms20190101-2.0.6.tar.gz
+[2023-07-13 12:52:16] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/3b/36/ef13f9e1e09e4ec49090d033dcc88d1ce603bd51886f214690e50b2e5357/openlane-2.0.0a9.tar.gz
+[2023-07-13 12:52:17] INFO root fetch - processPackages [openlane]: executing diffoscope
+[2023-07-13 12:52:17] INFO root fetch - processPackages [openlane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlane-2.0.0a8.tar.gz tmp/openlane-2.0.0a9.tar.gz --markdown 20230713/o/openlane/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-07-13 12:52:17] INFO root fetch - processPackages [ibmcloudant]: Downloading https://files.pythonhosted.org/packages/ee/72/099ea6a0c560528a47b457615543a0d705728aec3657b900f841f19edf42/ibmcloudant-0.4.4.tar.gz
+[2023-07-13 12:52:17] INFO root fetch - processPackages [pymeos-cffi]: Downloading https://files.pythonhosted.org/packages/27/0e/c4fb5f6101ba3be37317a276ffaec054e1675d5102f7c7a788158ce61dc0/pymeos_cffi-1.1.0a2.tar.gz
+[2023-07-13 12:52:17] INFO root fetch - processPackages [chainfury-server]: Downloading https://files.pythonhosted.org/packages/c3/bf/db7abb1f16c90f91c6b498226c2bf08fbac76b8a6adeb69d001b161f4f6b/chainfury_server-1.0.0.tar.gz
+[2023-07-13 12:52:17] INFO root fetch - processPackages [mathbib]: Downloading https://files.pythonhosted.org/packages/ab/54/541e5683819642da927466f3b3f6d27a626610a4266940fe0bba6cf1f7de/mathbib-0.7.4.tar.gz
+[2023-07-13 12:52:17] INFO root fetch - processPackages [ibmcloudant]: executing diffoscope
+[2023-07-13 12:52:17] INFO root fetch - processPackages [ibmcloudant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibmcloudant-0.4.3.tar.gz tmp/ibmcloudant-0.4.4.tar.gz --markdown 20230713/i/ibmcloudant/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-13 12:52:17] INFO root fetch - processPackages [alibabacloud-cms20190101]: Downloading https://files.pythonhosted.org/packages/b8/61/6b77d8e2822b1a92b11e76a47e597224463d500a968315dc5e0a94a20931/alibabacloud_cms20190101-2.0.7.tar.gz
+[2023-07-13 12:52:17] INFO root fetch - processPackages [hacktools]: Downloading https://files.pythonhosted.org/packages/b6/83/60990d272c11fd6564f42220419d25ec97bfa5d49fa5a5885d2ebd116f4b/hacktools-0.9.0.tar.gz
+[2023-07-13 12:52:17] INFO root fetch - processPackages [chainfury-server]: executing diffoscope
+[2023-07-13 12:52:17] INFO root fetch - processPackages [chainfury-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainfury_server-0.1.0-py3-none-any.whl.zip tmp/chainfury_server-1.0.0.tar.gz --markdown 20230713/c/chainfury-server/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-13 12:52:17] INFO root fetch - processPackages [mathbib]: executing diffoscope
+[2023-07-13 12:52:17] INFO root fetch - processPackages [mathbib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathbib-0.7.3.tar.gz tmp/mathbib-0.7.4.tar.gz --markdown 20230713/m/mathbib/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-07-13 12:52:17] INFO root fetch - processPackages [pymeos-cffi]: executing diffoscope
+[2023-07-13 12:52:17] INFO root fetch - processPackages [pymeos-cffi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymeos_cffi-1.1.0a1.tar.gz tmp/pymeos_cffi-1.1.0a2.tar.gz --markdown 20230713/p/pymeos-cffi/1.1.0a1-1.1.0a2/diff.md --exclude *.pyd
+[2023-07-13 12:52:17] INFO root fetch - processPackages [alibabacloud-cms20190101]: executing diffoscope
+[2023-07-13 12:52:17] INFO root fetch - processPackages [alibabacloud-cms20190101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cms20190101-2.0.6.tar.gz tmp/alibabacloud_cms20190101-2.0.7.tar.gz --markdown 20230713/a/alibabacloud-cms20190101/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-07-13 12:52:17] INFO root fetch - processPackages [hacktools]: executing diffoscope
+[2023-07-13 12:52:17] INFO root fetch - processPackages [hacktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hacktools-0.8.7.tar.gz tmp/hacktools-0.9.0.tar.gz --markdown 20230713/h/hacktools/0.8.7-0.9.0/diff.md --exclude *.pyd
+[2023-07-13 12:52:18] INFO root fetch - processPackages [ibmcloudant]: Remove: archive file [/home/abi/fetcher/tmp/ibmcloudant-0.4.3.tar.gz]
+[2023-07-13 12:52:18] INFO root fetch - processPackages [ibmcloudant]: Remove: archive file [/home/abi/fetcher/tmp/ibmcloudant-0.4.4.tar.gz]
+[2023-07-13 12:52:18] INFO root fetch - main [MainThread]: End processing [ibmcloudant]: success
+[2023-07-13 12:52:18] INFO root fetch - processPackages [mathbib]: Remove: archive file [/home/abi/fetcher/tmp/mathbib-0.7.3.tar.gz]
+[2023-07-13 12:52:18] INFO root fetch - processPackages [mathbib]: Remove: archive file [/home/abi/fetcher/tmp/mathbib-0.7.4.tar.gz]
+[2023-07-13 12:52:18] INFO root fetch - main [MainThread]: End processing [mathbib]: success
+[2023-07-13 12:52:18] INFO root fetch - processPackages [hacktools]: Remove: archive file [/home/abi/fetcher/tmp/hacktools-0.8.7.tar.gz]
+[2023-07-13 12:52:18] INFO root fetch - processPackages [hacktools]: Remove: archive file [/home/abi/fetcher/tmp/hacktools-0.9.0.tar.gz]
+[2023-07-13 12:52:18] INFO root fetch - main [MainThread]: End processing [hacktools]: success
+[2023-07-13 12:52:18] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a8.tar.gz]
+[2023-07-13 12:52:18] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a9.tar.gz]
+[2023-07-13 12:52:18] INFO root fetch - main [MainThread]: End processing [openlane]: success
+[2023-07-13 12:52:18] INFO root fetch - processPackages [pymeos-cffi]: Remove: archive file [/home/abi/fetcher/tmp/pymeos_cffi-1.1.0a1.tar.gz]
+[2023-07-13 12:52:18] INFO root fetch - processPackages [pymeos-cffi]: Remove: archive file [/home/abi/fetcher/tmp/pymeos_cffi-1.1.0a2.tar.gz]
+[2023-07-13 12:52:18] INFO root fetch - main [MainThread]: End processing [pymeos-cffi]: success
+[2023-07-13 12:52:19] INFO root fetch - processPackages [alibabacloud-cms20190101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cms20190101-2.0.6.tar.gz]
+[2023-07-13 12:52:19] INFO root fetch - processPackages [alibabacloud-cms20190101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cms20190101-2.0.7.tar.gz]
+[2023-07-13 12:52:19] INFO root fetch - main [MainThread]: End processing [alibabacloud-cms20190101]: success
+[2023-07-13 12:52:19] INFO root fetch - processPackages [chainfury-server]: Remove: archive file [/home/abi/fetcher/tmp/chainfury_server-0.1.0-py3-none-any.whl.zip]
+[2023-07-13 12:52:19] INFO root fetch - processPackages [chainfury-server]: Remove: archive file [/home/abi/fetcher/tmp/chainfury_server-1.0.0.tar.gz]
+[2023-07-13 12:52:19] INFO root fetch - main [MainThread]: End processing [chainfury-server]: success
+[2023-07-13 12:52:19] INFO root fetch - main [MainThread]: Store serial: [18873800]
