@@ -6986,3 +6986,24 @@
 [2023-07-13 04:40:15] INFO root fetch - processPackages [odoo14-addon-account-move-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_move_template-14.0.1.1.3.dev9-py3-none-any.whl.zip]
 [2023-07-13 04:40:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-move-template]: success
 [2023-07-13 04:40:15] INFO root fetch - main [MainThread]: Store serial: [18869057]
+[2023-07-13 04:45:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18869057]
+[2023-07-13 04:45:24] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-13 04:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reytool
+[2023-07-13 04:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: helloai
+[2023-07-13 04:45:24] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-13 04:45:24] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-13 04:45:24] INFO root fetch - processPackages [helloai]: New version: [2.1] Old Version: [2.0]
+[2023-07-13 04:45:24] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-13 04:45:24] INFO root fetch - processPackages [helloai]: Downloading https://files.pythonhosted.org/packages/48/3b/5ac28cf99e008ad63e8c89c6b00109cc9fc68d1ec3f87c93efe8f7b66753/helloai-2.0-py3-none-any.whl
+[2023-07-13 04:45:24] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-13 04:45:24] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230713/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-13 04:45:25] INFO root fetch - processPackages [helloai]: Downloading https://files.pythonhosted.org/packages/7b/c4/0246f90bd4dfa66c749b504cb3c243f3db292ae15b6bf9d7dfd838deb46f/helloai-2.1-py3-none-any.whl
+[2023-07-13 04:45:25] INFO root fetch - processPackages [helloai]: executing diffoscope
+[2023-07-13 04:45:25] INFO root fetch - processPackages [helloai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helloai-2.0-py3-none-any.whl.zip tmp/helloai-2.1-py3-none-any.whl.zip --markdown 20230713/h/helloai/2.0-2.1/diff.md --exclude *.pyd
+[2023-07-13 04:45:25] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-13 04:45:25] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-13 04:45:25] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-13 04:45:26] INFO root fetch - processPackages [helloai]: Remove: archive file [/home/abi/fetcher/tmp/helloai-2.0-py3-none-any.whl.zip]
+[2023-07-13 04:45:26] INFO root fetch - processPackages [helloai]: Remove: archive file [/home/abi/fetcher/tmp/helloai-2.1-py3-none-any.whl.zip]
+[2023-07-13 04:45:26] INFO root fetch - main [MainThread]: End processing [helloai]: success
+[2023-07-13 04:45:26] INFO root fetch - main [MainThread]: Store serial: [18869061]
