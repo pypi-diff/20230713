@@ -14075,3 +14075,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 10:06:54] INFO root fetch - processPackages [swh.journal]: Remove: archive file [/home/abi/fetcher/tmp/swh.journal-1.3.4.tar.gz]
 [2023-07-13 10:06:54] INFO root fetch - main [MainThread]: End processing [swh.journal]: success
 [2023-07-13 10:06:54] INFO root fetch - main [MainThread]: Store serial: [18871670]
+[2023-07-13 10:11:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18871670]
+[2023-07-13 10:12:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-13 10:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyglove
+[2023-07-13 10:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-software
+[2023-07-13 10:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: git-dl
+[2023-07-13 10:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-aligenieip-1-0
+[2023-07-13 10:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: krx-rigger
+[2023-07-13 10:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xj-common
+[2023-07-13 10:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydracogltf
+[2023-07-13 10:12:03] INFO root fetch - processPackages [netbox-software]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-13 10:12:03] INFO root fetch - processPackages [git-dl]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 10:12:03] INFO root fetch - processPackages [xj-common]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 10:12:03] INFO root fetch - processPackages [pydracogltf]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 10:12:03] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: New version: [2.0.0] Old Version: [1.0.9]
+[2023-07-13 10:12:03] INFO root fetch - processPackages [krx-rigger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 10:12:03] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230713] Old Version: [0.3.1.dev20230712]
+[2023-07-13 10:12:03] INFO root fetch - processPackages [netbox-software]: Downloading https://files.pythonhosted.org/packages/25/d8/a53cb17be54dfdf69c11824227b01e676116a1b423b433f41e43235c6ac9/netbox_software-0.2.1.tar.gz
+[2023-07-13 10:12:03] INFO root fetch - processPackages [xj-common]: Downloading https://files.pythonhosted.org/packages/b3/52/f57e547bfff3498ef241412dab5c76a22d267cd4d6fd77052d8fd2905d8a/xj_common-1.0.8.tar.gz
+[2023-07-13 10:12:03] INFO root fetch - processPackages [git-dl]: Downloading https://files.pythonhosted.org/packages/57/db/6a855a26a24c57500468a0c7617b6328b1309eaa8f1baf0e3afbd31f67dc/git_dl-0.0.1.tar.gz
+[2023-07-13 10:12:03] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/64/dc/86e4437c98559a012d4bf0ddf4b622bdd84f5a94683004ea25c3716c3973/pyglove-0.3.1.dev20230712.tar.gz
+[2023-07-13 10:12:03] INFO root fetch - processPackages [pydracogltf]: Downloading https://files.pythonhosted.org/packages/32/ab/5668be0efbdf0177f256d54c04403f902c1934c591a292d3ec59999001a3/pydracogltf-0.0.1-py3-none-win_amd64.whl
+[2023-07-13 10:12:03] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Downloading https://files.pythonhosted.org/packages/cc/f9/8e8f3beb90eb0d5aaefa6c2e3d7873ed761e3275d9d89b78f318811f6d6b/alibabacloud_aligenieip_1_0-1.0.9.tar.gz
+[2023-07-13 10:12:03] INFO root fetch - processPackages [krx-rigger]: Downloading https://files.pythonhosted.org/packages/f5/db/3e1e60a78dac55ea1c8f6e91278d097da33c504123772800e605a8ad0d16/krx_rigger-0.0.8.tar.gz
+[2023-07-13 10:12:03] INFO root fetch - processPackages [xj-common]: Downloading https://files.pythonhosted.org/packages/e7/02/3b3bbfc48d247cf8d477729491ec2d1f4c2947a9f2c01c948da7088586f5/xj_common-1.0.9.tar.gz
+[2023-07-13 10:12:03] INFO root fetch - processPackages [xj-common]: executing diffoscope
+[2023-07-13 10:12:03] INFO root fetch - processPackages [xj-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_common-1.0.8.tar.gz tmp/xj_common-1.0.9.tar.gz --markdown 20230713/x/xj-common/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 10:12:03] INFO root fetch - processPackages [netbox-software]: Downloading https://files.pythonhosted.org/packages/85/4a/b120f65bb6b71fb2a27a690f68d05e0ebdfb7fa1f62142e99d81e4f43ef6/netbox_software-0.2.2.tar.gz
+[2023-07-13 10:12:03] INFO root fetch - processPackages [git-dl]: Downloading https://files.pythonhosted.org/packages/65/11/d751d824cb42aae9607b3f6159cc9ca0ae911499c0fdbdb2d87f492b43c7/git_dl-0.0.2.tar.gz
+[2023-07-13 10:12:03] INFO root fetch - processPackages [pydracogltf]: Downloading https://files.pythonhosted.org/packages/b8/76/3f4738ecb3937d1eafaeea6084a0352cdcf009bcd0c82873ab379c1715e7/pydracogltf-0.0.2-py3-none-win_amd64.whl
+[2023-07-13 10:12:04] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Downloading https://files.pythonhosted.org/packages/d6/0b/81f4095f57ce788d1fdd77a8b6f8439414be7ee27f19e6ffbf7ccecdce56/alibabacloud_aligenieip_1_0-2.0.0.tar.gz
+[2023-07-13 10:12:04] INFO root fetch - processPackages [git-dl]: executing diffoscope
+[2023-07-13 10:12:04] INFO root fetch - processPackages [git-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_dl-0.0.1.tar.gz tmp/git_dl-0.0.2.tar.gz --markdown 20230713/g/git-dl/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 10:12:04] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/cc/26/fc7d2fdc643e0a8bf4c6dc13b5dc276b8d4205fa9110af97d85ca87865ad/pyglove-0.3.1.dev20230713.tar.gz
+[2023-07-13 10:12:04] INFO root fetch - processPackages [pydracogltf]: executing diffoscope
+[2023-07-13 10:12:04] INFO root fetch - processPackages [pydracogltf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydracogltf-0.0.1-py3-none-win_amd64.whl.zip tmp/pydracogltf-0.0.2-py3-none-win_amd64.whl.zip --markdown 20230713/p/pydracogltf/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 10:12:04] INFO root fetch - processPackages [netbox-software]: executing diffoscope
+[2023-07-13 10:12:04] INFO root fetch - processPackages [netbox-software]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_software-0.2.1.tar.gz tmp/netbox_software-0.2.2.tar.gz --markdown 20230713/n/netbox-software/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-13 10:12:04] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: executing diffoscope
+[2023-07-13 10:12:04] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aligenieip_1_0-1.0.9.tar.gz tmp/alibabacloud_aligenieip_1_0-2.0.0.tar.gz --markdown 20230713/a/alibabacloud-aligenieip-1-0/1.0.9-2.0.0/diff.md --exclude *.pyd
+[2023-07-13 10:12:04] INFO root fetch - processPackages [krx-rigger]: Downloading https://files.pythonhosted.org/packages/59/05/8106984d0c358e894bf27eb839baf0d02ad718ef80496d507d7e3149ab83/krx_rigger-0.0.9.tar.gz
+[2023-07-13 10:12:04] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-13 10:12:04] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230712.tar.gz tmp/pyglove-0.3.1.dev20230713.tar.gz --markdown 20230713/p/pyglove/0.3.1.dev20230712-0.3.1.dev20230713/diff.md --exclude *.pyd
+[2023-07-13 10:12:04] INFO root fetch - processPackages [krx-rigger]: executing diffoscope
+[2023-07-13 10:12:04] INFO root fetch - processPackages [krx-rigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krx_rigger-0.0.8.tar.gz tmp/krx_rigger-0.0.9.tar.gz --markdown 20230713/k/krx-rigger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 10:12:05] INFO root fetch - processPackages [xj-common]: Remove: archive file [/home/abi/fetcher/tmp/xj_common-1.0.8.tar.gz]
+[2023-07-13 10:12:05] INFO root fetch - processPackages [xj-common]: Remove: archive file [/home/abi/fetcher/tmp/xj_common-1.0.9.tar.gz]
+[2023-07-13 10:12:05] INFO root fetch - main [MainThread]: End processing [xj-common]: success
+[2023-07-13 10:12:05] INFO root fetch - processPackages [pydracogltf]: Remove: archive file [/home/abi/fetcher/tmp/pydracogltf-0.0.1-py3-none-win_amd64.whl.zip]
+[2023-07-13 10:12:05] INFO root fetch - processPackages [pydracogltf]: Remove: archive file [/home/abi/fetcher/tmp/pydracogltf-0.0.2-py3-none-win_amd64.whl.zip]
+[2023-07-13 10:12:05] INFO root fetch - main [MainThread]: End processing [pydracogltf]: success
+[2023-07-13 10:12:05] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aligenieip_1_0-1.0.9.tar.gz]
+[2023-07-13 10:12:05] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aligenieip_1_0-2.0.0.tar.gz]
+[2023-07-13 10:12:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-aligenieip-1-0]: success
+[2023-07-13 10:12:05] INFO root fetch - processPackages [git-dl]: Remove: archive file [/home/abi/fetcher/tmp/git_dl-0.0.1.tar.gz]
+[2023-07-13 10:12:05] INFO root fetch - processPackages [git-dl]: Remove: archive file [/home/abi/fetcher/tmp/git_dl-0.0.2.tar.gz]
+[2023-07-13 10:12:05] INFO root fetch - main [MainThread]: End processing [git-dl]: success
+[2023-07-13 10:12:05] INFO root fetch - processPackages [krx-rigger]: Remove: archive file [/home/abi/fetcher/tmp/krx_rigger-0.0.8.tar.gz]
+[2023-07-13 10:12:05] INFO root fetch - processPackages [krx-rigger]: Remove: archive file [/home/abi/fetcher/tmp/krx_rigger-0.0.9.tar.gz]
+[2023-07-13 10:12:05] INFO root fetch - main [MainThread]: End processing [krx-rigger]: success
+[2023-07-13 10:12:05] INFO root fetch - processPackages [netbox-software]: Remove: archive file [/home/abi/fetcher/tmp/netbox_software-0.2.1.tar.gz]
+[2023-07-13 10:12:05] INFO root fetch - processPackages [netbox-software]: Remove: archive file [/home/abi/fetcher/tmp/netbox_software-0.2.2.tar.gz]
+[2023-07-13 10:12:05] INFO root fetch - main [MainThread]: End processing [netbox-software]: success
+[2023-07-13 10:12:06] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230712.tar.gz]
+[2023-07-13 10:12:06] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230713.tar.gz]
+[2023-07-13 10:12:06] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-13 10:12:06] INFO root fetch - main [MainThread]: Store serial: [18871691]
