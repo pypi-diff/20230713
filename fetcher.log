@@ -2350,3 +2350,171 @@
 [2023-07-13 02:04:55] INFO root fetch - processPackages [aiochris]: Remove: archive file [/home/abi/fetcher/tmp/aiochris-0.3.0rc2.tar.gz]
 [2023-07-13 02:04:55] INFO root fetch - main [MainThread]: End processing [aiochris]: success
 [2023-07-13 02:04:55] INFO root fetch - main [MainThread]: Store serial: [18867325]
+[2023-07-13 02:09:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18867325]
+[2023-07-13 02:10:03] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-13 02:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-nightly
+[2023-07-13 02:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxkern-nightly
+[2023-07-13 02:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unitclass
+[2023-07-13 02:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaxutils-nightly
+[2023-07-13 02:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fal-serverless
+[2023-07-13 02:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ml-compiler-opt
+[2023-07-13 02:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tccli
+[2023-07-13 02:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: threads-net
+[2023-07-13 02:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchlayers-nightly
+[2023-07-13 02:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mercury-sync
+[2023-07-13 02:10:04] INFO root fetch - processPackages [unitclass]: New version: [1.0.0] Old Version: [0.9.9]
+[2023-07-13 02:10:04] INFO root fetch - processPackages [threads-net]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-13 02:10:04] INFO root fetch - processPackages [fal-serverless]: New version: [0.6.38] Old Version: [0.6.37]
+[2023-07-13 02:10:04] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202307130007] Old Version: [0.0.1.dev202307120007]
+[2023-07-13 02:10:04] INFO root fetch - processPackages [mercury-sync]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-13 02:10:04] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230712] Old Version: [0.0.8.dev20230711]
+[2023-07-13 02:10:04] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-13 02:10:04] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-07-13 02:10:04] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1689120496] Old Version: [1689034117]
+[2023-07-13 02:10:04] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/11/ba/483f4770d7c413aff80cfdfd96da75d50912f6604255f4a04d7e8448a5a1/threads-net-0.0.7.tar.gz
+[2023-07-13 02:10:04] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230713.post451] Old Version: [1.9.0.20230712.post430]
+[2023-07-13 02:10:04] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/46/e4/83ccbd4b046d0b6d3bb32fbb922e1c5589a7053e79b57e8af1b29cf92014/mercury-sync-0.3.8.tar.gz
+[2023-07-13 02:10:04] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/17/1a/71a514b639510c493e34498f46484595f52e838a1fd32dd373498a9726ef/torchlayers-nightly-1689034117.tar.gz
+[2023-07-13 02:10:04] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/a0/fb/633287d38c15310767d6fa7f9a84974db0d8edd3d5f167f0d9b0a18dc31b/jaxutils-nightly-0.0.8.dev20230711.tar.gz
+[2023-07-13 02:10:04] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-13 02:10:04] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/3a/cd/bc6d45461b6a81a2562a413df2ad3ab2e96f194e92b6317340ec316ce34a/ml-compiler-opt-0.0.1.dev202307120007.tar.gz
+[2023-07-13 02:10:04] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/d5/c0/3ba1e7e48c25d80695e0216e1e772ed1492bdb76a0d81d9ddca3443d1353/tccli-3.0.98.1.tar.gz
+[2023-07-13 02:10:04] INFO root fetch - processPackages [fal-serverless]: Downloading https://files.pythonhosted.org/packages/55/64/083f679ad95ef6e1962b13c470940fb8e5a8db1aa7a0d96bd0c1c876c766/fal_serverless-0.6.37.tar.gz
+[2023-07-13 02:10:04] INFO root fetch - processPackages [unitclass]: Downloading https://files.pythonhosted.org/packages/06/37/96a678207a13e9db24b974d05443be9933837adf1096ac7a85fff453c153/unitclass-0.9.9.tar.gz
+[2023-07-13 02:10:04] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/7e/da/74feaf3cba84920ed3581e94c9fb7c693499421933f80fc362b0d9b7a6b3/mct-nightly-1.9.0.20230712.post430.tar.gz
+[2023-07-13 02:10:04] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/de/bd/e372c12fe307c562ec3785151d74201431eddd2312171d55b8ee4ac81db6/threads-net-0.0.8.tar.gz
+[2023-07-13 02:10:04] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/52/5b/22b9f5a98c3db5cd9c110f77b7d9a30fd31021331f22b9c2b6c755ca5017/mercury-sync-0.3.9.tar.gz
+[2023-07-13 02:10:04] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-13 02:10:04] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.7.tar.gz tmp/threads-net-0.0.8.tar.gz --markdown 20230713/t/threads-net/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-13 02:10:04] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/f6/c1/6e489190b9983c2b5d4a0260a36bcfb8647ee614634e4992013766cbc5cc/tccli-3.0.99.1.tar.gz
+[2023-07-13 02:10:04] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/6d/78/3297eec5ed33b3bd667e1a84cda55a5112f47feb55869f4e79902ccbca38/ml-compiler-opt-0.0.1.dev202307130007.tar.gz
+[2023-07-13 02:10:04] INFO root fetch - processPackages [fal-serverless]: Downloading https://files.pythonhosted.org/packages/e2/df/b0c1e2050168771e2c76156147812253f37a9e60cc60f18ae54e3ae2ebd9/fal_serverless-0.6.38.tar.gz
+[2023-07-13 02:10:04] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-07-13 02:10:04] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.3.8.tar.gz tmp/mercury-sync-0.3.9.tar.gz --markdown 20230713/m/mercury-sync/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-13 02:10:04] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-13 02:10:04] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/14/a8/59c5a3c4c3120e84e0ae1dd80cc12d3898551f7e206bb7fe089c44b19c80/torchlayers-nightly-1689120496.tar.gz
+[2023-07-13 02:10:04] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/f8/76/db161caf438de5bb10b62d24377108aad942df23ff2f121a4aa39ee2d62f/jaxutils-nightly-0.0.8.dev20230712.tar.gz
+[2023-07-13 02:10:04] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-07-13 02:10:04] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230713/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-07-13 02:10:05] INFO root fetch - processPackages [unitclass]: Downloading https://files.pythonhosted.org/packages/b0/7c/6d7ab3578fac9557882ba3e13fb73d42464e2d2aa03fb1a7375050d2a1e2/unitclass-1.0.0.tar.gz
+[2023-07-13 02:10:05] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-13 02:10:05] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230713/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-13 02:10:05] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-07-13 02:10:05] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202307120007.tar.gz tmp/ml-compiler-opt-0.0.1.dev202307130007.tar.gz --markdown 20230713/m/ml-compiler-opt/0.0.1.dev202307120007-0.0.1.dev202307130007/diff.md --exclude *.pyd
+[2023-07-13 02:10:05] INFO root fetch - processPackages [fal-serverless]: executing diffoscope
+[2023-07-13 02:10:05] INFO root fetch - processPackages [fal-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fal_serverless-0.6.37.tar.gz tmp/fal_serverless-0.6.38.tar.gz --markdown 20230713/f/fal-serverless/0.6.37-0.6.38/diff.md --exclude *.pyd
+[2023-07-13 02:10:05] INFO root fetch - processPackages [unitclass]: executing diffoscope
+[2023-07-13 02:10:05] INFO root fetch - processPackages [unitclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitclass-0.9.9.tar.gz tmp/unitclass-1.0.0.tar.gz --markdown 20230713/u/unitclass/0.9.9-1.0.0/diff.md --exclude *.pyd
+[2023-07-13 02:10:05] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-07-13 02:10:05] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1689034117.tar.gz tmp/torchlayers-nightly-1689120496.tar.gz --markdown 20230713/t/torchlayers-nightly/1689034117-1689120496/diff.md --exclude *.pyd
+[2023-07-13 02:10:05] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-07-13 02:10:05] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230711.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230712.tar.gz --markdown 20230713/j/jaxutils-nightly/0.0.8.dev20230711-0.0.8.dev20230712/diff.md --exclude *.pyd
+[2023-07-13 02:10:05] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/54/d6/dc93d8deb7033aa618a42687371072a11368dc13f31df7b66306b8594b6d/mct-nightly-1.9.0.20230713.post451.tar.gz
+[2023-07-13 02:10:05] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-13 02:10:05] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230712.post430.tar.gz tmp/mct-nightly-1.9.0.20230713.post451.tar.gz --markdown 20230713/m/mct-nightly/1.9.0.20230712.post430-1.9.0.20230713.post451/diff.md --exclude *.pyd
+[2023-07-13 02:10:05] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.7.tar.gz]
+[2023-07-13 02:10:05] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.8.tar.gz]
+[2023-07-13 02:10:05] INFO root fetch - processPackages [threads-net]: Start processing: pytextrust
+[2023-07-13 02:10:05] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-13 02:10:06] INFO root fetch - processPackages [pytextrust]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-13 02:10:06] INFO root fetch - processPackages [pytextrust]: Downloading https://files.pythonhosted.org/packages/60/a1/cf4c03059d3b6d4cb2077d4886dde6720a39b364c973f64cff1f4f1899a2/pytextrust-0.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-13 02:10:06] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.8.tar.gz]
+[2023-07-13 02:10:06] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.9.tar.gz]
+[2023-07-13 02:10:06] INFO root fetch - processPackages [mercury-sync]: Start processing: voicemeeter-api
+[2023-07-13 02:10:06] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-07-13 02:10:06] INFO root fetch - processPackages [voicemeeter-api]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-07-13 02:10:06] INFO root fetch - processPackages [voicemeeter-api]: Downloading https://files.pythonhosted.org/packages/29/1c/8bc577faa7afc32d1e59cc27ca3aec2d3127d0d6a8194174a8e50176759c/voicemeeter_api-2.3.1.tar.gz
+[2023-07-13 02:10:06] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-13 02:10:06] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-13 02:10:06] INFO root fetch - processPackages [jaxkern-nightly]: Start processing: cdk-aws-discord-notifiers
+[2023-07-13 02:10:06] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-13 02:10:06] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-13 02:10:06] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1689034117.tar.gz]
+[2023-07-13 02:10:06] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1689120496.tar.gz]
+[2023-07-13 02:10:06] INFO root fetch - processPackages [torchlayers-nightly]: Start processing: material-va-lighthouse
+[2023-07-13 02:10:06] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-07-13 02:10:06] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/56/53/6723a7c49bca58765247618ffc3edcd771eea50c77deafc133a9513dfcde/cdk-aws-discord-notifiers-0.0.98.tar.gz
+[2023-07-13 02:10:06] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230711.tar.gz]
+[2023-07-13 02:10:06] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230712.tar.gz]
+[2023-07-13 02:10:06] INFO root fetch - processPackages [jaxutils-nightly]: Start processing: cdk-common
+[2023-07-13 02:10:06] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-07-13 02:10:06] INFO root fetch - processPackages [unitclass]: Remove: archive file [/home/abi/fetcher/tmp/unitclass-0.9.9.tar.gz]
+[2023-07-13 02:10:06] INFO root fetch - processPackages [unitclass]: Remove: archive file [/home/abi/fetcher/tmp/unitclass-1.0.0.tar.gz]
+[2023-07-13 02:10:06] INFO root fetch - processPackages [unitclass]: Start processing: maisaedu-utilities-prefect
+[2023-07-13 02:10:06] INFO root fetch - main [MainThread]: End processing [unitclass]: success
+[2023-07-13 02:10:06] INFO root fetch - processPackages [material-va-lighthouse]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-13 02:10:06] INFO root fetch - processPackages [voicemeeter-api]: Downloading https://files.pythonhosted.org/packages/7b/19/a4c056889e5135116d7fa9a5550b1394176e5d2fab8960209b53515e12b8/voicemeeter_api-2.3.2.tar.gz
+[2023-07-13 02:10:06] INFO root fetch - processPackages [maisaedu-utilities-prefect]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 02:10:06] INFO root fetch - processPackages [fal-serverless]: Remove: archive file [/home/abi/fetcher/tmp/fal_serverless-0.6.37.tar.gz]
+[2023-07-13 02:10:06] INFO root fetch - processPackages [fal-serverless]: Remove: archive file [/home/abi/fetcher/tmp/fal_serverless-0.6.38.tar.gz]
+[2023-07-13 02:10:06] INFO root fetch - processPackages [fal-serverless]: Start processing: vesselapi
+[2023-07-13 02:10:06] INFO root fetch - main [MainThread]: End processing [fal-serverless]: success
+[2023-07-13 02:10:06] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-13 02:10:06] INFO root fetch - processPackages [pytextrust]: Downloading https://files.pythonhosted.org/packages/11/da/42fd02cc728c68259580728559362e19d108b836eb3b4125263b5678da5c/pytextrust-0.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-13 02:10:06] INFO root fetch - processPackages [vesselapi]: New version: [3.5.2] Old Version: [3.36.1]
+[2023-07-13 02:10:07] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/27/aa/a84fbe50d4cd0665bd3f2b32671a030342ad0e5347c62cd84baa19cb1e64/maisaedu-utilities-prefect-1.0.8.tar.gz
+[2023-07-13 02:10:07] INFO root fetch - processPackages [voicemeeter-api]: executing diffoscope
+[2023-07-13 02:10:07] INFO root fetch - processPackages [voicemeeter-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicemeeter_api-2.3.1.tar.gz tmp/voicemeeter_api-2.3.2.tar.gz --markdown 20230713/v/voicemeeter-api/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-07-13 02:10:07] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-07-13 02:10:07] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/a6/c7/75b0d4924d723770534e9bf6acec1cb4252efbd06ff20dd02b3a2528571a/vesselapi-3.36.1.tar.gz
+[2023-07-13 02:10:07] INFO root fetch - processPackages [material-va-lighthouse]: Downloading https://files.pythonhosted.org/packages/1a/61/6c06315a58ceddabf50013cedfbd7ee260afbb48a9796ce1f367c7373836/material-va-lighthouse-1.2.0.tar.gz
+[2023-07-13 02:10:07] INFO root fetch - processPackages [pytextrust]: executing diffoscope
+[2023-07-13 02:10:07] INFO root fetch - processPackages [pytextrust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytextrust-0.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pytextrust-0.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230713/p/pytextrust/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-13 02:10:07] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/95/7c/dbd9fa092dadcd28e2e350cd4738749237ca8191a62152c690a10b487d1a/maisaedu-utilities-prefect-1.0.9.tar.gz
+[2023-07-13 02:10:07] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307120007.tar.gz]
+[2023-07-13 02:10:07] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307130007.tar.gz]
+[2023-07-13 02:10:07] INFO root fetch - processPackages [ml-compiler-opt]: Start processing: maisaedu-poormans-dms
+[2023-07-13 02:10:07] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-07-13 02:10:07] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/82/f2/105170d36bec43bbe554de48bf20f0f1727c0db0e62b44a2412f0e180fa6/vesselapi-3.5.2.tar.gz
+[2023-07-13 02:10:07] INFO root fetch - processPackages [maisaedu-poormans-dms]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 02:10:07] INFO root fetch - processPackages [maisaedu-utilities-prefect]: executing diffoscope
+[2023-07-13 02:10:07] INFO root fetch - processPackages [maisaedu-utilities-prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-utilities-prefect-1.0.8.tar.gz tmp/maisaedu-utilities-prefect-1.0.9.tar.gz --markdown 20230713/m/maisaedu-utilities-prefect/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 02:10:07] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-07-13 02:10:07] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/e9/77/7aafe1cb83c9a08a337fb161ed76fbd8ea0e22d81058ab1a2974adb0a1f9/cdk-aws-discord-notifiers-0.0.99.tar.gz
+[2023-07-13 02:10:07] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/51/c8/520652d19cdb586cb001f3e2fd10b49475ec1fcf77f5ebf25ee483d4f069/maisaedu-poormans-dms-1.0.8.tar.gz
+[2023-07-13 02:10:07] INFO root fetch - processPackages [material-va-lighthouse]: Downloading https://files.pythonhosted.org/packages/68/22/a5ff4d519584cf95d9d808bb9e57c86ea770d4b22f3ec228f164d4b35a47/material-va-lighthouse-1.2.1.tar.gz
+[2023-07-13 02:10:07] INFO root fetch - processPackages [vesselapi]: executing diffoscope
+[2023-07-13 02:10:07] INFO root fetch - processPackages [vesselapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselapi-3.36.1.tar.gz tmp/vesselapi-3.5.2.tar.gz --markdown 20230713/v/vesselapi/3.36.1-3.5.2/diff.md --exclude *.pyd
+[2023-07-13 02:10:07] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/7b/dc/9a6d6cd7622f50c7981e2b4362ed76ba8142b4b75f73867b9b409d609cf0/maisaedu-poormans-dms-1.0.9.tar.gz
+[2023-07-13 02:10:07] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-07-13 02:10:07] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230713/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-13 02:10:07] INFO root fetch - processPackages [material-va-lighthouse]: executing diffoscope
+[2023-07-13 02:10:07] INFO root fetch - processPackages [material-va-lighthouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/material-va-lighthouse-1.2.0.tar.gz tmp/material-va-lighthouse-1.2.1.tar.gz --markdown 20230713/m/material-va-lighthouse/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-13 02:10:07] INFO root fetch - processPackages [maisaedu-poormans-dms]: executing diffoscope
+[2023-07-13 02:10:07] INFO root fetch - processPackages [maisaedu-poormans-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-poormans-dms-1.0.8.tar.gz tmp/maisaedu-poormans-dms-1.0.9.tar.gz --markdown 20230713/m/maisaedu-poormans-dms/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 02:10:07] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-07-13 02:10:07] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz --markdown 20230713/c/cdk-aws-discord-notifiers/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-13 02:10:08] INFO root fetch - processPackages [voicemeeter-api]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_api-2.3.1.tar.gz]
+[2023-07-13 02:10:08] INFO root fetch - processPackages [voicemeeter-api]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_api-2.3.2.tar.gz]
+[2023-07-13 02:10:08] INFO root fetch - processPackages [voicemeeter-api]: Start processing: GPT4Readability
+[2023-07-13 02:10:08] INFO root fetch - main [MainThread]: End processing [voicemeeter-api]: success
+[2023-07-13 02:10:08] WARNING root fetch - processPackages [GPT4Readability]: Skipping, unable to determine old version
+[2023-07-13 02:10:08] INFO root fetch - main [MainThread]: End processing [GPT4Readability] error
+[2023-07-13 02:10:09] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.0.8.tar.gz]
+[2023-07-13 02:10:09] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.0.9.tar.gz]
+[2023-07-13 02:10:09] INFO root fetch - main [MainThread]: End processing [maisaedu-utilities-prefect]: success
+[2023-07-13 02:10:09] INFO root fetch - processPackages [material-va-lighthouse]: Remove: archive file [/home/abi/fetcher/tmp/material-va-lighthouse-1.2.0.tar.gz]
+[2023-07-13 02:10:09] INFO root fetch - processPackages [material-va-lighthouse]: Remove: archive file [/home/abi/fetcher/tmp/material-va-lighthouse-1.2.1.tar.gz]
+[2023-07-13 02:10:09] INFO root fetch - main [MainThread]: End processing [material-va-lighthouse]: success
+[2023-07-13 02:10:09] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.0.8.tar.gz]
+[2023-07-13 02:10:09] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.0.9.tar.gz]
+[2023-07-13 02:10:09] INFO root fetch - main [MainThread]: End processing [maisaedu-poormans-dms]: success
+[2023-07-13 02:10:09] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz]
+[2023-07-13 02:10:09] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz]
+[2023-07-13 02:10:09] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-07-13 02:10:09] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-07-13 02:10:09] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-07-13 02:10:09] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-07-13 02:10:09] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.98.1.tar.gz]
+[2023-07-13 02:10:09] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.99.1.tar.gz]
+[2023-07-13 02:10:09] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-07-13 02:10:10] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.36.1.tar.gz]
+[2023-07-13 02:10:10] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.5.2.tar.gz]
+[2023-07-13 02:10:10] INFO root fetch - main [MainThread]: End processing [vesselapi]: success
+[2023-07-13 02:10:10] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230712.post430.tar.gz]
+[2023-07-13 02:10:10] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230713.post451.tar.gz]
+[2023-07-13 02:10:10] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-13 02:10:22] INFO root fetch - processPackages [pytextrust]: Remove: archive file [/home/abi/fetcher/tmp/pytextrust-0.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-13 02:10:22] INFO root fetch - processPackages [pytextrust]: Remove: archive file [/home/abi/fetcher/tmp/pytextrust-0.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-13 02:10:22] INFO root fetch - main [MainThread]: End processing [pytextrust]: success
+[2023-07-13 02:10:22] INFO root fetch - main [MainThread]: Store serial: [18867384]
