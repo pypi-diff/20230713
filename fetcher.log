@@ -5961,3 +5961,54 @@
 [2023-07-13 03:25:07] INFO root fetch - processPackages [wasmpy-build]: Remove: archive file [/home/abi/fetcher/tmp/wasmpy-build-0.3.0.tar.gz]
 [2023-07-13 03:25:07] INFO root fetch - main [MainThread]: End processing [wasmpy-build]: success
 [2023-07-13 03:25:07] INFO root fetch - main [MainThread]: Store serial: [18868638]
+[2023-07-13 03:30:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18868638]
+[2023-07-13 03:30:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-13 03:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyresponseio
+[2023-07-13 03:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-hugo-deploy
+[2023-07-13 03:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notionaut
+[2023-07-13 03:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: creatFiles
+[2023-07-13 03:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyagrum-nightly
+[2023-07-13 03:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: whisper-autosrt
+[2023-07-13 03:30:18] INFO root fetch - processPackages [whisper-autosrt]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-13 03:30:18] INFO root fetch - processPackages [pyresponseio]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 03:30:18] WARNING root fetch - processPackages [notionaut]: Skipping, unable to determine old version
+[2023-07-13 03:30:18] INFO root fetch - processPackages [creatFiles]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-13 03:30:18] INFO root fetch - main [MainThread]: End processing [notionaut] error
+[2023-07-13 03:30:18] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-13 03:30:18] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.3.dev202306121686326557] Old Version: [1.8.3.dev202306111686326557]
+[2023-07-13 03:30:18] INFO root fetch - processPackages [pyresponseio]: Downloading https://files.pythonhosted.org/packages/30/eb/57223deac527d115a3c17736cfefb2c9bad8fb897e3385f0d4c6d9074abb/pyresponseio-0.0.1.tar.gz
+[2023-07-13 03:30:18] INFO root fetch - processPackages [whisper-autosrt]: Downloading https://files.pythonhosted.org/packages/65/3a/1fa44d35a84a1118653603bd1a27b452408e156e9656072da043d744abdc/whisper_autosrt-0.1.7.tar.gz
+[2023-07-13 03:30:18] INFO root fetch - processPackages [creatFiles]: Downloading https://files.pythonhosted.org/packages/7f/ad/d3a91c51ee32d7d54493b2f5c4265d8363d5149b42a90bee5a9f6ffed7f1/creatFiles-0.1.2.tar.gz
+[2023-07-13 03:30:18] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-07-13 03:30:18] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/07/46/270b8b245feb59d5f249e10ced72a02b0db3ac8b574dbdc1c90e197d19b0/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl
+[2023-07-13 03:30:18] INFO root fetch - processPackages [pyresponseio]: Downloading https://files.pythonhosted.org/packages/dd/40/26f553f136cc409147f6818847c0c0192a8d62fd2b616c3c022ed0624699/pyresponseio-0.0.2.tar.gz
+[2023-07-13 03:30:18] INFO root fetch - processPackages [whisper-autosrt]: Downloading https://files.pythonhosted.org/packages/f1/6e/e7e8097bd77890d8e5ee457044a99688c31339d565a13dd7b9fa7b510637/whisper_autosrt-0.1.8.tar.gz
+[2023-07-13 03:30:18] INFO root fetch - processPackages [creatFiles]: Downloading https://files.pythonhosted.org/packages/06/35/230aaddfc718cd33c998ee690845863ea38d120728f1c5bbbe087003beca/creatFiles-0.1.3.tar.gz
+[2023-07-13 03:30:18] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-07-13 03:30:18] INFO root fetch - processPackages [pyresponseio]: executing diffoscope
+[2023-07-13 03:30:18] INFO root fetch - processPackages [pyresponseio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyresponseio-0.0.1.tar.gz tmp/pyresponseio-0.0.2.tar.gz --markdown 20230713/p/pyresponseio/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 03:30:18] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-07-13 03:30:18] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230713/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-13 03:30:19] INFO root fetch - processPackages [creatFiles]: executing diffoscope
+[2023-07-13 03:30:19] INFO root fetch - processPackages [creatFiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creatFiles-0.1.2.tar.gz tmp/creatFiles-0.1.3.tar.gz --markdown 20230713/c/creatFiles/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-13 03:30:19] INFO root fetch - processPackages [whisper-autosrt]: executing diffoscope
+[2023-07-13 03:30:19] INFO root fetch - processPackages [whisper-autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper_autosrt-0.1.7.tar.gz tmp/whisper_autosrt-0.1.8.tar.gz --markdown 20230713/w/whisper-autosrt/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-13 03:30:19] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/c0/d4/20a48d2f9b4e252fe76b5a7e22de84caa21e8f08934645676fb47376de73/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl
+[2023-07-13 03:30:19] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-07-13 03:30:19] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip --markdown 20230713/p/pyagrum-nightly/1.8.3.dev202306111686326557-1.8.3.dev202306121686326557/diff.md --exclude *.pyd
+[2023-07-13 03:30:19] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-07-13 03:30:19] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-07-13 03:30:19] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-07-13 03:30:19] INFO root fetch - processPackages [pyresponseio]: Remove: archive file [/home/abi/fetcher/tmp/pyresponseio-0.0.1.tar.gz]
+[2023-07-13 03:30:19] INFO root fetch - processPackages [pyresponseio]: Remove: archive file [/home/abi/fetcher/tmp/pyresponseio-0.0.2.tar.gz]
+[2023-07-13 03:30:19] INFO root fetch - main [MainThread]: End processing [pyresponseio]: success
+[2023-07-13 03:30:19] INFO root fetch - processPackages [creatFiles]: Remove: archive file [/home/abi/fetcher/tmp/creatFiles-0.1.2.tar.gz]
+[2023-07-13 03:30:19] INFO root fetch - processPackages [creatFiles]: Remove: archive file [/home/abi/fetcher/tmp/creatFiles-0.1.3.tar.gz]
+[2023-07-13 03:30:19] INFO root fetch - main [MainThread]: End processing [creatFiles]: success
+[2023-07-13 03:30:19] INFO root fetch - processPackages [whisper-autosrt]: Remove: archive file [/home/abi/fetcher/tmp/whisper_autosrt-0.1.7.tar.gz]
+[2023-07-13 03:30:19] INFO root fetch - processPackages [whisper-autosrt]: Remove: archive file [/home/abi/fetcher/tmp/whisper_autosrt-0.1.8.tar.gz]
+[2023-07-13 03:30:19] INFO root fetch - main [MainThread]: End processing [whisper-autosrt]: success
+[2023-07-13 03:30:20] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-07-13 03:30:20] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-07-13 03:30:20] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-07-13 03:30:20] INFO root fetch - main [MainThread]: Store serial: [18868677]
