@@ -13645,3 +13645,89 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 09:35:23] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-07-13 09:35:23] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-07-13 09:35:23] INFO root fetch - main [MainThread]: Store serial: [18871485]
+[2023-07-13 09:40:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18871485]
+[2023-07-13 09:40:32] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-13 09:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plothist
+[2023-07-13 09:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lalsuite
+[2023-07-13 09:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bridgecrew
+[2023-07-13 09:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openpibo-python
+[2023-07-13 09:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: texplain
+[2023-07-13 09:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyperdx-opentelemetry
+[2023-07-13 09:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: intel-sgx-ra
+[2023-07-13 09:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: explainable-exceptions
+[2023-07-13 09:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nse-workday
+[2023-07-13 09:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ffmpeg-media-type
+[2023-07-13 09:40:32] INFO root fetch - processPackages [texplain]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-07-13 09:40:32] WARNING root fetch - processPackages [hyperdx-opentelemetry]: Skipping, unable to determine old version
+[2023-07-13 09:40:32] INFO root fetch - processPackages [hyperdx-opentelemetry]: Start processing: commonX
+[2023-07-13 09:40:32] INFO root fetch - main [MainThread]: End processing [hyperdx-opentelemetry] error
+[2023-07-13 09:40:32] INFO root fetch - processPackages [intel-sgx-ra]: New version: [2.0a9] Old Version: [2.0a8]
+[2023-07-13 09:40:32] INFO root fetch - processPackages [plothist]: New version: [0.4] Old Version: [0.3]
+[2023-07-13 09:40:32] INFO root fetch - processPackages [ffmpeg-media-type]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 09:40:32] INFO root fetch - processPackages [openpibo-python]: New version: [0.9.2.9] Old Version: [0.9.2.8]
+[2023-07-13 09:40:32] WARNING root fetch - processPackages [nse-workday]: Skipping, unable to determine old version
+[2023-07-13 09:40:32] INFO root fetch - main [MainThread]: End processing [nse-workday] error
+[2023-07-13 09:40:32] INFO root fetch - processPackages [explainable-exceptions]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-13 09:40:33] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-13 09:40:33] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-07-13 09:40:33] INFO root fetch - processPackages [commonX]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-07-13 09:40:33] INFO root fetch - processPackages [texplain]: Downloading https://files.pythonhosted.org/packages/35/6d/35216f6d5e01c7279ee0d7729b62eb1cf43036380863ffdf3645982628a9/texplain-0.8.4.tar.gz
+[2023-07-13 09:40:33] INFO root fetch - processPackages [ffmpeg-media-type]: Downloading https://files.pythonhosted.org/packages/0f/45/3fa945b138a796e8639385c0f11c66220f4cc2e9b27f2a5d0b485583ef03/ffmpeg_media_type-0.0.1.tar.gz
+[2023-07-13 09:40:33] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-13 09:40:33] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-07-13 09:40:33] INFO root fetch - processPackages [explainable-exceptions]: Downloading https://files.pythonhosted.org/packages/d0/a4/ebc1e8dd2c41bed1263271f53c73725be92d1fe9264a2eb2691bebdff39a/explainable-exceptions-1.0.0.tar.gz
+[2023-07-13 09:40:33] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-07-13 09:40:33] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-07-13 09:40:33] INFO root fetch - processPackages [plothist]: Downloading https://files.pythonhosted.org/packages/f8/48/537e9adbd598007ad1bb46317e3b8881cf475e6d06932475c3a9a4fbfbd1/plothist-0.3.tar.gz
+[2023-07-13 09:40:33] INFO root fetch - processPackages [intel-sgx-ra]: Downloading https://files.pythonhosted.org/packages/4d/db/f48e245110f06046ff9666ff3c88904c7182a80136b0ea42fdcc13127785/intel_sgx_ra-2.0a8-cp38-cp38-manylinux_2_34_x86_64.whl
+[2023-07-13 09:40:33] INFO root fetch - processPackages [commonX]: Downloading https://files.pythonhosted.org/packages/75/96/8d4d8565fd0cadb9dcc08897d35660f1863ee7c42a5413cd96ed763415c6/commonX-0.4.9.tar.gz
+[2023-07-13 09:40:33] INFO root fetch - processPackages [openpibo-python]: Downloading https://files.pythonhosted.org/packages/8c/44/f4dc4462c26bf53e438a9f52811a9330696b7fe63e9f5db33b1c31f9ca69/openpibo_python-0.9.2.8-py3-none-any.whl
+[2023-07-13 09:40:33] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-07-13 09:40:33] INFO root fetch - processPackages [texplain]: Downloading https://files.pythonhosted.org/packages/ff/4b/fd41c0b51aaa96632396ade96fc1094304a28198c032b5a0a7ed89012c8f/texplain-0.8.5.tar.gz
+[2023-07-13 09:40:33] INFO root fetch - processPackages [commonX]: Downloading https://files.pythonhosted.org/packages/f0/e4/23ea99004088b040941334b6445f58d201f38c56f393bb370ab98a1be13f/commonX-0.5.0.tar.gz
+[2023-07-13 09:40:33] INFO root fetch - processPackages [explainable-exceptions]: Downloading https://files.pythonhosted.org/packages/64/6f/00b4e1c2825d0a9a9bca53465367e5241d3756c69e3fd781ef3c2b922381/explainable-exceptions-1.0.1.tar.gz
+[2023-07-13 09:40:33] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-07-13 09:40:33] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230713/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-13 09:40:33] INFO root fetch - processPackages [texplain]: executing diffoscope
+[2023-07-13 09:40:33] INFO root fetch - processPackages [texplain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/texplain-0.8.4.tar.gz tmp/texplain-0.8.5.tar.gz --markdown 20230713/t/texplain/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-07-13 09:40:33] INFO root fetch - processPackages [ffmpeg-media-type]: Downloading https://files.pythonhosted.org/packages/b3/5a/177b3bee6c74375ea39d027704d04e355c55e17d3e7308118d7f4fdd652d/ffmpeg_media_type-0.0.2.tar.gz
+[2023-07-13 09:40:33] INFO root fetch - processPackages [plothist]: Downloading https://files.pythonhosted.org/packages/7e/cb/9ee232d5f1e1cba452104626f06de09f4008e5e0b4175bf029169fa86a19/plothist-0.4.tar.gz
+[2023-07-13 09:40:33] INFO root fetch - processPackages [commonX]: executing diffoscope
+[2023-07-13 09:40:33] INFO root fetch - processPackages [commonX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonX-0.4.9.tar.gz tmp/commonX-0.5.0.tar.gz --markdown 20230713/c/commonX/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-07-13 09:40:33] INFO root fetch - processPackages [explainable-exceptions]: executing diffoscope
+[2023-07-13 09:40:33] INFO root fetch - processPackages [explainable-exceptions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/explainable-exceptions-1.0.0.tar.gz tmp/explainable-exceptions-1.0.1.tar.gz --markdown 20230713/e/explainable-exceptions/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-13 09:40:33] INFO root fetch - processPackages [openpibo-python]: Downloading https://files.pythonhosted.org/packages/10/de/8b098614f964fd40b24224c491ae6eede239ecaae59f8d66fa1cb7d3d770/openpibo_python-0.9.2.9-py3-none-any.whl
+[2023-07-13 09:40:33] INFO root fetch - processPackages [intel-sgx-ra]: Downloading https://files.pythonhosted.org/packages/c1/81/773e0f4d7f401bd1f161865ac39db49a4a0eb4e7db5556ac591810b60303/intel_sgx_ra-2.0a9-cp38-cp38-manylinux_2_34_x86_64.whl
+[2023-07-13 09:40:34] INFO root fetch - processPackages [ffmpeg-media-type]: executing diffoscope
+[2023-07-13 09:40:34] INFO root fetch - processPackages [ffmpeg-media-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpeg_media_type-0.0.1.tar.gz tmp/ffmpeg_media_type-0.0.2.tar.gz --markdown 20230713/f/ffmpeg-media-type/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 09:40:34] INFO root fetch - processPackages [openpibo-python]: executing diffoscope
+[2023-07-13 09:40:34] INFO root fetch - processPackages [openpibo-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openpibo_python-0.9.2.8-py3-none-any.whl.zip tmp/openpibo_python-0.9.2.9-py3-none-any.whl.zip --markdown 20230713/o/openpibo-python/0.9.2.8-0.9.2.9/diff.md --exclude *.pyd
+[2023-07-13 09:40:34] INFO root fetch - processPackages [plothist]: executing diffoscope
+[2023-07-13 09:40:34] INFO root fetch - processPackages [plothist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plothist-0.3.tar.gz tmp/plothist-0.4.tar.gz --markdown 20230713/p/plothist/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-13 09:40:34] INFO root fetch - processPackages [intel-sgx-ra]: executing diffoscope
+[2023-07-13 09:40:34] INFO root fetch - processPackages [intel-sgx-ra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intel_sgx_ra-2.0a8-cp38-cp38-manylinux_2_34_x86_64.whl.zip tmp/intel_sgx_ra-2.0a9-cp38-cp38-manylinux_2_34_x86_64.whl.zip --markdown 20230713/i/intel-sgx-ra/2.0a8-2.0a9/diff.md --exclude *.pyd
+[2023-07-13 09:40:36] INFO root fetch - processPackages [openpibo-python]: Remove: archive file [/home/abi/fetcher/tmp/openpibo_python-0.9.2.8-py3-none-any.whl.zip]
+[2023-07-13 09:40:36] INFO root fetch - processPackages [openpibo-python]: Remove: archive file [/home/abi/fetcher/tmp/openpibo_python-0.9.2.9-py3-none-any.whl.zip]
+[2023-07-13 09:40:36] INFO root fetch - main [MainThread]: End processing [openpibo-python]: success
+[2023-07-13 09:40:36] INFO root fetch - processPackages [texplain]: Remove: archive file [/home/abi/fetcher/tmp/texplain-0.8.4.tar.gz]
+[2023-07-13 09:40:36] INFO root fetch - processPackages [texplain]: Remove: archive file [/home/abi/fetcher/tmp/texplain-0.8.5.tar.gz]
+[2023-07-13 09:40:36] INFO root fetch - main [MainThread]: End processing [texplain]: success
+[2023-07-13 09:40:36] INFO root fetch - processPackages [explainable-exceptions]: Remove: archive file [/home/abi/fetcher/tmp/explainable-exceptions-1.0.0.tar.gz]
+[2023-07-13 09:40:36] INFO root fetch - processPackages [explainable-exceptions]: Remove: archive file [/home/abi/fetcher/tmp/explainable-exceptions-1.0.1.tar.gz]
+[2023-07-13 09:40:36] INFO root fetch - main [MainThread]: End processing [explainable-exceptions]: success
+[2023-07-13 09:40:36] INFO root fetch - processPackages [ffmpeg-media-type]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg_media_type-0.0.1.tar.gz]
+[2023-07-13 09:40:36] INFO root fetch - processPackages [ffmpeg-media-type]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg_media_type-0.0.2.tar.gz]
+[2023-07-13 09:40:36] INFO root fetch - main [MainThread]: End processing [ffmpeg-media-type]: success
+[2023-07-13 09:40:37] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-07-13 09:40:37] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-07-13 09:40:37] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-07-13 09:40:37] INFO root fetch - processPackages [commonX]: Remove: archive file [/home/abi/fetcher/tmp/commonX-0.4.9.tar.gz]
+[2023-07-13 09:40:37] INFO root fetch - processPackages [commonX]: Remove: archive file [/home/abi/fetcher/tmp/commonX-0.5.0.tar.gz]
+[2023-07-13 09:40:37] INFO root fetch - main [MainThread]: End processing [commonX]: success
+[2023-07-13 09:40:37] INFO root fetch - processPackages [plothist]: Remove: archive file [/home/abi/fetcher/tmp/plothist-0.3.tar.gz]
+[2023-07-13 09:40:37] INFO root fetch - processPackages [plothist]: Remove: archive file [/home/abi/fetcher/tmp/plothist-0.4.tar.gz]
+[2023-07-13 09:40:37] INFO root fetch - main [MainThread]: End processing [plothist]: success
+[2023-07-13 09:40:45] INFO root fetch - processPackages [intel-sgx-ra]: Remove: archive file [/home/abi/fetcher/tmp/intel_sgx_ra-2.0a8-cp38-cp38-manylinux_2_34_x86_64.whl.zip]
+[2023-07-13 09:40:45] INFO root fetch - processPackages [intel-sgx-ra]: Remove: archive file [/home/abi/fetcher/tmp/intel_sgx_ra-2.0a9-cp38-cp38-manylinux_2_34_x86_64.whl.zip]
+[2023-07-13 09:40:45] INFO root fetch - main [MainThread]: End processing [intel-sgx-ra]: success
+[2023-07-13 09:40:45] INFO root fetch - main [MainThread]: Store serial: [18871544]
