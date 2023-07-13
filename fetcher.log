@@ -13761,3 +13761,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 09:46:02] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.9.tar.gz]
 [2023-07-13 09:46:02] INFO root fetch - main [MainThread]: End processing [zebrazoom]: success
 [2023-07-13 09:46:02] INFO root fetch - main [MainThread]: Store serial: [18871557]
+[2023-07-13 09:51:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18871557]
+[2023-07-13 09:51:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-13 09:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metal-python
+[2023-07-13 09:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keras-nightly
+[2023-07-13 09:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: git-dl
+[2023-07-13 09:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spaceone-inventory
+[2023-07-13 09:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quao
+[2023-07-13 09:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: threedi-schema
+[2023-07-13 09:51:11] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-07-13 09:51:11] INFO root fetch - processPackages [git-dl]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-07-13 09:51:11] INFO root fetch - processPackages [quao]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-13 09:51:11] INFO root fetch - processPackages [threedi-schema]: New version: [0.217.6] Old Version: [0.217.5]
+[2023-07-13 09:51:11] INFO root fetch - processPackages [metal-python]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-13 09:51:11] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-07-13 09:51:11] INFO root fetch - processPackages [spaceone-inventory]: New version: [1.9.7rc1] Old Version: [1.9.7.3]
+[2023-07-13 09:51:11] INFO root fetch - processPackages [git-dl]: Downloading https://files.pythonhosted.org/packages/57/db/6a855a26a24c57500468a0c7617b6328b1309eaa8f1baf0e3afbd31f67dc/git_dl-0.0.1.tar.gz
+[2023-07-13 09:51:11] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/04/d819ae61d912cd518f07ed4fe988afc31cb80ed329759b5ef911477d9307/quao-0.3.8.tar.gz
+[2023-07-13 09:51:11] INFO root fetch - processPackages [threedi-schema]: Downloading https://files.pythonhosted.org/packages/ee/4f/a354d8442efa80dd01d97134bc0f420d7f6c9bfd98ffcf3eab5e068d582f/threedi-schema-0.217.5.tar.gz
+[2023-07-13 09:51:11] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/a9/82/c593d30951fa8a48a0777598d6512a6f1c3d737ee4831063408619868fff/spaceone_inventory-1.9.7.3-py3-none-any.whl
+[2023-07-13 09:51:11] INFO root fetch - processPackages [metal-python]: Downloading https://files.pythonhosted.org/packages/da/87/ea7df78e12e58839edf84e22e55f4828fa269abd4eda5b854ca1a3f2ae3c/metal_python-0.9.4.tar.gz
+[2023-07-13 09:51:11] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-07-13 09:51:12] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-07-13 09:51:12] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230713/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-07-13 09:51:12] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/9f/0abd8df4984f2e14eb4aeabf0982e954c9b6858c1b06dd12cf64a30fa1e6/quao-0.3.9.tar.gz
+[2023-07-13 09:51:12] INFO root fetch - processPackages [git-dl]: Downloading https://files.pythonhosted.org/packages/82/8c/9f6eee01e12cd3879d4cf114ffc6abf8a0a489edf3db9d9357f24518c505/git_dl-1.0.0.tar.gz
+[2023-07-13 09:51:12] INFO root fetch - processPackages [threedi-schema]: Downloading https://files.pythonhosted.org/packages/97/d4/267c196aab3cd11c903c98426af92c3f38f5830afb3b55b288e99bb47cc7/threedi-schema-0.217.6.tar.gz
+[2023-07-13 09:51:12] INFO root fetch - processPackages [git-dl]: executing diffoscope
+[2023-07-13 09:51:12] INFO root fetch - processPackages [git-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_dl-0.0.1.tar.gz tmp/git_dl-1.0.0.tar.gz --markdown 20230713/g/git-dl/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-13 09:51:12] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-13 09:51:12] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.8.tar.gz tmp/quao-0.3.9.tar.gz --markdown 20230713/q/quao/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-13 09:51:12] INFO root fetch - processPackages [threedi-schema]: executing diffoscope
+[2023-07-13 09:51:12] INFO root fetch - processPackages [threedi-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedi-schema-0.217.5.tar.gz tmp/threedi-schema-0.217.6.tar.gz --markdown 20230713/t/threedi-schema/0.217.5-0.217.6/diff.md --exclude *.pyd
+[2023-07-13 09:51:12] INFO root fetch - processPackages [metal-python]: Downloading https://files.pythonhosted.org/packages/d5/0e/f54a789448e772fa8f88c2a2f7da9e92cfc6a441cc42a238b2013db9901e/metal_python-0.9.5.tar.gz
+[2023-07-13 09:51:12] INFO root fetch - processPackages [metal-python]: executing diffoscope
+[2023-07-13 09:51:12] INFO root fetch - processPackages [metal-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metal_python-0.9.4.tar.gz tmp/metal_python-0.9.5.tar.gz --markdown 20230713/m/metal-python/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-13 09:51:12] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/8b/3e/9b66d8ee4c516bd667673a5577cc4743104de117a9cf1693532b741e45c4/spaceone_inventory-1.9.7rc1-py3-none-any.whl
+[2023-07-13 09:51:13] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2023-07-13 09:51:13] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_inventory-1.9.7.3-py3-none-any.whl.zip tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip --markdown 20230713/s/spaceone-inventory/1.9.7.3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-13 09:51:13] INFO root fetch - processPackages [git-dl]: Remove: archive file [/home/abi/fetcher/tmp/git_dl-0.0.1.tar.gz]
+[2023-07-13 09:51:13] INFO root fetch - processPackages [git-dl]: Remove: archive file [/home/abi/fetcher/tmp/git_dl-1.0.0.tar.gz]
+[2023-07-13 09:51:13] INFO root fetch - main [MainThread]: End processing [git-dl]: success
+[2023-07-13 09:51:13] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.8.tar.gz]
+[2023-07-13 09:51:13] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.9.tar.gz]
+[2023-07-13 09:51:13] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-13 09:51:13] INFO root fetch - processPackages [threedi-schema]: Remove: archive file [/home/abi/fetcher/tmp/threedi-schema-0.217.5.tar.gz]
+[2023-07-13 09:51:13] INFO root fetch - processPackages [threedi-schema]: Remove: archive file [/home/abi/fetcher/tmp/threedi-schema-0.217.6.tar.gz]
+[2023-07-13 09:51:13] INFO root fetch - main [MainThread]: End processing [threedi-schema]: success
+[2023-07-13 09:51:14] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_inventory-1.9.7.3-py3-none-any.whl.zip]
+[2023-07-13 09:51:14] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-13 09:51:14] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2023-07-13 09:51:15] INFO root fetch - processPackages [metal-python]: Remove: archive file [/home/abi/fetcher/tmp/metal_python-0.9.4.tar.gz]
+[2023-07-13 09:51:15] INFO root fetch - processPackages [metal-python]: Remove: archive file [/home/abi/fetcher/tmp/metal_python-0.9.5.tar.gz]
+[2023-07-13 09:51:15] INFO root fetch - main [MainThread]: End processing [metal-python]: success
+[2023-07-13 09:51:16] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-07-13 09:51:16] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-07-13 09:51:16] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-07-13 09:51:16] INFO root fetch - main [MainThread]: Store serial: [18871577]
