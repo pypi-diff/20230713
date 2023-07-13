@@ -11837,3 +11837,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 07:48:45] INFO root fetch - processPackages [odoo-addon-hotel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hotel-15.0.1.0.0.9-py3-none-any.whl.zip]
 [2023-07-13 07:48:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-hotel]: success
 [2023-07-13 07:48:45] INFO root fetch - main [MainThread]: Store serial: [18870567]
+[2023-07-13 07:53:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18870567]
+[2023-07-13 07:53:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-13 07:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datadiensten-apikeyclient
+[2023-07-13 07:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docdantic
+[2023-07-13 07:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mmi-nds
+[2023-07-13 07:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trogon-yapx
+[2023-07-13 07:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imjoy-rpc
+[2023-07-13 07:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adapter-client
+[2023-07-13 07:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvidia-smi2
+[2023-07-13 07:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydracogltf
+[2023-07-13 07:53:54] INFO root fetch - processPackages [trogon-yapx]: New version: [0.5.0.dev0] Old Version: [0.4.0.post1.dev1]
+[2023-07-13 07:53:54] INFO root fetch - processPackages [datadiensten-apikeyclient]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-07-13 07:53:54] WARNING root fetch - processPackages [pydracogltf]: Skipping, unable to determine old version
+[2023-07-13 07:53:54] INFO root fetch - main [MainThread]: End processing [pydracogltf] error
+[2023-07-13 07:53:54] INFO root fetch - processPackages [adapter-client]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-13 07:53:54] INFO root fetch - processPackages [docdantic]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-13 07:53:54] INFO root fetch - processPackages [nvidia-smi2]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-13 07:53:54] WARNING root fetch - processPackages [mmi-nds]: Skipping, unable to determine old version
+[2023-07-13 07:53:54] INFO root fetch - main [MainThread]: End processing [mmi-nds] error
+[2023-07-13 07:53:54] INFO root fetch - processPackages [imjoy-rpc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-13 07:53:54] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/62/bf/e0cd8c6c4bfbc73547dd7a58b65fe8314743f962e1771888a1e6a088b01d/imjoy-rpc-0.5.8.tar.gz
+[2023-07-13 07:53:54] INFO root fetch - processPackages [nvidia-smi2]: Downloading https://files.pythonhosted.org/packages/82/1b/8d7f9b28a8b40fc1fb7dd51f9ca4e72e0bc126f5db721be062d0c4ffc4fc/nvidia-smi2-0.0.2.tar.gz
+[2023-07-13 07:53:54] INFO root fetch - processPackages [trogon-yapx]: Downloading https://files.pythonhosted.org/packages/f8/02/d8f05632b3abbec66a4571fe6e1c244587e455be3948068e64eea638acc4/trogon_yapx-0.4.0.post1.dev1.tar.gz
+[2023-07-13 07:53:54] INFO root fetch - processPackages [adapter-client]: Downloading https://files.pythonhosted.org/packages/d9/99/1c2437df8689213342e6a18d53c8fb379443a434138ac244896bc767bf47/adapter-client-1.2.0.tar.gz
+[2023-07-13 07:53:54] INFO root fetch - processPackages [datadiensten-apikeyclient]: Downloading https://files.pythonhosted.org/packages/d7/1f/a6e69d1d28ca0980b3c5b0f67bb8dbc875cd08964acbbb15bfc682bc31a4/datadiensten-apikeyclient-0.0.3.tar.gz
+[2023-07-13 07:53:54] INFO root fetch - processPackages [docdantic]: Downloading https://files.pythonhosted.org/packages/da/9b/b27e0af3e10a96744e8a992974a77133988e963c359099a5d8247e9eb104/docdantic-0.1.0-py3-none-any.whl
+[2023-07-13 07:53:54] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/32/2c/24a2fd77d69514d794a4e4c8db3307e0ef3e19e0338c3edb6bf7bdd4d021/imjoy-rpc-0.5.9.tar.gz
+[2023-07-13 07:53:54] INFO root fetch - processPackages [nvidia-smi2]: Downloading https://files.pythonhosted.org/packages/ad/32/7068fd7ba8fac0a3518dc91e23944e95dc3100d34475e9ead1d52b00702f/nvidia-smi2-0.0.3.tar.gz
+[2023-07-13 07:53:54] INFO root fetch - processPackages [imjoy-rpc]: executing diffoscope
+[2023-07-13 07:53:54] INFO root fetch - processPackages [imjoy-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imjoy-rpc-0.5.8.tar.gz tmp/imjoy-rpc-0.5.9.tar.gz --markdown 20230713/i/imjoy-rpc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-13 07:53:54] INFO root fetch - processPackages [docdantic]: Downloading https://files.pythonhosted.org/packages/95/b4/6c426180ba6b8cb51cd56129fc7103b043893d78c64607858029907461ab/docdantic-0.2.0-py3-none-any.whl
+[2023-07-13 07:53:55] INFO root fetch - processPackages [nvidia-smi2]: executing diffoscope
+[2023-07-13 07:53:55] INFO root fetch - processPackages [nvidia-smi2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-smi2-0.0.2.tar.gz tmp/nvidia-smi2-0.0.3.tar.gz --markdown 20230713/n/nvidia-smi2/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-13 07:53:55] INFO root fetch - processPackages [trogon-yapx]: Downloading https://files.pythonhosted.org/packages/59/3d/c45ce1bf65ed1fd6c89df8a8aeed47d41b141593469fdf61864710bf9ec2/trogon_yapx-0.5.0.dev0.tar.gz
+[2023-07-13 07:53:55] INFO root fetch - processPackages [adapter-client]: Downloading https://files.pythonhosted.org/packages/ed/41/9786359e86d59910d9c0483f39afceb019907004c46a0e5edd3e4c0af281/adapter-client-1.3.0.tar.gz
+[2023-07-13 07:53:55] INFO root fetch - processPackages [datadiensten-apikeyclient]: Downloading https://files.pythonhosted.org/packages/da/51/2ccb33e2e582f5ea8b5fa929ca4a60050e7ec0ec9b45153c42becbfd9583/datadiensten-apikeyclient-0.1.0.tar.gz
+[2023-07-13 07:53:55] INFO root fetch - processPackages [docdantic]: executing diffoscope
+[2023-07-13 07:53:55] INFO root fetch - processPackages [docdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docdantic-0.1.0-py3-none-any.whl.zip tmp/docdantic-0.2.0-py3-none-any.whl.zip --markdown 20230713/d/docdantic/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-13 07:53:55] INFO root fetch - processPackages [adapter-client]: executing diffoscope
+[2023-07-13 07:53:55] INFO root fetch - processPackages [adapter-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapter-client-1.2.0.tar.gz tmp/adapter-client-1.3.0.tar.gz --markdown 20230713/a/adapter-client/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-13 07:53:55] INFO root fetch - processPackages [datadiensten-apikeyclient]: executing diffoscope
+[2023-07-13 07:53:55] INFO root fetch - processPackages [datadiensten-apikeyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadiensten-apikeyclient-0.0.3.tar.gz tmp/datadiensten-apikeyclient-0.1.0.tar.gz --markdown 20230713/d/datadiensten-apikeyclient/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-07-13 07:53:55] INFO root fetch - processPackages [trogon-yapx]: executing diffoscope
+[2023-07-13 07:53:55] INFO root fetch - processPackages [trogon-yapx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trogon_yapx-0.4.0.post1.dev1.tar.gz tmp/trogon_yapx-0.5.0.dev0.tar.gz --markdown 20230713/t/trogon-yapx/0.4.0.post1.dev1-0.5.0.dev0/diff.md --exclude *.pyd
+[2023-07-13 07:53:56] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.8.tar.gz]
+[2023-07-13 07:53:56] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.9.tar.gz]
+[2023-07-13 07:53:56] INFO root fetch - main [MainThread]: End processing [imjoy-rpc]: success
+[2023-07-13 07:53:56] INFO root fetch - processPackages [nvidia-smi2]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-smi2-0.0.2.tar.gz]
+[2023-07-13 07:53:56] INFO root fetch - processPackages [nvidia-smi2]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-smi2-0.0.3.tar.gz]
+[2023-07-13 07:53:56] INFO root fetch - main [MainThread]: End processing [nvidia-smi2]: success
+[2023-07-13 07:53:56] INFO root fetch - processPackages [docdantic]: Remove: archive file [/home/abi/fetcher/tmp/docdantic-0.1.0-py3-none-any.whl.zip]
+[2023-07-13 07:53:56] INFO root fetch - processPackages [docdantic]: Remove: archive file [/home/abi/fetcher/tmp/docdantic-0.2.0-py3-none-any.whl.zip]
+[2023-07-13 07:53:56] INFO root fetch - main [MainThread]: End processing [docdantic]: success
+[2023-07-13 07:53:56] INFO root fetch - processPackages [datadiensten-apikeyclient]: Remove: archive file [/home/abi/fetcher/tmp/datadiensten-apikeyclient-0.0.3.tar.gz]
+[2023-07-13 07:53:56] INFO root fetch - processPackages [datadiensten-apikeyclient]: Remove: archive file [/home/abi/fetcher/tmp/datadiensten-apikeyclient-0.1.0.tar.gz]
+[2023-07-13 07:53:56] INFO root fetch - main [MainThread]: End processing [datadiensten-apikeyclient]: success
+[2023-07-13 07:53:56] INFO root fetch - processPackages [adapter-client]: Remove: archive file [/home/abi/fetcher/tmp/adapter-client-1.2.0.tar.gz]
+[2023-07-13 07:53:56] INFO root fetch - processPackages [adapter-client]: Remove: archive file [/home/abi/fetcher/tmp/adapter-client-1.3.0.tar.gz]
+[2023-07-13 07:53:56] INFO root fetch - main [MainThread]: End processing [adapter-client]: success
+[2023-07-13 07:53:56] INFO root fetch - processPackages [trogon-yapx]: Remove: archive file [/home/abi/fetcher/tmp/trogon_yapx-0.4.0.post1.dev1.tar.gz]
+[2023-07-13 07:53:56] INFO root fetch - processPackages [trogon-yapx]: Remove: archive file [/home/abi/fetcher/tmp/trogon_yapx-0.5.0.dev0.tar.gz]
+[2023-07-13 07:53:56] INFO root fetch - main [MainThread]: End processing [trogon-yapx]: success
+[2023-07-13 07:53:56] INFO root fetch - main [MainThread]: Store serial: [18870595]
