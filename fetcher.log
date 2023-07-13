@@ -9737,3 +9737,256 @@
 [2023-07-13 06:49:56] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0rc1.tar.gz]
 [2023-07-13 06:49:56] INFO root fetch - main [MainThread]: End processing [piperider]: success
 [2023-07-13 06:49:56] INFO root fetch - main [MainThread]: Store serial: [18869956]
+[2023-07-13 06:55:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18869956]
+[2023-07-13 06:55:06] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-13 06:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cm-two
+[2023-07-13 06:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: honeybee-core
+[2023-07-13 06:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: perming
+[2023-07-13 06:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xthread
+[2023-07-13 06:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydantic-resolve
+[2023-07-13 06:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dLuxToliman
+[2023-07-13 06:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-purchase-order-type
+[2023-07-13 06:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reasoner-validator
+[2023-07-13 06:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: danbooru
+[2023-07-13 06:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-purchase-order-type
+[2023-07-13 06:55:07] INFO root fetch - processPackages [perming]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-13 06:55:07] INFO root fetch - processPackages [reasoner-validator]: New version: [3.7.2] Old Version: [3.7.1]
+[2023-07-13 06:55:07] INFO root fetch - processPackages [pydantic-resolve]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-13 06:55:07] INFO root fetch - processPackages [dLuxToliman]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-13 06:55:07] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-07-13 06:55:07] INFO root fetch - processPackages [odoo14-addon-purchase-order-type]: New version: [14.0.1.0.3.dev9] Old Version: [14.0.1.0.3.dev8]
+[2023-07-13 06:55:07] INFO root fetch - processPackages [cm-two]: New version: [2.3.4] Old Version: [2.3.39]
+[2023-07-13 06:55:07] WARNING root fetch - processPackages [xthread]: Skipping, unable to determine old version
+[2023-07-13 06:55:07] INFO root fetch - processPackages [xthread]: Start processing: odoo-addons-oca-purchase-workflow
+[2023-07-13 06:55:07] INFO root fetch - main [MainThread]: End processing [xthread] error
+[2023-07-13 06:55:07] INFO root fetch - processPackages [danbooru]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-13 06:55:07] INFO root fetch - processPackages [honeybee-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-13 06:55:07] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: New version: [16.0.20230628.1] Old Version: [16.0.20230627.0]
+[2023-07-13 06:55:07] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/ce/a7/0b27d88cc1c322783108a276d56064d888367282e71c5ea10b7d8f66e23b/pydantic_resolve-1.6.0.tar.gz
+[2023-07-13 06:55:07] INFO root fetch - processPackages [danbooru]: Downloading https://files.pythonhosted.org/packages/87/1e/be24c023bbb6268adec5bb3554cc86c385991f51e8cc1b5941eb850141b9/danbooru-0.1.0.tar.gz
+[2023-07-13 06:55:07] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/25/88/7ed0aeb6b1cf0d4f003a3d3e96312cea0aff67017d50c5c9cd245c04f048/honeybee-core-1.8.1.tar.gz
+[2023-07-13 06:55:07] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/58/dc/fe93d760a43c07cb4b490aa69a0c8c7fd64ff70542516ebee70a52885f6a/reasoner_validator-3.7.1.tar.gz
+[2023-07-13 06:55:07] INFO root fetch - processPackages [dLuxToliman]: Downloading https://files.pythonhosted.org/packages/3e/76/80f659f7810006be2f51104b35d715648193ebfe41292b0e5353ed8a1100/dLuxToliman-0.1.2.tar.gz
+[2023-07-13 06:55:07] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/d2/a2/3d631ac185ae2f926e881f4263a917b338e4628ee54ab5510a192bdd1ce3/cm_two-2.3.39-py3-none-any.whl
+[2023-07-13 06:55:07] INFO root fetch - processPackages [perming]: Downloading https://files.pythonhosted.org/packages/cc/88/66947137d25c9220a1e7ecf50523957b852afc5630720e15d5b6bf141762/perming-1.3.0-py3-none-any.whl
+[2023-07-13 06:55:07] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: Downloading https://files.pythonhosted.org/packages/ef/5c/f2bda67c92ed130db75dfeeadb30bf72152dcddaebf4f0bce792f23f7898/odoo_addon_purchase_order_type-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-13 06:55:07] INFO root fetch - processPackages [odoo14-addon-purchase-order-type]: Downloading https://files.pythonhosted.org/packages/6b/65/e0bb6380d8649a7516b1678638cfeac8c0a2c611ac8bc60c1e58afeabe7e/odoo14_addon_purchase_order_type-14.0.1.0.3.dev8-py3-none-any.whl
+[2023-07-13 06:55:07] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/69/6a/ad9863e67e322784ecca7a43cd2f381e4a4f7a327e36a53f4a42edc39a29/odoo_addons_oca_purchase_workflow-16.0.20230627.0-py3-none-any.whl
+[2023-07-13 06:55:07] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/d8/9b/f2a81f9cdf6c2556a083efabd9c0d69bdf3eb0acefed3b55c9d5ed1bcb15/honeybee-core-1.9.0.tar.gz
+[2023-07-13 06:55:07] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/a1/d9/1b8d368125709e5408109e7ef87a2aea5b352a6026365cc0ef00fc6e25df/pydantic_resolve-1.6.1.tar.gz
+[2023-07-13 06:55:07] INFO root fetch - processPackages [danbooru]: Downloading https://files.pythonhosted.org/packages/9f/3d/59976aae8864bf2a9050ad68f9cf52fd1dd59aa21f8f4ed61217f685a11d/danbooru-0.1.1.tar.gz
+[2023-07-13 06:55:08] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/1d/01/fbb2c469be96825e0b174dbbb008e5235c601750676eb39fa4f0a4ac2061/reasoner_validator-3.7.2.tar.gz
+[2023-07-13 06:55:08] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/20/62/8c6d1ff1f74a3ad3486c565134602b1eef1beebd4f857fa0241b63c71248/cm_two-2.3.4-py3-none-any.whl
+[2023-07-13 06:55:08] INFO root fetch - processPackages [honeybee-core]: executing diffoscope
+[2023-07-13 06:55:08] INFO root fetch - processPackages [honeybee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-core-1.8.1.tar.gz tmp/honeybee-core-1.9.0.tar.gz --markdown 20230713/h/honeybee-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-13 06:55:08] INFO root fetch - processPackages [dLuxToliman]: Downloading https://files.pythonhosted.org/packages/74/3b/5e570aeca0761f92db16cd09c9ea5f6ad62020c1b2f66fe0868961e52ccc/dLuxToliman-0.1.3.tar.gz
+[2023-07-13 06:55:08] INFO root fetch - processPackages [perming]: Downloading https://files.pythonhosted.org/packages/1e/c2/f9ff2cf2b45386591f2f504e1c72cb7305df90e79627ea5567e8c97fe326/perming-1.3.1-py3-none-any.whl
+[2023-07-13 06:55:08] INFO root fetch - processPackages [pydantic-resolve]: executing diffoscope
+[2023-07-13 06:55:08] INFO root fetch - processPackages [pydantic-resolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_resolve-1.6.0.tar.gz tmp/pydantic_resolve-1.6.1.tar.gz --markdown 20230713/p/pydantic-resolve/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-13 06:55:08] INFO root fetch - processPackages [danbooru]: executing diffoscope
+[2023-07-13 06:55:08] INFO root fetch - processPackages [danbooru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbooru-0.1.0.tar.gz tmp/danbooru-0.1.1.tar.gz --markdown 20230713/d/danbooru/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-13 06:55:08] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2023-07-13 06:55:08] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-3.7.1.tar.gz tmp/reasoner_validator-3.7.2.tar.gz --markdown 20230713/r/reasoner-validator/3.7.1-3.7.2/diff.md --exclude *.pyd
+[2023-07-13 06:55:08] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: Downloading https://files.pythonhosted.org/packages/9d/40/c7b508ecc90437088acc83bcb55ea51aafeec13bc14c0884601806897bfd/odoo_addon_purchase_order_type-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-13 06:55:08] INFO root fetch - processPackages [odoo14-addon-purchase-order-type]: Downloading https://files.pythonhosted.org/packages/c1/99/7d0813b69aecd27f736525b4ec167cc7199b7a170deea10ceceada75d33a/odoo14_addon_purchase_order_type-14.0.1.0.3.dev9-py3-none-any.whl
+[2023-07-13 06:55:08] INFO root fetch - processPackages [perming]: executing diffoscope
+[2023-07-13 06:55:08] INFO root fetch - processPackages [perming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perming-1.3.0-py3-none-any.whl.zip tmp/perming-1.3.1-py3-none-any.whl.zip --markdown 20230713/p/perming/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-13 06:55:08] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/5a/6c/7959cf73cc30b0e5cb0fb3ea4f5c2c6cf5a565d99b11435be44d2bbbb055/odoo_addons_oca_purchase_workflow-16.0.20230628.1-py3-none-any.whl
+[2023-07-13 06:55:08] INFO root fetch - processPackages [dLuxToliman]: executing diffoscope
+[2023-07-13 06:55:08] INFO root fetch - processPackages [dLuxToliman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dLuxToliman-0.1.2.tar.gz tmp/dLuxToliman-0.1.3.tar.gz --markdown 20230713/d/dLuxToliman/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-13 06:55:08] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: executing diffoscope
+[2023-07-13 06:55:08] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_order_type-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_purchase_order_type-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-purchase-order-type/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-13 06:55:08] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-07-13 06:55:08] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.39-py3-none-any.whl.zip tmp/cm_two-2.3.4-py3-none-any.whl.zip --markdown 20230713/c/cm-two/2.3.39-2.3.4/diff.md --exclude *.pyd
+[2023-07-13 06:55:08] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: executing diffoscope
+[2023-07-13 06:55:08] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_purchase_workflow-16.0.20230627.0-py3-none-any.whl.zip tmp/odoo_addons_oca_purchase_workflow-16.0.20230628.1-py3-none-any.whl.zip --markdown 20230713/o/odoo-addons-oca-purchase-workflow/16.0.20230627.0-16.0.20230628.1/diff.md --exclude *.pyd
+[2023-07-13 06:55:08] INFO root fetch - processPackages [odoo14-addon-purchase-order-type]: executing diffoscope
+[2023-07-13 06:55:08] INFO root fetch - processPackages [odoo14-addon-purchase-order-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_purchase_order_type-14.0.1.0.3.dev8-py3-none-any.whl.zip tmp/odoo14_addon_purchase_order_type-14.0.1.0.3.dev9-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-purchase-order-type/14.0.1.0.3.dev8-14.0.1.0.3.dev9/diff.md --exclude *.pyd
+[2023-07-13 06:55:09] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.6.0.tar.gz]
+[2023-07-13 06:55:09] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.6.1.tar.gz]
+[2023-07-13 06:55:09] INFO root fetch - processPackages [pydantic-resolve]: Start processing: odoo-addon-purchase-order-type
+[2023-07-13 06:55:09] INFO root fetch - main [MainThread]: End processing [pydantic-resolve]: success
+[2023-07-13 06:55:09] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-07-13 06:55:09] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: time="2023-07-13T06:55:08+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-07-13 06:55:09] INFO root fetch - processPackages [cm-two]: Start processing: odoo8-addon-base-report-to-printer
+[2023-07-13 06:55:09] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-07-13 06:55:09] INFO root fetch - processPackages [perming]: Remove: archive file [/home/abi/fetcher/tmp/perming-1.3.0-py3-none-any.whl.zip]
+[2023-07-13 06:55:09] INFO root fetch - processPackages [perming]: Remove: archive file [/home/abi/fetcher/tmp/perming-1.3.1-py3-none-any.whl.zip]
+[2023-07-13 06:55:09] INFO root fetch - processPackages [perming]: Start processing: odoo9-addon-base-report-to-printer
+[2023-07-13 06:55:09] INFO root fetch - main [MainThread]: End processing [perming]: success
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_purchase_workflow-16.0.20230627.0-py3-none-any.whl.zip]
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_purchase_workflow-16.0.20230628.1-py3-none-any.whl.zip]
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Start processing: radicalpy
+[2023-07-13 06:55:10] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-purchase-workflow]: success
+[2023-07-13 06:55:10] INFO root fetch - processPackages [danbooru]: Remove: archive file [/home/abi/fetcher/tmp/danbooru-0.1.0.tar.gz]
+[2023-07-13 06:55:10] INFO root fetch - processPackages [danbooru]: Remove: archive file [/home/abi/fetcher/tmp/danbooru-0.1.1.tar.gz]
+[2023-07-13 06:55:10] INFO root fetch - processPackages [danbooru]: Start processing: odoo10-addon-base-report-to-printer
+[2023-07-13 06:55:10] INFO root fetch - main [MainThread]: End processing [danbooru]: success
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: executing diffoscope
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_order_type-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_purchase_order_type-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-purchase-order-type/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-13 06:55:10] INFO root fetch - processPackages [radicalpy]: New version: [0.6.0] Old Version: [0.5rc1]
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo8-addon-base-report-to-printer]: New version: [8.0.0.2.0.99.dev9] Old Version: [8.0.0.2.0.99.dev8]
+[2023-07-13 06:55:10] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.7.1.tar.gz]
+[2023-07-13 06:55:10] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.7.2.tar.gz]
+[2023-07-13 06:55:10] INFO root fetch - processPackages [reasoner-validator]: Start processing: odoo11-addon-base-report-to-printer
+[2023-07-13 06:55:10] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo9-addon-base-report-to-printer]: New version: [9.0.2.1.1.99.dev9] Old Version: [9.0.2.1.1.99.dev8]
+[2023-07-13 06:55:10] INFO root fetch - processPackages [radicalpy]: Downloading https://files.pythonhosted.org/packages/87/d3/d61166f9df1f707459b95ac953bcfae8303833dee100d97183eefa91012d/radicalpy-0.5rc1.tar.gz
+[2023-07-13 06:55:10] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.8.1.tar.gz]
+[2023-07-13 06:55:10] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.9.0.tar.gz]
+[2023-07-13 06:55:10] INFO root fetch - processPackages [honeybee-core]: Start processing: odoo12-addon-base-report-to-printer
+[2023-07-13 06:55:10] INFO root fetch - main [MainThread]: End processing [honeybee-core]: success
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo11-addon-base-report-to-printer]: New version: [11.0.2.3.1.99.dev5] Old Version: [11.0.2.3.1.99.dev4]
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo10-addon-base-report-to-printer]: New version: [10.0.2.0.2.99.dev6] Old Version: [10.0.2.0.2.99.dev5]
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_order_type-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_order_type-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: Start processing: odoo13-addon-base-report-to-printer
+[2023-07-13 06:55:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-order-type]: success
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo12-addon-base-report-to-printer]: New version: [12.0.1.2.1.99.dev4] Old Version: [12.0.1.2.1.99.dev3]
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo8-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/b3/b0/8ed14a1c476ca6ccbd8a57ad20f1a87dea3b493838ee5e5b79eeffcaa978/odoo8_addon_base_report_to_printer-8.0.0.2.0.99.dev8-py2-none-any.whl
+[2023-07-13 06:55:10] INFO root fetch - processPackages [radicalpy]: Downloading https://files.pythonhosted.org/packages/ce/42/6db36873b6eddd1c63460669862e8e1136dd1f484b9daee12ae276099253/radicalpy-0.6.0.tar.gz
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo9-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/10/03/86537740f43aee7fbe177b02218ca3df5a055126dfe40ea29ab07f3acd82/odoo9_addon_base_report_to_printer-9.0.2.1.1.99.dev8-py2-none-any.whl
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo14-addon-purchase-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_order_type-14.0.1.0.3.dev8-py3-none-any.whl.zip]
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo14-addon-purchase-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_order_type-14.0.1.0.3.dev9-py3-none-any.whl.zip]
+[2023-07-13 06:55:10] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-order-type]: success
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo13-addon-base-report-to-printer]: New version: [13.0.1.3.1.dev5] Old Version: [13.0.1.3.1.dev4]
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo11-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/d6/f9/a6d3e34b1d78a56b558059d34c35bb680862f78d32f23964427d3d560dd0/odoo11_addon_base_report_to_printer-11.0.2.3.1.99.dev4-py2.py3-none-any.whl
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo10-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/81/6f/955f6cf42708bfd8389b9f0f4e9c61ec72f60ad19da79bc1ceeec183ae4f/odoo10_addon_base_report_to_printer-10.0.2.0.2.99.dev5-py2-none-any.whl
+[2023-07-13 06:55:10] INFO root fetch - processPackages [radicalpy]: executing diffoscope
+[2023-07-13 06:55:10] INFO root fetch - processPackages [radicalpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radicalpy-0.5rc1.tar.gz tmp/radicalpy-0.6.0.tar.gz --markdown 20230713/r/radicalpy/0.5rc1-0.6.0/diff.md --exclude *.pyd
+[2023-07-13 06:55:10] ERROR root fetch - processPackages [odoo-addon-purchase-order-type]: Diffoscope failed: time="2023-07-13T06:55:10+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/odoo_addon_purchase_order_type-16.0.1.0.0.4-py3-none-any.whl.zip: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/odoo_addon_purchase_order_type-16.0.1.0.0.5-py3-none-any.whl.zip: No such file or directory
+
+[2023-07-13 06:55:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-order-type] error
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo12-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/f2/b0/d47538e7437d473ca565e43ba17e8ec0a89e7e2617f004f7c56cf7697fe5/odoo12_addon_base_report_to_printer-12.0.1.2.1.99.dev3-py3-none-any.whl
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo13-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/5e/cc/bfab1b0b0435821afc0694669d84cfbdb9bf8d5781381cd1e3c6aec6cc4c/odoo13_addon_base_report_to_printer-13.0.1.3.1.dev4-py3-none-any.whl
+[2023-07-13 06:55:10] INFO root fetch - processPackages [dLuxToliman]: Remove: archive file [/home/abi/fetcher/tmp/dLuxToliman-0.1.2.tar.gz]
+[2023-07-13 06:55:10] INFO root fetch - processPackages [dLuxToliman]: Remove: archive file [/home/abi/fetcher/tmp/dLuxToliman-0.1.3.tar.gz]
+[2023-07-13 06:55:10] INFO root fetch - main [MainThread]: End processing [dLuxToliman]: success
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo9-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/ec/f0/d6237fd78960e6c15838cf6478af220c87e4f97819ad51fd8582cc4cbabd/odoo9_addon_base_report_to_printer-9.0.2.1.1.99.dev9-py2-none-any.whl
+[2023-07-13 06:55:10] INFO root fetch - processPackages [odoo11-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/6d/d4/96a05ae29be14c8c3c82177ec38f0d3dc4c95385c5897d748d69f2ce929b/odoo11_addon_base_report_to_printer-11.0.2.3.1.99.dev5-py2.py3-none-any.whl
+[2023-07-13 06:55:11] INFO root fetch - processPackages [odoo12-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/46/c7/2c4aa80acb4742e3a457bf0e31f6f76d7bf671b0c0c05b8db57b52d33d40/odoo12_addon_base_report_to_printer-12.0.1.2.1.99.dev4-py3-none-any.whl
+[2023-07-13 06:55:11] INFO root fetch - processPackages [odoo10-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/16/f8/54834f362a8b46744e91e6b286bf5c753c792469a585ee9713461a2d9a6e/odoo10_addon_base_report_to_printer-10.0.2.0.2.99.dev6-py2-none-any.whl
+[2023-07-13 06:55:11] INFO root fetch - processPackages [odoo9-addon-base-report-to-printer]: executing diffoscope
+[2023-07-13 06:55:11] INFO root fetch - processPackages [odoo9-addon-base-report-to-printer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_base_report_to_printer-9.0.2.1.1.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_base_report_to_printer-9.0.2.1.1.99.dev9-py2-none-any.whl.zip --markdown 20230713/o/odoo9-addon-base-report-to-printer/9.0.2.1.1.99.dev8-9.0.2.1.1.99.dev9/diff.md --exclude *.pyd
+[2023-07-13 06:55:11] INFO root fetch - processPackages [odoo11-addon-base-report-to-printer]: executing diffoscope
+[2023-07-13 06:55:11] INFO root fetch - processPackages [odoo11-addon-base-report-to-printer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_base_report_to_printer-11.0.2.3.1.99.dev4-py2.py3-none-any.whl.zip tmp/odoo11_addon_base_report_to_printer-11.0.2.3.1.99.dev5-py2.py3-none-any.whl.zip --markdown 20230713/o/odoo11-addon-base-report-to-printer/11.0.2.3.1.99.dev4-11.0.2.3.1.99.dev5/diff.md --exclude *.pyd
+[2023-07-13 06:55:11] INFO root fetch - processPackages [odoo13-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/31/2b/8d589093789d71f19a0f18f4a33395a57451dc441a9b22508bde78c623ff/odoo13_addon_base_report_to_printer-13.0.1.3.1.dev5-py3-none-any.whl
+[2023-07-13 06:55:11] INFO root fetch - processPackages [odoo10-addon-base-report-to-printer]: executing diffoscope
+[2023-07-13 06:55:11] INFO root fetch - processPackages [odoo10-addon-base-report-to-printer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_base_report_to_printer-10.0.2.0.2.99.dev5-py2-none-any.whl.zip tmp/odoo10_addon_base_report_to_printer-10.0.2.0.2.99.dev6-py2-none-any.whl.zip --markdown 20230713/o/odoo10-addon-base-report-to-printer/10.0.2.0.2.99.dev5-10.0.2.0.2.99.dev6/diff.md --exclude *.pyd
+[2023-07-13 06:55:11] INFO root fetch - processPackages [odoo12-addon-base-report-to-printer]: executing diffoscope
+[2023-07-13 06:55:11] INFO root fetch - processPackages [odoo12-addon-base-report-to-printer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_base_report_to_printer-12.0.1.2.1.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_base_report_to_printer-12.0.1.2.1.99.dev4-py3-none-any.whl.zip --markdown 20230713/o/odoo12-addon-base-report-to-printer/12.0.1.2.1.99.dev3-12.0.1.2.1.99.dev4/diff.md --exclude *.pyd
+[2023-07-13 06:55:11] INFO root fetch - processPackages [odoo8-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/8f/5f/0cf72f300d607a4d6277f364f9a3224e6f0a496ad092fbc45be91b9f0bda/odoo8_addon_base_report_to_printer-8.0.0.2.0.99.dev9-py2-none-any.whl
+[2023-07-13 06:55:11] INFO root fetch - processPackages [radicalpy]: Remove: archive file [/home/abi/fetcher/tmp/radicalpy-0.5rc1.tar.gz]
+[2023-07-13 06:55:11] INFO root fetch - processPackages [radicalpy]: Remove: archive file [/home/abi/fetcher/tmp/radicalpy-0.6.0.tar.gz]
+[2023-07-13 06:55:11] INFO root fetch - main [MainThread]: End processing [radicalpy]: success
+[2023-07-13 06:55:11] INFO root fetch - processPackages [odoo13-addon-base-report-to-printer]: executing diffoscope
+[2023-07-13 06:55:11] INFO root fetch - processPackages [odoo13-addon-base-report-to-printer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_base_report_to_printer-13.0.1.3.1.dev4-py3-none-any.whl.zip tmp/odoo13_addon_base_report_to_printer-13.0.1.3.1.dev5-py3-none-any.whl.zip --markdown 20230713/o/odoo13-addon-base-report-to-printer/13.0.1.3.1.dev4-13.0.1.3.1.dev5/diff.md --exclude *.pyd
+[2023-07-13 06:55:11] INFO root fetch - processPackages [odoo8-addon-base-report-to-printer]: executing diffoscope
+[2023-07-13 06:55:11] INFO root fetch - processPackages [odoo8-addon-base-report-to-printer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_base_report_to_printer-8.0.0.2.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_base_report_to_printer-8.0.0.2.0.99.dev9-py2-none-any.whl.zip --markdown 20230713/o/odoo8-addon-base-report-to-printer/8.0.0.2.0.99.dev8-8.0.0.2.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-13 06:55:12] INFO root fetch - processPackages [odoo9-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_base_report_to_printer-9.0.2.1.1.99.dev8-py2-none-any.whl.zip]
+[2023-07-13 06:55:12] INFO root fetch - processPackages [odoo9-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_base_report_to_printer-9.0.2.1.1.99.dev9-py2-none-any.whl.zip]
+[2023-07-13 06:55:12] INFO root fetch - main [MainThread]: End processing [odoo9-addon-base-report-to-printer]: success
+[2023-07-13 06:55:12] INFO root fetch - processPackages [odoo11-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_base_report_to_printer-11.0.2.3.1.99.dev4-py2.py3-none-any.whl.zip]
+[2023-07-13 06:55:12] INFO root fetch - processPackages [odoo11-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_base_report_to_printer-11.0.2.3.1.99.dev5-py2.py3-none-any.whl.zip]
+[2023-07-13 06:55:12] INFO root fetch - main [MainThread]: End processing [odoo11-addon-base-report-to-printer]: success
+[2023-07-13 06:55:12] INFO root fetch - processPackages [odoo12-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_base_report_to_printer-12.0.1.2.1.99.dev3-py3-none-any.whl.zip]
+[2023-07-13 06:55:12] INFO root fetch - processPackages [odoo12-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_base_report_to_printer-12.0.1.2.1.99.dev4-py3-none-any.whl.zip]
+[2023-07-13 06:55:12] INFO root fetch - main [MainThread]: End processing [odoo12-addon-base-report-to-printer]: success
+[2023-07-13 06:55:12] INFO root fetch - processPackages [odoo10-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_base_report_to_printer-10.0.2.0.2.99.dev5-py2-none-any.whl.zip]
+[2023-07-13 06:55:12] INFO root fetch - processPackages [odoo10-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_base_report_to_printer-10.0.2.0.2.99.dev6-py2-none-any.whl.zip]
+[2023-07-13 06:55:12] INFO root fetch - main [MainThread]: End processing [odoo10-addon-base-report-to-printer]: success
+[2023-07-13 06:55:12] INFO root fetch - processPackages [odoo13-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_base_report_to_printer-13.0.1.3.1.dev4-py3-none-any.whl.zip]
+[2023-07-13 06:55:12] INFO root fetch - processPackages [odoo13-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_base_report_to_printer-13.0.1.3.1.dev5-py3-none-any.whl.zip]
+[2023-07-13 06:55:12] INFO root fetch - main [MainThread]: End processing [odoo13-addon-base-report-to-printer]: success
+[2023-07-13 06:55:12] INFO root fetch - processPackages [odoo8-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_base_report_to_printer-8.0.0.2.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-13 06:55:12] INFO root fetch - processPackages [odoo8-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_base_report_to_printer-8.0.0.2.0.99.dev9-py2-none-any.whl.zip]
+[2023-07-13 06:55:12] INFO root fetch - main [MainThread]: End processing [odoo8-addon-base-report-to-printer]: success
+[2023-07-13 06:55:12] INFO root fetch - main [MainThread]: Store serial: [18870007]
