@@ -12312,3 +12312,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 08:20:10] INFO root fetch - processPackages [aliyun-python-sdk-iot]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-iot-8.9.0.tar.gz]
 [2023-07-13 08:20:10] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-iot]: success
 [2023-07-13 08:20:10] INFO root fetch - main [MainThread]: Store serial: [18870749]
+[2023-07-13 08:25:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18870749]
+[2023-07-13 08:25:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-13 08:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awsso
+[2023-07-13 08:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: baysalt-christmas
+[2023-07-13 08:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-osubot
+[2023-07-13 08:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Akatosh
+[2023-07-13 08:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cjm-yolox-pytorch
+[2023-07-13 08:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytextrust
+[2023-07-13 08:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cjm-yolox-pytorch
+[2023-07-13 08:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: graph-cordinates
+[2023-07-13 08:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastapi-serve
+[2023-07-13 08:25:19] INFO root fetch - processPackages [awsso]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-13 08:25:19] INFO root fetch - processPackages [Akatosh]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-13 08:25:19] INFO root fetch - processPackages [pytextrust]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-13 08:25:19] INFO root fetch - processPackages [baysalt-christmas]: New version: [0.1.9.0] Old Version: [0.1.8.6]
+[2023-07-13 08:25:19] WARNING root fetch - processPackages [graph-cordinates]: Skipping, unable to determine old version
+[2023-07-13 08:25:19] INFO root fetch - main [MainThread]: End processing [graph-cordinates] error
+[2023-07-13 08:25:19] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 08:25:19] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-13 08:25:19] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-13 08:25:19] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 08:25:19] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/93/e7/f3f2b496caabd68a5baa5e5cf2cb02eb30d7c98303678ec681f132f7713a/Akatosh-2.1.2.tar.gz
+[2023-07-13 08:25:19] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/32/29/bc1dd7f5e96bc7f15eb4bb974c1222c54610df5706dbcf73859791dd6f3c/baysalt_christmas-0.1.8.6.tar.gz
+[2023-07-13 08:25:19] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-13 08:25:19] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-13 08:25:19] INFO root fetch - processPackages [awsso]: Downloading https://files.pythonhosted.org/packages/c1/57/8645dbdd996e1dfa5b60326260e2505515802903cd881ddb33e6b85ca535/awsso-0.3.7.tar.gz
+[2023-07-13 08:25:20] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/22/26/6c4e0646c678ed5012ecda41990855ef506f1317ae70710c46fde5448061/nonebot-plugin-osubot-2.0.5.tar.gz
+[2023-07-13 08:25:20] INFO root fetch - processPackages [pytextrust]: Downloading https://files.pythonhosted.org/packages/89/30/8b6fb212a92bb0c6a9edf87595918f1902e654eb99091a877cca00a4cc0c/pytextrust-0.5.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-13 08:25:20] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/0d/5c/342759c036e86be942679631f5f86c8c9e6449d136b7846072fcd74be023/fastapi-serve-0.0.2.dev8.tar.gz
+[2023-07-13 08:25:20] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29657382>=10485760
+[2023-07-13 08:25:20] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2023-07-13 08:25:20] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 08:25:20] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 08:25:20] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/b2/ac/48fdbe7f7578b3d5cea907d9514c327fee290b06d6edd43f60daf53ec76c/Akatosh-2.1.3.tar.gz
+[2023-07-13 08:25:20] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 08:25:20] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 08:25:20] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 08:25:20] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 08:25:20] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/44/43/0c3667ca8abfbfc54c8ce5f7d2b54ac1af100ec90f9ad59e15dc59a59d49/fastapi-serve-0.0.2.dev9.tar.gz
+[2023-07-13 08:25:20] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/be/22/25fafa61eff44c956f343382e1e77e489ef3fa04fd722848cfa04c807029/baysalt_christmas-0.1.9.0.tar.gz
+[2023-07-13 08:25:20] INFO root fetch - processPackages [awsso]: Downloading https://files.pythonhosted.org/packages/66/c3/6fc1b622df8825c504aa8ea54396e51591b1d7047c1cb43ca662675eb629/awsso-0.3.8.tar.gz
+[2023-07-13 08:25:20] INFO root fetch - processPackages [Akatosh]: executing diffoscope
+[2023-07-13 08:25:20] INFO root fetch - processPackages [Akatosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Akatosh-2.1.2.tar.gz tmp/Akatosh-2.1.3.tar.gz --markdown 20230713/A/Akatosh/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-13 08:25:20] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-13 08:25:20] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.2.dev8.tar.gz tmp/fastapi-serve-0.0.2.dev9.tar.gz --markdown 20230713/f/fastapi-serve/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-13 08:25:20] INFO root fetch - processPackages [baysalt-christmas]: executing diffoscope
+[2023-07-13 08:25:20] INFO root fetch - processPackages [baysalt-christmas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baysalt_christmas-0.1.8.6.tar.gz tmp/baysalt_christmas-0.1.9.0.tar.gz --markdown 20230713/b/baysalt-christmas/0.1.8.6-0.1.9.0/diff.md --exclude *.pyd
+[2023-07-13 08:25:20] INFO root fetch - processPackages [awsso]: executing diffoscope
+[2023-07-13 08:25:20] INFO root fetch - processPackages [awsso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsso-0.3.7.tar.gz tmp/awsso-0.3.8.tar.gz --markdown 20230713/a/awsso/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-13 08:25:20] INFO root fetch - processPackages [pytextrust]: Downloading https://files.pythonhosted.org/packages/59/5e/82426a221e4c53e36f9886f1d6da2623a53fc12a5da21935e66a6df108d2/pytextrust-0.5.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-13 08:25:21] INFO root fetch - processPackages [pytextrust]: executing diffoscope
+[2023-07-13 08:25:21] INFO root fetch - processPackages [pytextrust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytextrust-0.5.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pytextrust-0.5.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230713/p/pytextrust/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-13 08:25:21] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-13 08:25:21] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 08:25:21] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 08:25:21] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 08:25:21] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-2.1.2.tar.gz]
+[2023-07-13 08:25:21] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-2.1.3.tar.gz]
+[2023-07-13 08:25:21] INFO root fetch - main [MainThread]: End processing [Akatosh]: success
+[2023-07-13 08:25:21] INFO root fetch - processPackages [awsso]: Remove: archive file [/home/abi/fetcher/tmp/awsso-0.3.7.tar.gz]
+[2023-07-13 08:25:21] INFO root fetch - processPackages [awsso]: Remove: archive file [/home/abi/fetcher/tmp/awsso-0.3.8.tar.gz]
+[2023-07-13 08:25:21] INFO root fetch - main [MainThread]: End processing [awsso]: success
+[2023-07-13 08:25:21] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-0.1.8.6.tar.gz]
+[2023-07-13 08:25:21] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-0.1.9.0.tar.gz]
+[2023-07-13 08:25:21] INFO root fetch - main [MainThread]: End processing [baysalt-christmas]: success
+[2023-07-13 08:25:21] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev8.tar.gz]
+[2023-07-13 08:25:21] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev9.tar.gz]
+[2023-07-13 08:25:21] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-13 08:25:36] INFO root fetch - processPackages [pytextrust]: Remove: archive file [/home/abi/fetcher/tmp/pytextrust-0.5.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-13 08:25:36] INFO root fetch - processPackages [pytextrust]: Remove: archive file [/home/abi/fetcher/tmp/pytextrust-0.5.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-13 08:25:36] INFO root fetch - main [MainThread]: End processing [pytextrust]: success
+[2023-07-13 08:25:36] INFO root fetch - main [MainThread]: Store serial: [18870777]
