@@ -18692,3 +18692,196 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 12:09:46] INFO root fetch - processPackages [zest.releaser]: Remove: archive file [/home/abi/fetcher/tmp/zest.releaser-9.0.0a1.tar.gz]
 [2023-07-13 12:09:46] INFO root fetch - main [MainThread]: End processing [zest.releaser]: success
 [2023-07-13 12:09:46] INFO root fetch - main [MainThread]: Store serial: [18873347]
+[2023-07-13 12:14:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18873347]
+[2023-07-13 12:14:56] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-13 12:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zest.releaser
+[2023-07-13 12:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastly
+[2023-07-13 12:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: make-argocd-fly
+[2023-07-13 12:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pystools
+[2023-07-13 12:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openlane
+[2023-07-13 12:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: helios-rl
+[2023-07-13 12:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trailblazer
+[2023-07-13 12:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: com-enovation
+[2023-07-13 12:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gw3
+[2023-07-13 12:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sphinx-apitree
+[2023-07-13 12:14:56] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2023-07-13 12:14:56] INFO root fetch - processPackages [helios-rl]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 12:14:56] INFO root fetch - processPackages [zest.releaser]: New version: [9.0.0a1] Old Version: [8.0.0a2]
+[2023-07-13 12:14:56] INFO root fetch - processPackages [fastly]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-07-13 12:14:56] INFO root fetch - processPackages [gw3]: New version: [0.3] Old Version: [0.2]
+[2023-07-13 12:14:56] INFO root fetch - processPackages [make-argocd-fly]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 12:14:56] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 12:14:56] INFO root fetch - processPackages [sphinx-apitree]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-13 12:14:56] INFO root fetch - processPackages [openlane]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-07-13 12:14:56] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2023-07-13 12:14:56] INFO root fetch - processPackages [com-enovation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 12:14:56] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/78/71/112109ad2b1aa685617dd84a150048372fbd6a5546c749679f55b88e8825/helios-rl-1.0.8.tar.gz
+[2023-07-13 12:14:56] INFO root fetch - processPackages [zest.releaser]: Downloading https://files.pythonhosted.org/packages/dc/b4/a0b990b8a35e33661f5b2e51e9b7f8ab4d383454427b8f395243c375fed0/zest.releaser-8.0.0a2.tar.gz
+[2023-07-13 12:14:57] INFO root fetch - processPackages [fastly]: Downloading https://files.pythonhosted.org/packages/ff/f5/b79ab5f532e782c39295e0a6a0c1b24b2128babf6fe2cdff24571a8c61f6/fastly-3.0.1.tar.gz
+[2023-07-13 12:14:57] INFO root fetch - processPackages [gw3]: Downloading https://files.pythonhosted.org/packages/47/fd/23ce0af2a2c01e6ee8ffc1e985150dfea031218887f90817aca817dc09c8/gw3-0.2.tar.gz
+[2023-07-13 12:14:57] INFO root fetch - processPackages [make-argocd-fly]: Downloading https://files.pythonhosted.org/packages/e1/76/b84109271ddeb3ce642fe2b42d7a08bcb6e8dbe243c1883e92a285425d5f/make_argocd_fly-0.0.8.tar.gz
+[2023-07-13 12:14:57] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/f9/e1/2bc6d40f7a838d2e5cfcd0d8b4d3b5f2a822440b2a94b0ce02148cab52bc/openlane-2.0.0a8.tar.gz
+[2023-07-13 12:14:57] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/d3/f1/f6fef6b574bd57970579f257d2f3b2adf9f6b87b20d9dc2c11e18d2a4a47/pystools-0.0.8.tar.gz
+[2023-07-13 12:14:57] INFO root fetch - processPackages [sphinx-apitree]: Downloading https://files.pythonhosted.org/packages/6e/0c/fffb760ae3acd3335b61b66e5532f7ef11e5a45521db138155dcf1c31302/sphinx_apitree-1.1.0.tar.gz
+[2023-07-13 12:14:57] INFO root fetch - processPackages [com-enovation]: Downloading https://files.pythonhosted.org/packages/c7/47/8bf90800f9b548041db0f6953d05f96cc6ad24f661318df912725718d5fc/com-enovation-0.0.8.tar.gz
+[2023-07-13 12:14:57] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/38/b0/396024a90d94cd1b942fb7b480a67ba92baba52b21d550f8b04102a9c2ef/helios-rl-1.0.9.tar.gz
+[2023-07-13 12:14:57] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2023-07-13 12:14:57] INFO root fetch - processPackages [helios-rl]: executing diffoscope
+[2023-07-13 12:14:57] INFO root fetch - processPackages [helios-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-rl-1.0.8.tar.gz tmp/helios-rl-1.0.9.tar.gz --markdown 20230713/h/helios-rl/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 12:14:57] INFO root fetch - processPackages [zest.releaser]: Downloading https://files.pythonhosted.org/packages/7e/0e/6ed128176f6de2f9c89ccb96ddd51bf4e9b219e9209fae6ee3a9c65c355f/zest.releaser-9.0.0a1.tar.gz
+[2023-07-13 12:14:57] INFO root fetch - processPackages [gw3]: Downloading https://files.pythonhosted.org/packages/16/8a/56d93574c93a0143142d7ca39e9c44e6eb3a20871fbe444dde4d9c1351d6/gw3-0.3.tar.gz
+[2023-07-13 12:14:57] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2023-07-13 12:14:57] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20230713/t/trailblazer/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2023-07-13 12:14:57] INFO root fetch - processPackages [make-argocd-fly]: Downloading https://files.pythonhosted.org/packages/17/f7/c55e82d852dda67abd8d9dafec9ff6adc69734788ff11715d7fa5489256a/make_argocd_fly-0.0.9.tar.gz
+[2023-07-13 12:14:57] INFO root fetch - processPackages [gw3]: executing diffoscope
+[2023-07-13 12:14:57] INFO root fetch - processPackages [gw3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gw3-0.2.tar.gz tmp/gw3-0.3.tar.gz --markdown 20230713/g/gw3/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-13 12:14:57] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/9b/5a/9f2cf38e22565c5aa2ecb7be3dbecb7a44f7d23efbd86fd532eacd613f62/pystools-0.0.9.tar.gz
+[2023-07-13 12:14:57] INFO root fetch - processPackages [fastly]: Downloading https://files.pythonhosted.org/packages/88/be/4f0e1cab98a34a829cc6abe9b2f33f387c2a92b03770192410ce699013d0/fastly-3.0.2.tar.gz
+[2023-07-13 12:14:57] INFO root fetch - processPackages [make-argocd-fly]: executing diffoscope
+[2023-07-13 12:14:57] INFO root fetch - processPackages [make-argocd-fly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/make_argocd_fly-0.0.8.tar.gz tmp/make_argocd_fly-0.0.9.tar.gz --markdown 20230713/m/make-argocd-fly/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 12:14:57] INFO root fetch - processPackages [sphinx-apitree]: Downloading https://files.pythonhosted.org/packages/46/df/819bb4cabdd3ce0810f4a275a00a1afd8f464817c506e3355d6997d29b3b/sphinx_apitree-1.2.0.tar.gz
+[2023-07-13 12:14:57] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/3b/36/ef13f9e1e09e4ec49090d033dcc88d1ce603bd51886f214690e50b2e5357/openlane-2.0.0a9.tar.gz
+[2023-07-13 12:14:57] INFO root fetch - processPackages [com-enovation]: Downloading https://files.pythonhosted.org/packages/ad/07/6f3ceb4730ffd80b197951d9ec0fd0618e16215b218526fe8c6abf3a33a5/com-enovation-0.0.9.tar.gz
+[2023-07-13 12:14:57] INFO root fetch - processPackages [zest.releaser]: executing diffoscope
+[2023-07-13 12:14:57] INFO root fetch - processPackages [zest.releaser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zest.releaser-8.0.0a2.tar.gz tmp/zest.releaser-9.0.0a1.tar.gz --markdown 20230713/z/zest.releaser/8.0.0a2-9.0.0a1/diff.md --exclude *.pyd
+[2023-07-13 12:14:57] INFO root fetch - processPackages [fastly]: executing diffoscope
+[2023-07-13 12:14:57] INFO root fetch - processPackages [fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastly-3.0.1.tar.gz tmp/fastly-3.0.2.tar.gz --markdown 20230713/f/fastly/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-07-13 12:14:57] INFO root fetch - processPackages [openlane]: executing diffoscope
+[2023-07-13 12:14:57] INFO root fetch - processPackages [openlane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlane-2.0.0a8.tar.gz tmp/openlane-2.0.0a9.tar.gz --markdown 20230713/o/openlane/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-07-13 12:14:57] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-07-13 12:14:57] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230713/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 12:14:58] INFO root fetch - processPackages [sphinx-apitree]: executing diffoscope
+[2023-07-13 12:14:58] INFO root fetch - processPackages [sphinx-apitree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_apitree-1.1.0.tar.gz tmp/sphinx_apitree-1.2.0.tar.gz --markdown 20230713/s/sphinx-apitree/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-13 12:14:58] INFO root fetch - processPackages [com-enovation]: executing diffoscope
+[2023-07-13 12:14:58] INFO root fetch - processPackages [com-enovation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/com-enovation-0.0.8.tar.gz tmp/com-enovation-0.0.9.tar.gz --markdown 20230713/c/com-enovation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 12:14:59] INFO root fetch - processPackages [gw3]: Remove: archive file [/home/abi/fetcher/tmp/gw3-0.2.tar.gz]
+[2023-07-13 12:14:59] INFO root fetch - processPackages [gw3]: Remove: archive file [/home/abi/fetcher/tmp/gw3-0.3.tar.gz]
+[2023-07-13 12:14:59] INFO root fetch - processPackages [gw3]: Start processing: concrete-python
+[2023-07-13 12:14:59] INFO root fetch - main [MainThread]: End processing [gw3]: success
+[2023-07-13 12:14:59] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2023-07-13 12:14:59] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2023-07-13 12:14:59] INFO root fetch - processPackages [trailblazer]: Start processing: inhandtest
+[2023-07-13 12:14:59] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2023-07-13 12:14:59] INFO root fetch - processPackages [concrete-python]: New version: [2.0.0] Old Version: [1.1.0rc1]
+[2023-07-13 12:14:59] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.8.tar.gz]
+[2023-07-13 12:14:59] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.9.tar.gz]
+[2023-07-13 12:14:59] INFO root fetch - processPackages [helios-rl]: Start processing: fastapi-serve
+[2023-07-13 12:14:59] INFO root fetch - main [MainThread]: End processing [helios-rl]: success
+[2023-07-13 12:14:59] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-13 12:14:59] INFO root fetch - processPackages [inhandtest]: New version: [0.0.61] Old Version: [0.0.60]
+[2023-07-13 12:14:59] INFO root fetch - processPackages [make-argocd-fly]: Remove: archive file [/home/abi/fetcher/tmp/make_argocd_fly-0.0.8.tar.gz]
+[2023-07-13 12:14:59] INFO root fetch - processPackages [make-argocd-fly]: Remove: archive file [/home/abi/fetcher/tmp/make_argocd_fly-0.0.9.tar.gz]
+[2023-07-13 12:14:59] INFO root fetch - processPackages [make-argocd-fly]: Start processing: chartreuse
+[2023-07-13 12:14:59] INFO root fetch - main [MainThread]: End processing [make-argocd-fly]: success
+[2023-07-13 12:14:59] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/0d/5c/342759c036e86be942679631f5f86c8c9e6449d136b7846072fcd74be023/fastapi-serve-0.0.2.dev8.tar.gz
+[2023-07-13 12:14:59] INFO root fetch - processPackages [chartreuse]: New version: [4.3.3] Old Version: [4.3.2]
+[2023-07-13 12:14:59] INFO root fetch - processPackages [concrete-python]: Downloading https://files.pythonhosted.org/packages/49/8c/aeb180960ccd190ac8261ece2faf27e3277f22543e3a4a707e73b2e99cdb/concrete_python-1.1.0rc1-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-07-13 12:14:59] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.8.tar.gz]
+[2023-07-13 12:14:59] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.9.tar.gz]
+[2023-07-13 12:14:59] INFO root fetch - processPackages [pystools]: Start processing: pygwmodel
+[2023-07-13 12:14:59] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-07-13 12:14:59] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/b5/0c/d6675b52e817285215d032e35fe7c50d1971da17019d23f91b45351e225e/inhandtest-0.0.60.tar.gz
+[2023-07-13 12:14:59] INFO root fetch - processPackages [sphinx-apitree]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_apitree-1.1.0.tar.gz]
+[2023-07-13 12:14:59] INFO root fetch - processPackages [sphinx-apitree]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_apitree-1.2.0.tar.gz]
+[2023-07-13 12:14:59] INFO root fetch - processPackages [sphinx-apitree]: Start processing: sunpeek
+[2023-07-13 12:14:59] INFO root fetch - main [MainThread]: End processing [sphinx-apitree]: success
+[2023-07-13 12:14:59] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/44/43/0c3667ca8abfbfc54c8ce5f7d2b54ac1af100ec90f9ad59e15dc59a59d49/fastapi-serve-0.0.2.dev9.tar.gz
+[2023-07-13 12:14:59] WARNING root fetch - processPackages [pygwmodel]: Skipping, unable to determine old version
+[2023-07-13 12:14:59] INFO root fetch - processPackages [pygwmodel]: Start processing: search-card-component
+[2023-07-13 12:14:59] INFO root fetch - main [MainThread]: End processing [pygwmodel] error
+[2023-07-13 12:15:00] INFO root fetch - processPackages [sunpeek]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-13 12:15:00] INFO root fetch - processPackages [com-enovation]: Remove: archive file [/home/abi/fetcher/tmp/com-enovation-0.0.8.tar.gz]
+[2023-07-13 12:15:00] INFO root fetch - processPackages [com-enovation]: Remove: archive file [/home/abi/fetcher/tmp/com-enovation-0.0.9.tar.gz]
+[2023-07-13 12:15:00] INFO root fetch - processPackages [com-enovation]: Start processing: pycti
+[2023-07-13 12:15:00] INFO root fetch - main [MainThread]: End processing [com-enovation]: success
+[2023-07-13 12:15:00] INFO root fetch - processPackages [chartreuse]: Downloading https://files.pythonhosted.org/packages/d6/bf/c8a4b2b80dc68f72ea348a851a275045710f344e572dfe7aea98a7da8a73/chartreuse-4.3.2.tar.gz
+[2023-07-13 12:15:00] WARNING root fetch - processPackages [search-card-component]: Skipping, unable to determine old version
+[2023-07-13 12:15:00] INFO root fetch - processPackages [search-card-component]: Start processing: fastapi-serve
+[2023-07-13 12:15:00] INFO root fetch - main [MainThread]: End processing [search-card-component] error
+[2023-07-13 12:15:00] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-13 12:15:00] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.2.dev8.tar.gz tmp/fastapi-serve-0.0.2.dev9.tar.gz --markdown 20230713/f/fastapi-serve/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-13 12:15:00] INFO root fetch - processPackages [zest.releaser]: Remove: archive file [/home/abi/fetcher/tmp/zest.releaser-8.0.0a2.tar.gz]
+[2023-07-13 12:15:00] INFO root fetch - processPackages [zest.releaser]: Remove: archive file [/home/abi/fetcher/tmp/zest.releaser-9.0.0a1.tar.gz]
+[2023-07-13 12:15:00] INFO root fetch - processPackages [zest.releaser]: Start processing: sentry-sdk
+[2023-07-13 12:15:00] INFO root fetch - main [MainThread]: End processing [zest.releaser]: success
+[2023-07-13 12:15:00] INFO root fetch - processPackages [pycti]: New version: [5.9.1] Old Version: [5.9.0]
+[2023-07-13 12:15:00] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-13 12:15:00] INFO root fetch - processPackages [sentry-sdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-13 12:15:00] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/5c/54/ce0b4505ed7390d6858255dbbbc757f19c71bfaec327fce46ff7184d8779/inhandtest-0.0.61.tar.gz
+[2023-07-13 12:15:00] WARNING root fetch - processPackages [concrete-python]: Skipping package: exceeds size limit 63073015>=10485760
+[2023-07-13 12:15:00] INFO root fetch - processPackages [concrete-python]: Start processing: gw3
+[2023-07-13 12:15:00] INFO root fetch - main [MainThread]: End processing [concrete-python] error
+[2023-07-13 12:15:00] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/7d/87/fc2d2721ed03813871d259741139dcbcb0f1a5a7686743ee6d533d5af952/sunpeek-0.2.8-py3-none-any.whl
+[2023-07-13 12:15:00] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/54/d1/48a70bd3e2760742c1447fe097d7f42d21ab191b9db58daa3b87a16255ec/pycti-5.9.0.tar.gz
+[2023-07-13 12:15:00] INFO root fetch - processPackages [gw3]: New version: [0.5] Old Version: [0.4]
+[2023-07-13 12:15:00] INFO root fetch - processPackages [chartreuse]: Downloading https://files.pythonhosted.org/packages/26/1f/895c49a75a3c5883ef0564ea7315bf6d6a0c4f51c234b1d78c79ae6c0eb8/chartreuse-4.3.3.tar.gz
+[2023-07-13 12:15:00] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a8.tar.gz]
+[2023-07-13 12:15:00] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a9.tar.gz]
+[2023-07-13 12:15:00] INFO root fetch - main [MainThread]: End processing [openlane]: success
+[2023-07-13 12:15:00] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-07-13 12:15:00] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.60.tar.gz tmp/inhandtest-0.0.61.tar.gz --markdown 20230713/i/inhandtest/0.0.60-0.0.61/diff.md --exclude *.pyd
+[2023-07-13 12:15:00] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-13 12:15:00] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.2.dev8.tar.gz tmp/fastapi-serve-0.0.2.dev9.tar.gz --markdown 20230713/f/fastapi-serve/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-13 12:15:00] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/61/00/dd7e41da95c59f4ccf86be60fcbb5889dc7b215ca5e71c8108cb7892c0b8/sentry-sdk-1.9.8.tar.gz
+[2023-07-13 12:15:00] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/fe/90/1928d0de08a3d6a3e9450a6d9dc8f060c06d78c8833d487bffaec7af205d/pycti-5.9.1.tar.gz
+[2023-07-13 12:15:00] INFO root fetch - processPackages [gw3]: Downloading https://files.pythonhosted.org/packages/86/df/627a9825f553ed6dad6ae508517b0f579e1abff6e90fe5499f7056d30849/gw3-0.4.tar.gz
+[2023-07-13 12:15:00] INFO root fetch - processPackages [chartreuse]: executing diffoscope
+[2023-07-13 12:15:00] INFO root fetch - processPackages [chartreuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartreuse-4.3.2.tar.gz tmp/chartreuse-4.3.3.tar.gz --markdown 20230713/c/chartreuse/4.3.2-4.3.3/diff.md --exclude *.pyd
+[2023-07-13 12:15:00] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/a5/83/92e0e84a50850a618aae14d33638554bcbb3ccc7fc4a8bad2c03cfa0ed20/sunpeek-0.2.9-py3-none-any.whl
+[2023-07-13 12:15:00] INFO root fetch - processPackages [pycti]: executing diffoscope
+[2023-07-13 12:15:00] INFO root fetch - processPackages [pycti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycti-5.9.0.tar.gz tmp/pycti-5.9.1.tar.gz --markdown 20230713/p/pycti/5.9.0-5.9.1/diff.md --exclude *.pyd
+[2023-07-13 12:15:00] INFO root fetch - processPackages [sunpeek]: executing diffoscope
+[2023-07-13 12:15:00] INFO root fetch - processPackages [sunpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpeek-0.2.8-py3-none-any.whl.zip tmp/sunpeek-0.2.9-py3-none-any.whl.zip --markdown 20230713/s/sunpeek/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-13 12:15:00] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/b5/bf/680dccdef2576e85b3773de1acde3d263d2c3f105187562a6653cc550a8b/sentry-sdk-1.9.9.tar.gz
+[2023-07-13 12:15:01] INFO root fetch - processPackages [sentry-sdk]: executing diffoscope
+[2023-07-13 12:15:01] INFO root fetch - processPackages [gw3]: Downloading https://files.pythonhosted.org/packages/90/97/31c9a6783e440d8320ac4217aeca0bde2645abf5e8b4c194b2fa54e4ee1b/gw3-0.5.tar.gz
+[2023-07-13 12:15:01] INFO root fetch - processPackages [sentry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-sdk-1.9.8.tar.gz tmp/sentry-sdk-1.9.9.tar.gz --markdown 20230713/s/sentry-sdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-13 12:15:01] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev8.tar.gz]
+[2023-07-13 12:15:01] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev9.tar.gz]
+[2023-07-13 12:15:01] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-13 12:15:01] INFO root fetch - processPackages [gw3]: executing diffoscope
+[2023-07-13 12:15:01] INFO root fetch - processPackages [gw3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gw3-0.4.tar.gz tmp/gw3-0.5.tar.gz --markdown 20230713/g/gw3/0.4-0.5/diff.md --exclude *.pyd
+[2023-07-13 12:15:01] ERROR root fetch - processPackages [fastapi-serve]: Diffoscope failed: time="2023-07-13T12:15:00+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
+
+[2023-07-13 12:15:01] INFO root fetch - main [MainThread]: End processing [fastapi-serve] error
+[2023-07-13 12:15:01] INFO root fetch - processPackages [chartreuse]: Remove: archive file [/home/abi/fetcher/tmp/chartreuse-4.3.2.tar.gz]
+[2023-07-13 12:15:01] INFO root fetch - processPackages [chartreuse]: Remove: archive file [/home/abi/fetcher/tmp/chartreuse-4.3.3.tar.gz]
+[2023-07-13 12:15:01] INFO root fetch - main [MainThread]: End processing [chartreuse]: success
+[2023-07-13 12:15:02] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.60.tar.gz]
+[2023-07-13 12:15:02] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.61.tar.gz]
+[2023-07-13 12:15:02] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-07-13 12:15:02] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.8-py3-none-any.whl.zip]
+[2023-07-13 12:15:02] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.9-py3-none-any.whl.zip]
+[2023-07-13 12:15:02] INFO root fetch - main [MainThread]: End processing [sunpeek]: success
+[2023-07-13 12:15:02] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-5.9.0.tar.gz]
+[2023-07-13 12:15:02] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-5.9.1.tar.gz]
+[2023-07-13 12:15:02] INFO root fetch - main [MainThread]: End processing [pycti]: success
+[2023-07-13 12:15:02] INFO root fetch - processPackages [gw3]: Remove: archive file [/home/abi/fetcher/tmp/gw3-0.4.tar.gz]
+[2023-07-13 12:15:02] INFO root fetch - processPackages [gw3]: Remove: archive file [/home/abi/fetcher/tmp/gw3-0.5.tar.gz]
+[2023-07-13 12:15:02] INFO root fetch - main [MainThread]: End processing [gw3]: success
+[2023-07-13 12:15:02] INFO root fetch - processPackages [sentry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentry-sdk-1.9.8.tar.gz]
+[2023-07-13 12:15:02] INFO root fetch - processPackages [sentry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentry-sdk-1.9.9.tar.gz]
+[2023-07-13 12:15:02] INFO root fetch - main [MainThread]: End processing [sentry-sdk]: success
+[2023-07-13 12:15:12] INFO root fetch - processPackages [fastly]: Remove: archive file [/home/abi/fetcher/tmp/fastly-3.0.1.tar.gz]
+[2023-07-13 12:15:12] INFO root fetch - processPackages [fastly]: Remove: archive file [/home/abi/fetcher/tmp/fastly-3.0.2.tar.gz]
+[2023-07-13 12:15:12] INFO root fetch - main [MainThread]: End processing [fastly]: success
+[2023-07-13 12:15:12] INFO root fetch - main [MainThread]: Store serial: [18873425]
