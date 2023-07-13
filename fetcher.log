@@ -15797,3 +15797,121 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 11:12:51] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.3.9.tar.gz]
 [2023-07-13 11:12:51] INFO root fetch - main [MainThread]: End processing [steamship]: success
 [2023-07-13 11:12:51] INFO root fetch - main [MainThread]: Store serial: [18872355]
+[2023-07-13 11:17:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18872355]
+[2023-07-13 11:18:00] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-13 11:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acconeer-exptool
+[2023-07-13 11:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ural
+[2023-07-13 11:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: degate-connector
+[2023-07-13 11:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: circt
+[2023-07-13 11:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: matfleet
+[2023-07-13 11:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ANTConnect
+[2023-07-13 11:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jmcomic
+[2023-07-13 11:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dsmlibrary-viz
+[2023-07-13 11:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: st-pandas-text-editor
+[2023-07-13 11:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: streamlit-chatbox
+[2023-07-13 11:18:00] INFO root fetch - processPackages [acconeer-exptool]: New version: [7.2.1] Old Version: [7.2.0]
+[2023-07-13 11:18:00] INFO root fetch - processPackages [jmcomic]: New version: [2.1.0] Old Version: [2.0.9]
+[2023-07-13 11:18:00] INFO root fetch - processPackages [matfleet]: New version: [0.0.6b2] Old Version: [0.0.5]
+[2023-07-13 11:18:00] INFO root fetch - processPackages [st-pandas-text-editor]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-13 11:18:00] INFO root fetch - processPackages [degate-connector]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-13 11:18:00] INFO root fetch - processPackages [dsmlibrary-viz]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-13 11:18:00] INFO root fetch - processPackages [circt]: New version: [1.46.0] Old Version: [1.45.0]
+[2023-07-13 11:18:00] INFO root fetch - processPackages [ANTConnect]: New version: [2023.9.1] Old Version: [2023.8.3]
+[2023-07-13 11:18:00] INFO root fetch - processPackages [streamlit-chatbox]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-13 11:18:00] INFO root fetch - processPackages [ural]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-13 11:18:01] INFO root fetch - processPackages [matfleet]: Downloading https://files.pythonhosted.org/packages/61/48/affbd74199b8d6debf76146644245bf80bc754b15db0e7a7b567b69f1394/matfleet-0.0.5.tar.gz
+[2023-07-13 11:18:01] INFO root fetch - processPackages [dsmlibrary-viz]: Downloading https://files.pythonhosted.org/packages/e6/8f/6b446e62ac99d93a76f810cf07e45a2e6c9e80c9f4d5b28cea90ea3797fd/dsmlibrary_viz-0.0.2.tar.gz
+[2023-07-13 11:18:01] INFO root fetch - processPackages [ural]: Downloading https://files.pythonhosted.org/packages/f4/e5/a271a9f3c09f5ab118bade0be5451084882b62d366453410b5b99716dc20/ural-0.8.0.tar.gz
+[2023-07-13 11:18:01] INFO root fetch - processPackages [st-pandas-text-editor]: Downloading https://files.pythonhosted.org/packages/f8/66/bcc92b0bbef7a1cd3cea62d5752523bb75c5515274607df2c2e8753d0a0c/st_pandas_text_editor-0.0.4.tar.gz
+[2023-07-13 11:18:01] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/46/8a/0714f3d530cd7c103834fc86c70ca9a744f2958af767b29f007990d08f1b/jmcomic-2.0.9.tar.gz
+[2023-07-13 11:18:01] INFO root fetch - processPackages [ANTConnect]: Downloading https://files.pythonhosted.org/packages/7a/57/7e64076786316df3ef356d8207d147662d61b0eb90db1d7ba3da507c6866/ANTConnect-2023.8.3.tar.gz
+[2023-07-13 11:18:01] INFO root fetch - processPackages [acconeer-exptool]: Downloading https://files.pythonhosted.org/packages/30/bc/5a96f8c1e04998f855a283b78bbe7d382ec8a945d374497f20984483f543/acconeer-exptool-7.2.0.tar.gz
+[2023-07-13 11:18:01] INFO root fetch - processPackages [circt]: Downloading https://files.pythonhosted.org/packages/23/e1/97e864c829989aef0bdfb50083c3531a43985ac31aa8d19a5ec6833889b2/circt-1.45.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-13 11:18:01] INFO root fetch - processPackages [streamlit-chatbox]: Downloading https://files.pythonhosted.org/packages/92/f8/6e86938ea7cfe36aee02ab2d088e5de4a6f93dcc1a50a22c73188b2c2353/streamlit_chatbox-0.2.2-py3-none-any.whl
+[2023-07-13 11:18:01] INFO root fetch - processPackages [degate-connector]: Downloading https://files.pythonhosted.org/packages/e9/0d/7d30f3ab98c34ead0eb1aee59ce94a0d71abc1fd6fddca0e65ecf4202573/degate-connector-1.5.8.tar.gz
+[2023-07-13 11:18:01] INFO root fetch - processPackages [ural]: Downloading https://files.pythonhosted.org/packages/8d/1a/a55321eefe2a11952939c061467755bbb0efafe278341985aebf3333527c/ural-0.9.0.tar.gz
+[2023-07-13 11:18:01] INFO root fetch - processPackages [matfleet]: Downloading https://files.pythonhosted.org/packages/46/aa/605ce0ccab3c65f0fef3148510dd58a49bddaccc9ee720199e821aaabef5/matfleet-0.0.6b2-py3-none-any.whl
+[2023-07-13 11:18:01] WARNING root fetch - processPackages [degate-connector]: Skipping package: exceeds size limit 37045573>=10485760
+[2023-07-13 11:18:01] INFO root fetch - processPackages [degate-connector]: Start processing: alibabacloud-cms20190101-py2
+[2023-07-13 11:18:01] INFO root fetch - main [MainThread]: End processing [degate-connector] error
+[2023-07-13 11:18:01] INFO root fetch - processPackages [dsmlibrary-viz]: Downloading https://files.pythonhosted.org/packages/42/10/ff1c658642bbb3dbb8ea813422a541c890343d9951a665fe143547507711/dsmlibrary_viz-0.0.3.tar.gz
+[2023-07-13 11:18:01] INFO root fetch - processPackages [alibabacloud-cms20190101-py2]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-13 11:18:01] INFO root fetch - processPackages [ural]: executing diffoscope
+[2023-07-13 11:18:01] INFO root fetch - processPackages [ural]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ural-0.8.0.tar.gz tmp/ural-0.9.0.tar.gz --markdown 20230713/u/ural/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-13 11:18:01] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/d1/04/74b74d572514a9d7ee11ec6e86f7e367f8dfc5b02785fb2306ea9ecf2ed9/jmcomic-2.1.0.tar.gz
+[2023-07-13 11:18:01] INFO root fetch - processPackages [streamlit-chatbox]: Downloading https://files.pythonhosted.org/packages/83/e6/871cc5bd6150d31044c49335cb8cdfe5980dc996af2d0e9e7b8161f5efba/streamlit_chatbox-0.2.3-py3-none-any.whl
+[2023-07-13 11:18:01] INFO root fetch - processPackages [st-pandas-text-editor]: Downloading https://files.pythonhosted.org/packages/2d/e5/f7abfa0d04e5c3f64a2fb0d80b6a662fe5d5c12999828bdc06a7c513f1f6/st_pandas_text_editor-0.0.5.tar.gz
+[2023-07-13 11:18:01] INFO root fetch - processPackages [dsmlibrary-viz]: executing diffoscope
+[2023-07-13 11:18:01] INFO root fetch - processPackages [dsmlibrary-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsmlibrary_viz-0.0.2.tar.gz tmp/dsmlibrary_viz-0.0.3.tar.gz --markdown 20230713/d/dsmlibrary-viz/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-13 11:18:01] INFO root fetch - processPackages [matfleet]: executing diffoscope
+[2023-07-13 11:18:01] INFO root fetch - processPackages [matfleet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matfleet-0.0.5.tar.gz tmp/matfleet-0.0.6b2-py3-none-any.whl.zip --markdown 20230713/m/matfleet/0.0.5-0.0.6b2/diff.md --exclude *.pyd
+[2023-07-13 11:18:01] INFO root fetch - processPackages [ANTConnect]: Downloading https://files.pythonhosted.org/packages/2f/21/70a7468ca2ac31894e0af6e0fe981efeaf3bfadb9d5470c278ec96cd924b/ANTConnect-2023.9.1.tar.gz
+[2023-07-13 11:18:01] INFO root fetch - processPackages [jmcomic]: executing diffoscope
+[2023-07-13 11:18:01] INFO root fetch - processPackages [jmcomic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmcomic-2.0.9.tar.gz tmp/jmcomic-2.1.0.tar.gz --markdown 20230713/j/jmcomic/2.0.9-2.1.0/diff.md --exclude *.pyd
+[2023-07-13 11:18:01] INFO root fetch - processPackages [streamlit-chatbox]: executing diffoscope
+[2023-07-13 11:18:01] INFO root fetch - processPackages [streamlit-chatbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_chatbox-0.2.2-py3-none-any.whl.zip tmp/streamlit_chatbox-0.2.3-py3-none-any.whl.zip --markdown 20230713/s/streamlit-chatbox/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-13 11:18:01] INFO root fetch - processPackages [st-pandas-text-editor]: executing diffoscope
+[2023-07-13 11:18:01] INFO root fetch - processPackages [st-pandas-text-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_pandas_text_editor-0.0.4.tar.gz tmp/st_pandas_text_editor-0.0.5.tar.gz --markdown 20230713/s/st-pandas-text-editor/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-13 11:18:01] INFO root fetch - processPackages [ANTConnect]: executing diffoscope
+[2023-07-13 11:18:01] INFO root fetch - processPackages [ANTConnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANTConnect-2023.8.3.tar.gz tmp/ANTConnect-2023.9.1.tar.gz --markdown 20230713/A/ANTConnect/2023.8.3-2023.9.1/diff.md --exclude *.pyd
+[2023-07-13 11:18:01] INFO root fetch - processPackages [alibabacloud-cms20190101-py2]: Downloading https://files.pythonhosted.org/packages/7e/c7/a96c9c69732978a93f7affc30bf971b62321bb863b4b8473399a412bb360/alibabacloud_cms20190101_py2-1.0.0.tar.gz
+[2023-07-13 11:18:02] INFO root fetch - processPackages [acconeer-exptool]: Downloading https://files.pythonhosted.org/packages/ff/a9/adb8be5a85eafcb7e8dff359e4665edbe5f670a23dd88b2e4e1ecb784445/acconeer-exptool-7.2.1.tar.gz
+[2023-07-13 11:18:02] INFO root fetch - processPackages [acconeer-exptool]: executing diffoscope
+[2023-07-13 11:18:02] INFO root fetch - processPackages [acconeer-exptool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acconeer-exptool-7.2.0.tar.gz tmp/acconeer-exptool-7.2.1.tar.gz --markdown 20230713/a/acconeer-exptool/7.2.0-7.2.1/diff.md --exclude *.pyd
+[2023-07-13 11:18:02] INFO root fetch - processPackages [alibabacloud-cms20190101-py2]: Downloading https://files.pythonhosted.org/packages/79/ef/932a08d6b3553b15cc8795f34c5d84fe06e2127fe50a5d0a29aed069bf4e/alibabacloud_cms20190101_py2-1.0.1.tar.gz
+[2023-07-13 11:18:02] INFO root fetch - processPackages [alibabacloud-cms20190101-py2]: executing diffoscope
+[2023-07-13 11:18:02] INFO root fetch - processPackages [alibabacloud-cms20190101-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cms20190101_py2-1.0.0.tar.gz tmp/alibabacloud_cms20190101_py2-1.0.1.tar.gz --markdown 20230713/a/alibabacloud-cms20190101-py2/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-13 11:18:03] INFO root fetch - processPackages [matfleet]: Remove: archive file [/home/abi/fetcher/tmp/matfleet-0.0.5.tar.gz]
+[2023-07-13 11:18:03] INFO root fetch - processPackages [matfleet]: Remove: archive file [/home/abi/fetcher/tmp/matfleet-0.0.6b2-py3-none-any.whl.zip]
+[2023-07-13 11:18:03] INFO root fetch - processPackages [matfleet]: Start processing: fastMONAI
+[2023-07-13 11:18:03] INFO root fetch - main [MainThread]: End processing [matfleet]: success
+[2023-07-13 11:18:03] INFO root fetch - processPackages [ural]: Remove: archive file [/home/abi/fetcher/tmp/ural-0.8.0.tar.gz]
+[2023-07-13 11:18:03] INFO root fetch - processPackages [ural]: Remove: archive file [/home/abi/fetcher/tmp/ural-0.9.0.tar.gz]
+[2023-07-13 11:18:03] INFO root fetch - processPackages [ural]: Start processing: fsorter
+[2023-07-13 11:18:03] INFO root fetch - main [MainThread]: End processing [ural]: success
+[2023-07-13 11:18:03] WARNING root fetch - processPackages [fsorter]: Skipping, unable to determine old version
+[2023-07-13 11:18:03] INFO root fetch - processPackages [fsorter]: Start processing: torchqtm
+[2023-07-13 11:18:03] INFO root fetch - main [MainThread]: End processing [fsorter] error
+[2023-07-13 11:18:03] INFO root fetch - processPackages [dsmlibrary-viz]: Remove: archive file [/home/abi/fetcher/tmp/dsmlibrary_viz-0.0.2.tar.gz]
+[2023-07-13 11:18:03] INFO root fetch - processPackages [dsmlibrary-viz]: Remove: archive file [/home/abi/fetcher/tmp/dsmlibrary_viz-0.0.3.tar.gz]
+[2023-07-13 11:18:03] INFO root fetch - main [MainThread]: End processing [dsmlibrary-viz]: success
+[2023-07-13 11:18:03] INFO root fetch - processPackages [fastMONAI]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-13 11:18:03] INFO root fetch - processPackages [jmcomic]: Remove: archive file [/home/abi/fetcher/tmp/jmcomic-2.0.9.tar.gz]
+[2023-07-13 11:18:03] INFO root fetch - processPackages [jmcomic]: Remove: archive file [/home/abi/fetcher/tmp/jmcomic-2.1.0.tar.gz]
+[2023-07-13 11:18:03] INFO root fetch - main [MainThread]: End processing [jmcomic]: success
+[2023-07-13 11:18:03] INFO root fetch - processPackages [ANTConnect]: Remove: archive file [/home/abi/fetcher/tmp/ANTConnect-2023.8.3.tar.gz]
+[2023-07-13 11:18:03] INFO root fetch - processPackages [ANTConnect]: Remove: archive file [/home/abi/fetcher/tmp/ANTConnect-2023.9.1.tar.gz]
+[2023-07-13 11:18:03] INFO root fetch - main [MainThread]: End processing [ANTConnect]: success
+[2023-07-13 11:18:03] INFO root fetch - processPackages [streamlit-chatbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chatbox-0.2.2-py3-none-any.whl.zip]
+[2023-07-13 11:18:03] INFO root fetch - processPackages [streamlit-chatbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chatbox-0.2.3-py3-none-any.whl.zip]
+[2023-07-13 11:18:03] INFO root fetch - main [MainThread]: End processing [streamlit-chatbox]: success
+[2023-07-13 11:18:03] INFO root fetch - processPackages [torchqtm]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-13 11:18:03] INFO root fetch - processPackages [fastMONAI]: Downloading https://files.pythonhosted.org/packages/80/05/5f18be66e364bb02884a46ba4e38305dbe52467876e8a40da973b7b4b279/fastMONAI-0.3.1.tar.gz
+[2023-07-13 11:18:03] INFO root fetch - processPackages [torchqtm]: Downloading https://files.pythonhosted.org/packages/85/72/3f0d97e7d9a0e7ba06e1c95a6e38e4fabae9949a3b7617881d43218a90fe/torchqtm-0.1.0.tar.gz
+[2023-07-13 11:18:03] INFO root fetch - processPackages [alibabacloud-cms20190101-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cms20190101_py2-1.0.0.tar.gz]
+[2023-07-13 11:18:03] INFO root fetch - processPackages [alibabacloud-cms20190101-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cms20190101_py2-1.0.1.tar.gz]
+[2023-07-13 11:18:03] INFO root fetch - main [MainThread]: End processing [alibabacloud-cms20190101-py2]: success
+[2023-07-13 11:18:03] INFO root fetch - processPackages [circt]: Downloading https://files.pythonhosted.org/packages/89/7c/10be14e94557ec85d595dd666bde49a1e90a62594fbe79ca8823dafdd230/circt-1.46.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-13 11:18:03] INFO root fetch - processPackages [fastMONAI]: Downloading https://files.pythonhosted.org/packages/c2/44/e10dda21260670b33d3145ab0c7868fdc9eaa94a89cbbe74a7e9f5530034/fastMONAI-0.3.2.tar.gz
+[2023-07-13 11:18:04] INFO root fetch - processPackages [circt]: executing diffoscope
+[2023-07-13 11:18:04] INFO root fetch - processPackages [circt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circt-1.45.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/circt-1.46.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230713/c/circt/1.45.0-1.46.0/diff.md --exclude *.pyd
+[2023-07-13 11:18:04] INFO root fetch - processPackages [torchqtm]: Downloading https://files.pythonhosted.org/packages/c6/b9/9cc1b2058e25b38404cbe7277580b80fa90cb7e80177c458fc4d4fbb67fd/torchqtm-0.2.0.tar.gz
+[2023-07-13 11:18:04] INFO root fetch - processPackages [fastMONAI]: executing diffoscope
+[2023-07-13 11:18:04] INFO root fetch - processPackages [fastMONAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastMONAI-0.3.1.tar.gz tmp/fastMONAI-0.3.2.tar.gz --markdown 20230713/f/fastMONAI/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-13 11:18:04] INFO root fetch - processPackages [torchqtm]: executing diffoscope
+[2023-07-13 11:18:04] INFO root fetch - processPackages [torchqtm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchqtm-0.1.0.tar.gz tmp/torchqtm-0.2.0.tar.gz --markdown 20230713/t/torchqtm/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-13 11:18:05] INFO root fetch - processPackages [fastMONAI]: Remove: archive file [/home/abi/fetcher/tmp/fastMONAI-0.3.1.tar.gz]
+[2023-07-13 11:18:05] INFO root fetch - processPackages [fastMONAI]: Remove: archive file [/home/abi/fetcher/tmp/fastMONAI-0.3.2.tar.gz]
+[2023-07-13 11:18:05] INFO root fetch - main [MainThread]: End processing [fastMONAI]: success
+[2023-07-13 11:18:05] INFO root fetch - processPackages [torchqtm]: Remove: archive file [/home/abi/fetcher/tmp/torchqtm-0.1.0.tar.gz]
+[2023-07-13 11:18:05] INFO root fetch - processPackages [torchqtm]: Remove: archive file [/home/abi/fetcher/tmp/torchqtm-0.2.0.tar.gz]
+[2023-07-13 11:18:05] INFO root fetch - main [MainThread]: End processing [torchqtm]: success
+[2023-07-13 11:18:06] INFO root fetch - processPackages [acconeer-exptool]: Remove: archive file [/home/abi/fetcher/tmp/acconeer-exptool-7.2.0.tar.gz]
+[2023-07-13 11:18:06] INFO root fetch - processPackages [acconeer-exptool]: Remove: archive file [/home/abi/fetcher/tmp/acconeer-exptool-7.2.1.tar.gz]
+[2023-07-13 11:18:06] INFO root fetch - main [MainThread]: End processing [acconeer-exptool]: success
+[2023-07-13 11:18:55] INFO root fetch - processPackages [st-pandas-text-editor]: Remove: archive file [/home/abi/fetcher/tmp/st_pandas_text_editor-0.0.4.tar.gz]
+[2023-07-13 11:18:55] INFO root fetch - processPackages [st-pandas-text-editor]: Remove: archive file [/home/abi/fetcher/tmp/st_pandas_text_editor-0.0.5.tar.gz]
+[2023-07-13 11:18:55] INFO root fetch - main [MainThread]: End processing [st-pandas-text-editor]: success
+[2023-07-13 11:21:04] ERROR root fetch - processPackages [circt]: Timeout during execution of pkgdiff
+[2023-07-13 11:21:04] INFO root fetch - main [MainThread]: End processing [circt] error
+[2023-07-13 11:21:04] INFO root fetch - main [MainThread]: Store serial: [18872405]
