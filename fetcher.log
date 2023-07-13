@@ -8380,3 +8380,216 @@
 [2023-07-13 05:36:28] INFO root fetch - processPackages [odoo13-addon-iot-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_iot_oca-13.0.2.0.1.dev9-py3-none-any.whl.zip]
 [2023-07-13 05:36:28] INFO root fetch - main [MainThread]: End processing [odoo13-addon-iot-oca]: success
 [2023-07-13 05:36:28] INFO root fetch - main [MainThread]: Store serial: [18869510]
+[2023-07-13 05:41:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18869510]
+[2023-07-13 05:41:37] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-13 05:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-iot-oca
+[2023-07-13 05:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo13-addon-iot-amqp-oca
+[2023-07-13 05:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-iot-input-oca
+[2023-07-13 05:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reytool
+[2023-07-13 05:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-iot-rule
+[2023-07-13 05:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-iot-rule
+[2023-07-13 05:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-iot-oca
+[2023-07-13 05:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-iot-oca
+[2023-07-13 05:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-iot-amqp-oca
+[2023-07-13 05:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-iot-oca
+[2023-07-13 05:41:38] INFO root fetch - processPackages [odoo-addon-iot-oca]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-07-13 05:41:38] INFO root fetch - processPackages [odoo-addon-iot-oca]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-07-13 05:41:38] INFO root fetch - processPackages [odoo13-addon-iot-oca]: New version: [13.0.2.0.1.dev9] Old Version: [13.0.2.0.1.dev8]
+[2023-07-13 05:41:38] INFO root fetch - processPackages [odoo14-addon-iot-oca]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-07-13 05:41:38] INFO root fetch - processPackages [odoo-addon-iot-rule]: New version: [15.0.1.0.0.5] Old Version: [15.0.1.0.0.4]
+[2023-07-13 05:41:38] INFO root fetch - processPackages [odoo14-addon-iot-rule]: New version: [14.0.1.0.2.dev6] Old Version: [14.0.1.0.2.dev5]
+[2023-07-13 05:41:38] INFO root fetch - processPackages [odoo14-addon-iot-input-oca]: New version: [14.0.1.0.2.dev4] Old Version: [14.0.1.0.2.dev3]
+[2023-07-13 05:41:38] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-13 05:41:38] INFO root fetch - processPackages [odoo13-addon-iot-amqp-oca]: New version: [13.0.1.1.1.dev6] Old Version: [13.0.1.1.1.dev5]
+[2023-07-13 05:41:38] INFO root fetch - processPackages [odoo14-addon-iot-amqp-oca]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev7]
+[2023-07-13 05:41:38] INFO root fetch - processPackages [odoo13-addon-iot-oca]: Downloading https://files.pythonhosted.org/packages/ec/a3/292e7a4c35827c7082318416cfdb2309bb5e5dc3c407f17bac8b5a87e395/odoo13_addon_iot_oca-13.0.2.0.1.dev8-py3-none-any.whl
+[2023-07-13 05:41:38] INFO root fetch - processPackages [odoo14-addon-iot-oca]: Downloading https://files.pythonhosted.org/packages/14/98/d2e24be78d9afa3f3e4294d8bfa548da24996bef8f3524ba86fb129be6e4/odoo14_addon_iot_oca-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-07-13 05:41:38] INFO root fetch - processPackages [odoo14-addon-iot-input-oca]: Downloading https://files.pythonhosted.org/packages/24/18/89897cd6f6b0540a0237792a17bf24beeea8ca97d83108fde09eb9ef7235/odoo14_addon_iot_input_oca-14.0.1.0.2.dev3-py3-none-any.whl
+[2023-07-13 05:41:38] INFO root fetch - processPackages [odoo-addon-iot-oca]: Downloading https://files.pythonhosted.org/packages/bd/ec/1fa0a7e3a1390d993b8c91e10c847ea8ff2b51bb0038aa28ef202209998f/odoo_addon_iot_oca-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-13 05:41:38] INFO root fetch - processPackages [odoo-addon-iot-oca]: Downloading https://files.pythonhosted.org/packages/bd/ec/1fa0a7e3a1390d993b8c91e10c847ea8ff2b51bb0038aa28ef202209998f/odoo_addon_iot_oca-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-13 05:41:38] INFO root fetch - processPackages [odoo14-addon-iot-amqp-oca]: Downloading https://files.pythonhosted.org/packages/30/23/dfd434407526212b2acec2bb956aa065d02d187b0dde1f1ca0eca8d2758d/odoo14_addon_iot_amqp_oca-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-07-13 05:41:38] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-13 05:41:38] INFO root fetch - processPackages [odoo14-addon-iot-rule]: Downloading https://files.pythonhosted.org/packages/f1/1d/9f08d075d1aa5861f38acb498d7f1f065209bea035aff4de6303df0258a5/odoo14_addon_iot_rule-14.0.1.0.2.dev5-py3-none-any.whl
+[2023-07-13 05:41:38] INFO root fetch - processPackages [odoo13-addon-iot-amqp-oca]: Downloading https://files.pythonhosted.org/packages/ec/d1/2896508344a450ab30e50954547c8de0a1d8a205cab95165840455a88512/odoo13_addon_iot_amqp_oca-13.0.1.1.1.dev5-py3-none-any.whl
+[2023-07-13 05:41:38] INFO root fetch - processPackages [odoo-addon-iot-rule]: Downloading https://files.pythonhosted.org/packages/c9/72/95a72486ca4caa425279374c207a928613f51b2390a8e57026b17fb44423/odoo_addon_iot_rule-15.0.1.0.0.4-py3-none-any.whl
+[2023-07-13 05:41:38] INFO root fetch - processPackages [odoo13-addon-iot-oca]: Downloading https://files.pythonhosted.org/packages/67/01/b88216f2435c419d94301fbcb9184b30bb599512a06a73052e09e72d6e7a/odoo13_addon_iot_oca-13.0.2.0.1.dev9-py3-none-any.whl
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo14-addon-iot-oca]: Downloading https://files.pythonhosted.org/packages/55/2e/39145542282009c6ec69b9a43afa2b72ee85be809adab9155828c7b2ff39/odoo14_addon_iot_oca-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo14-addon-iot-input-oca]: Downloading https://files.pythonhosted.org/packages/6d/84/cdabf6dcfbc74ed64d5e2efec48399f4d9c47821ca04f0289a5048df0e32/odoo14_addon_iot_input_oca-14.0.1.0.2.dev4-py3-none-any.whl
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo-addon-iot-oca]: Downloading https://files.pythonhosted.org/packages/0e/82/7ee8beb4de33781dc3c2588a2454f098282a1cbc2db2c30b44e53fed8567/odoo_addon_iot_oca-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo-addon-iot-oca]: Downloading https://files.pythonhosted.org/packages/0e/82/7ee8beb4de33781dc3c2588a2454f098282a1cbc2db2c30b44e53fed8567/odoo_addon_iot_oca-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo14-addon-iot-amqp-oca]: Downloading https://files.pythonhosted.org/packages/7d/35/994a73bc9733f172fb1ce6de8b00b08359925b68ee30d961c10de54b5a99/odoo14_addon_iot_amqp_oca-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo14-addon-iot-rule]: Downloading https://files.pythonhosted.org/packages/e9/00/2e42c05c7cad7c613ed2eff55a2260887b5efd476564b1a7980f2b64a29a/odoo14_addon_iot_rule-14.0.1.0.2.dev6-py3-none-any.whl
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo-addon-iot-rule]: Downloading https://files.pythonhosted.org/packages/14/2e/37c8d674e744ac16d8135a6c0dc40be33b6b15d6d9e3d3189077219b71c4/odoo_addon_iot_rule-15.0.1.0.0.5-py3-none-any.whl
+[2023-07-13 05:41:39] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo13-addon-iot-amqp-oca]: Downloading https://files.pythonhosted.org/packages/b1/1b/f57890e7672869f2d652db51641d6fed6fc70d5d8d789658f25a01a9a376/odoo13_addon_iot_amqp_oca-13.0.1.1.1.dev6-py3-none-any.whl
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo13-addon-iot-oca]: executing diffoscope
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo13-addon-iot-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_iot_oca-13.0.2.0.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_iot_oca-13.0.2.0.1.dev9-py3-none-any.whl.zip --markdown 20230713/o/odoo13-addon-iot-oca/13.0.2.0.1.dev8-13.0.2.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo14-addon-iot-oca]: executing diffoscope
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo14-addon-iot-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_iot_oca-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_iot_oca-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-iot-oca/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo14-addon-iot-input-oca]: executing diffoscope
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo14-addon-iot-input-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_iot_input_oca-14.0.1.0.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_iot_input_oca-14.0.1.0.2.dev4-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-iot-input-oca/14.0.1.0.2.dev3-14.0.1.0.2.dev4/diff.md --exclude *.pyd
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo-addon-iot-oca]: executing diffoscope
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo-addon-iot-oca]: executing diffoscope
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo-addon-iot-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_iot_oca-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_iot_oca-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-iot-oca/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo-addon-iot-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_iot_oca-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_iot_oca-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-iot-oca/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo-addon-iot-rule]: executing diffoscope
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo-addon-iot-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_iot_rule-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_iot_rule-15.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-iot-rule/15.0.1.0.0.4-15.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-13 05:41:39] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-13 05:41:39] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230713/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo14-addon-iot-amqp-oca]: executing diffoscope
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo14-addon-iot-amqp-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_iot_amqp_oca-14.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_iot_amqp_oca-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-iot-amqp-oca/14.0.1.0.1.dev7-14.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo13-addon-iot-amqp-oca]: executing diffoscope
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo13-addon-iot-amqp-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_iot_amqp_oca-13.0.1.1.1.dev5-py3-none-any.whl.zip tmp/odoo13_addon_iot_amqp_oca-13.0.1.1.1.dev6-py3-none-any.whl.zip --markdown 20230713/o/odoo13-addon-iot-amqp-oca/13.0.1.1.1.dev5-13.0.1.1.1.dev6/diff.md --exclude *.pyd
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo14-addon-iot-rule]: executing diffoscope
+[2023-07-13 05:41:39] INFO root fetch - processPackages [odoo14-addon-iot-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_iot_rule-14.0.1.0.2.dev5-py3-none-any.whl.zip tmp/odoo14_addon_iot_rule-14.0.1.0.2.dev6-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-iot-rule/14.0.1.0.2.dev5-14.0.1.0.2.dev6/diff.md --exclude *.pyd
+[2023-07-13 05:41:41] INFO root fetch - processPackages [odoo13-addon-iot-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_iot_oca-13.0.2.0.1.dev8-py3-none-any.whl.zip]
+[2023-07-13 05:41:41] INFO root fetch - processPackages [odoo13-addon-iot-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_iot_oca-13.0.2.0.1.dev9-py3-none-any.whl.zip]
+[2023-07-13 05:41:41] INFO root fetch - processPackages [odoo13-addon-iot-oca]: Start processing: f5project
+[2023-07-13 05:41:41] INFO root fetch - main [MainThread]: End processing [odoo13-addon-iot-oca]: success
+[2023-07-13 05:41:41] INFO root fetch - processPackages [f5project]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [f5project]: Downloading https://files.pythonhosted.org/packages/8a/ce/a2b802cb0a7a9a64f0d88b731fcc7ca0f5ca928115bac89d8656a17f8854/f5project-0.0.8.tar.gz
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo14-addon-iot-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_iot_oca-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo14-addon-iot-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_iot_oca-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo14-addon-iot-oca]: Start processing: konfuzio-sdk
+[2023-07-13 05:41:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-iot-oca]: success
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo-addon-iot-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_iot_oca-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo-addon-iot-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_iot_oca-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo-addon-iot-oca]: Start processing: odoo12-addon-document-page-tag
+[2023-07-13 05:41:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-iot-oca]: success
+[2023-07-13 05:41:42] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo12-addon-document-page-tag]: New version: [12.0.1.0.0.99.dev8] Old Version: [12.0.1.0.0.99.dev7]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo14-addon-iot-input-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_iot_input_oca-14.0.1.0.2.dev3-py3-none-any.whl.zip]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo14-addon-iot-input-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_iot_input_oca-14.0.1.0.2.dev4-py3-none-any.whl.zip]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo14-addon-iot-input-oca]: Start processing: spaceone-core
+[2023-07-13 05:41:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-iot-input-oca]: success
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo14-addon-iot-amqp-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_iot_amqp_oca-14.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo14-addon-iot-amqp-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_iot_amqp_oca-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo14-addon-iot-amqp-oca]: Start processing: roundup
+[2023-07-13 05:41:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-iot-amqp-oca]: success
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo14-addon-iot-rule]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_iot_rule-14.0.1.0.2.dev5-py3-none-any.whl.zip]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo14-addon-iot-rule]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_iot_rule-14.0.1.0.2.dev6-py3-none-any.whl.zip]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo14-addon-iot-rule]: Start processing: odoo13-addon-document-page-tag
+[2023-07-13 05:41:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-iot-rule]: success
+[2023-07-13 05:41:42] INFO root fetch - processPackages [spaceone-core]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-07-13 05:41:42] INFO root fetch - processPackages [f5project]: Downloading https://files.pythonhosted.org/packages/e8/2f/220c8e52debbe80fc55bf5ede9dfa7c496cdf95165ba8f9486f38aca2c5e/f5project-0.0.9.tar.gz
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo13-addon-document-page-tag]: New version: [13.0.1.0.1.dev9] Old Version: [13.0.1.0.1.dev7]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [roundup]: New version: [2.3.0b2] Old Version: [2.3.0]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [reytool]: Start processing: odoo13-addon-document-page
+[2023-07-13 05:41:42] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-13 05:41:42] INFO root fetch - processPackages [f5project]: executing diffoscope
+[2023-07-13 05:41:42] INFO root fetch - processPackages [f5project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f5project-0.0.8.tar.gz tmp/f5project-0.0.9.tar.gz --markdown 20230713/f/f5project/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo12-addon-document-page-tag]: Downloading https://files.pythonhosted.org/packages/84/7d/c733fa609faf4573a8c4757c646e2d31d13138f22560613a635ff70e7377/odoo12_addon_document_page_tag-12.0.1.0.0.99.dev7-py3-none-any.whl
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo13-addon-iot-amqp-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_iot_amqp_oca-13.0.1.1.1.dev5-py3-none-any.whl.zip]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo13-addon-iot-amqp-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_iot_amqp_oca-13.0.1.1.1.dev6-py3-none-any.whl.zip]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo13-addon-iot-amqp-oca]: Start processing: tembo-pgmq-python
+[2023-07-13 05:41:42] INFO root fetch - main [MainThread]: End processing [odoo13-addon-iot-amqp-oca]: success
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo13-addon-document-page]: New version: [13.0.1.1.1.dev9] Old Version: [13.0.1.1.1.dev8]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo-addon-iot-oca]: Start processing: odoo14-addon-document-page-tag
+[2023-07-13 05:41:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-iot-oca]: success
+[2023-07-13 05:41:42] INFO root fetch - processPackages [tembo-pgmq-python]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo-addon-iot-rule]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_iot_rule-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo-addon-iot-rule]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_iot_rule-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo-addon-iot-rule]: Start processing: odoo-addon-document-page-tag
+[2023-07-13 05:41:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-iot-rule]: success
+[2023-07-13 05:41:42] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/1f/6d/5cbc0264b2c1dd5f3ae609e7b61b5c5c8d54710e85e098c13db4552af976/spaceone_core-1.9.7.1-py3-none-any.whl
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo14-addon-document-page-tag]: New version: [14.0.1.2.1.dev6] Old Version: [14.0.1.2.1.dev5]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-07-13 05:41:42] INFO root fetch - processPackages [roundup]: Downloading https://files.pythonhosted.org/packages/90/09/2ad041409f24346804a8e5f56f18c2203afa6c2e6e669d839f4649ef3585/roundup-2.3.0.tar.gz
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo-addon-document-page-tag]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2023-07-13 05:41:42] INFO root fetch - processPackages [odoo13-addon-document-page-tag]: Downloading https://files.pythonhosted.org/packages/ed/89/8aac912ae277079aea5e4d22515cac963678f899147375745fdcaca751f4/odoo13_addon_document_page_tag-13.0.1.0.1.dev7-py3-none-any.whl
+[2023-07-13 05:41:43] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-07-13 05:41:43] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230713/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-07-13 05:41:43] INFO root fetch - processPackages [tembo-pgmq-python]: Downloading https://files.pythonhosted.org/packages/64/e7/1588a7958b58285ab623f8e044f2d2c2f43cca145d2043ee713cba955e22/tembo_pgmq_python-0.2.2.tar.gz
+[2023-07-13 05:41:43] INFO root fetch - processPackages [odoo13-addon-document-page]: Downloading https://files.pythonhosted.org/packages/4a/e1/719a6d27c344d7c15a3bd6738cfe93ecc2c0c30a61bb9516a962ee8002d7/odoo13_addon_document_page-13.0.1.1.1.dev8-py3-none-any.whl
+[2023-07-13 05:41:43] INFO root fetch - processPackages [odoo14-addon-document-page-tag]: Downloading https://files.pythonhosted.org/packages/07/5b/3ab5bd919b50b83ef6d0c36b5f3d4f94890376931b043f443258aaec4f0a/odoo14_addon_document_page_tag-14.0.1.2.1.dev5-py3-none-any.whl
+[2023-07-13 05:41:43] INFO root fetch - processPackages [odoo-addon-document-page-tag]: Downloading https://files.pythonhosted.org/packages/73/67/0f327ee054e2f1f7db641d0edd5254c752e30be5fe0d898983ab1d38263e/odoo_addon_document_page_tag-16.0.1.0.0.7-py3-none-any.whl
+[2023-07-13 05:41:43] INFO root fetch - processPackages [odoo12-addon-document-page-tag]: Downloading https://files.pythonhosted.org/packages/a7/04/d9e6e96e1b0bb72e3ac24edd384012f07d6d636d7f204d9f07135fbe78f8/odoo12_addon_document_page_tag-12.0.1.0.0.99.dev8-py3-none-any.whl
+[2023-07-13 05:41:43] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/2f/7f/98bd3e0e1e14ec1a59e8d305c033978db48833658a8f1754c0458e77a3c4/spaceone_core-1.9.7rc1-py3-none-any.whl
+[2023-07-13 05:41:43] INFO root fetch - processPackages [odoo13-addon-document-page-tag]: Downloading https://files.pythonhosted.org/packages/c6/22/1c5406188546bd2450d7c173491f8a686984eeaa94df6b1d38c7961083ab/odoo13_addon_document_page_tag-13.0.1.0.1.dev9-py3-none-any.whl
+[2023-07-13 05:41:43] INFO root fetch - processPackages [roundup]: Downloading https://files.pythonhosted.org/packages/40/7f/13458fdb04ebb7e531e3bc5d19a20ffb20ab8f5d93fd3c6afbd3e18afd5e/roundup-2.3.0b2.tar.gz
+[2023-07-13 05:41:43] INFO root fetch - processPackages [odoo12-addon-document-page-tag]: executing diffoscope
+[2023-07-13 05:41:43] INFO root fetch - processPackages [odoo12-addon-document-page-tag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_document_page_tag-12.0.1.0.0.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_document_page_tag-12.0.1.0.0.99.dev8-py3-none-any.whl.zip --markdown 20230713/o/odoo12-addon-document-page-tag/12.0.1.0.0.99.dev7-12.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-07-13 05:41:43] INFO root fetch - processPackages [tembo-pgmq-python]: Downloading https://files.pythonhosted.org/packages/bf/fd/578e1c54cb6768b06149a93125e86b453d86b291a8df5bb22cbfccc60ab2/tembo_pgmq_python-0.3.0.tar.gz
+[2023-07-13 05:41:43] INFO root fetch - processPackages [spaceone-core]: executing diffoscope
+[2023-07-13 05:41:43] INFO root fetch - processPackages [spaceone-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip --markdown 20230713/s/spaceone-core/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-13 05:41:43] INFO root fetch - processPackages [tembo-pgmq-python]: executing diffoscope
+[2023-07-13 05:41:43] INFO root fetch - processPackages [tembo-pgmq-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tembo_pgmq_python-0.2.2.tar.gz tmp/tembo_pgmq_python-0.3.0.tar.gz --markdown 20230713/t/tembo-pgmq-python/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-07-13 05:41:43] INFO root fetch - processPackages [odoo13-addon-document-page-tag]: executing diffoscope
+[2023-07-13 05:41:43] INFO root fetch - processPackages [odoo13-addon-document-page-tag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_document_page_tag-13.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo13_addon_document_page_tag-13.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230713/o/odoo13-addon-document-page-tag/13.0.1.0.1.dev7-13.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-13 05:41:43] INFO root fetch - processPackages [odoo13-addon-document-page]: Downloading https://files.pythonhosted.org/packages/15/36/1f5f6f5de0d2f6785920878e3f14c4fa01774323ce17274f0ae866586ab1/odoo13_addon_document_page-13.0.1.1.1.dev9-py3-none-any.whl
+[2023-07-13 05:41:43] INFO root fetch - processPackages [odoo14-addon-document-page-tag]: Downloading https://files.pythonhosted.org/packages/8e/f8/f6845f4f8127cedf0d8682fb4f8e5c2eff02c3c28f91ddf32a9d9b272402/odoo14_addon_document_page_tag-14.0.1.2.1.dev6-py3-none-any.whl
+[2023-07-13 05:41:43] INFO root fetch - processPackages [odoo-addon-document-page-tag]: Downloading https://files.pythonhosted.org/packages/ef/56/e057d339446e303cff3f8e5d3bcf4613df9d7a5ef1d61827ea1fce117b67/odoo_addon_document_page_tag-16.0.1.0.0.8-py3-none-any.whl
+[2023-07-13 05:41:44] INFO root fetch - processPackages [odoo-addon-document-page-tag]: executing diffoscope
+[2023-07-13 05:41:44] INFO root fetch - processPackages [odoo-addon-document-page-tag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page_tag-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_document_page_tag-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-document-page-tag/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-07-13 05:41:44] INFO root fetch - processPackages [odoo13-addon-document-page]: executing diffoscope
+[2023-07-13 05:41:44] INFO root fetch - processPackages [odoo13-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_document_page-13.0.1.1.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_document_page-13.0.1.1.1.dev9-py3-none-any.whl.zip --markdown 20230713/o/odoo13-addon-document-page/13.0.1.1.1.dev8-13.0.1.1.1.dev9/diff.md --exclude *.pyd
+[2023-07-13 05:41:44] INFO root fetch - processPackages [odoo14-addon-document-page-tag]: executing diffoscope
+[2023-07-13 05:41:44] INFO root fetch - processPackages [odoo14-addon-document-page-tag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_document_page_tag-14.0.1.2.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_document_page_tag-14.0.1.2.1.dev6-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-document-page-tag/14.0.1.2.1.dev5-14.0.1.2.1.dev6/diff.md --exclude *.pyd
+[2023-07-13 05:41:44] INFO root fetch - processPackages [roundup]: executing diffoscope
+[2023-07-13 05:41:44] INFO root fetch - processPackages [roundup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roundup-2.3.0.tar.gz tmp/roundup-2.3.0b2.tar.gz --markdown 20230713/r/roundup/2.3.0-2.3.0b2/diff.md --exclude *.pyd
+[2023-07-13 05:41:44] INFO root fetch - processPackages [f5project]: Remove: archive file [/home/abi/fetcher/tmp/f5project-0.0.8.tar.gz]
+[2023-07-13 05:41:44] INFO root fetch - processPackages [f5project]: Remove: archive file [/home/abi/fetcher/tmp/f5project-0.0.9.tar.gz]
+[2023-07-13 05:41:44] INFO root fetch - processPackages [f5project]: Start processing: odoo-addon-document-page-tag
+[2023-07-13 05:41:44] INFO root fetch - main [MainThread]: End processing [f5project]: success
+[2023-07-13 05:41:44] INFO root fetch - processPackages [odoo-addon-document-page-tag]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2023-07-13 05:41:45] INFO root fetch - processPackages [odoo-addon-document-page-tag]: executing diffoscope
+[2023-07-13 05:41:45] INFO root fetch - processPackages [odoo-addon-document-page-tag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page_tag-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_document_page_tag-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-document-page-tag/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-07-13 05:41:45] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-07-13 05:41:45] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-07-13 05:41:45] INFO root fetch - processPackages [konfuzio-sdk]: Start processing: rembg
+[2023-07-13 05:41:45] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-07-13 05:41:45] INFO root fetch - processPackages [rembg]: New version: [2.0.50] Old Version: [2.0.49]
+[2023-07-13 05:41:45] INFO root fetch - processPackages [rembg]: Downloading https://files.pythonhosted.org/packages/42/86/7763c60086d3b6bb306057737309e99b58bf215f0190fbfba1f590c814de/rembg-2.0.49.tar.gz
+[2023-07-13 05:41:46] INFO root fetch - processPackages [tembo-pgmq-python]: Remove: archive file [/home/abi/fetcher/tmp/tembo_pgmq_python-0.2.2.tar.gz]
+[2023-07-13 05:41:46] INFO root fetch - processPackages [tembo-pgmq-python]: Remove: archive file [/home/abi/fetcher/tmp/tembo_pgmq_python-0.3.0.tar.gz]
+[2023-07-13 05:41:46] INFO root fetch - processPackages [tembo-pgmq-python]: Start processing: cf-clearance
+[2023-07-13 05:41:46] INFO root fetch - main [MainThread]: End processing [tembo-pgmq-python]: success
+[2023-07-13 05:41:46] INFO root fetch - processPackages [cf-clearance]: New version: [0.30.0] Old Version: [0.29.2]
+[2023-07-13 05:41:46] INFO root fetch - processPackages [rembg]: Downloading https://files.pythonhosted.org/packages/06/8c/dd68aa6c20d0c19018ca6f6a838568675d4a02b43d42fbe67cdd969bcbf8/rembg-2.0.50.tar.gz
+[2023-07-13 05:41:46] INFO root fetch - processPackages [cf-clearance]: Downloading https://files.pythonhosted.org/packages/16/df/ab2f7729573ab75e76b97da4c77c63f864bd18b8b9efdcb4bbdb3ad7c4b3/cf_clearance-0.29.2.tar.gz
+[2023-07-13 05:41:46] INFO root fetch - processPackages [rembg]: executing diffoscope
+[2023-07-13 05:41:46] INFO root fetch - processPackages [rembg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rembg-2.0.49.tar.gz tmp/rembg-2.0.50.tar.gz --markdown 20230713/r/rembg/2.0.49-2.0.50/diff.md --exclude *.pyd
+[2023-07-13 05:41:46] INFO root fetch - processPackages [odoo12-addon-document-page-tag]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_document_page_tag-12.0.1.0.0.99.dev7-py3-none-any.whl.zip]
+[2023-07-13 05:41:46] INFO root fetch - processPackages [odoo12-addon-document-page-tag]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_document_page_tag-12.0.1.0.0.99.dev8-py3-none-any.whl.zip]
+[2023-07-13 05:41:46] INFO root fetch - processPackages [odoo12-addon-document-page-tag]: Start processing: mocap
+[2023-07-13 05:41:46] INFO root fetch - main [MainThread]: End processing [odoo12-addon-document-page-tag]: success
+[2023-07-13 05:41:47] INFO root fetch - processPackages [mocap]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-13 05:41:47] INFO root fetch - processPackages [cf-clearance]: Downloading https://files.pythonhosted.org/packages/02/ab/8745d246587112f3a639e705545d0c71b1d451955aaa4b64390115dec7fc/cf_clearance-0.30.0.tar.gz
+[2023-07-13 05:41:47] INFO root fetch - processPackages [cf-clearance]: executing diffoscope
+[2023-07-13 05:41:47] INFO root fetch - processPackages [cf-clearance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf_clearance-0.29.2.tar.gz tmp/cf_clearance-0.30.0.tar.gz --markdown 20230713/c/cf-clearance/0.29.2-0.30.0/diff.md --exclude *.pyd
+[2023-07-13 05:41:47] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip]
+[2023-07-13 05:41:47] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-13 05:41:47] INFO root fetch - processPackages [odoo13-addon-document-page-tag]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_document_page_tag-13.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2023-07-13 05:41:47] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
+[2023-07-13 05:41:47] INFO root fetch - processPackages [odoo13-addon-document-page-tag]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_document_page_tag-13.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-07-13 05:41:47] INFO root fetch - main [MainThread]: End processing [odoo13-addon-document-page-tag]: success
+[2023-07-13 05:41:47] INFO root fetch - processPackages [mocap]: Downloading https://files.pythonhosted.org/packages/31/48/5e993fe6e0961e2150d332ef8d0991f1d3988c4100394aa9902ca121ad0a/mocap-0.1.1.tar.gz
+[2023-07-13 05:41:47] INFO root fetch - processPackages [odoo-addon-document-page-tag]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page_tag-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-07-13 05:41:47] INFO root fetch - processPackages [odoo-addon-document-page-tag]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page_tag-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-13 05:41:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page-tag]: success
+[2023-07-13 05:41:47] INFO root fetch - processPackages [odoo14-addon-document-page-tag]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_document_page_tag-14.0.1.2.1.dev5-py3-none-any.whl.zip]
+[2023-07-13 05:41:47] INFO root fetch - processPackages [odoo14-addon-document-page-tag]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_document_page_tag-14.0.1.2.1.dev6-py3-none-any.whl.zip]
+[2023-07-13 05:41:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-document-page-tag]: success
+[2023-07-13 05:41:47] INFO root fetch - processPackages [odoo13-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_document_page-13.0.1.1.1.dev8-py3-none-any.whl.zip]
+[2023-07-13 05:41:47] INFO root fetch - processPackages [odoo13-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_document_page-13.0.1.1.1.dev9-py3-none-any.whl.zip]
+[2023-07-13 05:41:47] INFO root fetch - main [MainThread]: End processing [odoo13-addon-document-page]: success
+[2023-07-13 05:41:47] INFO root fetch - processPackages [mocap]: Downloading https://files.pythonhosted.org/packages/4e/f8/ee526e39788f465cc045cd9874f37bdc4bf4b5a66e42e4860571ddd9d9e1/mocap-0.1.2.tar.gz
+[2023-07-13 05:41:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page-tag]: success
+[2023-07-13 05:41:47] INFO root fetch - processPackages [mocap]: executing diffoscope
+[2023-07-13 05:41:47] INFO root fetch - processPackages [mocap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mocap-0.1.1.tar.gz tmp/mocap-0.1.2.tar.gz --markdown 20230713/m/mocap/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-13 05:41:48] INFO root fetch - processPackages [rembg]: Remove: archive file [/home/abi/fetcher/tmp/rembg-2.0.49.tar.gz]
+[2023-07-13 05:41:48] INFO root fetch - processPackages [rembg]: Remove: archive file [/home/abi/fetcher/tmp/rembg-2.0.50.tar.gz]
+[2023-07-13 05:41:48] INFO root fetch - main [MainThread]: End processing [rembg]: success
+[2023-07-13 05:41:48] INFO root fetch - processPackages [cf-clearance]: Remove: archive file [/home/abi/fetcher/tmp/cf_clearance-0.29.2.tar.gz]
+[2023-07-13 05:41:48] INFO root fetch - processPackages [cf-clearance]: Remove: archive file [/home/abi/fetcher/tmp/cf_clearance-0.30.0.tar.gz]
+[2023-07-13 05:41:48] INFO root fetch - main [MainThread]: End processing [cf-clearance]: success
+[2023-07-13 05:41:49] INFO root fetch - processPackages [mocap]: Remove: archive file [/home/abi/fetcher/tmp/mocap-0.1.1.tar.gz]
+[2023-07-13 05:41:49] INFO root fetch - processPackages [mocap]: Remove: archive file [/home/abi/fetcher/tmp/mocap-0.1.2.tar.gz]
+[2023-07-13 05:41:49] INFO root fetch - main [MainThread]: End processing [mocap]: success
+[2023-07-13 05:42:01] INFO root fetch - processPackages [roundup]: Remove: archive file [/home/abi/fetcher/tmp/roundup-2.3.0.tar.gz]
+[2023-07-13 05:42:01] INFO root fetch - processPackages [roundup]: Remove: archive file [/home/abi/fetcher/tmp/roundup-2.3.0b2.tar.gz]
+[2023-07-13 05:42:01] INFO root fetch - main [MainThread]: End processing [roundup]: success
+[2023-07-13 05:42:01] INFO root fetch - main [MainThread]: Store serial: [18869564]
