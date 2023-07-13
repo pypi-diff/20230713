@@ -6916,3 +6916,73 @@
 [2023-07-13 04:35:03] INFO root fetch - processPackages [django-magiclink]: Remove: archive file [/home/abi/fetcher/tmp/django_magiclink-1.3.0.tar.gz]
 [2023-07-13 04:35:03] INFO root fetch - main [MainThread]: End processing [django-magiclink]: success
 [2023-07-13 04:35:03] INFO root fetch - main [MainThread]: Store serial: [18869030]
+[2023-07-13 04:40:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18869030]
+[2023-07-13 04:40:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-13 04:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypomes-db
+[2023-07-13 04:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tictactoetools
+[2023-07-13 04:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-account-move-template
+[2023-07-13 04:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nsface-python
+[2023-07-13 04:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-move-template
+[2023-07-13 04:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-account-move-template
+[2023-07-13 04:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nsface-cpu-python
+[2023-07-13 04:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: schelp
+[2023-07-13 04:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-account-move-template
+[2023-07-13 04:40:12] INFO root fetch - processPackages [nsface-python]: New version: [1.1.74] Old Version: [1.1.73]
+[2023-07-13 04:40:12] INFO root fetch - processPackages [tictactoetools]: New version: [2.1] Old Version: [2.0.1]
+[2023-07-13 04:40:12] INFO root fetch - processPackages [odoo12-addon-account-move-template]: New version: [12.0.1.1.0.99.dev9] Old Version: [12.0.1.1.0.99.dev8]
+[2023-07-13 04:40:12] INFO root fetch - processPackages [odoo-addon-account-move-template]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-07-13 04:40:12] INFO root fetch - processPackages [odoo14-addon-account-move-template]: New version: [14.0.1.1.3.dev9] Old Version: [14.0.1.1.3.dev8]
+[2023-07-13 04:40:12] WARNING root fetch - processPackages [schelp]: Skipping, unable to determine old version
+[2023-07-13 04:40:12] INFO root fetch - main [MainThread]: End processing [schelp] error
+[2023-07-13 04:40:12] INFO root fetch - processPackages [odoo-addon-account-move-template]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-07-13 04:40:12] INFO root fetch - processPackages [pypomes-db]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-13 04:40:13] INFO root fetch - processPackages [nsface-cpu-python]: New version: [1.1.74] Old Version: [1.1.73]
+[2023-07-13 04:40:13] INFO root fetch - processPackages [tictactoetools]: Downloading https://files.pythonhosted.org/packages/1e/cf/aba2f2b13062041329fbbcfe1584df4d6d519317d1c76a16950bfc8b154a/tictactoetools-2.0.1.tar.gz
+[2023-07-13 04:40:13] INFO root fetch - processPackages [nsface-python]: Downloading https://files.pythonhosted.org/packages/f8/6f/94891f69bbcde8c5977f39cd1c7d65ad9aae6e8f4305229a8fcf51f5d25a/nsface_python-1.1.73-py3-none-any.whl
+[2023-07-13 04:40:13] INFO root fetch - processPackages [odoo12-addon-account-move-template]: Downloading https://files.pythonhosted.org/packages/a7/d1/99062f5b5453d46b96d1aeb3806e083c7db253f329c1c7a9adfe77debfa8/odoo12_addon_account_move_template-12.0.1.1.0.99.dev8-py3-none-any.whl
+[2023-07-13 04:40:13] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/58/61/d3d645ee018147882257ec8f71e57e6b03b4d145d0985dffbc1cbcefce66/pypomes_db-0.1.8.tar.gz
+[2023-07-13 04:40:13] INFO root fetch - processPackages [odoo-addon-account-move-template]: Downloading https://files.pythonhosted.org/packages/bc/73/de1e7a2afbc53478b6b1b940ffb3595a3d2340656bafec319c2150a2de13/odoo_addon_account_move_template-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-13 04:40:13] INFO root fetch - processPackages [odoo-addon-account-move-template]: Downloading https://files.pythonhosted.org/packages/bc/73/de1e7a2afbc53478b6b1b940ffb3595a3d2340656bafec319c2150a2de13/odoo_addon_account_move_template-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-13 04:40:13] INFO root fetch - processPackages [odoo14-addon-account-move-template]: Downloading https://files.pythonhosted.org/packages/9c/26/2bded64e0195dc4e6367bb67e71625c5a1db36221bf58f86ef16f19bb955/odoo14_addon_account_move_template-14.0.1.1.3.dev8-py3-none-any.whl
+[2023-07-13 04:40:13] INFO root fetch - processPackages [nsface-cpu-python]: Downloading https://files.pythonhosted.org/packages/1e/5a/7ebce6f1f465e751f9839889a59755faf0808e870a6b7e51c8531bd813f0/nsface_cpu_python-1.1.73-py3-none-any.whl
+[2023-07-13 04:40:13] INFO root fetch - processPackages [tictactoetools]: Downloading https://files.pythonhosted.org/packages/84/29/1b2a81dc92fb1d7ef5634cb8032cc465d017cd8d329726f5959737a24c35/tictactoetools-2.1.tar.gz
+[2023-07-13 04:40:13] INFO root fetch - processPackages [tictactoetools]: executing diffoscope
+[2023-07-13 04:40:13] INFO root fetch - processPackages [tictactoetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tictactoetools-2.0.1.tar.gz tmp/tictactoetools-2.1.tar.gz --markdown 20230713/t/tictactoetools/2.0.1-2.1/diff.md --exclude *.pyd
+[2023-07-13 04:40:13] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/87/24/aeaf8a80a3380dd78056b5e1aa489a7d406a9fa08975fc0d15d2c8eb5b2b/pypomes_db-0.1.9.tar.gz
+[2023-07-13 04:40:13] INFO root fetch - processPackages [pypomes-db]: executing diffoscope
+[2023-07-13 04:40:13] INFO root fetch - processPackages [pypomes-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_db-0.1.8.tar.gz tmp/pypomes_db-0.1.9.tar.gz --markdown 20230713/p/pypomes-db/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-13 04:40:13] INFO root fetch - processPackages [nsface-python]: Downloading https://files.pythonhosted.org/packages/0d/3e/a96452ad0ee73e0b528eca8cd86da79b276a42312a08dea30fb69f8dfccd/nsface_python-1.1.74-py3-none-any.whl
+[2023-07-13 04:40:13] INFO root fetch - processPackages [odoo14-addon-account-move-template]: Downloading https://files.pythonhosted.org/packages/56/eb/f3c337beb846c1bf66c163eca56c51db6db1171e561668b9026b0699ea95/odoo14_addon_account_move_template-14.0.1.1.3.dev9-py3-none-any.whl
+[2023-07-13 04:40:13] INFO root fetch - processPackages [odoo-addon-account-move-template]: Downloading https://files.pythonhosted.org/packages/06/aa/6d8558e05fc9195228a5b6e26935d7ade6a53a5683930d801ebd404933e5/odoo_addon_account_move_template-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-13 04:40:13] INFO root fetch - processPackages [odoo-addon-account-move-template]: Downloading https://files.pythonhosted.org/packages/06/aa/6d8558e05fc9195228a5b6e26935d7ade6a53a5683930d801ebd404933e5/odoo_addon_account_move_template-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-13 04:40:13] INFO root fetch - processPackages [odoo12-addon-account-move-template]: Downloading https://files.pythonhosted.org/packages/21/30/ffb6578444308ebba9ce240bc5f23c437ba318308dbc5f34f186dd9616dc/odoo12_addon_account_move_template-12.0.1.1.0.99.dev9-py3-none-any.whl
+[2023-07-13 04:40:13] INFO root fetch - processPackages [odoo-addon-account-move-template]: executing diffoscope
+[2023-07-13 04:40:13] INFO root fetch - processPackages [odoo-addon-account-move-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_template-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_move_template-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-account-move-template/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-13 04:40:13] INFO root fetch - processPackages [nsface-cpu-python]: Downloading https://files.pythonhosted.org/packages/cc/dd/145ae019f7f98b8eaabce1508ab7e3d354cdcc03ab1db2a07da4d1b9088b/nsface_cpu_python-1.1.74-py3-none-any.whl
+[2023-07-13 04:40:14] INFO root fetch - processPackages [odoo-addon-account-move-template]: executing diffoscope
+[2023-07-13 04:40:14] INFO root fetch - processPackages [odoo-addon-account-move-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_template-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_move_template-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-account-move-template/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-13 04:40:14] WARNING root fetch - processPackages [nsface-cpu-python]: Skipping package: exceeds size limit 41438492>=10485760
+[2023-07-13 04:40:14] INFO root fetch - main [MainThread]: End processing [nsface-cpu-python] error
+[2023-07-13 04:40:14] INFO root fetch - processPackages [odoo12-addon-account-move-template]: executing diffoscope
+[2023-07-13 04:40:14] INFO root fetch - processPackages [odoo12-addon-account-move-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_move_template-12.0.1.1.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_account_move_template-12.0.1.1.0.99.dev9-py3-none-any.whl.zip --markdown 20230713/o/odoo12-addon-account-move-template/12.0.1.1.0.99.dev8-12.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-13 04:40:14] INFO root fetch - processPackages [odoo14-addon-account-move-template]: executing diffoscope
+[2023-07-13 04:40:14] INFO root fetch - processPackages [odoo14-addon-account-move-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_move_template-14.0.1.1.3.dev8-py3-none-any.whl.zip tmp/odoo14_addon_account_move_template-14.0.1.1.3.dev9-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-account-move-template/14.0.1.1.3.dev8-14.0.1.1.3.dev9/diff.md --exclude *.pyd
+[2023-07-13 04:40:14] WARNING root fetch - processPackages [nsface-python]: Skipping package: exceeds size limit 45102172>=10485760
+[2023-07-13 04:40:14] INFO root fetch - main [MainThread]: End processing [nsface-python] error
+[2023-07-13 04:40:14] INFO root fetch - processPackages [tictactoetools]: Remove: archive file [/home/abi/fetcher/tmp/tictactoetools-2.0.1.tar.gz]
+[2023-07-13 04:40:14] INFO root fetch - processPackages [tictactoetools]: Remove: archive file [/home/abi/fetcher/tmp/tictactoetools-2.1.tar.gz]
+[2023-07-13 04:40:14] INFO root fetch - main [MainThread]: End processing [tictactoetools]: success
+[2023-07-13 04:40:14] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.1.8.tar.gz]
+[2023-07-13 04:40:14] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.1.9.tar.gz]
+[2023-07-13 04:40:14] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
+[2023-07-13 04:40:15] INFO root fetch - processPackages [odoo-addon-account-move-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_template-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-13 04:40:15] INFO root fetch - processPackages [odoo-addon-account-move-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_template-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-13 04:40:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-template]: success
+[2023-07-13 04:40:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-template]: success
+[2023-07-13 04:40:15] INFO root fetch - processPackages [odoo12-addon-account-move-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_move_template-12.0.1.1.0.99.dev8-py3-none-any.whl.zip]
+[2023-07-13 04:40:15] INFO root fetch - processPackages [odoo12-addon-account-move-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_move_template-12.0.1.1.0.99.dev9-py3-none-any.whl.zip]
+[2023-07-13 04:40:15] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-move-template]: success
+[2023-07-13 04:40:15] INFO root fetch - processPackages [odoo14-addon-account-move-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_move_template-14.0.1.1.3.dev8-py3-none-any.whl.zip]
+[2023-07-13 04:40:15] INFO root fetch - processPackages [odoo14-addon-account-move-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_move_template-14.0.1.1.3.dev9-py3-none-any.whl.zip]
+[2023-07-13 04:40:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-move-template]: success
+[2023-07-13 04:40:15] INFO root fetch - main [MainThread]: Store serial: [18869057]
