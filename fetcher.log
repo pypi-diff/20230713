@@ -15267,3 +15267,103 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 10:51:48] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-07-13 10:51:48] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-07-13 10:51:48] INFO root fetch - main [MainThread]: Store serial: [18872167]
+[2023-07-13 10:56:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18872167]
+[2023-07-13 10:56:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-13 10:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auto-test-common
+[2023-07-13 10:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: frontengine-dev
+[2023-07-13 10:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notros2
+[2023-07-13 10:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notros2
+[2023-07-13 10:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: limberer
+[2023-07-13 10:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fossbill
+[2023-07-13 10:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: frontengine
+[2023-07-13 10:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: freva
+[2023-07-13 10:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: medsenger-api
+[2023-07-13 10:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sphinx-docsearch
+[2023-07-13 10:56:58] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 10:56:58] INFO root fetch - processPackages [limberer]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-13 10:56:58] INFO root fetch - processPackages [notros2]: New version: [23.7.13.85327] Old Version: [23.7.13.85319]
+[2023-07-13 10:56:58] INFO root fetch - processPackages [auto-test-common]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 10:56:58] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 10:56:58] INFO root fetch - processPackages [fossbill]: New version: [0.9.2] Old Version: [0.9.0]
+[2023-07-13 10:56:58] INFO root fetch - processPackages [notros2]: New version: [23.7.13.85327] Old Version: [23.7.13.85319]
+[2023-07-13 10:56:58] INFO root fetch - processPackages [freva]: New version: [2307.0.0] Old Version: [2303.0.0]
+[2023-07-13 10:56:58] INFO root fetch - processPackages [sphinx-docsearch]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-13 10:56:58] INFO root fetch - processPackages [medsenger-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-13 10:56:59] INFO root fetch - processPackages [fossbill]: Downloading https://files.pythonhosted.org/packages/06/57/01c7f211973b328bba6e445bfa190a9031e0d2fc1a9e2c409ba8fcd2bb0c/fossbill-0.9.0-py3-none-any.whl
+[2023-07-13 10:56:59] INFO root fetch - processPackages [sphinx-docsearch]: Downloading https://files.pythonhosted.org/packages/ed/2b/4ef0f671a4bde497e53f0fe3b36bd31888ffb2b4cb122aa70ef8e40f841f/sphinx_docsearch-0.0.2.tar.gz
+[2023-07-13 10:56:59] INFO root fetch - processPackages [limberer]: Downloading https://files.pythonhosted.org/packages/3b/c2/18bbe5ac749d18791c7358e7838c6df30d0a3e10f6e420612216ca621a24/limberer-0.4.1.tar.gz
+[2023-07-13 10:56:59] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/62/88/6d99d7b463365da48db6f37c9bde41e7f7f20eeb1a13653a273586e81d3a/frontengine-0.0.8.tar.gz
+[2023-07-13 10:56:59] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/ab/c1/4a9f157f52a937f135098d5b94332b11d84aa9dc821d85bf4912dcfa8c02/notros2-23.7.13.85319.tar.gz
+[2023-07-13 10:56:59] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/ab/c1/4a9f157f52a937f135098d5b94332b11d84aa9dc821d85bf4912dcfa8c02/notros2-23.7.13.85319.tar.gz
+[2023-07-13 10:56:59] INFO root fetch - processPackages [medsenger-api]: Downloading https://files.pythonhosted.org/packages/10/9d/f7b13ad5e8383a001014af80b53c81b80a73fdea5ca4268b557a703efd93/medsenger_api-0.1.8.tar.gz
+[2023-07-13 10:56:59] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2023-07-13 10:56:59] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/32/5d/a940c7c89c47caa8d7d717ec993cadc32acaee6b8e51af4b6c99b06a303e/auto-test-common-1.0.8.tar.gz
+[2023-07-13 10:56:59] INFO root fetch - processPackages [freva]: Downloading https://files.pythonhosted.org/packages/d5/db/e84bfdf5ddb4fe4ec2e5e077a41e5f042a87dcabd1ebd2eb124b516126cf/freva-2303.0.0.tar.gz
+[2023-07-13 10:56:59] INFO root fetch - processPackages [fossbill]: Downloading https://files.pythonhosted.org/packages/96/50/309395c101f67be40bd3ddb807746656afcefdb780178753138d6a2afce3/fossbill-0.9.2-py3-none-any.whl
+[2023-07-13 10:56:59] INFO root fetch - processPackages [limberer]: Downloading https://files.pythonhosted.org/packages/01/63/05ed195e3766a640c6e1d473d6c75c18bbc69651a6b6b3b44a605fbe019c/limberer-0.4.2.tar.gz
+[2023-07-13 10:56:59] INFO root fetch - processPackages [medsenger-api]: Downloading https://files.pythonhosted.org/packages/e9/26/e1fbb78bfd4a0de98e7c9b2573d47a63aa0aa5bcf1942047b2e443591ac7/medsenger_api-0.1.9.tar.gz
+[2023-07-13 10:56:59] INFO root fetch - processPackages [sphinx-docsearch]: Downloading https://files.pythonhosted.org/packages/e0/73/3b87326f6a9d351d260dcc51ebb5d00d2d8c0bc7ac8258349ea98db15dc0/sphinx_docsearch-0.0.3.tar.gz
+[2023-07-13 10:56:59] INFO root fetch - processPackages [fossbill]: executing diffoscope
+[2023-07-13 10:56:59] INFO root fetch - processPackages [fossbill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fossbill-0.9.0-py3-none-any.whl.zip tmp/fossbill-0.9.2-py3-none-any.whl.zip --markdown 20230713/f/fossbill/0.9.0-0.9.2/diff.md --exclude *.pyd
+[2023-07-13 10:56:59] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/a5/8e/4bb92b2db27649b96b46469f263e2fdd091c8283ff06a24534624c34be9d/frontengine-0.0.9.tar.gz
+[2023-07-13 10:56:59] INFO root fetch - processPackages [limberer]: executing diffoscope
+[2023-07-13 10:56:59] INFO root fetch - processPackages [limberer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limberer-0.4.1.tar.gz tmp/limberer-0.4.2.tar.gz --markdown 20230713/l/limberer/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-13 10:56:59] INFO root fetch - processPackages [medsenger-api]: executing diffoscope
+[2023-07-13 10:56:59] INFO root fetch - processPackages [medsenger-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medsenger_api-0.1.8.tar.gz tmp/medsenger_api-0.1.9.tar.gz --markdown 20230713/m/medsenger-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-13 10:56:59] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/cc/1b/dc79529c82c70ddfcb52d66bbff0a89a42d2f8314fb156b0ef8a1c32c72a/notros2-23.7.13.85327-py3-none-any.whl
+[2023-07-13 10:56:59] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/cc/1b/dc79529c82c70ddfcb52d66bbff0a89a42d2f8314fb156b0ef8a1c32c72a/notros2-23.7.13.85327-py3-none-any.whl
+[2023-07-13 10:56:59] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2023-07-13 10:56:59] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/02/72/7059e44b7cdcc0ef7e311e32e112b1bbc1c433726e8aba80f7591c6a5e89/auto-test-common-1.0.9.tar.gz
+[2023-07-13 10:56:59] INFO root fetch - processPackages [sphinx-docsearch]: executing diffoscope
+[2023-07-13 10:56:59] INFO root fetch - processPackages [sphinx-docsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_docsearch-0.0.2.tar.gz tmp/sphinx_docsearch-0.0.3.tar.gz --markdown 20230713/s/sphinx-docsearch/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-13 10:56:59] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2023-07-13 10:56:59] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20230713/f/frontengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 10:56:59] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-13 10:56:59] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.13.85319.tar.gz tmp/notros2-23.7.13.85327-py3-none-any.whl.zip --markdown 20230713/n/notros2/23.7.13.85319-23.7.13.85327/diff.md --exclude *.pyd
+[2023-07-13 10:56:59] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2023-07-13 10:56:59] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20230713/f/frontengine-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 10:57:00] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-13 10:57:00] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.13.85319.tar.gz tmp/notros2-23.7.13.85327-py3-none-any.whl.zip --markdown 20230713/n/notros2/23.7.13.85319-23.7.13.85327/diff.md --exclude *.pyd
+[2023-07-13 10:57:00] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2023-07-13 10:57:00] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-1.0.8.tar.gz tmp/auto-test-common-1.0.9.tar.gz --markdown 20230713/a/auto-test-common/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 10:57:00] INFO root fetch - processPackages [freva]: Downloading https://files.pythonhosted.org/packages/ce/85/e891ab5d1c9b9296c081ea21123eaab3d91db84e6c86a83523053c60b49a/freva-2307.0.0.tar.gz
+[2023-07-13 10:57:00] INFO root fetch - processPackages [freva]: executing diffoscope
+[2023-07-13 10:57:00] INFO root fetch - processPackages [freva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freva-2303.0.0.tar.gz tmp/freva-2307.0.0.tar.gz --markdown 20230713/f/freva/2303.0.0-2307.0.0/diff.md --exclude *.pyd
+[2023-07-13 10:57:01] INFO root fetch - processPackages [medsenger-api]: Remove: archive file [/home/abi/fetcher/tmp/medsenger_api-0.1.8.tar.gz]
+[2023-07-13 10:57:01] INFO root fetch - processPackages [medsenger-api]: Remove: archive file [/home/abi/fetcher/tmp/medsenger_api-0.1.9.tar.gz]
+[2023-07-13 10:57:01] INFO root fetch - processPackages [medsenger-api]: Start processing: irisml-tasks-training
+[2023-07-13 10:57:01] INFO root fetch - main [MainThread]: End processing [medsenger-api]: success
+[2023-07-13 10:57:01] INFO root fetch - processPackages [irisml-tasks-training]: New version: [0.0.9] Old Version: [0.0.82.dev0]
+[2023-07-13 10:57:01] INFO root fetch - processPackages [irisml-tasks-training]: Downloading https://files.pythonhosted.org/packages/08/3d/a5ff52d5964a20e52ecf0c5389aef3deb2a0e624ac47c08906271059e912/irisml-tasks-training-0.0.82.dev0.tar.gz
+[2023-07-13 10:57:01] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.13.85319.tar.gz]
+[2023-07-13 10:57:01] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.13.85327-py3-none-any.whl.zip]
+[2023-07-13 10:57:01] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-13 10:57:01] INFO root fetch - processPackages [sphinx-docsearch]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_docsearch-0.0.2.tar.gz]
+[2023-07-13 10:57:01] INFO root fetch - processPackages [sphinx-docsearch]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_docsearch-0.0.3.tar.gz]
+[2023-07-13 10:57:01] INFO root fetch - main [MainThread]: End processing [sphinx-docsearch]: success
+[2023-07-13 10:57:01] INFO root fetch - processPackages [limberer]: Remove: archive file [/home/abi/fetcher/tmp/limberer-0.4.1.tar.gz]
+[2023-07-13 10:57:01] INFO root fetch - processPackages [limberer]: Remove: archive file [/home/abi/fetcher/tmp/limberer-0.4.2.tar.gz]
+[2023-07-13 10:57:01] INFO root fetch - main [MainThread]: End processing [limberer]: success
+[2023-07-13 10:57:01] INFO root fetch - processPackages [fossbill]: Remove: archive file [/home/abi/fetcher/tmp/fossbill-0.9.0-py3-none-any.whl.zip]
+[2023-07-13 10:57:01] INFO root fetch - processPackages [fossbill]: Remove: archive file [/home/abi/fetcher/tmp/fossbill-0.9.2-py3-none-any.whl.zip]
+[2023-07-13 10:57:01] INFO root fetch - main [MainThread]: End processing [fossbill]: success
+[2023-07-13 10:57:01] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-13 10:57:01] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.0.8.tar.gz]
+[2023-07-13 10:57:01] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.0.9.tar.gz]
+[2023-07-13 10:57:01] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2023-07-13 10:57:01] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.8.tar.gz]
+[2023-07-13 10:57:01] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.9.tar.gz]
+[2023-07-13 10:57:01] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2023-07-13 10:57:01] INFO root fetch - processPackages [irisml-tasks-training]: Downloading https://files.pythonhosted.org/packages/03/95/02a31958b7096b95e04d4d97bdb225fccca86651bbe1faf0e72395d98604/irisml-tasks-training-0.0.9.tar.gz
+[2023-07-13 10:57:02] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2023-07-13 10:57:02] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2023-07-13 10:57:02] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2023-07-13 10:57:02] INFO root fetch - processPackages [irisml-tasks-training]: executing diffoscope
+[2023-07-13 10:57:02] INFO root fetch - processPackages [irisml-tasks-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-tasks-training-0.0.82.dev0.tar.gz tmp/irisml-tasks-training-0.0.9.tar.gz --markdown 20230713/i/irisml-tasks-training/0.0.82.dev0-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 10:57:02] INFO root fetch - processPackages [freva]: Remove: archive file [/home/abi/fetcher/tmp/freva-2303.0.0.tar.gz]
+[2023-07-13 10:57:02] INFO root fetch - processPackages [freva]: Remove: archive file [/home/abi/fetcher/tmp/freva-2307.0.0.tar.gz]
+[2023-07-13 10:57:02] INFO root fetch - main [MainThread]: End processing [freva]: success
+[2023-07-13 10:57:03] INFO root fetch - processPackages [irisml-tasks-training]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-training-0.0.82.dev0.tar.gz]
+[2023-07-13 10:57:03] INFO root fetch - processPackages [irisml-tasks-training]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-training-0.0.9.tar.gz]
+[2023-07-13 10:57:03] INFO root fetch - main [MainThread]: End processing [irisml-tasks-training]: success
+[2023-07-13 10:57:03] INFO root fetch - main [MainThread]: Store serial: [18872196]
