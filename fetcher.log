@@ -21451,3 +21451,122 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 14:17:48] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.3.0rc5-py3-none-any.whl.zip]
 [2023-07-13 14:17:48] INFO root fetch - main [MainThread]: End processing [renumics-spotlight]: success
 [2023-07-13 14:17:48] INFO root fetch - main [MainThread]: Store serial: [18874470]
+[2023-07-13 14:22:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18874470]
+[2023-07-13 14:22:58] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-13 14:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: few-shot-priming
+[2023-07-13 14:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cache-result
+[2023-07-13 14:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: darfix
+[2023-07-13 14:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ProcessPLS
+[2023-07-13 14:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TravSHACL
+[2023-07-13 14:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pySAXS
+[2023-07-13 14:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sunpeek
+[2023-07-13 14:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reliably-cli
+[2023-07-13 14:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ogc-na
+[2023-07-13 14:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: private_lecture_automation
+[2023-07-13 14:22:58] INFO root fetch - processPackages [TravSHACL]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-07-13 14:22:58] INFO root fetch - processPackages [sunpeek]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-13 14:22:58] INFO root fetch - processPackages [ProcessPLS]: New version: [1.9] Old Version: [1.8]
+[2023-07-13 14:22:58] WARNING root fetch - processPackages [private_lecture_automation]: Skipping, unable to determine old version
+[2023-07-13 14:22:58] INFO root fetch - processPackages [private_lecture_automation]: Start processing: QCharted
+[2023-07-13 14:22:58] INFO root fetch - main [MainThread]: End processing [private_lecture_automation] error
+[2023-07-13 14:22:58] INFO root fetch - processPackages [darfix]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-07-13 14:22:58] INFO root fetch - processPackages [reliably-cli]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-07-13 14:22:58] INFO root fetch - processPackages [ogc-na]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-13 14:22:58] INFO root fetch - processPackages [pySAXS]: New version: [3.265] Old Version: [3.263]
+[2023-07-13 14:22:58] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-13 14:22:58] INFO root fetch - processPackages [QCharted]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-13 14:22:58] WARNING root fetch - processPackages [cache-result]: Skipping, unable to determine old version
+[2023-07-13 14:22:58] INFO root fetch - processPackages [cache-result]: Start processing: mprov-jobserver
+[2023-07-13 14:22:58] INFO root fetch - main [MainThread]: End processing [cache-result] error
+[2023-07-13 14:22:58] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/7d/87/fc2d2721ed03813871d259741139dcbcb0f1a5a7686743ee6d533d5af952/sunpeek-0.2.8-py3-none-any.whl
+[2023-07-13 14:22:58] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/4f/b8/7e671ed02223070a65b95175ef7be8ac69944cc0bed430f891b7f808db49/ogc_na-0.3.0.tar.gz
+[2023-07-13 14:22:58] INFO root fetch - processPackages [mprov-jobserver]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 14:22:58] INFO root fetch - processPackages [TravSHACL]: Downloading https://files.pythonhosted.org/packages/bc/1a/e5f7b0e57fbef3afd2f02c201592244ad17473982f5a889a5e7596cc860b/TravSHACL-1.3.2.tar.gz
+[2023-07-13 14:22:58] INFO root fetch - processPackages [ProcessPLS]: Downloading https://files.pythonhosted.org/packages/0b/99/a49752421fd8789c8a6f7532dbfaa92ccc816cea6a71fad629bae7d7822e/ProcessPLS-1.8.tar.gz
+[2023-07-13 14:22:58] INFO root fetch - processPackages [QCharted]: Downloading https://files.pythonhosted.org/packages/b3/0b/6d2f92a83d63ecf095cea47ecbaa73b634a5ed6c87ef3e38880823c999ac/QCharted-1.1.2.tar.gz
+[2023-07-13 14:22:58] INFO root fetch - processPackages [reliably-cli]: Downloading https://files.pythonhosted.org/packages/2b/a5/0cd0eb8d0da48a444f2f5b32adf3ed4e287a44854f1d0e414ac15ecb9781/reliably_cli-0.8.9-py3-none-any.whl
+[2023-07-13 14:22:58] INFO root fetch - processPackages [darfix]: Downloading https://files.pythonhosted.org/packages/39/57/b69d363134e3623f29075c7e50380516cc83aa1f5cd16808352350d55058/darfix-0.9.7.tar.gz
+[2023-07-13 14:22:58] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-13 14:22:58] INFO root fetch - processPackages [pySAXS]: Downloading https://files.pythonhosted.org/packages/2f/9c/2f4028a04e390e53952d0ebefa8bc48f73ef1942877c212ad8705c6ade74/pySAXS-3.263-py2.py3-none-any.whl
+[2023-07-13 14:22:58] INFO root fetch - processPackages [mprov-jobserver]: Downloading https://files.pythonhosted.org/packages/07/0f/b5629674524825b108b9b7727a90c2ff587886746a2b450a946233d0404e/mprov_jobserver-0.0.8.tar.gz
+[2023-07-13 14:22:59] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/a5/83/92e0e84a50850a618aae14d33638554bcbb3ccc7fc4a8bad2c03cfa0ed20/sunpeek-0.2.9-py3-none-any.whl
+[2023-07-13 14:22:59] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/45/30/ec89de2a81ce8ab4403f353f3dbda1452e03728f6f9f36dfa39987cd9fc1/ogc_na-0.3.1.tar.gz
+[2023-07-13 14:22:59] INFO root fetch - processPackages [TravSHACL]: Downloading https://files.pythonhosted.org/packages/58/38/6c00168483d35ac9420bf8bc180ea861d8de6061398ab3c509b7f21351f0/TravSHACL-1.4.0.tar.gz
+[2023-07-13 14:22:59] INFO root fetch - processPackages [ProcessPLS]: Downloading https://files.pythonhosted.org/packages/56/cf/74c9156b779fbe5a200fd549b5d48cd51032e7df104fe9f54287f898e104/ProcessPLS-1.9.tar.gz
+[2023-07-13 14:22:59] INFO root fetch - processPackages [sunpeek]: executing diffoscope
+[2023-07-13 14:22:59] INFO root fetch - processPackages [sunpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpeek-0.2.8-py3-none-any.whl.zip tmp/sunpeek-0.2.9-py3-none-any.whl.zip --markdown 20230713/s/sunpeek/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-13 14:22:59] INFO root fetch - processPackages [QCharted]: Downloading https://files.pythonhosted.org/packages/5c/3a/d1d35981013242cabbbc51ae377a9a6d4b178c699c901033e88b9dfa7bc0/QCharted-1.1.3.tar.gz
+[2023-07-13 14:22:59] INFO root fetch - processPackages [reliably-cli]: Downloading https://files.pythonhosted.org/packages/9f/0e/ca8b04ddb066c979d2c685c4093390704184cc17549d4c0f8d341d06cd66/reliably_cli-0.9.0-py3-none-any.whl
+[2023-07-13 14:22:59] INFO root fetch - processPackages [TravSHACL]: executing diffoscope
+[2023-07-13 14:22:59] INFO root fetch - processPackages [TravSHACL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TravSHACL-1.3.2.tar.gz tmp/TravSHACL-1.4.0.tar.gz --markdown 20230713/T/TravSHACL/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2023-07-13 14:22:59] WARNING root fetch - processPackages [pySAXS]: Skipping package: exceeds size limit 20241770>=10485760
+[2023-07-13 14:22:59] INFO root fetch - processPackages [pySAXS]: Start processing: private_lecture_automation
+[2023-07-13 14:22:59] INFO root fetch - main [MainThread]: End processing [pySAXS] error
+[2023-07-13 14:22:59] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-13 14:22:59] INFO root fetch - processPackages [ogc-na]: executing diffoscope
+[2023-07-13 14:22:59] INFO root fetch - processPackages [ogc-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogc_na-0.3.0.tar.gz tmp/ogc_na-0.3.1.tar.gz --markdown 20230713/o/ogc-na/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-13 14:22:59] WARNING root fetch - processPackages [private_lecture_automation]: Skipping, unable to determine old version
+[2023-07-13 14:22:59] INFO root fetch - processPackages [private_lecture_automation]: Start processing: switbuilder-core
+[2023-07-13 14:22:59] INFO root fetch - main [MainThread]: End processing [private_lecture_automation] error
+[2023-07-13 14:22:59] INFO root fetch - processPackages [QCharted]: executing diffoscope
+[2023-07-13 14:22:59] INFO root fetch - processPackages [QCharted]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QCharted-1.1.2.tar.gz tmp/QCharted-1.1.3.tar.gz --markdown 20230713/Q/QCharted/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-13 14:22:59] INFO root fetch - processPackages [reliably-cli]: executing diffoscope
+[2023-07-13 14:22:59] INFO root fetch - processPackages [reliably-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliably_cli-0.8.9-py3-none-any.whl.zip tmp/reliably_cli-0.9.0-py3-none-any.whl.zip --markdown 20230713/r/reliably-cli/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-07-13 14:22:59] INFO root fetch - processPackages [mprov-jobserver]: Downloading https://files.pythonhosted.org/packages/92/8d/1c9fb92341dda2e40f364af17389e4393fb120c36f184e6333fd2f2a941b/mprov_jobserver-0.0.9.tar.gz
+[2023-07-13 14:22:59] INFO root fetch - processPackages [ProcessPLS]: executing diffoscope
+[2023-07-13 14:22:59] INFO root fetch - processPackages [ProcessPLS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProcessPLS-1.8.tar.gz tmp/ProcessPLS-1.9.tar.gz --markdown 20230713/P/ProcessPLS/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-13 14:22:59] INFO root fetch - processPackages [switbuilder-core]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 14:22:59] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-13 14:22:59] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230713/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-13 14:22:59] INFO root fetch - processPackages [mprov-jobserver]: executing diffoscope
+[2023-07-13 14:22:59] INFO root fetch - processPackages [mprov-jobserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mprov_jobserver-0.0.8.tar.gz tmp/mprov_jobserver-0.0.9.tar.gz --markdown 20230713/m/mprov-jobserver/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 14:22:59] INFO root fetch - processPackages [switbuilder-core]: Downloading https://files.pythonhosted.org/packages/15/c2/7b64dbedbd304301dd4aed057f6d34bb5c8d124da046f496b91fb80e396e/switbuilder_core-0.0.1.tar.gz
+[2023-07-13 14:23:00] INFO root fetch - processPackages [switbuilder-core]: Downloading https://files.pythonhosted.org/packages/be/59/ff943ab123fda78f4dbeaa6c28a97d0b1f5c74ce3d39eb38b6f4183b5bca/switbuilder_core-0.0.2.tar.gz
+[2023-07-13 14:23:00] INFO root fetch - processPackages [switbuilder-core]: executing diffoscope
+[2023-07-13 14:23:00] INFO root fetch - processPackages [switbuilder-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switbuilder_core-0.0.1.tar.gz tmp/switbuilder_core-0.0.2.tar.gz --markdown 20230713/s/switbuilder-core/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 14:23:00] INFO root fetch - processPackages [darfix]: Downloading https://files.pythonhosted.org/packages/f5/31/69862a27edb9d27c7ab45f80aaea6a40c49453794130ce96fae319327dbd/darfix-0.9.8.tar.gz
+[2023-07-13 14:23:01] INFO root fetch - processPackages [QCharted]: Remove: archive file [/home/abi/fetcher/tmp/QCharted-1.1.2.tar.gz]
+[2023-07-13 14:23:01] INFO root fetch - processPackages [QCharted]: Remove: archive file [/home/abi/fetcher/tmp/QCharted-1.1.3.tar.gz]
+[2023-07-13 14:23:01] INFO root fetch - processPackages [QCharted]: Start processing: lino
+[2023-07-13 14:23:01] INFO root fetch - main [MainThread]: End processing [QCharted]: success
+[2023-07-13 14:23:01] INFO root fetch - processPackages [reliably-cli]: Remove: archive file [/home/abi/fetcher/tmp/reliably_cli-0.8.9-py3-none-any.whl.zip]
+[2023-07-13 14:23:01] INFO root fetch - processPackages [reliably-cli]: Remove: archive file [/home/abi/fetcher/tmp/reliably_cli-0.9.0-py3-none-any.whl.zip]
+[2023-07-13 14:23:01] INFO root fetch - processPackages [reliably-cli]: Start processing: embeddingcache
+[2023-07-13 14:23:01] INFO root fetch - main [MainThread]: End processing [reliably-cli]: success
+[2023-07-13 14:23:01] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-13 14:23:01] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-13 14:23:01] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-13 14:23:01] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.8-py3-none-any.whl.zip]
+[2023-07-13 14:23:01] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.9-py3-none-any.whl.zip]
+[2023-07-13 14:23:01] INFO root fetch - main [MainThread]: End processing [sunpeek]: success
+[2023-07-13 14:23:01] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.3.0.tar.gz]
+[2023-07-13 14:23:01] INFO root fetch - processPackages [lino]: New version: [23.7.1] Old Version: [23.7.0]
+[2023-07-13 14:23:01] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.3.1.tar.gz]
+[2023-07-13 14:23:01] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
+[2023-07-13 14:23:01] INFO root fetch - processPackages [TravSHACL]: Remove: archive file [/home/abi/fetcher/tmp/TravSHACL-1.3.2.tar.gz]
+[2023-07-13 14:23:01] INFO root fetch - processPackages [TravSHACL]: Remove: archive file [/home/abi/fetcher/tmp/TravSHACL-1.4.0.tar.gz]
+[2023-07-13 14:23:01] INFO root fetch - main [MainThread]: End processing [TravSHACL]: success
+[2023-07-13 14:23:01] INFO root fetch - processPackages [darfix]: executing diffoscope
+[2023-07-13 14:23:01] INFO root fetch - processPackages [darfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darfix-0.9.7.tar.gz tmp/darfix-0.9.8.tar.gz --markdown 20230713/d/darfix/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-07-13 14:23:01] WARNING root fetch - processPackages [embeddingcache]: Skipping, unable to determine old version
+[2023-07-13 14:23:01] INFO root fetch - main [MainThread]: End processing [embeddingcache] error
+[2023-07-13 14:23:01] INFO root fetch - processPackages [ProcessPLS]: Remove: archive file [/home/abi/fetcher/tmp/ProcessPLS-1.8.tar.gz]
+[2023-07-13 14:23:01] INFO root fetch - processPackages [ProcessPLS]: Remove: archive file [/home/abi/fetcher/tmp/ProcessPLS-1.9.tar.gz]
+[2023-07-13 14:23:01] INFO root fetch - main [MainThread]: End processing [ProcessPLS]: success
+[2023-07-13 14:23:01] INFO root fetch - processPackages [mprov-jobserver]: Remove: archive file [/home/abi/fetcher/tmp/mprov_jobserver-0.0.8.tar.gz]
+[2023-07-13 14:23:01] INFO root fetch - processPackages [mprov-jobserver]: Remove: archive file [/home/abi/fetcher/tmp/mprov_jobserver-0.0.9.tar.gz]
+[2023-07-13 14:23:01] INFO root fetch - main [MainThread]: End processing [mprov-jobserver]: success
+[2023-07-13 14:23:01] INFO root fetch - processPackages [lino]: Downloading https://files.pythonhosted.org/packages/f7/7f/0d4f7496829128fc7c498ba1b0565b18ac2bfc5a31efedaea31d3e4c8089/lino-23.7.0.tar.gz
+[2023-07-13 14:23:01] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.1.tar.gz]
+[2023-07-13 14:23:01] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.2.tar.gz]
+[2023-07-13 14:23:01] INFO root fetch - main [MainThread]: End processing [switbuilder-core]: success
+[2023-07-13 14:23:02] INFO root fetch - processPackages [lino]: Downloading https://files.pythonhosted.org/packages/a0/14/5804904fd6e49860aec01d7b4930e9e8d742c39ce2d5e4ee635492059d97/lino-23.7.1.tar.gz
+[2023-07-13 14:23:03] INFO root fetch - processPackages [darfix]: Remove: archive file [/home/abi/fetcher/tmp/darfix-0.9.7.tar.gz]
+[2023-07-13 14:23:03] INFO root fetch - processPackages [darfix]: Remove: archive file [/home/abi/fetcher/tmp/darfix-0.9.8.tar.gz]
+[2023-07-13 14:23:03] INFO root fetch - main [MainThread]: End processing [darfix]: success
+[2023-07-13 14:23:03] INFO root fetch - processPackages [lino]: executing diffoscope
+[2023-07-13 14:23:03] INFO root fetch - processPackages [lino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino-23.7.0.tar.gz tmp/lino-23.7.1.tar.gz --markdown 20230713/l/lino/23.7.0-23.7.1/diff.md --exclude *.pyd
+[2023-07-13 14:23:55] INFO root fetch - processPackages [lino]: Remove: archive file [/home/abi/fetcher/tmp/lino-23.7.0.tar.gz]
+[2023-07-13 14:23:55] INFO root fetch - processPackages [lino]: Remove: archive file [/home/abi/fetcher/tmp/lino-23.7.1.tar.gz]
+[2023-07-13 14:23:55] INFO root fetch - main [MainThread]: End processing [lino]: success
+[2023-07-13 14:23:55] INFO root fetch - main [MainThread]: Store serial: [18874526]
