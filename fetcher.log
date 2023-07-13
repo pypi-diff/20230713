@@ -21029,3 +21029,42 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 13:50:38] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.9.tar.gz]
 [2023-07-13 13:50:38] INFO root fetch - main [MainThread]: End processing [agixt]: success
 [2023-07-13 13:50:38] INFO root fetch - main [MainThread]: Store serial: [18874316]
+[2023-07-13 13:55:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18874316]
+[2023-07-13 13:55:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-13 13:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: threads-net
+[2023-07-13 13:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pruna-engine
+[2023-07-13 13:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tritonv2
+[2023-07-13 13:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: krillscan
+[2023-07-13 13:55:47] INFO root fetch - processPackages [pruna-engine]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-13 13:55:47] INFO root fetch - processPackages [tritonv2]: New version: [0.9.9.3] Old Version: [0.9.9.2]
+[2023-07-13 13:55:47] INFO root fetch - processPackages [krillscan]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-13 13:55:47] INFO root fetch - processPackages [threads-net]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-13 13:55:47] INFO root fetch - processPackages [pruna-engine]: Downloading https://files.pythonhosted.org/packages/97/ee/6aa435a24733c02a1a798a22b8cd4783b6e117ab8c7b9d3dc63bfcaa8591/pruna_engine-0.1.2-py3-none-any.whl
+[2023-07-13 13:55:47] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/11/ba/483f4770d7c413aff80cfdfd96da75d50912f6604255f4a04d7e8448a5a1/threads-net-0.0.7.tar.gz
+[2023-07-13 13:55:47] INFO root fetch - processPackages [tritonv2]: Downloading https://files.pythonhosted.org/packages/d1/5b/1f32fb0b560b3e3360d1a8efdce8cf577f1478a77ff68891a532fc6efb75/tritonv2-0.9.9.2.tar.gz
+[2023-07-13 13:55:47] INFO root fetch - processPackages [krillscan]: Downloading https://files.pythonhosted.org/packages/07/72/938c229df50a90a1c9cd0d6bac0b84269d4bb34a164b5ccf61d2e9cb5c88/krillscan-0.2.8.tar.gz
+[2023-07-13 13:55:47] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/de/bd/e372c12fe307c562ec3785151d74201431eddd2312171d55b8ee4ac81db6/threads-net-0.0.8.tar.gz
+[2023-07-13 13:55:48] INFO root fetch - processPackages [pruna-engine]: Downloading https://files.pythonhosted.org/packages/9e/31/931d965ea297ef35fa6f99378ff1b5e0257f2929942954babfb47fd0c5f4/pruna_engine-0.1.3-py3-none-any.whl
+[2023-07-13 13:55:48] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-13 13:55:48] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.7.tar.gz tmp/threads-net-0.0.8.tar.gz --markdown 20230713/t/threads-net/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-13 13:55:48] INFO root fetch - processPackages [tritonv2]: Downloading https://files.pythonhosted.org/packages/3a/c6/38d0977681cca0b31ef2c3a86a918001a83e3a7766dd29b20601a301dd04/tritonv2-0.9.9.3.tar.gz
+[2023-07-13 13:55:48] INFO root fetch - processPackages [pruna-engine]: executing diffoscope
+[2023-07-13 13:55:48] INFO root fetch - processPackages [pruna-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pruna_engine-0.1.2-py3-none-any.whl.zip tmp/pruna_engine-0.1.3-py3-none-any.whl.zip --markdown 20230713/p/pruna-engine/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-13 13:55:48] INFO root fetch - processPackages [krillscan]: Downloading https://files.pythonhosted.org/packages/b5/55/35d651f1351d7c94b597bb11783e2e9faccafaf74fd7bf2aff59c4711d5f/krillscan-0.2.9.tar.gz
+[2023-07-13 13:55:48] INFO root fetch - processPackages [tritonv2]: executing diffoscope
+[2023-07-13 13:55:48] INFO root fetch - processPackages [tritonv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tritonv2-0.9.9.2.tar.gz tmp/tritonv2-0.9.9.3.tar.gz --markdown 20230713/t/tritonv2/0.9.9.2-0.9.9.3/diff.md --exclude *.pyd
+[2023-07-13 13:55:48] INFO root fetch - processPackages [krillscan]: executing diffoscope
+[2023-07-13 13:55:48] INFO root fetch - processPackages [krillscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krillscan-0.2.8.tar.gz tmp/krillscan-0.2.9.tar.gz --markdown 20230713/k/krillscan/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-13 13:55:49] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.7.tar.gz]
+[2023-07-13 13:55:49] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.8.tar.gz]
+[2023-07-13 13:55:49] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-13 13:55:49] INFO root fetch - processPackages [pruna-engine]: Remove: archive file [/home/abi/fetcher/tmp/pruna_engine-0.1.2-py3-none-any.whl.zip]
+[2023-07-13 13:55:49] INFO root fetch - processPackages [pruna-engine]: Remove: archive file [/home/abi/fetcher/tmp/pruna_engine-0.1.3-py3-none-any.whl.zip]
+[2023-07-13 13:55:49] INFO root fetch - main [MainThread]: End processing [pruna-engine]: success
+[2023-07-13 13:55:49] INFO root fetch - processPackages [tritonv2]: Remove: archive file [/home/abi/fetcher/tmp/tritonv2-0.9.9.2.tar.gz]
+[2023-07-13 13:55:49] INFO root fetch - processPackages [tritonv2]: Remove: archive file [/home/abi/fetcher/tmp/tritonv2-0.9.9.3.tar.gz]
+[2023-07-13 13:55:49] INFO root fetch - main [MainThread]: End processing [tritonv2]: success
+[2023-07-13 13:55:49] INFO root fetch - processPackages [krillscan]: Remove: archive file [/home/abi/fetcher/tmp/krillscan-0.2.8.tar.gz]
+[2023-07-13 13:55:49] INFO root fetch - processPackages [krillscan]: Remove: archive file [/home/abi/fetcher/tmp/krillscan-0.2.9.tar.gz]
+[2023-07-13 13:55:49] INFO root fetch - main [MainThread]: End processing [krillscan]: success
+[2023-07-13 13:55:49] INFO root fetch - main [MainThread]: Store serial: [18874326]
