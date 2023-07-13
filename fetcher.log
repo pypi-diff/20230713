@@ -12005,3 +12005,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 07:59:09] INFO root fetch - processPackages [mysqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-generator-1.5.0.tar.gz]
 [2023-07-13 07:59:09] INFO root fetch - main [MainThread]: End processing [mysqlx-generator]: success
 [2023-07-13 07:59:09] INFO root fetch - main [MainThread]: Store serial: [18870634]
+[2023-07-13 08:04:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18870634]
+[2023-07-13 08:04:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-13 08:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zood
+[2023-07-13 08:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xj-common
+[2023-07-13 08:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fugue
+[2023-07-13 08:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-hub-nightly
+[2023-07-13 08:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tcod-ecs
+[2023-07-13 08:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rizallogger
+[2023-07-13 08:04:18] INFO root fetch - processPackages [xj-common]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 08:04:18] INFO root fetch - processPackages [tcod-ecs]: New version: [3.4.0] Old Version: [3.3.0]
+[2023-07-13 08:04:18] INFO root fetch - processPackages [zood]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-07-13 08:04:18] INFO root fetch - processPackages [rizallogger]: New version: [0.2] Old Version: [0.1]
+[2023-07-13 08:04:18] INFO root fetch - processPackages [fugue]: New version: [0.8.6.dev1] Old Version: [0.8.5.dev1]
+[2023-07-13 08:04:18] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-07-13 08:04:18] INFO root fetch - processPackages [xj-common]: Downloading https://files.pythonhosted.org/packages/b3/52/f57e547bfff3498ef241412dab5c76a22d267cd4d6fd77052d8fd2905d8a/xj_common-1.0.8.tar.gz
+[2023-07-13 08:04:18] INFO root fetch - processPackages [tcod-ecs]: Downloading https://files.pythonhosted.org/packages/4c/ab/0b751b10821167eee369eb54fd8336ae9a03534a178147875609586fb568/tcod_ecs-3.3.0.tar.gz
+[2023-07-13 08:04:18] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/5c/a7/cfb42c9f6699466a97f37f4d457ac6a7794ac7d557203d20153f1d7ce262/zood-0.7.5.tar.gz
+[2023-07-13 08:04:18] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-07-13 08:04:18] INFO root fetch - processPackages [rizallogger]: Downloading https://files.pythonhosted.org/packages/de/24/38eebe740d6cb6e2e7c3039be71ae49cb4276db6bf10df3e23c7d1427041/rizallogger-0.1.tar.gz
+[2023-07-13 08:04:18] INFO root fetch - processPackages [fugue]: Downloading https://files.pythonhosted.org/packages/6f/f6/1ff1c9aea3f6bc3e0bcff5282f3eabb50b332ee7cfacfa8afa48038d3c89/fugue-0.8.5.dev1.tar.gz
+[2023-07-13 08:04:19] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/0c/04/d1291d54e709f4aaaf28720d8f053823070e815d298927c3ee8e724f6d1d/zood-0.7.6.tar.gz
+[2023-07-13 08:04:19] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-07-13 08:04:19] INFO root fetch - processPackages [tcod-ecs]: Downloading https://files.pythonhosted.org/packages/29/04/6e878f12b1d187c1c4efab4dc0b4495f240a1d39b781da7218332af10f9a/tcod_ecs-3.4.0.tar.gz
+[2023-07-13 08:04:19] INFO root fetch - processPackages [zood]: executing diffoscope
+[2023-07-13 08:04:19] INFO root fetch - processPackages [zood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zood-0.7.5.tar.gz tmp/zood-0.7.6.tar.gz --markdown 20230713/z/zood/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-07-13 08:04:19] INFO root fetch - processPackages [tcod-ecs]: executing diffoscope
+[2023-07-13 08:04:19] INFO root fetch - processPackages [tcod-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcod_ecs-3.3.0.tar.gz tmp/tcod_ecs-3.4.0.tar.gz --markdown 20230713/t/tcod-ecs/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2023-07-13 08:04:19] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-07-13 08:04:19] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230713/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-07-13 08:04:19] INFO root fetch - processPackages [rizallogger]: Downloading https://files.pythonhosted.org/packages/1c/5a/4991d3194282fb2349c12302e1fbf6b4af69ed745dd452cc952ddc3618b9/rizallogger-0.2.tar.gz
+[2023-07-13 08:04:19] INFO root fetch - processPackages [xj-common]: Downloading https://files.pythonhosted.org/packages/e7/02/3b3bbfc48d247cf8d477729491ec2d1f4c2947a9f2c01c948da7088586f5/xj_common-1.0.9.tar.gz
+[2023-07-13 08:04:19] INFO root fetch - processPackages [rizallogger]: executing diffoscope
+[2023-07-13 08:04:19] INFO root fetch - processPackages [rizallogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rizallogger-0.1.tar.gz tmp/rizallogger-0.2.tar.gz --markdown 20230713/r/rizallogger/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-13 08:04:19] INFO root fetch - processPackages [xj-common]: executing diffoscope
+[2023-07-13 08:04:19] INFO root fetch - processPackages [xj-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_common-1.0.8.tar.gz tmp/xj_common-1.0.9.tar.gz --markdown 20230713/x/xj-common/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 08:04:19] INFO root fetch - processPackages [fugue]: Downloading https://files.pythonhosted.org/packages/f2/c7/0f6892ae5d09db8490bdd3804f357a9945da1675bf9c9d8db916ce2fbe92/fugue-0.8.6.dev1.tar.gz
+[2023-07-13 08:04:19] INFO root fetch - processPackages [fugue]: executing diffoscope
+[2023-07-13 08:04:19] INFO root fetch - processPackages [fugue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fugue-0.8.5.dev1.tar.gz tmp/fugue-0.8.6.dev1.tar.gz --markdown 20230713/f/fugue/0.8.5.dev1-0.8.6.dev1/diff.md --exclude *.pyd
+[2023-07-13 08:04:20] INFO root fetch - processPackages [tcod-ecs]: Remove: archive file [/home/abi/fetcher/tmp/tcod_ecs-3.3.0.tar.gz]
+[2023-07-13 08:04:20] INFO root fetch - processPackages [tcod-ecs]: Remove: archive file [/home/abi/fetcher/tmp/tcod_ecs-3.4.0.tar.gz]
+[2023-07-13 08:04:20] INFO root fetch - main [MainThread]: End processing [tcod-ecs]: success
+[2023-07-13 08:04:20] INFO root fetch - processPackages [rizallogger]: Remove: archive file [/home/abi/fetcher/tmp/rizallogger-0.1.tar.gz]
+[2023-07-13 08:04:20] INFO root fetch - processPackages [rizallogger]: Remove: archive file [/home/abi/fetcher/tmp/rizallogger-0.2.tar.gz]
+[2023-07-13 08:04:20] INFO root fetch - main [MainThread]: End processing [rizallogger]: success
+[2023-07-13 08:04:20] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.7.5.tar.gz]
+[2023-07-13 08:04:20] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.7.6.tar.gz]
+[2023-07-13 08:04:20] INFO root fetch - main [MainThread]: End processing [zood]: success
+[2023-07-13 08:04:20] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-07-13 08:04:20] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-07-13 08:04:20] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-07-13 08:04:20] INFO root fetch - processPackages [xj-common]: Remove: archive file [/home/abi/fetcher/tmp/xj_common-1.0.8.tar.gz]
+[2023-07-13 08:04:20] INFO root fetch - processPackages [xj-common]: Remove: archive file [/home/abi/fetcher/tmp/xj_common-1.0.9.tar.gz]
+[2023-07-13 08:04:20] INFO root fetch - main [MainThread]: End processing [xj-common]: success
+[2023-07-13 08:04:21] INFO root fetch - processPackages [fugue]: Remove: archive file [/home/abi/fetcher/tmp/fugue-0.8.5.dev1.tar.gz]
+[2023-07-13 08:04:21] INFO root fetch - processPackages [fugue]: Remove: archive file [/home/abi/fetcher/tmp/fugue-0.8.6.dev1.tar.gz]
+[2023-07-13 08:04:21] INFO root fetch - main [MainThread]: End processing [fugue]: success
+[2023-07-13 08:04:21] INFO root fetch - main [MainThread]: Store serial: [18870650]
