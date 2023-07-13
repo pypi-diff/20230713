@@ -5606,3 +5606,84 @@
 [2023-07-13 02:58:37] INFO root fetch - processPackages [council-ai]: Remove: archive file [/home/abi/fetcher/tmp/council_ai-0.0.4.tar.gz]
 [2023-07-13 02:58:37] INFO root fetch - main [MainThread]: End processing [council-ai]: success
 [2023-07-13 02:58:37] INFO root fetch - main [MainThread]: Store serial: [18868491]
+[2023-07-13 03:03:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18868491]
+[2023-07-13 03:03:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-13 03:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycde
+[2023-07-13 03:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zcb-dbutils
+[2023-07-13 03:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tabeline
+[2023-07-13 03:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iatiflattener
+[2023-07-13 03:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte
+[2023-07-13 03:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: predictionguard
+[2023-07-13 03:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yiddish
+[2023-07-13 03:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-databrew-cicd
+[2023-07-13 03:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: snk
+[2023-07-13 03:03:47] INFO root fetch - processPackages [airbyte]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-07-13 03:03:47] INFO root fetch - processPackages [iatiflattener]: New version: [0.9b9] Old Version: [0.9b8]
+[2023-07-13 03:03:47] INFO root fetch - processPackages [zcb-dbutils]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-13 03:03:47] INFO root fetch - processPackages [tabeline]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-13 03:03:47] INFO root fetch - processPackages [predictionguard]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-13 03:03:47] INFO root fetch - processPackages [yiddish]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 03:03:47] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-13 03:03:47] INFO root fetch - processPackages [pycde]: New version: [0.2.1.dev915] Old Version: [0.2.1.dev908]
+[2023-07-13 03:03:47] INFO root fetch - processPackages [snk]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-13 03:03:47] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/95/09/eea230e893ab55370e867c76f081945c8f60016ebdb0b385d9f077a4fc0c/airbyte-1.9.2.tar.gz
+[2023-07-13 03:03:47] INFO root fetch - processPackages [zcb-dbutils]: Downloading https://files.pythonhosted.org/packages/19/89/aaa42bd80a881d2392a0a55b5843ee4f2b6eeb2cd5b07f81d6daf7b27f44/zcb_dbutils-0.0.6.tar.gz
+[2023-07-13 03:03:47] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/54/33/ed6257a47eacf50e2ac7965bb117827af5a1e5eddb02d20dc3f15cc9a81a/snk-0.9.2.tar.gz
+[2023-07-13 03:03:47] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-07-13 03:03:47] INFO root fetch - processPackages [predictionguard]: Downloading https://files.pythonhosted.org/packages/76/b1/101ab1958fed3c2051378e0a21f6e0fb988f973710d47264e4f767bb3657/predictionguard-1.2.2.tar.gz
+[2023-07-13 03:03:47] INFO root fetch - processPackages [iatiflattener]: Downloading https://files.pythonhosted.org/packages/b1/b6/99f1e79fdfbd8f3a6514c8a58611f9d3d86211605bbe6db9d398330ebf6c/iatiflattener-0.9b8.tar.gz
+[2023-07-13 03:03:48] INFO root fetch - processPackages [tabeline]: Downloading https://files.pythonhosted.org/packages/d8/51/570a5ec4d5e41ae847d55c26dbacf25944bbe76f66d9c3e7af5005936de4/tabeline-0.3.1.tar.gz
+[2023-07-13 03:03:48] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/e4/26/bb02485c0874b2c7c4af2aaa88c189a3fd4e335fbf2f891767440fd608ac/pycde-0.2.1.dev908-cp39-cp39-win_amd64.whl
+[2023-07-13 03:03:48] INFO root fetch - processPackages [yiddish]: Downloading https://files.pythonhosted.org/packages/e1/92/e5e79d279e6096a731b9e577c79fcec12f8cff32ca03405e78dc8341caf6/yiddish-0.0.8.tar.gz
+[2023-07-13 03:03:48] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/c8/0f/877b6add49894978bf75b52f0cac1579d618edd3403e2547fc5a23f4705e/airbyte-1.9.3.tar.gz
+[2023-07-13 03:03:48] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/1c/e9/336f86dec3e01b44b3e34cc162ca9a0ca4108fb07244fd97031ad3205df1/snk-0.9.3.tar.gz
+[2023-07-13 03:03:48] INFO root fetch - processPackages [zcb-dbutils]: Downloading https://files.pythonhosted.org/packages/25/a6/285fae0a813c3eade8b5783a2cbcd2143ae154d45caba79f5df922c00a36/zcb_dbutils-0.0.7.tar.gz
+[2023-07-13 03:03:48] INFO root fetch - processPackages [predictionguard]: Downloading https://files.pythonhosted.org/packages/f7/09/b0919a9eba8bfbbe8b0553dba47d7c0a33816e8e17641ded88a59ffa4069/predictionguard-1.2.3.tar.gz
+[2023-07-13 03:03:48] INFO root fetch - processPackages [yiddish]: Downloading https://files.pythonhosted.org/packages/a7/df/8afd673ad88a4fb03ec9f3c03518cf6e246165f76be54944d0c981a9ff70/yiddish-0.0.9.tar.gz
+[2023-07-13 03:03:48] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2023-07-13 03:03:48] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-1.9.2.tar.gz tmp/airbyte-1.9.3.tar.gz --markdown 20230713/a/airbyte/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-07-13 03:03:48] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-07-13 03:03:48] INFO root fetch - processPackages [tabeline]: Downloading https://files.pythonhosted.org/packages/25/2d/bd3f09082f843ff312886f98e4b229a48fc72790d95d0249a33f776ea029/tabeline-0.3.2.tar.gz
+[2023-07-13 03:03:48] INFO root fetch - processPackages [zcb-dbutils]: executing diffoscope
+[2023-07-13 03:03:48] INFO root fetch - processPackages [zcb-dbutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcb_dbutils-0.0.6.tar.gz tmp/zcb_dbutils-0.0.7.tar.gz --markdown 20230713/z/zcb-dbutils/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-13 03:03:48] INFO root fetch - processPackages [snk]: executing diffoscope
+[2023-07-13 03:03:48] INFO root fetch - processPackages [snk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snk-0.9.2.tar.gz tmp/snk-0.9.3.tar.gz --markdown 20230713/s/snk/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-13 03:03:48] INFO root fetch - processPackages [iatiflattener]: Downloading https://files.pythonhosted.org/packages/ed/83/8ad187936bead2730f8061395ec0927124a10d99acd76d4a72f26d24944d/iatiflattener-0.9b9.tar.gz
+[2023-07-13 03:03:48] INFO root fetch - processPackages [predictionguard]: executing diffoscope
+[2023-07-13 03:03:48] INFO root fetch - processPackages [predictionguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predictionguard-1.2.2.tar.gz tmp/predictionguard-1.2.3.tar.gz --markdown 20230713/p/predictionguard/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-13 03:03:48] INFO root fetch - processPackages [yiddish]: executing diffoscope
+[2023-07-13 03:03:48] INFO root fetch - processPackages [yiddish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yiddish-0.0.8.tar.gz tmp/yiddish-0.0.9.tar.gz --markdown 20230713/y/yiddish/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 03:03:48] INFO root fetch - processPackages [tabeline]: executing diffoscope
+[2023-07-13 03:03:48] INFO root fetch - processPackages [tabeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabeline-0.3.1.tar.gz tmp/tabeline-0.3.2.tar.gz --markdown 20230713/t/tabeline/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-13 03:03:48] INFO root fetch - processPackages [iatiflattener]: executing diffoscope
+[2023-07-13 03:03:48] INFO root fetch - processPackages [iatiflattener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iatiflattener-0.9b8.tar.gz tmp/iatiflattener-0.9b9.tar.gz --markdown 20230713/i/iatiflattener/0.9b8-0.9b9/diff.md --exclude *.pyd
+[2023-07-13 03:03:48] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/52/6a/b38689e802f41266f57c973344f10aade04c680575b99ed909b9feee5552/pycde-0.2.1.dev915-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-13 03:03:48] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-07-13 03:03:48] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230713/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-13 03:03:49] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 13500431>=10485760
+[2023-07-13 03:03:49] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2023-07-13 03:03:49] INFO root fetch - processPackages [zcb-dbutils]: Remove: archive file [/home/abi/fetcher/tmp/zcb_dbutils-0.0.6.tar.gz]
+[2023-07-13 03:03:49] INFO root fetch - processPackages [zcb-dbutils]: Remove: archive file [/home/abi/fetcher/tmp/zcb_dbutils-0.0.7.tar.gz]
+[2023-07-13 03:03:49] INFO root fetch - main [MainThread]: End processing [zcb-dbutils]: success
+[2023-07-13 03:03:49] INFO root fetch - processPackages [tabeline]: Remove: archive file [/home/abi/fetcher/tmp/tabeline-0.3.1.tar.gz]
+[2023-07-13 03:03:49] INFO root fetch - processPackages [tabeline]: Remove: archive file [/home/abi/fetcher/tmp/tabeline-0.3.2.tar.gz]
+[2023-07-13 03:03:49] INFO root fetch - main [MainThread]: End processing [tabeline]: success
+[2023-07-13 03:03:50] INFO root fetch - processPackages [yiddish]: Remove: archive file [/home/abi/fetcher/tmp/yiddish-0.0.8.tar.gz]
+[2023-07-13 03:03:50] INFO root fetch - processPackages [yiddish]: Remove: archive file [/home/abi/fetcher/tmp/yiddish-0.0.9.tar.gz]
+[2023-07-13 03:03:50] INFO root fetch - main [MainThread]: End processing [yiddish]: success
+[2023-07-13 03:03:50] INFO root fetch - processPackages [predictionguard]: Remove: archive file [/home/abi/fetcher/tmp/predictionguard-1.2.2.tar.gz]
+[2023-07-13 03:03:50] INFO root fetch - processPackages [predictionguard]: Remove: archive file [/home/abi/fetcher/tmp/predictionguard-1.2.3.tar.gz]
+[2023-07-13 03:03:50] INFO root fetch - main [MainThread]: End processing [predictionguard]: success
+[2023-07-13 03:03:50] INFO root fetch - processPackages [iatiflattener]: Remove: archive file [/home/abi/fetcher/tmp/iatiflattener-0.9b8.tar.gz]
+[2023-07-13 03:03:50] INFO root fetch - processPackages [iatiflattener]: Remove: archive file [/home/abi/fetcher/tmp/iatiflattener-0.9b9.tar.gz]
+[2023-07-13 03:03:50] INFO root fetch - main [MainThread]: End processing [iatiflattener]: success
+[2023-07-13 03:03:50] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.9.2.tar.gz]
+[2023-07-13 03:03:50] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.9.3.tar.gz]
+[2023-07-13 03:03:50] INFO root fetch - main [MainThread]: End processing [snk]: success
+[2023-07-13 03:03:50] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-07-13 03:03:50] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-07-13 03:03:50] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-07-13 03:03:50] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.2.tar.gz]
+[2023-07-13 03:03:50] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.3.tar.gz]
+[2023-07-13 03:03:50] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2023-07-13 03:03:50] INFO root fetch - main [MainThread]: Store serial: [18868520]
