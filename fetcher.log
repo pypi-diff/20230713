@@ -21164,3 +21164,110 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 14:01:38] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.3.0a1689245158.tar.gz]
 [2023-07-13 14:01:38] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2023-07-13 14:01:38] INFO root fetch - main [MainThread]: Store serial: [18874359]
+[2023-07-13 14:06:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18874359]
+[2023-07-13 14:06:51] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-13 14:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nx5d
+[2023-07-13 14:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tg-botting
+[2023-07-13 14:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastdup
+[2023-07-13 14:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mixprops
+[2023-07-13 14:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qvsed
+[2023-07-13 14:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-twined
+[2023-07-13 14:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simple-plugin-manager-zimolab1995
+[2023-07-13 14:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mflag
+[2023-07-13 14:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quantum-serverless
+[2023-07-13 14:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wslshot
+[2023-07-13 14:06:51] INFO root fetch - processPackages [mixprops]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-13 14:06:51] INFO root fetch - processPackages [tg-botting]: New version: [2.1] Old Version: [2.0]
+[2023-07-13 14:06:51] INFO root fetch - processPackages [django-twined]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-13 14:06:51] INFO root fetch - processPackages [nx5d]: New version: [0.3.9] Old Version: [0.3.7]
+[2023-07-13 14:06:51] INFO root fetch - processPackages [qvsed]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-13 14:06:51] INFO root fetch - processPackages [mflag]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-07-13 14:06:51] INFO root fetch - processPackages [wslshot]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-13 14:06:51] INFO root fetch - processPackages [quantum-serverless]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-13 14:06:51] INFO root fetch - processPackages [simple-plugin-manager-zimolab1995]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 14:06:51] INFO root fetch - processPackages [fastdup]: New version: [1.27] Old Version: [1.26]
+[2023-07-13 14:06:51] INFO root fetch - processPackages [tg-botting]: Downloading https://files.pythonhosted.org/packages/e6/78/a2eb947f31fdc1ff5c135e15e23525fda910a80fc06a68cb502f4ed21eaf/tg-botting-2.0.tar.gz
+[2023-07-13 14:06:51] INFO root fetch - processPackages [mixprops]: Downloading https://files.pythonhosted.org/packages/56/f2/c68325c502499807a28847d6c94b9b3626aaaa21da60be89652a0c2a20ed/mixprops-0.1.2.tar.gz
+[2023-07-13 14:06:51] INFO root fetch - processPackages [django-twined]: Downloading https://files.pythonhosted.org/packages/a1/7c/678e22b4678387242f9ab4adf1b1d4134ffadf6e112ec412cf3206633c60/django_twined-0.6.0.tar.gz
+[2023-07-13 14:06:51] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/6b/8d/a3f1f40661320d0cbb01db8f9a1af589add456405f1dfaa66193985b5e17/qvsed-1.5.1.tar.gz
+[2023-07-13 14:06:51] INFO root fetch - processPackages [wslshot]: Downloading https://files.pythonhosted.org/packages/55/a0/6f48253b817e5d4cd7b5f680773ef208845b67170b9bf2e5a7a95bf91521/wslshot-0.0.5.tar.gz
+[2023-07-13 14:06:51] INFO root fetch - processPackages [simple-plugin-manager-zimolab1995]: Downloading https://files.pythonhosted.org/packages/bc/94/fd11ce72763d20254d60b34df580f1d5726b3cfb0c171e4aef7308febfa1/simple_plugin_manager_zimolab1995-0.0.1.tar.gz
+[2023-07-13 14:06:51] INFO root fetch - processPackages [mflag]: Downloading https://files.pythonhosted.org/packages/cd/ce/21ba05a5e7e2e7ed49950d8c2e277ded79c1b240bce0150ae677f5e4df37/mflag-1.6.8.tar.gz
+[2023-07-13 14:06:52] INFO root fetch - processPackages [quantum-serverless]: Downloading https://files.pythonhosted.org/packages/ec/3f/4f7021258ce19266e5ce428bf0a850c776232590a898ed848bb1fc1784dc/quantum_serverless-0.2.1.tar.gz
+[2023-07-13 14:06:52] INFO root fetch - processPackages [nx5d]: Downloading https://files.pythonhosted.org/packages/fb/5d/c81cea663257c249b701560b0f4a13fec7c4a0a2858c742bff213db7098a/nx5d-0.3.7.tar.gz
+[2023-07-13 14:06:52] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/f7/54/f7462f18c527277d843ed2d1250dd22b76866ab1bb0784373d0e2bc9c943/fastdup-1.26-cp39-cp39-manylinux_2_31_x86_64.whl
+[2023-07-13 14:06:52] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 75140854>=10485760
+[2023-07-13 14:06:52] INFO root fetch - processPackages [fastdup]: Start processing: cq23
+[2023-07-13 14:06:52] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2023-07-13 14:06:52] INFO root fetch - processPackages [django-twined]: Downloading https://files.pythonhosted.org/packages/19/80/e91529c8dd3891778fe8abf19f536709669d333f32f17126a5e3e633451f/django_twined-0.6.1.tar.gz
+[2023-07-13 14:06:52] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/0f/b7/cbbbffbeeb091b7dc2c6eeef9326e853ace27e03b30a96166ae86220d1b6/qvsed-1.5.2.tar.gz
+[2023-07-13 14:06:52] INFO root fetch - processPackages [cq23]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-07-13 14:06:52] INFO root fetch - processPackages [tg-botting]: Downloading https://files.pythonhosted.org/packages/77/82/f9c5b3c5482f956875c430a4b6a6e17513b871ac54b6c4fb018c08c54653/tg-botting-2.1.tar.gz
+[2023-07-13 14:06:52] INFO root fetch - processPackages [mixprops]: Downloading https://files.pythonhosted.org/packages/73/a8/a7a0b36e89fb1a9902026217195af55ff2f25194f363bbc1c21eec7879c7/mixprops-0.1.3.tar.gz
+[2023-07-13 14:06:52] INFO root fetch - processPackages [wslshot]: Downloading https://files.pythonhosted.org/packages/32/20/201674aebdf4814d9d185668f7a04c2001bebad6881b8c8b3338979e9c21/wslshot-0.0.6.tar.gz
+[2023-07-13 14:06:52] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/cc/46/b7784e855997b074185bec05a2d46a1a494fa5a378369780536a264bc671/cq23-2.2.1.tar.gz
+[2023-07-13 14:06:52] INFO root fetch - processPackages [mflag]: Downloading https://files.pythonhosted.org/packages/5c/91/5c8e15bc7c9da40ac8e2cacde5493a16fa7e47eed75d87051f3810ff396a/mflag-1.6.9.tar.gz
+[2023-07-13 14:06:52] INFO root fetch - processPackages [simple-plugin-manager-zimolab1995]: Downloading https://files.pythonhosted.org/packages/67/59/1d07bb4efb99f6b0f87e03f7133bfd74bc31d0e0bcac608d0bc7d99d2c3c/simple_plugin_manager_zimolab1995-0.0.2.tar.gz
+[2023-07-13 14:06:52] INFO root fetch - processPackages [wslshot]: executing diffoscope
+[2023-07-13 14:06:52] INFO root fetch - processPackages [wslshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wslshot-0.0.5.tar.gz tmp/wslshot-0.0.6.tar.gz --markdown 20230713/w/wslshot/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-13 14:06:52] INFO root fetch - processPackages [django-twined]: executing diffoscope
+[2023-07-13 14:06:52] INFO root fetch - processPackages [django-twined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_twined-0.6.0.tar.gz tmp/django_twined-0.6.1.tar.gz --markdown 20230713/d/django-twined/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-13 14:06:52] INFO root fetch - processPackages [qvsed]: executing diffoscope
+[2023-07-13 14:06:52] INFO root fetch - processPackages [qvsed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qvsed-1.5.1.tar.gz tmp/qvsed-1.5.2.tar.gz --markdown 20230713/q/qvsed/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-07-13 14:06:52] INFO root fetch - processPackages [tg-botting]: executing diffoscope
+[2023-07-13 14:06:52] INFO root fetch - processPackages [tg-botting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg-botting-2.0.tar.gz tmp/tg-botting-2.1.tar.gz --markdown 20230713/t/tg-botting/2.0-2.1/diff.md --exclude *.pyd
+[2023-07-13 14:06:52] INFO root fetch - processPackages [mixprops]: executing diffoscope
+[2023-07-13 14:06:52] INFO root fetch - processPackages [mixprops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixprops-0.1.2.tar.gz tmp/mixprops-0.1.3.tar.gz --markdown 20230713/m/mixprops/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-13 14:06:52] INFO root fetch - processPackages [mflag]: executing diffoscope
+[2023-07-13 14:06:52] INFO root fetch - processPackages [mflag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mflag-1.6.8.tar.gz tmp/mflag-1.6.9.tar.gz --markdown 20230713/m/mflag/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-07-13 14:06:52] INFO root fetch - processPackages [quantum-serverless]: Downloading https://files.pythonhosted.org/packages/75/86/e7b594d5944a4dfaaa1500c60d4b24a50ce34cf4e1bc6fd56bead2d2e653/quantum_serverless-0.3.0.tar.gz
+[2023-07-13 14:06:52] INFO root fetch - processPackages [simple-plugin-manager-zimolab1995]: executing diffoscope
+[2023-07-13 14:06:52] INFO root fetch - processPackages [simple-plugin-manager-zimolab1995]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_plugin_manager_zimolab1995-0.0.1.tar.gz tmp/simple_plugin_manager_zimolab1995-0.0.2.tar.gz --markdown 20230713/s/simple-plugin-manager-zimolab1995/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 14:06:52] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/b3/b7/665263022430194977a8d1746968e8788071b925cd98d0cc3c2490db15e4/cq23-2.2.2.tar.gz
+[2023-07-13 14:06:52] INFO root fetch - processPackages [nx5d]: Downloading https://files.pythonhosted.org/packages/45/ca/068315e514a16c9012d534cb883ce1dd5c92d9cb5bbb1da8224c2576028b/nx5d-0.3.9.tar.gz
+[2023-07-13 14:06:52] INFO root fetch - processPackages [quantum-serverless]: executing diffoscope
+[2023-07-13 14:06:52] INFO root fetch - processPackages [quantum-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantum_serverless-0.2.1.tar.gz tmp/quantum_serverless-0.3.0.tar.gz --markdown 20230713/q/quantum-serverless/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-13 14:06:52] INFO root fetch - processPackages [cq23]: executing diffoscope
+[2023-07-13 14:06:52] INFO root fetch - processPackages [cq23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cq23-2.2.1.tar.gz tmp/cq23-2.2.2.tar.gz --markdown 20230713/c/cq23/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-07-13 14:06:53] INFO root fetch - processPackages [nx5d]: executing diffoscope
+[2023-07-13 14:06:53] INFO root fetch - processPackages [nx5d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nx5d-0.3.7.tar.gz tmp/nx5d-0.3.9.tar.gz --markdown 20230713/n/nx5d/0.3.7-0.3.9/diff.md --exclude *.pyd
+[2023-07-13 14:06:54] INFO root fetch - processPackages [wslshot]: Remove: archive file [/home/abi/fetcher/tmp/wslshot-0.0.5.tar.gz]
+[2023-07-13 14:06:54] INFO root fetch - processPackages [wslshot]: Remove: archive file [/home/abi/fetcher/tmp/wslshot-0.0.6.tar.gz]
+[2023-07-13 14:06:54] INFO root fetch - processPackages [wslshot]: Start processing: groupdocs-parser-cloud
+[2023-07-13 14:06:54] INFO root fetch - main [MainThread]: End processing [wslshot]: success
+[2023-07-13 14:06:54] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.5.1.tar.gz]
+[2023-07-13 14:06:54] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.5.2.tar.gz]
+[2023-07-13 14:06:54] INFO root fetch - main [MainThread]: End processing [qvsed]: success
+[2023-07-13 14:06:54] INFO root fetch - processPackages [mixprops]: Remove: archive file [/home/abi/fetcher/tmp/mixprops-0.1.2.tar.gz]
+[2023-07-13 14:06:54] INFO root fetch - processPackages [mixprops]: Remove: archive file [/home/abi/fetcher/tmp/mixprops-0.1.3.tar.gz]
+[2023-07-13 14:06:54] INFO root fetch - main [MainThread]: End processing [mixprops]: success
+[2023-07-13 14:06:54] INFO root fetch - processPackages [groupdocs-parser-cloud]: New version: [23.7] Old Version: [22.3]
+[2023-07-13 14:06:54] INFO root fetch - processPackages [tg-botting]: Remove: archive file [/home/abi/fetcher/tmp/tg-botting-2.0.tar.gz]
+[2023-07-13 14:06:54] INFO root fetch - processPackages [tg-botting]: Remove: archive file [/home/abi/fetcher/tmp/tg-botting-2.1.tar.gz]
+[2023-07-13 14:06:54] INFO root fetch - main [MainThread]: End processing [tg-botting]: success
+[2023-07-13 14:06:54] INFO root fetch - processPackages [mflag]: Remove: archive file [/home/abi/fetcher/tmp/mflag-1.6.8.tar.gz]
+[2023-07-13 14:06:54] INFO root fetch - processPackages [mflag]: Remove: archive file [/home/abi/fetcher/tmp/mflag-1.6.9.tar.gz]
+[2023-07-13 14:06:54] INFO root fetch - main [MainThread]: End processing [mflag]: success
+[2023-07-13 14:06:54] INFO root fetch - processPackages [django-twined]: Remove: archive file [/home/abi/fetcher/tmp/django_twined-0.6.0.tar.gz]
+[2023-07-13 14:06:54] INFO root fetch - processPackages [django-twined]: Remove: archive file [/home/abi/fetcher/tmp/django_twined-0.6.1.tar.gz]
+[2023-07-13 14:06:54] INFO root fetch - main [MainThread]: End processing [django-twined]: success
+[2023-07-13 14:06:54] INFO root fetch - processPackages [simple-plugin-manager-zimolab1995]: Remove: archive file [/home/abi/fetcher/tmp/simple_plugin_manager_zimolab1995-0.0.1.tar.gz]
+[2023-07-13 14:06:54] INFO root fetch - processPackages [simple-plugin-manager-zimolab1995]: Remove: archive file [/home/abi/fetcher/tmp/simple_plugin_manager_zimolab1995-0.0.2.tar.gz]
+[2023-07-13 14:06:54] INFO root fetch - main [MainThread]: End processing [simple-plugin-manager-zimolab1995]: success
+[2023-07-13 14:06:54] INFO root fetch - processPackages [groupdocs-parser-cloud]: Downloading https://files.pythonhosted.org/packages/b7/78/00d5d7da2cafff50b5e8a40b1628f2bb8cc2487fc69fc5720d1c94e34566/groupdocs-parser-cloud-22.3.tar.gz
+[2023-07-13 14:06:54] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-2.2.1.tar.gz]
+[2023-07-13 14:06:54] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-2.2.2.tar.gz]
+[2023-07-13 14:06:54] INFO root fetch - main [MainThread]: End processing [cq23]: success
+[2023-07-13 14:06:54] INFO root fetch - processPackages [quantum-serverless]: Remove: archive file [/home/abi/fetcher/tmp/quantum_serverless-0.2.1.tar.gz]
+[2023-07-13 14:06:54] INFO root fetch - processPackages [quantum-serverless]: Remove: archive file [/home/abi/fetcher/tmp/quantum_serverless-0.3.0.tar.gz]
+[2023-07-13 14:06:54] INFO root fetch - main [MainThread]: End processing [quantum-serverless]: success
+[2023-07-13 14:06:54] INFO root fetch - processPackages [groupdocs-parser-cloud]: Downloading https://files.pythonhosted.org/packages/a8/36/a72a64fa54ad87004f86dacdc685165b11b62772a30684abb003f3fcc87b/groupdocs-parser-cloud-23.7.tar.gz
+[2023-07-13 14:06:55] INFO root fetch - processPackages [groupdocs-parser-cloud]: executing diffoscope
+[2023-07-13 14:06:55] INFO root fetch - processPackages [groupdocs-parser-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groupdocs-parser-cloud-22.3.tar.gz tmp/groupdocs-parser-cloud-23.7.tar.gz --markdown 20230713/g/groupdocs-parser-cloud/22.3-23.7/diff.md --exclude *.pyd
+[2023-07-13 14:06:55] INFO root fetch - processPackages [nx5d]: Remove: archive file [/home/abi/fetcher/tmp/nx5d-0.3.7.tar.gz]
+[2023-07-13 14:06:55] INFO root fetch - processPackages [nx5d]: Remove: archive file [/home/abi/fetcher/tmp/nx5d-0.3.9.tar.gz]
+[2023-07-13 14:06:55] INFO root fetch - main [MainThread]: End processing [nx5d]: success
+[2023-07-13 14:06:56] INFO root fetch - processPackages [groupdocs-parser-cloud]: Remove: archive file [/home/abi/fetcher/tmp/groupdocs-parser-cloud-22.3.tar.gz]
+[2023-07-13 14:06:56] INFO root fetch - processPackages [groupdocs-parser-cloud]: Remove: archive file [/home/abi/fetcher/tmp/groupdocs-parser-cloud-23.7.tar.gz]
+[2023-07-13 14:06:56] INFO root fetch - main [MainThread]: End processing [groupdocs-parser-cloud]: success
+[2023-07-13 14:06:56] INFO root fetch - main [MainThread]: Store serial: [18874397]
