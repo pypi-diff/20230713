@@ -21343,3 +21343,111 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 14:12:09] INFO root fetch - processPackages [shapelets-native]: Remove: archive file [/home/abi/fetcher/tmp/shapelets_native-2.0.87-cp38-cp38-win_amd64.whl.zip]
 [2023-07-13 14:12:09] INFO root fetch - main [MainThread]: End processing [shapelets-native]: success
 [2023-07-13 14:12:09] INFO root fetch - main [MainThread]: Store serial: [18874427]
+[2023-07-13 14:17:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18874427]
+[2023-07-13 14:17:18] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-13 14:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-go-goose
+[2023-07-13 14:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: renumics-spotlight
+[2023-07-13 14:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cache-result
+[2023-07-13 14:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coiled
+[2023-07-13 14:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SempCode
+[2023-07-13 14:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zntrack
+[2023-07-13 14:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sampo
+[2023-07-13 14:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wslshot
+[2023-07-13 14:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: checkmk-dev-tools
+[2023-07-13 14:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ciderpolarity
+[2023-07-13 14:17:18] WARNING root fetch - processPackages [py-go-goose]: Skipping, unable to determine old version
+[2023-07-13 14:17:18] INFO root fetch - processPackages [py-go-goose]: Start processing: absl-extra
+[2023-07-13 14:17:18] INFO root fetch - main [MainThread]: End processing [py-go-goose] error
+[2023-07-13 14:17:18] ERROR root fetch - processPackages [cache-result]: Unable to get metadata: No such project 'cache-result'
+[2023-07-13 14:17:18] INFO root fetch - processPackages [cache-result]: Start processing: pyBPPIBridge
+[2023-07-13 14:17:18] INFO root fetch - main [MainThread]: End processing [cache-result] error
+[2023-07-13 14:17:18] INFO root fetch - processPackages [SempCode]: New version: [2023.6.5.22.4886] Old Version: [2023.6.5.22.3942]
+[2023-07-13 14:17:18] INFO root fetch - processPackages [checkmk-dev-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-13 14:17:18] INFO root fetch - processPackages [zntrack]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-13 14:17:18] INFO root fetch - processPackages [wslshot]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-13 14:17:18] INFO root fetch - processPackages [absl-extra]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-13 14:17:18] INFO root fetch - processPackages [renumics-spotlight]: New version: [1.3.0rc5] Old Version: [1.3.0rc4]
+[2023-07-13 14:17:18] INFO root fetch - processPackages [ciderpolarity]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-13 14:17:18] INFO root fetch - processPackages [sampo]: New version: [0.1.1.99] Old Version: [0.1.1.98]
+[2023-07-13 14:17:18] INFO root fetch - processPackages [coiled]: New version: [0.8.8.dev9] Old Version: [0.8.8.dev8]
+[2023-07-13 14:17:18] INFO root fetch - processPackages [pyBPPIBridge]: New version: [0.4.8.8] Old Version: [0.4.5]
+[2023-07-13 14:17:18] INFO root fetch - processPackages [wslshot]: Downloading https://files.pythonhosted.org/packages/17/e0/68555d7cbac3c07acb63cf810815d397a83a5ec1b7f02e91e968014a49d2/wslshot-0.0.7.tar.gz
+[2023-07-13 14:17:18] INFO root fetch - processPackages [SempCode]: Downloading https://files.pythonhosted.org/packages/aa/e5/3a772bb3ba6060c4083c520d22d53529e7fa0a76c6bca3d78795e616df7a/SempCode-2023.6.5.22.3942-py3-none-any.whl
+[2023-07-13 14:17:18] INFO root fetch - processPackages [checkmk-dev-tools]: Downloading https://files.pythonhosted.org/packages/a5/44/09fe3238664c76b0dde99d19f15393d76e212e1d1eec081b474e6eaae194/checkmk_dev_tools-0.1.8.tar.gz
+[2023-07-13 14:17:18] INFO root fetch - processPackages [ciderpolarity]: Downloading https://files.pythonhosted.org/packages/72/f5/6bde3d1617afcd357f035d464096a49ce69f626a5bcc6a35d2f2f8c5c7c9/ciderpolarity-0.2.4.tar.gz
+[2023-07-13 14:17:18] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/29/92/688b446e3822b3be1951317596cd759c0087642922cd952a1d9bf930d1cd/absl_extra-0.0.2.dev8.tar.gz
+[2023-07-13 14:17:18] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/c0/f0/691fad5ee7a8eae5d9b71eb531e4b6d414959a5afcc9811977263994bd77/sampo-0.1.1.98.tar.gz
+[2023-07-13 14:17:18] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/72/0e/aa05a5141b5d80287919caffa6a9a6e611a363a221e0221298149c3579af/coiled-0.8.8.dev8.tar.gz
+[2023-07-13 14:17:18] INFO root fetch - processPackages [pyBPPIBridge]: Downloading https://files.pythonhosted.org/packages/b8/41/2a4d59ddf40f6c4919a14552f3639c03dd982ea19b77d508483a14a66f88/pyBPPIBridge-0.4.5-py3-none-any.whl
+[2023-07-13 14:17:18] INFO root fetch - processPackages [zntrack]: Downloading https://files.pythonhosted.org/packages/51/19/c8c8e124f06f22d4acf35bf587d5175025f9f5d7ee51b53c9276e7baa6cc/zntrack-0.6.1.tar.gz
+[2023-07-13 14:17:19] INFO root fetch - processPackages [renumics-spotlight]: Downloading https://files.pythonhosted.org/packages/a7/05/a70c5ff58078b5ccb8b4ab0f79224ad1f192b042536fed3140795152b4f1/renumics_spotlight-1.3.0rc4-py3-none-any.whl
+[2023-07-13 14:17:19] INFO root fetch - processPackages [checkmk-dev-tools]: Downloading https://files.pythonhosted.org/packages/c1/1e/654ed63ab53350017ff4219e2e1d8cc32780c62f86a397bbc8134674c84e/checkmk_dev_tools-0.1.9.tar.gz
+[2023-07-13 14:17:19] INFO root fetch - processPackages [wslshot]: Downloading https://files.pythonhosted.org/packages/58/e2/c0c899bc3fd7d3c8b0426a599612ec9807841fafa310e0017929c7493347/wslshot-0.0.8.tar.gz
+[2023-07-13 14:17:19] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/f7/ad/385040ffc5d1a6c7ce24b748fe7932e7fc6f931c5a98bbd7a4f9c8acacfd/absl_extra-0.0.2.dev9.tar.gz
+[2023-07-13 14:17:19] INFO root fetch - processPackages [SempCode]: Downloading https://files.pythonhosted.org/packages/28/9c/0b3ad888d6c32d1cb8219729ba87782626ca66e00916fc507c023cc89580/SempCode-2023.6.5.22.4886-py3-none-any.whl
+[2023-07-13 14:17:19] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/28/10/7f07e18ca3b08fef3d13985a88344883d8eaf53be7daeda7186b282872a8/sampo-0.1.1.99.tar.gz
+[2023-07-13 14:17:19] INFO root fetch - processPackages [pyBPPIBridge]: Downloading https://files.pythonhosted.org/packages/7f/ef/a7a4133f69ca645dc7e61721186a721676246dbb2e94e93385c5938b6904/pyBPPIBridge-0.4.8.8-py3-none-any.whl
+[2023-07-13 14:17:19] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/ba/43/ce3d3d4711a89756d25a0339f94da013117829985a8b9ecf405eb55248c5/coiled-0.8.8.dev9.tar.gz
+[2023-07-13 14:17:19] INFO root fetch - processPackages [ciderpolarity]: Downloading https://files.pythonhosted.org/packages/9e/42/d2d7a8982832af5413138cd09f22712e677dc1c75b878da771e0d4f4264a/ciderpolarity-0.2.5.tar.gz
+[2023-07-13 14:17:19] INFO root fetch - processPackages [checkmk-dev-tools]: executing diffoscope
+[2023-07-13 14:17:19] INFO root fetch - processPackages [checkmk-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkmk_dev_tools-0.1.8.tar.gz tmp/checkmk_dev_tools-0.1.9.tar.gz --markdown 20230713/c/checkmk-dev-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-13 14:17:19] INFO root fetch - processPackages [zntrack]: Downloading https://files.pythonhosted.org/packages/8e/42/c4ed12cf412030711f44da9ac844bce99b0eb906270e9b96d6ffc1133b38/zntrack-0.6.2.tar.gz
+[2023-07-13 14:17:19] INFO root fetch - processPackages [absl-extra]: executing diffoscope
+[2023-07-13 14:17:19] INFO root fetch - processPackages [absl-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absl_extra-0.0.2.dev8.tar.gz tmp/absl_extra-0.0.2.dev9.tar.gz --markdown 20230713/a/absl-extra/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-13 14:17:19] INFO root fetch - processPackages [SempCode]: executing diffoscope
+[2023-07-13 14:17:19] INFO root fetch - processPackages [SempCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SempCode-2023.6.5.22.3942-py3-none-any.whl.zip tmp/SempCode-2023.6.5.22.4886-py3-none-any.whl.zip --markdown 20230713/S/SempCode/2023.6.5.22.3942-2023.6.5.22.4886/diff.md --exclude *.pyd
+[2023-07-13 14:17:19] INFO root fetch - processPackages [wslshot]: executing diffoscope
+[2023-07-13 14:17:19] INFO root fetch - processPackages [wslshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wslshot-0.0.7.tar.gz tmp/wslshot-0.0.8.tar.gz --markdown 20230713/w/wslshot/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-13 14:17:19] INFO root fetch - processPackages [sampo]: executing diffoscope
+[2023-07-13 14:17:19] INFO root fetch - processPackages [sampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampo-0.1.1.98.tar.gz tmp/sampo-0.1.1.99.tar.gz --markdown 20230713/s/sampo/0.1.1.98-0.1.1.99/diff.md --exclude *.pyd
+[2023-07-13 14:17:19] INFO root fetch - processPackages [pyBPPIBridge]: executing diffoscope
+[2023-07-13 14:17:19] INFO root fetch - processPackages [pyBPPIBridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyBPPIBridge-0.4.5-py3-none-any.whl.zip tmp/pyBPPIBridge-0.4.8.8-py3-none-any.whl.zip --markdown 20230713/p/pyBPPIBridge/0.4.5-0.4.8.8/diff.md --exclude *.pyd
+[2023-07-13 14:17:19] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-13 14:17:19] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.8.dev8.tar.gz tmp/coiled-0.8.8.dev9.tar.gz --markdown 20230713/c/coiled/0.8.8.dev8-0.8.8.dev9/diff.md --exclude *.pyd
+[2023-07-13 14:17:19] INFO root fetch - processPackages [zntrack]: executing diffoscope
+[2023-07-13 14:17:19] INFO root fetch - processPackages [zntrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zntrack-0.6.1.tar.gz tmp/zntrack-0.6.2.tar.gz --markdown 20230713/z/zntrack/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-13 14:17:19] INFO root fetch - processPackages [ciderpolarity]: executing diffoscope
+[2023-07-13 14:17:19] INFO root fetch - processPackages [ciderpolarity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciderpolarity-0.2.4.tar.gz tmp/ciderpolarity-0.2.5.tar.gz --markdown 20230713/c/ciderpolarity/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-13 14:17:19] INFO root fetch - processPackages [renumics-spotlight]: Downloading https://files.pythonhosted.org/packages/12/f8/69f34a4d0ee79206b052656cefa620ffd9ed74e849e7daf54c78a82bc8af/renumics_spotlight-1.3.0rc5-py3-none-any.whl
+[2023-07-13 14:17:20] INFO root fetch - processPackages [renumics-spotlight]: executing diffoscope
+[2023-07-13 14:17:20] INFO root fetch - processPackages [renumics-spotlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renumics_spotlight-1.3.0rc4-py3-none-any.whl.zip tmp/renumics_spotlight-1.3.0rc5-py3-none-any.whl.zip --markdown 20230713/r/renumics-spotlight/1.3.0rc4-1.3.0rc5/diff.md --exclude *.pyd
+[2023-07-13 14:17:21] INFO root fetch - processPackages [checkmk-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/checkmk_dev_tools-0.1.8.tar.gz]
+[2023-07-13 14:17:21] INFO root fetch - processPackages [checkmk-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/checkmk_dev_tools-0.1.9.tar.gz]
+[2023-07-13 14:17:21] INFO root fetch - processPackages [checkmk-dev-tools]: Start processing: glance
+[2023-07-13 14:17:21] INFO root fetch - main [MainThread]: End processing [checkmk-dev-tools]: success
+[2023-07-13 14:17:21] INFO root fetch - processPackages [SempCode]: Remove: archive file [/home/abi/fetcher/tmp/SempCode-2023.6.5.22.3942-py3-none-any.whl.zip]
+[2023-07-13 14:17:21] INFO root fetch - processPackages [SempCode]: Remove: archive file [/home/abi/fetcher/tmp/SempCode-2023.6.5.22.4886-py3-none-any.whl.zip]
+[2023-07-13 14:17:21] INFO root fetch - main [MainThread]: End processing [SempCode]: success
+[2023-07-13 14:17:21] INFO root fetch - processPackages [glance]: New version: [27.0.0.0b2] Old Version: [27.0.0.0b1]
+[2023-07-13 14:17:21] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.2.dev8.tar.gz]
+[2023-07-13 14:17:21] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.2.dev9.tar.gz]
+[2023-07-13 14:17:21] INFO root fetch - main [MainThread]: End processing [absl-extra]: success
+[2023-07-13 14:17:21] INFO root fetch - processPackages [wslshot]: Remove: archive file [/home/abi/fetcher/tmp/wslshot-0.0.7.tar.gz]
+[2023-07-13 14:17:21] INFO root fetch - processPackages [wslshot]: Remove: archive file [/home/abi/fetcher/tmp/wslshot-0.0.8.tar.gz]
+[2023-07-13 14:17:21] INFO root fetch - main [MainThread]: End processing [wslshot]: success
+[2023-07-13 14:17:21] INFO root fetch - processPackages [ciderpolarity]: Remove: archive file [/home/abi/fetcher/tmp/ciderpolarity-0.2.4.tar.gz]
+[2023-07-13 14:17:21] INFO root fetch - processPackages [ciderpolarity]: Remove: archive file [/home/abi/fetcher/tmp/ciderpolarity-0.2.5.tar.gz]
+[2023-07-13 14:17:21] INFO root fetch - main [MainThread]: End processing [ciderpolarity]: success
+[2023-07-13 14:17:21] INFO root fetch - processPackages [pyBPPIBridge]: Remove: archive file [/home/abi/fetcher/tmp/pyBPPIBridge-0.4.5-py3-none-any.whl.zip]
+[2023-07-13 14:17:21] INFO root fetch - processPackages [pyBPPIBridge]: Remove: archive file [/home/abi/fetcher/tmp/pyBPPIBridge-0.4.8.8-py3-none-any.whl.zip]
+[2023-07-13 14:17:21] INFO root fetch - main [MainThread]: End processing [pyBPPIBridge]: success
+[2023-07-13 14:17:21] INFO root fetch - processPackages [glance]: Downloading https://files.pythonhosted.org/packages/95/0d/69aa0d0a704cad0e1fa008a6c91f479c189b4ebacf39d0669f7d5e7021aa/glance-27.0.0.0b1.tar.gz
+[2023-07-13 14:17:21] INFO root fetch - processPackages [zntrack]: Remove: archive file [/home/abi/fetcher/tmp/zntrack-0.6.1.tar.gz]
+[2023-07-13 14:17:21] INFO root fetch - processPackages [zntrack]: Remove: archive file [/home/abi/fetcher/tmp/zntrack-0.6.2.tar.gz]
+[2023-07-13 14:17:21] INFO root fetch - main [MainThread]: End processing [zntrack]: success
+[2023-07-13 14:17:22] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.8.dev8.tar.gz]
+[2023-07-13 14:17:22] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.8.dev9.tar.gz]
+[2023-07-13 14:17:22] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-13 14:17:22] INFO root fetch - processPackages [sampo]: Remove: archive file [/home/abi/fetcher/tmp/sampo-0.1.1.98.tar.gz]
+[2023-07-13 14:17:22] INFO root fetch - processPackages [sampo]: Remove: archive file [/home/abi/fetcher/tmp/sampo-0.1.1.99.tar.gz]
+[2023-07-13 14:17:22] INFO root fetch - main [MainThread]: End processing [sampo]: success
+[2023-07-13 14:17:22] INFO root fetch - processPackages [glance]: Downloading https://files.pythonhosted.org/packages/83/08/6d3f04c2ce08be36b16646abce3705c52098480bb3940a8e6f5257b5842f/glance-27.0.0.0b2.tar.gz
+[2023-07-13 14:17:22] INFO root fetch - processPackages [glance]: executing diffoscope
+[2023-07-13 14:17:22] INFO root fetch - processPackages [glance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glance-27.0.0.0b1.tar.gz tmp/glance-27.0.0.0b2.tar.gz --markdown 20230713/g/glance/27.0.0.0b1-27.0.0.0b2/diff.md --exclude *.pyd
+[2023-07-13 14:17:28] INFO root fetch - processPackages [glance]: Remove: archive file [/home/abi/fetcher/tmp/glance-27.0.0.0b1.tar.gz]
+[2023-07-13 14:17:28] INFO root fetch - processPackages [glance]: Remove: archive file [/home/abi/fetcher/tmp/glance-27.0.0.0b2.tar.gz]
+[2023-07-13 14:17:28] INFO root fetch - main [MainThread]: End processing [glance]: success
+[2023-07-13 14:17:48] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.3.0rc4-py3-none-any.whl.zip]
+[2023-07-13 14:17:48] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.3.0rc5-py3-none-any.whl.zip]
+[2023-07-13 14:17:48] INFO root fetch - main [MainThread]: End processing [renumics-spotlight]: success
+[2023-07-13 14:17:48] INFO root fetch - main [MainThread]: Store serial: [18874470]
