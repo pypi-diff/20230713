@@ -9304,3 +9304,88 @@
 [2023-07-13 06:18:35] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_multi_level-14.0.1.9.0-py3-none-any.whl.zip]
 [2023-07-13 06:18:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-multi-level]: success
 [2023-07-13 06:18:35] INFO root fetch - main [MainThread]: Store serial: [18869792]
+[2023-07-13 06:23:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18869792]
+[2023-07-13 06:23:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-13 06:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-intel
+[2023-07-13 06:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openhab-pythonrule-engine
+[2023-07-13 06:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-mrp-multi-level
+[2023-07-13 06:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-mrp-analytic-cost
+[2023-07-13 06:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-mrp-multi-level
+[2023-07-13 06:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gdocsync
+[2023-07-13 06:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ForestScience
+[2023-07-13 06:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyawskit
+[2023-07-13 06:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dsmlibrary
+[2023-07-13 06:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ForestScience
+[2023-07-13 06:23:44] INFO root fetch - processPackages [gdocsync]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-13 06:23:44] INFO root fetch - processPackages [ForestScience]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-13 06:23:44] INFO root fetch - processPackages [odoo14-addon-mrp-analytic-cost]: New version: [14.0.1.1.1.dev5] Old Version: [14.0.1.1.1.dev4]
+[2023-07-13 06:23:44] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: New version: [16.0.1.2.0.5] Old Version: [16.0.1.2.0.4]
+[2023-07-13 06:23:44] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: New version: [16.0.1.2.0.5] Old Version: [16.0.1.2.0.4]
+[2023-07-13 06:23:44] INFO root fetch - processPackages [dsmlibrary]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 06:23:44] INFO root fetch - processPackages [ForestScience]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-13 06:23:44] INFO root fetch - processPackages [pyawskit]: New version: [0.1.75] Old Version: [0.1.74]
+[2023-07-13 06:23:44] INFO root fetch - processPackages [openhab-pythonrule-engine]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-13 06:23:44] INFO root fetch - processPackages [gdocsync]: Downloading https://files.pythonhosted.org/packages/cd/23/635d29f6338ebffac896ec9ef6833bb8d8c98bf2854c1e508a716eea0c04/gdocsync-0.0.4.tar.gz
+[2023-07-13 06:23:44] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230712] Old Version: [2.14.0.dev20230706]
+[2023-07-13 06:23:44] INFO root fetch - processPackages [ForestScience]: Downloading https://files.pythonhosted.org/packages/80/f5/fa6a80a0a06536f3eb0b92fdbd8462129d023cea8830c59d00ef97d137cb/ForestScience-0.0.4.tar.gz
+[2023-07-13 06:23:44] INFO root fetch - processPackages [odoo14-addon-mrp-analytic-cost]: Downloading https://files.pythonhosted.org/packages/74/1c/5e38b1ffa322ef7764c47573c0a0e8cafe85407cf9ea65d95b04a6f11cf2/odoo14_addon_mrp_analytic_cost-14.0.1.1.1.dev4-py3-none-any.whl
+[2023-07-13 06:23:44] INFO root fetch - processPackages [ForestScience]: Downloading https://files.pythonhosted.org/packages/80/f5/fa6a80a0a06536f3eb0b92fdbd8462129d023cea8830c59d00ef97d137cb/ForestScience-0.0.4.tar.gz
+[2023-07-13 06:23:44] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/3e/0c/d0669197f1df5e7a333fb762b26a621836cffd55e4945b83c2023ac83e3d/odoo_addon_mrp_multi_level-16.0.1.2.0.4-py3-none-any.whl
+[2023-07-13 06:23:44] INFO root fetch - processPackages [dsmlibrary]: Downloading https://files.pythonhosted.org/packages/2d/b4/349cf477597e3246da2fb92f755eb53a5ddc72efc5b55c4bab6643f00126/dsmlibrary-1.0.8.tar.gz
+[2023-07-13 06:23:44] INFO root fetch - processPackages [pyawskit]: Downloading https://files.pythonhosted.org/packages/b1/76/7f6ae6ded8d9f34e390cee69d721a6284e57849ae3a17636d592be855c30/pyawskit-0.1.74.tar.gz
+[2023-07-13 06:23:44] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/3e/0c/d0669197f1df5e7a333fb762b26a621836cffd55e4945b83c2023ac83e3d/odoo_addon_mrp_multi_level-16.0.1.2.0.4-py3-none-any.whl
+[2023-07-13 06:23:44] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/a7/11/33bf09029fffbf3f2c24475dd240877005c961ded6970a4aeef44165b192/tf_nightly_intel-2.14.0.dev20230706-cp39-cp39-win_amd64.whl
+[2023-07-13 06:23:45] INFO root fetch - processPackages [gdocsync]: Downloading https://files.pythonhosted.org/packages/9d/89/dc4b86920fc70c21e55994fdd0af3226d9452cb391046e165978cba8f84b/gdocsync-0.0.5.tar.gz
+[2023-07-13 06:23:45] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/e4/39/ad6eda238c799c8c99badb936c2bd8a4b10489c7873181fac6ae65fbb052/openhab_pythonrule_engine-1.2.7.tar.gz
+[2023-07-13 06:23:45] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 183468462>=10485760
+[2023-07-13 06:23:45] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-07-13 06:23:45] INFO root fetch - processPackages [ForestScience]: Downloading https://files.pythonhosted.org/packages/32/66/63e8d957f593222e3c72bf5539218c64cbe21290e45426177c5a484b0973/ForestScience-0.0.5.tar.gz
+[2023-07-13 06:23:45] INFO root fetch - processPackages [ForestScience]: Downloading https://files.pythonhosted.org/packages/32/66/63e8d957f593222e3c72bf5539218c64cbe21290e45426177c5a484b0973/ForestScience-0.0.5.tar.gz
+[2023-07-13 06:23:45] INFO root fetch - processPackages [gdocsync]: executing diffoscope
+[2023-07-13 06:23:45] INFO root fetch - processPackages [gdocsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdocsync-0.0.4.tar.gz tmp/gdocsync-0.0.5.tar.gz --markdown 20230713/g/gdocsync/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-13 06:23:45] INFO root fetch - processPackages [odoo14-addon-mrp-analytic-cost]: Downloading https://files.pythonhosted.org/packages/0d/38/d01f527db673fb9961234457b06bc2ae435f72c35ee45a0a2f64c2ea946c/odoo14_addon_mrp_analytic_cost-14.0.1.1.1.dev5-py3-none-any.whl
+[2023-07-13 06:23:45] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/86/f7/eb566aca489fbb817f3bcb186ce1b7b0369b3b9701dd5c221102b321ac3f/odoo_addon_mrp_multi_level-16.0.1.2.0.5-py3-none-any.whl
+[2023-07-13 06:23:45] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/86/f7/eb566aca489fbb817f3bcb186ce1b7b0369b3b9701dd5c221102b321ac3f/odoo_addon_mrp_multi_level-16.0.1.2.0.5-py3-none-any.whl
+[2023-07-13 06:23:45] INFO root fetch - processPackages [pyawskit]: Downloading https://files.pythonhosted.org/packages/76/4f/0fedd7dea064c139d98a58ad220103ad839ba461d3cdbaadf41a7a7e0409/pyawskit-0.1.75.tar.gz
+[2023-07-13 06:23:45] INFO root fetch - processPackages [ForestScience]: executing diffoscope
+[2023-07-13 06:23:45] INFO root fetch - processPackages [ForestScience]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ForestScience-0.0.4.tar.gz tmp/ForestScience-0.0.5.tar.gz --markdown 20230713/F/ForestScience/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-13 06:23:45] INFO root fetch - processPackages [ForestScience]: executing diffoscope
+[2023-07-13 06:23:45] INFO root fetch - processPackages [ForestScience]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ForestScience-0.0.4.tar.gz tmp/ForestScience-0.0.5.tar.gz --markdown 20230713/F/ForestScience/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-13 06:23:45] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/92/5c/5db357b46bb0635b03c6e5c2151863b1c9cc093d4bc937f8e558a338b58e/openhab_pythonrule_engine-1.2.8.tar.gz
+[2023-07-13 06:23:45] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: executing diffoscope
+[2023-07-13 06:23:45] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.4-py3-none-any.whl.zip tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.5-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-mrp-multi-level/16.0.1.2.0.4-16.0.1.2.0.5/diff.md --exclude *.pyd
+[2023-07-13 06:23:45] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: executing diffoscope
+[2023-07-13 06:23:45] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.4-py3-none-any.whl.zip tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.5-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-mrp-multi-level/16.0.1.2.0.4-16.0.1.2.0.5/diff.md --exclude *.pyd
+[2023-07-13 06:23:45] INFO root fetch - processPackages [pyawskit]: executing diffoscope
+[2023-07-13 06:23:45] INFO root fetch - processPackages [pyawskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyawskit-0.1.74.tar.gz tmp/pyawskit-0.1.75.tar.gz --markdown 20230713/p/pyawskit/0.1.74-0.1.75/diff.md --exclude *.pyd
+[2023-07-13 06:23:45] INFO root fetch - processPackages [dsmlibrary]: Downloading https://files.pythonhosted.org/packages/ea/3e/efd41c6216445e1e6c4a3c6894202966ae2c647e1015bdb63493c543a500/dsmlibrary-1.0.9.tar.gz
+[2023-07-13 06:23:45] INFO root fetch - processPackages [odoo14-addon-mrp-analytic-cost]: executing diffoscope
+[2023-07-13 06:23:45] INFO root fetch - processPackages [odoo14-addon-mrp-analytic-cost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_analytic_cost-14.0.1.1.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_mrp_analytic_cost-14.0.1.1.1.dev5-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-mrp-analytic-cost/14.0.1.1.1.dev4-14.0.1.1.1.dev5/diff.md --exclude *.pyd
+[2023-07-13 06:23:45] INFO root fetch - processPackages [openhab-pythonrule-engine]: executing diffoscope
+[2023-07-13 06:23:45] INFO root fetch - processPackages [openhab-pythonrule-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhab_pythonrule_engine-1.2.7.tar.gz tmp/openhab_pythonrule_engine-1.2.8.tar.gz --markdown 20230713/o/openhab-pythonrule-engine/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-07-13 06:23:45] INFO root fetch - processPackages [dsmlibrary]: executing diffoscope
+[2023-07-13 06:23:45] INFO root fetch - processPackages [dsmlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsmlibrary-1.0.8.tar.gz tmp/dsmlibrary-1.0.9.tar.gz --markdown 20230713/d/dsmlibrary/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 06:23:46] INFO root fetch - processPackages [gdocsync]: Remove: archive file [/home/abi/fetcher/tmp/gdocsync-0.0.4.tar.gz]
+[2023-07-13 06:23:46] INFO root fetch - processPackages [gdocsync]: Remove: archive file [/home/abi/fetcher/tmp/gdocsync-0.0.5.tar.gz]
+[2023-07-13 06:23:46] INFO root fetch - main [MainThread]: End processing [gdocsync]: success
+[2023-07-13 06:23:46] INFO root fetch - processPackages [ForestScience]: Remove: archive file [/home/abi/fetcher/tmp/ForestScience-0.0.4.tar.gz]
+[2023-07-13 06:23:46] INFO root fetch - processPackages [ForestScience]: Remove: archive file [/home/abi/fetcher/tmp/ForestScience-0.0.5.tar.gz]
+[2023-07-13 06:23:46] INFO root fetch - main [MainThread]: End processing [ForestScience]: success
+[2023-07-13 06:23:46] INFO root fetch - main [MainThread]: End processing [ForestScience]: success
+[2023-07-13 06:23:46] INFO root fetch - processPackages [pyawskit]: Remove: archive file [/home/abi/fetcher/tmp/pyawskit-0.1.74.tar.gz]
+[2023-07-13 06:23:46] INFO root fetch - processPackages [pyawskit]: Remove: archive file [/home/abi/fetcher/tmp/pyawskit-0.1.75.tar.gz]
+[2023-07-13 06:23:46] INFO root fetch - main [MainThread]: End processing [pyawskit]: success
+[2023-07-13 06:23:47] INFO root fetch - processPackages [odoo14-addon-mrp-analytic-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_analytic_cost-14.0.1.1.1.dev4-py3-none-any.whl.zip]
+[2023-07-13 06:23:47] INFO root fetch - processPackages [odoo14-addon-mrp-analytic-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_analytic_cost-14.0.1.1.1.dev5-py3-none-any.whl.zip]
+[2023-07-13 06:23:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-analytic-cost]: success
+[2023-07-13 06:23:47] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.4-py3-none-any.whl.zip]
+[2023-07-13 06:23:47] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.5-py3-none-any.whl.zip]
+[2023-07-13 06:23:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-multi-level]: success
+[2023-07-13 06:23:47] INFO root fetch - processPackages [openhab-pythonrule-engine]: Remove: archive file [/home/abi/fetcher/tmp/openhab_pythonrule_engine-1.2.7.tar.gz]
+[2023-07-13 06:23:47] INFO root fetch - processPackages [openhab-pythonrule-engine]: Remove: archive file [/home/abi/fetcher/tmp/openhab_pythonrule_engine-1.2.8.tar.gz]
+[2023-07-13 06:23:47] INFO root fetch - main [MainThread]: End processing [openhab-pythonrule-engine]: success
+[2023-07-13 06:23:47] INFO root fetch - processPackages [dsmlibrary]: Remove: archive file [/home/abi/fetcher/tmp/dsmlibrary-1.0.8.tar.gz]
+[2023-07-13 06:23:47] INFO root fetch - processPackages [dsmlibrary]: Remove: archive file [/home/abi/fetcher/tmp/dsmlibrary-1.0.9.tar.gz]
+[2023-07-13 06:23:47] INFO root fetch - main [MainThread]: End processing [dsmlibrary]: success
+[2023-07-13 06:23:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-multi-level]: success
+[2023-07-13 06:23:47] INFO root fetch - main [MainThread]: Store serial: [18869816]
