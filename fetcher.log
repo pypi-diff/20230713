@@ -11771,3 +11771,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 07:43:25] INFO root fetch - processPackages [pwed-cdk]: Remove: archive file [/home/abi/fetcher/tmp/pwed-cdk-0.0.67.tar.gz]
 [2023-07-13 07:43:25] INFO root fetch - main [MainThread]: End processing [pwed-cdk]: success
 [2023-07-13 07:43:25] INFO root fetch - main [MainThread]: Store serial: [18870550]
+[2023-07-13 07:48:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18870550]
+[2023-07-13 07:48:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-13 07:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-membership-withdrawal
+[2023-07-13 07:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slapos.cookbook
+[2023-07-13 07:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coffeepy
+[2023-07-13 07:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-hotel
+[2023-07-13 07:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-hotel-housekeeping
+[2023-07-13 07:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rebotics-sdk
+[2023-07-13 07:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: st-paywall
+[2023-07-13 07:48:36] INFO root fetch - processPackages [odoo-addon-hotel-housekeeping]: New version: [15.0.1.0.0.9] Old Version: [15.0.1.0.0.7]
+[2023-07-13 07:48:36] INFO root fetch - processPackages [rebotics-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-13 07:48:36] INFO root fetch - processPackages [coffeepy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-13 07:48:36] INFO root fetch - processPackages [st-paywall]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-13 07:48:36] INFO root fetch - processPackages [odoo-addon-hotel]: New version: [15.0.1.0.0.9] Old Version: [15.0.1.0.0.8]
+[2023-07-13 07:48:36] INFO root fetch - processPackages [slapos.cookbook]: New version: [1.0.92] Old Version: [1.0.9]
+[2023-07-13 07:48:36] INFO root fetch - processPackages [odoo12-addon-membership-withdrawal]: New version: [12.0.1.1.0.99.dev4] Old Version: [12.0.1.1.0.99.dev3]
+[2023-07-13 07:48:36] INFO root fetch - processPackages [odoo-addon-hotel-housekeeping]: Downloading https://files.pythonhosted.org/packages/fa/2d/ae308b6a9ddec120a251c40bfa3c3e5a51a9b7fcfcaa3e81cc58dce302a8/odoo_addon_hotel_housekeeping-15.0.1.0.0.7-py3-none-any.whl
+[2023-07-13 07:48:36] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/51/65/08d641bf16e8c340b76e15f57bf4c36d7254f98e49c96a1ac85a040f86b0/rebotics_sdk-0.9.0.tar.gz
+[2023-07-13 07:48:36] INFO root fetch - processPackages [st-paywall]: Downloading https://files.pythonhosted.org/packages/e9/27/525a50e6728ed4553820086e46e51aea2f02b48a9ef263cf386163fedd69/st-paywall-0.1.2.tar.gz
+[2023-07-13 07:48:36] INFO root fetch - processPackages [coffeepy]: Downloading https://files.pythonhosted.org/packages/51/3a/2396ba6cd48b0307791afb781e3a979c20d6f1d1b9f07b8e79ddc24d1bd0/coffeepy-0.1.1.tar.gz
+[2023-07-13 07:48:36] INFO root fetch - processPackages [odoo12-addon-membership-withdrawal]: Downloading https://files.pythonhosted.org/packages/58/eb/974262bc450b4cbe20f762e022a9cf571736580d780cee7a91f6c4426d2a/odoo12_addon_membership_withdrawal-12.0.1.1.0.99.dev3-py3-none-any.whl
+[2023-07-13 07:48:36] INFO root fetch - processPackages [odoo-addon-hotel]: Downloading https://files.pythonhosted.org/packages/2a/de/5bea8e65f68a988e7b46d533a8191a2960d7695ef56fbdced31b6ddaaa22/odoo_addon_hotel-15.0.1.0.0.8-py3-none-any.whl
+[2023-07-13 07:48:36] INFO root fetch - processPackages [slapos.cookbook]: Downloading https://files.pythonhosted.org/packages/72/2f/0cb2168fa27043f29e5e127aeac94bc3dad2677ef89035334bdd60753a56/slapos.cookbook-1.0.9.tar.gz
+[2023-07-13 07:48:36] INFO root fetch - processPackages [coffeepy]: Downloading https://files.pythonhosted.org/packages/eb/74/156c00c7058a709b1620f4ed281ec98ec3a7cd578570b1183c6282afff80/coffeepy-0.1.2.tar.gz
+[2023-07-13 07:48:36] INFO root fetch - processPackages [odoo-addon-hotel-housekeeping]: Downloading https://files.pythonhosted.org/packages/50/2d/f3482c67a280ac82162f0581730b8caee03d26b7f41103599e9b51e2f383/odoo_addon_hotel_housekeeping-15.0.1.0.0.9-py3-none-any.whl
+[2023-07-13 07:48:36] INFO root fetch - processPackages [st-paywall]: Downloading https://files.pythonhosted.org/packages/6d/d8/af3837ea9456e6ae8879601c4a0601f02179e704598a9d6ec74c961bbc67/st-paywall-0.1.3.tar.gz
+[2023-07-13 07:48:36] INFO root fetch - processPackages [coffeepy]: executing diffoscope
+[2023-07-13 07:48:36] INFO root fetch - processPackages [coffeepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coffeepy-0.1.1.tar.gz tmp/coffeepy-0.1.2.tar.gz --markdown 20230713/c/coffeepy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-13 07:48:37] INFO root fetch - processPackages [odoo12-addon-membership-withdrawal]: Downloading https://files.pythonhosted.org/packages/4c/8c/31c939ff6dbe1112bd675c60d2de23ba1e19a81141631ffc3e558d7d3a5e/odoo12_addon_membership_withdrawal-12.0.1.1.0.99.dev4-py3-none-any.whl
+[2023-07-13 07:48:37] INFO root fetch - processPackages [st-paywall]: executing diffoscope
+[2023-07-13 07:48:37] INFO root fetch - processPackages [st-paywall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st-paywall-0.1.2.tar.gz tmp/st-paywall-0.1.3.tar.gz --markdown 20230713/s/st-paywall/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-13 07:48:37] INFO root fetch - processPackages [odoo-addon-hotel-housekeeping]: executing diffoscope
+[2023-07-13 07:48:37] INFO root fetch - processPackages [odoo-addon-hotel-housekeeping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hotel_housekeeping-15.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_hotel_housekeeping-15.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-hotel-housekeeping/15.0.1.0.0.7-15.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-07-13 07:48:37] INFO root fetch - processPackages [odoo-addon-hotel]: Downloading https://files.pythonhosted.org/packages/d7/0a/188a625f0ab4ccbf7cdd33b16e453f1a8b32cea2ced9d90f7b20caf9bcc0/odoo_addon_hotel-15.0.1.0.0.9-py3-none-any.whl
+[2023-07-13 07:48:37] INFO root fetch - processPackages [odoo12-addon-membership-withdrawal]: executing diffoscope
+[2023-07-13 07:48:37] INFO root fetch - processPackages [odoo12-addon-membership-withdrawal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_membership_withdrawal-12.0.1.1.0.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_membership_withdrawal-12.0.1.1.0.99.dev4-py3-none-any.whl.zip --markdown 20230713/o/odoo12-addon-membership-withdrawal/12.0.1.1.0.99.dev3-12.0.1.1.0.99.dev4/diff.md --exclude *.pyd
+[2023-07-13 07:48:37] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/3a/af/a2aa77307cf3fac9701095f738d855d74af3c987de0ec7d7a1d8b75aee7f/rebotics_sdk-0.9.1.tar.gz
+[2023-07-13 07:48:37] INFO root fetch - processPackages [rebotics-sdk]: executing diffoscope
+[2023-07-13 07:48:37] INFO root fetch - processPackages [rebotics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebotics_sdk-0.9.0.tar.gz tmp/rebotics_sdk-0.9.1.tar.gz --markdown 20230713/r/rebotics-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-13 07:48:37] INFO root fetch - processPackages [slapos.cookbook]: Downloading https://files.pythonhosted.org/packages/e3/1a/d7277d9413b9f20974bbf3a8dfd7125e4bd0fa62dc0fe98533d582b13e4f/slapos.cookbook-1.0.92.tar.gz
+[2023-07-13 07:48:37] INFO root fetch - processPackages [st-paywall]: Remove: archive file [/home/abi/fetcher/tmp/st-paywall-0.1.2.tar.gz]
+[2023-07-13 07:48:37] INFO root fetch - processPackages [st-paywall]: Remove: archive file [/home/abi/fetcher/tmp/st-paywall-0.1.3.tar.gz]
+[2023-07-13 07:48:37] INFO root fetch - main [MainThread]: End processing [st-paywall]: success
+[2023-07-13 07:48:37] INFO root fetch - processPackages [coffeepy]: Remove: archive file [/home/abi/fetcher/tmp/coffeepy-0.1.1.tar.gz]
+[2023-07-13 07:48:37] INFO root fetch - processPackages [coffeepy]: Remove: archive file [/home/abi/fetcher/tmp/coffeepy-0.1.2.tar.gz]
+[2023-07-13 07:48:37] INFO root fetch - main [MainThread]: End processing [coffeepy]: success
+[2023-07-13 07:48:38] INFO root fetch - processPackages [slapos.cookbook]: executing diffoscope
+[2023-07-13 07:48:38] INFO root fetch - processPackages [slapos.cookbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slapos.cookbook-1.0.9.tar.gz tmp/slapos.cookbook-1.0.92.tar.gz --markdown 20230713/s/slapos.cookbook/1.0.9-1.0.92/diff.md --exclude *.pyd
+[2023-07-13 07:48:38] INFO root fetch - processPackages [odoo-addon-hotel-housekeeping]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hotel_housekeeping-15.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-07-13 07:48:38] INFO root fetch - processPackages [odoo-addon-hotel-housekeeping]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hotel_housekeeping-15.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-13 07:48:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-hotel-housekeeping]: success
+[2023-07-13 07:48:38] INFO root fetch - processPackages [odoo12-addon-membership-withdrawal]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_membership_withdrawal-12.0.1.1.0.99.dev3-py3-none-any.whl.zip]
+[2023-07-13 07:48:38] INFO root fetch - processPackages [odoo12-addon-membership-withdrawal]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_membership_withdrawal-12.0.1.1.0.99.dev4-py3-none-any.whl.zip]
+[2023-07-13 07:48:38] INFO root fetch - main [MainThread]: End processing [odoo12-addon-membership-withdrawal]: success
+[2023-07-13 07:48:38] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.0.tar.gz]
+[2023-07-13 07:48:38] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.1.tar.gz]
+[2023-07-13 07:48:38] INFO root fetch - main [MainThread]: End processing [rebotics-sdk]: success
+[2023-07-13 07:48:40] INFO root fetch - processPackages [slapos.cookbook]: Remove: archive file [/home/abi/fetcher/tmp/slapos.cookbook-1.0.9.tar.gz]
+[2023-07-13 07:48:40] INFO root fetch - processPackages [slapos.cookbook]: Remove: archive file [/home/abi/fetcher/tmp/slapos.cookbook-1.0.92.tar.gz]
+[2023-07-13 07:48:40] INFO root fetch - main [MainThread]: End processing [slapos.cookbook]: success
+[2023-07-13 07:48:43] INFO root fetch - processPackages [odoo-addon-hotel]: executing diffoscope
+[2023-07-13 07:48:43] INFO root fetch - processPackages [odoo-addon-hotel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hotel-15.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_hotel-15.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-hotel/15.0.1.0.0.8-15.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-07-13 07:48:45] INFO root fetch - processPackages [odoo-addon-hotel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hotel-15.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-13 07:48:45] INFO root fetch - processPackages [odoo-addon-hotel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hotel-15.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-13 07:48:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-hotel]: success
+[2023-07-13 07:48:45] INFO root fetch - main [MainThread]: Store serial: [18870567]
