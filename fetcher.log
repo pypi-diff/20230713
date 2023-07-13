@@ -19010,3 +19010,204 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 12:20:27] INFO root fetch - processPackages [qlknn]: Remove: archive file [/home/abi/fetcher/tmp/qlknn-1.3.1.tar.gz]
 [2023-07-13 12:20:27] INFO root fetch - main [MainThread]: End processing [qlknn]: success
 [2023-07-13 12:20:27] INFO root fetch - main [MainThread]: Store serial: [18873466]
+[2023-07-13 12:25:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18873466]
+[2023-07-13 12:25:36] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-13 12:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gaohn-common-utils
+[2023-07-13 12:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cq23
+[2023-07-13 12:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-serve
+[2023-07-13 12:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: async-wiiload
+[2023-07-13 12:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sts-ml-search-card-component
+[2023-07-13 12:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ciderpolarity
+[2023-07-13 12:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: twarc-divide
+[2023-07-13 12:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quinten-cli
+[2023-07-13 12:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nx5d
+[2023-07-13 12:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastapi-serve
+[2023-07-13 12:25:36] INFO root fetch - processPackages [nx5d]: New version: [0.3.9] Old Version: [0.3.7]
+[2023-07-13 12:25:36] INFO root fetch - processPackages [ciderpolarity]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-13 12:25:36] WARNING root fetch - processPackages [twarc-divide]: Skipping, unable to determine old version
+[2023-07-13 12:25:36] INFO root fetch - processPackages [twarc-divide]: Start processing: datachain
+[2023-07-13 12:25:36] INFO root fetch - main [MainThread]: End processing [twarc-divide] error
+[2023-07-13 12:25:36] INFO root fetch - processPackages [cq23]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-07-13 12:25:36] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-13 12:25:36] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-13 12:25:36] WARNING root fetch - processPackages [sts-ml-search-card-component]: Skipping, unable to determine old version
+[2023-07-13 12:25:36] INFO root fetch - processPackages [sts-ml-search-card-component]: Start processing: mikeio
+[2023-07-13 12:25:36] INFO root fetch - main [MainThread]: End processing [sts-ml-search-card-component] error
+[2023-07-13 12:25:36] INFO root fetch - processPackages [quinten-cli]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-13 12:25:36] INFO root fetch - processPackages [async-wiiload]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-13 12:25:36] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.91] Old Version: [0.0.90]
+[2023-07-13 12:25:36] INFO root fetch - processPackages [datachain]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-13 12:25:36] INFO root fetch - processPackages [mikeio]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-07-13 12:25:36] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/0d/5c/342759c036e86be942679631f5f86c8c9e6449d136b7846072fcd74be023/fastapi-serve-0.0.2.dev8.tar.gz
+[2023-07-13 12:25:36] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/0d/5c/342759c036e86be942679631f5f86c8c9e6449d136b7846072fcd74be023/fastapi-serve-0.0.2.dev8.tar.gz
+[2023-07-13 12:25:36] INFO root fetch - processPackages [ciderpolarity]: Downloading https://files.pythonhosted.org/packages/5d/21/eb2c1428a75b23ab80006ce84a2696094c47543320e715fc562854ce9676/ciderpolarity-0.2.3.tar.gz
+[2023-07-13 12:25:36] INFO root fetch - processPackages [nx5d]: Downloading https://files.pythonhosted.org/packages/fb/5d/c81cea663257c249b701560b0f4a13fec7c4a0a2858c742bff213db7098a/nx5d-0.3.7.tar.gz
+[2023-07-13 12:25:36] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/3d/f4/a6c3d43a08a0d7546f48bc2cd9e23fbb28242af5edcc9f6a8493582f45e6/gaohn-common-utils-0.0.90.tar.gz
+[2023-07-13 12:25:36] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/cc/46/b7784e855997b074185bec05a2d46a1a494fa5a378369780536a264bc671/cq23-2.2.1.tar.gz
+[2023-07-13 12:25:36] INFO root fetch - processPackages [quinten-cli]: Downloading https://files.pythonhosted.org/packages/ce/22/fa1fb94debed37bcadf64bed3e28c67fb2d39819c60e0315cb7eddf4d827/quinten-cli-1.1.4.tar.gz
+[2023-07-13 12:25:36] INFO root fetch - processPackages [async-wiiload]: Downloading https://files.pythonhosted.org/packages/dc/d6/d0f415e6a1677ae507f94f8ac4370ddd8194d2627593cfa465e8880e1632/async-wiiload-1.0.2.tar.gz
+[2023-07-13 12:25:36] INFO root fetch - processPackages [mikeio]: Downloading https://files.pythonhosted.org/packages/19/fd/338e81302cfd6a56a8934562de5e6204dc5cd708298810298ca074b74d5d/mikeio-1.6.1.tar.gz
+[2023-07-13 12:25:36] INFO root fetch - processPackages [datachain]: Downloading https://files.pythonhosted.org/packages/5d/52/cddd82c1e4f2f87afcafcc5ab37d7dcb0f166c154f8c6b88f2d49f492c4b/datachain-1.2.3.tar.gz
+[2023-07-13 12:25:37] WARNING root fetch - processPackages [mikeio]: Skipping package: exceeds size limit 21194716>=10485760
+[2023-07-13 12:25:37] INFO root fetch - processPackages [mikeio]: Start processing: microprobe-all
+[2023-07-13 12:25:37] INFO root fetch - main [MainThread]: End processing [mikeio] error
+[2023-07-13 12:25:37] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/44/43/0c3667ca8abfbfc54c8ce5f7d2b54ac1af100ec90f9ad59e15dc59a59d49/fastapi-serve-0.0.2.dev9.tar.gz
+[2023-07-13 12:25:37] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/44/43/0c3667ca8abfbfc54c8ce5f7d2b54ac1af100ec90f9ad59e15dc59a59d49/fastapi-serve-0.0.2.dev9.tar.gz
+[2023-07-13 12:25:37] INFO root fetch - processPackages [microprobe-all]: New version: [0.5.20230713062001] Old Version: [0.5.20230629114852]
+[2023-07-13 12:25:37] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/b3/b7/665263022430194977a8d1746968e8788071b925cd98d0cc3c2490db15e4/cq23-2.2.2.tar.gz
+[2023-07-13 12:25:37] INFO root fetch - processPackages [ciderpolarity]: Downloading https://files.pythonhosted.org/packages/72/f5/6bde3d1617afcd357f035d464096a49ce69f626a5bcc6a35d2f2f8c5c7c9/ciderpolarity-0.2.4.tar.gz
+[2023-07-13 12:25:37] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/eb/c8/4882989c88bcd9b4d562cafc0bf358bfe982fee0b66d3fb8e72c15fcece7/gaohn-common-utils-0.0.91.tar.gz
+[2023-07-13 12:25:37] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-13 12:25:37] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.2.dev8.tar.gz tmp/fastapi-serve-0.0.2.dev9.tar.gz --markdown 20230713/f/fastapi-serve/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-13 12:25:37] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-13 12:25:37] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.2.dev8.tar.gz tmp/fastapi-serve-0.0.2.dev9.tar.gz --markdown 20230713/f/fastapi-serve/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-13 12:25:37] INFO root fetch - processPackages [quinten-cli]: Downloading https://files.pythonhosted.org/packages/2c/7c/54bd75031d41559c06830f6b603382596757832e0270d34126b6d5e1d694/quinten-cli-1.1.5.tar.gz
+[2023-07-13 12:25:37] INFO root fetch - processPackages [datachain]: Downloading https://files.pythonhosted.org/packages/6d/a4/257d971dced0e3dbe1d2d5851f582c6864f5086b4c803d3de87a5099d43d/datachain-1.2.4.tar.gz
+[2023-07-13 12:25:37] INFO root fetch - processPackages [nx5d]: Downloading https://files.pythonhosted.org/packages/45/ca/068315e514a16c9012d534cb883ce1dd5c92d9cb5bbb1da8224c2576028b/nx5d-0.3.9.tar.gz
+[2023-07-13 12:25:37] INFO root fetch - processPackages [async-wiiload]: Downloading https://files.pythonhosted.org/packages/af/64/dba1077f1e01e1fd167c95180062fd94387834346bade783730cab1d00ba/async-wiiload-1.0.3.tar.gz
+[2023-07-13 12:25:37] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-07-13 12:25:37] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.90.tar.gz tmp/gaohn-common-utils-0.0.91.tar.gz --markdown 20230713/g/gaohn-common-utils/0.0.90-0.0.91/diff.md --exclude *.pyd
+[2023-07-13 12:25:37] INFO root fetch - processPackages [microprobe-all]: Downloading https://files.pythonhosted.org/packages/dc/62/b90c1937ebdff92a0ee2459a14d6d8f73cf4a99f29e128f5e962b170fc5d/microprobe_all-0.5.20230629114852-py2.py3-none-any.whl
+[2023-07-13 12:25:37] INFO root fetch - processPackages [cq23]: executing diffoscope
+[2023-07-13 12:25:37] INFO root fetch - processPackages [cq23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cq23-2.2.1.tar.gz tmp/cq23-2.2.2.tar.gz --markdown 20230713/c/cq23/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-07-13 12:25:37] INFO root fetch - processPackages [ciderpolarity]: executing diffoscope
+[2023-07-13 12:25:37] INFO root fetch - processPackages [ciderpolarity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciderpolarity-0.2.3.tar.gz tmp/ciderpolarity-0.2.4.tar.gz --markdown 20230713/c/ciderpolarity/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-13 12:25:37] INFO root fetch - processPackages [quinten-cli]: executing diffoscope
+[2023-07-13 12:25:37] INFO root fetch - processPackages [quinten-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quinten-cli-1.1.4.tar.gz tmp/quinten-cli-1.1.5.tar.gz --markdown 20230713/q/quinten-cli/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-13 12:25:37] INFO root fetch - processPackages [datachain]: executing diffoscope
+[2023-07-13 12:25:37] INFO root fetch - processPackages [datachain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datachain-1.2.3.tar.gz tmp/datachain-1.2.4.tar.gz --markdown 20230713/d/datachain/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-13 12:25:37] INFO root fetch - processPackages [async-wiiload]: executing diffoscope
+[2023-07-13 12:25:37] INFO root fetch - processPackages [async-wiiload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async-wiiload-1.0.2.tar.gz tmp/async-wiiload-1.0.3.tar.gz --markdown 20230713/a/async-wiiload/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-13 12:25:37] INFO root fetch - processPackages [nx5d]: executing diffoscope
+[2023-07-13 12:25:37] INFO root fetch - processPackages [nx5d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nx5d-0.3.7.tar.gz tmp/nx5d-0.3.9.tar.gz --markdown 20230713/n/nx5d/0.3.7-0.3.9/diff.md --exclude *.pyd
+[2023-07-13 12:25:38] INFO root fetch - processPackages [microprobe-all]: Downloading https://files.pythonhosted.org/packages/16/aa/77d20b862611606fdc5cc23e2c8c2d5d4e3824fc6a986d5952bd548c2947/microprobe_all-0.5.20230713062001-py2.py3-none-any.whl
+[2023-07-13 12:25:38] INFO root fetch - processPackages [microprobe-all]: executing diffoscope
+[2023-07-13 12:25:38] INFO root fetch - processPackages [microprobe-all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microprobe_all-0.5.20230629114852-py2.py3-none-any.whl.zip tmp/microprobe_all-0.5.20230713062001-py2.py3-none-any.whl.zip --markdown 20230713/m/microprobe-all/0.5.20230629114852-0.5.20230713062001/diff.md --exclude *.pyd
+[2023-07-13 12:25:39] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev8.tar.gz]
+[2023-07-13 12:25:39] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev9.tar.gz]
+[2023-07-13 12:25:39] INFO root fetch - processPackages [fastapi-serve]: Start processing: microprobe-core
+[2023-07-13 12:25:39] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-13 12:25:39] INFO root fetch - processPackages [microprobe-core]: New version: [0.5.20230713062001] Old Version: [0.5.20230629114852]
+[2023-07-13 12:25:39] INFO root fetch - processPackages [fastapi-serve]: Start processing: microprobe-doc
+[2023-07-13 12:25:39] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-13 12:25:39] INFO root fetch - processPackages [microprobe-doc]: New version: [0.5.20230713062001] Old Version: [0.5.20230629114852]
+[2023-07-13 12:25:39] INFO root fetch - processPackages [microprobe-core]: Downloading https://files.pythonhosted.org/packages/f3/63/487eda5c249f066cfb82c50fa77ad23c0978249647d7b217d6b4ba1f903d/microprobe_core-0.5.20230629114852-py2.py3-none-any.whl
+[2023-07-13 12:25:39] INFO root fetch - processPackages [ciderpolarity]: Remove: archive file [/home/abi/fetcher/tmp/ciderpolarity-0.2.3.tar.gz]
+[2023-07-13 12:25:39] INFO root fetch - processPackages [ciderpolarity]: Remove: archive file [/home/abi/fetcher/tmp/ciderpolarity-0.2.4.tar.gz]
+[2023-07-13 12:25:39] INFO root fetch - processPackages [ciderpolarity]: Start processing: microprobe-target-power
+[2023-07-13 12:25:39] INFO root fetch - main [MainThread]: End processing [ciderpolarity]: success
+[2023-07-13 12:25:39] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.90.tar.gz]
+[2023-07-13 12:25:39] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.91.tar.gz]
+[2023-07-13 12:25:39] INFO root fetch - processPackages [gaohn-common-utils]: Start processing: microprobe-target-riscv
+[2023-07-13 12:25:39] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-07-13 12:25:39] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-2.2.1.tar.gz]
+[2023-07-13 12:25:39] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-2.2.2.tar.gz]
+[2023-07-13 12:25:39] INFO root fetch - processPackages [cq23]: Start processing: datascience-cookiecutter
+[2023-07-13 12:25:39] INFO root fetch - main [MainThread]: End processing [cq23]: success
+[2023-07-13 12:25:39] INFO root fetch - processPackages [quinten-cli]: Remove: archive file [/home/abi/fetcher/tmp/quinten-cli-1.1.4.tar.gz]
+[2023-07-13 12:25:39] INFO root fetch - processPackages [quinten-cli]: Remove: archive file [/home/abi/fetcher/tmp/quinten-cli-1.1.5.tar.gz]
+[2023-07-13 12:25:39] INFO root fetch - processPackages [quinten-cli]: Start processing: patroni
+[2023-07-13 12:25:39] INFO root fetch - main [MainThread]: End processing [quinten-cli]: success
+[2023-07-13 12:25:39] INFO root fetch - processPackages [microprobe-target-power]: New version: [0.5.20230713062001] Old Version: [0.5.20230629114852]
+[2023-07-13 12:25:39] INFO root fetch - processPackages [microprobe-target-riscv]: New version: [0.5.20230713062001] Old Version: [0.5.20230629114852]
+[2023-07-13 12:25:39] INFO root fetch - processPackages [async-wiiload]: Remove: archive file [/home/abi/fetcher/tmp/async-wiiload-1.0.2.tar.gz]
+[2023-07-13 12:25:39] INFO root fetch - processPackages [async-wiiload]: Remove: archive file [/home/abi/fetcher/tmp/async-wiiload-1.0.3.tar.gz]
+[2023-07-13 12:25:39] INFO root fetch - processPackages [async-wiiload]: Start processing: esmerald
+[2023-07-13 12:25:39] INFO root fetch - main [MainThread]: End processing [async-wiiload]: success
+[2023-07-13 12:25:39] INFO root fetch - processPackages [datascience-cookiecutter]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-13 12:25:39] INFO root fetch - processPackages [patroni]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-07-13 12:25:39] INFO root fetch - processPackages [datachain]: Remove: archive file [/home/abi/fetcher/tmp/datachain-1.2.3.tar.gz]
+[2023-07-13 12:25:39] INFO root fetch - processPackages [datachain]: Remove: archive file [/home/abi/fetcher/tmp/datachain-1.2.4.tar.gz]
+[2023-07-13 12:25:39] INFO root fetch - processPackages [datachain]: Start processing: pypi-download-pkg
+[2023-07-13 12:25:39] INFO root fetch - main [MainThread]: End processing [datachain]: success
+[2023-07-13 12:25:39] INFO root fetch - processPackages [esmerald]: New version: [2.0.0] Old Version: [1.3.0]
+[2023-07-13 12:25:40] INFO root fetch - processPackages [microprobe-doc]: Downloading https://files.pythonhosted.org/packages/eb/78/9c4f421626941ba088b1a2018fbb9e12d346d4a2c19ced142b06ebf74add/microprobe_doc-0.5.20230629114852-py2.py3-none-any.whl
+[2023-07-13 12:25:40] INFO root fetch - processPackages [pypi-download-pkg]: New version: [0.2.1] Old Version: [0.1.0]
+[2023-07-13 12:25:40] INFO root fetch - processPackages [datascience-cookiecutter]: Downloading https://files.pythonhosted.org/packages/71/4b/2cc0971c623a409338769640b2199e22bfd42ea9dd6778cbf5fab42d7bcc/datascience_cookiecutter-0.3.3.tar.gz
+[2023-07-13 12:25:40] INFO root fetch - processPackages [microprobe-target-power]: Downloading https://files.pythonhosted.org/packages/7a/28/cb228e1aed8ec287b82ea0732f91a2f338220242d0023d27c69045ab0824/microprobe_target_power-0.5.20230629114852-py2.py3-none-any.whl
+[2023-07-13 12:25:40] INFO root fetch - processPackages [microprobe-target-riscv]: Downloading https://files.pythonhosted.org/packages/08/a2/7cd201742f1ffd18f3450da8ae0e99e12254c5485b1977b4491dcd6835b9/microprobe_target_riscv-0.5.20230629114852-py2.py3-none-any.whl
+[2023-07-13 12:25:40] INFO root fetch - processPackages [patroni]: Downloading https://files.pythonhosted.org/packages/57/f4/d4e0a842ed4561df2b2e8158c635246b3ee229fadd90287a3f57ef514c5c/patroni-3.0.3.tar.gz
+[2023-07-13 12:25:40] INFO root fetch - processPackages [microprobe-core]: Downloading https://files.pythonhosted.org/packages/c2/a6/10fa058cd8c312ed441c873d32957fa75953d72857fbcda7ceb5942a467d/microprobe_core-0.5.20230713062001-py2.py3-none-any.whl
+[2023-07-13 12:25:40] INFO root fetch - processPackages [pypi-download-pkg]: Downloading https://files.pythonhosted.org/packages/9c/54/e9e7568a02690375581b878befb36290895344f2ddf43a17d9619a1010df/pypi_download_pkg-0.1.0.tar.gz
+[2023-07-13 12:25:40] INFO root fetch - processPackages [microprobe-core]: executing diffoscope
+[2023-07-13 12:25:40] INFO root fetch - processPackages [microprobe-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microprobe_core-0.5.20230629114852-py2.py3-none-any.whl.zip tmp/microprobe_core-0.5.20230713062001-py2.py3-none-any.whl.zip --markdown 20230713/m/microprobe-core/0.5.20230629114852-0.5.20230713062001/diff.md --exclude *.pyd
+[2023-07-13 12:25:40] INFO root fetch - processPackages [datascience-cookiecutter]: Downloading https://files.pythonhosted.org/packages/37/d3/c972ff4d0fe3ac7640eea6285350f280cf6ad2ff37f99db597333eb7180d/datascience_cookiecutter-0.3.4.tar.gz
+[2023-07-13 12:25:40] INFO root fetch - processPackages [microprobe-target-riscv]: Downloading https://files.pythonhosted.org/packages/59/e5/6ea1f70d0e0fd1767572b10cf4ea7f1c97307103e997df66160dc083a34b/microprobe_target_riscv-0.5.20230713062001-py2.py3-none-any.whl
+[2023-07-13 12:25:40] INFO root fetch - processPackages [esmerald]: Downloading https://files.pythonhosted.org/packages/24/ee/da4173b23d36fbb16ce300c0391b4b0a265512f18b59e6a95a84bd142c89/esmerald-1.3.0.tar.gz
+[2023-07-13 12:25:40] INFO root fetch - processPackages [patroni]: Downloading https://files.pythonhosted.org/packages/26/6b/66278368b9e70519fc8a31ec567b372acd85c5f8fc65793c8b4c2a647e02/patroni-3.0.4.tar.gz
+[2023-07-13 12:25:40] INFO root fetch - processPackages [microprobe-target-power]: Downloading https://files.pythonhosted.org/packages/19/24/799edabad509d01660bb1bc3ec6898a2a357a439647252dc68ef91d482c7/microprobe_target_power-0.5.20230713062001-py2.py3-none-any.whl
+[2023-07-13 12:25:40] INFO root fetch - processPackages [microprobe-doc]: Downloading https://files.pythonhosted.org/packages/e9/d7/a394646f22c6e157dca7d6bb1954bfeb4d3a2c2e14acb364a15a5ac24895/microprobe_doc-0.5.20230713062001-py2.py3-none-any.whl
+[2023-07-13 12:25:40] INFO root fetch - processPackages [microprobe-all]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_all-0.5.20230629114852-py2.py3-none-any.whl.zip]
+[2023-07-13 12:25:40] INFO root fetch - processPackages [microprobe-all]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_all-0.5.20230713062001-py2.py3-none-any.whl.zip]
+[2023-07-13 12:25:40] INFO root fetch - processPackages [microprobe-all]: Start processing: piccolo-admin
+[2023-07-13 12:25:40] INFO root fetch - main [MainThread]: End processing [microprobe-all]: success
+[2023-07-13 12:25:40] INFO root fetch - processPackages [pypi-download-pkg]: Downloading https://files.pythonhosted.org/packages/c4/fa/3e609bd10e67370b238a5613bee88d2ce2b1da807b81e349e1edf92db0e7/pypi_download_pkg-0.2.1.tar.gz
+[2023-07-13 12:25:40] INFO root fetch - processPackages [datascience-cookiecutter]: executing diffoscope
+[2023-07-13 12:25:40] INFO root fetch - processPackages [datascience-cookiecutter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascience_cookiecutter-0.3.3.tar.gz tmp/datascience_cookiecutter-0.3.4.tar.gz --markdown 20230713/d/datascience-cookiecutter/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-13 12:25:40] INFO root fetch - processPackages [microprobe-target-riscv]: executing diffoscope
+[2023-07-13 12:25:40] INFO root fetch - processPackages [microprobe-target-riscv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microprobe_target_riscv-0.5.20230629114852-py2.py3-none-any.whl.zip tmp/microprobe_target_riscv-0.5.20230713062001-py2.py3-none-any.whl.zip --markdown 20230713/m/microprobe-target-riscv/0.5.20230629114852-0.5.20230713062001/diff.md --exclude *.pyd
+[2023-07-13 12:25:40] INFO root fetch - processPackages [piccolo-admin]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-13 12:25:40] INFO root fetch - processPackages [patroni]: executing diffoscope
+[2023-07-13 12:25:40] INFO root fetch - processPackages [patroni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patroni-3.0.3.tar.gz tmp/patroni-3.0.4.tar.gz --markdown 20230713/p/patroni/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-07-13 12:25:40] INFO root fetch - processPackages [microprobe-target-power]: executing diffoscope
+[2023-07-13 12:25:40] INFO root fetch - processPackages [microprobe-target-power]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microprobe_target_power-0.5.20230629114852-py2.py3-none-any.whl.zip tmp/microprobe_target_power-0.5.20230713062001-py2.py3-none-any.whl.zip --markdown 20230713/m/microprobe-target-power/0.5.20230629114852-0.5.20230713062001/diff.md --exclude *.pyd
+[2023-07-13 12:25:40] INFO root fetch - processPackages [pypi-download-pkg]: executing diffoscope
+[2023-07-13 12:25:40] INFO root fetch - processPackages [pypi-download-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypi_download_pkg-0.1.0.tar.gz tmp/pypi_download_pkg-0.2.1.tar.gz --markdown 20230713/p/pypi-download-pkg/0.1.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-13 12:25:40] INFO root fetch - processPackages [esmerald]: Downloading https://files.pythonhosted.org/packages/88/e5/778bad01d6f40839140bd00adecd6d57012667da418a158d7a443acfbbff/esmerald-2.0.0.tar.gz
+[2023-07-13 12:25:41] INFO root fetch - processPackages [microprobe-doc]: executing diffoscope
+[2023-07-13 12:25:41] INFO root fetch - processPackages [microprobe-doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microprobe_doc-0.5.20230629114852-py2.py3-none-any.whl.zip tmp/microprobe_doc-0.5.20230713062001-py2.py3-none-any.whl.zip --markdown 20230713/m/microprobe-doc/0.5.20230629114852-0.5.20230713062001/diff.md --exclude *.pyd
+[2023-07-13 12:25:41] INFO root fetch - processPackages [piccolo-admin]: Downloading https://files.pythonhosted.org/packages/7d/1c/846778aacea5280833bd08d705ad777ff687019424c7d72e1690818c436f/piccolo_admin-0.9.1.tar.gz
+[2023-07-13 12:25:41] INFO root fetch - processPackages [nx5d]: Remove: archive file [/home/abi/fetcher/tmp/nx5d-0.3.7.tar.gz]
+[2023-07-13 12:25:41] INFO root fetch - processPackages [nx5d]: Remove: archive file [/home/abi/fetcher/tmp/nx5d-0.3.9.tar.gz]
+[2023-07-13 12:25:41] INFO root fetch - processPackages [nx5d]: Start processing: iniabu
+[2023-07-13 12:25:41] INFO root fetch - main [MainThread]: End processing [nx5d]: success
+[2023-07-13 12:25:41] INFO root fetch - processPackages [esmerald]: executing diffoscope
+[2023-07-13 12:25:41] INFO root fetch - processPackages [esmerald]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esmerald-1.3.0.tar.gz tmp/esmerald-2.0.0.tar.gz --markdown 20230713/e/esmerald/1.3.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-13 12:25:41] INFO root fetch - processPackages [iniabu]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-13 12:25:41] INFO root fetch - processPackages [iniabu]: Downloading https://files.pythonhosted.org/packages/32/0f/1786d42bb01896feb6e5dc4e49250a6302f95fe241b0d7957f53c2e43b8e/iniabu-1.1.1.tar.gz
+[2023-07-13 12:25:41] INFO root fetch - processPackages [piccolo-admin]: Downloading https://files.pythonhosted.org/packages/43/b2/3856fc5e7bdf85b4c2ed42267e3398d166a4258c80940c10bf6eb9ce9354/piccolo_admin-0.9.2.tar.gz
+[2023-07-13 12:25:41] INFO root fetch - processPackages [iniabu]: Downloading https://files.pythonhosted.org/packages/9e/c0/8b6598f183a17306cf5339d0aba7ffead05e202ce4a32c4dc821e4446f30/iniabu-1.1.2.tar.gz
+[2023-07-13 12:25:41] INFO root fetch - processPackages [piccolo-admin]: executing diffoscope
+[2023-07-13 12:25:41] INFO root fetch - processPackages [piccolo-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piccolo_admin-0.9.1.tar.gz tmp/piccolo_admin-0.9.2.tar.gz --markdown 20230713/p/piccolo-admin/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-13 12:25:42] INFO root fetch - processPackages [iniabu]: executing diffoscope
+[2023-07-13 12:25:42] INFO root fetch - processPackages [iniabu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iniabu-1.1.1.tar.gz tmp/iniabu-1.1.2.tar.gz --markdown 20230713/i/iniabu/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-13 12:25:42] INFO root fetch - processPackages [datascience-cookiecutter]: Remove: archive file [/home/abi/fetcher/tmp/datascience_cookiecutter-0.3.3.tar.gz]
+[2023-07-13 12:25:42] INFO root fetch - processPackages [datascience-cookiecutter]: Remove: archive file [/home/abi/fetcher/tmp/datascience_cookiecutter-0.3.4.tar.gz]
+[2023-07-13 12:25:42] INFO root fetch - processPackages [datascience-cookiecutter]: Start processing: imesh
+[2023-07-13 12:25:42] INFO root fetch - main [MainThread]: End processing [datascience-cookiecutter]: success
+[2023-07-13 12:25:42] INFO root fetch - processPackages [pypi-download-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pypi_download_pkg-0.1.0.tar.gz]
+[2023-07-13 12:25:42] INFO root fetch - processPackages [pypi-download-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pypi_download_pkg-0.2.1.tar.gz]
+[2023-07-13 12:25:42] INFO root fetch - main [MainThread]: End processing [pypi-download-pkg]: success
+[2023-07-13 12:25:42] INFO root fetch - processPackages [imesh]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 12:25:42] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/f8/11/fbb815700a24d95cfbe7365213d0aee80141c751106cf6f5ca79461d9263/imesh-0.0.8.tar.gz
+[2023-07-13 12:25:43] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/9b/8d/a9d2b6ef3ee8c478fed84a6db20ce40bbc8121280b7ede35f9e98d939a5d/imesh-0.0.9.tar.gz
+[2023-07-13 12:25:43] INFO root fetch - processPackages [microprobe-target-riscv]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_target_riscv-0.5.20230629114852-py2.py3-none-any.whl.zip]
+[2023-07-13 12:25:43] INFO root fetch - processPackages [microprobe-target-riscv]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_target_riscv-0.5.20230713062001-py2.py3-none-any.whl.zip]
+[2023-07-13 12:25:43] INFO root fetch - main [MainThread]: End processing [microprobe-target-riscv]: success
+[2023-07-13 12:25:43] INFO root fetch - processPackages [imesh]: executing diffoscope
+[2023-07-13 12:25:43] INFO root fetch - processPackages [imesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imesh-0.0.8.tar.gz tmp/imesh-0.0.9.tar.gz --markdown 20230713/i/imesh/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 12:25:43] INFO root fetch - processPackages [microprobe-core]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_core-0.5.20230629114852-py2.py3-none-any.whl.zip]
+[2023-07-13 12:25:43] INFO root fetch - processPackages [microprobe-core]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_core-0.5.20230713062001-py2.py3-none-any.whl.zip]
+[2023-07-13 12:25:43] INFO root fetch - main [MainThread]: End processing [microprobe-core]: success
+[2023-07-13 12:25:43] INFO root fetch - processPackages [patroni]: Remove: archive file [/home/abi/fetcher/tmp/patroni-3.0.3.tar.gz]
+[2023-07-13 12:25:43] INFO root fetch - processPackages [patroni]: Remove: archive file [/home/abi/fetcher/tmp/patroni-3.0.4.tar.gz]
+[2023-07-13 12:25:43] INFO root fetch - main [MainThread]: End processing [patroni]: success
+[2023-07-13 12:25:44] INFO root fetch - processPackages [esmerald]: Remove: archive file [/home/abi/fetcher/tmp/esmerald-1.3.0.tar.gz]
+[2023-07-13 12:25:44] INFO root fetch - processPackages [esmerald]: Remove: archive file [/home/abi/fetcher/tmp/esmerald-2.0.0.tar.gz]
+[2023-07-13 12:25:44] INFO root fetch - main [MainThread]: End processing [esmerald]: success
+[2023-07-13 12:25:44] INFO root fetch - processPackages [iniabu]: Remove: archive file [/home/abi/fetcher/tmp/iniabu-1.1.1.tar.gz]
+[2023-07-13 12:25:44] INFO root fetch - processPackages [iniabu]: Remove: archive file [/home/abi/fetcher/tmp/iniabu-1.1.2.tar.gz]
+[2023-07-13 12:25:44] INFO root fetch - main [MainThread]: End processing [iniabu]: success
+[2023-07-13 12:25:44] INFO root fetch - processPackages [microprobe-target-power]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_target_power-0.5.20230629114852-py2.py3-none-any.whl.zip]
+[2023-07-13 12:25:44] INFO root fetch - processPackages [microprobe-target-power]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_target_power-0.5.20230713062001-py2.py3-none-any.whl.zip]
+[2023-07-13 12:25:44] INFO root fetch - main [MainThread]: End processing [microprobe-target-power]: success
+[2023-07-13 12:25:45] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.8.tar.gz]
+[2023-07-13 12:25:45] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.9.tar.gz]
+[2023-07-13 12:25:45] INFO root fetch - main [MainThread]: End processing [imesh]: success
+[2023-07-13 12:25:57] INFO root fetch - processPackages [piccolo-admin]: Remove: archive file [/home/abi/fetcher/tmp/piccolo_admin-0.9.1.tar.gz]
+[2023-07-13 12:25:57] INFO root fetch - processPackages [piccolo-admin]: Remove: archive file [/home/abi/fetcher/tmp/piccolo_admin-0.9.2.tar.gz]
+[2023-07-13 12:25:57] INFO root fetch - main [MainThread]: End processing [piccolo-admin]: success
+[2023-07-13 12:25:57] INFO root fetch - processPackages [microprobe-doc]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_doc-0.5.20230629114852-py2.py3-none-any.whl.zip]
+[2023-07-13 12:25:57] INFO root fetch - processPackages [microprobe-doc]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_doc-0.5.20230713062001-py2.py3-none-any.whl.zip]
+[2023-07-13 12:25:57] INFO root fetch - main [MainThread]: End processing [microprobe-doc]: success
+[2023-07-13 12:25:57] INFO root fetch - main [MainThread]: Store serial: [18873540]
