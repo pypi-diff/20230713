@@ -19632,3 +19632,96 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 12:41:53] INFO root fetch - processPackages [microprobe-doc]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_doc-0.5.20230713062648-py2.py3-none-any.whl.zip]
 [2023-07-13 12:41:53] INFO root fetch - main [MainThread]: End processing [microprobe-doc]: success
 [2023-07-13 12:41:53] INFO root fetch - main [MainThread]: Store serial: [18873682]
+[2023-07-13 12:46:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18873682]
+[2023-07-13 12:47:02] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-13 12:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SempCode
+[2023-07-13 12:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-hologram20220601
+[2023-07-13 12:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-query-inspector
+[2023-07-13 12:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ramodels
+[2023-07-13 12:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pachagesrohan
+[2023-07-13 12:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bluecurrent-api
+[2023-07-13 12:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gtraceroute
+[2023-07-13 12:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pureml
+[2023-07-13 12:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: make-argocd-fly
+[2023-07-13 12:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: requesty
+[2023-07-13 12:47:03] WARNING root fetch - processPackages [gtraceroute]: Skipping, unable to determine old version
+[2023-07-13 12:47:03] INFO root fetch - processPackages [gtraceroute]: Start processing: helios-rl
+[2023-07-13 12:47:03] INFO root fetch - main [MainThread]: End processing [gtraceroute] error
+[2023-07-13 12:47:03] INFO root fetch - processPackages [django-query-inspector]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-13 12:47:03] WARNING root fetch - processPackages [pachagesrohan]: Skipping, unable to determine old version
+[2023-07-13 12:47:03] INFO root fetch - processPackages [pachagesrohan]: Start processing: lazysdk
+[2023-07-13 12:47:03] INFO root fetch - main [MainThread]: End processing [pachagesrohan] error
+[2023-07-13 12:47:03] INFO root fetch - processPackages [pureml]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-13 12:47:03] INFO root fetch - processPackages [bluecurrent-api]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-13 12:47:03] WARNING root fetch - processPackages [requesty]: Skipping, unable to determine old version
+[2023-07-13 12:47:03] INFO root fetch - main [MainThread]: End processing [requesty] error
+[2023-07-13 12:47:03] INFO root fetch - processPackages [make-argocd-fly]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 12:47:03] INFO root fetch - processPackages [helios-rl]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 12:47:03] INFO root fetch - processPackages [alibabacloud-hologram20220601]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-13 12:47:03] INFO root fetch - processPackages [SempCode]: New version: [2023.6.5.22.3942] Old Version: [0.5.5]
+[2023-07-13 12:47:03] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-13 12:47:03] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-13 12:47:03] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/78/71/112109ad2b1aa685617dd84a150048372fbd6a5546c749679f55b88e8825/helios-rl-1.0.8.tar.gz
+[2023-07-13 12:47:03] INFO root fetch - processPackages [make-argocd-fly]: Downloading https://files.pythonhosted.org/packages/e1/76/b84109271ddeb3ce642fe2b42d7a08bcb6e8dbe243c1883e92a285425d5f/make_argocd_fly-0.0.8.tar.gz
+[2023-07-13 12:47:03] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-07-13 12:47:03] INFO root fetch - processPackages [pureml]: Downloading https://files.pythonhosted.org/packages/b4/8b/387f585bf2aeb827c51cb618d7fc05deb971ba0dd436e4f68f55fa328dbf/pureml-0.4.0.tar.gz
+[2023-07-13 12:47:03] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-13 12:47:03] INFO root fetch - processPackages [django-query-inspector]: Downloading https://files.pythonhosted.org/packages/8a/a6/92926a54e3613ca2e3b7bbdbce7db9ff13b1fc4d707d2fba4eec52e35d27/django_query_inspector-1.1.9-py2.py3-none-any.whl
+[2023-07-13 12:47:03] INFO root fetch - processPackages [alibabacloud-hologram20220601]: Downloading https://files.pythonhosted.org/packages/2f/2b/45d69c3ae389219fc9a52202b40c0b97bb5fb9c9bbb49e6b3ff1a9aba44a/alibabacloud_hologram20220601-1.0.3.tar.gz
+[2023-07-13 12:47:03] INFO root fetch - processPackages [bluecurrent-api]: Downloading https://files.pythonhosted.org/packages/bc/b6/4c191672e91f3f009803b1f90bec106caacacd668f215d1743ed6c5bdcfa/bluecurrent-api-1.0.3.tar.gz
+[2023-07-13 12:47:03] INFO root fetch - processPackages [SempCode]: Downloading https://files.pythonhosted.org/packages/9a/2c/270a5426b7b8e83a5c04cd32f988bf3dc674198f5831217c7cb59f5d97dc/SempCode-0.5.5-py3-none-any.whl
+[2023-07-13 12:47:03] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/38/b0/396024a90d94cd1b942fb7b480a67ba92baba52b21d550f8b04102a9c2ef/helios-rl-1.0.9.tar.gz
+[2023-07-13 12:47:03] INFO root fetch - processPackages [make-argocd-fly]: Downloading https://files.pythonhosted.org/packages/17/f7/c55e82d852dda67abd8d9dafec9ff6adc69734788ff11715d7fa5489256a/make_argocd_fly-0.0.9.tar.gz
+[2023-07-13 12:47:03] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-07-13 12:47:03] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-13 12:47:04] INFO root fetch - processPackages [helios-rl]: executing diffoscope
+[2023-07-13 12:47:04] INFO root fetch - processPackages [helios-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-rl-1.0.8.tar.gz tmp/helios-rl-1.0.9.tar.gz --markdown 20230713/h/helios-rl/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 12:47:04] INFO root fetch - processPackages [pureml]: Downloading https://files.pythonhosted.org/packages/e8/64/26886b72b55a6f01f162da8cdf771a69929cd7d75c0a4194468c313b91d8/pureml-0.4.1.tar.gz
+[2023-07-13 12:47:04] INFO root fetch - processPackages [make-argocd-fly]: executing diffoscope
+[2023-07-13 12:47:04] INFO root fetch - processPackages [make-argocd-fly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/make_argocd_fly-0.0.8.tar.gz tmp/make_argocd_fly-0.0.9.tar.gz --markdown 20230713/m/make-argocd-fly/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 12:47:04] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-13 12:47:04] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230713/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-13 12:47:04] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-07-13 12:47:04] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230713/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-13 12:47:04] INFO root fetch - processPackages [SempCode]: Downloading https://files.pythonhosted.org/packages/aa/e5/3a772bb3ba6060c4083c520d22d53529e7fa0a76c6bca3d78795e616df7a/SempCode-2023.6.5.22.3942-py3-none-any.whl
+[2023-07-13 12:47:04] INFO root fetch - processPackages [django-query-inspector]: Downloading https://files.pythonhosted.org/packages/88/95/b25530ffd4dc35299acbaf2579f2ddee4150d98d2908320f5540c716c5c7/django_query_inspector-1.2.0-py2.py3-none-any.whl
+[2023-07-13 12:47:04] INFO root fetch - processPackages [alibabacloud-hologram20220601]: Downloading https://files.pythonhosted.org/packages/af/a9/1c6a09a720fef270e575316a8e841819e683a58d979adf2b296e42f4be5f/alibabacloud_hologram20220601-1.0.4.tar.gz
+[2023-07-13 12:47:04] INFO root fetch - processPackages [bluecurrent-api]: Downloading https://files.pythonhosted.org/packages/9e/8a/05484c2554445eb8597acf1ee46eebe047c27d34bd3b39205fbbe1d8b96b/bluecurrent-api-1.0.4.tar.gz
+[2023-07-13 12:47:04] INFO root fetch - processPackages [SempCode]: executing diffoscope
+[2023-07-13 12:47:04] INFO root fetch - processPackages [SempCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SempCode-0.5.5-py3-none-any.whl.zip tmp/SempCode-2023.6.5.22.3942-py3-none-any.whl.zip --markdown 20230713/S/SempCode/0.5.5-2023.6.5.22.3942/diff.md --exclude *.pyd
+[2023-07-13 12:47:04] INFO root fetch - processPackages [pureml]: executing diffoscope
+[2023-07-13 12:47:04] INFO root fetch - processPackages [pureml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pureml-0.4.0.tar.gz tmp/pureml-0.4.1.tar.gz --markdown 20230713/p/pureml/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-13 12:47:04] INFO root fetch - processPackages [django-query-inspector]: executing diffoscope
+[2023-07-13 12:47:04] INFO root fetch - processPackages [django-query-inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_query_inspector-1.1.9-py2.py3-none-any.whl.zip tmp/django_query_inspector-1.2.0-py2.py3-none-any.whl.zip --markdown 20230713/d/django-query-inspector/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-13 12:47:04] INFO root fetch - processPackages [alibabacloud-hologram20220601]: executing diffoscope
+[2023-07-13 12:47:04] INFO root fetch - processPackages [alibabacloud-hologram20220601]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_hologram20220601-1.0.3.tar.gz tmp/alibabacloud_hologram20220601-1.0.4.tar.gz --markdown 20230713/a/alibabacloud-hologram20220601/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-13 12:47:04] INFO root fetch - processPackages [bluecurrent-api]: executing diffoscope
+[2023-07-13 12:47:04] INFO root fetch - processPackages [bluecurrent-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluecurrent-api-1.0.3.tar.gz tmp/bluecurrent-api-1.0.4.tar.gz --markdown 20230713/b/bluecurrent-api/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-13 12:47:05] INFO root fetch - processPackages [make-argocd-fly]: Remove: archive file [/home/abi/fetcher/tmp/make_argocd_fly-0.0.8.tar.gz]
+[2023-07-13 12:47:05] INFO root fetch - processPackages [make-argocd-fly]: Remove: archive file [/home/abi/fetcher/tmp/make_argocd_fly-0.0.9.tar.gz]
+[2023-07-13 12:47:05] INFO root fetch - main [MainThread]: End processing [make-argocd-fly]: success
+[2023-07-13 12:47:05] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-07-13 12:47:05] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-07-13 12:47:05] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-07-13 12:47:05] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.8.tar.gz]
+[2023-07-13 12:47:05] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.9.tar.gz]
+[2023-07-13 12:47:05] INFO root fetch - main [MainThread]: End processing [helios-rl]: success
+[2023-07-13 12:47:05] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-13 12:47:05] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-13 12:47:05] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-13 12:47:05] INFO root fetch - processPackages [SempCode]: Remove: archive file [/home/abi/fetcher/tmp/SempCode-0.5.5-py3-none-any.whl.zip]
+[2023-07-13 12:47:05] INFO root fetch - processPackages [SempCode]: Remove: archive file [/home/abi/fetcher/tmp/SempCode-2023.6.5.22.3942-py3-none-any.whl.zip]
+[2023-07-13 12:47:05] INFO root fetch - main [MainThread]: End processing [SempCode]: success
+[2023-07-13 12:47:05] INFO root fetch - processPackages [django-query-inspector]: Remove: archive file [/home/abi/fetcher/tmp/django_query_inspector-1.1.9-py2.py3-none-any.whl.zip]
+[2023-07-13 12:47:05] INFO root fetch - processPackages [django-query-inspector]: Remove: archive file [/home/abi/fetcher/tmp/django_query_inspector-1.2.0-py2.py3-none-any.whl.zip]
+[2023-07-13 12:47:05] INFO root fetch - main [MainThread]: End processing [django-query-inspector]: success
+[2023-07-13 12:47:06] INFO root fetch - processPackages [bluecurrent-api]: Remove: archive file [/home/abi/fetcher/tmp/bluecurrent-api-1.0.3.tar.gz]
+[2023-07-13 12:47:06] INFO root fetch - processPackages [bluecurrent-api]: Remove: archive file [/home/abi/fetcher/tmp/bluecurrent-api-1.0.4.tar.gz]
+[2023-07-13 12:47:06] INFO root fetch - main [MainThread]: End processing [bluecurrent-api]: success
+[2023-07-13 12:47:06] INFO root fetch - processPackages [alibabacloud-hologram20220601]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_hologram20220601-1.0.3.tar.gz]
+[2023-07-13 12:47:06] INFO root fetch - processPackages [alibabacloud-hologram20220601]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_hologram20220601-1.0.4.tar.gz]
+[2023-07-13 12:47:06] INFO root fetch - main [MainThread]: End processing [alibabacloud-hologram20220601]: success
+[2023-07-13 12:47:06] INFO root fetch - processPackages [pureml]: Remove: archive file [/home/abi/fetcher/tmp/pureml-0.4.0.tar.gz]
+[2023-07-13 12:47:06] INFO root fetch - processPackages [pureml]: Remove: archive file [/home/abi/fetcher/tmp/pureml-0.4.1.tar.gz]
+[2023-07-13 12:47:06] INFO root fetch - main [MainThread]: End processing [pureml]: success
+[2023-07-13 12:47:06] INFO root fetch - main [MainThread]: Store serial: [18873723]
