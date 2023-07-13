@@ -21870,3 +21870,287 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 14:35:30] INFO root fetch - processPackages [shapelets-platform]: Remove: archive file [/home/abi/fetcher/tmp/shapelets-platform-2.0.87.tar.gz]
 [2023-07-13 14:35:30] INFO root fetch - main [MainThread]: End processing [shapelets-platform]: success
 [2023-07-13 14:35:30] INFO root fetch - main [MainThread]: Store serial: [18874628]
+[2023-07-13 14:40:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18874628]
+[2023-07-13 14:40:40] INFO root fetch - main [MainThread]: Found 33 changed packages
+[2023-07-13 14:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-ehpc20180412
+[2023-07-13 14:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-go-goose
+[2023-07-13 14:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: projen
+[2023-07-13 14:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flet-pyodide
+[2023-07-13 14:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ciderpolarity
+[2023-07-13 14:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: threads-net
+[2023-07-13 14:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-jsonschema
+[2023-07-13 14:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pelican-injector
+[2023-07-13 14:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: progress-parallel
+[2023-07-13 14:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oep-client
+[2023-07-13 14:40:41] INFO root fetch - processPackages [alibabacloud-ehpc20180412]: New version: [1.14.9] Old Version: [1.14.8]
+[2023-07-13 14:40:41] INFO root fetch - processPackages [ciderpolarity]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-13 14:40:41] INFO root fetch - processPackages [py-go-goose]: New version: [1.1] Old Version: [1.0]
+[2023-07-13 14:40:41] INFO root fetch - processPackages [flet-pyodide]: New version: [0.9.0.dev1614] Old Version: [0.9.0.dev1606]
+[2023-07-13 14:40:41] INFO root fetch - processPackages [threads-net]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-13 14:40:41] WARNING root fetch - processPackages [pelican-injector]: Skipping, unable to determine old version
+[2023-07-13 14:40:41] INFO root fetch - processPackages [progress-parallel]: New version: [3.2.1] Old Version: [3.1.2]
+[2023-07-13 14:40:41] INFO root fetch - processPackages [pelican-injector]: Start processing: django-google-cloud-tasks
+[2023-07-13 14:40:41] INFO root fetch - main [MainThread]: End processing [pelican-injector] error
+[2023-07-13 14:40:41] INFO root fetch - processPackages [types-jsonschema]: New version: [4.9.0] Old Version: [4.7.0]
+[2023-07-13 14:40:41] INFO root fetch - processPackages [oep-client]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-13 14:40:41] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-13 14:40:41] INFO root fetch - processPackages [django-google-cloud-tasks]: New version: [2.3.2rc1] Old Version: [2.3.1]
+[2023-07-13 14:40:41] INFO root fetch - processPackages [ciderpolarity]: Downloading https://files.pythonhosted.org/packages/9e/42/d2d7a8982832af5413138cd09f22712e677dc1c75b878da771e0d4f4264a/ciderpolarity-0.2.5.tar.gz
+[2023-07-13 14:40:41] INFO root fetch - processPackages [types-jsonschema]: Downloading https://files.pythonhosted.org/packages/c6/e1/278379da0b28700f9f6cf017cf3fa5863afdfe70a724fe2b2ee18a4758ec/types-jsonschema-4.7.0.tar.gz
+[2023-07-13 14:40:41] INFO root fetch - processPackages [progress-parallel]: Downloading https://files.pythonhosted.org/packages/16/63/a325b27d6877d1395d058c4337991440e5bb604e1931beac75f1027829a4/progress%20parallel-3.1.2.tar.gz
+[2023-07-13 14:40:41] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/79/3d/fbf5991bcbc2ce24e58a0bae942e2c55798c303bc89777e9587bbb94d58b/flet_pyodide-0.9.0.dev1606.tar.gz
+[2023-07-13 14:40:41] INFO root fetch - processPackages [alibabacloud-ehpc20180412]: Downloading https://files.pythonhosted.org/packages/1d/56/6e908c0753178e4426b04e2c3e0a2cb78796aaff5a3b3939d5d859be3c13/alibabacloud_ehpc20180412-1.14.8.tar.gz
+[2023-07-13 14:40:41] INFO root fetch - processPackages [py-go-goose]: Downloading https://files.pythonhosted.org/packages/cb/ca/2dca44e3daf6f85b8840e95f8f7c6be3be4616a5c32b25cc868fe375f888/py_go_goose-1.0.tar.gz
+[2023-07-13 14:40:41] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/11/ba/483f4770d7c413aff80cfdfd96da75d50912f6604255f4a04d7e8448a5a1/threads-net-0.0.7.tar.gz
+[2023-07-13 14:40:41] INFO root fetch - processPackages [django-google-cloud-tasks]: Downloading https://files.pythonhosted.org/packages/4b/73/85582bbc506599b27d2aafd580b961f6a03e77ec224feca5eb2cb77e97fe/django_google_cloud_tasks-2.3.1.tar.gz
+[2023-07-13 14:40:41] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-13 14:40:41] INFO root fetch - processPackages [oep-client]: Downloading https://files.pythonhosted.org/packages/d2/2d/d1e97cafe701ab1c5fc58a49d963658dac96596936a4c305a8736384adee/oep-client-0.9.0.tar.gz
+[2023-07-13 14:40:41] INFO root fetch - processPackages [ciderpolarity]: Downloading https://files.pythonhosted.org/packages/21/6b/1347e58971216c4a5b9a8054e83fd7287b2590236cd32dafc35ba3fadb55/ciderpolarity-0.2.6.tar.gz
+[2023-07-13 14:40:41] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/96/a0/cc5056a70c10204e5a60fc1d1bff2f4478da80a87dae14e17b5edb1c226e/flet_pyodide-0.9.0.dev1614.tar.gz
+[2023-07-13 14:40:41] INFO root fetch - processPackages [types-jsonschema]: Downloading https://files.pythonhosted.org/packages/e4/92/a22669e12621f1f6ecbe4a0df317ec38af90b5f4e5432685f9b6b44cb647/types-jsonschema-4.9.0.tar.gz
+[2023-07-13 14:40:42] INFO root fetch - processPackages [py-go-goose]: Downloading https://files.pythonhosted.org/packages/aa/2a/81377fc904f73fae08d7cfe48ad1e90ea042f685f5cdf7baed0ccfdb9e9b/py_go_goose-1.1.tar.gz
+[2023-07-13 14:40:42] INFO root fetch - processPackages [progress-parallel]: Downloading https://files.pythonhosted.org/packages/fa/43/673b14527881e7fd0811289151e4e9ada105858018ba8a9ae96fb095c045/progress%20parallel-3.2.1.tar.gz
+[2023-07-13 14:40:42] INFO root fetch - processPackages [django-google-cloud-tasks]: Downloading https://files.pythonhosted.org/packages/06/08/ee983b691d3c539b8d0b7b7a78ae425d99b5868344d12f1112262f5ad6c7/django_google_cloud_tasks-2.3.2rc1.tar.gz
+[2023-07-13 14:40:42] INFO root fetch - processPackages [ciderpolarity]: executing diffoscope
+[2023-07-13 14:40:42] INFO root fetch - processPackages [ciderpolarity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciderpolarity-0.2.5.tar.gz tmp/ciderpolarity-0.2.6.tar.gz --markdown 20230713/c/ciderpolarity/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-13 14:40:42] INFO root fetch - processPackages [alibabacloud-ehpc20180412]: Downloading https://files.pythonhosted.org/packages/f8/74/eb157605cf43c31bdcd82f69889d0f5e70259ed735640592f9e22dfcf215/alibabacloud_ehpc20180412-1.14.9.tar.gz
+[2023-07-13 14:40:42] INFO root fetch - processPackages [oep-client]: Downloading https://files.pythonhosted.org/packages/6e/0d/c0e0626cda19096dbe0c08f4ea0503579d0394ff4a440c3302e8807e0f7f/oep-client-0.9.1.tar.gz
+[2023-07-13 14:40:42] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/de/bd/e372c12fe307c562ec3785151d74201431eddd2312171d55b8ee4ac81db6/threads-net-0.0.8.tar.gz
+[2023-07-13 14:40:42] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-07-13 14:40:42] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.9.0.dev1606.tar.gz tmp/flet_pyodide-0.9.0.dev1614.tar.gz --markdown 20230713/f/flet-pyodide/0.9.0.dev1606-0.9.0.dev1614/diff.md --exclude *.pyd
+[2023-07-13 14:40:42] INFO root fetch - processPackages [py-go-goose]: executing diffoscope
+[2023-07-13 14:40:42] INFO root fetch - processPackages [py-go-goose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_go_goose-1.0.tar.gz tmp/py_go_goose-1.1.tar.gz --markdown 20230713/p/py-go-goose/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-13 14:40:42] INFO root fetch - processPackages [progress-parallel]: executing diffoscope
+[2023-07-13 14:40:42] INFO root fetch - processPackages [progress-parallel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/progress parallel-3.1.2.tar.gz tmp/progress parallel-3.2.1.tar.gz --markdown 20230713/p/progress-parallel/3.1.2-3.2.1/diff.md --exclude *.pyd
+[2023-07-13 14:40:42] INFO root fetch - processPackages [types-jsonschema]: executing diffoscope
+[2023-07-13 14:40:42] INFO root fetch - processPackages [types-jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-jsonschema-4.7.0.tar.gz tmp/types-jsonschema-4.9.0.tar.gz --markdown 20230713/t/types-jsonschema/4.7.0-4.9.0/diff.md --exclude *.pyd
+[2023-07-13 14:40:42] INFO root fetch - processPackages [django-google-cloud-tasks]: executing diffoscope
+[2023-07-13 14:40:42] INFO root fetch - processPackages [django-google-cloud-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_google_cloud_tasks-2.3.1.tar.gz tmp/django_google_cloud_tasks-2.3.2rc1.tar.gz --markdown 20230713/d/django-google-cloud-tasks/2.3.1-2.3.2rc1/diff.md --exclude *.pyd
+[2023-07-13 14:40:42] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-13 14:40:42] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.7.tar.gz tmp/threads-net-0.0.8.tar.gz --markdown 20230713/t/threads-net/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-13 14:40:42] INFO root fetch - processPackages [oep-client]: executing diffoscope
+[2023-07-13 14:40:42] INFO root fetch - processPackages [oep-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oep-client-0.9.0.tar.gz tmp/oep-client-0.9.1.tar.gz --markdown 20230713/o/oep-client/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-13 14:40:42] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-13 14:40:42] INFO root fetch - processPackages [alibabacloud-ehpc20180412]: executing diffoscope
+[2023-07-13 14:40:42] INFO root fetch - processPackages [alibabacloud-ehpc20180412]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ehpc20180412-1.14.8.tar.gz tmp/alibabacloud_ehpc20180412-1.14.9.tar.gz --markdown 20230713/a/alibabacloud-ehpc20180412/1.14.8-1.14.9/diff.md --exclude *.pyd
+[2023-07-13 14:40:42] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-13 14:40:42] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230713/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-13 14:40:43] INFO root fetch - processPackages [ciderpolarity]: Remove: archive file [/home/abi/fetcher/tmp/ciderpolarity-0.2.5.tar.gz]
+[2023-07-13 14:40:43] INFO root fetch - processPackages [ciderpolarity]: Remove: archive file [/home/abi/fetcher/tmp/ciderpolarity-0.2.6.tar.gz]
+[2023-07-13 14:40:43] INFO root fetch - processPackages [ciderpolarity]: Start processing: martor
+[2023-07-13 14:40:43] INFO root fetch - main [MainThread]: End processing [ciderpolarity]: success
+[2023-07-13 14:40:43] INFO root fetch - processPackages [martor]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-07-13 14:40:43] INFO root fetch - processPackages [py-go-goose]: Remove: archive file [/home/abi/fetcher/tmp/py_go_goose-1.0.tar.gz]
+[2023-07-13 14:40:43] INFO root fetch - processPackages [py-go-goose]: Remove: archive file [/home/abi/fetcher/tmp/py_go_goose-1.1.tar.gz]
+[2023-07-13 14:40:43] INFO root fetch - processPackages [py-go-goose]: Start processing: pillow-stackblur
+[2023-07-13 14:40:43] INFO root fetch - main [MainThread]: End processing [py-go-goose]: success
+[2023-07-13 14:40:43] INFO root fetch - processPackages [pillow-stackblur]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-13 14:40:43] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.9.0.dev1606.tar.gz]
+[2023-07-13 14:40:43] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.9.0.dev1614.tar.gz]
+[2023-07-13 14:40:43] INFO root fetch - processPackages [flet-pyodide]: Start processing: vmngclient
+[2023-07-13 14:40:43] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-07-13 14:40:43] INFO root fetch - processPackages [martor]: Downloading https://files.pythonhosted.org/packages/7e/45/9cd053021bfaad131ca4748f70733813f94aa3bd09155de726e3386c2da0/martor-1.6.8.tar.gz
+[2023-07-13 14:40:43] INFO root fetch - processPackages [vmngclient]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-13 14:40:44] INFO root fetch - processPackages [django-google-cloud-tasks]: Remove: archive file [/home/abi/fetcher/tmp/django_google_cloud_tasks-2.3.1.tar.gz]
+[2023-07-13 14:40:44] INFO root fetch - processPackages [django-google-cloud-tasks]: Remove: archive file [/home/abi/fetcher/tmp/django_google_cloud_tasks-2.3.2rc1.tar.gz]
+[2023-07-13 14:40:44] INFO root fetch - processPackages [django-google-cloud-tasks]: Start processing: libmata
+[2023-07-13 14:40:44] INFO root fetch - main [MainThread]: End processing [django-google-cloud-tasks]: success
+[2023-07-13 14:40:44] INFO root fetch - processPackages [progress-parallel]: Remove: archive file [/home/abi/fetcher/tmp/progress parallel-3.1.2.tar.gz]
+[2023-07-13 14:40:44] INFO root fetch - processPackages [progress-parallel]: Remove: archive file [/home/abi/fetcher/tmp/progress parallel-3.2.1.tar.gz]
+[2023-07-13 14:40:44] INFO root fetch - processPackages [progress-parallel]: Start processing: pggm-datalab-utils
+[2023-07-13 14:40:44] INFO root fetch - main [MainThread]: End processing [progress-parallel]: success
+[2023-07-13 14:40:44] INFO root fetch - processPackages [libmata]: New version: [0.77.0] Old Version: [0.76.0]
+[2023-07-13 14:40:44] INFO root fetch - processPackages [oep-client]: Remove: archive file [/home/abi/fetcher/tmp/oep-client-0.9.0.tar.gz]
+[2023-07-13 14:40:44] INFO root fetch - processPackages [oep-client]: Remove: archive file [/home/abi/fetcher/tmp/oep-client-0.9.1.tar.gz]
+[2023-07-13 14:40:44] INFO root fetch - processPackages [pillow-stackblur]: Downloading https://files.pythonhosted.org/packages/1c/2f/51dff5f7a77b466fb3581ef38a2ca57dc5f80275eba4bc30b5044a61b2cb/pillow-stackblur-0.1.0.tar.gz
+[2023-07-13 14:40:44] INFO root fetch - processPackages [oep-client]: Start processing: fedml
+[2023-07-13 14:40:44] INFO root fetch - main [MainThread]: End processing [oep-client]: success
+[2023-07-13 14:40:44] INFO root fetch - processPackages [pggm-datalab-utils]: New version: [2.9] Old Version: [2.8]
+[2023-07-13 14:40:44] INFO root fetch - processPackages [types-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/types-jsonschema-4.7.0.tar.gz]
+[2023-07-13 14:40:44] INFO root fetch - processPackages [types-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/types-jsonschema-4.9.0.tar.gz]
+[2023-07-13 14:40:44] INFO root fetch - processPackages [types-jsonschema]: Start processing: amlopsvueelements
+[2023-07-13 14:40:44] INFO root fetch - main [MainThread]: End processing [types-jsonschema]: success
+[2023-07-13 14:40:44] INFO root fetch - processPackages [fedml]: New version: [0.8.7a2] Old Version: [0.8.7a1]
+[2023-07-13 14:40:44] INFO root fetch - processPackages [amlopsvueelements]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-13 14:40:44] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/57/4f/8076c56b0b85985fe759504db95af926d1e82b3887c563f382117b23d3cd/libmata-0.76.0.tar.gz
+[2023-07-13 14:40:44] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.7.tar.gz]
+[2023-07-13 14:40:44] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.8.tar.gz]
+[2023-07-13 14:40:44] INFO root fetch - processPackages [threads-net]: Start processing: proteus-preprocessing
+[2023-07-13 14:40:44] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-13 14:40:44] INFO root fetch - processPackages [vmngclient]: Downloading https://files.pythonhosted.org/packages/16/cf/796cdd5acea067c083c005dc1c73beadef4898b8cc0b719eee71099c66aa/vmngclient-0.9.3.tar.gz
+[2023-07-13 14:40:44] INFO root fetch - processPackages [alibabacloud-ehpc20180412]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ehpc20180412-1.14.8.tar.gz]
+[2023-07-13 14:40:44] INFO root fetch - processPackages [alibabacloud-ehpc20180412]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ehpc20180412-1.14.9.tar.gz]
+[2023-07-13 14:40:44] INFO root fetch - processPackages [alibabacloud-ehpc20180412]: Start processing: mltu
+[2023-07-13 14:40:44] INFO root fetch - main [MainThread]: End processing [alibabacloud-ehpc20180412]: success
+[2023-07-13 14:40:44] INFO root fetch - processPackages [proteus-preprocessing]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-13 14:40:44] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/81/a6/7c7bcbea2f0571db8d972f2e59a075c0770dd4a2263d104f7479fa9eca1e/fedml-0.8.7a1.tar.gz
+[2023-07-13 14:40:44] INFO root fetch - processPackages [pggm-datalab-utils]: Downloading https://files.pythonhosted.org/packages/02/41/a2239952c4a3b136570eaa15f4ff70820a4864f4123f2d84c2907d8c172a/pggm_datalab_utils-2.8.tar.gz
+[2023-07-13 14:40:44] INFO root fetch - processPackages [amlopsvueelements]: Downloading https://files.pythonhosted.org/packages/66/c5/7cc4562a9948fa70330c8597948fda7c968a965313e177f21cd9f6e69c15/amlopsvueelements-1.2.8.tar.gz
+[2023-07-13 14:40:44] INFO root fetch - processPackages [mltu]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 14:40:44] INFO root fetch - processPackages [proteus-preprocessing]: Downloading https://files.pythonhosted.org/packages/2e/74/f174c27c96d6a46490f73a542559936f1940545298b2543e5588eb46fef9/proteus_preprocessing-0.4.1.tar.gz
+[2023-07-13 14:40:44] INFO root fetch - processPackages [martor]: Downloading https://files.pythonhosted.org/packages/80/e5/9e92ccae7e5a445be9adc696fb1b8d73a3a761fd1882b06d3f7c638f55ea/martor-1.6.9.tar.gz
+[2023-07-13 14:40:44] INFO root fetch - processPackages [pillow-stackblur]: Downloading https://files.pythonhosted.org/packages/28/1c/8ff07057d9cad62ad7f675f1e8abb773ba4b47ef33c36ec91888af0bb5d9/pillow-stackblur-0.1.1.tar.gz
+[2023-07-13 14:40:44] INFO root fetch - processPackages [mltu]: Downloading https://files.pythonhosted.org/packages/6c/7a/53267e410178b81e16179bba8681a8ec5371b61b229a6af8deb4d1ec90a5/mltu-1.0.8.tar.gz
+[2023-07-13 14:40:44] INFO root fetch - processPackages [pillow-stackblur]: executing diffoscope
+[2023-07-13 14:40:44] INFO root fetch - processPackages [pillow-stackblur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillow-stackblur-0.1.0.tar.gz tmp/pillow-stackblur-0.1.1.tar.gz --markdown 20230713/p/pillow-stackblur/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-13 14:40:44] INFO root fetch - processPackages [vmngclient]: Downloading https://files.pythonhosted.org/packages/60/1e/8fa022286e95c6d7b916fc4fa00fcef64cbcdf053911a9e7189fff6403b8/vmngclient-0.9.4.tar.gz
+[2023-07-13 14:40:44] INFO root fetch - processPackages [amlopsvueelements]: Downloading https://files.pythonhosted.org/packages/66/13/78a0a71cbe22ea1ba27617b67cbd09d3dd5db33dcfc03407cadf975cb283/amlopsvueelements-1.2.9.tar.gz
+[2023-07-13 14:40:44] INFO root fetch - processPackages [proteus-preprocessing]: Downloading https://files.pythonhosted.org/packages/1c/e8/cd76d00ce3a03629c9d0c4afcbf9ace519444ed787c9e21f4b37761df36e/proteus_preprocessing-0.4.2.tar.gz
+[2023-07-13 14:40:44] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/be/d8/b3061e26feb8ae8ad9c2e827692925add1961472c9491299b8a599618889/fedml-0.8.7a2.tar.gz
+[2023-07-13 14:40:44] INFO root fetch - processPackages [pggm-datalab-utils]: Downloading https://files.pythonhosted.org/packages/ef/f3/a6efe5de6085d714a43761c96d68ffe0c15840e678f9baee7d948157b7da/pggm_datalab_utils-2.9.tar.gz
+[2023-07-13 14:40:44] INFO root fetch - processPackages [martor]: executing diffoscope
+[2023-07-13 14:40:44] INFO root fetch - processPackages [martor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/martor-1.6.8.tar.gz tmp/martor-1.6.9.tar.gz --markdown 20230713/m/martor/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-07-13 14:40:45] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/12/d7/3bdc73064237abcd63926f1d4e40fb1c56bc705c2f0699558fe791c534a2/libmata-0.77.0.tar.gz
+[2023-07-13 14:40:45] INFO root fetch - processPackages [vmngclient]: executing diffoscope
+[2023-07-13 14:40:45] INFO root fetch - processPackages [vmngclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmngclient-0.9.3.tar.gz tmp/vmngclient-0.9.4.tar.gz --markdown 20230713/v/vmngclient/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-13 14:40:45] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-13 14:40:45] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-13 14:40:45] INFO root fetch - processPackages [projen]: Start processing: ephios
+[2023-07-13 14:40:45] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-13 14:40:45] INFO root fetch - processPackages [proteus-preprocessing]: executing diffoscope
+[2023-07-13 14:40:45] INFO root fetch - processPackages [proteus-preprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteus_preprocessing-0.4.1.tar.gz tmp/proteus_preprocessing-0.4.2.tar.gz --markdown 20230713/p/proteus-preprocessing/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-13 14:40:45] INFO root fetch - processPackages [amlopsvueelements]: executing diffoscope
+[2023-07-13 14:40:45] INFO root fetch - processPackages [amlopsvueelements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amlopsvueelements-1.2.8.tar.gz tmp/amlopsvueelements-1.2.9.tar.gz --markdown 20230713/a/amlopsvueelements/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-13 14:40:45] INFO root fetch - processPackages [ephios]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-13 14:40:45] INFO root fetch - processPackages [pggm-datalab-utils]: executing diffoscope
+[2023-07-13 14:40:45] INFO root fetch - processPackages [pggm-datalab-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pggm_datalab_utils-2.8.tar.gz tmp/pggm_datalab_utils-2.9.tar.gz --markdown 20230713/p/pggm-datalab-utils/2.8-2.9/diff.md --exclude *.pyd
+[2023-07-13 14:40:45] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-07-13 14:40:45] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.7a1.tar.gz tmp/fedml-0.8.7a2.tar.gz --markdown 20230713/f/fedml/0.8.7a1-0.8.7a2/diff.md --exclude *.pyd
+[2023-07-13 14:40:45] INFO root fetch - processPackages [mltu]: Downloading https://files.pythonhosted.org/packages/57/86/b2ce47c51853a9b385f9c8565666c2836b72e7e99aaf676abd51c3f38525/mltu-1.0.9.tar.gz
+[2023-07-13 14:40:45] INFO root fetch - processPackages [libmata]: executing diffoscope
+[2023-07-13 14:40:45] INFO root fetch - processPackages [libmata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmata-0.76.0.tar.gz tmp/libmata-0.77.0.tar.gz --markdown 20230713/l/libmata/0.76.0-0.77.0/diff.md --exclude *.pyd
+[2023-07-13 14:40:45] INFO root fetch - processPackages [ephios]: Downloading https://files.pythonhosted.org/packages/c1/4f/9cc9c40bc81b96272ad21c8c7d72a96f8d6044eafc9e180331d92998a088/ephios-0.9.2.tar.gz
+[2023-07-13 14:40:45] INFO root fetch - processPackages [mltu]: executing diffoscope
+[2023-07-13 14:40:45] INFO root fetch - processPackages [mltu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltu-1.0.8.tar.gz tmp/mltu-1.0.9.tar.gz --markdown 20230713/m/mltu/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 14:40:46] INFO root fetch - processPackages [pillow-stackblur]: Remove: archive file [/home/abi/fetcher/tmp/pillow-stackblur-0.1.0.tar.gz]
+[2023-07-13 14:40:46] INFO root fetch - processPackages [pillow-stackblur]: Remove: archive file [/home/abi/fetcher/tmp/pillow-stackblur-0.1.1.tar.gz]
+[2023-07-13 14:40:46] INFO root fetch - processPackages [pillow-stackblur]: Start processing: qsi-tk
+[2023-07-13 14:40:46] INFO root fetch - main [MainThread]: End processing [pillow-stackblur]: success
+[2023-07-13 14:40:46] INFO root fetch - processPackages [qsi-tk]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-13 14:40:46] INFO root fetch - processPackages [qsi-tk]: Downloading https://files.pythonhosted.org/packages/f7/93/0720d2388d750dc9282d4366bbc6924a39521191d6bf8fe00ff8030605b5/qsi_tk-1.0.3-py3-none-any.whl
+[2023-07-13 14:40:46] WARNING root fetch - processPackages [qsi-tk]: Skipping package: exceeds size limit 58510670>=10485760
+[2023-07-13 14:40:46] INFO root fetch - processPackages [qsi-tk]: Start processing: NodeGraphQt
+[2023-07-13 14:40:46] INFO root fetch - main [MainThread]: End processing [qsi-tk] error
+[2023-07-13 14:40:46] INFO root fetch - processPackages [NodeGraphQt]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-07-13 14:40:46] INFO root fetch - processPackages [proteus-preprocessing]: Remove: archive file [/home/abi/fetcher/tmp/proteus_preprocessing-0.4.1.tar.gz]
+[2023-07-13 14:40:46] INFO root fetch - processPackages [proteus-preprocessing]: Remove: archive file [/home/abi/fetcher/tmp/proteus_preprocessing-0.4.2.tar.gz]
+[2023-07-13 14:40:46] INFO root fetch - processPackages [proteus-preprocessing]: Start processing: large-image
+[2023-07-13 14:40:46] INFO root fetch - main [MainThread]: End processing [proteus-preprocessing]: success
+[2023-07-13 14:40:46] INFO root fetch - processPackages [NodeGraphQt]: Downloading https://files.pythonhosted.org/packages/bf/5c/6dc809924f5de2077e5d9edbff0d9e5ec7a08c094470f28172f2d94d40a3/NodeGraphQt-0.6.6.tar.gz
+[2023-07-13 14:40:47] INFO root fetch - processPackages [large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-13 14:40:47] INFO root fetch - processPackages [ephios]: Downloading https://files.pythonhosted.org/packages/e7/7a/49d2ba5170828d802ec0a0665ef0e8f5e8ee92e9baee5375f2b3cf6bbe55/ephios-0.9.3.tar.gz
+[2023-07-13 14:40:47] INFO root fetch - processPackages [pggm-datalab-utils]: Remove: archive file [/home/abi/fetcher/tmp/pggm_datalab_utils-2.8.tar.gz]
+[2023-07-13 14:40:47] INFO root fetch - processPackages [pggm-datalab-utils]: Remove: archive file [/home/abi/fetcher/tmp/pggm_datalab_utils-2.9.tar.gz]
+[2023-07-13 14:40:47] INFO root fetch - processPackages [pggm-datalab-utils]: Start processing: gd32graphing
+[2023-07-13 14:40:47] INFO root fetch - main [MainThread]: End processing [pggm-datalab-utils]: success
+[2023-07-13 14:40:47] INFO root fetch - processPackages [large-image]: Downloading https://files.pythonhosted.org/packages/0e/97/f50d98f73951f053a140a085b971b043dc16e80844122ca59d5c2feeab13/large-image-1.9.1.dev6.tar.gz
+[2023-07-13 14:40:47] WARNING root fetch - processPackages [gd32graphing]: Skipping, unable to determine old version
+[2023-07-13 14:40:47] INFO root fetch - processPackages [gd32graphing]: Start processing: pso2keras
+[2023-07-13 14:40:47] INFO root fetch - main [MainThread]: End processing [gd32graphing] error
+[2023-07-13 14:40:47] INFO root fetch - processPackages [NodeGraphQt]: Downloading https://files.pythonhosted.org/packages/86/73/39ab96f3091b70fb83abecf03c2829035243ff30e301eff68c1496f4c824/NodeGraphQt-0.6.7.tar.gz
+[2023-07-13 14:40:47] INFO root fetch - processPackages [pso2keras]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-13 14:40:47] INFO root fetch - processPackages [large-image]: Downloading https://files.pythonhosted.org/packages/22/c4/18264ad18d3664df703883e2fb520f69d307805c93779d26bdaab792bb0b/large-image-1.9.1.dev8.tar.gz
+[2023-07-13 14:40:47] INFO root fetch - processPackages [NodeGraphQt]: executing diffoscope
+[2023-07-13 14:40:47] INFO root fetch - processPackages [NodeGraphQt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NodeGraphQt-0.6.6.tar.gz tmp/NodeGraphQt-0.6.7.tar.gz --markdown 20230713/N/NodeGraphQt/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-07-13 14:40:47] INFO root fetch - processPackages [mltu]: Remove: archive file [/home/abi/fetcher/tmp/mltu-1.0.8.tar.gz]
+[2023-07-13 14:40:47] INFO root fetch - processPackages [mltu]: Remove: archive file [/home/abi/fetcher/tmp/mltu-1.0.9.tar.gz]
+[2023-07-13 14:40:47] INFO root fetch - processPackages [mltu]: Start processing: girder-large-image
+[2023-07-13 14:40:47] INFO root fetch - main [MainThread]: End processing [mltu]: success
+[2023-07-13 14:40:47] INFO root fetch - processPackages [vmngclient]: Remove: archive file [/home/abi/fetcher/tmp/vmngclient-0.9.3.tar.gz]
+[2023-07-13 14:40:47] INFO root fetch - processPackages [vmngclient]: Remove: archive file [/home/abi/fetcher/tmp/vmngclient-0.9.4.tar.gz]
+[2023-07-13 14:40:47] INFO root fetch - processPackages [vmngclient]: Start processing: girder-large-image-annotation
+[2023-07-13 14:40:47] INFO root fetch - main [MainThread]: End processing [vmngclient]: success
+[2023-07-13 14:40:47] INFO root fetch - processPackages [pso2keras]: Downloading https://files.pythonhosted.org/packages/c0/94/6f1c1684d9294e3ae37d285cb8b7b2d8e282307259c9af8c61762d221ffe/pso2keras-0.1.1-py3-none-any.whl
+[2023-07-13 14:40:47] INFO root fetch - processPackages [large-image]: executing diffoscope
+[2023-07-13 14:40:47] INFO root fetch - processPackages [large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-1.9.1.dev6.tar.gz tmp/large-image-1.9.1.dev8.tar.gz --markdown 20230713/l/large-image/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-13 14:40:47] INFO root fetch - processPackages [girder-large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-13 14:40:47] INFO root fetch - processPackages [girder-large-image-annotation]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-13 14:40:48] INFO root fetch - processPackages [girder-large-image-annotation]: Downloading https://files.pythonhosted.org/packages/c3/18/d99bf917c38c2bfe8e73289ba285a6777b5180e575625de79a961576422c/girder-large-image-annotation-1.9.1.dev6.tar.gz
+[2023-07-13 14:40:48] INFO root fetch - processPackages [ephios]: executing diffoscope
+[2023-07-13 14:40:48] INFO root fetch - processPackages [ephios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephios-0.9.2.tar.gz tmp/ephios-0.9.3.tar.gz --markdown 20230713/e/ephios/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-13 14:40:48] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/a1/de/9259311e8ad31f3131b016ae68dbee28c3a85340a5611063ba07e130f4dd/girder-large-image-1.9.1.dev6.tar.gz
+[2023-07-13 14:40:48] INFO root fetch - processPackages [pso2keras]: Downloading https://files.pythonhosted.org/packages/ce/d9/5a1b8a7c90c232b77cbe0a954a13f8b3574a3946a6f0a455be8c8bcba372/pso2keras-0.1.2.tar.gz
+[2023-07-13 14:40:48] INFO root fetch - processPackages [girder-large-image-annotation]: Downloading https://files.pythonhosted.org/packages/ca/57/fbf65f3374926f7df27919c0c3d3a4d433f93e014e2405e5aaec1aa92a23/girder-large-image-annotation-1.9.1.dev8.tar.gz
+[2023-07-13 14:40:48] INFO root fetch - processPackages [pso2keras]: executing diffoscope
+[2023-07-13 14:40:48] INFO root fetch - processPackages [pso2keras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pso2keras-0.1.1-py3-none-any.whl.zip tmp/pso2keras-0.1.2.tar.gz --markdown 20230713/p/pso2keras/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-13 14:40:48] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/f9/12/4dfe66c1b3eae390e20ba6a8e5537d1e114e878fe6346c8b5dbb5b9efdcc/girder-large-image-1.9.1.dev8.tar.gz
+[2023-07-13 14:40:48] INFO root fetch - processPackages [girder-large-image-annotation]: executing diffoscope
+[2023-07-13 14:40:48] INFO root fetch - processPackages [girder-large-image-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz --markdown 20230713/g/girder-large-image-annotation/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-13 14:40:48] INFO root fetch - processPackages [girder-large-image]: executing diffoscope
+[2023-07-13 14:40:48] INFO root fetch - processPackages [girder-large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-1.9.1.dev6.tar.gz tmp/girder-large-image-1.9.1.dev8.tar.gz --markdown 20230713/g/girder-large-image/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-13 14:40:49] INFO root fetch - processPackages [large-image]: Remove: archive file [/home/abi/fetcher/tmp/large-image-1.9.1.dev6.tar.gz]
+[2023-07-13 14:40:49] INFO root fetch - processPackages [large-image]: Remove: archive file [/home/abi/fetcher/tmp/large-image-1.9.1.dev8.tar.gz]
+[2023-07-13 14:40:49] INFO root fetch - processPackages [large-image]: Start processing: large-image-converter
+[2023-07-13 14:40:49] INFO root fetch - main [MainThread]: End processing [large-image]: success
+[2023-07-13 14:40:49] INFO root fetch - processPackages [large-image-converter]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-13 14:40:49] INFO root fetch - processPackages [NodeGraphQt]: Remove: archive file [/home/abi/fetcher/tmp/NodeGraphQt-0.6.6.tar.gz]
+[2023-07-13 14:40:49] INFO root fetch - processPackages [NodeGraphQt]: Remove: archive file [/home/abi/fetcher/tmp/NodeGraphQt-0.6.7.tar.gz]
+[2023-07-13 14:40:49] INFO root fetch - processPackages [NodeGraphQt]: Start processing: orchestrator-core
+[2023-07-13 14:40:49] INFO root fetch - main [MainThread]: End processing [NodeGraphQt]: success
+[2023-07-13 14:40:50] INFO root fetch - processPackages [large-image-converter]: Downloading https://files.pythonhosted.org/packages/4e/e5/c672f0ad384f9f05d26e1baecedc8293d6d88840e5b9d9b43d657e8bfe20/large-image-converter-1.9.1.dev6.tar.gz
+[2023-07-13 14:40:50] INFO root fetch - processPackages [orchestrator-core]: New version: [1.2.2rc3] Old Version: [1.2.2rc2]
+[2023-07-13 14:40:50] INFO root fetch - processPackages [martor]: Remove: archive file [/home/abi/fetcher/tmp/martor-1.6.8.tar.gz]
+[2023-07-13 14:40:50] INFO root fetch - processPackages [martor]: Remove: archive file [/home/abi/fetcher/tmp/martor-1.6.9.tar.gz]
+[2023-07-13 14:40:50] INFO root fetch - processPackages [martor]: Start processing: elody
+[2023-07-13 14:40:50] INFO root fetch - main [MainThread]: End processing [martor]: success
+[2023-07-13 14:40:50] INFO root fetch - processPackages [pso2keras]: Remove: archive file [/home/abi/fetcher/tmp/pso2keras-0.1.1-py3-none-any.whl.zip]
+[2023-07-13 14:40:50] INFO root fetch - processPackages [pso2keras]: Remove: archive file [/home/abi/fetcher/tmp/pso2keras-0.1.2.tar.gz]
+[2023-07-13 14:40:50] INFO root fetch - processPackages [pso2keras]: Start processing: large-image-tasks
+[2023-07-13 14:40:50] INFO root fetch - main [MainThread]: End processing [pso2keras]: success
+[2023-07-13 14:40:50] INFO root fetch - processPackages [elody]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 14:40:50] INFO root fetch - processPackages [large-image-tasks]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-13 14:40:50] INFO root fetch - processPackages [large-image-converter]: Downloading https://files.pythonhosted.org/packages/2d/90/b675b694e3b2886568e691207cf7a9f742a43b89fe6b6c1877548391d231/large-image-converter-1.9.1.dev8.tar.gz
+[2023-07-13 14:40:50] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/14/85/dcf8ab018bbc225f911ce5f407f5d2b730dcf1cbe3c337d8c462c8444d4e/elody-0.0.8.tar.gz
+[2023-07-13 14:40:50] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/da/e8/7538a58b2cee01f9e84397d4702c69be6020ec475b7633a150c27e9db083/orchestrator_core-1.2.2rc2.tar.gz
+[2023-07-13 14:40:50] INFO root fetch - processPackages [large-image-tasks]: Downloading https://files.pythonhosted.org/packages/d2/92/d072fa606a4761eb667b0efc0ba4137c9f9b34386f41757c597cdeff49d5/large-image-tasks-1.9.1.dev6.tar.gz
+[2023-07-13 14:40:50] INFO root fetch - processPackages [large-image-converter]: executing diffoscope
+[2023-07-13 14:40:50] INFO root fetch - processPackages [large-image-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-converter-1.9.1.dev6.tar.gz tmp/large-image-converter-1.9.1.dev8.tar.gz --markdown 20230713/l/large-image-converter/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-13 14:40:50] INFO root fetch - processPackages [girder-large-image]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-1.9.1.dev6.tar.gz]
+[2023-07-13 14:40:50] INFO root fetch - processPackages [girder-large-image]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-1.9.1.dev8.tar.gz]
+[2023-07-13 14:40:50] INFO root fetch - processPackages [girder-large-image]: Start processing: large-image-source-bioformats
+[2023-07-13 14:40:50] INFO root fetch - main [MainThread]: End processing [girder-large-image]: success
+[2023-07-13 14:40:50] INFO root fetch - processPackages [girder-large-image-annotation]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz]
+[2023-07-13 14:40:50] INFO root fetch - processPackages [girder-large-image-annotation]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz]
+[2023-07-13 14:40:50] INFO root fetch - main [MainThread]: End processing [girder-large-image-annotation]: success
+[2023-07-13 14:40:50] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/99/6f/f71f54ed05b6deb367f13a4a8fb4bbcc9f25633144ffc11127b732f02e92/elody-0.0.9.tar.gz
+[2023-07-13 14:40:50] INFO root fetch - processPackages [large-image-source-bioformats]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-07-13 14:40:50] INFO root fetch - processPackages [large-image-tasks]: Downloading https://files.pythonhosted.org/packages/59/66/7de5976597497ff75f76e9d1e817dc755ed82ff85669b1f9613d1b27c9e8/large-image-tasks-1.9.1.dev8.tar.gz
+[2023-07-13 14:40:50] INFO root fetch - processPackages [large-image-source-bioformats]: Downloading https://files.pythonhosted.org/packages/9f/7d/764189c337fd7a890bec6278bb2e1d065d51af7f06726f3d00b6d3836aa4/large-image-source-bioformats-1.9.1.dev6.tar.gz
+[2023-07-13 14:40:50] INFO root fetch - processPackages [elody]: executing diffoscope
+[2023-07-13 14:40:50] INFO root fetch - processPackages [elody]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elody-0.0.8.tar.gz tmp/elody-0.0.9.tar.gz --markdown 20230713/e/elody/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 14:40:50] INFO root fetch - processPackages [large-image-tasks]: executing diffoscope
+[2023-07-13 14:40:50] INFO root fetch - processPackages [large-image-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-tasks-1.9.1.dev6.tar.gz tmp/large-image-tasks-1.9.1.dev8.tar.gz --markdown 20230713/l/large-image-tasks/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-13 14:40:51] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/ad/bc/4d0bd7d732128686cebfd1036f38ce826c3a1ce1a24e43ee5a38e301515f/orchestrator_core-1.2.2rc3.tar.gz
+[2023-07-13 14:40:51] INFO root fetch - processPackages [large-image-source-bioformats]: Downloading https://files.pythonhosted.org/packages/be/b1/457ea10f23a8022b9045522623e3c24789e308b80800b4fd679928bb7cf8/large-image-source-bioformats-1.9.1.dev8.tar.gz
+[2023-07-13 14:40:51] INFO root fetch - processPackages [large-image-source-bioformats]: executing diffoscope
+[2023-07-13 14:40:51] INFO root fetch - processPackages [large-image-source-bioformats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-bioformats-1.9.1.dev6.tar.gz tmp/large-image-source-bioformats-1.9.1.dev8.tar.gz --markdown 20230713/l/large-image-source-bioformats/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-13 14:40:51] INFO root fetch - processPackages [orchestrator-core]: executing diffoscope
+[2023-07-13 14:40:51] INFO root fetch - processPackages [orchestrator-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orchestrator_core-1.2.2rc2.tar.gz tmp/orchestrator_core-1.2.2rc3.tar.gz --markdown 20230713/o/orchestrator-core/1.2.2rc2-1.2.2rc3/diff.md --exclude *.pyd
+[2023-07-13 14:40:52] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.76.0.tar.gz]
+[2023-07-13 14:40:52] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.77.0.tar.gz]
+[2023-07-13 14:40:52] INFO root fetch - main [MainThread]: End processing [libmata]: success
+[2023-07-13 14:40:52] INFO root fetch - processPackages [large-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/large-image-converter-1.9.1.dev6.tar.gz]
+[2023-07-13 14:40:52] INFO root fetch - processPackages [large-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/large-image-converter-1.9.1.dev8.tar.gz]
+[2023-07-13 14:40:52] INFO root fetch - main [MainThread]: End processing [large-image-converter]: success
+[2023-07-13 14:40:52] INFO root fetch - processPackages [large-image-tasks]: Remove: archive file [/home/abi/fetcher/tmp/large-image-tasks-1.9.1.dev6.tar.gz]
+[2023-07-13 14:40:52] INFO root fetch - processPackages [large-image-tasks]: Remove: archive file [/home/abi/fetcher/tmp/large-image-tasks-1.9.1.dev8.tar.gz]
+[2023-07-13 14:40:52] INFO root fetch - main [MainThread]: End processing [large-image-tasks]: success
+[2023-07-13 14:40:52] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.8.tar.gz]
+[2023-07-13 14:40:52] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.9.tar.gz]
+[2023-07-13 14:40:52] INFO root fetch - main [MainThread]: End processing [elody]: success
+[2023-07-13 14:40:52] INFO root fetch - processPackages [large-image-source-bioformats]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-bioformats-1.9.1.dev6.tar.gz]
+[2023-07-13 14:40:52] INFO root fetch - processPackages [large-image-source-bioformats]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-bioformats-1.9.1.dev8.tar.gz]
+[2023-07-13 14:40:52] INFO root fetch - main [MainThread]: End processing [large-image-source-bioformats]: success
+[2023-07-13 14:40:53] INFO root fetch - processPackages [ephios]: Remove: archive file [/home/abi/fetcher/tmp/ephios-0.9.2.tar.gz]
+[2023-07-13 14:40:53] INFO root fetch - processPackages [ephios]: Remove: archive file [/home/abi/fetcher/tmp/ephios-0.9.3.tar.gz]
+[2023-07-13 14:40:53] INFO root fetch - main [MainThread]: End processing [ephios]: success
+[2023-07-13 14:40:53] INFO root fetch - processPackages [amlopsvueelements]: Remove: archive file [/home/abi/fetcher/tmp/amlopsvueelements-1.2.8.tar.gz]
+[2023-07-13 14:40:53] INFO root fetch - processPackages [amlopsvueelements]: Remove: archive file [/home/abi/fetcher/tmp/amlopsvueelements-1.2.9.tar.gz]
+[2023-07-13 14:40:53] INFO root fetch - main [MainThread]: End processing [amlopsvueelements]: success
+[2023-07-13 14:40:54] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.7a1.tar.gz]
+[2023-07-13 14:40:54] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.7a2.tar.gz]
+[2023-07-13 14:40:54] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-07-13 14:40:54] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-1.2.2rc2.tar.gz]
+[2023-07-13 14:40:54] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-1.2.2rc3.tar.gz]
+[2023-07-13 14:40:54] INFO root fetch - main [MainThread]: End processing [orchestrator-core]: success
+[2023-07-13 14:40:54] INFO root fetch - main [MainThread]: Store serial: [18874739]
