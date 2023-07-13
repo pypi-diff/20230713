@@ -21271,3 +21271,75 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 14:06:56] INFO root fetch - processPackages [groupdocs-parser-cloud]: Remove: archive file [/home/abi/fetcher/tmp/groupdocs-parser-cloud-23.7.tar.gz]
 [2023-07-13 14:06:56] INFO root fetch - main [MainThread]: End processing [groupdocs-parser-cloud]: success
 [2023-07-13 14:06:56] INFO root fetch - main [MainThread]: Store serial: [18874397]
+[2023-07-13 14:12:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18874397]
+[2023-07-13 14:12:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-13 14:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shapelets-native
+[2023-07-13 14:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonblocking-logging
+[2023-07-13 14:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AutoCarver
+[2023-07-13 14:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wslshot
+[2023-07-13 14:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: viggocore
+[2023-07-13 14:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-mrp-component-operation
+[2023-07-13 14:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simple-plugin-manager-zimolab1995
+[2023-07-13 14:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modelbase
+[2023-07-13 14:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: uagents-whatsapp-test
+[2023-07-13 14:12:05] INFO root fetch - processPackages [viggocore]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 14:12:05] INFO root fetch - processPackages [simple-plugin-manager-zimolab1995]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-13 14:12:05] WARNING root fetch - processPackages [nonblocking-logging]: Skipping, unable to determine old version
+[2023-07-13 14:12:05] INFO root fetch - main [MainThread]: End processing [nonblocking-logging] error
+[2023-07-13 14:12:05] INFO root fetch - processPackages [wslshot]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-13 14:12:05] WARNING root fetch - processPackages [uagents-whatsapp-test]: Skipping, unable to determine old version
+[2023-07-13 14:12:05] INFO root fetch - main [MainThread]: End processing [uagents-whatsapp-test] error
+[2023-07-13 14:12:05] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation]: New version: [14.0.1.1.0] Old Version: [14.0.1.0.3.dev4]
+[2023-07-13 14:12:05] INFO root fetch - processPackages [AutoCarver]: New version: [5.0.0] Old Version: [4.4.1]
+[2023-07-13 14:12:05] INFO root fetch - processPackages [shapelets-native]: New version: [2.0.87] Old Version: [2.0.86]
+[2023-07-13 14:12:05] INFO root fetch - processPackages [modelbase]: New version: [1rc2] Old Version: [1.9.3]
+[2023-07-13 14:12:05] INFO root fetch - processPackages [wslshot]: Downloading https://files.pythonhosted.org/packages/32/20/201674aebdf4814d9d185668f7a04c2001bebad6881b8c8b3338979e9c21/wslshot-0.0.6.tar.gz
+[2023-07-13 14:12:05] INFO root fetch - processPackages [simple-plugin-manager-zimolab1995]: Downloading https://files.pythonhosted.org/packages/67/59/1d07bb4efb99f6b0f87e03f7133bfd74bc31d0e0bcac608d0bc7d99d2c3c/simple_plugin_manager_zimolab1995-0.0.2.tar.gz
+[2023-07-13 14:12:06] INFO root fetch - processPackages [viggocore]: Downloading https://files.pythonhosted.org/packages/44/a4/b53890f9517cd552c125fa1ae85fff95c7ba53cd9ef625b0db39a9ae2e8a/viggocore-1.0.8.tar.gz
+[2023-07-13 14:12:06] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/40/48/4a82227d31f8f31cced8e8f012166db390578be80c432d1115fc169bd2d7/AutoCarver-4.4.1.tar.gz
+[2023-07-13 14:12:06] INFO root fetch - processPackages [shapelets-native]: Downloading https://files.pythonhosted.org/packages/b3/62/647957ec9bc73a151877420a7913ddf12ce3a5b63bcbc3657447e86f95ab/shapelets_native-2.0.86-cp39-cp39-win_amd64.whl
+[2023-07-13 14:12:06] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/2d/60/61225a94c9e33f3d21366aefd4cdf1945c8805e3540a30f2fd1c5d8faa06/modelbase-1.9.3.tar.gz
+[2023-07-13 14:12:06] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation]: Downloading https://files.pythonhosted.org/packages/25/c2/04267824de16fee33d6d1b3989a233566f1e68575921f7874f49c65ba1ce/odoo14_addon_mrp_component_operation-14.0.1.0.3.dev4-py3-none-any.whl
+[2023-07-13 14:12:06] INFO root fetch - processPackages [simple-plugin-manager-zimolab1995]: Downloading https://files.pythonhosted.org/packages/b1/fe/8efa0b1dd3109c192ba3cd5086fd856c5dd876a276515f8903229f3a54cf/simple_plugin_manager_zimolab1995-0.0.3.tar.gz
+[2023-07-13 14:12:06] INFO root fetch - processPackages [wslshot]: Downloading https://files.pythonhosted.org/packages/17/e0/68555d7cbac3c07acb63cf810815d397a83a5ec1b7f02e91e968014a49d2/wslshot-0.0.7.tar.gz
+[2023-07-13 14:12:06] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/8d/df/fb1f4a3af12620cb6f857b32967e33d2115881466df1e2753c10c2865b43/AutoCarver-5.0.0.tar.gz
+[2023-07-13 14:12:06] INFO root fetch - processPackages [wslshot]: executing diffoscope
+[2023-07-13 14:12:06] INFO root fetch - processPackages [wslshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wslshot-0.0.6.tar.gz tmp/wslshot-0.0.7.tar.gz --markdown 20230713/w/wslshot/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-13 14:12:06] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation]: Downloading https://files.pythonhosted.org/packages/a6/77/ec07279fb66fc134a702d9ee2acb587e304874cd9e1666d1e7573190190d/odoo14_addon_mrp_component_operation-14.0.1.1.0-py3-none-any.whl
+[2023-07-13 14:12:06] INFO root fetch - processPackages [simple-plugin-manager-zimolab1995]: executing diffoscope
+[2023-07-13 14:12:06] INFO root fetch - processPackages [simple-plugin-manager-zimolab1995]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_plugin_manager_zimolab1995-0.0.2.tar.gz tmp/simple_plugin_manager_zimolab1995-0.0.3.tar.gz --markdown 20230713/s/simple-plugin-manager-zimolab1995/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-13 14:12:06] INFO root fetch - processPackages [viggocore]: Downloading https://files.pythonhosted.org/packages/06/6a/a468bf724f6baed9060fab846c4756b87d663d2181073440bb9d2beef5ed/viggocore-1.0.9.tar.gz
+[2023-07-13 14:12:06] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/50/e2/d6e4b5bb8eda18f7221f3af4d4f295ef693f37fbafe88e68574e7e39c29f/modelbase-1rc2.tar.gz
+[2023-07-13 14:12:06] INFO root fetch - processPackages [AutoCarver]: executing diffoscope
+[2023-07-13 14:12:06] INFO root fetch - processPackages [AutoCarver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoCarver-4.4.1.tar.gz tmp/AutoCarver-5.0.0.tar.gz --markdown 20230713/A/AutoCarver/4.4.1-5.0.0/diff.md --exclude *.pyd
+[2023-07-13 14:12:06] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation]: executing diffoscope
+[2023-07-13 14:12:06] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_component_operation-14.0.1.0.3.dev4-py3-none-any.whl.zip tmp/odoo14_addon_mrp_component_operation-14.0.1.1.0-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-mrp-component-operation/14.0.1.0.3.dev4-14.0.1.1.0/diff.md --exclude *.pyd
+[2023-07-13 14:12:06] INFO root fetch - processPackages [viggocore]: executing diffoscope
+[2023-07-13 14:12:06] INFO root fetch - processPackages [viggocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viggocore-1.0.8.tar.gz tmp/viggocore-1.0.9.tar.gz --markdown 20230713/v/viggocore/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 14:12:06] INFO root fetch - processPackages [shapelets-native]: Downloading https://files.pythonhosted.org/packages/e2/ba/a2af2d0e6f3a022fb1e5f3a925cb76a49c1ec39a6a465cbd9923e9cc3936/shapelets_native-2.0.87-cp38-cp38-win_amd64.whl
+[2023-07-13 14:12:06] INFO root fetch - processPackages [modelbase]: executing diffoscope
+[2023-07-13 14:12:06] INFO root fetch - processPackages [modelbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase-1.9.3.tar.gz tmp/modelbase-1rc2.tar.gz --markdown 20230713/m/modelbase/1.9.3-1rc2/diff.md --exclude *.pyd
+[2023-07-13 14:12:07] INFO root fetch - processPackages [simple-plugin-manager-zimolab1995]: Remove: archive file [/home/abi/fetcher/tmp/simple_plugin_manager_zimolab1995-0.0.2.tar.gz]
+[2023-07-13 14:12:07] INFO root fetch - processPackages [simple-plugin-manager-zimolab1995]: Remove: archive file [/home/abi/fetcher/tmp/simple_plugin_manager_zimolab1995-0.0.3.tar.gz]
+[2023-07-13 14:12:07] INFO root fetch - main [MainThread]: End processing [simple-plugin-manager-zimolab1995]: success
+[2023-07-13 14:12:07] INFO root fetch - processPackages [wslshot]: Remove: archive file [/home/abi/fetcher/tmp/wslshot-0.0.6.tar.gz]
+[2023-07-13 14:12:07] INFO root fetch - processPackages [wslshot]: Remove: archive file [/home/abi/fetcher/tmp/wslshot-0.0.7.tar.gz]
+[2023-07-13 14:12:07] INFO root fetch - main [MainThread]: End processing [wslshot]: success
+[2023-07-13 14:12:07] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-4.4.1.tar.gz]
+[2023-07-13 14:12:07] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.0.0.tar.gz]
+[2023-07-13 14:12:07] INFO root fetch - main [MainThread]: End processing [AutoCarver]: success
+[2023-07-13 14:12:08] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1.9.3.tar.gz]
+[2023-07-13 14:12:08] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1rc2.tar.gz]
+[2023-07-13 14:12:08] INFO root fetch - main [MainThread]: End processing [modelbase]: success
+[2023-07-13 14:12:08] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_component_operation-14.0.1.0.3.dev4-py3-none-any.whl.zip]
+[2023-07-13 14:12:08] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_component_operation-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-13 14:12:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-component-operation]: success
+[2023-07-13 14:12:08] INFO root fetch - processPackages [viggocore]: Remove: archive file [/home/abi/fetcher/tmp/viggocore-1.0.8.tar.gz]
+[2023-07-13 14:12:08] INFO root fetch - processPackages [viggocore]: Remove: archive file [/home/abi/fetcher/tmp/viggocore-1.0.9.tar.gz]
+[2023-07-13 14:12:08] INFO root fetch - main [MainThread]: End processing [viggocore]: success
+[2023-07-13 14:12:08] INFO root fetch - processPackages [shapelets-native]: executing diffoscope
+[2023-07-13 14:12:08] INFO root fetch - processPackages [shapelets-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapelets_native-2.0.86-cp39-cp39-win_amd64.whl.zip tmp/shapelets_native-2.0.87-cp38-cp38-win_amd64.whl.zip --markdown 20230713/s/shapelets-native/2.0.86-2.0.87/diff.md --exclude *.pyd
+[2023-07-13 14:12:09] INFO root fetch - processPackages [shapelets-native]: Remove: archive file [/home/abi/fetcher/tmp/shapelets_native-2.0.86-cp39-cp39-win_amd64.whl.zip]
+[2023-07-13 14:12:09] INFO root fetch - processPackages [shapelets-native]: Remove: archive file [/home/abi/fetcher/tmp/shapelets_native-2.0.87-cp38-cp38-win_amd64.whl.zip]
+[2023-07-13 14:12:09] INFO root fetch - main [MainThread]: End processing [shapelets-native]: success
+[2023-07-13 14:12:09] INFO root fetch - main [MainThread]: Store serial: [18874427]
