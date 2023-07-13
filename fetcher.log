@@ -14534,3 +14534,154 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 10:27:54] INFO root fetch - processPackages [parse-k8s-resources]: Remove: archive file [/home/abi/fetcher/tmp/parse-k8s-resources-0.0.2.tar.gz]
 [2023-07-13 10:27:54] INFO root fetch - main [MainThread]: End processing [parse-k8s-resources]: success
 [2023-07-13 10:27:54] INFO root fetch - main [MainThread]: Store serial: [18871871]
+[2023-07-13 10:32:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18871871]
+[2023-07-13 10:33:04] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-13 10:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sekoia-automation-sdk
+[2023-07-13 10:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trl
+[2023-07-13 10:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nkj
+[2023-07-13 10:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nkj
+[2023-07-13 10:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: EModelRunner
+[2023-07-13 10:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-ec2-instance-connect-custom-resource
+[2023-07-13 10:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xj-common
+[2023-07-13 10:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: badgers
+[2023-07-13 10:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nics
+[2023-07-13 10:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ecallisto-ng
+[2023-07-13 10:33:04] INFO root fetch - processPackages [nics]: New version: [2.8.2] Old Version: [2.8.1]
+[2023-07-13 10:33:04] INFO root fetch - processPackages [sekoia-automation-sdk]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-07-13 10:33:04] INFO root fetch - processPackages [trl]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-07-13 10:33:04] INFO root fetch - processPackages [EModelRunner]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-13 10:33:04] INFO root fetch - processPackages [nkj]: New version: [1.1] Old Version: [0.93]
+[2023-07-13 10:33:04] INFO root fetch - processPackages [ecallisto-ng]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-13 10:33:04] INFO root fetch - processPackages [nkj]: New version: [1.1] Old Version: [0.93]
+[2023-07-13 10:33:04] INFO root fetch - processPackages [badgers]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-13 10:33:04] INFO root fetch - processPackages [xj-common]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 10:33:04] WARNING root fetch - processPackages [aws-ec2-instance-connect-custom-resource]: Skipping, unable to determine old version
+[2023-07-13 10:33:04] INFO root fetch - processPackages [aws-ec2-instance-connect-custom-resource]: Start processing: delphai-fastapi
+[2023-07-13 10:33:04] INFO root fetch - main [MainThread]: End processing [aws-ec2-instance-connect-custom-resource] error
+[2023-07-13 10:33:04] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/e7/7a/569b386e60c55ab92d88791a44c72afe26adc96d0c613b50080611abae36/nics-2.8.1.tar.gz
+[2023-07-13 10:33:04] INFO root fetch - processPackages [sekoia-automation-sdk]: Downloading https://files.pythonhosted.org/packages/58/32/56b88b0b0e591827dc71a295a3ec4c396c753db49f3199e72792a9e9a0c9/sekoia_automation_sdk-1.3.7.tar.gz
+[2023-07-13 10:33:04] INFO root fetch - processPackages [delphai-fastapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-13 10:33:04] INFO root fetch - processPackages [xj-common]: Downloading https://files.pythonhosted.org/packages/b3/52/f57e547bfff3498ef241412dab5c76a22d267cd4d6fd77052d8fd2905d8a/xj_common-1.0.8.tar.gz
+[2023-07-13 10:33:05] INFO root fetch - processPackages [nkj]: Downloading https://files.pythonhosted.org/packages/d3/a9/a23ebb49f269f8e18efae2b96749b1857e249604fa1d49f84ecede291159/nkj-0.93.tar.gz
+[2023-07-13 10:33:05] INFO root fetch - processPackages [nkj]: Downloading https://files.pythonhosted.org/packages/d3/a9/a23ebb49f269f8e18efae2b96749b1857e249604fa1d49f84ecede291159/nkj-0.93.tar.gz
+[2023-07-13 10:33:05] INFO root fetch - processPackages [trl]: Downloading https://files.pythonhosted.org/packages/02/cf/d887a265cf406b5f57fabbdd2a17138f29d9bc3a0e04d874a7396f475cad/trl-0.4.6.tar.gz
+[2023-07-13 10:33:05] INFO root fetch - processPackages [ecallisto-ng]: Downloading https://files.pythonhosted.org/packages/3e/fe/883d695db949bcb95a415c13f37a94fac82fd17e8388fee0d1626b128184/ecallisto_ng-0.1.0.tar.gz
+[2023-07-13 10:33:05] INFO root fetch - processPackages [EModelRunner]: Downloading https://files.pythonhosted.org/packages/9d/72/a73be0059677ac21267b7e278445669d1dbbf87faf6df1937edee503f97f/EModelRunner-1.1.8.tar.gz
+[2023-07-13 10:33:05] INFO root fetch - processPackages [badgers]: Downloading https://files.pythonhosted.org/packages/86/d3/fd5e584c926f4e0290975005a6f6355eee2a880e42598202607a606bde33/badgers-0.0.2.tar.gz
+[2023-07-13 10:33:05] INFO root fetch - processPackages [sekoia-automation-sdk]: Downloading https://files.pythonhosted.org/packages/66/99/fac4ee142182aeaa5fbc378f3cd426f68047d320336f0ebc34c36a61c4dd/sekoia_automation_sdk-1.3.8.tar.gz
+[2023-07-13 10:33:05] INFO root fetch - processPackages [delphai-fastapi]: Downloading https://files.pythonhosted.org/packages/37/cf/cc607c0deb951cad696f28f221d196cdf10dd5df7e116b52a30a16d40624/delphai_fastapi-0.1.8.tar.gz
+[2023-07-13 10:33:05] INFO root fetch - processPackages [xj-common]: Downloading https://files.pythonhosted.org/packages/e7/02/3b3bbfc48d247cf8d477729491ec2d1f4c2947a9f2c01c948da7088586f5/xj_common-1.0.9.tar.gz
+[2023-07-13 10:33:05] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/ed/52/53e4ea2f56130c4685390cbc97d0efe018dbe3224e5d15f5fae413b4620b/nics-2.8.2.tar.gz
+[2023-07-13 10:33:05] INFO root fetch - processPackages [sekoia-automation-sdk]: executing diffoscope
+[2023-07-13 10:33:05] INFO root fetch - processPackages [sekoia-automation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sekoia_automation_sdk-1.3.7.tar.gz tmp/sekoia_automation_sdk-1.3.8.tar.gz --markdown 20230713/s/sekoia-automation-sdk/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-07-13 10:33:05] INFO root fetch - processPackages [xj-common]: executing diffoscope
+[2023-07-13 10:33:05] INFO root fetch - processPackages [xj-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_common-1.0.8.tar.gz tmp/xj_common-1.0.9.tar.gz --markdown 20230713/x/xj-common/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 10:33:05] INFO root fetch - processPackages [badgers]: Downloading https://files.pythonhosted.org/packages/c4/f6/86c8fe08bbb27b0753e00fcbf2bf17d3de709b1aeb93fe3b61804f0b9428/badgers-0.0.3.tar.gz
+[2023-07-13 10:33:05] INFO root fetch - processPackages [nkj]: Downloading https://files.pythonhosted.org/packages/d4/c7/2f803733eab5daae6393e80392bda6f07f4e24f293423bf4a323f7bc1bd6/nkj-1.1.tar.gz
+[2023-07-13 10:33:05] INFO root fetch - processPackages [nkj]: Downloading https://files.pythonhosted.org/packages/d4/c7/2f803733eab5daae6393e80392bda6f07f4e24f293423bf4a323f7bc1bd6/nkj-1.1.tar.gz
+[2023-07-13 10:33:05] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-07-13 10:33:05] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-2.8.1.tar.gz tmp/nics-2.8.2.tar.gz --markdown 20230713/n/nics/2.8.1-2.8.2/diff.md --exclude *.pyd
+[2023-07-13 10:33:05] INFO root fetch - processPackages [trl]: Downloading https://files.pythonhosted.org/packages/66/2a/e645061cf21733b1a3c9c3e8bbddedeca40f48f442f32bb62c4149269848/trl-0.4.7.tar.gz
+[2023-07-13 10:33:05] INFO root fetch - processPackages [nkj]: executing diffoscope
+[2023-07-13 10:33:05] INFO root fetch - processPackages [nkj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkj-0.93.tar.gz tmp/nkj-1.1.tar.gz --markdown 20230713/n/nkj/0.93-1.1/diff.md --exclude *.pyd
+[2023-07-13 10:33:05] INFO root fetch - processPackages [EModelRunner]: Downloading https://files.pythonhosted.org/packages/51/8c/e29428db1a20fbe7eac5b359049ce5d16626028aa41be0f4b1f92ebfa124/EModelRunner-1.1.9.tar.gz
+[2023-07-13 10:33:05] INFO root fetch - processPackages [nkj]: executing diffoscope
+[2023-07-13 10:33:05] INFO root fetch - processPackages [nkj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkj-0.93.tar.gz tmp/nkj-1.1.tar.gz --markdown 20230713/n/nkj/0.93-1.1/diff.md --exclude *.pyd
+[2023-07-13 10:33:05] INFO root fetch - processPackages [trl]: executing diffoscope
+[2023-07-13 10:33:05] INFO root fetch - processPackages [trl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trl-0.4.6.tar.gz tmp/trl-0.4.7.tar.gz --markdown 20230713/t/trl/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-07-13 10:33:05] INFO root fetch - processPackages [delphai-fastapi]: Downloading https://files.pythonhosted.org/packages/f9/10/93f5a6e84f4308960063a1c131b9675ca6ae228b346c89ac486362e7de36/delphai_fastapi-0.1.9.tar.gz
+[2023-07-13 10:33:05] INFO root fetch - processPackages [ecallisto-ng]: Downloading https://files.pythonhosted.org/packages/c2/e1/e7e1d42a1f0d39225968c9cdb1a52f7aa4e0afbeaaa544f318d18320878c/ecallisto_ng-0.1.1.tar.gz
+[2023-07-13 10:33:05] INFO root fetch - processPackages [badgers]: executing diffoscope
+[2023-07-13 10:33:05] INFO root fetch - processPackages [badgers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/badgers-0.0.2.tar.gz tmp/badgers-0.0.3.tar.gz --markdown 20230713/b/badgers/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-13 10:33:06] INFO root fetch - processPackages [delphai-fastapi]: executing diffoscope
+[2023-07-13 10:33:06] INFO root fetch - processPackages [delphai-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphai_fastapi-0.1.8.tar.gz tmp/delphai_fastapi-0.1.9.tar.gz --markdown 20230713/d/delphai-fastapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-13 10:33:06] INFO root fetch - processPackages [ecallisto-ng]: executing diffoscope
+[2023-07-13 10:33:06] INFO root fetch - processPackages [ecallisto-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecallisto_ng-0.1.0.tar.gz tmp/ecallisto_ng-0.1.1.tar.gz --markdown 20230713/e/ecallisto-ng/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-13 10:33:06] INFO root fetch - processPackages [EModelRunner]: executing diffoscope
+[2023-07-13 10:33:06] INFO root fetch - processPackages [EModelRunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EModelRunner-1.1.8.tar.gz tmp/EModelRunner-1.1.9.tar.gz --markdown 20230713/E/EModelRunner/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-13 10:33:07] INFO root fetch - processPackages [sekoia-automation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sekoia_automation_sdk-1.3.7.tar.gz]
+[2023-07-13 10:33:07] INFO root fetch - processPackages [sekoia-automation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sekoia_automation_sdk-1.3.8.tar.gz]
+[2023-07-13 10:33:07] INFO root fetch - processPackages [sekoia-automation-sdk]: Start processing: cdk8s
+[2023-07-13 10:33:07] INFO root fetch - main [MainThread]: End processing [sekoia-automation-sdk]: success
+[2023-07-13 10:33:07] INFO root fetch - processPackages [xj-common]: Remove: archive file [/home/abi/fetcher/tmp/xj_common-1.0.8.tar.gz]
+[2023-07-13 10:33:07] INFO root fetch - processPackages [xj-common]: Remove: archive file [/home/abi/fetcher/tmp/xj_common-1.0.9.tar.gz]
+[2023-07-13 10:33:07] INFO root fetch - processPackages [xj-common]: Start processing: personal-knowledge-library
+[2023-07-13 10:33:07] INFO root fetch - main [MainThread]: End processing [xj-common]: success
+[2023-07-13 10:33:07] INFO root fetch - processPackages [personal-knowledge-library]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-13 10:33:07] INFO root fetch - processPackages [cdk8s]: New version: [2.7.99] Old Version: [2.7.98]
+[2023-07-13 10:33:07] INFO root fetch - processPackages [nkj]: Remove: archive file [/home/abi/fetcher/tmp/nkj-0.93.tar.gz]
+[2023-07-13 10:33:07] INFO root fetch - processPackages [nkj]: Remove: archive file [/home/abi/fetcher/tmp/nkj-1.1.tar.gz]
+[2023-07-13 10:33:07] INFO root fetch - processPackages [nkj]: Start processing: pyOpenHaptics
+[2023-07-13 10:33:07] INFO root fetch - main [MainThread]: End processing [nkj]: success
+[2023-07-13 10:33:07] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/d8/60/774b00a08e1e8a1155f225bfc65207f11ae692dd4bd4cc19fc599853994a/cdk8s-2.7.98.tar.gz
+[2023-07-13 10:33:07] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.8.1.tar.gz]
+[2023-07-13 10:33:07] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.8.2.tar.gz]
+[2023-07-13 10:33:07] INFO root fetch - processPackages [nics]: Start processing: ECMpy
+[2023-07-13 10:33:07] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-07-13 10:33:07] INFO root fetch - processPackages [pyOpenHaptics]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-13 10:33:07] WARNING root fetch - processPackages [ECMpy]: Skipping, unable to determine old version
+[2023-07-13 10:33:07] INFO root fetch - processPackages [ECMpy]: Start processing: service-buddy-too
+[2023-07-13 10:33:07] INFO root fetch - main [MainThread]: End processing [ECMpy] error
+[2023-07-13 10:33:07] INFO root fetch - processPackages [personal-knowledge-library]: Downloading https://files.pythonhosted.org/packages/83/59/1797b9e17dcabcc7e80f1854bd9f55e14fbaf99a5634a7bfe9f8b2a174de/personal_knowledge_library-1.0.6.tar.gz
+[2023-07-13 10:33:07] INFO root fetch - processPackages [nkj]: Start processing: coregio
+[2023-07-13 10:33:07] INFO root fetch - main [MainThread]: End processing [nkj]: success
+[2023-07-13 10:33:07] INFO root fetch - processPackages [delphai-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/delphai_fastapi-0.1.8.tar.gz]
+[2023-07-13 10:33:07] INFO root fetch - processPackages [delphai-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/delphai_fastapi-0.1.9.tar.gz]
+[2023-07-13 10:33:07] INFO root fetch - processPackages [delphai-fastapi]: Start processing: mtg-ssm
+[2023-07-13 10:33:07] INFO root fetch - main [MainThread]: End processing [delphai-fastapi]: success
+[2023-07-13 10:33:07] INFO root fetch - processPackages [ecallisto-ng]: Remove: archive file [/home/abi/fetcher/tmp/ecallisto_ng-0.1.0.tar.gz]
+[2023-07-13 10:33:07] INFO root fetch - processPackages [ecallisto-ng]: Remove: archive file [/home/abi/fetcher/tmp/ecallisto_ng-0.1.1.tar.gz]
+[2023-07-13 10:33:07] INFO root fetch - main [MainThread]: End processing [ecallisto-ng]: success
+[2023-07-13 10:33:07] INFO root fetch - processPackages [service-buddy-too]: New version: [0.1.59] Old Version: [0.1.58]
+[2023-07-13 10:33:07] INFO root fetch - processPackages [mtg-ssm]: New version: [2.6.2.dev3] Old Version: [2.6.2.dev2]
+[2023-07-13 10:33:07] INFO root fetch - processPackages [trl]: Remove: archive file [/home/abi/fetcher/tmp/trl-0.4.6.tar.gz]
+[2023-07-13 10:33:07] INFO root fetch - processPackages [trl]: Remove: archive file [/home/abi/fetcher/tmp/trl-0.4.7.tar.gz]
+[2023-07-13 10:33:07] INFO root fetch - main [MainThread]: End processing [trl]: success
+[2023-07-13 10:33:07] INFO root fetch - processPackages [pyOpenHaptics]: Downloading https://files.pythonhosted.org/packages/bf/43/cbc260c08df6558ee988e7a5fa0e99837f6c974ad1a68fcbd365559cabf2/pyOpenHaptics-0.0.2.tar.gz
+[2023-07-13 10:33:07] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/23/d1/ee5cf44f421921d790a4e0d2cf87c118188da9c30cbece10e0e66cf115fe/cdk8s-2.7.99.tar.gz
+[2023-07-13 10:33:07] INFO root fetch - processPackages [coregio]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-13 10:33:08] INFO root fetch - processPackages [mtg-ssm]: Downloading https://files.pythonhosted.org/packages/11/9a/fc8e9096480500e889fdb7ae0df590f92300e87624aea6da65e914f5fd23/mtg_ssm-2.6.2.dev2.tar.gz
+[2023-07-13 10:33:08] INFO root fetch - processPackages [badgers]: Remove: archive file [/home/abi/fetcher/tmp/badgers-0.0.2.tar.gz]
+[2023-07-13 10:33:08] INFO root fetch - processPackages [badgers]: Remove: archive file [/home/abi/fetcher/tmp/badgers-0.0.3.tar.gz]
+[2023-07-13 10:33:08] INFO root fetch - main [MainThread]: End processing [badgers]: success
+[2023-07-13 10:33:08] INFO root fetch - processPackages [service-buddy-too]: Downloading https://files.pythonhosted.org/packages/cf/92/ad3e3206833aaa111ecad05350a8d28b4a86c564e31d9dc0b1504f03df94/service-buddy-too-0.1.58.tar.gz
+[2023-07-13 10:33:08] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-13 10:33:08] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.98.tar.gz tmp/cdk8s-2.7.99.tar.gz --markdown 20230713/c/cdk8s/2.7.98-2.7.99/diff.md --exclude *.pyd
+[2023-07-13 10:33:08] INFO root fetch - processPackages [personal-knowledge-library]: Downloading https://files.pythonhosted.org/packages/de/d7/78a6108fc4a6393915faa9256a7622782dd5f5e27ca3c5d2362331a9bbe4/personal_knowledge_library-1.0.7.tar.gz
+[2023-07-13 10:33:08] INFO root fetch - processPackages [coregio]: Downloading https://files.pythonhosted.org/packages/47/30/086f56a49e01d8a668cbb5ccc08605e8fb1921dbe6ddfd146a035efdf92b/coregio-0.5.0.tar.gz
+[2023-07-13 10:33:08] INFO root fetch - processPackages [mtg-ssm]: Downloading https://files.pythonhosted.org/packages/d5/63/5a8f326baf5cebf67f2274462b642425bf195de54b427a07abdc3fc64796/mtg_ssm-2.6.2.dev3.tar.gz
+[2023-07-13 10:33:08] INFO root fetch - processPackages [personal-knowledge-library]: executing diffoscope
+[2023-07-13 10:33:08] INFO root fetch - processPackages [personal-knowledge-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/personal_knowledge_library-1.0.6.tar.gz tmp/personal_knowledge_library-1.0.7.tar.gz --markdown 20230713/p/personal-knowledge-library/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-13 10:33:08] INFO root fetch - processPackages [pyOpenHaptics]: Downloading https://files.pythonhosted.org/packages/d6/1a/e13142c17f2347c14b6204cebfdbca5b70260e11e932c87f74008cf5de6a/pyOpenHaptics-0.0.3.tar.gz
+[2023-07-13 10:33:08] INFO root fetch - processPackages [mtg-ssm]: executing diffoscope
+[2023-07-13 10:33:08] INFO root fetch - processPackages [mtg-ssm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtg_ssm-2.6.2.dev2.tar.gz tmp/mtg_ssm-2.6.2.dev3.tar.gz --markdown 20230713/m/mtg-ssm/2.6.2.dev2-2.6.2.dev3/diff.md --exclude *.pyd
+[2023-07-13 10:33:08] INFO root fetch - processPackages [pyOpenHaptics]: executing diffoscope
+[2023-07-13 10:33:08] INFO root fetch - processPackages [pyOpenHaptics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyOpenHaptics-0.0.2.tar.gz tmp/pyOpenHaptics-0.0.3.tar.gz --markdown 20230713/p/pyOpenHaptics/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-13 10:33:08] INFO root fetch - processPackages [service-buddy-too]: Downloading https://files.pythonhosted.org/packages/44/fb/d5c0a4c501668d2694bce4777f0c6f318f66ca66d01b6345bea66d79c690/service-buddy-too-0.1.59.tar.gz
+[2023-07-13 10:33:08] INFO root fetch - processPackages [service-buddy-too]: executing diffoscope
+[2023-07-13 10:33:08] INFO root fetch - processPackages [service-buddy-too]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service-buddy-too-0.1.58.tar.gz tmp/service-buddy-too-0.1.59.tar.gz --markdown 20230713/s/service-buddy-too/0.1.58-0.1.59/diff.md --exclude *.pyd
+[2023-07-13 10:33:08] INFO root fetch - processPackages [coregio]: Downloading https://files.pythonhosted.org/packages/43/3c/7ba0913ff11e2a399dc800c918e1d3a7fcaea4be22642b570bfbb9589902/coregio-0.5.1.tar.gz
+[2023-07-13 10:33:08] INFO root fetch - processPackages [coregio]: executing diffoscope
+[2023-07-13 10:33:08] INFO root fetch - processPackages [coregio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coregio-0.5.0.tar.gz tmp/coregio-0.5.1.tar.gz --markdown 20230713/c/coregio/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-13 10:33:09] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.98.tar.gz]
+[2023-07-13 10:33:09] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.99.tar.gz]
+[2023-07-13 10:33:09] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-13 10:33:09] INFO root fetch - processPackages [EModelRunner]: Remove: archive file [/home/abi/fetcher/tmp/EModelRunner-1.1.8.tar.gz]
+[2023-07-13 10:33:09] INFO root fetch - processPackages [EModelRunner]: Remove: archive file [/home/abi/fetcher/tmp/EModelRunner-1.1.9.tar.gz]
+[2023-07-13 10:33:09] INFO root fetch - main [MainThread]: End processing [EModelRunner]: success
+[2023-07-13 10:33:09] INFO root fetch - processPackages [pyOpenHaptics]: Remove: archive file [/home/abi/fetcher/tmp/pyOpenHaptics-0.0.2.tar.gz]
+[2023-07-13 10:33:09] INFO root fetch - processPackages [pyOpenHaptics]: Remove: archive file [/home/abi/fetcher/tmp/pyOpenHaptics-0.0.3.tar.gz]
+[2023-07-13 10:33:09] INFO root fetch - main [MainThread]: End processing [pyOpenHaptics]: success
+[2023-07-13 10:33:09] INFO root fetch - processPackages [personal-knowledge-library]: Remove: archive file [/home/abi/fetcher/tmp/personal_knowledge_library-1.0.6.tar.gz]
+[2023-07-13 10:33:09] INFO root fetch - processPackages [personal-knowledge-library]: Remove: archive file [/home/abi/fetcher/tmp/personal_knowledge_library-1.0.7.tar.gz]
+[2023-07-13 10:33:09] INFO root fetch - main [MainThread]: End processing [personal-knowledge-library]: success
+[2023-07-13 10:33:09] INFO root fetch - processPackages [mtg-ssm]: Remove: archive file [/home/abi/fetcher/tmp/mtg_ssm-2.6.2.dev2.tar.gz]
+[2023-07-13 10:33:09] INFO root fetch - processPackages [mtg-ssm]: Remove: archive file [/home/abi/fetcher/tmp/mtg_ssm-2.6.2.dev3.tar.gz]
+[2023-07-13 10:33:09] INFO root fetch - main [MainThread]: End processing [mtg-ssm]: success
+[2023-07-13 10:33:09] INFO root fetch - processPackages [service-buddy-too]: Remove: archive file [/home/abi/fetcher/tmp/service-buddy-too-0.1.58.tar.gz]
+[2023-07-13 10:33:09] INFO root fetch - processPackages [service-buddy-too]: Remove: archive file [/home/abi/fetcher/tmp/service-buddy-too-0.1.59.tar.gz]
+[2023-07-13 10:33:09] INFO root fetch - main [MainThread]: End processing [service-buddy-too]: success
+[2023-07-13 10:33:09] INFO root fetch - processPackages [coregio]: Remove: archive file [/home/abi/fetcher/tmp/coregio-0.5.0.tar.gz]
+[2023-07-13 10:33:09] INFO root fetch - processPackages [coregio]: Remove: archive file [/home/abi/fetcher/tmp/coregio-0.5.1.tar.gz]
+[2023-07-13 10:33:09] INFO root fetch - main [MainThread]: End processing [coregio]: success
+[2023-07-13 10:33:09] INFO root fetch - main [MainThread]: Store serial: [18871939]
