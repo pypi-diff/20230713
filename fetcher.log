@@ -8990,3 +8990,116 @@
 [2023-07-13 06:08:07] INFO root fetch - processPackages [pympipool]: Remove: archive file [/home/abi/fetcher/tmp/pympipool-0.5.3.tar.gz]
 [2023-07-13 06:08:07] INFO root fetch - main [MainThread]: End processing [pympipool]: success
 [2023-07-13 06:08:07] INFO root fetch - main [MainThread]: Store serial: [18869705]
+[2023-07-13 06:13:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18869705]
+[2023-07-13 06:13:15] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-13 06:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minchin.pelican.readers.microblog
+[2023-07-13 06:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: marsilea
+[2023-07-13 06:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Vlt-Comm
+[2023-07-13 06:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-us-gaap
+[2023-07-13 06:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-l10n-usa
+[2023-07-13 06:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: just-jobs
+[2023-07-13 06:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo11-addon-maintenance-plan
+[2023-07-13 06:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo11-addon-maintenance-equipment-status
+[2023-07-13 06:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo11-addon-base-maintenance
+[2023-07-13 06:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo13-addon-maintenance-plan
+[2023-07-13 06:13:16] INFO root fetch - processPackages [odoo11-addon-base-maintenance]: New version: [11.0.1.0.0.99.dev8] Old Version: [11.0.1.0.0.99.dev7]
+[2023-07-13 06:13:16] WARNING root fetch - processPackages [minchin.pelican.readers.microblog]: Skipping, unable to determine old version
+[2023-07-13 06:13:16] INFO root fetch - processPackages [minchin.pelican.readers.microblog]: Start processing: objectfinder
+[2023-07-13 06:13:16] INFO root fetch - main [MainThread]: End processing [minchin.pelican.readers.microblog] error
+[2023-07-13 06:13:16] INFO root fetch - processPackages [odoo-addons-oca-l10n-usa]: New version: [16.0.20230712.0] Old Version: [16.0.20230316.0]
+[2023-07-13 06:13:16] INFO root fetch - processPackages [Vlt-Comm]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-13 06:13:16] INFO root fetch - processPackages [just-jobs]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-13 06:13:16] INFO root fetch - processPackages [odoo13-addon-maintenance-plan]: New version: [13.0.1.9.1.dev2] Old Version: [13.0.1.9.1.dev1]
+[2023-07-13 06:13:16] INFO root fetch - processPackages [odoo-addon-l10n-us-gaap]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-07-13 06:13:16] INFO root fetch - processPackages [odoo11-addon-maintenance-equipment-status]: New version: [11.0.1.0.0.99.dev8] Old Version: [11.0.1.0.0.99.dev4]
+[2023-07-13 06:13:16] INFO root fetch - processPackages [odoo11-addon-maintenance-plan]: New version: [11.0.2.4.1.99.dev2] Old Version: [11.0.2.4.1.99.dev1]
+[2023-07-13 06:13:16] INFO root fetch - processPackages [marsilea]: New version: [0.3.0rc2] Old Version: [0.3.0rc1]
+[2023-07-13 06:13:16] WARNING root fetch - processPackages [objectfinder]: Skipping, unable to determine old version
+[2023-07-13 06:13:16] INFO root fetch - processPackages [objectfinder]: Start processing: odoo-addon-maintenance-equipment-status
+[2023-07-13 06:13:16] INFO root fetch - main [MainThread]: End processing [objectfinder] error
+[2023-07-13 06:13:16] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-07-13 06:13:16] INFO root fetch - processPackages [just-jobs]: Downloading https://files.pythonhosted.org/packages/99/82/50a164922a1b53a329753a2bb52b0ff52005b58c5a8ad1120374582d96e1/just_jobs-2.0.0.tar.gz
+[2023-07-13 06:13:16] INFO root fetch - processPackages [odoo-addons-oca-l10n-usa]: Downloading https://files.pythonhosted.org/packages/f3/17/ec4eceb689ec3dfd1265239361985de990a4070e177e3e7cd5595e865a9d/odoo_addons_oca_l10n_usa-16.0.20230316.0-py3-none-any.whl
+[2023-07-13 06:13:16] INFO root fetch - processPackages [odoo-addon-l10n-us-gaap]: Downloading https://files.pythonhosted.org/packages/c3/af/2043ac38e70f997f921c7ba478749ffd3acd29573676ec272ff848abf508/odoo_addon_l10n_us_gaap-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-13 06:13:16] INFO root fetch - processPackages [odoo11-addon-base-maintenance]: Downloading https://files.pythonhosted.org/packages/71/6b/db5e7bffe36be9a23f324f6f38ebee6a8d3ecd798bb615451efb69de9052/odoo11_addon_base_maintenance-11.0.1.0.0.99.dev7-py2.py3-none-any.whl
+[2023-07-13 06:13:16] INFO root fetch - processPackages [odoo13-addon-maintenance-plan]: Downloading https://files.pythonhosted.org/packages/28/14/4e6d3a049c9fe4605722ac016101ab7152f0e9329fa613c5f97cd55d7e49/odoo13_addon_maintenance_plan-13.0.1.9.1.dev1-py3-none-any.whl
+[2023-07-13 06:13:16] INFO root fetch - processPackages [odoo11-addon-maintenance-plan]: Downloading https://files.pythonhosted.org/packages/08/1d/beea97f1d1fad8d1ce87f83d23e7590b2ba3e056c1bb5a1a70f6ae9ee2fc/odoo11_addon_maintenance_plan-11.0.2.4.1.99.dev1-py2.py3-none-any.whl
+[2023-07-13 06:13:16] INFO root fetch - processPackages [marsilea]: Downloading https://files.pythonhosted.org/packages/a0/4c/ec0891a721c755dec82c7f5677ff699e7e8606d0101649a8de7c1c00428c/marsilea-0.3.0rc1.tar.gz
+[2023-07-13 06:13:16] INFO root fetch - processPackages [Vlt-Comm]: Downloading https://files.pythonhosted.org/packages/7f/86/160d3f84a987c888b4fb17aab086b402dc0e6b7bae14bb902db1798e4192/Vlt-Comm-0.1.8.tar.gz
+[2023-07-13 06:13:16] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: Downloading https://files.pythonhosted.org/packages/ae/82/03ab70485474491fdf579ffb42d4ee911912517052cc7770028d9955efca/odoo_addon_maintenance_equipment_status-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-13 06:13:16] INFO root fetch - processPackages [odoo11-addon-maintenance-equipment-status]: Downloading https://files.pythonhosted.org/packages/3a/f6/0b30f8fda2a27725d66e0aa33cf688b626ee3044e5eefe49947a2b8c9119/odoo11_addon_maintenance_equipment_status-11.0.1.0.0.99.dev4-py2.py3-none-any.whl
+[2023-07-13 06:13:16] WARNING root fetch - processPackages [marsilea]: Skipping package: exceeds size limit 51260772>=10485760
+[2023-07-13 06:13:16] INFO root fetch - processPackages [marsilea]: Start processing: odoo-addon-maintenance-plan
+[2023-07-13 06:13:16] INFO root fetch - main [MainThread]: End processing [marsilea] error
+[2023-07-13 06:13:16] INFO root fetch - processPackages [odoo-addon-maintenance-plan]: New version: [15.0.1.7.0.6] Old Version: [15.0.1.7.0.5]
+[2023-07-13 06:13:16] INFO root fetch - processPackages [odoo-addons-oca-l10n-usa]: Downloading https://files.pythonhosted.org/packages/a2/f6/c4480a16f8a4efa38a636e17b463e8adb75cb8a12554adff5924c74a904e/odoo_addons_oca_l10n_usa-16.0.20230712.0-py3-none-any.whl
+[2023-07-13 06:13:16] INFO root fetch - processPackages [just-jobs]: Downloading https://files.pythonhosted.org/packages/6e/af/278504654cd20ff39fa913a56cdda9d7dc8370b9e6a46517e04201853481/just_jobs-2.1.0.tar.gz
+[2023-07-13 06:13:16] INFO root fetch - processPackages [odoo11-addon-base-maintenance]: Downloading https://files.pythonhosted.org/packages/ef/92/e58a20fe6a94083b138a71d51bd68acf66378d43df756563a1ea0dad981f/odoo11_addon_base_maintenance-11.0.1.0.0.99.dev8-py2.py3-none-any.whl
+[2023-07-13 06:13:16] INFO root fetch - processPackages [odoo-addon-l10n-us-gaap]: Downloading https://files.pythonhosted.org/packages/f7/cb/38afafccf7b4f26322d59f10d979f257563815290c7e4beb59deffcc788f/odoo_addon_l10n_us_gaap-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-13 06:13:16] INFO root fetch - processPackages [odoo-addons-oca-l10n-usa]: executing diffoscope
+[2023-07-13 06:13:16] INFO root fetch - processPackages [odoo-addons-oca-l10n-usa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_usa-16.0.20230316.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_usa-16.0.20230712.0-py3-none-any.whl.zip --markdown 20230713/o/odoo-addons-oca-l10n-usa/16.0.20230316.0-16.0.20230712.0/diff.md --exclude *.pyd
+[2023-07-13 06:13:17] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: Downloading https://files.pythonhosted.org/packages/6f/da/24ca742749446672cda5b228a1c3001a5793751290e0d1b7f0f51714c53b/odoo_addon_maintenance_equipment_status-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-13 06:13:17] INFO root fetch - processPackages [odoo13-addon-maintenance-plan]: Downloading https://files.pythonhosted.org/packages/39/a5/61358ef9dbd339321f10c133fbbd4b552c364d6a2a99a9274b6fdee2dc92/odoo13_addon_maintenance_plan-13.0.1.9.1.dev2-py3-none-any.whl
+[2023-07-13 06:13:17] INFO root fetch - processPackages [odoo11-addon-maintenance-plan]: Downloading https://files.pythonhosted.org/packages/c2/fd/6cba3d95161ed64b4bca760da1eeaceed67a60eba8ae7fac74d4c0538aa9/odoo11_addon_maintenance_plan-11.0.2.4.1.99.dev2-py2.py3-none-any.whl
+[2023-07-13 06:13:17] INFO root fetch - processPackages [just-jobs]: executing diffoscope
+[2023-07-13 06:13:17] INFO root fetch - processPackages [just-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/just_jobs-2.0.0.tar.gz tmp/just_jobs-2.1.0.tar.gz --markdown 20230713/j/just-jobs/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-13 06:13:17] INFO root fetch - processPackages [Vlt-Comm]: Downloading https://files.pythonhosted.org/packages/af/5c/e3409cd70d5bf848e78582dd0583bfb66af784561a0bcbfec5b8d0f9310d/Vlt-Comm-0.1.9.tar.gz
+[2023-07-13 06:13:17] INFO root fetch - processPackages [odoo-addon-l10n-us-gaap]: executing diffoscope
+[2023-07-13 06:13:17] INFO root fetch - processPackages [odoo-addon-l10n-us-gaap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_us_gaap-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_us_gaap-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-l10n-us-gaap/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-13 06:13:17] INFO root fetch - processPackages [odoo-addon-maintenance-plan]: Downloading https://files.pythonhosted.org/packages/b5/b0/cddef258c50ac630a80322b94f1a3a8ba9931f6e5252b986e063a2edd8ca/odoo_addon_maintenance_plan-15.0.1.7.0.5-py3-none-any.whl
+[2023-07-13 06:13:17] INFO root fetch - processPackages [odoo11-addon-maintenance-equipment-status]: Downloading https://files.pythonhosted.org/packages/36/2a/b011391b0b716711a9dd0a1ed09310f5d6a6148e82cad3ba3bbbde11a19f/odoo11_addon_maintenance_equipment_status-11.0.1.0.0.99.dev8-py2.py3-none-any.whl
+[2023-07-13 06:13:17] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: executing diffoscope
+[2023-07-13 06:13:17] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_equipment_status-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_maintenance_equipment_status-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-maintenance-equipment-status/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-13 06:13:17] INFO root fetch - processPackages [odoo11-addon-base-maintenance]: executing diffoscope
+[2023-07-13 06:13:17] INFO root fetch - processPackages [odoo11-addon-base-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_base_maintenance-11.0.1.0.0.99.dev7-py2.py3-none-any.whl.zip tmp/odoo11_addon_base_maintenance-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip --markdown 20230713/o/odoo11-addon-base-maintenance/11.0.1.0.0.99.dev7-11.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-07-13 06:13:17] INFO root fetch - processPackages [odoo13-addon-maintenance-plan]: executing diffoscope
+[2023-07-13 06:13:17] INFO root fetch - processPackages [odoo13-addon-maintenance-plan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_maintenance_plan-13.0.1.9.1.dev1-py3-none-any.whl.zip tmp/odoo13_addon_maintenance_plan-13.0.1.9.1.dev2-py3-none-any.whl.zip --markdown 20230713/o/odoo13-addon-maintenance-plan/13.0.1.9.1.dev1-13.0.1.9.1.dev2/diff.md --exclude *.pyd
+[2023-07-13 06:13:17] INFO root fetch - processPackages [odoo11-addon-maintenance-plan]: executing diffoscope
+[2023-07-13 06:13:17] INFO root fetch - processPackages [odoo11-addon-maintenance-plan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_maintenance_plan-11.0.2.4.1.99.dev1-py2.py3-none-any.whl.zip tmp/odoo11_addon_maintenance_plan-11.0.2.4.1.99.dev2-py2.py3-none-any.whl.zip --markdown 20230713/o/odoo11-addon-maintenance-plan/11.0.2.4.1.99.dev1-11.0.2.4.1.99.dev2/diff.md --exclude *.pyd
+[2023-07-13 06:13:17] INFO root fetch - processPackages [Vlt-Comm]: executing diffoscope
+[2023-07-13 06:13:17] INFO root fetch - processPackages [Vlt-Comm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Vlt-Comm-0.1.8.tar.gz tmp/Vlt-Comm-0.1.9.tar.gz --markdown 20230713/V/Vlt-Comm/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-13 06:13:17] INFO root fetch - processPackages [odoo11-addon-maintenance-equipment-status]: executing diffoscope
+[2023-07-13 06:13:17] INFO root fetch - processPackages [odoo11-addon-maintenance-equipment-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_maintenance_equipment_status-11.0.1.0.0.99.dev4-py2.py3-none-any.whl.zip tmp/odoo11_addon_maintenance_equipment_status-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip --markdown 20230713/o/odoo11-addon-maintenance-equipment-status/11.0.1.0.0.99.dev4-11.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-07-13 06:13:17] INFO root fetch - processPackages [odoo-addon-maintenance-plan]: Downloading https://files.pythonhosted.org/packages/03/2e/567bc6b7ee32f39f4428543584c4f710fb2bdb131193ac842e825b34fdb1/odoo_addon_maintenance_plan-15.0.1.7.0.6-py3-none-any.whl
+[2023-07-13 06:13:17] INFO root fetch - processPackages [odoo-addon-maintenance-plan]: executing diffoscope
+[2023-07-13 06:13:17] INFO root fetch - processPackages [odoo-addon-maintenance-plan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_plan-15.0.1.7.0.5-py3-none-any.whl.zip tmp/odoo_addon_maintenance_plan-15.0.1.7.0.6-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-maintenance-plan/15.0.1.7.0.5-15.0.1.7.0.6/diff.md --exclude *.pyd
+[2023-07-13 06:13:18] INFO root fetch - processPackages [odoo-addons-oca-l10n-usa]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_usa-16.0.20230316.0-py3-none-any.whl.zip]
+[2023-07-13 06:13:18] INFO root fetch - processPackages [odoo-addons-oca-l10n-usa]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_usa-16.0.20230712.0-py3-none-any.whl.zip]
+[2023-07-13 06:13:18] INFO root fetch - processPackages [odoo-addons-oca-l10n-usa]: Start processing: odoo-addon-maintenance-equipment-status
+[2023-07-13 06:13:18] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-usa]: success
+[2023-07-13 06:13:18] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-07-13 06:13:18] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: executing diffoscope
+[2023-07-13 06:13:18] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_equipment_status-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_maintenance_equipment_status-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-maintenance-equipment-status/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-13 06:13:18] INFO root fetch - processPackages [odoo11-addon-base-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_base_maintenance-11.0.1.0.0.99.dev7-py2.py3-none-any.whl.zip]
+[2023-07-13 06:13:18] INFO root fetch - processPackages [odoo11-addon-base-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_base_maintenance-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip]
+[2023-07-13 06:13:18] INFO root fetch - main [MainThread]: End processing [odoo11-addon-base-maintenance]: success
+[2023-07-13 06:13:18] INFO root fetch - processPackages [just-jobs]: Remove: archive file [/home/abi/fetcher/tmp/just_jobs-2.0.0.tar.gz]
+[2023-07-13 06:13:18] INFO root fetch - processPackages [just-jobs]: Remove: archive file [/home/abi/fetcher/tmp/just_jobs-2.1.0.tar.gz]
+[2023-07-13 06:13:18] INFO root fetch - main [MainThread]: End processing [just-jobs]: success
+[2023-07-13 06:13:19] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_equipment_status-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-13 06:13:19] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_equipment_status-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-13 06:13:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-equipment-status]: success
+[2023-07-13 06:13:19] INFO root fetch - processPackages [odoo11-addon-maintenance-plan]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_maintenance_plan-11.0.2.4.1.99.dev1-py2.py3-none-any.whl.zip]
+[2023-07-13 06:13:19] INFO root fetch - processPackages [odoo11-addon-maintenance-plan]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_maintenance_plan-11.0.2.4.1.99.dev2-py2.py3-none-any.whl.zip]
+[2023-07-13 06:13:19] INFO root fetch - main [MainThread]: End processing [odoo11-addon-maintenance-plan]: success
+[2023-07-13 06:13:19] INFO root fetch - processPackages [odoo11-addon-maintenance-equipment-status]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_maintenance_equipment_status-11.0.1.0.0.99.dev4-py2.py3-none-any.whl.zip]
+[2023-07-13 06:13:19] INFO root fetch - processPackages [odoo11-addon-maintenance-equipment-status]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_maintenance_equipment_status-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip]
+[2023-07-13 06:13:19] INFO root fetch - main [MainThread]: End processing [odoo11-addon-maintenance-equipment-status]: success
+[2023-07-13 06:13:19] INFO root fetch - processPackages [odoo-addon-l10n-us-gaap]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_us_gaap-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-13 06:13:19] INFO root fetch - processPackages [odoo-addon-l10n-us-gaap]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_us_gaap-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-13 06:13:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-us-gaap]: success
+[2023-07-13 06:13:19] INFO root fetch - processPackages [Vlt-Comm]: Remove: archive file [/home/abi/fetcher/tmp/Vlt-Comm-0.1.8.tar.gz]
+[2023-07-13 06:13:19] INFO root fetch - processPackages [Vlt-Comm]: Remove: archive file [/home/abi/fetcher/tmp/Vlt-Comm-0.1.9.tar.gz]
+[2023-07-13 06:13:19] INFO root fetch - main [MainThread]: End processing [Vlt-Comm]: success
+[2023-07-13 06:13:19] INFO root fetch - processPackages [odoo13-addon-maintenance-plan]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_maintenance_plan-13.0.1.9.1.dev1-py3-none-any.whl.zip]
+[2023-07-13 06:13:19] INFO root fetch - processPackages [odoo13-addon-maintenance-plan]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_maintenance_plan-13.0.1.9.1.dev2-py3-none-any.whl.zip]
+[2023-07-13 06:13:19] INFO root fetch - main [MainThread]: End processing [odoo13-addon-maintenance-plan]: success
+[2023-07-13 06:13:19] INFO root fetch - processPackages [odoo-addon-maintenance-plan]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_plan-15.0.1.7.0.5-py3-none-any.whl.zip]
+[2023-07-13 06:13:19] INFO root fetch - processPackages [odoo-addon-maintenance-plan]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_plan-15.0.1.7.0.6-py3-none-any.whl.zip]
+[2023-07-13 06:13:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-plan]: success
+[2023-07-13 06:13:19] ERROR root fetch - processPackages [odoo-addon-maintenance-equipment-status]: Diffoscope failed: time="2023-07-13T06:13:18+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/odoo_addon_maintenance_equipment_status-16.0.1.0.0.4-py3-none-any.whl.zip: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/odoo_addon_maintenance_equipment_status-16.0.1.0.0.5-py3-none-any.whl.zip: No such file or directory
+
+[2023-07-13 06:13:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-equipment-status] error
+[2023-07-13 06:13:19] INFO root fetch - main [MainThread]: Store serial: [18869744]
