@@ -8593,3 +8593,128 @@
 [2023-07-13 05:42:01] INFO root fetch - processPackages [roundup]: Remove: archive file [/home/abi/fetcher/tmp/roundup-2.3.0b2.tar.gz]
 [2023-07-13 05:42:01] INFO root fetch - main [MainThread]: End processing [roundup]: success
 [2023-07-13 05:42:01] INFO root fetch - main [MainThread]: Store serial: [18869564]
+[2023-07-13 05:47:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18869564]
+[2023-07-13 05:47:10] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-13 05:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-br-contract
+[2023-07-13 05:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-l10n-br-fiscal
+[2023-07-13 05:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-br-pos
+[2023-07-13 05:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-br-purchase
+[2023-07-13 05:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-l10n-br-sale
+[2023-07-13 05:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-br-stock-account
+[2023-07-13 05:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cjm-yolox-pytorch
+[2023-07-13 05:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zfl-ai
+[2023-07-13 05:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-l10n-br-nfe
+[2023-07-13 05:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-l10n-br-repair
+[2023-07-13 05:47:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: New version: [14.0.3.2.3.dev2] Old Version: [14.0.3.2.2]
+[2023-07-13 05:47:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: New version: [14.0.2.2.1.dev2] Old Version: [14.0.2.2.0]
+[2023-07-13 05:47:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale]: New version: [14.0.3.2.1.dev2] Old Version: [14.0.3.2.0]
+[2023-07-13 05:47:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: New version: [14.0.3.1.2.dev2] Old Version: [14.0.3.1.1]
+[2023-07-13 05:47:11] INFO root fetch - processPackages [zfl-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 05:47:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: New version: [14.0.1.1.2.dev2] Old Version: [14.0.1.1.1]
+[2023-07-13 05:47:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: New version: [14.0.9.2.1.dev3] Old Version: [14.0.9.2.1.dev2]
+[2023-07-13 05:47:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: New version: [14.0.1.3.1.dev2] Old Version: [14.0.1.3.0]
+[2023-07-13 05:47:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: New version: [14.0.9.1.1.dev1] Old Version: [14.0.9.0.1]
+[2023-07-13 05:47:11] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 05:47:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: Downloading https://files.pythonhosted.org/packages/95/f0/9f486896b4bfa3a4498663cab733e5d9b606b58e1791300ed2afd1d90194/odoo14_addon_l10n_br_stock_account-14.0.3.1.1-py3-none-any.whl
+[2023-07-13 05:47:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale]: Downloading https://files.pythonhosted.org/packages/99/33/8d3ca9d14b07565065e6e97f9574518105ddb1df4a7ff99b0fc9e1babaab/odoo14_addon_l10n_br_sale-14.0.3.2.0-py3-none-any.whl
+[2023-07-13 05:47:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: Downloading https://files.pythonhosted.org/packages/b2/8c/02053be9407386b53fcf9cc7215205802ee03761107e50b52ea964fdc2d6/odoo14_addon_l10n_br_contract-14.0.2.2.0-py3-none-any.whl
+[2023-07-13 05:47:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/e3/8c/24116b604c6bc22ce1e4e6d458ad5f4941cc363b81eabac01fe2ae3bcd9c/odoo14_addon_l10n_br_nfe-14.0.9.0.1-py3-none-any.whl
+[2023-07-13 05:47:11] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-13 05:47:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/b6/ae/9800d777e4d7166c8a0ee02cd7c2602421433738397b582d529f48db7c5b/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl
+[2023-07-13 05:47:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: Downloading https://files.pythonhosted.org/packages/c4/5f/e1d62128dec960b6fbf835bb590df65ab33251ed4d771622515f8c330df2/odoo14_addon_l10n_br_repair-14.0.1.1.1-py3-none-any.whl
+[2023-07-13 05:47:11] INFO root fetch - processPackages [zfl-ai]: Downloading https://files.pythonhosted.org/packages/03/91/551384ced74a08245e2e33bc6408b3877abd30b2262ffd9a661984a15009/zfl_ai-0.0.8.tar.gz
+[2023-07-13 05:47:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: Downloading https://files.pythonhosted.org/packages/7c/96/49174b01fdc4343cf677f5db6c534ef9b4295aed4198ac5a335531e7af0d/odoo14_addon_l10n_br_pos-14.0.1.3.0-py3-none-any.whl
+[2023-07-13 05:47:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: Downloading https://files.pythonhosted.org/packages/c6/d1/6021917c30b0c17e1b99f647c48a2c11ab48d0f3e87528e627cf13228376/odoo14_addon_l10n_br_purchase-14.0.3.2.2-py3-none-any.whl
+[2023-07-13 05:47:11] WARNING root fetch - processPackages [zfl-ai]: Skipping package: exceeds size limit 30240283>=10485760
+[2023-07-13 05:47:11] INFO root fetch - processPackages [zfl-ai]: Start processing: odoo14-addons-oca-l10n-brazil
+[2023-07-13 05:47:11] INFO root fetch - main [MainThread]: End processing [zfl-ai] error
+[2023-07-13 05:47:12] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: New version: [14.0.20230712.0] Old Version: [14.0.20230605.0]
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale]: Downloading https://files.pythonhosted.org/packages/8a/49/2e50eaf8991c00b8dfc5acf90035b0526734490a4179aacb092d9a731443/odoo14_addon_l10n_br_sale-14.0.3.2.1.dev2-py3-none-any.whl
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: Downloading https://files.pythonhosted.org/packages/df/91/3aa3ebc8f60d21d940317b319613f58f3083923bc1dd07f5842bde8dcd92/odoo14_addon_l10n_br_contract-14.0.2.2.1.dev2-py3-none-any.whl
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/f8/ef/5b863388381c35c36cfea4e1f356dafa923aab127c4dfe81de1ea7bd0465/odoo14_addon_l10n_br_nfe-14.0.9.1.1.dev1-py3-none-any.whl
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: Downloading https://files.pythonhosted.org/packages/55/b1/2ad617fd1d00798e4ab713d22315ab95b7f5925225a76e719989f93283f8/odoo14_addon_l10n_br_repair-14.0.1.1.2.dev2-py3-none-any.whl
+[2023-07-13 05:47:12] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 05:47:12] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/3e/9d/f06739d0fc5ac83076dbdce19b1fc1ffc33e068724d0f81d8a08b9fed2ef/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: Downloading https://files.pythonhosted.org/packages/b9/17/63938a41a37447026120bfe755fe3621c7cc74a9f67716995d6c79051cc1/odoo14_addon_l10n_br_stock_account-14.0.3.1.2.dev2-py3-none-any.whl
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: Downloading https://files.pythonhosted.org/packages/fc/89/6c07b7d3a64ce85e244a338fad3998d6df026d3b3704ee3b63e0a14bed5a/odoo14_addons_oca_l10n_brazil-14.0.20230605.0-py3-none-any.whl
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: Downloading https://files.pythonhosted.org/packages/a4/95/938c99071429332bc22a767be710d5060237949cd160e80f50575fac6bbe/odoo14_addon_l10n_br_purchase-14.0.3.2.3.dev2-py3-none-any.whl
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: executing diffoscope
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_contract-14.0.2.2.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_contract-14.0.2.2.1.dev2-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-l10n-br-contract/14.0.2.2.0-14.0.2.2.1.dev2/diff.md --exclude *.pyd
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: executing diffoscope
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_nfe-14.0.9.0.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_nfe-14.0.9.1.1.dev1-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-l10n-br-nfe/14.0.9.0.1-14.0.9.1.1.dev1/diff.md --exclude *.pyd
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: Downloading https://files.pythonhosted.org/packages/f5/4a/5194e1ff51c714da5b8376376de6fbb9d0edbf4d7ba3afcdf81c1188e87d/odoo14_addon_l10n_br_pos-14.0.1.3.1.dev2-py3-none-any.whl
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: executing diffoscope
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_repair-14.0.1.1.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_repair-14.0.1.1.2.dev2-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-l10n-br-repair/14.0.1.1.1-14.0.1.1.2.dev2/diff.md --exclude *.pyd
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: executing diffoscope
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_stock_account-14.0.3.1.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_stock_account-14.0.3.1.2.dev2-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-l10n-br-stock-account/14.0.3.1.1-14.0.3.1.2.dev2/diff.md --exclude *.pyd
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: executing diffoscope
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-l10n-br-fiscal/14.0.9.2.1.dev2-14.0.9.2.1.dev3/diff.md --exclude *.pyd
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: executing diffoscope
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale]: executing diffoscope
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_purchase-14.0.3.2.2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_purchase-14.0.3.2.3.dev2-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-l10n-br-purchase/14.0.3.2.2-14.0.3.2.3.dev2/diff.md --exclude *.pyd
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_sale-14.0.3.2.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_sale-14.0.3.2.1.dev2-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-l10n-br-sale/14.0.3.2.0-14.0.3.2.1.dev2/diff.md --exclude *.pyd
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: executing diffoscope
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_pos-14.0.1.3.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_pos-14.0.1.3.1.dev2-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-l10n-br-pos/14.0.1.3.0-14.0.1.3.1.dev2/diff.md --exclude *.pyd
+[2023-07-13 05:47:12] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: Downloading https://files.pythonhosted.org/packages/6e/75/44cab1b005842d675961688d2ee07ceaddb74c343b7b5a9d6c54a9429e62/odoo14_addons_oca_l10n_brazil-14.0.20230712.0-py3-none-any.whl
+[2023-07-13 05:47:13] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: executing diffoscope
+[2023-07-13 05:47:13] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_l10n_brazil-14.0.20230605.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_l10n_brazil-14.0.20230712.0-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addons-oca-l10n-brazil/14.0.20230605.0-14.0.20230712.0/diff.md --exclude *.pyd
+[2023-07-13 05:47:14] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-13 05:47:14] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 05:47:14] INFO root fetch - processPackages [cjm-yolox-pytorch]: Start processing: pydantic-resolve
+[2023-07-13 05:47:14] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 05:47:15] INFO root fetch - processPackages [pydantic-resolve]: New version: [1.6.0] Old Version: [1.5.2]
+[2023-07-13 05:47:15] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/2f/88/3115d2e43f1264dc8ab17a48941ac4f7f3665aca9bfe292db415989121b3/pydantic_resolve-1.5.2.tar.gz
+[2023-07-13 05:47:15] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_contract-14.0.2.2.0-py3-none-any.whl.zip]
+[2023-07-13 05:47:15] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_contract-14.0.2.2.1.dev2-py3-none-any.whl.zip]
+[2023-07-13 05:47:15] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: Start processing: f5project
+[2023-07-13 05:47:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-contract]: success
+[2023-07-13 05:47:15] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_l10n_brazil-14.0.20230605.0-py3-none-any.whl.zip]
+[2023-07-13 05:47:15] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_l10n_brazil-14.0.20230712.0-py3-none-any.whl.zip]
+[2023-07-13 05:47:15] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: Start processing: tizero
+[2023-07-13 05:47:15] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-l10n-brazil]: success
+[2023-07-13 05:47:15] INFO root fetch - processPackages [tizero]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 05:47:15] INFO root fetch - processPackages [f5project]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 05:47:15] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_repair-14.0.1.1.1-py3-none-any.whl.zip]
+[2023-07-13 05:47:15] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_repair-14.0.1.1.2.dev2-py3-none-any.whl.zip]
+[2023-07-13 05:47:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-repair]: success
+[2023-07-13 05:47:15] INFO root fetch - processPackages [f5project]: Downloading https://files.pythonhosted.org/packages/8a/ce/a2b802cb0a7a9a64f0d88b731fcc7ca0f5ca928115bac89d8656a17f8854/f5project-0.0.8.tar.gz
+[2023-07-13 05:47:15] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/ce/a7/0b27d88cc1c322783108a276d56064d888367282e71c5ea10b7d8f66e23b/pydantic_resolve-1.6.0.tar.gz
+[2023-07-13 05:47:15] INFO root fetch - processPackages [tizero]: Downloading https://files.pythonhosted.org/packages/6c/2d/34ea03e512b2dc28e527b08a8fed974ccb5771f66873b71abbaee7d88dea/tizero-0.0.1.tar.gz
+[2023-07-13 05:47:15] INFO root fetch - processPackages [f5project]: Downloading https://files.pythonhosted.org/packages/e8/2f/220c8e52debbe80fc55bf5ede9dfa7c496cdf95165ba8f9486f38aca2c5e/f5project-0.0.9.tar.gz
+[2023-07-13 05:47:15] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_sale-14.0.3.2.0-py3-none-any.whl.zip]
+[2023-07-13 05:47:15] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_sale-14.0.3.2.1.dev2-py3-none-any.whl.zip]
+[2023-07-13 05:47:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-sale]: success
+[2023-07-13 05:47:15] INFO root fetch - processPackages [pydantic-resolve]: executing diffoscope
+[2023-07-13 05:47:15] INFO root fetch - processPackages [pydantic-resolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_resolve-1.5.2.tar.gz tmp/pydantic_resolve-1.6.0.tar.gz --markdown 20230713/p/pydantic-resolve/1.5.2-1.6.0/diff.md --exclude *.pyd
+[2023-07-13 05:47:16] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_purchase-14.0.3.2.2-py3-none-any.whl.zip]
+[2023-07-13 05:47:16] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_nfe-14.0.9.0.1-py3-none-any.whl.zip]
+[2023-07-13 05:47:16] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_purchase-14.0.3.2.3.dev2-py3-none-any.whl.zip]
+[2023-07-13 05:47:16] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_nfe-14.0.9.1.1.dev1-py3-none-any.whl.zip]
+[2023-07-13 05:47:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-purchase]: success
+[2023-07-13 05:47:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-nfe]: success
+[2023-07-13 05:47:16] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_stock_account-14.0.3.1.1-py3-none-any.whl.zip]
+[2023-07-13 05:47:16] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_stock_account-14.0.3.1.2.dev2-py3-none-any.whl.zip]
+[2023-07-13 05:47:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-stock-account]: success
+[2023-07-13 05:47:16] INFO root fetch - processPackages [f5project]: executing diffoscope
+[2023-07-13 05:47:16] INFO root fetch - processPackages [f5project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f5project-0.0.8.tar.gz tmp/f5project-0.0.9.tar.gz --markdown 20230713/f/f5project/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 05:47:16] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_pos-14.0.1.3.0-py3-none-any.whl.zip]
+[2023-07-13 05:47:16] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_pos-14.0.1.3.1.dev2-py3-none-any.whl.zip]
+[2023-07-13 05:47:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-pos]: success
+[2023-07-13 05:47:16] INFO root fetch - processPackages [tizero]: Downloading https://files.pythonhosted.org/packages/5e/4b/7eab92989b4328a17db83fbc0f564d22845720f55c511dd5b0a6c2ba7e9f/tizero-0.0.2.tar.gz
+[2023-07-13 05:47:16] INFO root fetch - processPackages [tizero]: executing diffoscope
+[2023-07-13 05:47:16] INFO root fetch - processPackages [tizero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tizero-0.0.1.tar.gz tmp/tizero-0.0.2.tar.gz --markdown 20230713/t/tizero/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 05:47:17] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.5.2.tar.gz]
+[2023-07-13 05:47:17] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.6.0.tar.gz]
+[2023-07-13 05:47:17] INFO root fetch - main [MainThread]: End processing [pydantic-resolve]: success
+[2023-07-13 05:47:17] INFO root fetch - processPackages [f5project]: Remove: archive file [/home/abi/fetcher/tmp/f5project-0.0.8.tar.gz]
+[2023-07-13 05:47:17] INFO root fetch - processPackages [f5project]: Remove: archive file [/home/abi/fetcher/tmp/f5project-0.0.9.tar.gz]
+[2023-07-13 05:47:17] INFO root fetch - main [MainThread]: End processing [f5project]: success
+[2023-07-13 05:47:18] INFO root fetch - processPackages [tizero]: Remove: archive file [/home/abi/fetcher/tmp/tizero-0.0.1.tar.gz]
+[2023-07-13 05:47:18] INFO root fetch - processPackages [tizero]: Remove: archive file [/home/abi/fetcher/tmp/tizero-0.0.2.tar.gz]
+[2023-07-13 05:47:18] INFO root fetch - main [MainThread]: End processing [tizero]: success
+[2023-07-13 05:47:18] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip]
+[2023-07-13 05:47:18] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip]
+[2023-07-13 05:47:18] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
+[2023-07-13 05:47:18] INFO root fetch - main [MainThread]: Store serial: [18869597]
