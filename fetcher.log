@@ -6503,3 +6503,68 @@
 [2023-07-13 04:03:46] INFO root fetch - main [MainThread]: End processing [apache-dolphinscheduler]: success
 [2023-07-13 04:03:47] INFO root fetch - main [MainThread]: End processing [apache-dolphinscheduler]: success
 [2023-07-13 04:03:47] INFO root fetch - main [MainThread]: Store serial: [18868888]
+[2023-07-13 04:08:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18868888]
+[2023-07-13 04:08:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-13 04:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proactive-jupyter-kernel
+[2023-07-13 04:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sayswho
+[2023-07-13 04:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rime-sdk
+[2023-07-13 04:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mwispy
+[2023-07-13 04:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydflow
+[2023-07-13 04:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: peeling
+[2023-07-13 04:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zfl-ai
+[2023-07-13 04:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ODtools
+[2023-07-13 04:08:56] WARNING root fetch - processPackages [sayswho]: Skipping, unable to determine old version
+[2023-07-13 04:08:56] INFO root fetch - main [MainThread]: End processing [sayswho] error
+[2023-07-13 04:08:56] INFO root fetch - processPackages [ODtools]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-13 04:08:57] INFO root fetch - processPackages [mwispy]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-13 04:08:57] INFO root fetch - processPackages [peeling]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-13 04:08:57] INFO root fetch - processPackages [zfl-ai]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-13 04:08:57] INFO root fetch - processPackages [rime-sdk]: New version: [2.2.0rc2] Old Version: [2.2.0rc1]
+[2023-07-13 04:08:57] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-07-13 04:08:57] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-13 04:08:57] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-13 04:08:57] INFO root fetch - processPackages [mwispy]: Downloading https://files.pythonhosted.org/packages/c0/c0/fbe8010f229bc1d5efc43720696b4a60c17591e3217aa991aa5e478105f8/mwispy-1.0.3.tar.gz
+[2023-07-13 04:08:57] INFO root fetch - processPackages [ODtools]: Downloading https://files.pythonhosted.org/packages/b4/6b/23136432cda6b57802c6bd75486858c80e5c9efeb3228ed444c51cffbc91/ODtools-2.1.8.tar.gz
+[2023-07-13 04:08:57] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/95/a7/6dc8d26e7f16286e8d927af1a0f1b13db2aba360d343414f36d94427e78a/rime_sdk-2.2.0rc1.tar.gz
+[2023-07-13 04:08:57] INFO root fetch - processPackages [zfl-ai]: Downloading https://files.pythonhosted.org/packages/7b/d3/030844b15247c2caa150ff620b303f445591e22d3954f824343de8f7385b/zfl_ai-0.0.5.tar.gz
+[2023-07-13 04:08:57] INFO root fetch - processPackages [peeling]: Downloading https://files.pythonhosted.org/packages/b6/54/f478ecaf5480b21696969e470fdabee2dd03e74bc819a7a60ff0ec5604c7/peeling-0.2.2.tar.gz
+[2023-07-13 04:08:57] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-07-13 04:08:57] WARNING root fetch - processPackages [zfl-ai]: Skipping package: exceeds size limit 30240169>=10485760
+[2023-07-13 04:08:57] INFO root fetch - main [MainThread]: End processing [zfl-ai] error
+[2023-07-13 04:08:57] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-13 04:08:57] INFO root fetch - processPackages [mwispy]: Downloading https://files.pythonhosted.org/packages/e2/23/2e3c8a7216d8ebb0a30fc67b6405892646512d1fe8c59bb28e38a97124cc/mwispy-1.0.4.tar.gz
+[2023-07-13 04:08:57] INFO root fetch - processPackages [peeling]: Downloading https://files.pythonhosted.org/packages/46/a4/069a8ba0be11f6245d1d847a39a54b457347822fa8394b0af8b3eb27366f/peeling-0.2.3.tar.gz
+[2023-07-13 04:08:57] INFO root fetch - processPackages [ODtools]: Downloading https://files.pythonhosted.org/packages/73/72/110ec134b8aebdd2b22621ff940d4210f8f0f4d0ff4c634ba2befd53a4ac/ODtools-2.1.9.tar.gz
+[2023-07-13 04:08:57] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-13 04:08:57] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230713/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-13 04:08:57] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-07-13 04:08:57] INFO root fetch - processPackages [mwispy]: executing diffoscope
+[2023-07-13 04:08:57] INFO root fetch - processPackages [mwispy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwispy-1.0.3.tar.gz tmp/mwispy-1.0.4.tar.gz --markdown 20230713/m/mwispy/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-13 04:08:57] INFO root fetch - processPackages [peeling]: executing diffoscope
+[2023-07-13 04:08:57] INFO root fetch - processPackages [peeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peeling-0.2.2.tar.gz tmp/peeling-0.2.3.tar.gz --markdown 20230713/p/peeling/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-13 04:08:58] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/f9/50/f9067dc2544e3f262a34dc5f6f9b67f43921bc598d9fe3f4122ec1b876c3/rime_sdk-2.2.0rc2.tar.gz
+[2023-07-13 04:08:58] INFO root fetch - processPackages [ODtools]: executing diffoscope
+[2023-07-13 04:08:58] INFO root fetch - processPackages [ODtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ODtools-2.1.8.tar.gz tmp/ODtools-2.1.9.tar.gz --markdown 20230713/O/ODtools/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-13 04:08:58] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-07-13 04:08:58] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230713/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-07-13 04:08:58] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-07-13 04:08:58] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.2.0rc1.tar.gz tmp/rime_sdk-2.2.0rc2.tar.gz --markdown 20230713/r/rime-sdk/2.2.0rc1-2.2.0rc2/diff.md --exclude *.pyd
+[2023-07-13 04:08:59] INFO root fetch - processPackages [mwispy]: Remove: archive file [/home/abi/fetcher/tmp/mwispy-1.0.3.tar.gz]
+[2023-07-13 04:08:59] INFO root fetch - processPackages [mwispy]: Remove: archive file [/home/abi/fetcher/tmp/mwispy-1.0.4.tar.gz]
+[2023-07-13 04:08:59] INFO root fetch - main [MainThread]: End processing [mwispy]: success
+[2023-07-13 04:08:59] INFO root fetch - processPackages [peeling]: Remove: archive file [/home/abi/fetcher/tmp/peeling-0.2.2.tar.gz]
+[2023-07-13 04:08:59] INFO root fetch - processPackages [peeling]: Remove: archive file [/home/abi/fetcher/tmp/peeling-0.2.3.tar.gz]
+[2023-07-13 04:08:59] INFO root fetch - main [MainThread]: End processing [peeling]: success
+[2023-07-13 04:08:59] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-07-13 04:08:59] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-07-13 04:08:59] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-07-13 04:08:59] INFO root fetch - processPackages [ODtools]: Remove: archive file [/home/abi/fetcher/tmp/ODtools-2.1.8.tar.gz]
+[2023-07-13 04:08:59] INFO root fetch - processPackages [ODtools]: Remove: archive file [/home/abi/fetcher/tmp/ODtools-2.1.9.tar.gz]
+[2023-07-13 04:08:59] INFO root fetch - main [MainThread]: End processing [ODtools]: success
+[2023-07-13 04:08:59] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-13 04:08:59] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-13 04:08:59] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-13 04:09:01] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc1.tar.gz]
+[2023-07-13 04:09:01] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc2.tar.gz]
+[2023-07-13 04:09:01] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-07-13 04:09:01] INFO root fetch - main [MainThread]: Store serial: [18868921]
