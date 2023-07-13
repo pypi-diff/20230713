@@ -14001,3 +14001,77 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 10:01:42] INFO root fetch - processPackages [miniagent]: Remove: archive file [/home/abi/fetcher/tmp/miniagent-0.0.9-py3-none-any.whl.zip]
 [2023-07-13 10:01:42] INFO root fetch - main [MainThread]: End processing [miniagent]: success
 [2023-07-13 10:01:42] INFO root fetch - main [MainThread]: Store serial: [18871640]
+[2023-07-13 10:06:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18871640]
+[2023-07-13 10:06:51] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-13 10:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djangoldp-tzcld
+[2023-07-13 10:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-oz-pinnedgambit
+[2023-07-13 10:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyAlgoEngine
+[2023-07-13 10:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swh.journal
+[2023-07-13 10:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: huhk
+[2023-07-13 10:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jcloud
+[2023-07-13 10:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyQuantKit
+[2023-07-13 10:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: parse-k8s-resources
+[2023-07-13 10:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: galvoplotter
+[2023-07-13 10:06:51] INFO root fetch - processPackages [PyQuantKit]: New version: [0.2.1] Old Version: [0.2.0a0]
+[2023-07-13 10:06:51] INFO root fetch - processPackages [huhk]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-07-13 10:06:51] WARNING root fetch - processPackages [parse-k8s-resources]: Skipping, unable to determine old version
+[2023-07-13 10:06:51] INFO root fetch - main [MainThread]: End processing [parse-k8s-resources] error
+[2023-07-13 10:06:51] INFO root fetch - processPackages [djangoldp-tzcld]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 10:06:51] INFO root fetch - processPackages [galvoplotter]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-13 10:06:51] INFO root fetch - processPackages [PyAlgoEngine]: New version: [0.3.9.post1] Old Version: [0.3.8.post1]
+[2023-07-13 10:06:51] INFO root fetch - processPackages [swh.journal]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-13 10:06:51] INFO root fetch - processPackages [certora-cli-alpha-oz-pinnedgambit]: New version: [20230713.8.2.496097] Old Version: [20230713.5.8.865147]
+[2023-07-13 10:06:51] INFO root fetch - processPackages [jcloud]: New version: [0.2.9.dev4] Old Version: [0.2.9.dev3]
+[2023-07-13 10:06:51] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/1e/e9/2ee85f52ab6322d4a54c8cb7ecb15a40c220f775204569488ec63ad4e395/jcloud-0.2.9.dev3.tar.gz
+[2023-07-13 10:06:51] INFO root fetch - processPackages [PyQuantKit]: Downloading https://files.pythonhosted.org/packages/23/e4/20fca4dc16314a9d032c7c66051ecbb555f0e7f2e352a437acdce1f46f7c/PyQuantKit-0.2.0a0.tar.gz
+[2023-07-13 10:06:51] INFO root fetch - processPackages [certora-cli-alpha-oz-pinnedgambit]: Downloading https://files.pythonhosted.org/packages/f0/ae/522a60ad4e51ea61ba6b0b792386e4c4a9c7e136e70270b6120da0f87e10/certora-cli-alpha-oz-pinnedgambit-20230713.5.8.865147.tar.gz
+[2023-07-13 10:06:51] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/97/ce/1962b610d199353dec96c1d36b6be629265767c99dbb52e23c7b6819ead9/huhk-1.6.4.tar.gz
+[2023-07-13 10:06:52] INFO root fetch - processPackages [djangoldp-tzcld]: Downloading https://files.pythonhosted.org/packages/5e/bf/765d4a1d3b4755ec985902cfd73fb982d6e0e548553f9b59d81204a43f5e/djangoldp_tzcld-1.0.8.tar.gz
+[2023-07-13 10:06:52] INFO root fetch - processPackages [PyAlgoEngine]: Downloading https://files.pythonhosted.org/packages/d4/83/7e52672e10d7536e3afd3635334254eae14c98ca2042d0ce5d23d250d397/PyAlgoEngine-0.3.8.post1.tar.gz
+[2023-07-13 10:06:52] INFO root fetch - processPackages [galvoplotter]: Downloading https://files.pythonhosted.org/packages/4e/3e/8a8e7764d6958289596ea4beb18b06bf9c06acf1d727857a3057942a171b/galvoplotter-0.1.0.tar.gz
+[2023-07-13 10:06:52] WARNING root fetch - processPackages [certora-cli-alpha-oz-pinnedgambit]: Skipping package: exceeds size limit 37462615>=10485760
+[2023-07-13 10:06:52] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-pinnedgambit] error
+[2023-07-13 10:06:52] INFO root fetch - processPackages [swh.journal]: Downloading https://files.pythonhosted.org/packages/93/2f/b9866278bef672731d6e9857909859b5469dddea114f24311772ac6a9269/swh.journal-1.3.3.tar.gz
+[2023-07-13 10:06:52] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/bb/b0/d7ca100ca332b39b692bce70264e0ab3f4134daafc57ab3b397666234d61/jcloud-0.2.9.dev4.tar.gz
+[2023-07-13 10:06:52] INFO root fetch - processPackages [jcloud]: executing diffoscope
+[2023-07-13 10:06:52] INFO root fetch - processPackages [jcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcloud-0.2.9.dev3.tar.gz tmp/jcloud-0.2.9.dev4.tar.gz --markdown 20230713/j/jcloud/0.2.9.dev3-0.2.9.dev4/diff.md --exclude *.pyd
+[2023-07-13 10:06:52] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/5f/af/a065f80464cfce272219921d1587456226cdeee698608553f21149cf97fb/huhk-1.6.5.tar.gz
+[2023-07-13 10:06:52] INFO root fetch - processPackages [PyAlgoEngine]: Downloading https://files.pythonhosted.org/packages/25/65/29eed040dd9b5eeea47e4ef4064de9902a16856825bfb36b7085d533f75e/PyAlgoEngine-0.3.9.post1.tar.gz
+[2023-07-13 10:06:52] INFO root fetch - processPackages [PyQuantKit]: Downloading https://files.pythonhosted.org/packages/1f/03/8474896434b573d78ab7d0ed45fca135e771ca2c0503451f86bd250a5cbe/PyQuantKit-0.2.1.tar.gz
+[2023-07-13 10:06:52] INFO root fetch - processPackages [djangoldp-tzcld]: Downloading https://files.pythonhosted.org/packages/35/0e/7d8fa4182c6d83549f2dc756fd3a514d60a7016c6fed5ab86ca2db488d14/djangoldp_tzcld-1.0.9.tar.gz
+[2023-07-13 10:06:52] INFO root fetch - processPackages [galvoplotter]: Downloading https://files.pythonhosted.org/packages/74/63/7a1a141a1ad662a83a8f70866d7009c4a3b2b2185a947383d6ba0aac0652/galvoplotter-0.1.1.tar.gz
+[2023-07-13 10:06:52] INFO root fetch - processPackages [djangoldp-tzcld]: executing diffoscope
+[2023-07-13 10:06:52] INFO root fetch - processPackages [djangoldp-tzcld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_tzcld-1.0.8.tar.gz tmp/djangoldp_tzcld-1.0.9.tar.gz --markdown 20230713/d/djangoldp-tzcld/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 10:06:52] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-07-13 10:06:52] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.6.4.tar.gz tmp/huhk-1.6.5.tar.gz --markdown 20230713/h/huhk/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-07-13 10:06:52] INFO root fetch - processPackages [swh.journal]: Downloading https://files.pythonhosted.org/packages/4e/c7/af3b265cc100fd9bd62607cc693916995b57d0701c0f56f9ad542b176bac/swh.journal-1.3.4.tar.gz
+[2023-07-13 10:06:52] INFO root fetch - processPackages [PyAlgoEngine]: executing diffoscope
+[2023-07-13 10:06:52] INFO root fetch - processPackages [PyAlgoEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAlgoEngine-0.3.8.post1.tar.gz tmp/PyAlgoEngine-0.3.9.post1.tar.gz --markdown 20230713/P/PyAlgoEngine/0.3.8.post1-0.3.9.post1/diff.md --exclude *.pyd
+[2023-07-13 10:06:52] INFO root fetch - processPackages [galvoplotter]: executing diffoscope
+[2023-07-13 10:06:52] INFO root fetch - processPackages [galvoplotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galvoplotter-0.1.0.tar.gz tmp/galvoplotter-0.1.1.tar.gz --markdown 20230713/g/galvoplotter/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-13 10:06:52] INFO root fetch - processPackages [PyQuantKit]: executing diffoscope
+[2023-07-13 10:06:52] INFO root fetch - processPackages [PyQuantKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQuantKit-0.2.0a0.tar.gz tmp/PyQuantKit-0.2.1.tar.gz --markdown 20230713/P/PyQuantKit/0.2.0a0-0.2.1/diff.md --exclude *.pyd
+[2023-07-13 10:06:52] INFO root fetch - processPackages [swh.journal]: executing diffoscope
+[2023-07-13 10:06:52] INFO root fetch - processPackages [swh.journal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.journal-1.3.3.tar.gz tmp/swh.journal-1.3.4.tar.gz --markdown 20230713/s/swh.journal/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-13 10:06:53] INFO root fetch - processPackages [jcloud]: Remove: archive file [/home/abi/fetcher/tmp/jcloud-0.2.9.dev3.tar.gz]
+[2023-07-13 10:06:53] INFO root fetch - processPackages [jcloud]: Remove: archive file [/home/abi/fetcher/tmp/jcloud-0.2.9.dev4.tar.gz]
+[2023-07-13 10:06:53] INFO root fetch - main [MainThread]: End processing [jcloud]: success
+[2023-07-13 10:06:53] INFO root fetch - processPackages [djangoldp-tzcld]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_tzcld-1.0.8.tar.gz]
+[2023-07-13 10:06:53] INFO root fetch - processPackages [djangoldp-tzcld]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_tzcld-1.0.9.tar.gz]
+[2023-07-13 10:06:53] INFO root fetch - main [MainThread]: End processing [djangoldp-tzcld]: success
+[2023-07-13 10:06:54] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.6.4.tar.gz]
+[2023-07-13 10:06:54] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.6.5.tar.gz]
+[2023-07-13 10:06:54] INFO root fetch - main [MainThread]: End processing [huhk]: success
+[2023-07-13 10:06:54] INFO root fetch - processPackages [PyAlgoEngine]: Remove: archive file [/home/abi/fetcher/tmp/PyAlgoEngine-0.3.8.post1.tar.gz]
+[2023-07-13 10:06:54] INFO root fetch - processPackages [PyAlgoEngine]: Remove: archive file [/home/abi/fetcher/tmp/PyAlgoEngine-0.3.9.post1.tar.gz]
+[2023-07-13 10:06:54] INFO root fetch - main [MainThread]: End processing [PyAlgoEngine]: success
+[2023-07-13 10:06:54] INFO root fetch - processPackages [PyQuantKit]: Remove: archive file [/home/abi/fetcher/tmp/PyQuantKit-0.2.0a0.tar.gz]
+[2023-07-13 10:06:54] INFO root fetch - processPackages [PyQuantKit]: Remove: archive file [/home/abi/fetcher/tmp/PyQuantKit-0.2.1.tar.gz]
+[2023-07-13 10:06:54] INFO root fetch - main [MainThread]: End processing [PyQuantKit]: success
+[2023-07-13 10:06:54] INFO root fetch - processPackages [galvoplotter]: Remove: archive file [/home/abi/fetcher/tmp/galvoplotter-0.1.0.tar.gz]
+[2023-07-13 10:06:54] INFO root fetch - processPackages [galvoplotter]: Remove: archive file [/home/abi/fetcher/tmp/galvoplotter-0.1.1.tar.gz]
+[2023-07-13 10:06:54] INFO root fetch - main [MainThread]: End processing [galvoplotter]: success
+[2023-07-13 10:06:54] INFO root fetch - processPackages [swh.journal]: Remove: archive file [/home/abi/fetcher/tmp/swh.journal-1.3.3.tar.gz]
+[2023-07-13 10:06:54] INFO root fetch - processPackages [swh.journal]: Remove: archive file [/home/abi/fetcher/tmp/swh.journal-1.3.4.tar.gz]
+[2023-07-13 10:06:54] INFO root fetch - main [MainThread]: End processing [swh.journal]: success
+[2023-07-13 10:06:54] INFO root fetch - main [MainThread]: Store serial: [18871670]
