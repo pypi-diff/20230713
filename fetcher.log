@@ -10869,3 +10869,153 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 07:21:58] INFO root fetch - processPackages [monai-deploy-app-sdk]: Remove: archive file [/home/abi/fetcher/tmp/monai_deploy_app_sdk-0.5.1-py3-none-any.whl.zip]
 [2023-07-13 07:21:58] INFO root fetch - main [MainThread]: End processing [monai-deploy-app-sdk]: success
 [2023-07-13 07:21:58] INFO root fetch - main [MainThread]: Store serial: [18870284]
+[2023-07-13 07:27:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18870284]
+[2023-07-13 07:27:07] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-13 07:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-announcement
+[2023-07-13 07:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: podcast-summarizer
+[2023-07-13 07:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mmi-nds-functions-ranjanport
+[2023-07-13 07:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbt-dragonfly
+[2023-07-13 07:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MeUtils
+[2023-07-13 07:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cjm-yolox-pytorch
+[2023-07-13 07:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlem
+[2023-07-13 07:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cloud-governance
+[2023-07-13 07:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-spreadsheet-oca
+[2023-07-13 07:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk8s-operator
+[2023-07-13 07:27:07] INFO root fetch - processPackages [podcast-summarizer]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-13 07:27:07] INFO root fetch - processPackages [mlem]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-13 07:27:07] WARNING root fetch - processPackages [mmi-nds-functions-ranjanport]: Skipping, unable to determine old version
+[2023-07-13 07:27:07] INFO root fetch - processPackages [mmi-nds-functions-ranjanport]: Start processing: OpenGeode-GeosciencesIO
+[2023-07-13 07:27:07] INFO root fetch - main [MainThread]: End processing [mmi-nds-functions-ranjanport] error
+[2023-07-13 07:27:07] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: New version: [16.0.1.1.3.1] Old Version: [16.0.1.1.3]
+[2023-07-13 07:27:07] INFO root fetch - processPackages [odoo-addon-announcement]: New version: [15.0.1.2.0.1] Old Version: [15.0.1.2.0]
+[2023-07-13 07:27:07] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 07:27:07] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-13 07:27:07] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.7.15.3.6] Old Version: [2023.7.6.9.18.40]
+[2023-07-13 07:27:07] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-13 07:27:07] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-13 07:27:07] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: New version: [4.2.0rc2] Old Version: [4.2.0rc1]
+[2023-07-13 07:27:07] INFO root fetch - processPackages [podcast-summarizer]: Downloading https://files.pythonhosted.org/packages/51/12/a90775305e4284ffd01284e02397040db90d2ffe84afc1efc700353431df/podcast_summarizer-0.2.2.tar.gz
+[2023-07-13 07:27:07] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/81/a1/472f9e27ea96746839caa41992257e24e496917b018d958034169769bdb6/cdk8s-operator-0.1.98.tar.gz
+[2023-07-13 07:27:07] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-13 07:27:07] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Downloading https://files.pythonhosted.org/packages/0c/a2/7d9db1514d49e57d1c3bb564b38f0464eb0dcad72e1e2edbdc0094069dc2/odoo_addon_spreadsheet_oca-16.0.1.1.3-py3-none-any.whl
+[2023-07-13 07:27:07] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-13 07:27:07] INFO root fetch - processPackages [odoo-addon-announcement]: Downloading https://files.pythonhosted.org/packages/d5/f4/044e3fae225c8ef46f74f8f3cad97246bbb6dcece1b7e705b2c4a606e1b0/odoo_addon_announcement-15.0.1.2.0-py3-none-any.whl
+[2023-07-13 07:27:07] INFO root fetch - processPackages [mlem]: Downloading https://files.pythonhosted.org/packages/28/6e/04f6be3e46e5ce40e270b8a4d112062632d0964ca919e203f2b2a0a98ebe/mlem-0.4.8.tar.gz
+[2023-07-13 07:27:07] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-13 07:27:07] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/e1/c8/8bef11f90577f3c33e851f814a5efb49d5cf2051d279db7e9e9bfb5539cc/OpenGeode_GeosciencesIO-4.2.0rc1-cp39-cp39-win_amd64.whl
+[2023-07-13 07:27:07] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-07-13 07:27:08] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/ed/ed/568c3c642392b5ad833ee040dea0d55163deba1f7a12ed395db2a18420f0/cdk8s-operator-0.1.99.tar.gz
+[2023-07-13 07:27:08] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 07:27:08] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-13 07:27:08] INFO root fetch - processPackages [podcast-summarizer]: Downloading https://files.pythonhosted.org/packages/56/11/cd3c62afda5e56f4bc751148cf72fa314908e6bd130e29e53589f3500302/podcast_summarizer-0.2.3.tar.gz
+[2023-07-13 07:27:08] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Downloading https://files.pythonhosted.org/packages/e9/65/8b118a289885ec02603098db2e60c3054b69104c4a8af06ebfbdd15a18cb/odoo_addon_spreadsheet_oca-16.0.1.1.3.1-py3-none-any.whl
+[2023-07-13 07:27:08] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-07-13 07:27:08] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230713/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-13 07:27:08] INFO root fetch - processPackages [odoo-addon-announcement]: Downloading https://files.pythonhosted.org/packages/b9/58/a25c99088e24d6350b4d34c3593250c7936d99ac5abb776ff0c4f644cac9/odoo_addon_announcement-15.0.1.2.0.1-py3-none-any.whl
+[2023-07-13 07:27:08] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-13 07:27:08] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230713/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-13 07:27:08] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 07:27:08] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 07:27:08] INFO root fetch - processPackages [podcast-summarizer]: executing diffoscope
+[2023-07-13 07:27:08] INFO root fetch - processPackages [podcast-summarizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podcast_summarizer-0.2.2.tar.gz tmp/podcast_summarizer-0.2.3.tar.gz --markdown 20230713/p/podcast-summarizer/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-13 07:27:08] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: executing diffoscope
+[2023-07-13 07:27:08] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_spreadsheet_oca-16.0.1.1.3-py3-none-any.whl.zip tmp/odoo_addon_spreadsheet_oca-16.0.1.1.3.1-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-spreadsheet-oca/16.0.1.1.3-16.0.1.1.3.1/diff.md --exclude *.pyd
+[2023-07-13 07:27:08] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/e1/12/26d7ac7b5f22f65cf085f42e46591d7d84a25603963106901823511e9e75/OpenGeode_GeosciencesIO-4.2.0rc2-cp39-cp39-win_amd64.whl
+[2023-07-13 07:27:08] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-07-13 07:27:08] INFO root fetch - processPackages [odoo-addon-announcement]: executing diffoscope
+[2023-07-13 07:27:08] INFO root fetch - processPackages [odoo-addon-announcement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_announcement-15.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_announcement-15.0.1.2.0.1-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-announcement/15.0.1.2.0-15.0.1.2.0.1/diff.md --exclude *.pyd
+[2023-07-13 07:27:08] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-07-13 07:27:08] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230713/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-13 07:27:08] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/1e/99/2f228a790c6fc15f93482f3f0fa7bbad95d15d6e0aa883c7919fe4a66c95/MeUtils-2023.7.7.15.3.6.tar.gz
+[2023-07-13 07:27:08] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: executing diffoscope
+[2023-07-13 07:27:08] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_GeosciencesIO-4.2.0rc1-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_GeosciencesIO-4.2.0rc2-cp39-cp39-win_amd64.whl.zip --markdown 20230713/O/OpenGeode-GeosciencesIO/4.2.0rc1-4.2.0rc2/diff.md --exclude *.pyd
+[2023-07-13 07:27:09] INFO root fetch - processPackages [mlem]: Downloading https://files.pythonhosted.org/packages/f1/b2/6672f0f560db96344d1067410a2facb268498dc42097e375245b7f86c7e1/mlem-0.4.9.tar.gz
+[2023-07-13 07:27:09] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-13 07:27:09] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.18.40.tar.gz tmp/MeUtils-2023.7.7.15.3.6.tar.gz --markdown 20230713/M/MeUtils/2023.7.6.9.18.40-2023.7.7.15.3.6/diff.md --exclude *.pyd
+[2023-07-13 07:27:09] INFO root fetch - processPackages [mlem]: executing diffoscope
+[2023-07-13 07:27:09] INFO root fetch - processPackages [mlem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlem-0.4.8.tar.gz tmp/mlem-0.4.9.tar.gz --markdown 20230713/m/mlem/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-13 07:27:09] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.98.tar.gz]
+[2023-07-13 07:27:09] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.99.tar.gz]
+[2023-07-13 07:27:09] INFO root fetch - processPackages [cdk8s-operator]: Start processing: cdk8s-plus-25
+[2023-07-13 07:27:09] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-07-13 07:27:09] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-13 07:27:09] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-13 07:27:09] INFO root fetch - processPackages [lbt-dragonfly]: Start processing: cdk8s-grafana
+[2023-07-13 07:27:09] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-13 07:27:09] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.85]
+[2023-07-13 07:27:09] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-13 07:27:09] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-13 07:27:09] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 07:27:09] INFO root fetch - processPackages [cjm-yolox-pytorch]: Start processing: xj-common
+[2023-07-13 07:27:09] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 07:27:09] INFO root fetch - processPackages [podcast-summarizer]: Remove: archive file [/home/abi/fetcher/tmp/podcast_summarizer-0.2.2.tar.gz]
+[2023-07-13 07:27:09] INFO root fetch - processPackages [podcast-summarizer]: Remove: archive file [/home/abi/fetcher/tmp/podcast_summarizer-0.2.3.tar.gz]
+[2023-07-13 07:27:09] INFO root fetch - processPackages [podcast-summarizer]: Start processing: odoo14-addon-stock-barcodes
+[2023-07-13 07:27:09] INFO root fetch - main [MainThread]: End processing [podcast-summarizer]: success
+[2023-07-13 07:27:09] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-07-13 07:27:10] INFO root fetch - processPackages [xj-common]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 07:27:10] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: New version: [14.0.2.2.2.dev9] Old Version: [14.0.2.2.2.dev8]
+[2023-07-13 07:27:10] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_spreadsheet_oca-16.0.1.1.3-py3-none-any.whl.zip]
+[2023-07-13 07:27:10] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_spreadsheet_oca-16.0.1.1.3.1-py3-none-any.whl.zip]
+[2023-07-13 07:27:10] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Start processing: odoo-addon-stock-barcodes
+[2023-07-13 07:27:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-spreadsheet-oca]: success
+[2023-07-13 07:27:10] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/83/ab/385f85c6c66ae9a4c751a427f8d51d59e3974e9bbadf6ed5ca8fa1f548be/cdk8s-plus-25-2.8.85.tar.gz
+[2023-07-13 07:27:10] INFO root fetch - processPackages [odoo-addon-announcement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_announcement-15.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-13 07:27:10] INFO root fetch - processPackages [odoo-addon-announcement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_announcement-15.0.1.2.0.1-py3-none-any.whl.zip]
+[2023-07-13 07:27:10] INFO root fetch - processPackages [odoo-addon-announcement]: Start processing: Cython
+[2023-07-13 07:27:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-announcement]: success
+[2023-07-13 07:27:10] INFO root fetch - processPackages [Cython]: New version: [3.0a7] Old Version: [3.0a6]
+[2023-07-13 07:27:10] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: New version: [15.0.1.2.2.9] Old Version: [15.0.1.2.2.8]
+[2023-07-13 07:27:10] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-07-13 07:27:10] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/f1/a9/843e0ed992ce2f46616f9ee781677bb32d4ab1d118bdbe0179a74b8ce4e8/odoo14_addon_stock_barcodes-14.0.2.2.2.dev8-py3-none-any.whl
+[2023-07-13 07:27:10] INFO root fetch - processPackages [xj-common]: Downloading https://files.pythonhosted.org/packages/b3/52/f57e547bfff3498ef241412dab5c76a22d267cd4d6fd77052d8fd2905d8a/xj_common-1.0.8.tar.gz
+[2023-07-13 07:27:10] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-07-13 07:27:10] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230713/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-13 07:27:10] INFO root fetch - processPackages [Cython]: Downloading https://files.pythonhosted.org/packages/5b/40/8165ee55b276382b0c3ab3c1300020427d571d710675e70b9a6a0161dbd7/Cython-3.0a6.tar.gz
+[2023-07-13 07:27:10] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/7b/ae/0b18f8699b19301fc395d48fd04e04259e4f0ee1c649ae8bc243912b6480/odoo_addon_stock_barcodes-15.0.1.2.2.8-py3-none-any.whl
+[2023-07-13 07:27:10] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-07-13 07:27:10] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-07-13 07:27:10] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-07-13 07:27:10] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/81/09/40588fd0485e2fe0fa8d00730cf8d4eefea890f28a3cd287b2ed57a2687f/odoo14_addon_stock_barcodes-14.0.2.2.2.dev9-py3-none-any.whl
+[2023-07-13 07:27:10] INFO root fetch - processPackages [xj-common]: Downloading https://files.pythonhosted.org/packages/e7/02/3b3bbfc48d247cf8d477729491ec2d1f4c2947a9f2c01c948da7088586f5/xj_common-1.0.9.tar.gz
+[2023-07-13 07:27:10] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-07-13 07:27:10] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: executing diffoscope
+[2023-07-13 07:27:10] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev9-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-stock-barcodes/14.0.2.2.2.dev8-14.0.2.2.2.dev9/diff.md --exclude *.pyd
+[2023-07-13 07:27:10] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/1a/e3/04c2fd819928bf41869e3a25fd6f8420d24f8b3c4193d518b04580d83d10/odoo_addon_stock_barcodes-15.0.1.2.2.9-py3-none-any.whl
+[2023-07-13 07:27:10] INFO root fetch - processPackages [Cython]: Downloading https://files.pythonhosted.org/packages/e5/96/c67b06e24002cac938eacdd72d390c30c5542b6ea0d7f886bf5bbfbd8231/Cython-3.0a7.tar.gz
+[2023-07-13 07:27:11] INFO root fetch - processPackages [xj-common]: executing diffoscope
+[2023-07-13 07:27:11] INFO root fetch - processPackages [xj-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_common-1.0.8.tar.gz tmp/xj_common-1.0.9.tar.gz --markdown 20230713/x/xj-common/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 07:27:11] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: executing diffoscope
+[2023-07-13 07:27:11] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_barcodes-15.0.1.2.2.8-py3-none-any.whl.zip tmp/odoo_addon_stock_barcodes-15.0.1.2.2.9-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-stock-barcodes/15.0.1.2.2.8-15.0.1.2.2.9/diff.md --exclude *.pyd
+[2023-07-13 07:27:11] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-07-13 07:27:11] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.85.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230713/c/cdk8s-plus-25/2.8.85-2.8.9/diff.md --exclude *.pyd
+[2023-07-13 07:27:11] INFO root fetch - processPackages [Cython]: executing diffoscope
+[2023-07-13 07:27:11] INFO root fetch - processPackages [Cython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Cython-3.0a6.tar.gz tmp/Cython-3.0a7.tar.gz --markdown 20230713/C/Cython/3.0a6-3.0a7/diff.md --exclude *.pyd
+[2023-07-13 07:27:11] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_GeosciencesIO-4.2.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-13 07:27:11] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_GeosciencesIO-4.2.0rc2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-13 07:27:11] INFO root fetch - main [MainThread]: End processing [OpenGeode-GeosciencesIO]: success
+[2023-07-13 07:27:11] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-07-13 07:27:11] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-07-13 07:27:11] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-07-13 07:27:12] INFO root fetch - processPackages [mlem]: Remove: archive file [/home/abi/fetcher/tmp/mlem-0.4.8.tar.gz]
+[2023-07-13 07:27:12] INFO root fetch - processPackages [mlem]: Remove: archive file [/home/abi/fetcher/tmp/mlem-0.4.9.tar.gz]
+[2023-07-13 07:27:12] INFO root fetch - main [MainThread]: End processing [mlem]: success
+[2023-07-13 07:27:12] INFO root fetch - processPackages [xj-common]: Remove: archive file [/home/abi/fetcher/tmp/xj_common-1.0.8.tar.gz]
+[2023-07-13 07:27:12] INFO root fetch - processPackages [xj-common]: Remove: archive file [/home/abi/fetcher/tmp/xj_common-1.0.9.tar.gz]
+[2023-07-13 07:27:12] INFO root fetch - main [MainThread]: End processing [xj-common]: success
+[2023-07-13 07:27:12] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev8-py3-none-any.whl.zip]
+[2023-07-13 07:27:12] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev9-py3-none-any.whl.zip]
+[2023-07-13 07:27:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-barcodes]: success
+[2023-07-13 07:27:12] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes-15.0.1.2.2.8-py3-none-any.whl.zip]
+[2023-07-13 07:27:12] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes-15.0.1.2.2.9-py3-none-any.whl.zip]
+[2023-07-13 07:27:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-barcodes]: success
+[2023-07-13 07:27:12] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.85.tar.gz]
+[2023-07-13 07:27:12] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-07-13 07:27:12] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-07-13 07:27:13] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
+[2023-07-13 07:27:13] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
+[2023-07-13 07:27:13] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-13 07:27:26] INFO root fetch - processPackages [Cython]: Remove: archive file [/home/abi/fetcher/tmp/Cython-3.0a6.tar.gz]
+[2023-07-13 07:27:26] INFO root fetch - processPackages [Cython]: Remove: archive file [/home/abi/fetcher/tmp/Cython-3.0a7.tar.gz]
+[2023-07-13 07:27:26] INFO root fetch - main [MainThread]: End processing [Cython]: success
+[2023-07-13 07:27:26] INFO root fetch - main [MainThread]: Store serial: [18870336]
