@@ -21570,3 +21570,119 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 14:23:55] INFO root fetch - processPackages [lino]: Remove: archive file [/home/abi/fetcher/tmp/lino-23.7.1.tar.gz]
 [2023-07-13 14:23:55] INFO root fetch - main [MainThread]: End processing [lino]: success
 [2023-07-13 14:23:55] INFO root fetch - main [MainThread]: Store serial: [18874526]
+[2023-07-13 14:29:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18874526]
+[2023-07-13 14:29:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-13 14:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: splight-lib
+[2023-07-13 14:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lino-xl
+[2023-07-13 14:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: krx-rigger
+[2023-07-13 14:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: l2rpn-baselines
+[2023-07-13 14:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lino-noi
+[2023-07-13 14:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pp-project-pkg
+[2023-07-13 14:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: EllucianEthosPythonClient
+[2023-07-13 14:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tskit-book-theme
+[2023-07-13 14:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neuro-extras
+[2023-07-13 14:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: capnpy
+[2023-07-13 14:29:05] INFO root fetch - processPackages [tskit-book-theme]: New version: [1.0.1] Old Version: [0.3.2]
+[2023-07-13 14:29:05] INFO root fetch - processPackages [lino-xl]: New version: [23.7.0] Old Version: [23.6.0]
+[2023-07-13 14:29:05] INFO root fetch - processPackages [EllucianEthosPythonClient]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-13 14:29:05] INFO root fetch - processPackages [lino-noi]: New version: [23.7.0] Old Version: [23.5.0]
+[2023-07-13 14:29:05] INFO root fetch - processPackages [l2rpn-baselines]: New version: [0.7.0] Old Version: [0.6.0.post1]
+[2023-07-13 14:29:05] INFO root fetch - processPackages [splight-lib]: New version: [3.1.0] Old Version: [3.0.9]
+[2023-07-13 14:29:05] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202307131225] Old Version: [1.0.202307061558]
+[2023-07-13 14:29:05] INFO root fetch - processPackages [krx-rigger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 14:29:05] INFO root fetch - processPackages [capnpy]: New version: [0.9.0rc2] Old Version: [0.9.0]
+[2023-07-13 14:29:05] INFO root fetch - processPackages [neuro-extras]: New version: [23.7.1] Old Version: [23.7.0]
+[2023-07-13 14:29:05] INFO root fetch - processPackages [krx-rigger]: Downloading https://files.pythonhosted.org/packages/f5/db/3e1e60a78dac55ea1c8f6e91278d097da33c504123772800e605a8ad0d16/krx_rigger-0.0.8.tar.gz
+[2023-07-13 14:29:05] INFO root fetch - processPackages [l2rpn-baselines]: Downloading https://files.pythonhosted.org/packages/2f/04/92036b1c124f2bc4f320b45fcba0fcfde9a13b09025809524953e6171a9c/l2rpn_baselines-0.6.0.post1.tar.gz
+[2023-07-13 14:29:05] INFO root fetch - processPackages [tskit-book-theme]: Downloading https://files.pythonhosted.org/packages/18/6e/a9d5f51fae9adf4813ea87db3af8e7d85e53bfa4e063f2603cae4181f51c/tskit_book_theme-0.3.2.tar.gz
+[2023-07-13 14:29:05] INFO root fetch - processPackages [lino-xl]: Downloading https://files.pythonhosted.org/packages/57/44/29aed0b4011e9d700f4b85e4d36ff5c87f6e55977b35fc4221403be2bd6e/lino-xl-23.6.0.tar.gz
+[2023-07-13 14:29:05] INFO root fetch - processPackages [EllucianEthosPythonClient]: Downloading https://files.pythonhosted.org/packages/06/ef/178af4ebf1b05cb1e0124cc460a242e9bf988f50342c8179357be852f736/EllucianEthosPythonClient-0.2.8.tar.gz
+[2023-07-13 14:29:05] INFO root fetch - processPackages [lino-noi]: Downloading https://files.pythonhosted.org/packages/1e/e5/ca090b682b59507f27344e5db4028eff477c4cf8a296c25862220e9cd912/lino-noi-23.5.0.tar.gz
+[2023-07-13 14:29:05] INFO root fetch - processPackages [capnpy]: Downloading https://files.pythonhosted.org/packages/0d/e7/f142e3c5f9bdafec6a9aff388ad67a3015a1eb7eb88ff71cbff607984fe8/capnpy-0.9.0.tar.gz
+[2023-07-13 14:29:05] INFO root fetch - processPackages [neuro-extras]: Downloading https://files.pythonhosted.org/packages/1b/e7/7d2ba7460c2c435c8245c1f52c87fe731b3fb3a4997c5e44d16944607130/neuro-extras-23.7.0.tar.gz
+[2023-07-13 14:29:05] INFO root fetch - processPackages [splight-lib]: Downloading https://files.pythonhosted.org/packages/8c/83/73632467b9d3a8f2d4c706d3127e27610716a29a7d2baf2f9d0de47e2db1/splight-lib-3.0.9.tar.gz
+[2023-07-13 14:29:05] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/b5/14/f6cc727a18f13e870cb98557f7c5eb8d4bf76e8a61d831c31fbd09202cde/pp_project_pkg-1.0.202307061558-py3-none-any.whl
+[2023-07-13 14:29:06] INFO root fetch - processPackages [krx-rigger]: Downloading https://files.pythonhosted.org/packages/59/05/8106984d0c358e894bf27eb839baf0d02ad718ef80496d507d7e3149ab83/krx_rigger-0.0.9.tar.gz
+[2023-07-13 14:29:06] INFO root fetch - processPackages [l2rpn-baselines]: Downloading https://files.pythonhosted.org/packages/82/25/4b68635847a528ab82e85362bfb440fa1d29c0ab6e074c97024011d510d2/l2rpn_baselines-0.7.0.tar.gz
+[2023-07-13 14:29:06] INFO root fetch - processPackages [krx-rigger]: executing diffoscope
+[2023-07-13 14:29:06] INFO root fetch - processPackages [krx-rigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krx_rigger-0.0.8.tar.gz tmp/krx_rigger-0.0.9.tar.gz --markdown 20230713/k/krx-rigger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 14:29:06] WARNING root fetch - processPackages [lino-xl]: Skipping package: exceeds size limit 41556023>=10485760
+[2023-07-13 14:29:06] INFO root fetch - processPackages [lino-xl]: Start processing: lib-parameter
+[2023-07-13 14:29:06] INFO root fetch - main [MainThread]: End processing [lino-xl] error
+[2023-07-13 14:29:06] INFO root fetch - processPackages [tskit-book-theme]: Downloading https://files.pythonhosted.org/packages/dc/cd/ad0368134d218f896ef9d83081da5be72d52d0ea61aff275026640ca0912/tskit_book_theme-1.0.1.tar.gz
+[2023-07-13 14:29:06] INFO root fetch - processPackages [splight-lib]: Downloading https://files.pythonhosted.org/packages/92/95/273a4aeb7056fa49573b952a50d09933a05426119f7b255eee77ea592eb2/splight-lib-3.1.0.tar.gz
+[2023-07-13 14:29:06] INFO root fetch - processPackages [lib-parameter]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-13 14:29:06] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/72/d8/2653506aa9134a6987eaae8b2b764525af9d25e905b7d28fe3eab4cdbda4/pp_project_pkg-1.0.202307131225-py3-none-any.whl
+[2023-07-13 14:29:06] INFO root fetch - processPackages [EllucianEthosPythonClient]: Downloading https://files.pythonhosted.org/packages/65/35/951f1fb0fb5d4dbbca2d9a93bdfaaaa59ed44610e76fe197020732f5b1cd/EllucianEthosPythonClient-0.2.9.tar.gz
+[2023-07-13 14:29:06] INFO root fetch - processPackages [neuro-extras]: Downloading https://files.pythonhosted.org/packages/c2/39/60e143fa51230260168059e9dd0f34b23ed420b25e190f7101b218f02fc2/neuro-extras-23.7.1.tar.gz
+[2023-07-13 14:29:06] INFO root fetch - processPackages [lino-noi]: Downloading https://files.pythonhosted.org/packages/c6/04/3e9331142f2ef67a0e0b8816fe32e4f076290c6c48f97807665eb0910ae8/lino-noi-23.7.0.tar.gz
+[2023-07-13 14:29:06] INFO root fetch - processPackages [capnpy]: Downloading https://files.pythonhosted.org/packages/81/e3/b59d3b23b5cb2eb0437e07ae38e6b9d692d492cad4da849e9ad25d2f25d5/capnpy-0.9.0rc2.tar.gz
+[2023-07-13 14:29:06] INFO root fetch - processPackages [tskit-book-theme]: executing diffoscope
+[2023-07-13 14:29:06] INFO root fetch - processPackages [tskit-book-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tskit_book_theme-0.3.2.tar.gz tmp/tskit_book_theme-1.0.1.tar.gz --markdown 20230713/t/tskit-book-theme/0.3.2-1.0.1/diff.md --exclude *.pyd
+[2023-07-13 14:29:06] INFO root fetch - processPackages [l2rpn-baselines]: executing diffoscope
+[2023-07-13 14:29:06] INFO root fetch - processPackages [l2rpn-baselines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l2rpn_baselines-0.6.0.post1.tar.gz tmp/l2rpn_baselines-0.7.0.tar.gz --markdown 20230713/l/l2rpn-baselines/0.6.0.post1-0.7.0/diff.md --exclude *.pyd
+[2023-07-13 14:29:06] INFO root fetch - processPackages [neuro-extras]: executing diffoscope
+[2023-07-13 14:29:06] INFO root fetch - processPackages [neuro-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuro-extras-23.7.0.tar.gz tmp/neuro-extras-23.7.1.tar.gz --markdown 20230713/n/neuro-extras/23.7.0-23.7.1/diff.md --exclude *.pyd
+[2023-07-13 14:29:06] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-07-13 14:29:06] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-3.0.9.tar.gz tmp/splight-lib-3.1.0.tar.gz --markdown 20230713/s/splight-lib/3.0.9-3.1.0/diff.md --exclude *.pyd
+[2023-07-13 14:29:06] INFO root fetch - processPackages [EllucianEthosPythonClient]: executing diffoscope
+[2023-07-13 14:29:06] INFO root fetch - processPackages [EllucianEthosPythonClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EllucianEthosPythonClient-0.2.8.tar.gz tmp/EllucianEthosPythonClient-0.2.9.tar.gz --markdown 20230713/E/EllucianEthosPythonClient/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-13 14:29:06] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-07-13 14:29:06] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202307061558-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202307131225-py3-none-any.whl.zip --markdown 20230713/p/pp-project-pkg/1.0.202307061558-1.0.202307131225/diff.md --exclude *.pyd
+[2023-07-13 14:29:06] INFO root fetch - processPackages [lib-parameter]: Downloading https://files.pythonhosted.org/packages/71/7e/a5a2b47ea2cc207c7ab9527c8dcf73c9aa065d87ce8d376e3dd810e61cff/lib_parameter-1.1.8.tar.gz
+[2023-07-13 14:29:06] INFO root fetch - processPackages [lino-noi]: executing diffoscope
+[2023-07-13 14:29:06] INFO root fetch - processPackages [lino-noi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino-noi-23.5.0.tar.gz tmp/lino-noi-23.7.0.tar.gz --markdown 20230713/l/lino-noi/23.5.0-23.7.0/diff.md --exclude *.pyd
+[2023-07-13 14:29:06] INFO root fetch - processPackages [capnpy]: executing diffoscope
+[2023-07-13 14:29:06] INFO root fetch - processPackages [capnpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capnpy-0.9.0.tar.gz tmp/capnpy-0.9.0rc2.tar.gz --markdown 20230713/c/capnpy/0.9.0-0.9.0rc2/diff.md --exclude *.pyd
+[2023-07-13 14:29:07] INFO root fetch - processPackages [lib-parameter]: Downloading https://files.pythonhosted.org/packages/cd/af/c03c8fab116312f2eafae23ce967d04103361490a0a2af6ba51fb39811a5/lib_parameter-1.1.9.tar.gz
+[2023-07-13 14:29:07] INFO root fetch - processPackages [lib-parameter]: executing diffoscope
+[2023-07-13 14:29:07] INFO root fetch - processPackages [lib-parameter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_parameter-1.1.8.tar.gz tmp/lib_parameter-1.1.9.tar.gz --markdown 20230713/l/lib-parameter/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-13 14:29:07] INFO root fetch - processPackages [krx-rigger]: Remove: archive file [/home/abi/fetcher/tmp/krx_rigger-0.0.8.tar.gz]
+[2023-07-13 14:29:07] INFO root fetch - processPackages [krx-rigger]: Remove: archive file [/home/abi/fetcher/tmp/krx_rigger-0.0.9.tar.gz]
+[2023-07-13 14:29:07] INFO root fetch - processPackages [krx-rigger]: Start processing: ultralytics
+[2023-07-13 14:29:07] INFO root fetch - main [MainThread]: End processing [krx-rigger]: success
+[2023-07-13 14:29:07] INFO root fetch - processPackages [ultralytics]: New version: [8.0.99] Old Version: [8.0.98]
+[2023-07-13 14:29:07] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b6/de/f3172b8f928ec31c47cbc2e23d6a875eea575cba8e11ad4548900923efa1/ultralytics-8.0.98.tar.gz
+[2023-07-13 14:29:08] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b3/b0/87b289ca8a910cd1421d5a217c06fb642b51546dd96bd6b923c67be00415/ultralytics-8.0.99.tar.gz
+[2023-07-13 14:29:08] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202307061558-py3-none-any.whl.zip]
+[2023-07-13 14:29:08] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202307131225-py3-none-any.whl.zip]
+[2023-07-13 14:29:08] INFO root fetch - processPackages [pp-project-pkg]: Start processing: pp-project-pkg
+[2023-07-13 14:29:08] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-07-13 14:29:08] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-07-13 14:29:08] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.98.tar.gz tmp/ultralytics-8.0.99.tar.gz --markdown 20230713/u/ultralytics/8.0.98-8.0.99/diff.md --exclude *.pyd
+[2023-07-13 14:29:08] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202307131228] Old Version: [1.0.202307131225]
+[2023-07-13 14:29:08] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/72/d8/2653506aa9134a6987eaae8b2b764525af9d25e905b7d28fe3eab4cdbda4/pp_project_pkg-1.0.202307131225-py3-none-any.whl
+[2023-07-13 14:29:08] INFO root fetch - processPackages [neuro-extras]: Remove: archive file [/home/abi/fetcher/tmp/neuro-extras-23.7.0.tar.gz]
+[2023-07-13 14:29:08] INFO root fetch - processPackages [neuro-extras]: Remove: archive file [/home/abi/fetcher/tmp/neuro-extras-23.7.1.tar.gz]
+[2023-07-13 14:29:08] INFO root fetch - main [MainThread]: End processing [neuro-extras]: success
+[2023-07-13 14:29:08] INFO root fetch - processPackages [EllucianEthosPythonClient]: Remove: archive file [/home/abi/fetcher/tmp/EllucianEthosPythonClient-0.2.8.tar.gz]
+[2023-07-13 14:29:08] INFO root fetch - processPackages [EllucianEthosPythonClient]: Remove: archive file [/home/abi/fetcher/tmp/EllucianEthosPythonClient-0.2.9.tar.gz]
+[2023-07-13 14:29:08] INFO root fetch - main [MainThread]: End processing [EllucianEthosPythonClient]: success
+[2023-07-13 14:29:08] INFO root fetch - processPackages [splight-lib]: Remove: archive file [/home/abi/fetcher/tmp/splight-lib-3.0.9.tar.gz]
+[2023-07-13 14:29:08] INFO root fetch - processPackages [splight-lib]: Remove: archive file [/home/abi/fetcher/tmp/splight-lib-3.1.0.tar.gz]
+[2023-07-13 14:29:08] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-07-13 14:29:08] INFO root fetch - processPackages [lino-noi]: Remove: archive file [/home/abi/fetcher/tmp/lino-noi-23.5.0.tar.gz]
+[2023-07-13 14:29:08] INFO root fetch - processPackages [lino-noi]: Remove: archive file [/home/abi/fetcher/tmp/lino-noi-23.7.0.tar.gz]
+[2023-07-13 14:29:08] INFO root fetch - main [MainThread]: End processing [lino-noi]: success
+[2023-07-13 14:29:08] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/4c/c0/40766624d6d190b3757c3f5d3981e77ba1479083897ec23fa2aacaa4ccc7/pp_project_pkg-1.0.202307131228-py3-none-any.whl
+[2023-07-13 14:29:08] INFO root fetch - processPackages [lib-parameter]: Remove: archive file [/home/abi/fetcher/tmp/lib_parameter-1.1.8.tar.gz]
+[2023-07-13 14:29:08] INFO root fetch - processPackages [lib-parameter]: Remove: archive file [/home/abi/fetcher/tmp/lib_parameter-1.1.9.tar.gz]
+[2023-07-13 14:29:08] INFO root fetch - main [MainThread]: End processing [lib-parameter]: success
+[2023-07-13 14:29:08] INFO root fetch - processPackages [l2rpn-baselines]: Remove: archive file [/home/abi/fetcher/tmp/l2rpn_baselines-0.6.0.post1.tar.gz]
+[2023-07-13 14:29:08] INFO root fetch - processPackages [l2rpn-baselines]: Remove: archive file [/home/abi/fetcher/tmp/l2rpn_baselines-0.7.0.tar.gz]
+[2023-07-13 14:29:08] INFO root fetch - main [MainThread]: End processing [l2rpn-baselines]: success
+[2023-07-13 14:29:08] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-07-13 14:29:08] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202307131225-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202307131228-py3-none-any.whl.zip --markdown 20230713/p/pp-project-pkg/1.0.202307131225-1.0.202307131228/diff.md --exclude *.pyd
+[2023-07-13 14:29:09] INFO root fetch - processPackages [capnpy]: Remove: archive file [/home/abi/fetcher/tmp/capnpy-0.9.0.tar.gz]
+[2023-07-13 14:29:09] INFO root fetch - processPackages [capnpy]: Remove: archive file [/home/abi/fetcher/tmp/capnpy-0.9.0rc2.tar.gz]
+[2023-07-13 14:29:09] INFO root fetch - main [MainThread]: End processing [capnpy]: success
+[2023-07-13 14:29:09] INFO root fetch - processPackages [tskit-book-theme]: Remove: archive file [/home/abi/fetcher/tmp/tskit_book_theme-0.3.2.tar.gz]
+[2023-07-13 14:29:09] INFO root fetch - processPackages [tskit-book-theme]: Remove: archive file [/home/abi/fetcher/tmp/tskit_book_theme-1.0.1.tar.gz]
+[2023-07-13 14:29:09] INFO root fetch - main [MainThread]: End processing [tskit-book-theme]: success
+[2023-07-13 14:29:09] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202307131225-py3-none-any.whl.zip]
+[2023-07-13 14:29:09] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202307131228-py3-none-any.whl.zip]
+[2023-07-13 14:29:09] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-07-13 14:29:09] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.98.tar.gz]
+[2023-07-13 14:29:09] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
+[2023-07-13 14:29:09] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-07-13 14:29:09] INFO root fetch - main [MainThread]: Store serial: [18874570]
