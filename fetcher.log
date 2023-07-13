@@ -20760,3 +20760,124 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 13:34:58] INFO root fetch - processPackages [MetaGram]: Remove: archive file [/home/abi/fetcher/tmp/MetaGram-0.0.3.tar.gz]
 [2023-07-13 13:34:58] INFO root fetch - main [MainThread]: End processing [MetaGram]: success
 [2023-07-13 13:34:58] INFO root fetch - main [MainThread]: Store serial: [18874208]
+[2023-07-13 13:40:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18874208]
+[2023-07-13 13:40:08] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-13 13:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simple-plugin-manager-zimolab1995
+[2023-07-13 13:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyre-check-nightly
+[2023-07-13 13:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odd-collector-sdk
+[2023-07-13 13:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imesh
+[2023-07-13 13:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mixprops
+[2023-07-13 13:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ffcv-pl
+[2023-07-13 13:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: manim-chemistry
+[2023-07-13 13:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: palet
+[2023-07-13 13:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: media-processing-lib
+[2023-07-13 13:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: conan
+[2023-07-13 13:40:08] INFO root fetch - processPackages [imesh]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-13 13:40:08] INFO root fetch - processPackages [odd-collector-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-13 13:40:08] WARNING root fetch - processPackages [simple-plugin-manager-zimolab1995]: Skipping, unable to determine old version
+[2023-07-13 13:40:08] INFO root fetch - processPackages [simple-plugin-manager-zimolab1995]: Start processing: conan-server
+[2023-07-13 13:40:08] INFO root fetch - main [MainThread]: End processing [simple-plugin-manager-zimolab1995] error
+[2023-07-13 13:40:08] WARNING root fetch - processPackages [palet]: Skipping, unable to determine old version
+[2023-07-13 13:40:08] INFO root fetch - processPackages [palet]: Start processing: bluecellulab
+[2023-07-13 13:40:08] INFO root fetch - main [MainThread]: End processing [palet] error
+[2023-07-13 13:40:08] INFO root fetch - processPackages [media-processing-lib]: New version: [0.62] Old Version: [0.61]
+[2023-07-13 13:40:08] INFO root fetch - processPackages [manim-chemistry]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-13 13:40:08] INFO root fetch - processPackages [ffcv-pl]: New version: [0.3.1] Old Version: [0.2.3]
+[2023-07-13 13:40:08] INFO root fetch - processPackages [conan]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-13 13:40:08] WARNING root fetch - processPackages [mixprops]: Skipping, unable to determine old version
+[2023-07-13 13:40:08] INFO root fetch - processPackages [mixprops]: Start processing: jupyter-on-golem
+[2023-07-13 13:40:08] INFO root fetch - main [MainThread]: End processing [mixprops] error
+[2023-07-13 13:40:08] INFO root fetch - processPackages [conan-server]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-13 13:40:08] INFO root fetch - processPackages [bluecellulab]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-13 13:40:08] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101689246664] Old Version: [0.0.101689160414]
+[2023-07-13 13:40:08] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/f8/11/fbb815700a24d95cfbe7365213d0aee80141c751106cf6f5ca79461d9263/imesh-0.0.8.tar.gz
+[2023-07-13 13:40:08] INFO root fetch - processPackages [jupyter-on-golem]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-13 13:40:08] INFO root fetch - processPackages [ffcv-pl]: Downloading https://files.pythonhosted.org/packages/7f/19/91e0f6f7ddd3647755a78a970c42f5b4b736a3aeba6776054a84b789dd28/ffcv_pl-0.2.3.tar.gz
+[2023-07-13 13:40:09] INFO root fetch - processPackages [media-processing-lib]: Downloading https://files.pythonhosted.org/packages/3a/21/8aed182cac7a7cc5f543794b66e193bf60c9a3cb6e5b72e7b38991f0c5a7/media-processing-lib-0.61.tar.gz
+[2023-07-13 13:40:09] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/cf/ba/ce865f52258c39c0b1d62ee3998decaf12b77f41fc74cc29f739aef2418a/odd-collector-sdk-0.3.8.tar.gz
+[2023-07-13 13:40:09] INFO root fetch - processPackages [conan-server]: Downloading https://files.pythonhosted.org/packages/4b/4e/bbde996254eeab5e725c3533f211715fbe96fcc3739778d78d32726ae6bc/conan-server-2.0.7.tar.gz
+[2023-07-13 13:40:09] INFO root fetch - processPackages [conan]: Downloading https://files.pythonhosted.org/packages/c8/94/c6f7bb97cea7c32129bae7683527279c3ae749a05eaa502d8fd222b8b3b4/conan-2.0.7.tar.gz
+[2023-07-13 13:40:09] INFO root fetch - processPackages [manim-chemistry]: Downloading https://files.pythonhosted.org/packages/8c/92/935b2b50fb477ec34f3daef2a8c56497e427ebdfc84191f2ac57a12f61d8/manim-chemistry-0.1.0.tar.gz
+[2023-07-13 13:40:09] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/9b/8d/a9d2b6ef3ee8c478fed84a6db20ce40bbc8121280b7ede35f9e98d939a5d/imesh-0.0.9.tar.gz
+[2023-07-13 13:40:09] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/53/ed/39bc592f7868c942741933bb8c355f118d756f49d419572a4563ed3ad082/bluecellulab-1.2.3.tar.gz
+[2023-07-13 13:40:09] INFO root fetch - processPackages [jupyter-on-golem]: Downloading https://files.pythonhosted.org/packages/d5/01/7acd750b789472b549e772978d3bab19835f502d1c08b7ca7fa7f80ed57f/jupyter_on_golem-0.1.0.tar.gz
+[2023-07-13 13:40:09] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/1f/80/66b0fb5cf44607c40bb86afc667c46a329b33d126e036af70fe5b7fa6d2c/pyre-check-nightly-0.0.101689160414.tar.gz
+[2023-07-13 13:40:09] WARNING root fetch - processPackages [bluecellulab]: Skipping package: exceeds size limit 13628443>=10485760
+[2023-07-13 13:40:09] INFO root fetch - processPackages [bluecellulab]: Start processing: gita
+[2023-07-13 13:40:09] INFO root fetch - main [MainThread]: End processing [bluecellulab] error
+[2023-07-13 13:40:09] INFO root fetch - processPackages [gita]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-13 13:40:09] INFO root fetch - processPackages [ffcv-pl]: Downloading https://files.pythonhosted.org/packages/a1/e2/ac32c532f90e3587b66772bd70fe9eecdda5cc7e257b552b46cf1c9cf444/ffcv_pl-0.3.1.tar.gz
+[2023-07-13 13:40:09] INFO root fetch - processPackages [imesh]: executing diffoscope
+[2023-07-13 13:40:09] INFO root fetch - processPackages [imesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imesh-0.0.8.tar.gz tmp/imesh-0.0.9.tar.gz --markdown 20230713/i/imesh/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 13:40:09] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23764908>=10485760
+[2023-07-13 13:40:09] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: pykale
+[2023-07-13 13:40:09] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-07-13 13:40:09] INFO root fetch - processPackages [media-processing-lib]: Downloading https://files.pythonhosted.org/packages/09/8c/349a3880f35c4af8106c84af3a2dc9b15b1e8cbc3d05284e3477ab29f7ce/media-processing-lib-0.62.tar.gz
+[2023-07-13 13:40:09] INFO root fetch - processPackages [conan-server]: Downloading https://files.pythonhosted.org/packages/4b/1a/7a61c20b8f0431627694392264015a3bb808cd8845f54014c0d579fa602e/conan-server-2.0.8.tar.gz
+[2023-07-13 13:40:09] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/b7/09/a072e072a86ba00164c8e4095f66211981ce5e1276abb17076ff23854b5d/odd_collector_sdk-0.3.9.tar.gz
+[2023-07-13 13:40:09] INFO root fetch - processPackages [gita]: Downloading https://files.pythonhosted.org/packages/08/74/f22a1b2f90d56fbe2c376a3b676b3863eb1f5b17712bf29abb3b48d8ec8d/gita-0.9.8.tar.gz
+[2023-07-13 13:40:09] INFO root fetch - processPackages [conan]: Downloading https://files.pythonhosted.org/packages/13/fa/524409ac5652f5da4452621e27f6f2834a443204858b5d84b3a29c327230/conan-2.0.8.tar.gz
+[2023-07-13 13:40:09] INFO root fetch - processPackages [pykale]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-13 13:40:09] INFO root fetch - processPackages [ffcv-pl]: executing diffoscope
+[2023-07-13 13:40:09] INFO root fetch - processPackages [ffcv-pl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffcv_pl-0.2.3.tar.gz tmp/ffcv_pl-0.3.1.tar.gz --markdown 20230713/f/ffcv-pl/0.2.3-0.3.1/diff.md --exclude *.pyd
+[2023-07-13 13:40:09] INFO root fetch - processPackages [media-processing-lib]: executing diffoscope
+[2023-07-13 13:40:09] INFO root fetch - processPackages [media-processing-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/media-processing-lib-0.61.tar.gz tmp/media-processing-lib-0.62.tar.gz --markdown 20230713/m/media-processing-lib/0.61-0.62/diff.md --exclude *.pyd
+[2023-07-13 13:40:09] INFO root fetch - processPackages [conan-server]: executing diffoscope
+[2023-07-13 13:40:09] INFO root fetch - processPackages [conan-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conan-server-2.0.7.tar.gz tmp/conan-server-2.0.8.tar.gz --markdown 20230713/c/conan-server/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-13 13:40:09] INFO root fetch - processPackages [conan]: executing diffoscope
+[2023-07-13 13:40:09] INFO root fetch - processPackages [conan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conan-2.0.7.tar.gz tmp/conan-2.0.8.tar.gz --markdown 20230713/c/conan/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-13 13:40:09] INFO root fetch - processPackages [jupyter-on-golem]: Downloading https://files.pythonhosted.org/packages/d7/29/d1b73b3d5d8e249dd5a83dd12937d74bdcb74780b3a817f3e9945f6a5a08/jupyter_on_golem-0.1.1.tar.gz
+[2023-07-13 13:40:09] INFO root fetch - processPackages [odd-collector-sdk]: executing diffoscope
+[2023-07-13 13:40:09] INFO root fetch - processPackages [odd-collector-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd-collector-sdk-0.3.8.tar.gz tmp/odd_collector_sdk-0.3.9.tar.gz --markdown 20230713/o/odd-collector-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-13 13:40:09] INFO root fetch - processPackages [pykale]: Downloading https://files.pythonhosted.org/packages/50/c9/c84acb143c09a57ef469b240bfe654758a4e49ae524882ee9f87c8896e04/pykale-0.1.1.tar.gz
+[2023-07-13 13:40:10] INFO root fetch - processPackages [jupyter-on-golem]: executing diffoscope
+[2023-07-13 13:40:10] INFO root fetch - processPackages [jupyter-on-golem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_on_golem-0.1.0.tar.gz tmp/jupyter_on_golem-0.1.1.tar.gz --markdown 20230713/j/jupyter-on-golem/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-13 13:40:10] INFO root fetch - processPackages [gita]: Downloading https://files.pythonhosted.org/packages/1d/46/236c7ff23d6debdb85880ac7785267931325f3896b58d56f306e7a592a0f/gita-0.9.9.tar.gz
+[2023-07-13 13:40:10] INFO root fetch - processPackages [gita]: executing diffoscope
+[2023-07-13 13:40:10] INFO root fetch - processPackages [gita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gita-0.9.8.tar.gz tmp/gita-0.9.9.tar.gz --markdown 20230713/g/gita/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-13 13:40:10] INFO root fetch - processPackages [manim-chemistry]: Downloading https://files.pythonhosted.org/packages/13/86/be4b9332026e223ea693c6d510b02536ceb5dd66c35efd54dbd3ba58b89e/manim-chemistry-0.1.1.tar.gz
+[2023-07-13 13:40:10] INFO root fetch - processPackages [manim-chemistry]: executing diffoscope
+[2023-07-13 13:40:10] INFO root fetch - processPackages [manim-chemistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manim-chemistry-0.1.0.tar.gz tmp/manim-chemistry-0.1.1.tar.gz --markdown 20230713/m/manim-chemistry/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-13 13:40:10] INFO root fetch - processPackages [pykale]: Downloading https://files.pythonhosted.org/packages/91/d9/731c9228a20d290037f3149adb82f19f6e376a2d1ce5ac3ee272b8382173/pykale-0.1.2.tar.gz
+[2023-07-13 13:40:10] INFO root fetch - processPackages [pykale]: executing diffoscope
+[2023-07-13 13:40:10] INFO root fetch - processPackages [pykale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykale-0.1.1.tar.gz tmp/pykale-0.1.2.tar.gz --markdown 20230713/p/pykale/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-13 13:40:11] INFO root fetch - processPackages [ffcv-pl]: Remove: archive file [/home/abi/fetcher/tmp/ffcv_pl-0.2.3.tar.gz]
+[2023-07-13 13:40:11] INFO root fetch - processPackages [ffcv-pl]: Remove: archive file [/home/abi/fetcher/tmp/ffcv_pl-0.3.1.tar.gz]
+[2023-07-13 13:40:11] INFO root fetch - processPackages [ffcv-pl]: Start processing: MetaGram
+[2023-07-13 13:40:11] INFO root fetch - main [MainThread]: End processing [ffcv-pl]: success
+[2023-07-13 13:40:11] INFO root fetch - processPackages [MetaGram]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-13 13:40:11] INFO root fetch - processPackages [MetaGram]: Downloading https://files.pythonhosted.org/packages/13/ca/635e73d2dac0880cb423192ee59f18ef8f8b7bc9ebb7a07945d66965317a/MetaGram-2.0.0.tar.gz
+[2023-07-13 13:40:11] INFO root fetch - processPackages [MetaGram]: Downloading https://files.pythonhosted.org/packages/63/02/be6e1c9ed46102ef5cfd7a2ac782a8bf9605157cc7ee30adaa88c699b7c3/MetaGram-2.0.1.tar.gz
+[2023-07-13 13:40:11] INFO root fetch - processPackages [odd-collector-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odd-collector-sdk-0.3.8.tar.gz]
+[2023-07-13 13:40:11] INFO root fetch - processPackages [odd-collector-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odd_collector_sdk-0.3.9.tar.gz]
+[2023-07-13 13:40:11] INFO root fetch - main [MainThread]: End processing [odd-collector-sdk]: success
+[2023-07-13 13:40:11] INFO root fetch - processPackages [MetaGram]: executing diffoscope
+[2023-07-13 13:40:11] INFO root fetch - processPackages [MetaGram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MetaGram-2.0.0.tar.gz tmp/MetaGram-2.0.1.tar.gz --markdown 20230713/M/MetaGram/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-13 13:40:11] INFO root fetch - processPackages [jupyter-on-golem]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_on_golem-0.1.0.tar.gz]
+[2023-07-13 13:40:11] INFO root fetch - processPackages [jupyter-on-golem]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_on_golem-0.1.1.tar.gz]
+[2023-07-13 13:40:11] INFO root fetch - main [MainThread]: End processing [jupyter-on-golem]: success
+[2023-07-13 13:40:11] INFO root fetch - processPackages [media-processing-lib]: Remove: archive file [/home/abi/fetcher/tmp/media-processing-lib-0.61.tar.gz]
+[2023-07-13 13:40:11] INFO root fetch - processPackages [media-processing-lib]: Remove: archive file [/home/abi/fetcher/tmp/media-processing-lib-0.62.tar.gz]
+[2023-07-13 13:40:11] INFO root fetch - main [MainThread]: End processing [media-processing-lib]: success
+[2023-07-13 13:40:12] INFO root fetch - processPackages [gita]: Remove: archive file [/home/abi/fetcher/tmp/gita-0.9.8.tar.gz]
+[2023-07-13 13:40:12] INFO root fetch - processPackages [gita]: Remove: archive file [/home/abi/fetcher/tmp/gita-0.9.9.tar.gz]
+[2023-07-13 13:40:12] INFO root fetch - main [MainThread]: End processing [gita]: success
+[2023-07-13 13:40:12] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.8.tar.gz]
+[2023-07-13 13:40:12] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.9.tar.gz]
+[2023-07-13 13:40:12] INFO root fetch - main [MainThread]: End processing [imesh]: success
+[2023-07-13 13:40:12] INFO root fetch - processPackages [manim-chemistry]: Remove: archive file [/home/abi/fetcher/tmp/manim-chemistry-0.1.0.tar.gz]
+[2023-07-13 13:40:12] INFO root fetch - processPackages [manim-chemistry]: Remove: archive file [/home/abi/fetcher/tmp/manim-chemistry-0.1.1.tar.gz]
+[2023-07-13 13:40:12] INFO root fetch - main [MainThread]: End processing [manim-chemistry]: success
+[2023-07-13 13:40:12] INFO root fetch - processPackages [pykale]: Remove: archive file [/home/abi/fetcher/tmp/pykale-0.1.1.tar.gz]
+[2023-07-13 13:40:12] INFO root fetch - processPackages [pykale]: Remove: archive file [/home/abi/fetcher/tmp/pykale-0.1.2.tar.gz]
+[2023-07-13 13:40:12] INFO root fetch - main [MainThread]: End processing [pykale]: success
+[2023-07-13 13:40:13] INFO root fetch - processPackages [conan]: Remove: archive file [/home/abi/fetcher/tmp/conan-2.0.7.tar.gz]
+[2023-07-13 13:40:13] INFO root fetch - processPackages [conan]: Remove: archive file [/home/abi/fetcher/tmp/conan-2.0.8.tar.gz]
+[2023-07-13 13:40:13] INFO root fetch - main [MainThread]: End processing [conan]: success
+[2023-07-13 13:40:13] INFO root fetch - processPackages [conan-server]: Remove: archive file [/home/abi/fetcher/tmp/conan-server-2.0.7.tar.gz]
+[2023-07-13 13:40:13] INFO root fetch - processPackages [conan-server]: Remove: archive file [/home/abi/fetcher/tmp/conan-server-2.0.8.tar.gz]
+[2023-07-13 13:40:13] INFO root fetch - main [MainThread]: End processing [conan-server]: success
+[2023-07-13 13:40:15] INFO root fetch - processPackages [MetaGram]: Remove: archive file [/home/abi/fetcher/tmp/MetaGram-2.0.0.tar.gz]
+[2023-07-13 13:40:15] INFO root fetch - processPackages [MetaGram]: Remove: archive file [/home/abi/fetcher/tmp/MetaGram-2.0.1.tar.gz]
+[2023-07-13 13:40:15] INFO root fetch - main [MainThread]: End processing [MetaGram]: success
+[2023-07-13 13:40:15] INFO root fetch - main [MainThread]: Store serial: [18874259]
