@@ -15367,3 +15367,139 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 10:57:03] INFO root fetch - processPackages [irisml-tasks-training]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-training-0.0.9.tar.gz]
 [2023-07-13 10:57:03] INFO root fetch - main [MainThread]: End processing [irisml-tasks-training]: success
 [2023-07-13 10:57:03] INFO root fetch - main [MainThread]: Store serial: [18872196]
+[2023-07-13 11:02:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18872196]
+[2023-07-13 11:02:12] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-13 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantflow
+[2023-07-13 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-rename
+[2023-07-13 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iv-tools
+[2023-07-13 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyhrms
+[2023-07-13 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inspire-matcher
+[2023-07-13 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ocrmac
+[2023-07-13 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: notros2
+[2023-07-13 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: notros2
+[2023-07-13 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zitan
+[2023-07-13 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: streamlit-custom-dataframe-test
+[2023-07-13 11:02:13] WARNING root fetch - processPackages [streamlit-custom-dataframe-test]: Skipping, unable to determine old version
+[2023-07-13 11:02:13] INFO root fetch - processPackages [streamlit-custom-dataframe-test]: Start processing: clustutils4r
+[2023-07-13 11:02:13] INFO root fetch - main [MainThread]: End processing [streamlit-custom-dataframe-test] error
+[2023-07-13 11:02:13] INFO root fetch - processPackages [quantflow]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-13 11:02:13] INFO root fetch - processPackages [notros2]: New version: [23.7.13.85806] Old Version: [23.7.13.85757]
+[2023-07-13 11:02:13] INFO root fetch - processPackages [nonebot-plugin-rename]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-13 11:02:13] INFO root fetch - processPackages [ocrmac]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-13 11:02:13] INFO root fetch - processPackages [pyhrms]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-13 11:02:13] WARNING root fetch - processPackages [zitan]: Skipping, unable to determine old version
+[2023-07-13 11:02:13] INFO root fetch - processPackages [zitan]: Start processing: fern-merge
+[2023-07-13 11:02:13] INFO root fetch - main [MainThread]: End processing [zitan] error
+[2023-07-13 11:02:13] INFO root fetch - processPackages [iv-tools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 11:02:13] INFO root fetch - processPackages [notros2]: New version: [23.7.13.85806] Old Version: [23.7.13.85757]
+[2023-07-13 11:02:13] INFO root fetch - processPackages [inspire-matcher]: New version: [9.0.9] Old Version: [9.0.8]
+[2023-07-13 11:02:13] INFO root fetch - processPackages [clustutils4r]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-13 11:02:13] INFO root fetch - processPackages [fern-merge]: New version: [0.0.30] Old Version: [0.0.29]
+[2023-07-13 11:02:13] INFO root fetch - processPackages [inspire-matcher]: Downloading https://files.pythonhosted.org/packages/67/f2/08879e7de2f80f2f406079940733e9ac8b296a59a7ad850538d88cd8977c/inspire-matcher-9.0.8.tar.gz
+[2023-07-13 11:02:13] INFO root fetch - processPackages [fern-merge]: Downloading https://files.pythonhosted.org/packages/36/86/c4ea9acd5558316e1e77305412a2314f66d13d6d0a3f239a91948cf10ccf/fern_merge-0.0.29.tar.gz
+[2023-07-13 11:02:13] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/17/bb/4b8c094ee018b7e85fe16b526c6af2f6eed7d2909033ba9fc7d8d5bcadce/notros2-23.7.13.85757.tar.gz
+[2023-07-13 11:02:13] INFO root fetch - processPackages [pyhrms]: Downloading https://files.pythonhosted.org/packages/f1/de/054d8ab4a079702676c48f1ae7f4c39e45169ffbdc3d837b0a035aab532c/pyhrms-0.6.1.zip
+[2023-07-13 11:02:13] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/17/bb/4b8c094ee018b7e85fe16b526c6af2f6eed7d2909033ba9fc7d8d5bcadce/notros2-23.7.13.85757.tar.gz
+[2023-07-13 11:02:13] INFO root fetch - processPackages [quantflow]: Downloading https://files.pythonhosted.org/packages/90/15/6909ca8fba22cfe96326521c50de2cec020b724e7a90ae54e0a8f97fb443/quantflow-0.2.1.tar.gz
+[2023-07-13 11:02:13] INFO root fetch - processPackages [nonebot-plugin-rename]: Downloading https://files.pythonhosted.org/packages/68/a8/ac2aa7cb6c2c629119d4486ec91693ba892603ba03ae8fb24b9935868327/nonebot_plugin_rename-1.6.0.tar.gz
+[2023-07-13 11:02:13] INFO root fetch - processPackages [ocrmac]: Downloading https://files.pythonhosted.org/packages/0c/ff/55c89c88d888af1142e33e87c40acf42d731eb2a219f071cfc2b99611184/ocrmac-0.1.1.tar.gz
+[2023-07-13 11:02:13] INFO root fetch - processPackages [iv-tools]: Downloading https://files.pythonhosted.org/packages/7c/b4/e7675a9c6f863f3daef6432c57c7a8813f48a48ec51bdf26e5a7a0bf164c/iv_tools-0.0.1.tar.gz
+[2023-07-13 11:02:13] INFO root fetch - processPackages [clustutils4r]: Downloading https://files.pythonhosted.org/packages/38/fe/772bf8215643bba460e77925cd51ff7c5d049a8a61cfb1155faaf82893fb/clustutils4r-0.0.1.tar.gz
+[2023-07-13 11:02:13] INFO root fetch - processPackages [inspire-matcher]: Downloading https://files.pythonhosted.org/packages/5f/fc/b7b4438f22f28ecc302dba3d038b3e60c4e5fed5b66c2bf27a5af20e91f9/inspire-matcher-9.0.9.tar.gz
+[2023-07-13 11:02:14] INFO root fetch - processPackages [inspire-matcher]: executing diffoscope
+[2023-07-13 11:02:14] INFO root fetch - processPackages [inspire-matcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspire-matcher-9.0.8.tar.gz tmp/inspire-matcher-9.0.9.tar.gz --markdown 20230713/i/inspire-matcher/9.0.8-9.0.9/diff.md --exclude *.pyd
+[2023-07-13 11:02:14] INFO root fetch - processPackages [fern-merge]: Downloading https://files.pythonhosted.org/packages/a1/63/577e89158395090627e538de72b47fc7257d7604b33850aad92569746225/fern_merge-0.0.30.tar.gz
+[2023-07-13 11:02:14] INFO root fetch - processPackages [pyhrms]: Downloading https://files.pythonhosted.org/packages/b9/44/62cc5608aec8582eb14ae26940c52019bb9aa4865b9ef2b2075f1206625f/pyhrms-0.6.2.zip
+[2023-07-13 11:02:14] INFO root fetch - processPackages [iv-tools]: Downloading https://files.pythonhosted.org/packages/b3/3f/7e9e2aa4b2cca7574ff0696c49fc111c66ddcd0810138facd8d22a918d1e/iv_tools-0.0.2.tar.gz
+[2023-07-13 11:02:14] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/d6/8a/f19142b42e96adbe48c14277146993f3824edefb10ea99fe5524a84cb642/notros2-23.7.13.85806-py3-none-any.whl
+[2023-07-13 11:02:14] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/d6/8a/f19142b42e96adbe48c14277146993f3824edefb10ea99fe5524a84cb642/notros2-23.7.13.85806-py3-none-any.whl
+[2023-07-13 11:02:14] INFO root fetch - processPackages [quantflow]: Downloading https://files.pythonhosted.org/packages/c9/f5/998bb5c96bc0c73d2a32042fe5d649d5aa96e726236b272676a74290f1f4/quantflow-0.2.2.tar.gz
+[2023-07-13 11:02:14] INFO root fetch - processPackages [nonebot-plugin-rename]: Downloading https://files.pythonhosted.org/packages/9b/07/74c8465d3c673cd8cf827271da190d8e1d83d93b2f81e2d8880759fe1060/nonebot_plugin_rename-1.6.1.tar.gz
+[2023-07-13 11:02:14] INFO root fetch - processPackages [clustutils4r]: Downloading https://files.pythonhosted.org/packages/84/36/e37c3ee8591bf96d1a1a365ec2c684373cdd5451a5d8e9bc45619da1feda/clustutils4r-0.0.2.tar.gz
+[2023-07-13 11:02:14] INFO root fetch - processPackages [fern-merge]: executing diffoscope
+[2023-07-13 11:02:14] INFO root fetch - processPackages [fern-merge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_merge-0.0.29.tar.gz tmp/fern_merge-0.0.30.tar.gz --markdown 20230713/f/fern-merge/0.0.29-0.0.30/diff.md --exclude *.pyd
+[2023-07-13 11:02:14] INFO root fetch - processPackages [iv-tools]: executing diffoscope
+[2023-07-13 11:02:14] INFO root fetch - processPackages [iv-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iv_tools-0.0.1.tar.gz tmp/iv_tools-0.0.2.tar.gz --markdown 20230713/i/iv-tools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 11:02:14] INFO root fetch - processPackages [ocrmac]: Downloading https://files.pythonhosted.org/packages/a1/be/3606c749e236834751047ae4c40f3d04793da93675b9ec80dd3171ad325d/ocrmac-0.1.2.tar.gz
+[2023-07-13 11:02:14] INFO root fetch - processPackages [pyhrms]: executing diffoscope
+[2023-07-13 11:02:14] INFO root fetch - processPackages [pyhrms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhrms-0.6.1.zip tmp/pyhrms-0.6.2.zip --markdown 20230713/p/pyhrms/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-13 11:02:14] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-13 11:02:14] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.13.85757.tar.gz tmp/notros2-23.7.13.85806-py3-none-any.whl.zip --markdown 20230713/n/notros2/23.7.13.85757-23.7.13.85806/diff.md --exclude *.pyd
+[2023-07-13 11:02:14] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-13 11:02:14] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.13.85757.tar.gz tmp/notros2-23.7.13.85806-py3-none-any.whl.zip --markdown 20230713/n/notros2/23.7.13.85757-23.7.13.85806/diff.md --exclude *.pyd
+[2023-07-13 11:02:14] INFO root fetch - processPackages [quantflow]: executing diffoscope
+[2023-07-13 11:02:14] INFO root fetch - processPackages [quantflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantflow-0.2.1.tar.gz tmp/quantflow-0.2.2.tar.gz --markdown 20230713/q/quantflow/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-13 11:02:14] INFO root fetch - processPackages [clustutils4r]: executing diffoscope
+[2023-07-13 11:02:14] INFO root fetch - processPackages [clustutils4r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clustutils4r-0.0.1.tar.gz tmp/clustutils4r-0.0.2.tar.gz --markdown 20230713/c/clustutils4r/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-13 11:02:14] INFO root fetch - processPackages [ocrmac]: executing diffoscope
+[2023-07-13 11:02:14] INFO root fetch - processPackages [ocrmac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocrmac-0.1.1.tar.gz tmp/ocrmac-0.1.2.tar.gz --markdown 20230713/o/ocrmac/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-13 11:02:14] INFO root fetch - processPackages [nonebot-plugin-rename]: executing diffoscope
+[2023-07-13 11:02:14] INFO root fetch - processPackages [nonebot-plugin-rename]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_rename-1.6.0.tar.gz tmp/nonebot_plugin_rename-1.6.1.tar.gz --markdown 20230713/n/nonebot-plugin-rename/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-13 11:02:15] INFO root fetch - processPackages [inspire-matcher]: Remove: archive file [/home/abi/fetcher/tmp/inspire-matcher-9.0.8.tar.gz]
+[2023-07-13 11:02:15] INFO root fetch - processPackages [inspire-matcher]: Remove: archive file [/home/abi/fetcher/tmp/inspire-matcher-9.0.9.tar.gz]
+[2023-07-13 11:02:15] INFO root fetch - processPackages [inspire-matcher]: Start processing: ECMPY
+[2023-07-13 11:02:15] INFO root fetch - main [MainThread]: End processing [inspire-matcher]: success
+[2023-07-13 11:02:15] WARNING root fetch - processPackages [ECMPY]: Skipping, unable to determine old version
+[2023-07-13 11:02:15] INFO root fetch - processPackages [ECMPY]: Start processing: dabbas
+[2023-07-13 11:02:15] INFO root fetch - main [MainThread]: End processing [ECMPY] error
+[2023-07-13 11:02:15] INFO root fetch - processPackages [dabbas]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-13 11:02:15] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/1a/8e/e5d0691550cb5578a5df9873401513821d6a43ac761b41988a767afd26fd/dabbas-0.1.8.tar.gz
+[2023-07-13 11:02:15] INFO root fetch - processPackages [iv-tools]: Remove: archive file [/home/abi/fetcher/tmp/iv_tools-0.0.1.tar.gz]
+[2023-07-13 11:02:15] INFO root fetch - processPackages [iv-tools]: Remove: archive file [/home/abi/fetcher/tmp/iv_tools-0.0.2.tar.gz]
+[2023-07-13 11:02:15] INFO root fetch - processPackages [iv-tools]: Start processing: streamz-pulsar
+[2023-07-13 11:02:15] INFO root fetch - main [MainThread]: End processing [iv-tools]: success
+[2023-07-13 11:02:15] INFO root fetch - processPackages [streamz-pulsar]: New version: [0.1.1] Old Version: [0.1.0.post2]
+[2023-07-13 11:02:15] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.13.85757.tar.gz]
+[2023-07-13 11:02:15] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.13.85806-py3-none-any.whl.zip]
+[2023-07-13 11:02:15] INFO root fetch - processPackages [notros2]: Start processing: odoo14-addon-ssi-fleet-work-order
+[2023-07-13 11:02:15] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-13 11:02:15] WARNING root fetch - processPackages [odoo14-addon-ssi-fleet-work-order]: Skipping, unable to determine old version
+[2023-07-13 11:02:15] INFO root fetch - processPackages [odoo14-addon-ssi-fleet-work-order]: Start processing: aws-ec2-instance-running-scheduler
+[2023-07-13 11:02:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-fleet-work-order] error
+[2023-07-13 11:02:15] INFO root fetch - processPackages [streamz-pulsar]: Downloading https://files.pythonhosted.org/packages/37/05/306cb32f021c341fc83738ca3dcb65e841cf389ed5a10e8d0e036a15d434/streamz_pulsar-0.1.0.post2.tar.gz
+[2023-07-13 11:02:16] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/0c/72/c707c0eb0d3b89ec99495ca7bed05f2b9021c58df26a8bbceee846f4da64/dabbas-0.1.9.tar.gz
+[2023-07-13 11:02:16] WARNING root fetch - processPackages [aws-ec2-instance-running-scheduler]: Skipping, unable to determine old version
+[2023-07-13 11:02:16] INFO root fetch - processPackages [aws-ec2-instance-running-scheduler]: Start processing: odoo14-addon-ssi-fleet-management
+[2023-07-13 11:02:16] INFO root fetch - main [MainThread]: End processing [aws-ec2-instance-running-scheduler] error
+[2023-07-13 11:02:16] INFO root fetch - processPackages [notros2]: Start processing: crmodel
+[2023-07-13 11:02:16] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-13 11:02:16] WARNING root fetch - processPackages [odoo14-addon-ssi-fleet-management]: Skipping, unable to determine old version
+[2023-07-13 11:02:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-fleet-management] error
+[2023-07-13 11:02:16] INFO root fetch - processPackages [crmodel]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-13 11:02:16] INFO root fetch - processPackages [pyhrms]: Remove: archive file [/home/abi/fetcher/tmp/pyhrms-0.6.1.zip]
+[2023-07-13 11:02:16] INFO root fetch - processPackages [dabbas]: executing diffoscope
+[2023-07-13 11:02:16] INFO root fetch - processPackages [dabbas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dabbas-0.1.8.tar.gz tmp/dabbas-0.1.9.tar.gz --markdown 20230713/d/dabbas/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-13 11:02:16] INFO root fetch - processPackages [pyhrms]: Remove: archive file [/home/abi/fetcher/tmp/pyhrms-0.6.2.zip]
+[2023-07-13 11:02:16] INFO root fetch - main [MainThread]: End processing [pyhrms]: success
+[2023-07-13 11:02:16] INFO root fetch - processPackages [quantflow]: Remove: archive file [/home/abi/fetcher/tmp/quantflow-0.2.1.tar.gz]
+[2023-07-13 11:02:16] INFO root fetch - processPackages [quantflow]: Remove: archive file [/home/abi/fetcher/tmp/quantflow-0.2.2.tar.gz]
+[2023-07-13 11:02:16] INFO root fetch - main [MainThread]: End processing [quantflow]: success
+[2023-07-13 11:02:16] INFO root fetch - processPackages [clustutils4r]: Remove: archive file [/home/abi/fetcher/tmp/clustutils4r-0.0.1.tar.gz]
+[2023-07-13 11:02:16] INFO root fetch - processPackages [clustutils4r]: Remove: archive file [/home/abi/fetcher/tmp/clustutils4r-0.0.2.tar.gz]
+[2023-07-13 11:02:16] INFO root fetch - main [MainThread]: End processing [clustutils4r]: success
+[2023-07-13 11:02:16] INFO root fetch - processPackages [streamz-pulsar]: Downloading https://files.pythonhosted.org/packages/c0/ef/650d42fa471813c2e929afb4869934025abad004c93856df93ba17dc4934/streamz_pulsar-0.1.1.tar.gz
+[2023-07-13 11:02:16] INFO root fetch - processPackages [ocrmac]: Remove: archive file [/home/abi/fetcher/tmp/ocrmac-0.1.1.tar.gz]
+[2023-07-13 11:02:16] INFO root fetch - processPackages [ocrmac]: Remove: archive file [/home/abi/fetcher/tmp/ocrmac-0.1.2.tar.gz]
+[2023-07-13 11:02:16] INFO root fetch - main [MainThread]: End processing [ocrmac]: success
+[2023-07-13 11:02:16] INFO root fetch - processPackages [crmodel]: Downloading https://files.pythonhosted.org/packages/a8/be/45ec66f2590f2c2e8366395fcd126dffa255e7632c3bd84b20b6114ff0db/crmodel-0.4.3.tar.gz
+[2023-07-13 11:02:16] INFO root fetch - processPackages [streamz-pulsar]: executing diffoscope
+[2023-07-13 11:02:16] INFO root fetch - processPackages [streamz-pulsar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamz_pulsar-0.1.0.post2.tar.gz tmp/streamz_pulsar-0.1.1.tar.gz --markdown 20230713/s/streamz-pulsar/0.1.0.post2-0.1.1/diff.md --exclude *.pyd
+[2023-07-13 11:02:16] INFO root fetch - processPackages [nonebot-plugin-rename]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_rename-1.6.0.tar.gz]
+[2023-07-13 11:02:16] INFO root fetch - processPackages [nonebot-plugin-rename]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_rename-1.6.1.tar.gz]
+[2023-07-13 11:02:16] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-rename]: success
+[2023-07-13 11:02:16] INFO root fetch - processPackages [crmodel]: Downloading https://files.pythonhosted.org/packages/5d/ea/3d66cadeefc4ca0c5be6f92cfedac1acf5f1914d498db77e207afaf4e8cd/crmodel-0.4.4.tar.gz
+[2023-07-13 11:02:17] INFO root fetch - processPackages [dabbas]: Remove: archive file [/home/abi/fetcher/tmp/dabbas-0.1.8.tar.gz]
+[2023-07-13 11:02:17] INFO root fetch - processPackages [dabbas]: Remove: archive file [/home/abi/fetcher/tmp/dabbas-0.1.9.tar.gz]
+[2023-07-13 11:02:17] INFO root fetch - main [MainThread]: End processing [dabbas]: success
+[2023-07-13 11:02:17] INFO root fetch - processPackages [crmodel]: executing diffoscope
+[2023-07-13 11:02:17] INFO root fetch - processPackages [crmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crmodel-0.4.3.tar.gz tmp/crmodel-0.4.4.tar.gz --markdown 20230713/c/crmodel/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-13 11:02:17] INFO root fetch - processPackages [streamz-pulsar]: Remove: archive file [/home/abi/fetcher/tmp/streamz_pulsar-0.1.0.post2.tar.gz]
+[2023-07-13 11:02:17] INFO root fetch - processPackages [streamz-pulsar]: Remove: archive file [/home/abi/fetcher/tmp/streamz_pulsar-0.1.1.tar.gz]
+[2023-07-13 11:02:17] INFO root fetch - main [MainThread]: End processing [streamz-pulsar]: success
+[2023-07-13 11:02:17] INFO root fetch - processPackages [crmodel]: Remove: archive file [/home/abi/fetcher/tmp/crmodel-0.4.3.tar.gz]
+[2023-07-13 11:02:17] INFO root fetch - processPackages [crmodel]: Remove: archive file [/home/abi/fetcher/tmp/crmodel-0.4.4.tar.gz]
+[2023-07-13 11:02:17] INFO root fetch - main [MainThread]: End processing [crmodel]: success
+[2023-07-13 11:02:17] INFO root fetch - processPackages [fern-merge]: Remove: archive file [/home/abi/fetcher/tmp/fern_merge-0.0.29.tar.gz]
+[2023-07-13 11:02:17] INFO root fetch - processPackages [fern-merge]: Remove: archive file [/home/abi/fetcher/tmp/fern_merge-0.0.30.tar.gz]
+[2023-07-13 11:02:17] INFO root fetch - main [MainThread]: End processing [fern-merge]: success
+[2023-07-13 11:02:17] INFO root fetch - main [MainThread]: Store serial: [18872256]
