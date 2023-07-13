@@ -22445,3 +22445,95 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 14:46:15] INFO root fetch - processPackages [scisuit]: Remove: archive file [/home/abi/fetcher/tmp/scisuit-1.0.2.tar.gz]
 [2023-07-13 14:46:15] INFO root fetch - main [MainThread]: End processing [scisuit]: success
 [2023-07-13 14:46:15] INFO root fetch - main [MainThread]: Store serial: [18874855]
+[2023-07-13 14:51:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18874855]
+[2023-07-13 14:51:26] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-13 14:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2023-07-13 14:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mauritstestpackage2
+[2023-07-13 14:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wpp-bavapi
+[2023-07-13 14:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mltu
+[2023-07-13 14:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tokenmonster
+[2023-07-13 14:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyconverters-newsml
+[2023-07-13 14:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mediacatch-s2t
+[2023-07-13 14:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nordvpn-tray
+[2023-07-13 14:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pySAXS
+[2023-07-13 14:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: multigifview
+[2023-07-13 14:51:26] INFO root fetch - processPackages [mediacatch-s2t]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-13 14:51:26] INFO root fetch - processPackages [nordvpn-tray]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-13 14:51:26] INFO root fetch - processPackages [mauritstestpackage2]: New version: [3.0.0a17] Old Version: [3.0.0a16]
+[2023-07-13 14:51:26] INFO root fetch - processPackages [mltu]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 14:51:26] INFO root fetch - processPackages [tokenmonster]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-13 14:51:26] INFO root fetch - processPackages [pyconverters-newsml]: New version: [0.5.97] Old Version: [0.5.88]
+[2023-07-13 14:51:26] INFO root fetch - processPackages [wpp-bavapi]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-13 14:51:26] INFO root fetch - processPackages [multigifview]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-13 14:51:26] INFO root fetch - processPackages [pySAXS]: New version: [3.266] Old Version: [3.265]
+[2023-07-13 14:51:26] INFO root fetch - processPackages [coiled]: New version: [0.8.8.dev9] Old Version: [0.8.8.dev8]
+[2023-07-13 14:51:26] INFO root fetch - processPackages [nordvpn-tray]: Downloading https://files.pythonhosted.org/packages/d3/64/af1df6ccd80ec65e898b2dec51a384706a2898c37025f3a6188519d8aeee/nordvpn-tray-1.0.3.tar.gz
+[2023-07-13 14:51:26] INFO root fetch - processPackages [tokenmonster]: Downloading https://files.pythonhosted.org/packages/66/86/dc89888cd8d33f671e408f2c8dd86c4335f13d8342d90d38de5c2a87ddf4/tokenmonster-1.1.4.tar.gz
+[2023-07-13 14:51:26] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/72/0e/aa05a5141b5d80287919caffa6a9a6e611a363a221e0221298149c3579af/coiled-0.8.8.dev8.tar.gz
+[2023-07-13 14:51:26] INFO root fetch - processPackages [multigifview]: Downloading https://files.pythonhosted.org/packages/75/a6/a12e2747243e0440b66f2333087601c09ff6e11fe0a6412ed18762b4d2ed/multigifview-0.2.7.tar.gz
+[2023-07-13 14:51:26] INFO root fetch - processPackages [mediacatch-s2t]: Downloading https://files.pythonhosted.org/packages/fa/e5/afe190a4f2b8ae218e3c20a4f4f8f33fca45f864ec4481c36f92c53372f3/mediacatch-s2t-1.0.0.tar.gz
+[2023-07-13 14:51:26] INFO root fetch - processPackages [mltu]: Downloading https://files.pythonhosted.org/packages/6c/7a/53267e410178b81e16179bba8681a8ec5371b61b229a6af8deb4d1ec90a5/mltu-1.0.8.tar.gz
+[2023-07-13 14:51:26] INFO root fetch - processPackages [pyconverters-newsml]: Downloading https://files.pythonhosted.org/packages/3a/96/ba551391aa9ea9f7e2b94d7f27e9cfccb6d692735189ba56e94bf84f101d/pyconverters-newsml-0.5.88.tar.gz
+[2023-07-13 14:51:26] INFO root fetch - processPackages [mauritstestpackage2]: Downloading https://files.pythonhosted.org/packages/34/50/217f71b9437ac178b0a2f1cd6e15541a101c623809780230acc7906f9906/mauritstestpackage2-3.0.0a16.tar.gz
+[2023-07-13 14:51:26] INFO root fetch - processPackages [wpp-bavapi]: Downloading https://files.pythonhosted.org/packages/94/30/e5a3e34cdb28987f7f041f21705273774751e7db75fd42e9f7c0500f55e8/wpp-bavapi-0.5.0.tar.gz
+[2023-07-13 14:51:26] INFO root fetch - processPackages [pySAXS]: Downloading https://files.pythonhosted.org/packages/3c/e9/085a062e4e97799205f3a16e2f7f2ee122d92913afb16e61e00b11190c05/pySAXS-3.265-py2.py3-none-any.whl
+[2023-07-13 14:51:27] WARNING root fetch - processPackages [pySAXS]: Skipping package: exceeds size limit 20260175>=10485760
+[2023-07-13 14:51:27] INFO root fetch - processPackages [pySAXS]: Start processing: inline-patch
+[2023-07-13 14:51:27] INFO root fetch - main [MainThread]: End processing [pySAXS] error
+[2023-07-13 14:51:27] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/ba/43/ce3d3d4711a89756d25a0339f94da013117829985a8b9ecf405eb55248c5/coiled-0.8.8.dev9.tar.gz
+[2023-07-13 14:51:27] WARNING root fetch - processPackages [inline-patch]: Skipping, unable to determine old version
+[2023-07-13 14:51:27] INFO root fetch - main [MainThread]: End processing [inline-patch] error
+[2023-07-13 14:51:27] INFO root fetch - processPackages [tokenmonster]: Downloading https://files.pythonhosted.org/packages/83/ee/06818d01b5776cb1bd44d28e7be159debafa4added5711e164bc3d71adcd/tokenmonster-1.1.5.tar.gz
+[2023-07-13 14:51:27] INFO root fetch - processPackages [nordvpn-tray]: Downloading https://files.pythonhosted.org/packages/46/ba/96ddf8f2e2b7ebb53534ec91be45e7e42eacd4051e7b2a79c97791912ea8/nordvpn-tray-1.0.4.tar.gz
+[2023-07-13 14:51:27] INFO root fetch - processPackages [multigifview]: Downloading https://files.pythonhosted.org/packages/cc/0d/f45f9484d1ec2525587b4d7a2688c48ddb05ce02903d2ef44ea7a81ee2f2/multigifview-0.2.8.tar.gz
+[2023-07-13 14:51:27] INFO root fetch - processPackages [mediacatch-s2t]: Downloading https://files.pythonhosted.org/packages/be/cb/3bd27ba35d122e2453177dc84a4c591cd607bf7eef75b9a8da941c0acc50/mediacatch-s2t-1.0.1.tar.gz
+[2023-07-13 14:51:27] INFO root fetch - processPackages [mauritstestpackage2]: Downloading https://files.pythonhosted.org/packages/3a/34/35228b798245be4b8da55915e2ba29e1b59c0d07b471265b5ac675ae6bba/mauritstestpackage2-3.0.0a17.tar.gz
+[2023-07-13 14:51:27] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-13 14:51:27] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.8.dev8.tar.gz tmp/coiled-0.8.8.dev9.tar.gz --markdown 20230713/c/coiled/0.8.8.dev8-0.8.8.dev9/diff.md --exclude *.pyd
+[2023-07-13 14:51:27] INFO root fetch - processPackages [tokenmonster]: executing diffoscope
+[2023-07-13 14:51:27] INFO root fetch - processPackages [tokenmonster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokenmonster-1.1.4.tar.gz tmp/tokenmonster-1.1.5.tar.gz --markdown 20230713/t/tokenmonster/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-13 14:51:27] INFO root fetch - processPackages [nordvpn-tray]: executing diffoscope
+[2023-07-13 14:51:27] INFO root fetch - processPackages [nordvpn-tray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nordvpn-tray-1.0.3.tar.gz tmp/nordvpn-tray-1.0.4.tar.gz --markdown 20230713/n/nordvpn-tray/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-13 14:51:27] INFO root fetch - processPackages [mltu]: Downloading https://files.pythonhosted.org/packages/57/86/b2ce47c51853a9b385f9c8565666c2836b72e7e99aaf676abd51c3f38525/mltu-1.0.9.tar.gz
+[2023-07-13 14:51:27] INFO root fetch - processPackages [wpp-bavapi]: Downloading https://files.pythonhosted.org/packages/e5/74/d055f76b05f605b6d61c81c7238fd182cbf6334823d83b66f102cfe28872/wpp-bavapi-0.6.0.tar.gz
+[2023-07-13 14:51:27] INFO root fetch - processPackages [mediacatch-s2t]: executing diffoscope
+[2023-07-13 14:51:27] INFO root fetch - processPackages [mediacatch-s2t]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediacatch-s2t-1.0.0.tar.gz tmp/mediacatch-s2t-1.0.1.tar.gz --markdown 20230713/m/mediacatch-s2t/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-13 14:51:27] INFO root fetch - processPackages [multigifview]: executing diffoscope
+[2023-07-13 14:51:27] INFO root fetch - processPackages [multigifview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multigifview-0.2.7.tar.gz tmp/multigifview-0.2.8.tar.gz --markdown 20230713/m/multigifview/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-13 14:51:27] INFO root fetch - processPackages [mltu]: executing diffoscope
+[2023-07-13 14:51:27] INFO root fetch - processPackages [mltu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltu-1.0.8.tar.gz tmp/mltu-1.0.9.tar.gz --markdown 20230713/m/mltu/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 14:51:27] INFO root fetch - processPackages [mauritstestpackage2]: executing diffoscope
+[2023-07-13 14:51:27] INFO root fetch - processPackages [mauritstestpackage2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mauritstestpackage2-3.0.0a16.tar.gz tmp/mauritstestpackage2-3.0.0a17.tar.gz --markdown 20230713/m/mauritstestpackage2/3.0.0a16-3.0.0a17/diff.md --exclude *.pyd
+[2023-07-13 14:51:27] INFO root fetch - processPackages [wpp-bavapi]: executing diffoscope
+[2023-07-13 14:51:27] INFO root fetch - processPackages [wpp-bavapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wpp-bavapi-0.5.0.tar.gz tmp/wpp-bavapi-0.6.0.tar.gz --markdown 20230713/w/wpp-bavapi/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-13 14:51:28] INFO root fetch - processPackages [pyconverters-newsml]: Downloading https://files.pythonhosted.org/packages/35/36/d5b2c7cf9167e9617ea8f6d104118bc1baf38c41b2a72147016c6f105c4b/pyconverters_newsml-0.5.97-py3-none-any.whl
+[2023-07-13 14:51:28] INFO root fetch - processPackages [pyconverters-newsml]: executing diffoscope
+[2023-07-13 14:51:28] INFO root fetch - processPackages [pyconverters-newsml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconverters-newsml-0.5.88.tar.gz tmp/pyconverters_newsml-0.5.97-py3-none-any.whl.zip --markdown 20230713/p/pyconverters-newsml/0.5.88-0.5.97/diff.md --exclude *.pyd
+[2023-07-13 14:51:29] INFO root fetch - processPackages [tokenmonster]: Remove: archive file [/home/abi/fetcher/tmp/tokenmonster-1.1.4.tar.gz]
+[2023-07-13 14:51:29] INFO root fetch - processPackages [tokenmonster]: Remove: archive file [/home/abi/fetcher/tmp/tokenmonster-1.1.5.tar.gz]
+[2023-07-13 14:51:29] INFO root fetch - main [MainThread]: End processing [tokenmonster]: success
+[2023-07-13 14:51:29] INFO root fetch - processPackages [mauritstestpackage2]: Remove: archive file [/home/abi/fetcher/tmp/mauritstestpackage2-3.0.0a16.tar.gz]
+[2023-07-13 14:51:29] INFO root fetch - processPackages [mauritstestpackage2]: Remove: archive file [/home/abi/fetcher/tmp/mauritstestpackage2-3.0.0a17.tar.gz]
+[2023-07-13 14:51:29] INFO root fetch - main [MainThread]: End processing [mauritstestpackage2]: success
+[2023-07-13 14:51:29] INFO root fetch - processPackages [nordvpn-tray]: Remove: archive file [/home/abi/fetcher/tmp/nordvpn-tray-1.0.3.tar.gz]
+[2023-07-13 14:51:29] INFO root fetch - processPackages [nordvpn-tray]: Remove: archive file [/home/abi/fetcher/tmp/nordvpn-tray-1.0.4.tar.gz]
+[2023-07-13 14:51:29] INFO root fetch - main [MainThread]: End processing [nordvpn-tray]: success
+[2023-07-13 14:51:29] INFO root fetch - processPackages [mediacatch-s2t]: Remove: archive file [/home/abi/fetcher/tmp/mediacatch-s2t-1.0.0.tar.gz]
+[2023-07-13 14:51:29] INFO root fetch - processPackages [mediacatch-s2t]: Remove: archive file [/home/abi/fetcher/tmp/mediacatch-s2t-1.0.1.tar.gz]
+[2023-07-13 14:51:29] INFO root fetch - main [MainThread]: End processing [mediacatch-s2t]: success
+[2023-07-13 14:51:29] INFO root fetch - processPackages [multigifview]: Remove: archive file [/home/abi/fetcher/tmp/multigifview-0.2.7.tar.gz]
+[2023-07-13 14:51:29] INFO root fetch - processPackages [multigifview]: Remove: archive file [/home/abi/fetcher/tmp/multigifview-0.2.8.tar.gz]
+[2023-07-13 14:51:29] INFO root fetch - main [MainThread]: End processing [multigifview]: success
+[2023-07-13 14:51:29] INFO root fetch - processPackages [wpp-bavapi]: Remove: archive file [/home/abi/fetcher/tmp/wpp-bavapi-0.5.0.tar.gz]
+[2023-07-13 14:51:29] INFO root fetch - processPackages [wpp-bavapi]: Remove: archive file [/home/abi/fetcher/tmp/wpp-bavapi-0.6.0.tar.gz]
+[2023-07-13 14:51:29] INFO root fetch - main [MainThread]: End processing [wpp-bavapi]: success
+[2023-07-13 14:51:29] INFO root fetch - processPackages [mltu]: Remove: archive file [/home/abi/fetcher/tmp/mltu-1.0.8.tar.gz]
+[2023-07-13 14:51:29] INFO root fetch - processPackages [mltu]: Remove: archive file [/home/abi/fetcher/tmp/mltu-1.0.9.tar.gz]
+[2023-07-13 14:51:29] INFO root fetch - main [MainThread]: End processing [mltu]: success
+[2023-07-13 14:51:29] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.8.dev8.tar.gz]
+[2023-07-13 14:51:29] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.8.dev9.tar.gz]
+[2023-07-13 14:51:29] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-13 14:51:29] INFO root fetch - processPackages [pyconverters-newsml]: Remove: archive file [/home/abi/fetcher/tmp/pyconverters-newsml-0.5.88.tar.gz]
+[2023-07-13 14:51:29] INFO root fetch - processPackages [pyconverters-newsml]: Remove: archive file [/home/abi/fetcher/tmp/pyconverters_newsml-0.5.97-py3-none-any.whl.zip]
+[2023-07-13 14:51:29] INFO root fetch - main [MainThread]: End processing [pyconverters-newsml]: success
+[2023-07-13 14:51:29] INFO root fetch - main [MainThread]: Store serial: [18874892]
