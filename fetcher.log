@@ -19359,3 +19359,157 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 12:31:19] INFO root fetch - processPackages [microprobe-doc]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_doc-0.5.20230713062648-py2.py3-none-any.whl.zip]
 [2023-07-13 12:31:19] INFO root fetch - main [MainThread]: End processing [microprobe-doc]: success
 [2023-07-13 12:31:19] INFO root fetch - main [MainThread]: Store serial: [18873586]
+[2023-07-13 12:36:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18873586]
+[2023-07-13 12:36:27] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-13 12:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Navix
+[2023-07-13 12:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: helios-rl
+[2023-07-13 12:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lib-shopware6-api-base
+[2023-07-13 12:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: miSRA
+[2023-07-13 12:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypi-download-pkg
+[2023-07-13 12:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvidia-smi2
+[2023-07-13 12:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wordview
+[2023-07-13 12:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hil-core
+[2023-07-13 12:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pheno-utils
+[2023-07-13 12:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastapi-oauth2
+[2023-07-13 12:36:28] INFO root fetch - processPackages [pypi-download-pkg]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-13 12:36:28] INFO root fetch - processPackages [Navix]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-13 12:36:28] INFO root fetch - processPackages [fastapi-oauth2]: New version: [1.0.0a0] Old Version: [0.0.0]
+[2023-07-13 12:36:28] INFO root fetch - processPackages [helios-rl]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-13 12:36:28] INFO root fetch - processPackages [miSRA]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-13 12:36:28] INFO root fetch - processPackages [pheno-utils]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-13 12:36:28] INFO root fetch - processPackages [wordview]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-13 12:36:28] INFO root fetch - processPackages [hil-core]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-07-13 12:36:28] INFO root fetch - processPackages [nvidia-smi2]: New version: [0.0.1.post2] Old Version: [0.0.1.post1]
+[2023-07-13 12:36:28] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/bd/5c/6d9fca1b38f00359fd5489a8e87431846776836a6aef6e311c3dc810b221/pheno-utils-0.3.4.tar.gz
+[2023-07-13 12:36:28] INFO root fetch - processPackages [lib-shopware6-api-base]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-13 12:36:28] INFO root fetch - processPackages [pypi-download-pkg]: Downloading https://files.pythonhosted.org/packages/c4/fa/3e609bd10e67370b238a5613bee88d2ce2b1da807b81e349e1edf92db0e7/pypi_download_pkg-0.2.1.tar.gz
+[2023-07-13 12:36:28] ERROR root fetch - processPackages [fastapi-oauth2]: Unable to fetch info: No such project/version 'fastapi-oauth2' 0.0.0
+[2023-07-13 12:36:28] INFO root fetch - processPackages [miSRA]: Downloading https://files.pythonhosted.org/packages/6c/ae/894e0c043072eebdcff6e1546e4877e069b02711589916ebba85045d12f3/misra-0.0.2.tar.gz
+[2023-07-13 12:36:28] INFO root fetch - processPackages [fastapi-oauth2]: Start processing: ccpem-utils
+[2023-07-13 12:36:28] INFO root fetch - main [MainThread]: End processing [fastapi-oauth2] error
+[2023-07-13 12:36:28] INFO root fetch - processPackages [ccpem-utils]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-07-13 12:36:28] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/78/71/112109ad2b1aa685617dd84a150048372fbd6a5546c749679f55b88e8825/helios-rl-1.0.8.tar.gz
+[2023-07-13 12:36:28] INFO root fetch - processPackages [nvidia-smi2]: Downloading https://files.pythonhosted.org/packages/09/da/2e2f48a6abd9bef063f63e73e399735d6254a3a81ab14549e64b8cbde4ba/nvidia-smi2-0.0.1.post1.tar.gz
+[2023-07-13 12:36:28] INFO root fetch - processPackages [Navix]: Downloading https://files.pythonhosted.org/packages/0c/1a/92e46c668d0a024735e4d25d9809d0aeddecc2a8c18062a1269bcaa8ac85/Navix-0.3.6.tar.gz
+[2023-07-13 12:36:28] INFO root fetch - processPackages [wordview]: Downloading https://files.pythonhosted.org/packages/b2/a1/623a097a6ecf317bdae1e437370165635f5c2707cc8cfc2f8f84d975b27d/wordview-0.4.1.tar.gz
+[2023-07-13 12:36:28] INFO root fetch - processPackages [hil-core]: Downloading https://files.pythonhosted.org/packages/51/0a/4301f9c004b9638ee0c309b2f7d791a849ff842131b2ffd066fa63d71cac/hil_core-0.0.3-cp39-cp39-win_amd64.whl
+[2023-07-13 12:36:28] INFO root fetch - processPackages [lib-shopware6-api-base]: Downloading https://files.pythonhosted.org/packages/97/23/0e655ce9a6430cce844ffa7230c7dfc5b713dddc787a31fcb943ec84e33d/lib_shopware6_api_base-2.1.0.tar.gz
+[2023-07-13 12:36:28] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/45/00/02ff554764ea4729cac2341f145fc858eb32570710cf8b8fd698364e30cb/pheno-utils-0.3.5.tar.gz
+[2023-07-13 12:36:28] INFO root fetch - processPackages [ccpem-utils]: Downloading https://files.pythonhosted.org/packages/28/ef/2fadc871f695378f40d8a5af23a883fce8f7b1eea3c54116bbd51e708bfd/ccpem_utils-0.0.1.dev8.tar.gz
+[2023-07-13 12:36:28] INFO root fetch - processPackages [pypi-download-pkg]: Downloading https://files.pythonhosted.org/packages/98/68/31c0d6c0a6109457a9c618976dcc408fda9dca5308e89851cf8f6b04fe0f/pypi_download_pkg-0.2.2.tar.gz
+[2023-07-13 12:36:29] INFO root fetch - processPackages [miSRA]: Downloading https://files.pythonhosted.org/packages/e6/2a/d5068ec4cd8a5721be420de8fb3565de1b2e3862f98cf55e193c8e28f89c/misra-0.0.3.tar.gz
+[2023-07-13 12:36:29] INFO root fetch - processPackages [pheno-utils]: executing diffoscope
+[2023-07-13 12:36:29] INFO root fetch - processPackages [pheno-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pheno-utils-0.3.4.tar.gz tmp/pheno-utils-0.3.5.tar.gz --markdown 20230713/p/pheno-utils/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-13 12:36:29] INFO root fetch - processPackages [pypi-download-pkg]: executing diffoscope
+[2023-07-13 12:36:29] INFO root fetch - processPackages [pypi-download-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypi_download_pkg-0.2.1.tar.gz tmp/pypi_download_pkg-0.2.2.tar.gz --markdown 20230713/p/pypi-download-pkg/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-13 12:36:29] INFO root fetch - processPackages [nvidia-smi2]: Downloading https://files.pythonhosted.org/packages/06/62/90ed3455091c52fb64d4147050203f03884bf75cc0d18530394ef01a1b07/nvidia-smi2-0.0.1.post2.tar.gz
+[2023-07-13 12:36:29] INFO root fetch - processPackages [miSRA]: executing diffoscope
+[2023-07-13 12:36:29] INFO root fetch - processPackages [miSRA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misra-0.0.2.tar.gz tmp/misra-0.0.3.tar.gz --markdown 20230713/m/miSRA/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-13 12:36:29] INFO root fetch - processPackages [Navix]: Downloading https://files.pythonhosted.org/packages/66/5f/33e3ce8891d987a6e0c388d065879d0b0a1db7c137661bd65b81f72c5627/Navix-0.3.7.tar.gz
+[2023-07-13 12:36:29] INFO root fetch - processPackages [wordview]: Downloading https://files.pythonhosted.org/packages/fb/86/0608709688e0db87361d7da96042af2f43dcb9479bf33146a565c70cfda5/wordview-0.4.2.tar.gz
+[2023-07-13 12:36:29] INFO root fetch - processPackages [nvidia-smi2]: executing diffoscope
+[2023-07-13 12:36:29] INFO root fetch - processPackages [nvidia-smi2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-smi2-0.0.1.post1.tar.gz tmp/nvidia-smi2-0.0.1.post2.tar.gz --markdown 20230713/n/nvidia-smi2/0.0.1.post1-0.0.1.post2/diff.md --exclude *.pyd
+[2023-07-13 12:36:29] INFO root fetch - processPackages [lib-shopware6-api-base]: Downloading https://files.pythonhosted.org/packages/64/53/9af756dbaa934a4a153eceedb65c4fc6b7d927f1c1249ad94345e887e595/lib_shopware6_api_base-2.1.1.tar.gz
+[2023-07-13 12:36:29] INFO root fetch - processPackages [hil-core]: Downloading https://files.pythonhosted.org/packages/a7/b4/dbd951ae8ca9dcdefd6dd87c740708824b104037907523e2305a69fdd4a5/hil_core-0.0.5-cp37-cp37m-win_amd64.whl
+[2023-07-13 12:36:29] INFO root fetch - processPackages [wordview]: executing diffoscope
+[2023-07-13 12:36:29] INFO root fetch - processPackages [wordview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordview-0.4.1.tar.gz tmp/wordview-0.4.2.tar.gz --markdown 20230713/w/wordview/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-13 12:36:29] INFO root fetch - processPackages [Navix]: executing diffoscope
+[2023-07-13 12:36:29] INFO root fetch - processPackages [Navix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Navix-0.3.6.tar.gz tmp/Navix-0.3.7.tar.gz --markdown 20230713/N/Navix/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-13 12:36:29] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/38/b0/396024a90d94cd1b942fb7b480a67ba92baba52b21d550f8b04102a9c2ef/helios-rl-1.0.9.tar.gz
+[2023-07-13 12:36:29] INFO root fetch - processPackages [lib-shopware6-api-base]: executing diffoscope
+[2023-07-13 12:36:29] INFO root fetch - processPackages [lib-shopware6-api-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_shopware6_api_base-2.1.0.tar.gz tmp/lib_shopware6_api_base-2.1.1.tar.gz --markdown 20230713/l/lib-shopware6-api-base/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-13 12:36:29] INFO root fetch - processPackages [hil-core]: executing diffoscope
+[2023-07-13 12:36:29] INFO root fetch - processPackages [hil-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hil_core-0.0.3-cp39-cp39-win_amd64.whl.zip tmp/hil_core-0.0.5-cp37-cp37m-win_amd64.whl.zip --markdown 20230713/h/hil-core/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-07-13 12:36:29] INFO root fetch - processPackages [helios-rl]: executing diffoscope
+[2023-07-13 12:36:29] INFO root fetch - processPackages [helios-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-rl-1.0.8.tar.gz tmp/helios-rl-1.0.9.tar.gz --markdown 20230713/h/helios-rl/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-13 12:36:29] INFO root fetch - processPackages [ccpem-utils]: Downloading https://files.pythonhosted.org/packages/4e/6d/3501aaba0ccbd3a2387ee204c009b9dffd42e3701b620715388af67f3cf5/ccpem_utils-0.0.1.dev9.tar.gz
+[2023-07-13 12:36:29] INFO root fetch - processPackages [ccpem-utils]: executing diffoscope
+[2023-07-13 12:36:29] INFO root fetch - processPackages [ccpem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccpem_utils-0.0.1.dev8.tar.gz tmp/ccpem_utils-0.0.1.dev9.tar.gz --markdown 20230713/c/ccpem-utils/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-13 12:36:30] INFO root fetch - processPackages [pypi-download-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pypi_download_pkg-0.2.1.tar.gz]
+[2023-07-13 12:36:30] INFO root fetch - processPackages [pypi-download-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pypi_download_pkg-0.2.2.tar.gz]
+[2023-07-13 12:36:30] INFO root fetch - processPackages [pypi-download-pkg]: Start processing: returnn
+[2023-07-13 12:36:30] INFO root fetch - main [MainThread]: End processing [pypi-download-pkg]: success
+[2023-07-13 12:36:30] INFO root fetch - processPackages [returnn]: New version: [1.20230713.121056] Old Version: [1.20230711.131732]
+[2023-07-13 12:36:31] INFO root fetch - processPackages [pheno-utils]: Remove: archive file [/home/abi/fetcher/tmp/pheno-utils-0.3.4.tar.gz]
+[2023-07-13 12:36:31] INFO root fetch - processPackages [pheno-utils]: Remove: archive file [/home/abi/fetcher/tmp/pheno-utils-0.3.5.tar.gz]
+[2023-07-13 12:36:31] INFO root fetch - processPackages [pheno-utils]: Start processing: greenbone-feed-sync
+[2023-07-13 12:36:31] INFO root fetch - main [MainThread]: End processing [pheno-utils]: success
+[2023-07-13 12:36:31] INFO root fetch - processPackages [greenbone-feed-sync]: New version: [23.7.0] Old Version: [23.6.0]
+[2023-07-13 12:36:31] INFO root fetch - processPackages [miSRA]: Remove: archive file [/home/abi/fetcher/tmp/misra-0.0.2.tar.gz]
+[2023-07-13 12:36:31] INFO root fetch - processPackages [miSRA]: Remove: archive file [/home/abi/fetcher/tmp/misra-0.0.3.tar.gz]
+[2023-07-13 12:36:31] INFO root fetch - processPackages [miSRA]: Start processing: aws-ec2-auto-scaling-instance-running-scheduler
+[2023-07-13 12:36:31] INFO root fetch - main [MainThread]: End processing [miSRA]: success
+[2023-07-13 12:36:31] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/b5/ca/ad68cce8d542fcd46e769d08e98010b327e31f7dd90076850d124273d481/returnn-1.20230711.131732.tar.gz
+[2023-07-13 12:36:31] INFO root fetch - processPackages [nvidia-smi2]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-smi2-0.0.1.post1.tar.gz]
+[2023-07-13 12:36:31] INFO root fetch - processPackages [nvidia-smi2]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-smi2-0.0.1.post2.tar.gz]
+[2023-07-13 12:36:31] INFO root fetch - processPackages [nvidia-smi2]: Start processing: opnsenseapi
+[2023-07-13 12:36:31] INFO root fetch - main [MainThread]: End processing [nvidia-smi2]: success
+[2023-07-13 12:36:31] ERROR root fetch - processPackages [aws-ec2-auto-scaling-instance-running-scheduler]: Unable to get metadata: No such project 'aws-ec2-auto-scaling-instance-running-scheduler'
+[2023-07-13 12:36:31] INFO root fetch - processPackages [aws-ec2-auto-scaling-instance-running-scheduler]: Start processing: Photini
+[2023-07-13 12:36:31] INFO root fetch - main [MainThread]: End processing [aws-ec2-auto-scaling-instance-running-scheduler] error
+[2023-07-13 12:36:31] INFO root fetch - processPackages [opnsenseapi]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-13 12:36:31] INFO root fetch - processPackages [wordview]: Remove: archive file [/home/abi/fetcher/tmp/wordview-0.4.1.tar.gz]
+[2023-07-13 12:36:31] INFO root fetch - processPackages [wordview]: Remove: archive file [/home/abi/fetcher/tmp/wordview-0.4.2.tar.gz]
+[2023-07-13 12:36:31] INFO root fetch - processPackages [wordview]: Start processing: metaphor-connectors
+[2023-07-13 12:36:31] INFO root fetch - main [MainThread]: End processing [wordview]: success
+[2023-07-13 12:36:31] INFO root fetch - processPackages [Photini]: New version: [2023.7.1] Old Version: [2023.7.0]
+[2023-07-13 12:36:31] INFO root fetch - processPackages [hil-core]: Remove: archive file [/home/abi/fetcher/tmp/hil_core-0.0.3-cp39-cp39-win_amd64.whl.zip]
+[2023-07-13 12:36:31] INFO root fetch - processPackages [hil-core]: Remove: archive file [/home/abi/fetcher/tmp/hil_core-0.0.5-cp37-cp37m-win_amd64.whl.zip]
+[2023-07-13 12:36:31] INFO root fetch - processPackages [hil-core]: Start processing: supervisely
+[2023-07-13 12:36:31] INFO root fetch - main [MainThread]: End processing [hil-core]: success
+[2023-07-13 12:36:31] INFO root fetch - processPackages [opnsenseapi]: Downloading https://files.pythonhosted.org/packages/e9/4f/9b39e2d0a0bf8ecefae7744f17b64f846e08af293d85da433adb70d3adfd/opnsenseapi-0.3.1.tar.gz
+[2023-07-13 12:36:31] INFO root fetch - processPackages [greenbone-feed-sync]: Downloading https://files.pythonhosted.org/packages/5d/1e/9f6d9581130b2e91673f410482dab648c40dd5ecee221ac2336613d60d56/greenbone_feed_sync-23.6.0.tar.gz
+[2023-07-13 12:36:31] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-13 12:36:31] INFO root fetch - processPackages [Photini]: Downloading https://files.pythonhosted.org/packages/af/fe/e8d7fca9306c5d68756781b9ed8b5cb2e9caff603358dece6bc591913f22/Photini-2023.7.0.tar.gz
+[2023-07-13 12:36:31] INFO root fetch - processPackages [Navix]: Remove: archive file [/home/abi/fetcher/tmp/Navix-0.3.6.tar.gz]
+[2023-07-13 12:36:31] INFO root fetch - processPackages [Navix]: Remove: archive file [/home/abi/fetcher/tmp/Navix-0.3.7.tar.gz]
+[2023-07-13 12:36:31] INFO root fetch - main [MainThread]: End processing [Navix]: success
+[2023-07-13 12:36:31] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/69/55/29bb3d25fdb456b624545c5fd556e247f97279e88fbe4ba60555fec29c74/returnn-1.20230713.121056.tar.gz
+[2023-07-13 12:36:31] INFO root fetch - processPackages [lib-shopware6-api-base]: Remove: archive file [/home/abi/fetcher/tmp/lib_shopware6_api_base-2.1.0.tar.gz]
+[2023-07-13 12:36:31] INFO root fetch - processPackages [lib-shopware6-api-base]: Remove: archive file [/home/abi/fetcher/tmp/lib_shopware6_api_base-2.1.1.tar.gz]
+[2023-07-13 12:36:31] INFO root fetch - main [MainThread]: End processing [lib-shopware6-api-base]: success
+[2023-07-13 12:36:31] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-07-13 12:36:31] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.8.tar.gz]
+[2023-07-13 12:36:31] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.9.tar.gz]
+[2023-07-13 12:36:31] INFO root fetch - main [MainThread]: End processing [helios-rl]: success
+[2023-07-13 12:36:31] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/92/c2/f775488949e85740917971e97fbd1e7187de61421ac7fbbc9d5485275473/metaphor-connectors-0.9.3.tar.gz
+[2023-07-13 12:36:31] INFO root fetch - processPackages [opnsenseapi]: Downloading https://files.pythonhosted.org/packages/14/61/f26ec7f1e22c281ea32bce5c847f3487ca247c5c5fcd96537d7ed2b93fa5/opnsenseapi-0.4.0.tar.gz
+[2023-07-13 12:36:31] INFO root fetch - processPackages [greenbone-feed-sync]: Downloading https://files.pythonhosted.org/packages/d1/39/afbfbd41b3832314c4ed9d1ea37017604dd0352e324b334a28189a562ff8/greenbone_feed_sync-23.7.0.tar.gz
+[2023-07-13 12:36:31] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-07-13 12:36:32] INFO root fetch - processPackages [ccpem-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccpem_utils-0.0.1.dev8.tar.gz]
+[2023-07-13 12:36:32] INFO root fetch - processPackages [ccpem-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccpem_utils-0.0.1.dev9.tar.gz]
+[2023-07-13 12:36:32] INFO root fetch - main [MainThread]: End processing [ccpem-utils]: success
+[2023-07-13 12:36:32] INFO root fetch - processPackages [opnsenseapi]: executing diffoscope
+[2023-07-13 12:36:32] INFO root fetch - processPackages [opnsenseapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opnsenseapi-0.3.1.tar.gz tmp/opnsenseapi-0.4.0.tar.gz --markdown 20230713/o/opnsenseapi/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-13 12:36:32] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/7e/f3/fd51e0c2498f7340487d8eba1ee24a716e8056cce2a496a20f5da0cc11de/metaphor-connectors-0.9.4.tar.gz
+[2023-07-13 12:36:32] INFO root fetch - processPackages [greenbone-feed-sync]: executing diffoscope
+[2023-07-13 12:36:32] INFO root fetch - processPackages [greenbone-feed-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greenbone_feed_sync-23.6.0.tar.gz tmp/greenbone_feed_sync-23.7.0.tar.gz --markdown 20230713/g/greenbone-feed-sync/23.6.0-23.7.0/diff.md --exclude *.pyd
+[2023-07-13 12:36:32] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-07-13 12:36:32] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230711.131732.tar.gz tmp/returnn-1.20230713.121056.tar.gz --markdown 20230713/r/returnn/1.20230711.131732-1.20230713.121056/diff.md --exclude *.pyd
+[2023-07-13 12:36:32] INFO root fetch - processPackages [Photini]: Downloading https://files.pythonhosted.org/packages/21/37/18b83e992a5e71afaf756ee6ace046d71f30a1ce2df99663b3a3f084f0a0/Photini-2023.7.1.tar.gz
+[2023-07-13 12:36:32] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2023-07-13 12:36:32] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20230713/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-13 12:36:32] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-07-13 12:36:32] INFO root fetch - processPackages [Photini]: executing diffoscope
+[2023-07-13 12:36:32] INFO root fetch - processPackages [Photini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Photini-2023.7.0.tar.gz tmp/Photini-2023.7.1.tar.gz --markdown 20230713/P/Photini/2023.7.0-2023.7.1/diff.md --exclude *.pyd
+[2023-07-13 12:36:32] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-07-13 12:36:32] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230713/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-07-13 12:36:33] INFO root fetch - processPackages [opnsenseapi]: Remove: archive file [/home/abi/fetcher/tmp/opnsenseapi-0.3.1.tar.gz]
+[2023-07-13 12:36:33] INFO root fetch - processPackages [opnsenseapi]: Remove: archive file [/home/abi/fetcher/tmp/opnsenseapi-0.4.0.tar.gz]
+[2023-07-13 12:36:33] INFO root fetch - main [MainThread]: End processing [opnsenseapi]: success
+[2023-07-13 12:36:33] INFO root fetch - processPackages [greenbone-feed-sync]: Remove: archive file [/home/abi/fetcher/tmp/greenbone_feed_sync-23.6.0.tar.gz]
+[2023-07-13 12:36:33] INFO root fetch - processPackages [greenbone-feed-sync]: Remove: archive file [/home/abi/fetcher/tmp/greenbone_feed_sync-23.7.0.tar.gz]
+[2023-07-13 12:36:33] INFO root fetch - main [MainThread]: End processing [greenbone-feed-sync]: success
+[2023-07-13 12:36:33] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.3.tar.gz]
+[2023-07-13 12:36:33] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.4.tar.gz]
+[2023-07-13 12:36:33] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2023-07-13 12:36:34] INFO root fetch - processPackages [Photini]: Remove: archive file [/home/abi/fetcher/tmp/Photini-2023.7.0.tar.gz]
+[2023-07-13 12:36:34] INFO root fetch - processPackages [Photini]: Remove: archive file [/home/abi/fetcher/tmp/Photini-2023.7.1.tar.gz]
+[2023-07-13 12:36:34] INFO root fetch - main [MainThread]: End processing [Photini]: success
+[2023-07-13 12:36:34] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2023-07-13 12:36:34] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2023-07-13 12:36:34] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-07-13 12:36:35] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230711.131732.tar.gz]
+[2023-07-13 12:36:35] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230713.121056.tar.gz]
+[2023-07-13 12:36:35] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-07-13 12:36:35] INFO root fetch - main [MainThread]: Store serial: [18873641]
