@@ -13818,3 +13818,85 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-13 09:51:16] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-07-13 09:51:16] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-07-13 09:51:16] INFO root fetch - main [MainThread]: Store serial: [18871577]
+[2023-07-13 09:56:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18871577]
+[2023-07-13 09:56:25] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-13 09:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-cpu
+[2023-07-13 09:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: automslc
+[2023-07-13 09:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lc-checkpoint
+[2023-07-13 09:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fxpyD365api
+[2023-07-13 09:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dashvector
+[2023-07-13 09:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cjm-yolox-pytorch
+[2023-07-13 09:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oda-api
+[2023-07-13 09:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cjm-yolox-pytorch
+[2023-07-13 09:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fsrs4anki-optimizer
+[2023-07-13 09:56:25] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.88]
+[2023-07-13 09:56:25] INFO root fetch - processPackages [automslc]: New version: [3.8] Old Version: [3.7]
+[2023-07-13 09:56:25] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.88]
+[2023-07-13 09:56:25] INFO root fetch - processPackages [fxpyD365api]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-13 09:56:25] INFO root fetch - processPackages [lc-checkpoint]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-13 09:56:25] INFO root fetch - processPackages [dashvector]: New version: [0.0.13] Old Version: [0.0.12]
+[2023-07-13 09:56:25] INFO root fetch - processPackages [oda-api]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-13 09:56:25] INFO root fetch - processPackages [fsrs4anki-optimizer]: New version: [4.0.0] Old Version: [3.26.2]
+[2023-07-13 09:56:25] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230713] Old Version: [2.14.0.dev20230712]
+[2023-07-13 09:56:25] INFO root fetch - processPackages [oda-api]: Downloading https://files.pythonhosted.org/packages/2a/da/ae946bb3b848e0608ba7ae59513567e994efa20e3d09832c7bff4a45183d/oda_api-1.1.8.tar.gz
+[2023-07-13 09:56:25] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/07/31/6fe9e9e05e33d51f29df8e70c382888ad922b80f3f06fe922fc9a4a34399/cjm-yolox-pytorch-0.0.88.tar.gz
+[2023-07-13 09:56:25] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/07/31/6fe9e9e05e33d51f29df8e70c382888ad922b80f3f06fe922fc9a4a34399/cjm-yolox-pytorch-0.0.88.tar.gz
+[2023-07-13 09:56:25] INFO root fetch - processPackages [automslc]: Downloading https://files.pythonhosted.org/packages/13/3e/bc20493842c604f807a38aa65a88cd87b8d9ca25ac63685f3a6a13e85ef2/automslc-3.7.tar.gz
+[2023-07-13 09:56:25] INFO root fetch - processPackages [lc-checkpoint]: Downloading https://files.pythonhosted.org/packages/d7/66/b26ae50093d4a96abe3add1b4154bb5e183519ffca2ec29de61a8a70dbe7/lc-checkpoint-0.4.0.tar.gz
+[2023-07-13 09:56:25] INFO root fetch - processPackages [dashvector]: Downloading https://files.pythonhosted.org/packages/0a/63/66acbbacb77198e2ee71d9ea1617214248ac3510fc1c53b8e6588e1809e3/dashvector-0.0.12-py3-none-any.whl
+[2023-07-13 09:56:25] INFO root fetch - processPackages [fxpyD365api]: Downloading https://files.pythonhosted.org/packages/6c/f0/1a4383858fc31cfd9a4252bd12c433cd560367fe1cf769e56cb7bd4a0ee5/fxpyD365api-1.0.6.tar.gz
+[2023-07-13 09:56:25] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/2f/28/35afe1a8f66487773391f00c954f4958d11c84d4b757cd25b3b30e896d5f/fsrs4anki_optimizer-3.26.2.tar.gz
+[2023-07-13 09:56:25] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/fd/57/630c297efaf804919a0f363609c72bdafcf7c027877fd0fe5e05ee6a741f/tf_nightly_cpu-2.14.0.dev20230712-cp39-cp39-win_amd64.whl
+[2023-07-13 09:56:26] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 09:56:26] INFO root fetch - processPackages [automslc]: Downloading https://files.pythonhosted.org/packages/3e/fb/36d6cc36c6a13ca0034929dbde1f3b0de28fce824ad0f8507d1eff2e6fdd/automslc-3.8-py3-none-any.whl
+[2023-07-13 09:56:26] INFO root fetch - processPackages [oda-api]: Downloading https://files.pythonhosted.org/packages/25/22/d4bbce784f5e05fc17652049f6064727f248a9259cb975e43d978aecd247/oda_api-1.1.9.tar.gz
+[2023-07-13 09:56:26] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-13 09:56:26] INFO root fetch - processPackages [lc-checkpoint]: Downloading https://files.pythonhosted.org/packages/04/b7/6c08fbfb5ec064dd393a9476ceebefe03b6c958dec725a7598c3830b6328/lc-checkpoint-0.5.0.tar.gz
+[2023-07-13 09:56:26] INFO root fetch - processPackages [dashvector]: Downloading https://files.pythonhosted.org/packages/1c/f5/61da57360944211c096d12ac74932e262ab4a16068dba86cd560bb4d95b7/dashvector-0.0.13-py3-none-any.whl
+[2023-07-13 09:56:26] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 09:56:26] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.88.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.88-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 09:56:26] INFO root fetch - processPackages [fxpyD365api]: Downloading https://files.pythonhosted.org/packages/65/a3/1d20d768f188924fb280498e83b3b08898ea78b5a816f6e1810825fa3812/fxpyD365api-1.0.7.tar.gz
+[2023-07-13 09:56:26] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-13 09:56:26] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.88.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230713/c/cjm-yolox-pytorch/0.0.88-0.0.9/diff.md --exclude *.pyd
+[2023-07-13 09:56:26] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/fa/2a/bdf50bb4623de27dc1a7683d72898a7dd02ae7a4d238d5970a0812c362f4/fsrs4anki_optimizer-4.0.0.tar.gz
+[2023-07-13 09:56:26] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/40/68/7fc6be530bc6d148f0016d28b2e5acbda161babaa55bf395c0ec4db2726f/tf_nightly_cpu-2.14.0.dev20230713-cp39-cp39-win_amd64.whl
+[2023-07-13 09:56:26] INFO root fetch - processPackages [automslc]: executing diffoscope
+[2023-07-13 09:56:26] INFO root fetch - processPackages [automslc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automslc-3.7.tar.gz tmp/automslc-3.8-py3-none-any.whl.zip --markdown 20230713/a/automslc/3.7-3.8/diff.md --exclude *.pyd
+[2023-07-13 09:56:26] INFO root fetch - processPackages [dashvector]: executing diffoscope
+[2023-07-13 09:56:26] INFO root fetch - processPackages [dashvector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashvector-0.0.12-py3-none-any.whl.zip tmp/dashvector-0.0.13-py3-none-any.whl.zip --markdown 20230713/d/dashvector/0.0.12-0.0.13/diff.md --exclude *.pyd
+[2023-07-13 09:56:26] INFO root fetch - processPackages [oda-api]: executing diffoscope
+[2023-07-13 09:56:26] INFO root fetch - processPackages [fxpyD365api]: executing diffoscope
+[2023-07-13 09:56:26] INFO root fetch - processPackages [oda-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oda_api-1.1.8.tar.gz tmp/oda_api-1.1.9.tar.gz --markdown 20230713/o/oda-api/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-13 09:56:26] INFO root fetch - processPackages [fxpyD365api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fxpyD365api-1.0.6.tar.gz tmp/fxpyD365api-1.0.7.tar.gz --markdown 20230713/f/fxpyD365api/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-13 09:56:26] INFO root fetch - processPackages [lc-checkpoint]: executing diffoscope
+[2023-07-13 09:56:26] INFO root fetch - processPackages [lc-checkpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lc-checkpoint-0.4.0.tar.gz tmp/lc-checkpoint-0.5.0.tar.gz --markdown 20230713/l/lc-checkpoint/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-13 09:56:26] INFO root fetch - processPackages [fsrs4anki-optimizer]: executing diffoscope
+[2023-07-13 09:56:26] INFO root fetch - processPackages [fsrs4anki-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs4anki_optimizer-3.26.2.tar.gz tmp/fsrs4anki_optimizer-4.0.0.tar.gz --markdown 20230713/f/fsrs4anki-optimizer/3.26.2-4.0.0/diff.md --exclude *.pyd
+[2023-07-13 09:56:26] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-13 09:56:26] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230712-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230713-cp39-cp39-win_amd64.whl.zip --markdown 20230713/t/tf-nightly-cpu/2.14.0.dev20230712-2.14.0.dev20230713/diff.md --exclude *.pyd
+[2023-07-13 09:56:28] INFO root fetch - processPackages [automslc]: Remove: archive file [/home/abi/fetcher/tmp/automslc-3.7.tar.gz]
+[2023-07-13 09:56:28] INFO root fetch - processPackages [automslc]: Remove: archive file [/home/abi/fetcher/tmp/automslc-3.8-py3-none-any.whl.zip]
+[2023-07-13 09:56:28] INFO root fetch - main [MainThread]: End processing [automslc]: success
+[2023-07-13 09:56:28] INFO root fetch - processPackages [fxpyD365api]: Remove: archive file [/home/abi/fetcher/tmp/fxpyD365api-1.0.6.tar.gz]
+[2023-07-13 09:56:28] INFO root fetch - processPackages [fxpyD365api]: Remove: archive file [/home/abi/fetcher/tmp/fxpyD365api-1.0.7.tar.gz]
+[2023-07-13 09:56:28] INFO root fetch - main [MainThread]: End processing [fxpyD365api]: success
+[2023-07-13 09:56:28] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230712-cp39-cp39-win_amd64.whl.zip]
+[2023-07-13 09:56:28] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230713-cp39-cp39-win_amd64.whl.zip]
+[2023-07-13 09:56:28] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-13 09:56:29] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.88.tar.gz]
+[2023-07-13 09:56:29] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-13 09:56:29] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 09:56:29] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.26.2.tar.gz]
+[2023-07-13 09:56:29] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-4.0.0.tar.gz]
+[2023-07-13 09:56:29] INFO root fetch - main [MainThread]: End processing [fsrs4anki-optimizer]: success
+[2023-07-13 09:56:29] INFO root fetch - processPackages [lc-checkpoint]: Remove: archive file [/home/abi/fetcher/tmp/lc-checkpoint-0.4.0.tar.gz]
+[2023-07-13 09:56:29] INFO root fetch - processPackages [lc-checkpoint]: Remove: archive file [/home/abi/fetcher/tmp/lc-checkpoint-0.5.0.tar.gz]
+[2023-07-13 09:56:29] INFO root fetch - main [MainThread]: End processing [lc-checkpoint]: success
+[2023-07-13 09:56:29] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-13 09:56:29] INFO root fetch - processPackages [oda-api]: Remove: archive file [/home/abi/fetcher/tmp/oda_api-1.1.8.tar.gz]
+[2023-07-13 09:56:29] INFO root fetch - processPackages [oda-api]: Remove: archive file [/home/abi/fetcher/tmp/oda_api-1.1.9.tar.gz]
+[2023-07-13 09:56:29] INFO root fetch - main [MainThread]: End processing [oda-api]: success
+[2023-07-13 09:56:29] INFO root fetch - processPackages [dashvector]: Remove: archive file [/home/abi/fetcher/tmp/dashvector-0.0.12-py3-none-any.whl.zip]
+[2023-07-13 09:56:29] INFO root fetch - processPackages [dashvector]: Remove: archive file [/home/abi/fetcher/tmp/dashvector-0.0.13-py3-none-any.whl.zip]
+[2023-07-13 09:56:29] INFO root fetch - main [MainThread]: End processing [dashvector]: success
+[2023-07-13 09:56:29] INFO root fetch - main [MainThread]: Store serial: [18871606]
