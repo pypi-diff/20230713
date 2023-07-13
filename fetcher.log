@@ -5886,3 +5886,78 @@
 [2023-07-13 03:19:53] INFO root fetch - processPackages [wasmpy-build]: Remove: archive file [/home/abi/fetcher/tmp/wasmpy_build-0.3.0-py3-none-any.whl.zip]
 [2023-07-13 03:19:53] INFO root fetch - main [MainThread]: End processing [wasmpy-build]: success
 [2023-07-13 03:19:53] INFO root fetch - main [MainThread]: Store serial: [18868600]
+[2023-07-13 03:24:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18868600]
+[2023-07-13 03:25:02] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-13 03:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wasmpy-build
+[2023-07-13 03:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vosk-autosrt
+[2023-07-13 03:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-base-extras
+[2023-07-13 03:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snk
+[2023-07-13 03:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatllm
+[2023-07-13 03:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: duckdb
+[2023-07-13 03:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SPACEL
+[2023-07-13 03:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: container-helpers
+[2023-07-13 03:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mutual
+[2023-07-13 03:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: devopstrabalhofinal
+[2023-07-13 03:25:02] INFO root fetch - processPackages [streamlit-base-extras]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-13 03:25:02] INFO root fetch - processPackages [vosk-autosrt]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-07-13 03:25:02] INFO root fetch - processPackages [chatllm]: New version: [2023.7.4.13.43.50] Old Version: [2023.7.4.12.13.14]
+[2023-07-13 03:25:02] INFO root fetch - processPackages [snk]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-13 03:25:02] INFO root fetch - processPackages [wasmpy-build]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-13 03:25:02] INFO root fetch - processPackages [SPACEL]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-13 03:25:02] INFO root fetch - processPackages [container-helpers]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-13 03:25:02] INFO root fetch - processPackages [devopstrabalhofinal]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-07-13 03:25:03] WARNING root fetch - processPackages [mutual]: Skipping, unable to determine old version
+[2023-07-13 03:25:03] INFO root fetch - main [MainThread]: End processing [mutual] error
+[2023-07-13 03:25:03] INFO root fetch - processPackages [duckdb]: New version: [0.8.2.dev1724] Old Version: [0.8.2.dev1573]
+[2023-07-13 03:25:03] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/54/33/ed6257a47eacf50e2ac7965bb117827af5a1e5eddb02d20dc3f15cc9a81a/snk-0.9.2.tar.gz
+[2023-07-13 03:25:03] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/ac/15/d8015b5ea1834f5c18e47edecc9b74875a43e81a49b4b2b2372660959ee1/chatllm-2023.7.4.12.13.14.tar.gz
+[2023-07-13 03:25:03] INFO root fetch - processPackages [vosk-autosrt]: Downloading https://files.pythonhosted.org/packages/13/0b/2e8dfe98e59cc796e025003aff6c05fb1ec53595d7983845bab00e3c037d/vosk_autosrt-0.1.2.tar.gz
+[2023-07-13 03:25:03] INFO root fetch - processPackages [devopstrabalhofinal]: Downloading https://files.pythonhosted.org/packages/23/55/114bdf8a092d0af3bae1a4d73eaf15e615326248dce0cfe1033c2ab82bb4/devopstrabalhofinal-0.0.5.tar.gz
+[2023-07-13 03:25:03] INFO root fetch - processPackages [wasmpy-build]: Downloading https://files.pythonhosted.org/packages/a8/9f/e79c198a0df4f7f513c2513fc091d66cce22df69d04f5e8e0f9ab30c09d4/wasmpy-build-0.2.1.tar.gz
+[2023-07-13 03:25:03] INFO root fetch - processPackages [streamlit-base-extras]: Downloading https://files.pythonhosted.org/packages/ba/f8/48c123c3f22d0ae525a7b4edbb61e0ea4be958779baf1093da7e2e92ca66/streamlit-base-extras-0.2.8.tar.gz
+[2023-07-13 03:25:03] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 11352041>=10485760
+[2023-07-13 03:25:03] WARNING root fetch - processPackages [vosk-autosrt]: Skipping package: exceeds size limit 21465998>=10485760
+[2023-07-13 03:25:03] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-07-13 03:25:03] INFO root fetch - main [MainThread]: End processing [vosk-autosrt] error
+[2023-07-13 03:25:03] INFO root fetch - processPackages [SPACEL]: Downloading https://files.pythonhosted.org/packages/d2/c1/62dd0dd667576ed767bba97d956196dde0bb3eb5624db564ae0b84ed1225/SPACEL-1.1.1.tar.gz
+[2023-07-13 03:25:03] INFO root fetch - processPackages [container-helpers]: Downloading https://files.pythonhosted.org/packages/ed/a6/794275577b466d4280903613cc8490bb9ab84cb8d6c3652b016ac4b55030/container_helpers-0.0.7.tar.gz
+[2023-07-13 03:25:03] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/1e/e4/7caf81e11abcb95f237a9b5214ef54e6231a8f95a18782bce84aec0a1f30/duckdb-0.8.2.dev1573.tar.gz
+[2023-07-13 03:25:03] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10486825>=10485760
+[2023-07-13 03:25:03] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-07-13 03:25:03] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/1c/e9/336f86dec3e01b44b3e34cc162ca9a0ca4108fb07244fd97031ad3205df1/snk-0.9.3.tar.gz
+[2023-07-13 03:25:03] INFO root fetch - processPackages [snk]: executing diffoscope
+[2023-07-13 03:25:03] INFO root fetch - processPackages [snk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snk-0.9.2.tar.gz tmp/snk-0.9.3.tar.gz --markdown 20230713/s/snk/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-13 03:25:03] INFO root fetch - processPackages [devopstrabalhofinal]: Downloading https://files.pythonhosted.org/packages/76/1c/0f66baf1469248802ae6400e94ee125b2557e894879acdbd56970a146b24/devopstrabalhofinal-0.0.7.tar.gz
+[2023-07-13 03:25:03] INFO root fetch - processPackages [SPACEL]: Downloading https://files.pythonhosted.org/packages/90/75/9e9f30a28f55a4cced6271dd90a4bf7bd1264eecd9451842c4c3fa8b8af6/SPACEL-1.1.2.tar.gz
+[2023-07-13 03:25:03] INFO root fetch - processPackages [container-helpers]: Downloading https://files.pythonhosted.org/packages/2b/9b/49b83ed7e9b5762a7b4eb395dafd8faf1b32f8da2b6d064852d6130bba78/container_helpers-0.0.8.tar.gz
+[2023-07-13 03:25:03] INFO root fetch - processPackages [SPACEL]: executing diffoscope
+[2023-07-13 03:25:03] INFO root fetch - processPackages [SPACEL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPACEL-1.1.1.tar.gz tmp/SPACEL-1.1.2.tar.gz --markdown 20230713/S/SPACEL/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-13 03:25:03] INFO root fetch - processPackages [wasmpy-build]: Downloading https://files.pythonhosted.org/packages/6a/cb/038fe7f41d0e4b484519ca32e07e204c167104b805bf10b4b2a5f23b92ca/wasmpy-build-0.3.0.tar.gz
+[2023-07-13 03:25:03] INFO root fetch - processPackages [devopstrabalhofinal]: executing diffoscope
+[2023-07-13 03:25:03] INFO root fetch - processPackages [devopstrabalhofinal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devopstrabalhofinal-0.0.5.tar.gz tmp/devopstrabalhofinal-0.0.7.tar.gz --markdown 20230713/d/devopstrabalhofinal/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-07-13 03:25:03] INFO root fetch - processPackages [container-helpers]: executing diffoscope
+[2023-07-13 03:25:03] INFO root fetch - processPackages [container-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/container_helpers-0.0.7.tar.gz tmp/container_helpers-0.0.8.tar.gz --markdown 20230713/c/container-helpers/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-13 03:25:03] INFO root fetch - processPackages [streamlit-base-extras]: Downloading https://files.pythonhosted.org/packages/57/6d/6c62cfb0160329d0de8745332c248a56f7813a2d7e0df64d54d326ce0773/streamlit-base-extras-0.2.9.tar.gz
+[2023-07-13 03:25:04] INFO root fetch - processPackages [wasmpy-build]: executing diffoscope
+[2023-07-13 03:25:04] INFO root fetch - processPackages [wasmpy-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wasmpy-build-0.2.1.tar.gz tmp/wasmpy-build-0.3.0.tar.gz --markdown 20230713/w/wasmpy-build/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-13 03:25:04] INFO root fetch - processPackages [streamlit-base-extras]: executing diffoscope
+[2023-07-13 03:25:04] INFO root fetch - processPackages [streamlit-base-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-base-extras-0.2.8.tar.gz tmp/streamlit-base-extras-0.2.9.tar.gz --markdown 20230713/s/streamlit-base-extras/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-13 03:25:04] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.9.2.tar.gz]
+[2023-07-13 03:25:04] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.9.3.tar.gz]
+[2023-07-13 03:25:04] INFO root fetch - main [MainThread]: End processing [snk]: success
+[2023-07-13 03:25:04] INFO root fetch - processPackages [devopstrabalhofinal]: Remove: archive file [/home/abi/fetcher/tmp/devopstrabalhofinal-0.0.5.tar.gz]
+[2023-07-13 03:25:04] INFO root fetch - processPackages [devopstrabalhofinal]: Remove: archive file [/home/abi/fetcher/tmp/devopstrabalhofinal-0.0.7.tar.gz]
+[2023-07-13 03:25:04] INFO root fetch - main [MainThread]: End processing [devopstrabalhofinal]: success
+[2023-07-13 03:25:04] INFO root fetch - processPackages [container-helpers]: Remove: archive file [/home/abi/fetcher/tmp/container_helpers-0.0.7.tar.gz]
+[2023-07-13 03:25:04] INFO root fetch - processPackages [container-helpers]: Remove: archive file [/home/abi/fetcher/tmp/container_helpers-0.0.8.tar.gz]
+[2023-07-13 03:25:04] INFO root fetch - main [MainThread]: End processing [container-helpers]: success
+[2023-07-13 03:25:04] INFO root fetch - processPackages [SPACEL]: Remove: archive file [/home/abi/fetcher/tmp/SPACEL-1.1.1.tar.gz]
+[2023-07-13 03:25:04] INFO root fetch - processPackages [SPACEL]: Remove: archive file [/home/abi/fetcher/tmp/SPACEL-1.1.2.tar.gz]
+[2023-07-13 03:25:04] INFO root fetch - main [MainThread]: End processing [SPACEL]: success
+[2023-07-13 03:25:05] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.8.tar.gz]
+[2023-07-13 03:25:05] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.9.tar.gz]
+[2023-07-13 03:25:05] INFO root fetch - main [MainThread]: End processing [streamlit-base-extras]: success
+[2023-07-13 03:25:07] INFO root fetch - processPackages [wasmpy-build]: Remove: archive file [/home/abi/fetcher/tmp/wasmpy-build-0.2.1.tar.gz]
+[2023-07-13 03:25:07] INFO root fetch - processPackages [wasmpy-build]: Remove: archive file [/home/abi/fetcher/tmp/wasmpy-build-0.3.0.tar.gz]
+[2023-07-13 03:25:07] INFO root fetch - main [MainThread]: End processing [wasmpy-build]: success
+[2023-07-13 03:25:07] INFO root fetch - main [MainThread]: Store serial: [18868638]
