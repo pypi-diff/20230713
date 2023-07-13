@@ -6807,3 +6807,112 @@
 [2023-07-13 04:29:49] INFO root fetch - processPackages [slice-db]: Remove: archive file [/home/abi/fetcher/tmp/slice-db-5.1.9.tar.gz]
 [2023-07-13 04:29:49] INFO root fetch - main [MainThread]: End processing [slice-db]: success
 [2023-07-13 04:29:49] INFO root fetch - main [MainThread]: Store serial: [18869002]
+[2023-07-13 04:34:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18869002]
+[2023-07-13 04:34:59] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-13 04:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unitclass
+[2023-07-13 04:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2023-07-13 04:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-stock-analytic
+[2023-07-13 04:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-account-analytic
+[2023-07-13 04:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-purchase-stock-analytic
+[2023-07-13 04:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-stock-analytic
+[2023-07-13 04:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-account-analytic
+[2023-07-13 04:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addons-oca-account-analytic
+[2023-07-13 04:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gpt-review
+[2023-07-13 04:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: notros2
+[2023-07-13 04:34:59] INFO root fetch - processPackages [unitclass]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-13 04:35:00] INFO root fetch - processPackages [odoo14-addon-stock-analytic]: New version: [14.0.2.0.1.dev3] Old Version: [14.0.2.0.1.dev2]
+[2023-07-13 04:35:00] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: New version: [16.0.20230712.0] Old Version: [16.0.20230515.0]
+[2023-07-13 04:35:00] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: New version: [16.0.20230712.0] Old Version: [16.0.20230515.0]
+[2023-07-13 04:35:00] INFO root fetch - processPackages [odoo14-addons-oca-account-analytic]: New version: [14.0.20230712.0] Old Version: [14.0.20221214.0]
+[2023-07-13 04:35:00] INFO root fetch - processPackages [notros2]: New version: [23.7.13.3751] Old Version: [23.7.13.3744]
+[2023-07-13 04:35:00] INFO root fetch - processPackages [odoo-addon-purchase-stock-analytic]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-07-13 04:35:00] INFO root fetch - processPackages [odoo13-addon-stock-analytic]: New version: [13.0.1.1.1.dev1] Old Version: [13.0.1.1.0]
+[2023-07-13 04:35:00] INFO root fetch - processPackages [gpt-review]: New version: [0.9.5rc965.post1] Old Version: [0.9.5rc954.post1]
+[2023-07-13 04:35:00] INFO root fetch - processPackages [coiled]: New version: [0.8.8.dev8] Old Version: [0.8.8.dev7]
+[2023-07-13 04:35:00] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/c6/ca/fd353018f56ae28878b261981b5527729143d2cb6354a389a2b768504024/notros2-23.7.13.3744.tar.gz
+[2023-07-13 04:35:00] INFO root fetch - processPackages [unitclass]: Downloading https://files.pythonhosted.org/packages/26/3d/09e50cc85136f7ee16ef5677fee7b702d4ae5bd325dc73a9be93a63f2713/unitclass-1.0.3.tar.gz
+[2023-07-13 04:35:00] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: Downloading https://files.pythonhosted.org/packages/3a/39/f87ca663683f6e81d8492774267ac95e24a8820ee793d9482de374b71e5a/odoo_addons_oca_account_analytic-16.0.20230515.0-py3-none-any.whl
+[2023-07-13 04:35:00] INFO root fetch - processPackages [odoo-addon-purchase-stock-analytic]: Downloading https://files.pythonhosted.org/packages/e8/f7/bbc576eb2703a08b6a6f320baf1cefc23999a21f00f23c4b49e7a6c6c55a/odoo_addon_purchase_stock_analytic-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-13 04:35:00] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: Downloading https://files.pythonhosted.org/packages/3a/39/f87ca663683f6e81d8492774267ac95e24a8820ee793d9482de374b71e5a/odoo_addons_oca_account_analytic-16.0.20230515.0-py3-none-any.whl
+[2023-07-13 04:35:00] INFO root fetch - processPackages [odoo13-addon-stock-analytic]: Downloading https://files.pythonhosted.org/packages/53/6d/79e3882bf03d192ada235ae94ba89bacec46194dceda3acaefdec253c7e5/odoo13_addon_stock_analytic-13.0.1.1.0-py3-none-any.whl
+[2023-07-13 04:35:00] INFO root fetch - processPackages [odoo14-addons-oca-account-analytic]: Downloading https://files.pythonhosted.org/packages/ba/70/52dd9befc5acda82c1bbd6b64bb91696710eac836135f2345dfd40428c2f/odoo14_addons_oca_account_analytic-14.0.20221214.0-py3-none-any.whl
+[2023-07-13 04:35:00] INFO root fetch - processPackages [odoo14-addon-stock-analytic]: Downloading https://files.pythonhosted.org/packages/ff/46/3b8535120223f50e756c6766be416ea299ceed0360ff59935c38a0f51433/odoo14_addon_stock_analytic-14.0.2.0.1.dev2-py3-none-any.whl
+[2023-07-13 04:35:00] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/82/37/68ddd8cdda4311b7ed78bed63e4e58eebb1a10d7b6a60bcb4c83e1cf3e75/gpt_review-0.9.5rc954.post1.tar.gz
+[2023-07-13 04:35:00] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/4c/e0/8979a14251359a2c46b3fff72b587b928340278a8f2d70cb69ce63e9e870/coiled-0.8.8.dev7.tar.gz
+[2023-07-13 04:35:00] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/5c/7a/1af16ee823fde5aedfc4338eda66e389dde46634c01199f8b30f201cd081/notros2-23.7.13.3751-py3-none-any.whl
+[2023-07-13 04:35:00] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-13 04:35:00] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.13.3744.tar.gz tmp/notros2-23.7.13.3751-py3-none-any.whl.zip --markdown 20230713/n/notros2/23.7.13.3744-23.7.13.3751/diff.md --exclude *.pyd
+[2023-07-13 04:35:00] INFO root fetch - processPackages [odoo-addon-purchase-stock-analytic]: Downloading https://files.pythonhosted.org/packages/c6/8c/6aaef0f918a19a81e8778ef6c757a2da5e8ff36ec81209c3026a5189936e/odoo_addon_purchase_stock_analytic-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-13 04:35:00] INFO root fetch - processPackages [unitclass]: Downloading https://files.pythonhosted.org/packages/1b/d3/d7202086550f633b463c70631bd40c3f7ebb41c17e0c72e8b4b236012b99/unitclass-1.0.4.tar.gz
+[2023-07-13 04:35:00] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: Downloading https://files.pythonhosted.org/packages/6c/c7/38d422c097b210b049efefdbb30fc3c54e0275f19846ec0232e316d033ce/odoo_addons_oca_account_analytic-16.0.20230712.0-py3-none-any.whl
+[2023-07-13 04:35:00] INFO root fetch - processPackages [odoo13-addon-stock-analytic]: Downloading https://files.pythonhosted.org/packages/4d/35/d706d61f14633df097620d26d3e6df3cd06cb2f9ee42d1564b96941347e9/odoo13_addon_stock_analytic-13.0.1.1.1.dev1-py3-none-any.whl
+[2023-07-13 04:35:00] INFO root fetch - processPackages [odoo-addon-purchase-stock-analytic]: executing diffoscope
+[2023-07-13 04:35:00] INFO root fetch - processPackages [odoo-addon-purchase-stock-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_stock_analytic-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_purchase_stock_analytic-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230713/o/odoo-addon-purchase-stock-analytic/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-13 04:35:00] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: Downloading https://files.pythonhosted.org/packages/6c/c7/38d422c097b210b049efefdbb30fc3c54e0275f19846ec0232e316d033ce/odoo_addons_oca_account_analytic-16.0.20230712.0-py3-none-any.whl
+[2023-07-13 04:35:00] INFO root fetch - processPackages [odoo14-addon-stock-analytic]: Downloading https://files.pythonhosted.org/packages/12/d0/9e74e84c580788d8afe2f3f387cd6a495d285056fd0feaafd4abbf446088/odoo14_addon_stock_analytic-14.0.2.0.1.dev3-py3-none-any.whl
+[2023-07-13 04:35:00] INFO root fetch - processPackages [odoo14-addons-oca-account-analytic]: Downloading https://files.pythonhosted.org/packages/39/cc/5b97ca4d13dc5ccf986c6058ab233987984441c627654210566d8170c5b3/odoo14_addons_oca_account_analytic-14.0.20230712.0-py3-none-any.whl
+[2023-07-13 04:35:01] INFO root fetch - processPackages [unitclass]: executing diffoscope
+[2023-07-13 04:35:01] INFO root fetch - processPackages [unitclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitclass-1.0.3.tar.gz tmp/unitclass-1.0.4.tar.gz --markdown 20230713/u/unitclass/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-13 04:35:01] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/88/40/93fa1a933c5150fa6e3a7f70cbaf7dc840d29e0a901b2f06e3cc8cb1c140/gpt_review-0.9.5rc965.post1.tar.gz
+[2023-07-13 04:35:01] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: executing diffoscope
+[2023-07-13 04:35:01] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_analytic-16.0.20230515.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_analytic-16.0.20230712.0-py3-none-any.whl.zip --markdown 20230713/o/odoo-addons-oca-account-analytic/16.0.20230515.0-16.0.20230712.0/diff.md --exclude *.pyd
+[2023-07-13 04:35:01] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/72/0e/aa05a5141b5d80287919caffa6a9a6e611a363a221e0221298149c3579af/coiled-0.8.8.dev8.tar.gz
+[2023-07-13 04:35:01] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: executing diffoscope
+[2023-07-13 04:35:01] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_analytic-16.0.20230515.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_analytic-16.0.20230712.0-py3-none-any.whl.zip --markdown 20230713/o/odoo-addons-oca-account-analytic/16.0.20230515.0-16.0.20230712.0/diff.md --exclude *.pyd
+[2023-07-13 04:35:01] INFO root fetch - processPackages [odoo14-addons-oca-account-analytic]: executing diffoscope
+[2023-07-13 04:35:01] INFO root fetch - processPackages [odoo14-addons-oca-account-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_account_analytic-14.0.20221214.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_account_analytic-14.0.20230712.0-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addons-oca-account-analytic/14.0.20221214.0-14.0.20230712.0/diff.md --exclude *.pyd
+[2023-07-13 04:35:01] INFO root fetch - processPackages [odoo13-addon-stock-analytic]: executing diffoscope
+[2023-07-13 04:35:01] INFO root fetch - processPackages [odoo13-addon-stock-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_stock_analytic-13.0.1.1.0-py3-none-any.whl.zip tmp/odoo13_addon_stock_analytic-13.0.1.1.1.dev1-py3-none-any.whl.zip --markdown 20230713/o/odoo13-addon-stock-analytic/13.0.1.1.0-13.0.1.1.1.dev1/diff.md --exclude *.pyd
+[2023-07-13 04:35:01] INFO root fetch - processPackages [odoo14-addon-stock-analytic]: executing diffoscope
+[2023-07-13 04:35:01] INFO root fetch - processPackages [odoo14-addon-stock-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_analytic-14.0.2.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_stock_analytic-14.0.2.0.1.dev3-py3-none-any.whl.zip --markdown 20230713/o/odoo14-addon-stock-analytic/14.0.2.0.1.dev2-14.0.2.0.1.dev3/diff.md --exclude *.pyd
+[2023-07-13 04:35:01] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-13 04:35:01] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.8.dev7.tar.gz tmp/coiled-0.8.8.dev8.tar.gz --markdown 20230713/c/coiled/0.8.8.dev7-0.8.8.dev8/diff.md --exclude *.pyd
+[2023-07-13 04:35:01] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-07-13 04:35:01] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_review-0.9.5rc954.post1.tar.gz tmp/gpt_review-0.9.5rc965.post1.tar.gz --markdown 20230713/g/gpt-review/0.9.5rc954.post1-0.9.5rc965.post1/diff.md --exclude *.pyd
+[2023-07-13 04:35:01] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.13.3744.tar.gz]
+[2023-07-13 04:35:01] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.13.3751-py3-none-any.whl.zip]
+[2023-07-13 04:35:01] INFO root fetch - processPackages [notros2]: Start processing: notros2
+[2023-07-13 04:35:01] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-13 04:35:01] INFO root fetch - processPackages [notros2]: New version: [23.7.13.3751] Old Version: [23.7.13.3744]
+[2023-07-13 04:35:01] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/c6/ca/fd353018f56ae28878b261981b5527729143d2cb6354a389a2b768504024/notros2-23.7.13.3744.tar.gz
+[2023-07-13 04:35:02] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/5c/7a/1af16ee823fde5aedfc4338eda66e389dde46634c01199f8b30f201cd081/notros2-23.7.13.3751-py3-none-any.whl
+[2023-07-13 04:35:02] INFO root fetch - processPackages [odoo-addon-purchase-stock-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_stock_analytic-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-13 04:35:02] INFO root fetch - processPackages [odoo-addon-purchase-stock-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_stock_analytic-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-13 04:35:02] INFO root fetch - processPackages [odoo-addon-purchase-stock-analytic]: Start processing: django-magiclink
+[2023-07-13 04:35:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-stock-analytic]: success
+[2023-07-13 04:35:02] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-13 04:35:02] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.13.3744.tar.gz tmp/notros2-23.7.13.3751-py3-none-any.whl.zip --markdown 20230713/n/notros2/23.7.13.3744-23.7.13.3751/diff.md --exclude *.pyd
+[2023-07-13 04:35:02] INFO root fetch - processPackages [django-magiclink]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-13 04:35:02] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_analytic-16.0.20230515.0-py3-none-any.whl.zip]
+[2023-07-13 04:35:02] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_analytic-16.0.20230712.0-py3-none-any.whl.zip]
+[2023-07-13 04:35:02] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-analytic]: success
+[2023-07-13 04:35:02] INFO root fetch - processPackages [unitclass]: Remove: archive file [/home/abi/fetcher/tmp/unitclass-1.0.3.tar.gz]
+[2023-07-13 04:35:02] INFO root fetch - processPackages [unitclass]: Remove: archive file [/home/abi/fetcher/tmp/unitclass-1.0.4.tar.gz]
+[2023-07-13 04:35:02] INFO root fetch - main [MainThread]: End processing [unitclass]: success
+[2023-07-13 04:35:02] INFO root fetch - processPackages [odoo14-addons-oca-account-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_account_analytic-14.0.20221214.0-py3-none-any.whl.zip]
+[2023-07-13 04:35:02] INFO root fetch - processPackages [odoo14-addons-oca-account-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_account_analytic-14.0.20230712.0-py3-none-any.whl.zip]
+[2023-07-13 04:35:02] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-account-analytic]: success
+[2023-07-13 04:35:02] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-analytic]: success
+[2023-07-13 04:35:02] INFO root fetch - processPackages [django-magiclink]: Downloading https://files.pythonhosted.org/packages/20/d8/424e3d3e54d217fd00d7584a57257199f077c3f261ea0fc410e4df45fbf2/django-magiclink-1.2.0.tar.gz
+[2023-07-13 04:35:02] INFO root fetch - processPackages [odoo13-addon-stock-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_stock_analytic-13.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-13 04:35:02] INFO root fetch - processPackages [odoo13-addon-stock-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_stock_analytic-13.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2023-07-13 04:35:02] INFO root fetch - main [MainThread]: End processing [odoo13-addon-stock-analytic]: success
+[2023-07-13 04:35:02] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.8.dev7.tar.gz]
+[2023-07-13 04:35:02] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.8.dev8.tar.gz]
+[2023-07-13 04:35:02] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-13 04:35:02] INFO root fetch - processPackages [odoo14-addon-stock-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_analytic-14.0.2.0.1.dev2-py3-none-any.whl.zip]
+[2023-07-13 04:35:02] INFO root fetch - processPackages [odoo14-addon-stock-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_analytic-14.0.2.0.1.dev3-py3-none-any.whl.zip]
+[2023-07-13 04:35:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-analytic]: success
+[2023-07-13 04:35:03] INFO root fetch - processPackages [gpt-review]: Remove: archive file [/home/abi/fetcher/tmp/gpt_review-0.9.5rc954.post1.tar.gz]
+[2023-07-13 04:35:03] INFO root fetch - processPackages [django-magiclink]: Downloading https://files.pythonhosted.org/packages/d0/69/c27ee4e61a47059de90e644e880ec4c0944fc2aeb60872df795f070a5975/django_magiclink-1.3.0.tar.gz
+[2023-07-13 04:35:03] INFO root fetch - processPackages [gpt-review]: Remove: archive file [/home/abi/fetcher/tmp/gpt_review-0.9.5rc965.post1.tar.gz]
+[2023-07-13 04:35:03] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-07-13 04:35:03] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.13.3744.tar.gz]
+[2023-07-13 04:35:03] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.13.3751-py3-none-any.whl.zip]
+[2023-07-13 04:35:03] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-13 04:35:03] INFO root fetch - processPackages [django-magiclink]: executing diffoscope
+[2023-07-13 04:35:03] INFO root fetch - processPackages [django-magiclink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-magiclink-1.2.0.tar.gz tmp/django_magiclink-1.3.0.tar.gz --markdown 20230713/d/django-magiclink/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-13 04:35:03] INFO root fetch - processPackages [django-magiclink]: Remove: archive file [/home/abi/fetcher/tmp/django-magiclink-1.2.0.tar.gz]
+[2023-07-13 04:35:03] INFO root fetch - processPackages [django-magiclink]: Remove: archive file [/home/abi/fetcher/tmp/django_magiclink-1.3.0.tar.gz]
+[2023-07-13 04:35:03] INFO root fetch - main [MainThread]: End processing [django-magiclink]: success
+[2023-07-13 04:35:03] INFO root fetch - main [MainThread]: Store serial: [18869030]
