@@ -21068,3 +21068,99 @@ AssertionError: tmp/fastapi-serve-0.0.2.dev8.tar.gz does not exist
 [2023-07-13 13:55:49] INFO root fetch - processPackages [krillscan]: Remove: archive file [/home/abi/fetcher/tmp/krillscan-0.2.9.tar.gz]
 [2023-07-13 13:55:49] INFO root fetch - main [MainThread]: End processing [krillscan]: success
 [2023-07-13 13:55:49] INFO root fetch - main [MainThread]: Store serial: [18874326]
+[2023-07-13 14:00:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18874326]
+[2023-07-13 14:00:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-13 14:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-fs2
+[2023-07-13 14:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphing-gd32
+[2023-07-13 14:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libmata
+[2023-07-13 14:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gtki-module-exex
+[2023-07-13 14:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mixprops
+[2023-07-13 14:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: few-shot-priming
+[2023-07-13 14:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sampo
+[2023-07-13 14:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: moto
+[2023-07-13 14:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: codesnipper
+[2023-07-13 14:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-oci
+[2023-07-13 14:00:59] INFO root fetch - processPackages [flask-fs2]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-13 14:00:59] WARNING root fetch - processPackages [graphing-gd32]: Skipping, unable to determine old version
+[2023-07-13 14:00:59] INFO root fetch - processPackages [graphing-gd32]: Start processing: termcolor-dg
+[2023-07-13 14:00:59] INFO root fetch - main [MainThread]: End processing [graphing-gd32] error
+[2023-07-13 14:00:59] INFO root fetch - processPackages [gtki-module-exex]: New version: [0.0.67] Old Version: [0.0.66]
+[2023-07-13 14:00:59] INFO root fetch - processPackages [codesnipper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-13 14:00:59] INFO root fetch - processPackages [mixprops]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-13 14:00:59] INFO root fetch - processPackages [libmata]: New version: [0.76.0] Old Version: [0.75.0]
+[2023-07-13 14:00:59] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-13 14:00:59] INFO root fetch - processPackages [sampo]: New version: [0.1.1.99] Old Version: [0.1.1.98]
+[2023-07-13 14:00:59] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-13 14:00:59] INFO root fetch - processPackages [termcolor-dg]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-13 14:00:59] INFO root fetch - processPackages [pulumi-oci]: New version: [1.3.0a1689245158] Old Version: [1.2.0a1688057302]
+[2023-07-13 14:00:59] INFO root fetch - processPackages [mixprops]: Downloading https://files.pythonhosted.org/packages/3f/8b/b8a888df29f91499a559e7bc1b3c7f73d9916efd8de1ed7f11e69e0569a9/mixprops-0.1.1.tar.gz
+[2023-07-13 14:00:59] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/de/2d/0bec3808fdd3f186aa2e6e5b3d04e0ce650b28ec2e5deb060a6d52ea7c2a/libmata-0.75.0.tar.gz
+[2023-07-13 14:00:59] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-13 14:00:59] INFO root fetch - processPackages [codesnipper]: Downloading https://files.pythonhosted.org/packages/65/d9/de05aee394ce1c78ccb349444481193ec865390ada7522b386dd36d2df9f/codesnipper-0.1.8.tar.gz
+[2023-07-13 14:00:59] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-13 14:00:59] INFO root fetch - processPackages [flask-fs2]: Downloading https://files.pythonhosted.org/packages/cc/40/6f78d76524f741d90c16ca9818c3f843656981d537d11ba1cf2685ae276a/flask_fs2-0.7.8-py2.py3-none-any.whl
+[2023-07-13 14:00:59] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/c0/f0/691fad5ee7a8eae5d9b71eb531e4b6d414959a5afcc9811977263994bd77/sampo-0.1.1.98.tar.gz
+[2023-07-13 14:00:59] INFO root fetch - processPackages [termcolor-dg]: Downloading https://files.pythonhosted.org/packages/0d/52/563041c15c003e5aff79f0b6523cc1a502b5f5d64fb14388aeed0f082b9c/termcolor_dg-1.0.0.tar.gz
+[2023-07-13 14:00:59] INFO root fetch - processPackages [gtki-module-exex]: Downloading https://files.pythonhosted.org/packages/df/28/dda8866fe60cd19938915730346144097562a87bbc2201c5471938e8ce6b/gtki_module_exex-0.0.66-py3-none-any.whl
+[2023-07-13 14:00:59] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/51/3f/e4fd62182b2b19a1431897af4a729b14c703321e5eb72b80863521df61eb/pulumi_oci-1.2.0a1688057302.tar.gz
+[2023-07-13 14:00:59] INFO root fetch - processPackages [codesnipper]: Downloading https://files.pythonhosted.org/packages/e3/a7/e4e37561040f5cfb9ce25a151c9d8d2ef413ac81e59f80f16350ceab4b94/codesnipper-0.1.9.tar.gz
+[2023-07-13 14:00:59] INFO root fetch - processPackages [mixprops]: Downloading https://files.pythonhosted.org/packages/56/f2/c68325c502499807a28847d6c94b9b3626aaaa21da60be89652a0c2a20ed/mixprops-0.1.2.tar.gz
+[2023-07-13 14:00:59] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-13 14:00:59] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/28/10/7f07e18ca3b08fef3d13985a88344883d8eaf53be7daeda7186b282872a8/sampo-0.1.1.99.tar.gz
+[2023-07-13 14:01:00] INFO root fetch - processPackages [gtki-module-exex]: Downloading https://files.pythonhosted.org/packages/77/2a/730d7f45e1f0123808f51ed6552a2d2002ae7b05ebee4acb1325f0cb92b6/gtki_module_exex-0.0.67-py3-none-any.whl
+[2023-07-13 14:01:00] INFO root fetch - processPackages [codesnipper]: executing diffoscope
+[2023-07-13 14:01:00] INFO root fetch - processPackages [codesnipper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codesnipper-0.1.8.tar.gz tmp/codesnipper-0.1.9.tar.gz --markdown 20230713/c/codesnipper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-13 14:01:00] INFO root fetch - processPackages [mixprops]: executing diffoscope
+[2023-07-13 14:01:00] INFO root fetch - processPackages [mixprops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixprops-0.1.1.tar.gz tmp/mixprops-0.1.2.tar.gz --markdown 20230713/m/mixprops/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-13 14:01:00] INFO root fetch - processPackages [termcolor-dg]: Downloading https://files.pythonhosted.org/packages/c3/b7/c56f72d80b73c60b787f2f2bf5880e9071bfb8ae33a9220d653b29919b07/termcolor_dg-1.0.1.tar.gz
+[2023-07-13 14:01:00] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-13 14:01:00] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/57/4f/8076c56b0b85985fe759504db95af926d1e82b3887c563f382117b23d3cd/libmata-0.76.0.tar.gz
+[2023-07-13 14:01:00] INFO root fetch - processPackages [sampo]: executing diffoscope
+[2023-07-13 14:01:00] INFO root fetch - processPackages [sampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampo-0.1.1.98.tar.gz tmp/sampo-0.1.1.99.tar.gz --markdown 20230713/s/sampo/0.1.1.98-0.1.1.99/diff.md --exclude *.pyd
+[2023-07-13 14:01:00] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-13 14:01:00] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230713/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-13 14:01:00] INFO root fetch - processPackages [gtki-module-exex]: executing diffoscope
+[2023-07-13 14:01:00] INFO root fetch - processPackages [gtki-module-exex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtki_module_exex-0.0.66-py3-none-any.whl.zip tmp/gtki_module_exex-0.0.67-py3-none-any.whl.zip --markdown 20230713/g/gtki-module-exex/0.0.66-0.0.67/diff.md --exclude *.pyd
+[2023-07-13 14:01:00] INFO root fetch - processPackages [flask-fs2]: Downloading https://files.pythonhosted.org/packages/d8/44/6a9ffb78ba5b3ec856c2db5040eef1b17460164f70bccd103ba174a94207/flask_fs2-0.7.9-py2.py3-none-any.whl
+[2023-07-13 14:01:00] INFO root fetch - processPackages [libmata]: executing diffoscope
+[2023-07-13 14:01:00] INFO root fetch - processPackages [libmata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmata-0.75.0.tar.gz tmp/libmata-0.76.0.tar.gz --markdown 20230713/l/libmata/0.75.0-0.76.0/diff.md --exclude *.pyd
+[2023-07-13 14:01:00] INFO root fetch - processPackages [flask-fs2]: executing diffoscope
+[2023-07-13 14:01:00] INFO root fetch - processPackages [flask-fs2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_fs2-0.7.8-py2.py3-none-any.whl.zip tmp/flask_fs2-0.7.9-py2.py3-none-any.whl.zip --markdown 20230713/f/flask-fs2/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-13 14:01:00] INFO root fetch - processPackages [termcolor-dg]: executing diffoscope
+[2023-07-13 14:01:00] INFO root fetch - processPackages [termcolor-dg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termcolor_dg-1.0.0.tar.gz tmp/termcolor_dg-1.0.1.tar.gz --markdown 20230713/t/termcolor-dg/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-13 14:01:00] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-13 14:01:00] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230713/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-13 14:01:01] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/2d/ca/e723395f992faad8664d7886dd100e9a336718636f85afe1f7e2cd391418/pulumi_oci-1.3.0a1689245158.tar.gz
+[2023-07-13 14:01:01] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2023-07-13 14:01:01] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230713:/home/abi/fetcher/20230713:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.2.0a1688057302.tar.gz tmp/pulumi_oci-1.3.0a1689245158.tar.gz --markdown 20230713/p/pulumi-oci/1.2.0a1688057302-1.3.0a1689245158/diff.md --exclude *.pyd
+[2023-07-13 14:01:01] INFO root fetch - processPackages [mixprops]: Remove: archive file [/home/abi/fetcher/tmp/mixprops-0.1.1.tar.gz]
+[2023-07-13 14:01:01] INFO root fetch - processPackages [mixprops]: Remove: archive file [/home/abi/fetcher/tmp/mixprops-0.1.2.tar.gz]
+[2023-07-13 14:01:01] INFO root fetch - main [MainThread]: End processing [mixprops]: success
+[2023-07-13 14:01:01] INFO root fetch - processPackages [codesnipper]: Remove: archive file [/home/abi/fetcher/tmp/codesnipper-0.1.8.tar.gz]
+[2023-07-13 14:01:01] INFO root fetch - processPackages [codesnipper]: Remove: archive file [/home/abi/fetcher/tmp/codesnipper-0.1.9.tar.gz]
+[2023-07-13 14:01:01] INFO root fetch - main [MainThread]: End processing [codesnipper]: success
+[2023-07-13 14:01:01] INFO root fetch - processPackages [gtki-module-exex]: Remove: archive file [/home/abi/fetcher/tmp/gtki_module_exex-0.0.66-py3-none-any.whl.zip]
+[2023-07-13 14:01:01] INFO root fetch - processPackages [gtki-module-exex]: Remove: archive file [/home/abi/fetcher/tmp/gtki_module_exex-0.0.67-py3-none-any.whl.zip]
+[2023-07-13 14:01:01] INFO root fetch - main [MainThread]: End processing [gtki-module-exex]: success
+[2023-07-13 14:01:01] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-13 14:01:01] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-13 14:01:01] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-13 14:01:02] INFO root fetch - processPackages [flask-fs2]: Remove: archive file [/home/abi/fetcher/tmp/flask_fs2-0.7.8-py2.py3-none-any.whl.zip]
+[2023-07-13 14:01:02] INFO root fetch - processPackages [flask-fs2]: Remove: archive file [/home/abi/fetcher/tmp/flask_fs2-0.7.9-py2.py3-none-any.whl.zip]
+[2023-07-13 14:01:02] INFO root fetch - main [MainThread]: End processing [flask-fs2]: success
+[2023-07-13 14:01:02] INFO root fetch - processPackages [sampo]: Remove: archive file [/home/abi/fetcher/tmp/sampo-0.1.1.98.tar.gz]
+[2023-07-13 14:01:02] INFO root fetch - processPackages [sampo]: Remove: archive file [/home/abi/fetcher/tmp/sampo-0.1.1.99.tar.gz]
+[2023-07-13 14:01:02] INFO root fetch - main [MainThread]: End processing [sampo]: success
+[2023-07-13 14:01:02] INFO root fetch - processPackages [termcolor-dg]: Remove: archive file [/home/abi/fetcher/tmp/termcolor_dg-1.0.0.tar.gz]
+[2023-07-13 14:01:02] INFO root fetch - processPackages [termcolor-dg]: Remove: archive file [/home/abi/fetcher/tmp/termcolor_dg-1.0.1.tar.gz]
+[2023-07-13 14:01:02] INFO root fetch - main [MainThread]: End processing [termcolor-dg]: success
+[2023-07-13 14:01:04] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.75.0.tar.gz]
+[2023-07-13 14:01:04] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.76.0.tar.gz]
+[2023-07-13 14:01:04] INFO root fetch - main [MainThread]: End processing [libmata]: success
+[2023-07-13 14:01:15] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-13 14:01:15] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-13 14:01:15] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-13 14:01:38] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.2.0a1688057302.tar.gz]
+[2023-07-13 14:01:38] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.3.0a1689245158.tar.gz]
+[2023-07-13 14:01:38] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2023-07-13 14:01:38] INFO root fetch - main [MainThread]: Store serial: [18874359]
